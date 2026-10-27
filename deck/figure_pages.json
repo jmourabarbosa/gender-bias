@@ -1,0 +1,152 @@
+{
+ "s03_eu_scissors": {
+  "id": "PIPE-01",
+  "label": "Figure 6.1",
+  "page": "figure from p. 234"
+ },
+ "s04_france": {
+  "id": "PIPE-04",
+  "label": null,
+  "page": "data from pp. 36, 40"
+ },
+ "s05_huang": {
+  "id": "PIPE-13",
+  "label": "Fig. 4",
+  "page": "figure from p. 23"
+ },
+ "s06_spoon": {
+  "id": "PIPE-14",
+  "label": "Fig. 1",
+  "page": "figure from p. 2"
+ },
+ "s07_laberge": {
+  "id": "PIPE-15",
+  "label": "Figure 3",
+  "page": "figure from p. 6"
+ },
+ "s21_moss": {
+  "id": "HIRE-01",
+  "label": "Fig. 2",
+  "page": "figure from p. 3"
+ },
+ "s22_ceci": {
+  "id": "HIRE-03",
+  "label": "Fig. 1",
+  "page": "Fig. 1"
+ },
+ "s24_letters": {
+  "id": "HIRE-07",
+  "label": "Table 4",
+  "page": "data from Table 4, p. 3"
+ },
+ "s31_wenneras": {
+  "id": "FUND-02",
+  "label": "Table 1",
+  "page": "data from Table 1, p. 6"
+ },
+ "s32_witteman": {
+  "id": "FUND-01",
+  "label": "Figure 1",
+  "page": "figure from p. 12"
+ },
+ "s34_award_size": {
+  "id": "FUND-06",
+  "label": "Table 2",
+  "page": "data from Table 2, p. 2"
+ },
+ "s35_erc": {
+  "id": "FUND-17",
+  "label": null,
+  "page": null
+ },
+ "s41_ross": {
+  "id": "PUB-03",
+  "label": "Fig. 1",
+  "page": "figure from p. 3"
+ },
+ "s42_helmer": {
+  "id": "PUB-04",
+  "label": "Figure 1",
+  "page": "figure from p. 3"
+ },
+ "s43_covid": {
+  "id": "PUB-09",
+  "label": "Figure 1",
+  "page": "figure from p. 2"
+ },
+ "s44_dworkin": {
+  "id": "CIT-01",
+  "label": "Figure 2",
+  "page": "figure from p. 4"
+ },
+ "s45_prizes": {
+  "id": "CIT-07",
+  "label": "Figure 2",
+  "page": "figure from p. 6"
+ },
+ "s46_visibility": {
+  "id": "CIT-09",
+  "label": "Fig 1",
+  "page": "figure from p. 7"
+ },
+ "s51_pay": {
+  "id": "PAY-01",
+  "label": "FIGURE 2",
+  "page": "figure from p. 7"
+ },
+ "s52_cech": {
+  "id": "PAY-04",
+  "label": "Fig. 1",
+  "page": "figure from p. 4"
+ },
+ "s53_teaching": {
+  "id": "TEACH-01",
+  "label": null,
+  "page": null
+ },
+ "s54_service": {
+  "id": "TEACH-05",
+  "label": null,
+  "page": "data from p. 20"
+ },
+ "s61_neuro_pipe": {
+  "id": "NEURO-07",
+  "label": null,
+  "page": "data from pp. 1-2"
+ },
+ "s62_neuro_cite": {
+  "id": "NEURO-03",
+  "label": "Figure 2",
+  "page": "figure from p. 9"
+ },
+ "s63_neuro_talks": {
+  "id": "NEURO-15",
+  "label": null,
+  "page": null
+ },
+ "s64_cosyne": {
+  "id": "NEURO-12",
+  "label": null,
+  "page": null
+ },
+ "s71_blind": {
+  "id": "INT-02",
+  "label": null,
+  "page": null
+ },
+ "s72_dblind": {
+  "id": "INT-04",
+  "label": "Table 5",
+  "page": "data from Table 5, p. 7"
+ },
+ "s73_habit": {
+  "id": "INT-09",
+  "label": null,
+  "page": "data from p. 6"
+ },
+ "s74_policies": {
+  "id": "INT-07",
+  "label": "Table 3",
+  "page": "data from Table 3, p. 37"
+ }
+}
