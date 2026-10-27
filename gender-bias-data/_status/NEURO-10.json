@@ -1,0 +1,17 @@
+{
+ "id": "NEURO-10",
+ "title": "Making meetings more equal (How to banish manels and manferences from scientific meetings)",
+ "url_used": "https://media.nature.com/original/magazine-assets/d41586-019-02658-6/d41586-019-02658-6.pdf ; landing page https://www.nature.com/articles/d41586-019-02658-6",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-10/page.html",
+  "gender-bias-data/08-neuroscience/NEURO-10/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-10/notes.md",
+  "data/neuro10_else2019_speaker_share.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-10/figures/NEURO-10_fig1.png",
+  "gender-bias-data/08-neuroscience/NEURO-10/figures/NEURO-10_redraw.png"
+ ],
+ "notes": "Key number check: OK. Graphic cropped (fig1); start/end shares for 4 disciplines saved to data/neuro10_else2019_speaker_share.csv. \"Full data\" shortlink go.nature.com/2jumtdx redirects to the article (no separate dataset reachable)."
+}

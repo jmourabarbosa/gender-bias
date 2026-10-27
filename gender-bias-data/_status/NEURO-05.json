@@ -1,0 +1,22 @@
+{
+ "id": "NEURO-05",
+ "title": "Gender bias in academia: A lifetime problem that needs solutions",
+ "url_used": "https://www.cns.nyu.edu/wanglab/publications/pdf/llorens.neuron2021.pdf (author-lab PDF); full text XML from PMC8553227",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-05/article.json",
+  "gender-bias-data/08-neuroscience/NEURO-05/article.xml",
+  "gender-bias-data/08-neuroscience/NEURO-05/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-05/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_fig1.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part1.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part2.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part3.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part4.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part5.png",
+  "gender-bias-data/08-neuroscience/NEURO-05/figures/NEURO-05_table2_part6.png"
+ ],
+ "notes": "Key number check: OK. Fig. 1 (p.2049) and Table 2 (6 rotated pages, saved as table2_part1-6) cropped at 300 dpi."
+}

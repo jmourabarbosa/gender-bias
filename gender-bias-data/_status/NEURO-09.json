@@ -1,0 +1,17 @@
+{
+ "id": "NEURO-09",
+ "title": "Women in neuroscience: Where are we in 2019?",
+ "url_used": "https://rcastoragev2.blob.core.windows.net/904567a72136304394b5d2782423da04/PMC7754118.pdf ; full-text XML PMC7754118",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-09/article.json",
+  "gender-bias-data/08-neuroscience/NEURO-09/article.xml",
+  "gender-bias-data/08-neuroscience/NEURO-09/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-09/notes.md",
+  "data/neuro09_machlovi2021_authorship.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-09/figures/NEURO-09_redraw.png"
+ ],
+ "notes": "Key number check: OK. Commentary has no figures; first vs last author shares redrawn (data/neuro09_machlovi2021_authorship.csv). Numbers are second-hand."
+}

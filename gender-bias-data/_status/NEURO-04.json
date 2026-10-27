@@ -1,0 +1,12 @@
+{
+ "id": "NEURO-04",
+ "title": "Racial and ethnic imbalance in neuroscience reference lists and intersections with gender",
+ "url_used": "https://biorxiv.org/content/10.1101/2020.10.12.336230v1 (abstract page); PDF https://www.biorxiv.org/content/biorxiv/early/2020/10/12/2020.10.12.336230.full.pdf",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-04/page.html",
+  "gender-bias-data/08-neuroscience/NEURO-04/notes.md"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [],
+ "notes": "Key number check: OK. bioRxiv PDF returned HTTP 429 (Cloudflare rate limit 1015) on every attempt; not peer-reviewed/published elsewhere; no other OA host found (Unpaywall: not OA; Europe PMC PPR224995 links only to bioRxiv). Retry the PDF from a normal browser. bioRxiv licence forbids reuse of figures without permission."
+}

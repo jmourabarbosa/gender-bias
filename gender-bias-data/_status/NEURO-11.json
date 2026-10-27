@@ -1,0 +1,19 @@
+{
+ "id": "NEURO-11",
+ "title": "Lessons from an initiative to address gender bias",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8673833 (PMC OA bucket: PDF + figure JPGs)",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-11/article.json",
+  "gender-bias-data/08-neuroscience/NEURO-11/article.xml",
+  "gender-bias-data/08-neuroscience/NEURO-11/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-11/notes.md",
+  "data/neuro11_hoy2021_brainstim_speakers.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-11/figures/NEURO-11_fig1.jpg",
+  "gender-bias-data/08-neuroscience/NEURO-11/figures/NEURO-11_fig2.jpg",
+  "gender-bias-data/08-neuroscience/NEURO-11/figures/NEURO-11_redraw.png"
+ ],
+ "notes": "Key number check: OK. Figs are a protest-poster photo (fig1) and a map of the Women in BrainStim database (fig2); before/after counts redrawn (data/neuro11_hoy2021_brainstim_speakers.csv)."
+}

@@ -1,0 +1,17 @@
+{
+ "id": "NEURO-12",
+ "title": "Tails You Win, One Tail You Lose (Cosyne 2019 gender bias analysis)",
+ "url_used": "https://charlesfrye.github.io/stats/2019/03/06/cosyne19-gender-bias.html",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-12/linked_neuroecology_cosyne19-by-the-numbers.html",
+  "gender-bias-data/08-neuroscience/NEURO-12/page.html",
+  "gender-bias-data/08-neuroscience/NEURO-12/notes.md",
+  "data/neuro12_cosyne2019_acceptance.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-12/figures/NEURO-12_fig1.jpg",
+  "gender-bias-data/08-neuroscience/NEURO-12/figures/NEURO-12_redraw.png"
+ ],
+ "notes": "Key number check: OK. No raw data file linked; counts saved to data/neuro12_cosyne2019_acceptance.csv; embedded welcome-talk slide saved as fig1; linked post neuroecology \"#Cosyne19, by the numbers\" saved."
+}

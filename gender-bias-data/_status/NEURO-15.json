@@ -1,0 +1,16 @@
+{
+ "id": "NEURO-15",
+ "title": "BiasWatchNeuro",
+ "url_used": "https://biaswatchneuro.com ; posts via WordPress.com public REST API https://public-api.wordpress.com/wp/v2/sites/biaswatchneuro.com/posts?per_page=100&page=1..8 (site-local /wp-json returns 404)",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-15/api/posts_all.json",
+  "gender-bias-data/08-neuroscience/NEURO-15/page.html",
+  "gender-bias-data/08-neuroscience/NEURO-15/notes.md",
+  "data/biaswatchneuro.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-15/figures/NEURO-15_redraw.png"
+ ],
+ "notes": "Key number check: n.a.. Key number is descriptive; per-post ratio line chosen by label priority (overall/invited speakers over keynote-only); 6 rows flagged where the site's own % disagrees with its counts (e.g. AI & Brain Science 2020 lists 19 W : 7 M (27%) - probably swapped). 64 posts had no ratio line (essays, screenshot-only)."
+}

@@ -1,0 +1,14 @@
+{
+ "id": "PIPE-02",
+ "title": "She Figures 2024 infographics",
+ "url_used": "https://european-research-area.ec.europa.eu/sites/default/files/documents/2025-03/she%20figures%202024-KI0924569ENN-infographics.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-02/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-02/figures/PIPE-02_fig1.png"
+ ],
+ "notes": "1-page infographic rendered at 300 dpi. Key number OK: 34% of authors, 9% of patent applicants."
+}

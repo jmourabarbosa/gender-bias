@@ -1,0 +1,15 @@
+{
+ "id": "PIPE-01",
+ "title": "She Figures 2024 (European Commission)",
+ "url_used": "https://european-research-area.ec.europa.eu/sites/default/files/documents/2025-03/she%20figures%202024-KI0924566ENN-statistics_0.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-01/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-01/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-01/figures/PIPE-01_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-01/figures/PIPE-01_fig2.png"
+ ],
+ "notes": "Statistics volume PDF from ERA platform (primary EC page 403). Fig 6.1 scissor + Fig 6.7 GCI cropped. Key number OK: 47.6% ISCED8 grads, 29.7% grade A (2022). Data tables in DATA-03."
+}

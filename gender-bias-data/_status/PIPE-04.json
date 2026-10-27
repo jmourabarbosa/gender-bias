@@ -1,0 +1,18 @@
+{
+ "id": "PIPE-04",
+ "title": "MESR, Vers l'égalité femmes-hommes ? Chiffres clés 2026",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-03/vers-l-galit-femmes-hommes-chiffres-cl-s-2026-39611.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-04/data/mcf_pr_women_share_2000_2024.csv",
+  "gender-bias-data/01-pipeline/PIPE-04/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-04/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_fig2.png",
+  "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_fig3.png",
+  "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_redraw.png"
+ ],
+ "notes": "Key number OK: PR 33% women in 2024 vs 17% in 2000 (p.40). Pages 28, 42, 40 rendered; MCF/PR series transcribed to CSV + redraw."
+}

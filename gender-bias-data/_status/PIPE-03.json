@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-03",
+ "title": "She Figures 2024 France country fiche",
+ "url_used": "https://ec.europa.eu/assets/rtd/shefigures/2024/files/shefigures2024fiche-fr.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-03/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-03/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-03/figures/PIPE-03_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-03/figures/PIPE-03_fig6.png",
+  "gender-bias-data/01-pipeline/PIPE-03/figures/PIPE-03_redraw.png"
+ ],
+ "notes": "Key number OK: FR 44.0% doctoral grads (2021), 30.2% grade A (2022). Note: fiche text says FR below EU on grade A but its Fig.6 shows FR 30.2 vs EU 29.2."
+}

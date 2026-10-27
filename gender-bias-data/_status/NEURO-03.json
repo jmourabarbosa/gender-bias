@@ -1,0 +1,18 @@
+{
+ "id": "NEURO-03",
+ "title": "Gender (im)balance in citation practices in cognitive neuroscience",
+ "url_used": "https://www.biorxiv.org/content/biorxiv/early/2020/08/20/2020.08.19.257402.full.pdf (bioRxiv v1, via api.biorxiv.org / Unpaywall); published-version author manuscript text: PMC9811856 (article.xml, PMC text-mining bucket)",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-03/article.json",
+  "gender-bias-data/08-neuroscience/NEURO-03/article.xml",
+  "gender-bias-data/08-neuroscience/NEURO-03/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-03/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-03/figures/NEURO-03_fig1.png",
+  "gender-bias-data/08-neuroscience/NEURO-03/figures/NEURO-03_fig2.png",
+  "gender-bias-data/08-neuroscience/NEURO-03/figures/NEURO-03_fig3.png"
+ ],
+ "notes": "Key number check: OK. Extract \"GCBI by category over years\": the paper has GCBI by cited category (Fig 2) and by citing category (Fig 3) pooled over 2009-2020, no GCBI time series; only authorship shares are shown over years (Fig 1). PMC PDF/figures behind reCAPTCHA; Europe PMC render 403."
+}

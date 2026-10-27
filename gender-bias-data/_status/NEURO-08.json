@@ -1,0 +1,15 @@
+{
+ "id": "NEURO-08",
+ "title": "Supporting Female Neuroscientists in Their Careers",
+ "url_used": "https://sfn.org/publications/neuroscience-quarterly/spring-2018/women-in-neuroscience",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-08/page.html",
+  "gender-bias-data/08-neuroscience/NEURO-08/notes.md",
+  "data/neuro08_sfn2018_pipeline.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-08/figures/NEURO-08_redraw.png"
+ ],
+ "notes": "Key number check: OK. Web article, no figure; 2010 vs 2016 pipeline redrawn (data/neuro08_sfn2018_pipeline.csv)."
+}

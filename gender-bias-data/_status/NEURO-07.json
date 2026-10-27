@@ -1,0 +1,15 @@
+{
+ "id": "NEURO-07",
+ "title": "Executive Summary of Report of Neuroscience Departments & Programs Survey, Academic Year 2016-2017",
+ "url_used": "https://www.sfn.org/-/media/SfN/Documents/Survey-Reports/Final-SfN_2016-NDP-Survey-Executive-Summary.pdf",
+ "file_paths": [
+  "gender-bias-data/08-neuroscience/NEURO-07/source.pdf",
+  "gender-bias-data/08-neuroscience/NEURO-07/notes.md",
+  "data/neuro07_sfn2016_pipeline.csv"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/08-neuroscience/NEURO-07/figures/NEURO-07_redraw.png"
+ ],
+ "notes": "Key number check: OK. Text-only summary (no charts); pipeline bars redrawn from stated numbers (data/neuro07_sfn2016_pipeline.csv)."
+}
