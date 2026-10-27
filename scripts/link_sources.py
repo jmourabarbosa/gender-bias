@@ -52,7 +52,9 @@ for slide_id, refs in links.items():
         kind, url = target(sid)
         rows.append([slide_id, sid, kind, url])
         reqs.append({"updateTextStyle": {"objectId": box, "textRange": {"type": "FIXED_RANGE", "startIndex": start, "endIndex": start + len(cite)},
-                     "style": {"link": {"url": url}, "underline": True, "foregroundColor": color}, "fields": "link,underline,foregroundColor"}})
+                     "style": {"link": {"url": url}}, "fields": "link"}})
+    # links take the theme's blue; keep the deck black and white
+    reqs.append({"updateTextStyle": {"objectId": box, "textRange": {"type": "ALL"}, "style": {"foregroundColor": color}, "fields": "foregroundColor"}})
 with open(ROOT / "deck" / "source_links_resolved.csv", "w", newline="") as f:
     csv.writer(f).writerows([["slide", "id", "link_type", "url"]] + rows)
 print(json.dumps(reqs, ensure_ascii=False, separators=(",", ":")))

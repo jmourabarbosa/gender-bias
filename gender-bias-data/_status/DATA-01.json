@@ -1,0 +1,17 @@
+{
+ "id": "DATA-01",
+ "title": "MESR tenured teaching staff open data (MESR-SIES)",
+ "url_used": "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-enseignants-titulaires-esr-public/exports/csv?delimiter=%3B",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-01/data/aggregated_by_year_sex_category_section.csv",
+  "gender-bias-data/10-datasets/DATA-01/data/dataset_metadata.json",
+  "gender-bias-data/10-datasets/DATA-01/data/fr-esr-enseignants-titulaires-esr-public.csv.gz",
+  "gender-bias-data/10-datasets/DATA-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-01/figures/DATA-01_redraw_sections.png",
+  "gender-bias-data/10-datasets/DATA-01/figures/DATA-01_redraw_trend.png"
+ ],
+ "notes": "Full Opendatasoft CSV (337,160 rows, gzipped 5.5 MB) + aggregate. 2024: MCF 45.5%, PR 31.5% women; CNU 69 neuro MCF 54.6%, PR 42.2%."
+}
