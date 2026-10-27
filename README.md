@@ -17,6 +17,7 @@ Last updated: 2026-10-27.
 - [Neuroscience](#neuroscience)
 - [Interventions with evidence](#interventions-with-evidence)
 - [Datasets and tools](#datasets-and-tools)
+- [Files in this repository](#files-in-this-repository)
 
 ## Headline numbers
 
@@ -63,7 +64,7 @@ Identical CVs and applications are rated lower under a woman's name, and letters
 | Source | Venue | Key finding | Figure |
 | --- | --- | --- | --- |
 | [Moss-Racusin et al. 2012](https://gap.hks.harvard.edu/science-faculty%E2%80%99s-subtle-gender-biases-favor-male-students), lab manager study ([doi](https://doi.org/10.1073/pnas.1211286109)) | PNAS | 127 faculty rated the same application; "Jennifer" offered ~$26.5k vs. "John" ~$30.2k, and rated less competent | Competence, hireability, mentoring, salary bars |
-| [Steinpreis, Anders & Ritzke 1999](https://www.engr.washington.edu/files/mycoe/faculty/docs/ImpactofGenderdoc.pdf), CV review | Sex Roles | 238 psychologists, same CV: both men and women more likely to hire the "male" applicant | Fig. 5 vote to hire by name and rater |
+| [Steinpreis, Anders & Ritzke 1999](https://doi.org/10.1023/A:1018839203698), CV review | Sex Roles | 238 psychologists, same CV: both men and women more likely to hire the "male" applicant | Fig. 5 vote to hire by name and rater |
 | [Williams & Ceci 2015](https://news.cornell.edu/node/284291), national hiring experiments ([doi](https://doi.org/10.1073/pnas.1418878112)) | PNAS | 873 faculty preferred a woman ~2:1 over an equal man for assistant professor (hypothetical, explicitly equal shortlists) | Preference ratio by field |
 | [Régner et al. 2019](https://www.nature.com/articles/s41562-019-0686-3.pdf), CNRS promotion committees ([CNRS release](https://www.cnrs.fr/en/press/even-scientists-have-gender-stereotypes-which-can-hamper-career-women-researchers)) | Nature Human Behaviour | 40 committees, 414 members: where members denied bias, stronger implicit bias meant fewer women promoted to DR; no effect where bias was acknowledged | Year 1 vs. year 2 by implicit bias × belief |
 | [Schmader, Whitehead & Wysocki 2007](https://link.springer.com/content/pdf/10.1007/s11199-007-9291-4.pdf), recommendation letters | Sex Roles | 886 chemistry faculty letters: men got more "standout" adjectives (excellent, outstanding) | Standout words per letter |
@@ -81,7 +82,7 @@ Raw success-rate gaps are usually small (about 1–4 points), but they grow when
 | --- | --- | --- | --- |
 | [Witteman et al. 2019](https://doi.org/10.1016/S0140-6736(18)32611-4), applicant vs. science | The Lancet | CIHR natural experiment: gap 0.9 points (n.s.) when reviewing the science, 4.0 points when reviewing the applicant | Gap by review type with CIs |
 | [Wennerås & Wold 1997](https://www.cs.utexas.edu/~mckinley/notes/ww-nature-1997.pdf), nepotism and sexism | Nature | Women needed ~64 extra impact points (≈3 extra Nature/Science papers) for the same competence score | Competence vs. productivity by gender |
-| [Grant, Burden & Breen 1997](https://www.nature.com/articles/37216.pdf), no evidence of sexism | Nature | Wellcome/MRC: project grants 27.5% men vs. 26.9% women; senior fellowships favoured women | Counterpoint bars |
+| [Grant, Burden & Breen 1997](https://doi.org/10.1038/37213), no evidence of sexism | Nature | Wellcome/MRC: project grants 27.5% men vs. 26.9% women; senior fellowships favoured women | Counterpoint bars |
 | [van der Lee & Ellemers 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4603485) | PNAS | NWO Veni: 17.7% men vs. 14.9% women; life sciences 24.4% vs. 14.3% | Success by discipline |
 | [Hechtman et al. 2018](https://nigms.nih.gov/node/137966), NIH funding longevity | PNAS | 34,770 first-time NIH grantees; gap disappears after matching on degree and cohort | Funding survival curves |
 | [Oliveira et al. 2019](https://jamanetwork.com/journals/jama/fullarticle/2726973), NIH award size | JAMA | Median first award $165.7k men vs. $126.6k women; Big Ten $148k vs. $66k | Median award by institution tier |
@@ -99,7 +100,7 @@ Raw success-rate gaps are usually small (about 1–4 points), but they grow when
 | [ANR 2026, AAPG 2015–2025](https://anr.fr/fileadmin/documents/2026/ANR-femmes-et-hommes-aapg-2015-2025-04206.pdf) | ANR | Women ~33% of applicants (29% → 36%); success at parity in 2022, ahead in 2024 (26% vs. 24%), 3 points behind in 2025 | Success by gender 2015–2025 |
 | [Wellcome funding data 2024/25](https://wellcome.org/research-funding/funding-portfolio/funding-data-2024) | Wellcome | Success 10.4% men vs. 9.4% women (CSV downloadable) | Success over time |
 
-Also worth checking: [NIH RePORT gender dashboard](https://report.nih.gov/reportweb/web/displayreport?rId=1005) and [ERC gender statistics 2022](https://erc.europa.eu/sites/default/files/2022-11/Gender_statistics_June_2022.pdf) (numbers only in charts).
+Also worth checking: [NIH Data Book, success rates by sex](https://report.nih.gov/nihdatabook/report/132) and [ERC gender statistics 2022](https://erc.europa.eu/sites/default/files/2022-11/Gender_statistics_June_2022.pdf) (numbers only in charts).
 
 ## Publishing and peer review
 
@@ -116,7 +117,7 @@ Women hold under 30% of authorships globally and are 13% less likely to be named
 | [Lerback & Hanson 2017](https://doi.org/10.1038/541455a), reviewers | Nature | AGU: women 20% of reviewers vs. 27% of first authors | Reviewer vs. author share by age |
 | [Viglione 2020](https://doi.org/10.1038/d41586-020-01294-9), pandemic publishing | Nature (news) | arXiv spring 2020: women authors +2.7% vs. men +6.4% year on year | Preprint growth by gender |
 | [Andersen et al. 2020](https://elifesciences.org/articles/58807), COVID first authors | eLife | Women's first-author share 14% lower than expected, 23% lower in March–April 2020 | Expected vs. observed by month |
-| [Myers et al. 2020](https://doi.org/10.1038/s41562-020-0921-y), pandemic effects | Nature Human Behaviour | ~4,500 PIs: child under 5 meant 17% less research time; women lost 5% more than men | Research time by childcare |
+| [Myers et al. 2020](https://doi.org/10.1038/s41562-020-0921-y), pandemic effects | Nature Human Behaviour | ~4,500 PIs: a child under 5 meant a 17% larger drop in research time; women lost 5% more than men | Research time by childcare |
 | [Vincent-Lamarre, Sugimoto & Larivière 2020](https://www.natureindex.com/news-blog/decline-women-scientist-research-publishing-production-coronavirus-pandemic) | Nature Index (blog) | Women's first-author share of preprints fell in spring 2020 | 2019 vs. 2020 share |
 
 Huang et al. 2020 (equal annual output; career gap driven by dropout) is listed under [Pipeline and representation](#pipeline-and-representation).
@@ -154,7 +155,7 @@ US women faculty earn 83.6% of men's average salary, and CNRS women earn 13.9% l
 | [Kim & Moser 2021/2025](https://www.nber.org/system/files/working_papers/w29436/w29436.pdf), lessons from the baby boom | NBER / Econometrica | Tenure: mothers 27%, childless women 46%, fathers 48%; mothers' productivity peaks in their mid-40s | Productivity over age by parent status |
 | [Sege, Nykiel-Bub & Selk 2015](https://jamanetwork.com/journals/jama/fullarticle/2441254), start-up packages | JAMA | Median start-up $889k men vs. $350k women (219 applicants, 2 programmes) | Paired bars |
 | [Ceci, Ginther, Kahn & Williams 2014](https://inclusionandbelongingtaskforce.harvard.edu/publications/women-academic-science-changing-landscape), changing landscape | Psych. Sci. Public Interest | Counterpoint: in math-intensive fields, women who become faculty are hired, kept and paid at similar rates; losses are earlier | Leak by field and stage |
-| [Derrick et al. 2022](https://elifesciences.org/articles/78909), parenthood and gender gaps | eLife | Not yet reviewed | — |
+| [Zheng, Yuan & Ni 2022](https://elifesciences.org/articles/78909), parenthood and gender gaps | eLife | Not yet reviewed | — |
 
 Spoon et al. 2023 (attrition by rank, push vs. pull) is listed under [Pipeline and representation](#pipeline-and-representation).
 
@@ -201,13 +202,13 @@ The evidence on fixes is thin and some famous results are weaker than their repu
 
 | Source | Venue | Key finding | Figure |
 | --- | --- | --- | --- |
-| [Goldin & Rouse 2000](https://dash.harvard.edu/bitstream/handle/1/30703974/aer.90.4.715.pdf?sequence=1), blind orchestra auditions | AER | Screens raised women's advancement from preliminaries ~11 points; claimed 25–30% of the rise in women's share, but overall hiring effect imprecise | Women's share of new hires over time |
+| [Goldin & Rouse 2000](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-e965-6bd4-e053-0100007fdf3b/content), blind orchestra auditions | AER | Screens raised women's advancement from preliminaries ~11 points; claimed 25–30% of the rise in women's share, but overall hiring effect imprecise | Women's share of new hires over time |
 | [Pallesen 2019](https://gwern.net/doc/www/jsmp.medium.com/0b9410ad1a51bf0a5a52c96c3177223217b013af.html) and [Gelman via Reason](https://reason.com/2019/10/22/orchestra-study-blind-auditions-gelman/), critiques | Blog / Reason | Main p = 0.042 becomes ~0.33 after correction for multiple tests | Original tables vs. corrected p-values |
 | [Tomkins, Zhang & Heavlin 2017](https://arxiv.org/pdf/1702.00502), single- vs. double-blind | PNAS | WSDM 2017 randomised: single-blind reviewers favoured famous authors (OR 1.63), top universities (1.58); female-author OR 0.78 (n.s. alone) | Forest plot of odds ratios |
 | [PeerJ 2019](https://peerj.com/articles/6702), double-blind follow-up | PeerJ | Budden 2008's 7.9% rise in female first authors was seen in all journals; 4,865 papers 2010–18 show no gain | Female first authorship by review type |
 | [Bagues, Sylos-Labini & Zinovyeva 2017](https://www.aalto.fi/en/news/women-in-tenure-committees-do-not-speed-up-womens-science-careers), committee composition | AER | ~100k promotion applications, random evaluators: more women on committees did not raise women's success | Success vs. number of women on committee |
 | [Régner et al. 2019](https://www.cnrs.fr/en/press/even-scientists-have-gender-stereotypes-which-can-hamper-career-women-researchers), awareness of bias | Nature Human Behaviour | CNRS committees that acknowledged bias showed no implicit-bias effect on promotions | Implicit bias × belief interaction |
-| [Antecol, Bedard & Stearns 2018](https://www.aeaweb.org/doi/10.1257/aer.20160613), tenure clock stopping | AER | Gender-neutral policy raised men's tenure odds ~17 points and lowered women's ~19 points | Effect by gender |
+| [Antecol, Bedard & Stearns 2018](https://www.aeaweb.org/doi/10.1257/aer.20160613), tenure clock stopping | AER | Gender-neutral policy raised men's tenure odds and lowered women's: +19 and −22 points in the working paper (IZA DP 9904); published values not checked | Effect by gender |
 | [Carnes et al. 2015](https://advance.washington.edu/liy/sites/default/files/Carnesetal_2015_0.pdf), habit-breaking RCT | Academic Medicine | 92 departments, 2,290 faculty: bias awareness and self-efficacy rose at 3 months | Pre/post, treated vs. control |
 | [Devine et al. 2017](https://core.ac.uk/download/225400929.pdf), hiring follow-up | J. Exp. Soc. Psych. | Women's share of new hires 32% → 47% in treated departments vs. 33% → 32% in controls (p = 0.07) | Before/after hiring bars |
 | [Xiao et al. 2020](https://hub.hku.hk/bitstream/10722/290849/1/content.pdf), Athena SWAN | BMJ Open | UK women professors 24.2% → 26.8%; Silver holders grew faster (association only) | Share by award level over time |
@@ -235,6 +236,21 @@ Raw data and tools for drawing your own plots, including France- and neuroscienc
 | [HESA staff open data](https://www.hesa.ac.uk/node/136617) ([Advance HE 2024](https://advance-he.ac.uk/news-and-views/equality-higher-education-staff-statistical-report-2024)) | HESA (UK) | Staff by sex and grade; women 30.8% of UK professors |
 | [Elsevier 2024 gender review](https://www.elsevier.com/about/press-releases/latest-elsevier-gender-equality-study-reveals-20-years-of-progress-but-challenges-remain-for-women-in-research-and-innovation) | Elsevier / Scopus | Researcher share by country and field, 2001–2022 |
 | [OpenAlex](https://openalex.org) | OurResearch | Free bibliographic API for building custom authorship or citation analyses |
+
+## Files in this repository
+
+Every source above has a folder with what could be downloaded legally. Paywalled papers were not downloaded; their folders hold the abstract or landing page.
+
+| Path | Contents |
+| --- | --- |
+| [Source browser](https://jmourabarbosa.github.io/gender-bias/) (`docs/index.html`) | Searchable page listing every source with its key number, access status, PDF, notes, figures and data |
+| [`gender-bias-data/<section>/<ID>/`](https://github.com/jmourabarbosa/gender-bias/tree/claude/epic-cannon-fl66g4/gender-bias-data) | `source.pdf` (or saved page / full-text XML), `figures/` (paper figures and black-and-white redraws), `data/` (datasets and transcribed tables), `notes.md` (citation, URL used, headline number checked against this list) |
+| [`gender-bias-data/manifest.csv`](https://github.com/jmourabarbosa/gender-bias/blob/claude/epic-cannon-fl66g4/gender-bias-data/manifest.csv) | One row per source: URL used, files, access status (`downloaded`, `abstract_only`, `paywalled`, `failed`), figures |
+| [`SOURCES.md`](https://github.com/jmourabarbosa/gender-bias/blob/claude/epic-cannon-fl66g4/SOURCES.md) and [`sources.csv`](https://github.com/jmourabarbosa/gender-bias/blob/claude/epic-cannon-fl66g4/sources.csv) | The collection brief: every source with its ID, key number and the figure to extract |
+| [`deck/`](https://github.com/jmourabarbosa/gender-bias/tree/claude/epic-cannon-fl66g4/deck) | Slide content (`slides.json`), citation links and the PDF page of each figure used in the talk |
+| [`scripts/`](https://github.com/jmourabarbosa/gender-bias/tree/claude/epic-cannon-fl66g4/scripts) | Download (`download.py`), manifest and page builders, slide builders, figure crops and redraws |
+
+Larger datasets: MESR tenured staff (`10-datasets/DATA-01`, gzipped CSV), BiasWatchNeuro speaker counts (`08-neuroscience/NEURO-15/data`), ERC grantee shares by year (`03-funding/FUND-17/data`), NIH success rates FY1998–2025 (`03-funding/FUND-21/data`), Wellcome CSVs (`03-funding/FUND-20/data`), and source data for Ross, Helmer, Holman, Dworkin and Davidson & Greene.
 
 ## Contributing
 
