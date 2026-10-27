@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-11",
+ "title": "OECD Education at a Glance 2025, indicator D5",
+ "url_used": "https://sdmx.oecd.org/public/rest/data/OECD.EDU.IMEP,DSD_EAG_UOE_NON_FIN_PERS@DF_UOE_NF_PERS_SEX,1.1/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-11/data/oecd_DF_UOE_NF_PERS_SEX_all.csv.gz",
+  "gender-bias-data/01-pipeline/PIPE-11/data/oecd_women_share_academic_staff_tertiary.csv",
+  "gender-bias-data/01-pipeline/PIPE-11/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-11/figures/PIPE-11_redraw_age.png",
+  "gender-bias-data/01-pipeline/PIPE-11/figures/PIPE-11_redraw_trend.png"
+ ],
+ "notes": "Chapter/StatLinks Cloudflare-blocked; underlying UOE data via OECD SDMX API instead. Key number OK: OECD avg 46.1% women tertiary academic staff (2023). Trend + age redraws."
+}

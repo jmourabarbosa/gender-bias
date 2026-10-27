@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-10",
+ "title": "UNESCO 2025, Status and trends of women in science",
+ "url_used": "https://zenodo.org/records/15667540",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-10/data/fig3_women_researchers_by_region.csv",
+  "gender-bias-data/01-pipeline/PIPE-10/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-10/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-10/figures/PIPE-10_fig3.png",
+  "gender-bias-data/01-pipeline/PIPE-10/figures/PIPE-10_redraw.png"
+ ],
+ "notes": "UNESDOC Cloudflare-blocked; identical UNESCO PDF from Zenodo record (checksum verified). Key number OK: 31.1% (2022), 29.4% in 2012. Fig 3 cropped + redraw."
+}

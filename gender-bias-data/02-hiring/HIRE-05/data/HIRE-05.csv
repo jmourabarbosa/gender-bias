@@ -1,0 +1,3 @@
+group,standout_words_pct_of_words,sd,source
+Men (total n=235 applicants),0.70,0.32,"Schmader et al. 2007 Table 2 (p.512), Total columns"
+Women (total n=42 applicants),0.60,0.27,"Schmader et al. 2007 Table 2 (p.512), Total columns; text p.512: M=.70 vs M=.60, F(1,278)=3.95, p=.05"
