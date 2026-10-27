@@ -83,7 +83,7 @@ d = pymupdf.open(B + 'NEURO-06/source.pdf')
 p = d[1]; c = caption_y(p, 'Figure 1:')
 g = graphics_bbox(p, above_y=c.y0, below_y=100)
 g = grow_with_text(p, g, limit=pymupdf.Rect(0, 100, p.rect.width, c.y0 - 1))
-g.y1 = min(g.y1, c.y0 - 5)
+g.y1 = min(g.y1, c.y0 - 5); g.y0 += 12  # skip descenders of the paragraph above (image box overlaps it)
 save(p, g, B + 'NEURO-06/figures/NEURO-06_fig1.png', margin=2)
 p = d[5]; g = graphics_bbox(p)
 imgs = [p.get_image_bbox(im) for im in p.get_images(full=True)]

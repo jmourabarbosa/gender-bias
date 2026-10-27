@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-05",
+ "title": "CNRS Plan d'action égalité professionnelle 2024–2026",
+ "url_used": "https://parite.math.cnrs.fr/References/CNRS_Plan_action_2024-26.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-05/data/cnrs_women_shares_2019_2022.csv",
+  "gender-bias-data/01-pipeline/PIPE-05/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-05/figures/PIPE-05_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-05/figures/PIPE-05_redraw.png"
+ ],
+ "notes": "Key number OK: 34.7% researchers, 31.7% DR (2022), p.5. No charts in source: text crop + redraw; CR share not given."
+}

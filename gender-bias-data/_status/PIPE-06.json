@@ -1,0 +1,17 @@
+{
+ "id": "PIPE-06",
+ "title": "Inserm, Journée Inserm 2024 parity slides",
+ "url_used": "https://pro.inserm.fr/wp-content/uploads/2024/03/JI2024_Parite.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-06/data/inserm_women_by_grade_slide3.csv",
+  "gender-bias-data/01-pipeline/PIPE-06/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-06/figures/PIPE-06_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-06/figures/PIPE-06_fig2.png",
+  "gender-bias-data/01-pipeline/PIPE-06/figures/PIPE-06_redraw.png"
+ ],
+ "notes": "Key number OK: index 72/100, 13.07% pay gap (slide 2). Slide 3 gives grade ladder Doc 66% -> DRCE 26% (fills CR/DR gap); redraw made."
+}
