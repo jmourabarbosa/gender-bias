@@ -1,0 +1,19 @@
+{
+ "id": "FUND-17",
+ "title": "ERC 2024 Starting Grants results + StG time series",
+ "url_used": "https://www.eubuero.de/en/news-erc-2024-09-26-3895.html ; https://www.eubuero.de/en/ncp-erc-starting-grants-2436.html ; https://www.eubuero.de/en/news-erc-2022-11-23-3059.html ; https://www.eubuero.de/en/news-erc-2023-09-05-3388.html (saved as page_eubuero_*.html). Official https://erc.europa.eu/news-events/news/erc-2024-starting-grants-results and erc-2024-stg-statistics.pdf: CloudFront 403.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-17/data/erc_women_share_grantees.csv",
+  "gender-bias-data/03-funding/FUND-17/figures/FUND-17_redraw.png",
+  "gender-bias-data/03-funding/FUND-17/notes.md",
+  "gender-bias-data/03-funding/FUND-17/page_eubuero_stg2022_results.html",
+  "gender-bias-data/03-funding/FUND-17/page_eubuero_stg2023_results.html",
+  "gender-bias-data/03-funding/FUND-17/page_eubuero_stg2024_results.html",
+  "gender-bias-data/03-funding/FUND-17/page_eubuero_stg_overview.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-17/figures/FUND-17_redraw.png"
+ ],
+ "notes": "Key number OK (44%) via German NCP; ERC site blocked; StG/AdG series CSV built from NCP + THE."
+}

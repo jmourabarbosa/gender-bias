@@ -1,47 +1,140 @@
-{"slides": [
-{"id": "s01_outline", "kind": "text", "title": "Outline",
- "bullets": ["**Pipeline:** who enters academia and who stays",
-             "**Evaluation:** hiring, letters and promotion committees",
-             "**Funding:** grant success, award size and the role of reviewers",
-             "**Publishing and citations:** authorship, peer review, credit",
-             "**Pay, parenthood, teaching and service**",
-             "**Neuroscience** as a case study",
-             "**Interventions:** what has been tested and what worked",
-             "All sources, data and figures: github.com/jmourabarbosa/gender-bias"]},
-{"id": "s02_sec_pipe", "kind": "section", "title": "1. The pipeline", "sub": "Who enters academia, who is promoted, who leaves"},
-{"id": "s03_eu_scissors", "kind": "wide",
- "title": "In the EU, women earn 48% of PhDs but hold 30% of full professorships",
- "image": "gender-bias-data/01-pipeline/PIPE-01/figures/PIPE-01_fig1.png",
- "source": "Source: European Commission, She Figures 2024, Fig. 6.1 (EU-27, 2019 and 2022). Grade A = full professor; grade C = entry-level post-PhD."},
-{"id": "s04_france", "kind": "fig",
- "title": "In France, women's share of university professors doubled since 2000 but is still 33%",
- "image": "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_redraw.png",
- "bullets": ["Women are **45%** of maîtres de conférences but **33%** of professors (2024)",
-             "Professors: 17% women in 2000, 23% in 2010",
-             "CNRS: women are 34.7% of researchers and **31.7%** of directeurs de recherche (2022)",
-             "Inserm: 66% of PhD students are women, 26% of the top research-director grade"],
- "source": "Sources: MESR, Vers l'égalité femmes-hommes ? Chiffres clés 2026, p. 36-40; CNRS Plan d'action égalité 2024-2026, p. 5; Inserm, Journée Inserm 2024 (parité)."},
-{"id": "s05_huang", "kind": "fig",
- "title": "Women leave publishing science at a 19.5% higher yearly rate than men",
- "image": "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig04.jpg",
- "bullets": ["Publication careers of 1.5 million scientists, 1955-2010",
-             "Yearly dropout: **10.8%** of women vs **9.0%** of men",
-             "Women's careers are shorter, so their lifetime output is lower",
-             "If dropout is equalized, the productivity gap shrinks from **27% to 9%**"],
- "source": "Source: Huang, Gates, Sinatra & Barabási (2020) PNAS 117:4609, Fig. 4. doi:10.1073/pnas.1914221117"},
-{"id": "s06_spoon", "kind": "fig",
- "title": "US women faculty are more likely than men to leave at every rank",
- "image": "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f1.jpg",
- "bullets": ["Each year, women are **6%, 10% and 19%** more likely to leave as assistant, associate and full professors",
-             "Promotion rates are lower for women at the same seniority",
-             "Women more often report being **pushed out** by workplace climate, not pulled to better jobs"],
- "source": "Source: Spoon, LaBerge, Wapman et al. (2023) Science Advances 9:eadi2205, Fig. 1 (A attrition, B promotion). doi:10.1126/sciadv.adi2205"},
-{"id": "s07_laberge", "kind": "fig",
- "title": "Equal attrition alone will not bring US faculty to parity by 2060",
- "image": "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig3.jpg",
- "bullets": ["Women: **46%** of US doctorates (2021), **36%** of tenure-track faculty",
-             "In 90% of fields, hiring shaped women's representation more than attrition (2011-2020)",
-             "Removing the attrition gap gives only a marginal gain",
-             "Parity needs sustained changes to **hiring**"],
- "source": "Source: LaBerge, Wapman, Clauset & Larremore (2024) eLife 13:RP93755, Fig. 3 (OA observed attrition, GNA gender-neutral attrition, IR/ER increasing/equal hiring). 268,769 faculty."}
-]}
+{
+ "slides": [
+  {
+   "id": "s01_outline",
+   "kind": "text",
+   "title": "Outline",
+   "bullets": [
+    "**Pipeline:** who enters academia and who stays",
+    "**Evaluation:** hiring, letters and promotion committees",
+    "**Funding:** grant success, award size and the role of reviewers",
+    "**Publishing and citations:** authorship, peer review, credit",
+    "**Pay, parenthood, teaching and service**",
+    "**Neuroscience** as a case study",
+    "**Interventions:** what has been tested and what worked",
+    "All sources, data and figures: github.com/jmourabarbosa/gender-bias"
+   ]
+  },
+  {
+   "id": "s02_sec_pipe",
+   "kind": "section",
+   "title": "1. The pipeline",
+   "sub": "Who enters academia, who is promoted, who leaves"
+  },
+  {
+   "id": "s03_eu_scissors",
+   "kind": "wide",
+   "title": "In the EU, women earn 48% of PhDs but hold 30% of full professorships",
+   "image": "gender-bias-data/01-pipeline/PIPE-01/figures/PIPE-01_fig1.png",
+   "source": "Source: European Commission, She Figures 2024, Fig. 6.1 (EU-27, 2019 and 2022). Grade A = full professor; grade C = entry-level post-PhD."
+  },
+  {
+   "id": "s04_france",
+   "kind": "fig",
+   "title": "In France, women's share of university professors doubled since 2000 but is still 33%",
+   "image": "gender-bias-data/01-pipeline/PIPE-04/figures/PIPE-04_redraw.png",
+   "bullets": [
+    "Women are **45%** of maîtres de conférences but **33%** of professors (2024)",
+    "Professors: 17% women in 2000, 23% in 2010",
+    "CNRS: women are 34.7% of researchers and **31.7%** of directeurs de recherche (2022)",
+    "Inserm: 66% of PhD students are women, 26% of the top research-director grade"
+   ],
+   "source": "Sources: MESR, Vers l'égalité femmes-hommes ? Chiffres clés 2026, p. 36-40; CNRS Plan d'action égalité 2024-2026, p. 5; Inserm, Journée Inserm 2024 (parité)."
+  },
+  {
+   "id": "s05_huang",
+   "kind": "fig",
+   "title": "Women leave publishing science at a 19.5% higher yearly rate than men",
+   "image": "gender-bias-data/01-pipeline/PIPE-13/figures/PIPE-13_fig4AB.png",
+   "bullets": [
+    "Publication careers of 1.5 million scientists, 1955-2010",
+    "Yearly dropout: **10.8%** of women vs **9.0%** of men",
+    "Women's careers are shorter, so their lifetime output is lower",
+    "If dropout is equalized, the productivity gap shrinks from **27% to 9%**"
+   ],
+   "source": "Source: Huang, Gates, Sinatra & Barabási (2020) PNAS 117:4609, Fig. 4. doi:10.1073/pnas.1914221117"
+  },
+  {
+   "id": "s06_spoon",
+   "kind": "fig",
+   "title": "US women faculty are more likely than men to leave at every rank",
+   "image": "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f1.jpg",
+   "bullets": [
+    "Each year, women are **6%, 10% and 19%** more likely to leave as assistant, associate and full professors",
+    "Promotion rates are lower for women at the same seniority",
+    "Women more often report being **pushed out** by workplace climate, not pulled to better jobs"
+   ],
+   "source": "Source: Spoon, LaBerge, Wapman et al. (2023) Science Advances 9:eadi2205, Fig. 1 (A attrition, B promotion). doi:10.1126/sciadv.adi2205"
+  },
+  {
+   "id": "s07_laberge",
+   "kind": "fig",
+   "title": "Equal attrition alone will not bring US faculty to parity by 2060",
+   "image": "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig3.jpg",
+   "bullets": [
+    "Women: **46%** of US doctorates (2021), **36%** of tenure-track faculty",
+    "In 90% of fields, hiring shaped women's representation more than attrition (2011-2020)",
+    "Removing the attrition gap gives only a marginal gain",
+    "Parity needs sustained changes to **hiring**"
+   ],
+   "source": "Source: LaBerge, Wapman, Clauset & Larremore (2024) eLife 13:RP93755, Fig. 3 (OA observed attrition, GNA gender-neutral attrition, IR/ER increasing/equal hiring). 268,769 faculty."
+  },
+  {
+   "id": "s60_sec_neuro",
+   "kind": "section",
+   "title": "6. Neuroscience",
+   "sub": "Training, faculty, citations and conference talks"
+  },
+  {
+   "id": "s61_neuro_pipe",
+   "kind": "fig",
+   "title": "In US neuroscience, women are 57% of PhD applicants but 30% of faculty",
+   "image": "gender-bias-data/08-neuroscience/NEURO-07/figures/NEURO-07_redraw.png",
+   "bullets": [
+    "Women are **58%** of admitted students and 50% of postdocs (2016-17)",
+    "Faculty share has changed little in a decade",
+    "Women are **13.8%** of tenured full professors (2017-18)",
+    "Journals 2005-2017: 33.1% of first authors are women, **18.1%** of last authors"
+   ],
+   "source": "Sources: SfN 2016-17 Neuroscience Departments & Programs Survey, executive summary; Machlovi et al. (2021) J Neurosci Res 99:9 (citing Bendels 2018, Shen 2018)."
+  },
+  {
+   "id": "s62_neuro_cite",
+   "kind": "fig",
+   "title": "Papers led by women are under-cited in cognitive neuroscience",
+   "image": "gender-bias-data/08-neuroscience/NEURO-03/figures/NEURO-03_fig2.png",
+   "bullets": [
+    "J Cogn Neurosci 2009-2020: papers with men as first and last author (MM) are cited **+42%** above parity",
+    "Papers with women in both positions (WW) are cited **44%** below",
+    "Across neuro journals, women first/last authors rose from 36% (1995) to 50% (2018)",
+    "Yet the citation gap widens by 0.41 points per year"
+   ],
+   "source": "Sources: Fulvio, Akinnola & Postle (2021) J Cogn Neurosci 33:3, Fig. 2 (Gender Citation Balance Index, bioRxiv version); Churchland & Davatolhagh (2024) The Transmitter, citing Dworkin et al. (2020)."
+  },
+  {
+   "id": "s63_neuro_talks",
+   "kind": "fig",
+   "title": "Women are a third of speakers at neuroscience meetings",
+   "image": "gender-bias-data/08-neuroscience/NEURO-15/figures/NEURO-15_redraw.png",
+   "bullets": [
+    "BiasWatchNeuro, 676 meetings: **32.9%** of listed speakers are women",
+    "274 of 657 meetings fall below the field's own share of women",
+    "Major neuro conferences: women speakers rose from **24% to 42%** (2011-2019)",
+    "Brain stimulation conference: 2 women of 39 speakers (2015), 0 of 10 (2017)"
+   ],
+   "source": "Sources: biaswatchneuro.com posts (scraped, data/biaswatchneuro.csv; year = post date); Else (2019) Nature 573:184; Hoy, Fitzgibbon & Brem (2021) eLife 10:e75818."
+  },
+  {
+   "id": "s64_cosyne",
+   "kind": "fig",
+   "title": "Cosyne 2019 accepted 31% of abstracts with women first authors vs 38% for men",
+   "image": "gender-bias-data/08-neuroscience/NEURO-12/figures/NEURO-12_redraw.png",
+   "bullets": [
+    "83 of 264 woman-led abstracts accepted vs 255 of 677 man-led",
+    "Cosyne then moved to double-blind review; the gender gap did not close",
+    "Cosyne 2020 chairs guaranteed **50%** of podium talks to women"
+   ],
+   "source": "Sources: C. Frye blog (6 Mar 2019), data from M. Carey; Simons Foundation SCGB (2020) 'Addressing gender and institutional bias at Cosyne'; UChicago Neuroscience Institute (2020)."
+  }
+ ]
+}

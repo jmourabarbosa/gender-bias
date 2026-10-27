@@ -1,0 +1,21 @@
+{
+ "id": "FUND-12",
+ "title": "Gender differences in peer reviewed grant applications, awards, and amounts: a systematic review and meta-analysis",
+ "url_used": "PMC OA bucket https://pmc-oa-opendata.s3.amazonaws.com/PMC10155348 (first pass); forest plots extracted from supplementary/41073_2023_127_MOESM1_ESM.docx (EMF -> PDF via LibreOffice -> PNG). Springer pages were bot challenges (deleted).",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-12/article.json",
+  "gender-bias-data/03-funding/FUND-12/article.xml",
+  "gender-bias-data/03-funding/FUND-12/figures/41073_2023_127_Fig1_HTML.jpg",
+  "gender-bias-data/03-funding/FUND-12/figures/FUND-12_efig1.png",
+  "gender-bias-data/03-funding/FUND-12/figures/FUND-12_efig7.png",
+  "gender-bias-data/03-funding/FUND-12/notes.md",
+  "gender-bias-data/03-funding/FUND-12/source.pdf",
+  "gender-bias-data/03-funding/FUND-12/supplementary/41073_2023_127_MOESM1_ESM.docx"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-12/figures/FUND-12_efig1.png",
+  "gender-bias-data/03-funding/FUND-12/figures/FUND-12_efig7.png"
+ ],
+ "notes": "Key number OK (~1 pt rate gap; amounts differ)."
+}

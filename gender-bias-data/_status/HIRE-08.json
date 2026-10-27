@@ -1,0 +1,25 @@
+{
+ "id": "HIRE-08",
+ "title": "Gender differences in how scientists present the importance of their research: observational study",
+ "url_used": "https://madoc.bib.uni-mannheim.de/53361/1/bmj.l6573.full.pdf (Mannheim repository copy of BMJ PDF; Unpaywall location). JATS XML + figure JPGs from PMC OA bucket (first pass). bmj.com page was a bot check (deleted).",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-08/article.json",
+  "gender-bias-data/02-hiring/HIRE-08/article.xml",
+  "gender-bias-data/02-hiring/HIRE-08/figures/HIRE-08_fig1.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/HIRE-08_fig4.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f1.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f2.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f3.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f4.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f5.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/notes.md",
+  "gender-bias-data/02-hiring/HIRE-08/source.pdf",
+  "gender-bias-data/02-hiring/HIRE-08/supplementary/lerm051129.w1.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-08/figures/HIRE-08_fig1.jpg",
+  "gender-bias-data/02-hiring/HIRE-08/figures/HIRE-08_fig4.jpg"
+ ],
+ "notes": "Key number OK (12.3%)."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "TEACH-04",
+  "title": "Faculty Service Loads and Gender: Are Women Taking Care of the Academic Family?",
+  "url_used": "https://docs.iza.org/dp10010.pdf",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-04/data/TEACH-04.csv",
+    "gender-bias-data/07-teaching/TEACH-04/page.html",
+    "gender-bias-data/07-teaching/TEACH-04/source.pdf",
+    "gender-bias-data/07-teaching/TEACH-04/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-04/figures/TEACH-04_redraw.png"
+  ],
+  "notes": "OK (+0.6 h/week). p.15-16, Table 6 (FSSE 2014, N=6,727): women report 0.6 more hours/week of service (SE 0.22) than men, controlling for rank, race, field, institution FE; FYAR: ~1.6 more service activities/year."
+}

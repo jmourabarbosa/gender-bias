@@ -1,0 +1,19 @@
+{
+ "id": "FUND-08",
+ "title": "Little race or gender bias in an experiment of initial review of NIH R01 grant proposals",
+ "url_used": "Preprint PDF https://osf.io/download/aj4hy/ (PsyArXiv r2xvb, via https://api.osf.io/v2/preprints/r2xvb/) = source_preprint_osf.pdf; published text = article.xml (PMC). scholarworks.uark.edu copy blocked by bot check; PMC HTML reCAPTCHA.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-08/article.json",
+  "gender-bias-data/03-funding/FUND-08/article.xml",
+  "gender-bias-data/03-funding/FUND-08/figures/FUND-08_fig1.png",
+  "gender-bias-data/03-funding/FUND-08/notes.md",
+  "gender-bias-data/03-funding/FUND-08/page.html",
+  "gender-bias-data/03-funding/FUND-08/page1.html",
+  "gender-bias-data/03-funding/FUND-08/source_preprint_osf.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-08/figures/FUND-08_fig1.png"
+ ],
+ "notes": "Key claim OK; figure from OSF preprint (published PDF not retrieved)."
+}

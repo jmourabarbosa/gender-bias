@@ -1,0 +1,18 @@
+{
+ "id": "FUND-09",
+ "title": "Is blinded review enough? How gendered outcomes arise even under anonymous evaluation",
+ "url_used": "NBER PDF (first pass): https://www.nber.org/system/files/working_papers/w25759/w25759.pdf",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-09/figures/FUND-09_table2.png",
+  "gender-bias-data/03-funding/FUND-09/figures/FUND-09_table6.png",
+  "gender-bias-data/03-funding/FUND-09/notes.md",
+  "gender-bias-data/03-funding/FUND-09/page.html",
+  "gender-bias-data/03-funding/FUND-09/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-09/figures/FUND-09_table2.png",
+  "gender-bias-data/03-funding/FUND-09/figures/FUND-09_table6.png"
+ ],
+ "notes": "Key number OK with nuance (16% = log-odds effect)."
+}

@@ -1,0 +1,20 @@
+{
+ "id": "FUND-06",
+ "title": "Comparison of NIH grant amounts to first-time male and female principal investigators",
+ "url_used": "https://www.kellogg.northwestern.edu/faculty/uzzi/htm/papers/jama_oliveira_2019_ld_180068.pdf (author's Kellogg page, publisher PDF). jamanetwork.com 403; PMC reCAPTCHA.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-06/data/FUND-06.csv",
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_redraw.png",
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_table1.png",
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_table2.png",
+  "gender-bias-data/03-funding/FUND-06/notes.md",
+  "gender-bias-data/03-funding/FUND-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_redraw.png",
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_table1.png",
+  "gender-bias-data/03-funding/FUND-06/figures/FUND-06_table2.png"
+ ],
+ "notes": "Key number OK ($165,721 vs $126,615 median)."
+}

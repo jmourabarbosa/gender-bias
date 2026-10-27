@@ -1,0 +1,16 @@
+{
+ "id": "DATA-05",
+ "title": "Holman gender-gap app and data",
+ "url_used": "https://lukeholman.github.io/genderGap/data_for_web_app_no_list.json",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-05/data/data_for_web_app_no_list.json.gz",
+  "gender-bias-data/10-datasets/DATA-05/data/genderGap_points_long.csv",
+  "gender-bias-data/10-datasets/DATA-05/notes.md",
+  "gender-bias-data/10-datasets/DATA-05/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-05/figures/DATA-05_redraw.png"
+ ],
+ "notes": "Web-app JSON (gz) + flattened CSV of % women authors by discipline/country/journal/position 2002-2016. OSF full sqlite (2.5 GB) linked only. 2016 all fields: first 44.3%, last 31.2%."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "INT-10",
+  "title": "Athena SWAN and gender diversity: a UK-based retrospective cohort study",
+  "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7044944",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-10/article.json",
+    "gender-bias-data/09-interventions/INT-10/article.xml",
+    "gender-bias-data/09-interventions/INT-10/source.pdf",
+    "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915.draft_revisions.pdf",
+    "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915.reviewer_comments.pdf",
+    "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915supp001.pdf",
+    "gender-bias-data/09-interventions/INT-10/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-10/figures/INT-10_fig1.jpg",
+    "gender-bias-data/09-interventions/INT-10/figures/INT-10_fig2.jpg"
+  ],
+  "notes": "OK (24.2% -> 26.8%). Table 1: female share of professors (all HEIs) 24.2% in 2012/13 -> 26.8% in 2016/17."
+}

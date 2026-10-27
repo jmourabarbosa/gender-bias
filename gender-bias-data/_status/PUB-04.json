@@ -1,0 +1,30 @@
+{
+  "id": "PUB-04",
+  "title": "Gender bias in scholarly peer review",
+  "url_used": "PMC OA bucket PMC5360442 (first pass)",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-04/article.json",
+    "gender-bias-data/04-publishing/PUB-04/article.xml",
+    "gender-bias-data/04-publishing/PUB-04/data/elife-21718-supp1.csv",
+    "gender-bias-data/04-publishing/PUB-04/data/elife-21718-supp2.csv",
+    "gender-bias-data/04-publishing/PUB-04/data/graph/graph_edges.csv",
+    "gender-bias-data/04-publishing/PUB-04/data/graph/graph_nodes.csv",
+    "gender-bias-data/04-publishing/PUB-04/figures/PUB-04_fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1-figsupp1.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1-figsupp2.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig2-figsupp1.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig2.jpg",
+    "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig3.jpg",
+    "gender-bias-data/04-publishing/PUB-04/notes.md",
+    "gender-bias-data/04-publishing/PUB-04/source.pdf",
+    "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp1.csv",
+    "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp2.csv",
+    "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp3.zip"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-04/figures/PUB-04_fig1.jpg"
+  ],
+  "notes": "Key number: MATCH. p.2 / Fig 1b: women account for 37% of authoring, 28% of reviewing and 26% of editing contributions (Frontiers data to 2015)."
+}

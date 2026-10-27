@@ -1,0 +1,17 @@
+{
+ "id": "FUND-02",
+ "title": "Nepotism and sexism in peer-review",
+ "url_used": "https://www.ehu.eus/documents/1775594/2032981/Nepotism_and_sexism_in_peer_review.pdf (Univ. of the Basque Country re-typeset copy, 'Reprinted by permission from Nature'; text + Table 1, figure not included). Listed cs.utexas.edu copy fails TLS verification (server chain) from this sandbox; nature.com is paywalled.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-02/data/FUND-02.csv",
+  "gender-bias-data/03-funding/FUND-02/figures/FUND-02_redraw.png",
+  "gender-bias-data/03-funding/FUND-02/notes.md",
+  "gender-bias-data/03-funding/FUND-02/page.html",
+  "gender-bias-data/03-funding/FUND-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-02/figures/FUND-02_redraw.png"
+ ],
+ "notes": "Key number OK (+64 impact points); re-typeset copy without original figure; redraw from Table 1."
+}

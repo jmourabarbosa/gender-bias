@@ -1,0 +1,34 @@
+{
+  "id": "PUB-06",
+  "title": "Gender differences in peer review outcomes and manuscript impact at six journals of ecology and evolution",
+  "url_used": "PMC OA bucket PMC6434606 (first pass); data https://doi.org/10.5061/dryad.7p048mk",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-06/article.json",
+    "gender-bias-data/04-publishing/PUB-06/article.xml",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g001.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g002.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g003.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g004.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g005.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g006.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g007.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g008.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g009.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g010.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g011.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g012.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g013.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig2.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig3.jpg",
+    "gender-bias-data/04-publishing/PUB-06/notes.md",
+    "gender-bias-data/04-publishing/PUB-06/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig2.jpg",
+    "gender-bias-data/04-publishing/PUB-06/figures/PUB-06_fig3.jpg"
+  ],
+  "notes": "Key number: MATCH. p.6 / Fig 4a: female first-authored papers invited for revision 16.4 +/- 1.9% of the time vs 18.3 +/- 2.4% for male first authors."
+}

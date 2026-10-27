@@ -1,0 +1,17 @@
+{
+  "id": "INT-05",
+  "title": "The cases for and against double-blind reviews",
+  "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6450368",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-05/article.json",
+    "gender-bias-data/09-interventions/INT-05/article.xml",
+    "gender-bias-data/09-interventions/INT-05/source.pdf",
+    "gender-bias-data/09-interventions/INT-05/supplementary/peerj-07-6702-s001.pdf",
+    "gender-bias-data/09-interventions/INT-05/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-05/figures/INT-05_fig2.jpg"
+  ],
+  "notes": "OK (no gain in female first authors). Abstract: female authorships were 35% of the total; the double-blind journal (Behavioral Ecology) did not have more female authorships than its single-blind counterparts (Fig. 2 for first/last authors)."
+}

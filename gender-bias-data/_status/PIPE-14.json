@@ -1,0 +1,26 @@
+{
+ "id": "PIPE-14",
+ "title": "Spoon et al. 2023, Science Advances, gender and retention among US faculty",
+ "url_used": "https://doi.org/10.1126/sciadv.adi2205",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-14/article.json",
+  "gender-bias-data/01-pipeline/PIPE-14/article.xml",
+  "gender-bias-data/01-pipeline/PIPE-14/data/gender-and-retention-us-faculty-code.zip",
+  "gender-bias-data/01-pipeline/PIPE-14/data/gender-and-retention-us-faculty-data.zip",
+  "gender-bias-data/01-pipeline/PIPE-14/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-14/page.html",
+  "gender-bias-data/01-pipeline/PIPE-14/source.pdf",
+  "gender-bias-data/01-pipeline/PIPE-14/supplementary/sciadv.adi2205_sm.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-14/figures/PIPE-14_fig1.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/PIPE-14_fig2.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/PIPE-14_fig3.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f1.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f2.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f3.jpg",
+  "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f4.jpg"
+ ],
+ "notes": "PMC OA PDF/XML + Zenodo data (employment records, survey) and code. Key number OK: 6/10/19% higher attrition asst/assoc/full (Fig 2A)."
+}

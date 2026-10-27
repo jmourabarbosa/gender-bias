@@ -1,0 +1,12 @@
+{
+  "id": "PAY-08",
+  "title": "Women in Academic Science: A Changing Landscape",
+  "url_used": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26172066%20AND%20SRC:MED&format=json&resultType=core",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-08/abstract_europepmc.json",
+    "gender-bias-data/06-pay/PAY-08/notes.md"
+  ],
+  "access_status": "paywalled",
+  "figures_extracted": [],
+  "notes": "OK (counterpoint: parity once hired in math-intensive fields). Abstract: of those who obtain doctorates in math-intensive fields, men and women entering the professoriate have equivalent access to tenure-track jobs and persist and are remunerated at comparable rates; female PhD applicants fare at least as well in interviews/offers; more pipeline leakage in fields where women are already prevalent."
+}

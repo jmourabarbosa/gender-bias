@@ -1,0 +1,25 @@
+{
+ "id": "HIRE-04",
+ "title": "Committees with implicit biases promote fewer women when they do not believe gender bias exists",
+ "url_used": "https://hal.science/hal-04860219/document (author accepted manuscript, HAL; no embedded figures). Figures: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41562-019-0686-3/MediaObjects/41562_2019_686_Fig1_HTML.png ; SI: .../41562_2019_686_MOESM1_ESM.pdf, MOESM2 (reporting summary), MOESM3_ESM.xlsx (Supp Table 1). nature.com PDF returned 429.",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-04/figures/41562_2019_686_Fig1_HTML.png",
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_fig1.png",
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_suppfig1ab.png",
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_suppfig1c.png",
+  "gender-bias-data/02-hiring/HIRE-04/notes.md",
+  "gender-bias-data/02-hiring/HIRE-04/page.html",
+  "gender-bias-data/02-hiring/HIRE-04/page1.html",
+  "gender-bias-data/02-hiring/HIRE-04/source.pdf",
+  "gender-bias-data/02-hiring/HIRE-04/supplementary/41562_2019_686_MOESM1_ESM.pdf",
+  "gender-bias-data/02-hiring/HIRE-04/supplementary/41562_2019_686_MOESM2_ESM.pdf",
+  "gender-bias-data/02-hiring/HIRE-04/supplementary/41562_2019_686_MOESM3_ESM.xlsx"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_fig1.png",
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_suppfig1ab.png",
+  "gender-bias-data/02-hiring/HIRE-04/figures/HIRE-04_suppfig1c.png"
+ ],
+ "notes": "Key claim OK; AAM from HAL + publisher Fig.1 and SI."
+}

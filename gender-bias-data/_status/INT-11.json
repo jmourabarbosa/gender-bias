@@ -1,0 +1,16 @@
+{
+  "id": "INT-11",
+  "title": "Advancing gender equality through the Athena SWAN Charter for Women in Science: an exploratory study of women's and men's perceptions",
+  "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5320775",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-11/article.json",
+    "gender-bias-data/09-interventions/INT-11/article.xml",
+    "gender-bias-data/09-interventions/INT-11/data/INT-11_quotes.txt",
+    "gender-bias-data/09-interventions/INT-11/source.pdf",
+    "gender-bias-data/09-interventions/INT-11/supplementary/12961_2017_177_MOESM1_ESM.pdf",
+    "gender-bias-data/09-interventions/INT-11/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [],
+  "notes": "OK (qualitative). Qualitative: 'Athena SWAN has raised the profile of the fight against discrimination. There has been a significant backlash...' (survey comment); conclusion: positive impact but limits without wider institutional and societal change."
+}

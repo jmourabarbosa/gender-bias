@@ -1,0 +1,21 @@
+{
+  "id": "PAY-09",
+  "title": "How parenthood contributes to gender gaps in academia",
+  "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9299837",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-09/article.json",
+    "gender-bias-data/06-pay/PAY-09/article.xml",
+    "gender-bias-data/06-pay/PAY-09/source.pdf",
+    "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-mdarchecklist1.pdf",
+    "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp1.docx",
+    "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp2.docx",
+    "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp3.docx",
+    "gender-bias-data/06-pay/PAY-09/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/06-pay/PAY-09/figures/PAY-09_fig1.jpg",
+    "gender-bias-data/06-pay/PAY-09/figures/PAY-09_fig2.jpg"
+  ],
+  "notes": "n.a. (SOURCES.md has no key number; author attribution MISMATCH: not Derrick et al.). Survey of 7,764 academics: gender gaps appear in the parent group only. Mothers vs fathers: OR 0.72 (95% CI 0.63-0.82) for satisfaction with research achievements, OR 1.31 (1.19-1.45) for higher work-family conflict; non-parents show no significant gap (OR 1.05 for conflict)."
+}

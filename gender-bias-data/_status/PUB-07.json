@@ -1,0 +1,16 @@
+{
+  "id": "PUB-07",
+  "title": "Journals invite too few women to referee",
+  "url_used": "source.pdf from first pass (Unpaywall/existing); landing https://doi.org/10.1038/541455a",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-07/figures/PUB-07_fig1.png",
+    "gender-bias-data/04-publishing/PUB-07/notes.md",
+    "gender-bias-data/04-publishing/PUB-07/page.html",
+    "gender-bias-data/04-publishing/PUB-07/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-07/figures/PUB-07_fig1.png"
+  ],
+  "notes": "Key number: MATCH. Graphic panel D (p.2): women 20% of reviewers vs 27% of published first authors (all ages, AGU journals 2012-2015)."
+}

@@ -1,0 +1,5 @@
+period,arm,pct_women_hires,n_hires,source
+pre,control,33,109,"Devine et al. 2017 JESP 73:211, OSF preprint p.6 (descriptive hiring rates)"
+pre,intervention,32,85,"Devine et al. 2017 JESP 73:211, OSF preprint p.6 (descriptive hiring rates)"
+post,control,32,113,"Devine et al. 2017 JESP 73:211, OSF preprint p.6 (descriptive hiring rates)"
+post,intervention,47,101,"Devine et al. 2017 JESP 73:211, OSF preprint p.6 (descriptive hiring rates)"

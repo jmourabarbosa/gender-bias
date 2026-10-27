@@ -1,0 +1,15 @@
+{
+ "id": "DATA-02",
+ "title": "MESR parity study of enseignants-chercheurs",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/content_migration/document/Etude_parite_1114899.pdf",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-02/data/tableau1_2014.csv",
+  "gender-bias-data/10-datasets/DATA-02/notes.md",
+  "gender-bias-data/10-datasets/DATA-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-02/figures/DATA-02_tab1.png"
+ ],
+ "notes": "Landing page Cloudflare-blocked; PDF direct. Reference values OK: 2014 MCF 43%, PR 24% (Tableau 1)."
+}

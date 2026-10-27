@@ -1,0 +1,12 @@
+{
+ "id": "FUND-03",
+ "title": "No evidence of sexism in peer review (correspondence)",
+ "url_used": "https://www.nature.com/articles/37213.pdf -> landing page (paywalled), saved as page.html. Unpaywall: not OA.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-03/notes.md",
+  "gender-bias-data/03-funding/FUND-03/page.html"
+ ],
+ "access_status": "paywalled",
+ "figures_extracted": [],
+ "notes": "Paywalled; listed link 37216 is the wrong article (correct DOI 10.1038/37213); 27.5% vs 26.9% unverified."
+}

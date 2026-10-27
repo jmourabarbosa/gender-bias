@@ -1,0 +1,16 @@
+{
+  "id": "PAY-03",
+  "title": "Comment expliquer les inegalites de remuneration entre femmes et hommes au CNRS en 2021 ? Decomposer les facteurs cles (synthese)",
+  "url_used": "https://mpdf.cnrs.fr/wp-content/uploads/2023/12/MPDF-analyse-remunerations-synthese-2023.pdf",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-03/source.pdf",
+    "gender-bias-data/06-pay/PAY-03/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/06-pay/PAY-03/figures/PAY-03_fig1.png",
+    "gender-bias-data/06-pay/PAY-03/figures/PAY-03_fig6.png",
+    "gender-bias-data/06-pay/PAY-03/figures/PAY-03_fig7.png"
+  ],
+  "notes": "OK (-13.9%, -557 EUR/month); note SOURCES.md title 'Analyse des remunerations 2023' is a paraphrase - actual title above, data year 2021. p.2 (PDF p.4): mean income of permanent women staff 13.9% (557 EUR/month) below men's in FTE terms (citing CNRS Rapport social unique 2020, Tableau 119). Fig. 1: monthly gap by post type (e.g. ITA titulaires 498 EUR, CH titulaires 196 EUR). Figs 6-7: annual primes/indemnities by corps and sex."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "HIRE-01",
+ "title": "Science faculty's subtle gender biases favor male students",
+ "url_used": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/12MDBGH.pdf (NYU course-reading copy of the publisher PDF incl. SI). PNAS PDF (Cloudflare 403), Europe PMC render (Cloudflare challenge) and PMC3478626 (reCAPTCHA) were blocked; Yale Poorvu copy 404.",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-01/figures/HIRE-01_fig1.png",
+  "gender-bias-data/02-hiring/HIRE-01/figures/HIRE-01_fig2.png",
+  "gender-bias-data/02-hiring/HIRE-01/notes.md",
+  "gender-bias-data/02-hiring/HIRE-01/page.html",
+  "gender-bias-data/02-hiring/HIRE-01/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-01/figures/HIRE-01_fig1.png",
+  "gender-bias-data/02-hiring/HIRE-01/figures/HIRE-01_fig2.png"
+ ],
+ "notes": "Key number OK ($26,508 vs $30,238)."
+}

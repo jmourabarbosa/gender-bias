@@ -1,0 +1,61 @@
+# PUB-02: The gender gap in science: How long until women are equally represented?
+
+- **Citation:** Holman L, Stuart-Fox D, Hauser CE (2018). PLoS Biol 16(4):e2004956. doi:10.1371/journal.pbio.2004956
+- **url_used:** PMC OA bucket PMC5908072 (first pass); data: https://github.com/lukeholman/genderGap , https://github.com/lukeholman/genderGapCode , https://osf.io/bt9ya/
+- **Access status:** downloaded
+- **Headline number found:** p.6: last-author share in physics ~13%, rising ~0.1%/yr; model predicts 258 years (95% CI 194-383) to come within 5% of parity (S3 Data).
+- **Key number check (SOURCES.md):** MATCH (258 years refers to senior/last authors in physics, arXiv data)
+- **Notes:** Fig 1 and Fig 2 = trajectories/years-to-parity by discipline.
+- **Data:** data/: S1-S3 Data CSVs (pbio.2004956.s027-s029); web-app data JSON (25 MB, genderGap repo); 'Author counts for journal country and position.csv.zip' (23 MB, genderGapCode repo); OSF arxiv data.csv (70 MB, https://osf.io/download/y9zsn/). NOT downloaded: OSF pubmed_gender_data.sqlite3 (2.46 GB) https://osf.io/download/7kbyf/
+
+## Files
+
+- gender-bias-data/04-publishing/PUB-02/article.json
+- gender-bias-data/04-publishing/PUB-02/article.xml
+- gender-bias-data/04-publishing/PUB-02/data/Author_counts_for_journal_country_and_position.csv.zip
+- gender-bias-data/04-publishing/PUB-02/data/data_for_web_app_no_list.json
+- gender-bias-data/04-publishing/PUB-02/data/osf_arxiv_data.csv
+- gender-bias-data/04-publishing/PUB-02/data/pbio.2004956.s027.csv
+- gender-bias-data/04-publishing/PUB-02/data/pbio.2004956.s028.csv
+- gender-bias-data/04-publishing/PUB-02/data/pbio.2004956.s029.csv
+- gender-bias-data/04-publishing/PUB-02/figures/PUB-02_fig1.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/PUB-02_fig2.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.e001.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.e002.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g001.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g002.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g003.jpg
+- gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g004.jpg
+- gender-bias-data/04-publishing/PUB-02/page.html
+- gender-bias-data/04-publishing/PUB-02/page1.html
+- gender-bias-data/04-publishing/PUB-02/source.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s001.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s002.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s003.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s004.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s005.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s006.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s007.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s008.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s009.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s010.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s011.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s012.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s013.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s014.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s015.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s016.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s017.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s018.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s019.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s020.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s021.eps
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s022.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s023.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s024.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s025.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s026.pdf
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s027.csv
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s028.csv
+- gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s029.csv
+- gender-bias-data/04-publishing/PUB-02/notes.md

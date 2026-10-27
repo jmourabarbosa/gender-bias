@@ -1,0 +1,17 @@
+{
+ "id": "DATA-04",
+ "title": "UNESCO UIS data browser (female researchers %)",
+ "url_used": "https://api.uis.unesco.org/api/public/data/indicators?indicator=FRESP.THC&indicator=FRESP.TFTE&indicator=FRESP.SP.THC.BUSENTSP&indicator=FRESP.SP.THC.GOVSP&indicator=FRESP.SP.THC.HIEDUSP&indicator=FRESP.SP.THC.PRNPSP&footnotes=true",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-04/data/uis_api_response.json",
+  "gender-bias-data/10-datasets/DATA-04/data/uis_female_researchers_pct.csv",
+  "gender-bias-data/10-datasets/DATA-04/data/uis_geounits.json",
+  "gender-bias-data/10-datasets/DATA-04/notes.md",
+  "gender-bias-data/10-datasets/DATA-04/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-04/figures/DATA-04_redraw.png"
+ ],
+ "notes": "UIS public API, 6 indicators (HC, FTE, by sector), all countries/regions. World 29.5% (2013) -> 31.4% (2023); differs slightly from PIPE-10 factsheet (31.1% for 2022)."
+}

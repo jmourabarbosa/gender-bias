@@ -1,0 +1,19 @@
+{
+ "id": "FUND-21",
+ "title": "NIH Data Book: success rates by sex",
+ "url_used": "API https://report.nih.gov/reportweb/api/databook/GetJsonData?reportId=132 (RPG applications/awards/success rate by sex, FY1998-2025) and reportId=131 (R01-equivalent success by sex and type); metadata https://report.nih.gov/reportweb/api/report/Get/<id>. Script: scripts/collect/nih_databook.py. NOTE: the listed link displayreport?rId=1005 redirects to a 2007 PDF 'Women supported by Kirschstein-NRSA training grants and fellowships' (kept as source.pdf), not a funding-rate report.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-21/data/nih_databook_report131.csv",
+  "gender-bias-data/03-funding/FUND-21/data/nih_databook_report131.json",
+  "gender-bias-data/03-funding/FUND-21/data/nih_databook_report132.csv",
+  "gender-bias-data/03-funding/FUND-21/data/nih_databook_report132.json",
+  "gender-bias-data/03-funding/FUND-21/figures/FUND-21_redraw.png",
+  "gender-bias-data/03-funding/FUND-21/notes.md",
+  "gender-bias-data/03-funding/FUND-21/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-21/figures/FUND-21_redraw.png"
+ ],
+ "notes": "Data from NIH Data Book API (reports 131/132); listed rId=1005 link is the wrong report (2007 NRSA PDF)."
+}

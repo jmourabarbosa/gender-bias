@@ -1,0 +1,15 @@
+{
+  "id": "CIT-04",
+  "title": "Men Set Their Own Cites High: Gender and Self-citation across Fields and over Time",
+  "url_used": "source.pdf (first pass, Socius OA)",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-04/figures/CIT-04_fig1.png",
+    "gender-bias-data/05-citations/CIT-04/notes.md",
+    "gender-bias-data/05-citations/CIT-04/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-04/figures/CIT-04_fig1.png"
+  ],
+  "notes": "Key number: MATCH. Abstract p.1 & p.8: men cited their own papers 56% more than women (1779-2011); 70% more in last two decades."
+}

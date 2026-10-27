@@ -1,0 +1,21 @@
+{
+ "id": "DATA-06",
+ "title": "Nature Index author gender ratio",
+ "url_used": "https://www.nature.com/nature-index/gender-ratio-author-position-by-topic-api",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-author-position-by-topic-api.csv",
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-author-position-by-topic-api.json",
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-by-research-topic-api.csv",
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-by-research-topic-api.json",
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-by-subject-api.csv",
+  "gender-bias-data/10-datasets/DATA-06/data/gender-ratio-by-subject-api.json",
+  "gender-bias-data/10-datasets/DATA-06/notes.md",
+  "gender-bias-data/10-datasets/DATA-06/page.html",
+  "gender-bias-data/10-datasets/DATA-06/page1.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-06/figures/DATA-06_redraw.png"
+ ],
+ "notes": "Page JSON endpoints (plain GET, no headless browser). Neurosciences 2025: 41.8% first, 28.5% last female authorships; all subjects 32.2%."
+}

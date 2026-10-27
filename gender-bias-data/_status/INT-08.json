@@ -1,0 +1,17 @@
+{
+  "id": "INT-08",
+  "title": "Effect of an Intervention to Break the Gender Bias Habit for Faculty at One Institution: A Cluster Randomized, Controlled Trial",
+  "url_used": "https://advance.washington.edu/liy/sites/default/files/Carnesetal_2015_0.pdf",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-08/article.json",
+    "gender-bias-data/09-interventions/INT-08/article.xml",
+    "gender-bias-data/09-interventions/INT-08/data/INT-08.csv",
+    "gender-bias-data/09-interventions/INT-08/source.pdf",
+    "gender-bias-data/09-interventions/INT-08/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-08/figures/INT-08_redraw.png"
+  ],
+  "notes": "OK (awareness up at 3 months). Table 3: personal bias awareness +0.36 at 3 days (P=.009) and +0.48 at 3 months (P=.001) vs control; GE self-efficacy +0.20 at 3 months (P=.013); action increased at 3 months only in departments with >=25% attendance (P=.007)."
+}

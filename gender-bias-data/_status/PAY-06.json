@@ -1,0 +1,15 @@
+{
+  "id": "PAY-06",
+  "title": "Women in Science. Lessons from the Baby Boom",
+  "url_used": "https://www.nber.org/system/files/working_papers/w29436/w29436.pdf",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-06/source.pdf",
+    "gender-bias-data/06-pay/PAY-06/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/06-pay/PAY-06/figures/PAY-06_fig4.png",
+    "gender-bias-data/06-pay/PAY-06/figures/PAY-06_fig6.png"
+  ],
+  "notes": "OK (27% vs 48%). p.2 / p.19: 'Just 27% of mothers who are academic scientists get tenure, compared with 48% of fathers and 46% of women without children.'"
+}

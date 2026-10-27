@@ -1,0 +1,11 @@
+{
+ "id": "FUND-14",
+ "title": "ERC gender flyer (2022)",
+ "url_used": "none. erc.europa.eu returns CloudFront 403 'Request blocked' to this sandbox (all pages, also via WebFetch: host not allowed). Wayback snapshot http://web.archive.org/web/20251007025950/https://erc.europa.eu/sites/default/files/2022-09/gender_flyer.pdf exists but web.archive.org is unreachable here.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-14/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "ERC site blocked (CloudFront 403); Wayback copy exists but unreachable; StG 24% vs AdG 12% unverified."
+}

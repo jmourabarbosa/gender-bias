@@ -1,0 +1,22 @@
+{
+ "id": "PIPE-13",
+ "title": "Huang, Gates, Sinatra & Barabási 2020, PNAS",
+ "url_used": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7060730",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-13/article.json",
+  "gender-bias-data/01-pipeline/PIPE-13/article.xml",
+  "gender-bias-data/01-pipeline/PIPE-13/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-13/source.pdf",
+  "gender-bias-data/01-pipeline/PIPE-13/supplementary/pnas.1914221117.sapp.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-13/figures/PIPE-13_fig4.jpg",
+  "gender-bias-data/01-pipeline/PIPE-13/figures/PIPE-13_fig4AB.png",
+  "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig01.jpg",
+  "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig02.jpg",
+  "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig03.jpg",
+  "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig04.jpg"
+ ],
+ "notes": "PMC OA PDF/XML/SI from first pass; reCAPTCHA page.html deleted. Key number OK: dropout 10.8% vs 9.0%; productivity gap -27.4% -> -9.0% (Fig 4C)."
+}

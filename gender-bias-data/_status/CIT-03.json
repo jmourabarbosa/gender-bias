@@ -1,0 +1,16 @@
+{
+  "id": "CIT-03",
+  "title": "Quantitative evaluation of gender bias in astronomical publications from citation counts",
+  "url_used": "source.pdf = arXiv preprint (first pass); landing page.html",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-03/figures/CIT-03_fig1.png",
+    "gender-bias-data/05-citations/CIT-03/notes.md",
+    "gender-bias-data/05-citations/CIT-03/page.html",
+    "gender-bias-data/05-citations/CIT-03/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-03/figures/CIT-03_fig1.png"
+  ],
+  "notes": "Key number: MATCH. Abstract p.1: papers authored by females receive 10.4 +/- 0.9% fewer citations than expected."
+}

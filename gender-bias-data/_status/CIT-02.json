@@ -1,0 +1,18 @@
+{
+  "id": "CIT-02",
+  "title": "Gender Disparity in Citations in High-Impact Journal Articles",
+  "url_used": "PMC OA bucket PMC8254129 XML (first pass). PDF attempts: jamanetwork.com (Cloudflare 403), europepmc render (403), PMC pdf (reCAPTCHA)",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-02/article.json",
+    "gender-bias-data/05-citations/CIT-02/article.xml",
+    "gender-bias-data/05-citations/CIT-02/data/table3_median_citations_by_author_pair.csv",
+    "gender-bias-data/05-citations/CIT-02/figures/CIT-02_redraw.png",
+    "gender-bias-data/05-citations/CIT-02/notes.md",
+    "gender-bias-data/05-citations/CIT-02/supplementary/jamanetwopen-e2114509-s001.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-02/figures/CIT-02_redraw.png"
+  ],
+  "notes": "Key number: MATCH. Table 2: overall median citations 36 (IQR 17-82) for women primary authors vs 54 (22-141) for men; Table 3 by pair: WW 33, WM 38.5, MW 42, MM 59."
+}

@@ -1,0 +1,21 @@
+{
+ "id": "FUND-10",
+ "title": "Gender and other potential biases in peer review: cross-sectional analysis of 38 250 external peer review reports",
+ "url_used": "PMC OA bucket https://pmc-oa-opendata.s3.amazonaws.com/PMC7440717 (first pass). bmj.com landing page was a bot check (deleted).",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-10/article.json",
+  "gender-bias-data/03-funding/FUND-10/article.xml",
+  "gender-bias-data/03-funding/FUND-10/figures/FUND-10_fig1.jpg",
+  "gender-bias-data/03-funding/FUND-10/figures/bmjopen-2019-035058f01.jpg",
+  "gender-bias-data/03-funding/FUND-10/notes.md",
+  "gender-bias-data/03-funding/FUND-10/source.pdf",
+  "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058.draft_revisions.pdf",
+  "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058.reviewer_comments.pdf",
+  "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058supp001.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-10/figures/FUND-10_fig1.jpg"
+ ],
+ "notes": "Key number OK (+0.18; adjusted 0.08)."
+}

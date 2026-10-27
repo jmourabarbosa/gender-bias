@@ -10,7 +10,7 @@ for k, (name, ys) in enumerate(spec['series'].items()):
     if spec.get('labels'):
         for a, b in pts: ax.annotate(f'{b:g}', (a, b), textcoords='offset points', xytext=(0, 6), ha='center', fontsize=7)
 if 'ref' in spec: ax.axhline(spec['ref'], color='black', lw=0.7, ls='--')
-ax.set_ylabel(spec.get('ylabel', '')); ax.set_ylim(*spec.get('ylim', (0, 100)))
+ax.set_ylabel(spec.get('ylabel', '')); ax.set_xlabel(spec.get('xlabel', '')); ax.set_ylim(*spec.get('ylim', (0, 100)))
 for s in ('top', 'right'): ax.spines[s].set_visible(False)
 ax.legend(frameon=False, fontsize=8, loc=spec.get('legend_loc', 'best'))
 fig.tight_layout(); fig.savefig(out)

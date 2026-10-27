@@ -1,0 +1,15 @@
+{
+  "id": "INT-02",
+  "title": "Orchestrating false beliefs about gender discrimination",
+  "url_used": "https://gwern.net/doc/www/jsmp.medium.com/0b9410ad1a51bf0a5a52c96c3177223217b013af.html",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-02/data/INT-02.csv",
+    "gender-bias-data/09-interventions/INT-02/page.html",
+    "gender-bias-data/09-interventions/INT-02/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-02/figures/INT-02_redraw.png"
+  ],
+  "notes": "OK (0.042 -> 0.33). 'There is one p-value (0.042) that is nominally significant at 0.05. However, given that at least 8 tests are performed in this table ... the Bonferroni correction gives us a p-value of 0.33.'"
+}

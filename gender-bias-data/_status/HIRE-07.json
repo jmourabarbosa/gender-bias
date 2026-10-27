@@ -1,0 +1,20 @@
+{
+ "id": "HIRE-07",
+ "title": "Gender differences in recommendation letters for postdoctoral fellowships in geoscience",
+ "url_used": "https://serc.carleton.edu/download/files/138789/gender_dierences_recommendation_let.pdf (SERC/Carleton hosted copy, linked from https://serc.carleton.edu/details/files/138789.html)",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-07/data/HIRE-07.csv",
+  "gender-bias-data/02-hiring/HIRE-07/figures/HIRE-07_redraw.png",
+  "gender-bias-data/02-hiring/HIRE-07/figures/HIRE-07_table4.png",
+  "gender-bias-data/02-hiring/HIRE-07/notes.md",
+  "gender-bias-data/02-hiring/HIRE-07/page.html",
+  "gender-bias-data/02-hiring/HIRE-07/page1.html",
+  "gender-bias-data/02-hiring/HIRE-07/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-07/figures/HIRE-07_redraw.png",
+  "gender-bias-data/02-hiring/HIRE-07/figures/HIRE-07_table4.png"
+ ],
+ "notes": "Key number OK (15% vs 24%)."
+}

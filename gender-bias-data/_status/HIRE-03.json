@@ -1,0 +1,20 @@
+{
+ "id": "HIRE-03",
+ "title": "National hiring experiments reveal 2:1 faculty preference for women on STEM tenure track",
+ "url_used": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4418903/ (full-text HTML saved as pmc_article.html; figures from cdn.ncbi.nlm.nih.gov/pmc/blobs/...). No PDF: PNAS 403 Cloudflare, PMC OA bucket has no record (not OA subset), Europe PMC not OA.",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-03/figures/HIRE-03_fig1.jpg",
+  "gender-bias-data/02-hiring/HIRE-03/figures/pnas.1418878112fig01.jpg",
+  "gender-bias-data/02-hiring/HIRE-03/figures/pnas.1418878112fig02.jpg",
+  "gender-bias-data/02-hiring/HIRE-03/figures/pnas.1418878112fig03.jpg",
+  "gender-bias-data/02-hiring/HIRE-03/figures/pnas.1418878112fig04.jpg",
+  "gender-bias-data/02-hiring/HIRE-03/notes.md",
+  "gender-bias-data/02-hiring/HIRE-03/page.html",
+  "gender-bias-data/02-hiring/HIRE-03/pmc_article.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-03/figures/HIRE-03_fig1.jpg"
+ ],
+ "notes": "Key number OK (2:1, 67.3%). Full text is PMC HTML, no PDF."
+}

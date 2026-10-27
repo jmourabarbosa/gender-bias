@@ -1,0 +1,8 @@
+parameter,value,source
+intercept_female,2.09,"Wenneras & Wold 1997 Table 1, total-impact model (r2=0.47)"
+male_bonus_points,0.21,"Table 1 (P<0.00005)"
+competence_per_impact_point,0.0033,"Table 1"
+reviewer_affiliation_bonus,0.22,"Table 1"
+male_gender_in_impact_points,64,"Table 1 / text: 64 impact points (95% CI 35-93)"
+reviewer_affiliation_in_impact_points,67,"Table 1 (95% CI 29-105)"
+mean_total_impact_cohort,40,"text"

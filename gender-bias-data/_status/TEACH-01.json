@@ -1,0 +1,16 @@
+{
+  "id": "TEACH-01",
+  "title": "What's in a Name: Exposing Gender Bias in Student Ratings of Teaching",
+  "url_used": "https://link.springer.com/article/10.1007/s10755-014-9313-4",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-01/data/TEACH-01.csv",
+    "gender-bias-data/07-teaching/TEACH-01/page.html",
+    "gender-bias-data/07-teaching/TEACH-01/press_ncsu.html",
+    "gender-bias-data/07-teaching/TEACH-01/notes.md"
+  ],
+  "access_status": "paywalled",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-01/figures/TEACH-01_redraw.png"
+  ],
+  "notes": "OK (4.35 vs 3.55) - from press release; paper table not accessible. NC State press release: the instructor students thought was male got 4.35/5 for promptness vs 3.55 for the one thought female (same grading turnaround); 43 students in 4 online sections."
+}

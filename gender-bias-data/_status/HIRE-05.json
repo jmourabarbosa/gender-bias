@@ -1,0 +1,18 @@
+{
+ "id": "HIRE-05",
+ "title": "A linguistic comparison of letters of recommendation for male and female chemistry and biochemistry job applicants",
+ "url_used": "https://www.oacd.health.pitt.edu/sites/default/files/linguistic_comparison_of_letters_of_recommendation.pdf (Univ. of Pittsburgh copy of the publisher PDF). Springer and PMC blocked by bot checks.",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-05/data/HIRE-05.csv",
+  "gender-bias-data/02-hiring/HIRE-05/figures/HIRE-05_redraw.png",
+  "gender-bias-data/02-hiring/HIRE-05/figures/HIRE-05_table2.png",
+  "gender-bias-data/02-hiring/HIRE-05/notes.md",
+  "gender-bias-data/02-hiring/HIRE-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-05/figures/HIRE-05_redraw.png",
+  "gender-bias-data/02-hiring/HIRE-05/figures/HIRE-05_table2.png"
+ ],
+ "notes": "Key claim OK (.70 vs .60% standout words); table crop + redraw."
+}

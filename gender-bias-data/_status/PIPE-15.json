@@ -1,0 +1,28 @@
+{
+ "id": "PIPE-15",
+ "title": "LaBerge, Wapman, Clauset & Larremore 2024, eLife",
+ "url_used": "https://elifesciences.org/articles/93755",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-15/article.json",
+  "gender-bias-data/01-pipeline/PIPE-15/article.xml",
+  "gender-bias-data/01-pipeline/PIPE-15/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-15/source.pdf",
+  "gender-bias-data/01-pipeline/PIPE-15/supplementary/elife-93755-mdarchecklist1.docx"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-15/figures/PIPE-15_fig3.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig1.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig2.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig3.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig4.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig5.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig6.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig7.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig8.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig1.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig2.jpg",
+  "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig3.jpg"
+ ],
+ "notes": "eLife/PMC PDF+XML. Key number OK: 36% women T/TT (cited Wapman 2022); no domain reaches stable parity by 2060 (Fig 3). Raw AARC data under DUA, not public."
+}

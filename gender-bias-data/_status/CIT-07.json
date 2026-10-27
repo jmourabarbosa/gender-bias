@@ -1,0 +1,16 @@
+{
+  "id": "CIT-07",
+  "title": "The gender gap in highly prestigious international research awards, 2001-2020",
+  "url_used": "https://scholarworks.aub.edu.lb/items/18d28692-a53d-4e17-909b-d17a78f3a265 (AUB ScholarWorks; publisher PDF at direct.mit.edu and CORE copy both Cloudflare-blocked)",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-07/data/Meho_AwardRecipientsData.xlsx",
+    "gender-bias-data/05-citations/CIT-07/figures/CIT-07_fig1.png",
+    "gender-bias-data/05-citations/CIT-07/notes.md",
+    "gender-bias-data/05-citations/CIT-07/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-07/figures/CIT-07_fig1.png"
+  ],
+  "notes": "Key number: MATCH. Abstract: 3,445 awards to 2,011 men and 262 women (262/2,273 = 11.5% of recipients); women's share rose from 6% (2001-05) to 19% (2016-20). Fig 2: 6%, 9%, 11%, 19% by 5-year bin."
+}

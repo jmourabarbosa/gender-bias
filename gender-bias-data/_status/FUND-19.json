@@ -1,0 +1,21 @@
+{
+ "id": "FUND-19",
+ "title": "Femmes et hommes dans l'AAPG 2015-2025 (ANR)",
+ "url_used": "https://anr.fr/fileadmin/documents/2026/ANR-femmes-et-hommes-aapg-2015-2025-04206.pdf (first pass)",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig7.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8a.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8b.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8c.png",
+  "gender-bias-data/03-funding/FUND-19/notes.md",
+  "gender-bias-data/03-funding/FUND-19/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig7.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8a.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8b.png",
+  "gender-bias-data/03-funding/FUND-19/figures/FUND-19_fig8c.png"
+ ],
+ "notes": "Key number OK (26% vs 24% in 2024; 2025 women 3 pts lower)."
+}

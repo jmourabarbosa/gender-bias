@@ -1,0 +1,15 @@
+{
+  "id": "INT-12",
+  "title": "ERC Work Programme 2026 - eligibility period extensions (maternity/paternity leave)",
+  "url_used": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-12/source.pdf",
+    "gender-bias-data/09-interventions/INT-12/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-12/figures/INT-12_fig1.png",
+    "gender-bias-data/09-interventions/INT-12/figures/INT-12_fig2.png"
+  ],
+  "notes": "OK (18 months per child). Section 1.4.2.2, p.18: 'Maternity leave: an 18-month extension per child born before or after the Principal Investigator's PhD Defence Date' (longer if actual leave longer); paternity/parental leave: documented amount per child (p.19)."
+}

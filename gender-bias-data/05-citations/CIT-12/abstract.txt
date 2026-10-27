@@ -1,0 +1,33 @@
+1. Proc Biol Sci. 2026 May 27;293(2071):20252566. doi: 10.1098/rspb.2025.2566.
+
+Monitoring the gender gap in the coverage of biology professors on Wikipedia.
+
+Alvarez-Ponce D(1), Iyengar N(1).
+
+Author information:
+(1)Biology Department, University of Nevada Reno, Reno, NV, USA.
+
+Women are under-represented in science, technology, engineering and mathematics 
+(STEM) fields, especially in senior positions. One known reason is the limited 
+visibility of female scientists, which discourages young women from entering 
+STEM fields, thus perpetuating the gender gap. A number of studies have shown 
+that women, including those in academia, are less likely to have a Wikipedia 
+biography than their male counterparts, and that, when they have a biography, it 
+tends to be underdeveloped. Since Wikipedia informs a large portion of society 
+on a daily basis-especially young people-who is covered on the platform, and who 
+is excluded from it, matters. Therefore, a number of projects have been created 
+to increase women's coverage on Wikipedia. Using a recently generated census of 
+2104 female and 3721 male tenured and tenure-eligible faculty members affiliated 
+with the biology departments of all United States R1 universities, we examined 
+the extent to which biology faculty are covered on Wikipedia. Women in the 
+census were significantly less likely to be featured on the platform than their 
+male peers until 2018. However, the trend reversed in 2022, and women were 25% 
+more likely than men to have a Wikipedia biography in 2024. In addition, women's 
+biographies tend to be longer than those of men. Our results highlight the 
+importance and effectiveness of projects aimed at improving women's coverage on 
+Wikipedia.
+
+© 2026 The Author(s).
+
+DOI: 10.1098/rspb.2025.2566
+PMID: 42191161 [Indexed for MEDLINE]

@@ -1,0 +1,8 @@
+feature,coef,ci_low,ci_high,odds_multiplier,source
+Top company,0.74,0.27,1.21,2.1,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+Famous author,0.49,0.05,0.93,1.63,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+Top university,0.46,0.09,0.83,1.58,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+Woman author,-0.25,-0.6,0.1,0.78,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+Same country,0.14,-0.34,0.62,1.15,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+Academic,0.06,-0.38,0.51,1.06,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"
+USA,0.01,-0.42,0.44,1.01,"Tomkins, Zhang & Heavlin 2017, arXiv:1702.00502v6 Table 5 (review score model)"

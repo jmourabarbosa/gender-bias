@@ -1,0 +1,25 @@
+{
+ "id": "FUND-20",
+ "title": "Wellcome grant funding data 2024/25",
+ "url_used": "https://wellcome.org/research-funding/funding-portfolio/funding-data-2024 ; CSVs from https://cms.wellcome.org/sites/default/files/2026-05/ (wellcome-gender-grant-data-25.csv etc.); older: https://wellcome.org/reports/grant-funding-data-2019-2020 , https://wellcome.org/reports/grant-funding-data-2018-2019 , https://cms.wellcome.org/sites/default/files/2021-03/Report_Wellcome_Grant_Funding_data_2019-20.pdf",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-20/data/FUND-20.csv",
+  "gender-bias-data/03-funding/FUND-20/data/Report_Wellcome_Grant_Funding_data_2019-20.pdf",
+  "gender-bias-data/03-funding/FUND-20/data/Wellcome-UK-international-ethnicity-success-rates_0.csv",
+  "gender-bias-data/03-funding/FUND-20/data/Wellcome-disability-data-25_in.csv",
+  "gender-bias-data/03-funding/FUND-20/data/wellcome-2425-active-portfolio-country_0.csv",
+  "gender-bias-data/03-funding/FUND-20/data/wellcome-amount-awarded-grants-25.csv",
+  "gender-bias-data/03-funding/FUND-20/data/wellcome-ethnicity-data-25_0.csv",
+  "gender-bias-data/03-funding/FUND-20/data/wellcome-gender-grant-data-25.csv",
+  "gender-bias-data/03-funding/FUND-20/figures/FUND-20_redraw.png",
+  "gender-bias-data/03-funding/FUND-20/notes.md",
+  "gender-bias-data/03-funding/FUND-20/page.html",
+  "gender-bias-data/03-funding/FUND-20/page_2018-19.html",
+  "gender-bias-data/03-funding/FUND-20/page_2019-20.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-20/figures/FUND-20_redraw.png"
+ ],
+ "notes": "Key number OK (10.4% vs 9.4%); gender CSV is award shares, success rates only in text."
+}

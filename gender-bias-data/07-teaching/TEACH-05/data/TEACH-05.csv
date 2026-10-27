@@ -1,0 +1,5 @@
+condition,gender,invest_rate_pct,source
+not asked,men,14,"Babcock, Recalde, Vesterlund & Weingart 2017 AER 107(3) p.733 (text, Experiment 3)"
+not asked,women,14,"Babcock, Recalde, Vesterlund & Weingart 2017 AER 107(3) p.733 (text, Experiment 3)"
+asked,men,51,"Babcock, Recalde, Vesterlund & Weingart 2017 AER 107(3) p.733 (text, Experiment 3)"
+asked,women,76,"Babcock, Recalde, Vesterlund & Weingart 2017 AER 107(3) p.733 (text, Experiment 3)"

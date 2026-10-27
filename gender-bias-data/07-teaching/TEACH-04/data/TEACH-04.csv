@@ -1,0 +1,4 @@
+variable,coef_hours_per_week,se,source
+female,0.6,0.22,"Guarino & Borden, IZA DP 10010 (2016) Table 6, p.16; error bars 95% CI"
+associate,3.84,0.26,"Guarino & Borden, IZA DP 10010 (2016) Table 6, p.16; error bars 95% CI"
+full,2.45,0.19,"Guarino & Borden, IZA DP 10010 (2016) Table 6, p.16; error bars 95% CI"

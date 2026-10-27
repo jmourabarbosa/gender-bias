@@ -1,0 +1,17 @@
+{
+  "id": "TEACH-06",
+  "title": "The Ivory Ceiling of Service Work",
+  "url_used": "https://advance-resource-admin.engr.uw.edu/file/MVyb8B2evA",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-06/data/TEACH-06.csv",
+    "gender-bias-data/07-teaching/TEACH-06/page.html",
+    "gender-bias-data/07-teaching/TEACH-06/page_aaup.html",
+    "gender-bias-data/07-teaching/TEACH-06/source.pdf",
+    "gender-bias-data/07-teaching/TEACH-06/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-06/figures/TEACH-06_redraw.png"
+  ],
+  "notes": "OK (25% vs 37% on research). Associate professors (UMass Amherst, 350 faculty): men spent 37% of work time on research vs women 25%; service 20% (men) vs 27% (women); men +7.5 h/week research, women +5 h/week service, +2 h mentoring, +1 h teaching."
+}

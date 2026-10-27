@@ -1,0 +1,17 @@
+{
+ "id": "HIRE-06",
+ "title": "Gender and letters of recommendation for academia: agentic and communal differences",
+ "url_used": "https://www.mikkihebl.com/uploads/9/0/2/3/90238177/43.pdf (author-hosted manuscript, 39 pp). Unpaywall: not OA; PubMed landing returned an Incapsula block page (deleted).",
+ "file_paths": [
+  "gender-bias-data/02-hiring/HIRE-06/figures/HIRE-06_fig2.png",
+  "gender-bias-data/02-hiring/HIRE-06/figures/HIRE-06_table2.png",
+  "gender-bias-data/02-hiring/HIRE-06/notes.md",
+  "gender-bias-data/02-hiring/HIRE-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/02-hiring/HIRE-06/figures/HIRE-06_fig2.png",
+  "gender-bias-data/02-hiring/HIRE-06/figures/HIRE-06_table2.png"
+ ],
+ "notes": "Key claim OK; author manuscript (not version of record); Fig.1 missing in manuscript."
+}

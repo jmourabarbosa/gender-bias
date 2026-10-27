@@ -1,0 +1,23 @@
+{
+  "id": "PUB-05",
+  "title": "Peer review and gender bias: A study on 145 scholarly journals",
+  "url_used": "PMC OA bucket PMC7787493 (first pass)",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-05/article.json",
+    "gender-bias-data/04-publishing/PUB-05/article.xml",
+    "gender-bias-data/04-publishing/PUB-05/figures/PUB-05_fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F1.jpg",
+    "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F2.jpg",
+    "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F3.jpg",
+    "gender-bias-data/04-publishing/PUB-05/notes.md",
+    "gender-bias-data/04-publishing/PUB-05/source.pdf",
+    "gender-bias-data/04-publishing/PUB-05/supplementary/abd0299_SM.pdf",
+    "gender-bias-data/04-publishing/PUB-05/supplementary/supp_7_2_eabd0299__1.pdf",
+    "gender-bias-data/04-publishing/PUB-05/supplementary/supp_7_2_eabd0299__index.html"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-05/figures/PUB-05_fig1.jpg"
+  ],
+  "notes": "Key number: MATCH. Abstract p.1: 'our findings suggest that peer review and editorial processes do not penalize manuscripts by women'; all-women/cross-gender teams often had higher success."
+}

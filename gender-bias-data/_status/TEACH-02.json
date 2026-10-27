@@ -1,0 +1,15 @@
+{
+  "id": "TEACH-02",
+  "title": "Gender biases in student evaluations of teaching",
+  "url_used": "https://www.unlv.edu/sites/default/files/page_files/27/Engineering-GenderBiases-AnneBoring.pdf",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-02/source.pdf",
+    "gender-bias-data/07-teaching/TEACH-02/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-02/figures/TEACH-02_fig1.png",
+    "gender-bias-data/07-teaching/TEACH-02/figures/TEACH-02_fig2.png"
+  ],
+  "notes": "OK approx. (key '~30% more likely' = 33% relative / +11 pp in source). p.7: a male student rates a male professor 'excellent' with a probability 11 percentage points higher than a female professor; 'The probability that a male student rates a male professor as excellent is 33% higher'."
+}

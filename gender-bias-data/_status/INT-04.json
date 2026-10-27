@@ -1,0 +1,19 @@
+{
+  "id": "INT-04",
+  "title": "Reviewer bias in single- versus double-blind peer review",
+  "url_used": "https://arxiv.org/pdf/1702.00502",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-04/article.json",
+    "gender-bias-data/09-interventions/INT-04/article.xml",
+    "gender-bias-data/09-interventions/INT-04/data/INT-04.csv",
+    "gender-bias-data/09-interventions/INT-04/source.pdf",
+    "gender-bias-data/09-interventions/INT-04/supplementary/pnas.201707323SI.pdf",
+    "gender-bias-data/09-interventions/INT-04/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-04/figures/INT-04_redraw.png",
+    "gender-bias-data/09-interventions/INT-04/figures/INT-04_table5.png"
+  ],
+  "notes": "OK (famous OR 1.63; female OR 0.78). arXiv Table 5 / abstract: single-blind reviewers' odds multipliers 1.63 for famous authors, 1.58 top universities, 2.10 top companies; female authors 0.78 (p=0.16, n.s.)."
+}

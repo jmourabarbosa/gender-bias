@@ -1,0 +1,18 @@
+{
+ "id": "PIPE-12",
+ "title": "Elsevier, Progress Towards Gender Equality in Research & Innovation, 2024 Review",
+ "url_used": "https://assets.ctfassets.net/o78em1y1w4i4/3W1JKBd7ez41lAJKFWkB4l/29265cb67668b03d273015fc3bb83b54/Progress_Toward_Gender_Equality_in_Research___Innovation___2024_Review__2.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-12/infographic_global.pdf",
+  "gender-bias-data/01-pipeline/PIPE-12/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-12/page.html",
+  "gender-bias-data/01-pipeline/PIPE-12/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-12/figures/PIPE-12_fig1-1.png",
+  "gender-bias-data/01-pipeline/PIPE-12/figures/PIPE-12_fig1-3.png",
+  "gender-bias-data/01-pipeline/PIPE-12/figures/PIPE-12_fig1-4.png"
+ ],
+ "notes": "Full report PDF (no form). Key number OK: 41% women active researchers 2022 (Fig 1-1). Country chart is 2018-22 snapshot+CAGR, not 2001-22 trend; neuroscience 50%."
+}

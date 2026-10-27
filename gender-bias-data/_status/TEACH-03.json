@@ -1,0 +1,16 @@
+{
+  "id": "TEACH-03",
+  "title": "Gender Bias in Teaching Evaluations",
+  "url_used": "https://docs.iza.org/dp11000.pdf",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-03/page.html",
+    "gender-bias-data/07-teaching/TEACH-03/source.pdf",
+    "gender-bias-data/07-teaching/TEACH-03/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-03/figures/TEACH-03_table7.png",
+    "gender-bias-data/07-teaching/TEACH-03/figures/TEACH-03_tableB2.png"
+  ],
+  "notes": "OK (women rated lower, esp. junior). Table 5/7: female instructors rated 0.21 SD lower by male students (overall -.2069***) and 0.08 SD lower by female students (-.076**); biggest for junior instructors (student instructors -.238, PhD students -.280 from male students; professors n.s.)."
+}

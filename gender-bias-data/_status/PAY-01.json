@@ -1,0 +1,19 @@
+{
+  "id": "PAY-01",
+  "title": "The Annual Report on the Economic Status of the Profession, 2025-26",
+  "url_used": "https://www.aaup.org/sites/default/files/2026-06/ARES_2025-26.pdf",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-01/appendixes.pdf",
+    "gender-bias-data/06-pay/PAY-01/data/ARES-explanation-of-data-2025-26.pdf",
+    "gender-bias-data/06-pay/PAY-01/data/ARES-tables-2025-26.pdf",
+    "gender-bias-data/06-pay/PAY-01/data/PAY-01_salary_by_gender_rank_2025-26.csv",
+    "gender-bias-data/06-pay/PAY-01/page.html",
+    "gender-bias-data/06-pay/PAY-01/source.pdf",
+    "gender-bias-data/06-pay/PAY-01/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/06-pay/PAY-01/figures/PAY-01_fig2.png"
+  ],
+  "notes": "OK (83.6%). Women's average full-time salary $108,678 vs men's $130,064 = 83.6% (p.7, Figure 2; survey report table 3). By rank: professor 87.3, associate 93.3, assistant 92.2, instructor 92.9, lecturer 92.1 (computed from Fig. 2)."
+}

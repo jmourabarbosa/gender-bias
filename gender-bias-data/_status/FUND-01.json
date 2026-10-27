@@ -1,0 +1,17 @@
+{
+ "id": "FUND-01",
+ "title": "Are gender gaps due to evaluations of the applicant or the science? A natural experiment at a national funding agency",
+ "url_used": "https://www.biorxiv.org/content/10.1101/232868v2.full.pdf (preprint v2 = source_preprint_biorxiv_v2.pdf). Lancet version paywalled; relx mirror gave 502; Unpaywall's biorxiv 'early' link returned 429.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-01/figures/FUND-01_fig1.png",
+  "gender-bias-data/03-funding/FUND-01/figures/FUND-01_fig2.png",
+  "gender-bias-data/03-funding/FUND-01/notes.md",
+  "gender-bias-data/03-funding/FUND-01/source_preprint_biorxiv_v2.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-01/figures/FUND-01_fig1.png",
+  "gender-bias-data/03-funding/FUND-01/figures/FUND-01_fig2.png"
+ ],
+ "notes": "Key numbers OK in preprint v2 (4.0 vs 0.9 pts); Lancet version of record paywalled."
+}

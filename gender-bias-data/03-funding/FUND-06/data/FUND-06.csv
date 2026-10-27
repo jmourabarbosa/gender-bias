@@ -1,0 +1,5 @@
+group,median_male_usd,median_female_usd,source
+All grant types (all institutions),165721,126615,"Oliveira et al. 2019 JAMA Table 1 (p.898)"
+Big Ten universities,148076,66365,"Table 2 (p.899)"
+Ivy League universities,71703,52190,"Table 2 (p.899)"
+All top-50 institutions,134919,93916,"Table 2 (p.899)"

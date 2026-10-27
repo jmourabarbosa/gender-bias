@@ -1,0 +1,36 @@
+{
+  "id": "PUB-03",
+  "title": "Women are credited less in science than men",
+  "url_used": "https://www.nature.com/articles/s41586-022-04966-w (PMC9352587)",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-03/article.json",
+    "gender-bias-data/04-publishing/PUB-03/article.xml",
+    "gender-bias-data/04-publishing/PUB-03/data/41586_2022_4966_MOESM3_ESM_source_data.xlsx",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig1_HTML.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig2_HTML.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig3_HTML.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig4_HTML.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig5_HTML.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab1_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab2_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab3_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab4_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab5_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab6_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab7_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab8_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab9_ESM.jpg",
+    "gender-bias-data/04-publishing/PUB-03/figures/PUB-03_fig1.jpg",
+    "gender-bias-data/04-publishing/PUB-03/notes.md",
+    "gender-bias-data/04-publishing/PUB-03/page.html",
+    "gender-bias-data/04-publishing/PUB-03/source.pdf",
+    "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM1_ESM.docx",
+    "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM2_ESM.pdf",
+    "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM3_ESM.xlsx"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-03/figures/PUB-03_fig1.jpg"
+  ],
+  "notes": "Key number: MATCH. p.2: 13.24% gap for articles (58.40% for patents) in the likelihood that women are named on a document produced by their team (Extended Data Table 4, col. 5)."
+}

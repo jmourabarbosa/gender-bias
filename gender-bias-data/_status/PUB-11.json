@@ -1,0 +1,18 @@
+{
+  "id": "PUB-11",
+  "title": "The decline of women's research production during the coronavirus pandemic",
+  "url_used": "https://www.natureindex.com/news-blog/decline-women-scientist-research-publishing-production-coronavirus-pandemic ; chart data https://flo.uri.sh/visualisation/{2386034,2390460,2406024}/embed",
+  "file_paths": [
+    "gender-bias-data/04-publishing/PUB-11/data/flourish_2386034.csv",
+    "gender-bias-data/04-publishing/PUB-11/data/flourish_2390460.csv",
+    "gender-bias-data/04-publishing/PUB-11/data/flourish_2406024.csv",
+    "gender-bias-data/04-publishing/PUB-11/figures/PUB-11_redraw.png",
+    "gender-bias-data/04-publishing/PUB-11/notes.md",
+    "gender-bias-data/04-publishing/PUB-11/page.html"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/04-publishing/PUB-11/figures/PUB-11_redraw.png"
+  ],
+  "notes": "Key number: MATCH (qualitative: first-author share fell). Page: medRxiv women first authorship fell from 35.9% (Dec 2019) to 20.2% (Apr 2020); Flourish data: medRxiv Mar-Apr 34.2% (2019) -> 22.2% (2020), EarthArXiv 21.3% -> 13.3%."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PAY-07",
+  "title": "Sex Differences in Institutional Support for Junior Biomedical Researchers",
+  "url_used": "https://www.eurekalert.org/news-releases/676536",
+  "file_paths": [
+    "gender-bias-data/06-pay/PAY-07/data/PAY-07.csv",
+    "gender-bias-data/06-pay/PAY-07/press_eurekalert.html",
+    "gender-bias-data/06-pay/PAY-07/press_sciencedaily.html",
+    "gender-bias-data/06-pay/PAY-07/notes.md"
+  ],
+  "access_status": "paywalled",
+  "figures_extracted": [
+    "gender-bias-data/06-pay/PAY-07/figures/PAY-07_redraw.png"
+  ],
+  "notes": "OK ($889k vs $350k medians) - verified from publisher press release, not the letter itself. Press release (JAMA Network): median start-up support men $889,000 vs women $350,000; 40% of men vs 12% of women reported >$1 million (219 applicants, 2012-2014)."
+}

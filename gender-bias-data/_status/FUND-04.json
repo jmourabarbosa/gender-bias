@@ -1,0 +1,24 @@
+{
+ "id": "FUND-04",
+ "title": "Gender contributes to personal research funding success in The Netherlands",
+ "url_used": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4603485 (full-text HTML saved as page.html in first pass; figures from cdn.ncbi.nlm.nih.gov/pmc/blobs/786c/4603485/...). No PDF: PNAS 403, PMC not in OA bucket, Utrecht/Leiden repositories without file. Authors' reply to Volker & Steenbeek: https://scholarlypublications.universiteitleiden.nl/download/1887/45129/1?col=81522199280002711 (supplementary/reply_to_Volker_Steenbeek_Leiden.pdf). Critique: Volker & Steenbeek PNAS 112:E7036 (P = 0.045, Simpson's paradox).",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-04/figures/FUND-04_fig1.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/FUND-04_fig3.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112fig01.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112fig02.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112fig03.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112fig04.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112fig05.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/pnas.1510159112sfig04.jpg",
+  "gender-bias-data/03-funding/FUND-04/notes.md",
+  "gender-bias-data/03-funding/FUND-04/page.html",
+  "gender-bias-data/03-funding/FUND-04/supplementary/reply_to_Volker_Steenbeek_Leiden.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-04/figures/FUND-04_fig1.jpg",
+  "gender-bias-data/03-funding/FUND-04/figures/FUND-04_fig3.jpg"
+ ],
+ "notes": "Key number OK (14.9% vs 17.7%); note contested (P=0.045)."
+}

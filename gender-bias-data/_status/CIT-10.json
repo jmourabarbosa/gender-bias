@@ -1,0 +1,29 @@
+{
+  "id": "CIT-10",
+  "title": "Analysis of science journalism reveals gender and regional disparities in coverage",
+  "url_used": "PMC OA bucket PMC11132680 (first pass); data https://zenodo.org/records/7387906 (code https://github.com/greenelab/nature_news_disparities)",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-10/article.json",
+    "gender-bias-data/05-citations/CIT-10/article.xml",
+    "gender-bias-data/05-citations/CIT-10/data/nature_news_disparities_data.zip",
+    "gender-bias-data/05-citations/CIT-10/figures/CIT-10_fig1.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig1-figsupp1.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig1.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2-figsupp1.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2-figsupp2.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp1.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp2.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp3.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp4.jpg",
+    "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3.jpg",
+    "gender-bias-data/05-citations/CIT-10/notes.md",
+    "gender-bias-data/05-citations/CIT-10/source.pdf",
+    "gender-bias-data/05-citations/CIT-10/supplementary/elife-84855-mdarchecklist1.docx"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-10/figures/CIT-10_fig1.jpg"
+  ],
+  "notes": "Key number: MATCH. p.7: share of quotes predicted to be from men fell from 87.09% (2005) to 68.86% (2020), i.e. women ~12.9% -> ~31.1%."
+}

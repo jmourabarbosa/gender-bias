@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-17",
+ "title": "Shaw & Stanton 2012, Proc R Soc B, leaks in the pipeline",
+ "url_used": "https://allisonkshaw.github.io/files/2012_ShawStanton_ProcRSocB_postprint.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-17/data/table1_female_share_2006_data_vs_model.csv",
+  "gender-bias-data/01-pipeline/PIPE-17/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-17/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-17/figures/PIPE-17_fig2.png",
+  "gender-bias-data/01-pipeline/PIPE-17/figures/PIPE-17_fig3.png"
+ ],
+ "notes": "Author postprint; DOI verified. Key number OK: asst profs 0.28 data vs 0.39 model (Table 1, 2006). Fig 3 is 'inertial effect' (not 'leak index')."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "TEACH-05",
+  "title": "Gender Differences in Accepting and Receiving Requests for Tasks with Low Promotability",
+  "url_used": "https://sites.pitt.edu/~vester/aer_promotability.pdf",
+  "file_paths": [
+    "gender-bias-data/07-teaching/TEACH-05/data/TEACH-05.csv",
+    "gender-bias-data/07-teaching/TEACH-05/page.html",
+    "gender-bias-data/07-teaching/TEACH-05/source.pdf",
+    "gender-bias-data/07-teaching/TEACH-05/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/07-teaching/TEACH-05/figures/TEACH-05_fig1.png",
+    "gender-bias-data/07-teaching/TEACH-05/figures/TEACH-05_fig5.png",
+    "gender-bias-data/07-teaching/TEACH-05/figures/TEACH-05_redraw.png"
+  ],
+  "notes": "OK (76% vs 51%). p.733 (Experiment 3): when asked, men invest (volunteer) 51% of the time vs women 76%; unasked both 14%."
+}

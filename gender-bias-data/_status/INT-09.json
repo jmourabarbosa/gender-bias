@@ -1,0 +1,17 @@
+{
+  "id": "INT-09",
+  "title": "A gender bias habit-breaking intervention led to increased hiring of female faculty in STEMM departments",
+  "url_used": "https://osf.io/tdvy7/download",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-09/article.json",
+    "gender-bias-data/09-interventions/INT-09/article.xml",
+    "gender-bias-data/09-interventions/INT-09/data/INT-09.csv",
+    "gender-bias-data/09-interventions/INT-09/source.pdf",
+    "gender-bias-data/09-interventions/INT-09/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-09/figures/INT-09_redraw.png"
+  ],
+  "notes": "OK (32% -> 47%). Preprint p.6: pre-intervention, intervention departments hired 32% women (control 33%); post-intervention 47% (n=101 hires) vs 32% in control (n=113)."
+}

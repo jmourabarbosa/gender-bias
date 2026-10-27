@@ -1,0 +1,19 @@
+{
+ "id": "FUND-18",
+ "title": "ERC Advanced Grants 2023 results / AdG 2024 facts and figures",
+ "url_used": "https://timeshighereducation.com/news/proportion-female-winners-top-erc-grants-dips (page.html, first pass); https://www.eubuero.de/en/ncp-erc-advanced-grants-2450.html ; https://www.eubuero.de/en/news-erc-2025-06-17-4232.html ; https://www.eubuero.de/en/news-erc-2023-03-30-3230.html. Official ERC page https://erc.europa.eu/news-events/news/applications-erc-advanced-grants-2024-facts-and-figures: CloudFront 403.",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-18/data/erc_women_share_grantees.csv",
+  "gender-bias-data/03-funding/FUND-18/figures/FUND-18_redraw.png",
+  "gender-bias-data/03-funding/FUND-18/notes.md",
+  "gender-bias-data/03-funding/FUND-18/page.html",
+  "gender-bias-data/03-funding/FUND-18/page_eubuero_adg2022_results.html",
+  "gender-bias-data/03-funding/FUND-18/page_eubuero_adg2024_results.html",
+  "gender-bias-data/03-funding/FUND-18/page_eubuero_adg_overview.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-18/figures/FUND-18_redraw.png"
+ ],
+ "notes": "Key number OK (23.5%); ERC site blocked; series in CSV."
+}

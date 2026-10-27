@@ -1,0 +1,13 @@
+{
+  "id": "INT-03",
+  "title": "A Famous Study Found That Blind Auditions Reduced Sexism in the Orchestra. Or Did It?",
+  "url_used": "https://reason.com/2019/10/22/orchestra-study-blind-auditions-gelman/",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-03/data/INT-03_quote.txt",
+    "gender-bias-data/09-interventions/INT-03/page.html",
+    "gender-bias-data/09-interventions/INT-03/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [],
+  "notes": "OK (quote). Gelman described the results as \"not very impressive at all\" and \"You shouldn't be running around making a big deal about point estimates when the standard errors are so large.\""
+}

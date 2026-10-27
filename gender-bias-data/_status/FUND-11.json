@@ -1,0 +1,16 @@
+{
+ "id": "FUND-11",
+ "title": "Gender differences in grant peer review: a meta-analysis",
+ "url_used": "arXiv PDF (first pass): https://arxiv.org/pdf/math/0701537",
+ "file_paths": [
+  "gender-bias-data/03-funding/FUND-11/figures/FUND-11_fig1.png",
+  "gender-bias-data/03-funding/FUND-11/notes.md",
+  "gender-bias-data/03-funding/FUND-11/page.html",
+  "gender-bias-data/03-funding/FUND-11/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/03-funding/FUND-11/figures/FUND-11_fig1.png"
+ ],
+ "notes": "Key number OK (+7% odds)."
+}

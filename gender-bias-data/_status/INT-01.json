@@ -1,0 +1,18 @@
+{
+  "id": "INT-01",
+  "title": "Orchestrating Impartiality: The Impact of 'Blind' Auditions on Female Musicians",
+  "url_used": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-e965-6bd4-e053-0100007fdf3b/content",
+  "file_paths": [
+    "gender-bias-data/09-interventions/INT-01/source.pdf",
+    "gender-bias-data/09-interventions/INT-01/source_nber_w5903.pdf",
+    "gender-bias-data/09-interventions/INT-01/notes.md"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/09-interventions/INT-01/figures/INT-01_fig3.png",
+    "gender-bias-data/09-interventions/INT-01/figures/INT-01_table4.png",
+    "gender-bias-data/09-interventions/INT-01/figures/INT-01_table5.png",
+    "gender-bias-data/09-interventions/INT-01/figures/INT-01_table6.png"
+  ],
+  "notes": "OK (+11 pts preliminaries). p.17 (journal p.731): 'For preliminaries that are not preceded by a semifinal, the blind audition increases the likelihood that a woman will be selected by about 11 percentage points' (Table 6); finals +33 pp."
+}

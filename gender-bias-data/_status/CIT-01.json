@@ -1,0 +1,20 @@
+{
+  "id": "CIT-01",
+  "title": "The extent and drivers of gender imbalance in neuroscience reference lists",
+  "url_used": "source.pdf = preprint (first pass); data https://osf.io/h79g8/?view_only=2222e015f63a4f41b1276a34c9b0c3a3 (via https://bit.ly/2O2xEFi)",
+  "file_paths": [
+    "gender-bias-data/05-citations/CIT-01/data/NeuroCitation.R",
+    "gender-bias-data/05-citations/CIT-01/data/NeuroCitation.RData",
+    "gender-bias-data/05-citations/CIT-01/data/NeuroCitation_HelperFunctions.R",
+    "gender-bias-data/05-citations/CIT-01/figures/CIT-01_fig1.png",
+    "gender-bias-data/05-citations/CIT-01/figures/CIT-01_fig2.png",
+    "gender-bias-data/05-citations/CIT-01/notes.md",
+    "gender-bias-data/05-citations/CIT-01/source.pdf"
+  ],
+  "access_status": "downloaded",
+  "figures_extracted": [
+    "gender-bias-data/05-citations/CIT-01/figures/CIT-01_fig1.png",
+    "gender-bias-data/05-citations/CIT-01/figures/CIT-01_fig2.png"
+  ],
+  "notes": "Key number: MATCH (preprint numbers; published version not checked). Preprint p.5: after controls, MM papers cited 5.2% more than expected, WW papers 13.9% less (95% CI -15.2,-12.5)."
+}
