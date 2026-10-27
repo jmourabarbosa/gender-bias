@@ -1,0 +1,39 @@
+{
+ "id": "PIPE-07",
+ "title": "NCSES, Doctorate Recipients from US Universities 2024 (NSF 26-315)",
+ "url_used": "https://ncses.nsf.gov/pubs/nsf26315/downloads",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-07/data/fig4_doctorates_by_sex_field_2004_2024.csv",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/_index.txt",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig001.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig002.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig003.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig004.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig005.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig006.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig007.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig008.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig009.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig010.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig011.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig012.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig013.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig014.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig015.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/figures_xlsx/nsf26315-fig016.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/nsf25349-data-tables-tables-excels.zip",
+  "gender-bias-data/01-pipeline/PIPE-07/data/nsf26315-data-sources.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/tables_xlsx/_index.txt",
+  "gender-bias-data/01-pipeline/PIPE-07/data/tables_xlsx/nsf26315-tab001.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/data/tables_xlsx/nsf26315-tab002.xlsx",
+  "gender-bias-data/01-pipeline/PIPE-07/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-07/page.html",
+  "gender-bias-data/01-pipeline/PIPE-07/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-07/figures/PIPE-07_fig4.png",
+  "gender-bias-data/01-pipeline/PIPE-07/figures/PIPE-07_redraw.png"
+ ],
+ "notes": "Report PDF + figure/table Excel + full SED 2024 data tables zip. Key number OK: women 48% of doctorates 2024 (p.8; 48.6% from Fig 4 data)."
+}
