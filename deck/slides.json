@@ -135,6 +135,345 @@
     "Cosyne 2020 chairs guaranteed **50%** of podium talks to women"
    ],
    "source": "Sources: C. Frye blog (6 Mar 2019), data from M. Carey; Simons Foundation SCGB (2020) 'Addressing gender and institutional bias at Cosyne'; UChicago Neuroscience Institute (2020)."
+  },
+  {
+   "id": "s20_sec_eval",
+   "kind": "section",
+   "title": "2. Evaluation",
+   "sub": "Hiring, recommendation letters and promotion committees"
+  },
+  {
+   "id": "s21_moss",
+   "kind": "fig",
+   "title": "Faculty offered a 'female' lab manager applicant $3,700 less for the same CV",
+   "image": "gender-bias-data/02-hiring/HIRE-01/figures/HIRE-01_fig2.png",
+   "bullets": [
+    "127 science faculty rated one application, randomly named John or Jennifer",
+    "Mean salary offered: **$26,508** to Jennifer vs **$30,238** to John",
+    "Jennifer was also rated less competent and hireable, and offered less mentoring",
+    "Women faculty showed the same bias as men"
+   ],
+   "source": "Source: Moss-Racusin et al. (2012) PNAS 109:16474, Fig. 2. doi:10.1073/pnas.1211286109"
+  },
+  {
+   "id": "s22_ceci",
+   "kind": "fig",
+   "title": "For tenure-track jobs, faculty preferred a woman 2:1 over an equal man",
+   "image": "gender-bias-data/02-hiring/HIRE-03/figures/HIRE-03_fig1.jpg",
+   "bullets": [
+    "873 faculty chose between identical, highly qualified candidates",
+    "Women ranked first by **67%** of faculty, in biology, engineering and psychology",
+    "Exception: male economists showed no preference"
+   ],
+   "source": "Source: Williams & Ceci (2015) PNAS 112:5360, Fig. 1. doi:10.1073/pnas.1418878112"
+  },
+  {
+   "id": "s23_regner",
+   "kind": "text",
+   "title": "CNRS committees with implicit bias promoted fewer women, but only when they denied that bias exists",
+   "bullets": [
+    "40 CNRS promotion committees (414 members), all disciplines, over 2 years",
+    "Most committee members held an implicit 'science = male' association",
+    "Year 2 (no reminder of the study): committees with stronger implicit bias promoted **fewer women**",
+    "This happened only in committees that **did not believe** women face external barriers",
+    "Committees that acknowledged barriers showed no link between implicit bias and decisions",
+    "Source: Régner, Thinus-Blanc, Netter, Schmader & Huguet (2019) Nature Human Behaviour 3:1171. doi:10.1038/s41562-019-0686-3"
+   ]
+  },
+  {
+   "id": "s24_letters",
+   "kind": "fig",
+   "title": "Recommendation letters call women 'excellent' less often than men",
+   "image": "gender-bias-data/02-hiring/HIRE-07/figures/HIRE-07_redraw.png",
+   "bullets": [
+    "Geoscience postdoc letters: **15%** excellent for women vs **24%** for men",
+    "Faculty-job letters use more standout adjectives for men (0.70 vs 0.60 per letter)",
+    "Letters describe women as more communal and less agentic",
+    "Papers by two women authors use positive self-descriptions 12.3% less often"
+   ],
+   "source": "Sources: Dutt et al. (2016) Nature Geoscience 9:805, Table 4; Schmader, Whitehead & Wysocki (2007) Sex Roles 57:509; Madera, Hebl & Martin (2009) J Appl Psychol 94:1591; Lerchenmueller, Sorenson & Jena (2019) BMJ 367:l6573."
+  },
+  {
+   "id": "s30_sec_fund",
+   "kind": "section",
+   "title": "3. Funding",
+   "sub": "Success rates, award sizes and what reviewers evaluate"
+  },
+  {
+   "id": "s31_wenneras",
+   "kind": "fig",
+   "title": "Sweden 1995: women needed 64 extra impact points to score as competent as men",
+   "image": "gender-bias-data/03-funding/FUND-02/figures/FUND-02_redraw.png",
+   "bullets": [
+    "Swedish Medical Research Council postdoc fellowships",
+    "Equivalent to about **3 extra Nature or Science papers**",
+    "Being affiliated with a reviewer also raised scores",
+    "A UK Wellcome follow-up found no gap (27.5% vs 26.9% success)"
+   ],
+   "source": "Sources: Wennerås & Wold (1997) Nature 387:341, Table 1 (redrawn); Grant, Burden & Breen (1997) Nature 390:438 (not verified, paywalled)."
+  },
+  {
+   "id": "s32_witteman",
+   "kind": "fig",
+   "title": "Gaps appear when reviewers judge the applicant, not the science",
+   "image": "gender-bias-data/03-funding/FUND-01/figures/FUND-01_fig1.png",
+   "bullets": [
+    "Canadian Institutes of Health Research, 23,918 applications",
+    "When review focused on the science, women's success gap was **0.9 points**",
+    "When review focused on the investigator, it was **4.0 points**"
+   ],
+   "source": "Source: Witteman, Hendricks, Straus & Tannenbaum (2019) Lancet 393:531, Fig. 1 (bioRxiv preprint version)."
+  },
+  {
+   "id": "s33_fund_small",
+   "kind": "text",
+   "title": "On average, grant success gaps are small; award sizes differ more",
+   "bullets": [
+    "Meta-analysis of 21 studies: men have **7%** higher odds of funding",
+    "Meta-analysis 2005-2020: award rates **1 point** apart, but women receive smaller awards",
+    "Dutch NWO Veni: 14.9% vs 17.7% success (finding later contested)",
+    "NIH R01 name-swap experiment: no bias against women or Black PIs",
+    "Gates Foundation, blinded review: women scored lower, explained by word choice",
+    "NIH: once funded, women keep funding as long as men",
+    "Sources: Bornmann et al. 2007 J Informetrics; Schmaling & Gallo 2023 Res Integr Peer Rev; van der Lee & Ellemers 2015 PNAS; Forscher et al. 2019 Nat Hum Behav; Kolev et al. 2019 NBER w25759; Hechtman et al. 2018 PNAS"
+   ]
+  },
+  {
+   "id": "s34_award_size",
+   "kind": "fig",
+   "title": "First-time NIH grants to women are a median $39,000 smaller",
+   "image": "gender-bias-data/03-funding/FUND-06/figures/FUND-06_redraw.png",
+   "bullets": [
+    "Median first award: **$126,615** to women vs **$165,721** to men",
+    "Gap is largest at Big Ten universities",
+    "Start-up packages for junior biomedical faculty: **$350k** vs **$889k** median"
+   ],
+   "source": "Sources: Oliveira, Ma, Woodruff & Uzzi (2019) JAMA 321:898, Table 2 (redrawn); Sege, Nykiel-Bub & Selk (2015) JAMA 314:1175 (from press release)."
+  },
+  {
+   "id": "s35_erc",
+   "kind": "fig",
+   "title": "ERC: women won 44% of Starting Grants (2024) but 23.5% of Advanced Grants (2023)",
+   "image": "gender-bias-data/03-funding/FUND-17/figures/FUND-17_redraw.png",
+   "bullets": [
+    "Starting Grant share rose from about 25% in 2007",
+    "Advanced Grant share peaked at 27.5% in 2022",
+    "Starting Grant success rates differ by 0.5 to 1 point by gender",
+    "France ANR 2024: 26% success for women vs 24% for men"
+   ],
+   "source": "Sources: ERC results via EU-Büro (German national contact point) and Times Higher Education (data/erc_women_share_grantees.csv); Jesus-Rydin et al. EGU24-16168; ANR (2026) Femmes et hommes dans l'AAPG 2015-2025."
+  },
+  {
+   "id": "s40_sec_pub",
+   "kind": "section",
+   "title": "4. Publishing and citations",
+   "sub": "Authorship, peer review, credit and recognition"
+  },
+  {
+   "id": "s41_ross",
+   "kind": "fig",
+   "title": "Women are 13% less likely than men to be named as authors on their team's papers",
+   "image": "gender-bias-data/04-publishing/PUB-03/figures/PUB-03_fig1.jpg",
+   "bullets": [
+    "Linked US administrative data on 9,778 research teams",
+    "Gap: **13%** for articles, **58%** for patents",
+    "Women's actual share of authorships falls below their share of potential authorships at every career stage",
+    "Physics last authors: about **258 years** to parity at current rates"
+   ],
+   "source": "Sources: Ross et al. (2022) Nature 608:135, Fig. 1; Holman, Stuart-Fox & Hauser (2018) PLoS Biol 16:e2004956."
+  },
+  {
+   "id": "s42_helmer",
+   "kind": "fig",
+   "title": "Women write 37% of papers but do 28% of reviews and 26% of editing",
+   "image": "gender-bias-data/04-publishing/PUB-04/figures/PUB-04_fig1.jpg",
+   "bullets": [
+    "Frontiers journals, contributions up to 2015",
+    "Editors of both genders favour reviewers of their own gender",
+    "AGU journals: women are 20% of reviewers vs 27% of first authors",
+    "Editorial outcomes: no penalty for women across 145 journals"
+   ],
+   "source": "Sources: Helmer et al. (2017) eLife 6:e21718, Fig. 1; Lerback & Hanson (2017) Nature 541:455; Squazzoni et al. (2021) Science Advances 7:eabd0299."
+  },
+  {
+   "id": "s43_covid",
+   "kind": "fig",
+   "title": "In early COVID-19, women's share of first authorships fell 23% below expected",
+   "image": "gender-bias-data/04-publishing/PUB-09/figures/PUB-09_fig1.jpg",
+   "bullets": [
+    "COVID-19 medical papers in 2020 vs the same journals in 2019",
+    "medRxiv: women first authors fell from 34% to 22% (Mar-Apr 2019 vs 2020)",
+    "Scientists with a child under 5 lost **17% more** research time"
+   ],
+   "source": "Sources: Andersen et al. (2020) eLife 9:e58807, Fig. 1; Vincent-Lamarre, Sugimoto & Larivière (2020) Nature Index; Myers et al. (2020) Nat Hum Behav 4:880."
+  },
+  {
+   "id": "s44_dworkin",
+   "kind": "fig",
+   "title": "Neuroscience papers by two women are cited 13.9% less than expected",
+   "image": "gender-bias-data/05-citations/CIT-01/figures/CIT-01_fig1.png",
+   "bullets": [
+    "Reference lists in 5 top neuroscience journals, 1995-2018",
+    "Man first and last author: cited **+5.2%** above expected",
+    "Woman first and last author: **-13.9%**",
+    "The imbalance comes mostly from reference lists of men-led papers",
+    "Medicine: median 33 citations for women-led vs 59 for men-led papers"
+   ],
+   "source": "Sources: Dworkin et al. (2020) Nature Neuroscience 23:918, Fig. 2 (bioRxiv version); Chatterjee & Werner (2021) JAMA Netw Open 4:e2114509, Table 3."
+  },
+  {
+   "id": "s45_prizes",
+   "kind": "fig",
+   "title": "Women won 19% of top research awards in 2016-2020, below their share of professors",
+   "image": "gender-bias-data/05-citations/CIT-07/figures/CIT-07_fig1.png",
+   "bullets": [
+    "141 prestigious international awards, 2001-2020: women won **11.5%**",
+    "Share rose from 6% to 19%",
+    "Biomedical prizes: women receive **64 cents** per dollar men receive",
+    "Men self-cite **56%** more than women"
+   ],
+   "source": "Sources: Meho (2021) Quantitative Science Studies 2:976, Fig. 2; Ma, Oliveira, Woodruff & Uzzi (2019) Nature 565:287; King et al. (2017) Socius 3."
+  },
+  {
+   "id": "s46_visibility",
+   "kind": "fig",
+   "title": "At seminars, men are 2.5 times more likely than women to ask a question",
+   "image": "gender-bias-data/05-citations/CIT-09/figures/CIT-09_fig1.jpg",
+   "bullets": [
+    "247 seminars at 35 institutions",
+    "Women ask fewer questions than their share of the audience",
+    "US colloquium speakers: **69%** men; 49% women when a woman chairs, 30% when a man does",
+    "Nature news quotes from women rose from 13% (2005) to 31% (2020)"
+   ],
+   "source": "Sources: Carter et al. (2018) PLoS ONE 13:e0202743, Fig. 1; Nittrouer et al. (2018) PNAS 115:104; Davidson & Greene (2024) eLife 12:e84855."
+  },
+  {
+   "id": "s50_sec_pay",
+   "kind": "section",
+   "title": "5. Pay, parenthood, teaching and service",
+   "sub": ""
+  },
+  {
+   "id": "s51_pay",
+   "kind": "fig",
+   "title": "US women faculty earn 83.6% of men's average salary",
+   "image": "gender-bias-data/06-pay/PAY-01/figures/PAY-01_fig2.png",
+   "bullets": [
+    "Gap persists within every rank (2025-26)",
+    "UK higher education: median gap **11.5%** (2023-24)",
+    "CNRS: women earn **13.9%** less, about €557 per month (2021)",
+    "Inserm: 13.1% gap for permanent staff"
+   ],
+   "source": "Sources: AAUP Annual Report on the Economic Status of the Profession 2025-26, Fig. 2; UCEA Intersectional Pay Gaps 2023-24; CNRS MPDF pay analysis (2023); Inserm (2024)."
+  },
+  {
+   "id": "s52_cech",
+   "kind": "fig",
+   "title": "43% of new mothers in STEM left full-time STEM work, vs 23% of new fathers",
+   "image": "gender-bias-data/06-pay/PAY-04/figures/PAY-04_fig1.jpg",
+   "bullets": [
+    "US scientists followed 2003-2010 after their first child",
+    "Mothers' publication output drops by 17% to 48% after a first child, depending on field",
+    "1950s-60s US scientists: **27%** of mothers vs **48%** of fathers got tenure"
+   ],
+   "source": "Sources: Cech & Blair-Loy (2019) PNAS 116:4182, Fig. 1 (fathers shown); Morgan et al. (2021) Science Advances 7:eabd1996; Kim & Moser (2021) NBER w29436."
+  },
+  {
+   "id": "s53_teaching",
+   "kind": "fig",
+   "title": "Students rated the same online instructor lower when told she was a woman",
+   "image": "gender-bias-data/07-teaching/TEACH-01/figures/TEACH-01_redraw.png",
+   "bullets": [
+    "Two instructors swapped names in an online course",
+    "Same grading turnaround: promptness **4.35** vs **3.55**",
+    "Sciences Po: male students were 33% more likely to rate men 'excellent', not linked to exam results",
+    "Maastricht: women rated lower, mostly junior women"
+   ],
+   "source": "Sources: MacNell, Driscoll & Hunt (2015) Innov High Educ 40:291 (from press release); Boring (2017) J Public Econ 145:27; Mengel, Sauermann & Zölitz (2019) JEEA 17:535."
+  },
+  {
+   "id": "s54_service",
+   "kind": "fig",
+   "title": "Women accept 76% of requests for low-promotability tasks, men 51%",
+   "image": "gender-bias-data/07-teaching/TEACH-05/figures/TEACH-05_redraw.png",
+   "bullets": [
+    "Asked to volunteer, women say yes more often; unasked, rates are equal",
+    "US faculty: women do **0.6 h/week** more service",
+    "Associate professors: women spend 25% of time on research vs 37% for men"
+   ],
+   "source": "Sources: Babcock, Recalde, Vesterlund & Weingart (2017) AER 107:714, Exp. 3; Guarino & Borden (2017) Res High Educ 58:672; Misra et al. (2011) Academe 97(1)."
+  },
+  {
+   "id": "s70_sec_int",
+   "kind": "section",
+   "title": "7. Interventions",
+   "sub": "What has been tested, and how strong the evidence is"
+  },
+  {
+   "id": "s71_blind",
+   "kind": "fig",
+   "title": "The famous blind-audition result does not survive a correction for multiple tests",
+   "image": "gender-bias-data/09-interventions/INT-02/figures/INT-02_redraw.png",
+   "bullets": [
+    "Goldin & Rouse: screens raised women's chances in preliminary rounds by **11 points**",
+    "That estimate had p = 0.042; Bonferroni-corrected across 8 tests, p = 0.33",
+    "Gelman: the evidence is 'not very impressive'"
+   ],
+   "source": "Sources: Goldin & Rouse (2000) AER 90:715, Table 5; Pallesen (2019) 'Orchestrating false beliefs about gender discrimination'; Gelman via Reason (2019)."
+  },
+  {
+   "id": "s72_dblind",
+   "kind": "fig",
+   "title": "Double-blind review cuts prestige bias; effects on women are mixed",
+   "image": "gender-bias-data/09-interventions/INT-04/figures/INT-04_redraw.png",
+   "bullets": [
+    "WSDM 2017: single-blind reviewers favoured famous authors (OR **1.63**) and top institutions",
+    "Women authors: OR 0.78, confidence interval includes 1",
+    "Behavioral Ecology: double-blind review did not raise women's first authorship",
+    "Cosyne: double-blind review did not close the gap"
+   ],
+   "source": "Sources: Tomkins, Zhang & Heavlin (2017) PNAS 114:12708, Table 5 (redrawn); Cox & Montgomerie (2019) PeerJ 7:e6702."
+  },
+  {
+   "id": "s73_habit",
+   "kind": "fig",
+   "title": "A bias habit-breaking workshop raised women's share of new hires from 32% to 47%",
+   "image": "gender-bias-data/09-interventions/INT-09/figures/INT-09_redraw.png",
+   "bullets": [
+    "Cluster-randomized trial in 92 University of Wisconsin departments",
+    "Bias awareness rose at 3 months",
+    "Control departments went from 33% to 32%",
+    "Few hires per department, so the estimate is noisy"
+   ],
+   "source": "Sources: Carnes et al. (2015) Acad Med 90:221; Devine et al. (2017) J Exp Soc Psychol 73:211 (OSF preprint)."
+  },
+  {
+   "id": "s74_policies",
+   "kind": "fig",
+   "title": "Gender-neutral tenure-clock stopping helped men, not women",
+   "image": "gender-bias-data/09-interventions/INT-07/figures/INT-07_redraw.png",
+   "bullets": [
+    "Top-50 US economics departments: men's tenure rate rose, women's fell (working-paper estimates)",
+    "More women on promotion committees did not raise women's success (Spain, Italy)",
+    "Athena SWAN (UK): women professors 24.2% to 26.8%",
+    "ERC: eligibility extended 18 months per child",
+    "Review of grant-review interventions: 1 tested study in 5,524 records"
+   ],
+   "source": "Sources: Antecol, Bedard & Stearns (2018) AER 108:2420 (IZA DP 9904 values); Bagues et al. (2017) AER 107:1207; Xiao et al. (2020) BMJ Open; ERC Work Programme 2026; Tricco et al. (2017) PLoS ONE."
+  },
+  {
+   "id": "s80_summary",
+   "kind": "text",
+   "title": "Summary",
+   "bullets": [
+    "Women reach parity at the PhD but are fewer at each later stage; hiring and higher attrition both contribute",
+    "Controlled experiments show bias in how applicants are judged, but hiring results are mixed",
+    "Funding gaps are small in success rates and larger in award size and investigator-focused review",
+    "Women receive less credit: authorship, citations, prizes and speaking slots",
+    "Parenthood and service load fall more on women",
+    "Few interventions have strong evidence, and some policies backfired",
+    "Sources, data and figures: github.com/jmourabarbosa/gender-bias"
+   ]
   }
  ]
 }

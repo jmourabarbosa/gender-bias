@@ -1,0 +1,11 @@
+{
+ "id": "DATA-10",
+ "title": "ERC dashboard",
+ "url_used": "https://erc.europa.eu/node/21010",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-10/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "erc.europa.eu returns CloudFront 403 to this IP; dashboard not exported. Gender values are in ERC statistics PDFs (FUND-14..18)."
+}

@@ -1,0 +1,12 @@
+{
+ "id": "DATA-14",
+ "title": "OpenAlex (OurResearch)",
+ "url_used": "https://api.openalex.org",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-14/notes.md",
+  "gender-bias-data/10-datasets/DATA-14/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Reference preprint (Rusti et al. 2026, arXiv 2606.26469) present; OpenAlex API pull blocked by shared-IP daily rate limit (no API key). Script scripts/openalex_neuro_sample.py ready to rerun."
+}

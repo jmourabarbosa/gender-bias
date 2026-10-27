@@ -1,0 +1,11 @@
+{
+ "id": "DATA-11",
+ "title": "ERC gender actions and data (slides)",
+ "url_used": "https://erc.europa.eu/sites/default/files/document/file/ERC_gender_actions_and_data.pdf",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-11/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "erc.europa.eu returns CloudFront 403 to this IP; no mirror found."
+}

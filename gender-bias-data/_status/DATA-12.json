@@ -1,0 +1,11 @@
+{
+ "id": "DATA-12",
+ "title": "HESA staff open data",
+ "url_used": "https://www.hesa.ac.uk/node/136617",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-12/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "hesa.ac.uk (page and table CSVs) returns Cloudflare challenge/403. Target tables: staff Table 9/10 (sex x contract level)."
+}

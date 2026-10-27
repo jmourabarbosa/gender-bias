@@ -1,0 +1,11 @@
+{
+ "id": "DATA-08",
+ "title": "GCBI-alyzer (Fulvio & Postle)",
+ "url_used": "https://psych.wisc.edu/gcbialyzer/",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-08/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "Host fails TLS chain verification / not allowed in session network; old host connection reset. Base rates (from search summary, unverified): JoCN 2009-2024 M/M 40.7, M/W 11.6, W/M 30.7, W/W 17.1%."
+}

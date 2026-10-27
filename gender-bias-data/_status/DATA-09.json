@@ -1,0 +1,16 @@
+{
+ "id": "DATA-09",
+ "title": "NIH RePORT funding-rate report (Jul 2024)",
+ "url_used": "https://report.nih.gov/reportweb/web/displayreport?rId=1021",
+ "file_paths": [
+  "gender-bias-data/10-datasets/DATA-09/data/table2_FY2023_type1_RPG_applicants_by_gender.csv",
+  "gender-bias-data/10-datasets/DATA-09/notes.md",
+  "gender-bias-data/10-datasets/DATA-09/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/10-datasets/DATA-09/figures/DATA-09_fig9.png",
+  "gender-bias-data/10-datasets/DATA-09/figures/DATA-09_redraw.png"
+ ],
+ "notes": "Report PDF (no Excel offered). FY2023 Type 1 RPG: 14,782 women (36.1%) vs 23,484 men; funding rate 29.8% vs 29.7% (Table 2). Fig 9 cropped."
+}
