@@ -1,0 +1,16 @@
+{
+ "id": "PIPE-09",
+ "title": "ASEE By the Numbers 2024 via SWE",
+ "url_used": "https://swe.org/research/2026/tenure-tenure-track-faculty/",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-09/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-09/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-09/figures/PIPE-09_fig1.png",
+  "gender-bias-data/01-pipeline/PIPE-09/figures/PIPE-09_fig2.png",
+  "gender-bias-data/01-pipeline/PIPE-09/figures/PIPE-09_redraw.png"
+ ],
+ "notes": "SWE page + SWE chart PNGs (rank 2024; trend 2014-2024). Key number OK: 28.7/21.8/15.6%. ASEE report itself is member-only."
+}

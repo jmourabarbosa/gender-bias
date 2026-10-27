@@ -1,0 +1,17 @@
+{
+ "id": "PIPE-08",
+ "title": "NCSES, Diversity and STEM 2023 (NSF 23-315)",
+ "url_used": "https://ncses.nsf.gov/pubs/nsf23315/assets/nsf23315-report.pdf",
+ "file_paths": [
+  "gender-bias-data/01-pipeline/PIPE-08/notes.md",
+  "gender-bias-data/01-pipeline/PIPE-08/page.html",
+  "gender-bias-data/01-pipeline/PIPE-08/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "gender-bias-data/01-pipeline/PIPE-08/figures/PIPE-08_fig2-3.png",
+  "gender-bias-data/01-pipeline/PIPE-08/figures/PIPE-08_fig6-1.png",
+  "gender-bias-data/01-pipeline/PIPE-08/figures/PIPE-08_redraw.png"
+ ],
+ "notes": "Report PDF only; hub and Excel data tables now 404 (Wayback unreachable here). Key number OK: women 35% of STEM workforce 2021 (Fig 2-3). Fig 6-1 occupation shares cropped + redrawn."
+}
