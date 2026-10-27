@@ -1,0 +1,1820 @@
+[
+ {
+  "id": "PIPE-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-02",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-03",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-04",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-05",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-06",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://ncses.nsf.gov/pubs/nsf26315"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.eurekalert.org/news-releases/978111"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-09",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://swe.org/research/2026/tenure-tenure-track-faculty/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-10",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-11",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-12",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.elsevier.com/about/press-releases/latest-elsevier-gender-equality-study-reveals-20-years-of-progress-but-challenges-remain-for-women-in-research-and-innovation"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PIPE-13",
+  "pdf": "existing",
+  "pmc": "PMC7060730.1",
+  "pages": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7060730"
+  ],
+  "files": [
+   "gender-bias-data/01-pipeline/PIPE-13/article.json",
+   "gender-bias-data/01-pipeline/PIPE-13/article.xml",
+   "gender-bias-data/01-pipeline/PIPE-13/supplementary/pnas.1914221117.sapp.pdf",
+   "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig01.jpg",
+   "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig02.jpg",
+   "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig03.jpg",
+   "gender-bias-data/01-pipeline/PIPE-13/figures/pnas.1914221117fig04.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1073/pnas.1914221117"
+  ]
+ },
+ {
+  "id": "PIPE-14",
+  "pdf": "existing",
+  "pmc": "PMC10588949.1",
+  "pages": [
+   "https://www.colorado.edu/today/2023/10/20/harsh-workplace-climate-pushing-women-out-academia"
+  ],
+  "files": [
+   "gender-bias-data/01-pipeline/PIPE-14/article.json",
+   "gender-bias-data/01-pipeline/PIPE-14/article.xml",
+   "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f1.jpg",
+   "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f2.jpg",
+   "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f3.jpg",
+   "gender-bias-data/01-pipeline/PIPE-14/figures/sciadv.adi2205-f4.jpg",
+   "gender-bias-data/01-pipeline/PIPE-14/supplementary/sciadv.adi2205_sm.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1126/sciadv.adi2205"
+  ]
+ },
+ {
+  "id": "PIPE-15",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11236417",
+  "pmc": "PMC11236417.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/01-pipeline/PIPE-15/article.json",
+   "gender-bias-data/01-pipeline/PIPE-15/source.pdf",
+   "gender-bias-data/01-pipeline/PIPE-15/article.xml",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig1.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig2.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig3.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig4.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig5.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig6.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig7.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-app1-fig8.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig1.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig2.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/figures/elife-93755-fig3.jpg",
+   "gender-bias-data/01-pipeline/PIPE-15/supplementary/elife-93755-mdarchecklist1.docx"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.93755"
+  ]
+ },
+ {
+  "id": "PIPE-16",
+  "pdf": "existing",
+  "pmc": "PMC9534765.1",
+  "pages": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9534765"
+  ],
+  "files": [
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig10_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig1_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig2_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig3_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig4_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig5_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig6_HTML.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig7_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig8_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Fig9_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM10_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM11_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM12_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM1_ESM.pdf",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM2_ESM.pdf",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM3_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM4_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM5_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM6_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM7_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM8_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/supplementary/41586_2022_5222_MOESM9_ESM.csv",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab1_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab2_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab3_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab4_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab5_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/figures/41586_2022_5222_Tab6_ESM.jpg",
+   "gender-bias-data/01-pipeline/PIPE-16/article.json",
+   "gender-bias-data/01-pipeline/PIPE-16/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1038/s41586-022-05222-x"
+  ]
+ },
+ {
+  "id": "PIPE-17",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1098/rspb.2012.0822"
+  ]
+ },
+ {
+  "id": "HIRE-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://gap.hks.harvard.edu/science-faculty%E2%80%99s-subtle-gender-biases-favor-male-students"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.pnas.org/content/pnas/109/41/16474.full.pdf"
+  ],
+  "dois": [
+   "10.1073/pnas.1211286109"
+  ]
+ },
+ {
+  "id": "HIRE-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1023/A:1018839203698"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.engr.washington.edu/files/mycoe/faculty/docs/ImpactofGenderdoc.pdf"
+  ],
+  "dois": [
+   "10.1023/A:1018839203698"
+  ]
+ },
+ {
+  "id": "HIRE-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://news.cornell.edu/node/284291"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.pnas.org/content/pnas/112/17/5360.full.pdf"
+  ],
+  "dois": [
+   "10.1073/pnas.1418878112"
+  ]
+ },
+ {
+  "id": "HIRE-04",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.nature.com/articles/s41562-019-0686-3.pdf",
+   "https://www.cnrs.fr/en/press/even-scientists-have-gender-stereotypes-which-can-hamper-career-women-researchers"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.nature.com/articles/s41562-019-0686-3.pdf"
+  ],
+  "dois": [
+   "10.1038/s41562-019-0686-3"
+  ]
+ },
+ {
+  "id": "HIRE-05",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://link.springer.com/content/pdf/10.1007/s11199-007-9291-4.pdf"
+  ],
+  "files": [],
+  "tried": [
+   "https://link.springer.com/content/pdf/10.1007/s11199-007-9291-4.pdf"
+  ],
+  "dois": [
+   "10.1007/s11199-007-9291-4",
+   "10.1007/s11199-007-9291-4.pdf"
+  ]
+ },
+ {
+  "id": "HIRE-06",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1037/a0016539"
+  ]
+ },
+ {
+  "id": "HIRE-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://serc.carleton.edu/details/files/138789.html",
+   "https://doi.org/10.1038/ngeo2819"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/ngeo2819"
+  ]
+ },
+ {
+  "id": "HIRE-08",
+  "pdf": null,
+  "pmc": "PMC7190066.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/02-hiring/HIRE-08/article.json",
+   "gender-bias-data/02-hiring/HIRE-08/article.xml",
+   "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f1.jpg",
+   "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f2.jpg",
+   "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f3.jpg",
+   "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f4.jpg",
+   "gender-bias-data/02-hiring/HIRE-08/figures/lerm051129.f5.jpg",
+   "gender-bias-data/02-hiring/HIRE-08/supplementary/lerm051129.w1.pdf"
+  ],
+  "tried": [
+   "https://www.bmj.com/content/bmj/367/bmj.l6573.full.pdf",
+   "https://madoc.bib.uni-mannheim.de/53361/1/bmj.l6573.full.pdf"
+  ],
+  "dois": [
+   "10.1136/bmj.l6573"
+  ]
+ },
+ {
+  "id": "FUND-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1016/S0140-6736(18)32611-4"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.biorxiv.org/content/biorxiv/early/2018/03/02/232868.full.pdf"
+  ],
+  "dois": [
+   "10.1016/S0140-6736(18)32611-4"
+  ]
+ },
+ {
+  "id": "FUND-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1038/387341a0"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.cs.utexas.edu/~mckinley/notes/ww-nature-1997.pdf"
+  ],
+  "dois": [
+   "10.1038/387341a0"
+  ]
+ },
+ {
+  "id": "FUND-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://www.nature.com/articles/37216.pdf"
+  ],
+  "dois": [
+   "10.1038/37213"
+  ]
+ },
+ {
+  "id": "FUND-04",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4603485"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.pnas.org/content/pnas/112/40/12349.full.pdf"
+  ],
+  "dois": [
+   "10.1073/pnas.1510159112"
+  ]
+ },
+ {
+  "id": "FUND-05",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6077749",
+  "pmc": "PMC6077749.1",
+  "pages": [
+   "https://nigms.nih.gov/node/137966"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-05/article.json",
+   "gender-bias-data/03-funding/FUND-05/source.pdf",
+   "gender-bias-data/03-funding/FUND-05/article.xml",
+   "gender-bias-data/03-funding/FUND-05/supplementary/pnas.1800615115.sapp.pdf",
+   "gender-bias-data/03-funding/FUND-05/figures/pnas.1800615115fig01.jpg",
+   "gender-bias-data/03-funding/FUND-05/figures/pnas.1800615115fig02.jpg",
+   "gender-bias-data/03-funding/FUND-05/figures/pnas.1800615115fig03.jpg",
+   "gender-bias-data/03-funding/FUND-05/figures/pnas.1800615115fig04.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1073/pnas.1800615115"
+  ]
+ },
+ {
+  "id": "FUND-06",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://jamanetwork.com/journals/jama/articlepdf/2726973/jama_oliveira_2019_ld_180068.pdf"
+  ],
+  "dois": [
+   "10.1001/jama.2018.21944"
+  ]
+ },
+ {
+  "id": "FUND-07",
+  "pdf": null,
+  "pmc": "PMC4965301.1",
+  "pages": [
+   "https://news.ku.edu/2016/07/07/ku-study-finds-race-not-gender-key-factor-nih-awards"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-07/article.json",
+   "gender-bias-data/03-funding/FUND-07/article.xml"
+  ],
+  "tried": [
+   "http://links.lww.com/ACADMED/A371"
+  ],
+  "dois": [
+   "10.1097/ACM.0000000000001278"
+  ]
+ },
+ {
+  "id": "FUND-08",
+  "pdf": null,
+  "pmc": "PMC6699508.1",
+  "pages": [
+   "https://www.omicsdi.org/dataset/biostudies-literature/S-EPMC6699508",
+   "https://doi.org/10.1038/s41562-018-0517-y"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-08/article.json",
+   "gender-bias-data/03-funding/FUND-08/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1038/s41562-018-0517-y"
+  ]
+ },
+ {
+  "id": "FUND-09",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://nber.org/papers/w25759"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.3386/w25759"
+  ]
+ },
+ {
+  "id": "FUND-10",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7440717",
+  "pmc": "PMC7440717.1",
+  "pages": [
+   "https://boris.unibe.ch/146089/1/Severin%20BMJOpen%202020.pdf"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-10/article.json",
+   "gender-bias-data/03-funding/FUND-10/source.pdf",
+   "gender-bias-data/03-funding/FUND-10/article.xml",
+   "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058.draft_revisions.pdf",
+   "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058.reviewer_comments.pdf",
+   "gender-bias-data/03-funding/FUND-10/figures/bmjopen-2019-035058f01.jpg",
+   "gender-bias-data/03-funding/FUND-10/supplementary/bmjopen-2019-035058supp001.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1136/bmjopen-2019-035058"
+  ]
+ },
+ {
+  "id": "FUND-11",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://arxiv.org/abs/math/0701537",
+   "https://doi.org/10.1016/j.joi.2007.03.001"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1016/j.joi.2007.03.001"
+  ]
+ },
+ {
+  "id": "FUND-12",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10155348",
+  "pmc": "PMC10155348.1",
+  "pages": [
+   "https://link.springer.com/content/pdf/10.1186/s41073-023-00127-3.pdf",
+   "https://doi.org/10.1186/s41073-023-00127-3"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-12/figures/41073_2023_127_Fig1_HTML.jpg",
+   "gender-bias-data/03-funding/FUND-12/supplementary/41073_2023_127_MOESM1_ESM.docx",
+   "gender-bias-data/03-funding/FUND-12/article.json",
+   "gender-bias-data/03-funding/FUND-12/source.pdf",
+   "gender-bias-data/03-funding/FUND-12/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1186/s41073-023-00127-3",
+   "10.1186/s41073-023-00127-3.pdf"
+  ]
+ },
+ {
+  "id": "FUND-13",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5218731",
+  "pmc": "PMC5218731.1",
+  "pages": [
+   "https://doi.org/10.1371/journal.pone.0169718"
+  ],
+  "files": [
+   "gender-bias-data/03-funding/FUND-13/article.json",
+   "gender-bias-data/03-funding/FUND-13/source.pdf",
+   "gender-bias-data/03-funding/FUND-13/article.xml",
+   "gender-bias-data/03-funding/FUND-13/figures/pone.0169718.g001.jpg",
+   "gender-bias-data/03-funding/FUND-13/supplementary/pone.0169718.s001.pdf",
+   "gender-bias-data/03-funding/FUND-13/supplementary/pone.0169718.s002.pdf",
+   "gender-bias-data/03-funding/FUND-13/supplementary/pone.0169718.s003.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1371/journal.pone.0169718"
+  ]
+ },
+ {
+  "id": "FUND-14",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://erc.europa.eu/sites/default/files/2022-09/gender_flyer.pdf"
+  ],
+  "dois": []
+ },
+ {
+  "id": "FUND-15",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://erc.europa.eu/sites/default/files/2022-11/Gender_statistics_June_2022.pdf"
+  ],
+  "dois": []
+ },
+ {
+  "id": "FUND-16",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "FUND-17",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "FUND-18",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://timeshighereducation.com/news/proportion-female-winners-top-erc-grants-dips"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "FUND-19",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "FUND-20",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://wellcome.org/research-funding/funding-portfolio/funding-data-2024"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "FUND-21",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PUB-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/504211a"
+  ]
+ },
+ {
+  "id": "PUB-02",
+  "pdf": "existing",
+  "pmc": "PMC5908072.1",
+  "pages": [
+   "https://lukeholman.github.io/genderGap/",
+   "https://doi.org/10.1371/journal.pbio.2004956"
+  ],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-02/article.json",
+   "gender-bias-data/04-publishing/PUB-02/article.xml",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.e001.jpg",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.e002.jpg",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g001.jpg",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g002.jpg",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g003.jpg",
+   "gender-bias-data/04-publishing/PUB-02/figures/pbio.2004956.g004.jpg",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s001.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s002.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s003.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s004.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s005.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s006.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s007.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s008.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s009.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s010.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s011.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s012.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s013.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s014.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s015.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s016.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s017.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s018.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s019.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s020.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s021.eps",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s022.pdf",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s023.pdf",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s024.pdf",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s025.pdf",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s026.pdf",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s027.csv",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s028.csv",
+   "gender-bias-data/04-publishing/PUB-02/supplementary/pbio.2004956.s029.csv"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1371/journal.pbio.2004956"
+  ]
+ },
+ {
+  "id": "PUB-03",
+  "pdf": "existing",
+  "pmc": "PMC9352587.1",
+  "pages": [
+   "https://doi.org/10.1038/s41586-022-04966-w"
+  ],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig1_HTML.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig2_HTML.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig3_HTML.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig4_HTML.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Fig5_HTML.jpg",
+   "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM1_ESM.docx",
+   "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM2_ESM.pdf",
+   "gender-bias-data/04-publishing/PUB-03/supplementary/41586_2022_4966_MOESM3_ESM.xlsx",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab1_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab2_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab3_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab4_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab5_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab6_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab7_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab8_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/figures/41586_2022_4966_Tab9_ESM.jpg",
+   "gender-bias-data/04-publishing/PUB-03/article.json",
+   "gender-bias-data/04-publishing/PUB-03/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1038/s41586-022-04966-w"
+  ]
+ },
+ {
+  "id": "PUB-04",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5360442",
+  "pmc": "PMC5360442.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-04/article.json",
+   "gender-bias-data/04-publishing/PUB-04/source.pdf",
+   "gender-bias-data/04-publishing/PUB-04/article.xml",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1-figsupp1.jpg",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1-figsupp2.jpg",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig1.jpg",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig2-figsupp1.jpg",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig2.jpg",
+   "gender-bias-data/04-publishing/PUB-04/figures/elife-21718-fig3.jpg",
+   "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp1.csv",
+   "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp2.csv",
+   "gender-bias-data/04-publishing/PUB-04/supplementary/elife-21718-supp3.zip"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.21718"
+  ]
+ },
+ {
+  "id": "PUB-05",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7787493",
+  "pmc": "PMC7787493.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-05/article.json",
+   "gender-bias-data/04-publishing/PUB-05/source.pdf",
+   "gender-bias-data/04-publishing/PUB-05/article.xml",
+   "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F1.jpg",
+   "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F2.jpg",
+   "gender-bias-data/04-publishing/PUB-05/figures/abd0299-F3.jpg",
+   "gender-bias-data/04-publishing/PUB-05/supplementary/abd0299_SM.pdf",
+   "gender-bias-data/04-publishing/PUB-05/supplementary/supp_7_2_eabd0299__1.pdf",
+   "gender-bias-data/04-publishing/PUB-05/supplementary/supp_7_2_eabd0299__index.html"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1126/sciadv.abd0299"
+  ]
+ },
+ {
+  "id": "PUB-06",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6434606",
+  "pmc": "PMC6434606.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g001.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g002.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g003.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g004.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g005.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g006.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g007.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g008.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g009.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g010.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g011.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g012.jpg",
+   "gender-bias-data/04-publishing/PUB-06/figures/ECE3-9-3599-g013.jpg",
+   "gender-bias-data/04-publishing/PUB-06/article.json",
+   "gender-bias-data/04-publishing/PUB-06/source.pdf",
+   "gender-bias-data/04-publishing/PUB-06/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1002/ece3.4993"
+  ]
+ },
+ {
+  "id": "PUB-07",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1038/541455a"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/541455a"
+  ]
+ },
+ {
+  "id": "PUB-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1038/d41586-020-01294-9"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/d41586-020-01294-9"
+  ]
+ },
+ {
+  "id": "PUB-09",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7304994",
+  "pmc": "PMC7304994.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/04-publishing/PUB-09/article.json",
+   "gender-bias-data/04-publishing/PUB-09/source.pdf",
+   "gender-bias-data/04-publishing/PUB-09/article.xml",
+   "gender-bias-data/04-publishing/PUB-09/figures/elife-58807-fig1.jpg",
+   "gender-bias-data/04-publishing/PUB-09/supplementary/elife-58807-supp1.docx",
+   "gender-bias-data/04-publishing/PUB-09/supplementary/elife-58807-transrepform.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.58807"
+  ]
+ },
+ {
+  "id": "PUB-10",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1038/s41562-020-0921-y"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/s41562-020-0921-y"
+  ]
+ },
+ {
+  "id": "PUB-11",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.natureindex.com/news-blog/decline-women-scientist-research-publishing-production-coronavirus-pandemic"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "CIT-01",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/s41593-020-0658-y",
+   "10.1101/2020.01.03.894378v2.full.pdf"
+  ]
+ },
+ {
+  "id": "CIT-02",
+  "pdf": null,
+  "pmc": "PMC8254129.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/05-citations/CIT-02/article.json",
+   "gender-bias-data/05-citations/CIT-02/article.xml",
+   "gender-bias-data/05-citations/CIT-02/supplementary/jamanetwopen-e2114509-s001.pdf"
+  ],
+  "tried": [
+   "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2781617/chatterjee_2021_oi_210439_1629473414.38917.pdf"
+  ],
+  "dois": [
+   "10.1001/jamanetworkopen.2021.14509"
+  ]
+ },
+ {
+  "id": "CIT-03",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/s41550-017-0141"
+  ]
+ },
+ {
+  "id": "CIT-04",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1177/2378023117738903"
+  ]
+ },
+ {
+  "id": "CIT-05",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1177/0306312711435830"
+  ]
+ },
+ {
+  "id": "CIT-06",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/d41586-019-00091-3"
+  ]
+ },
+ {
+  "id": "CIT-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://direct.mit.edu/qss/article-pdf/2/3/976/1970751/qss_a_00148.pdf"
+  ],
+  "dois": [
+   "10.1162/qss_a_00148"
+  ]
+ },
+ {
+  "id": "CIT-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://www.pnas.org/content/pnas/115/1/104.full.pdf"
+  ],
+  "dois": [
+   "10.1073/pnas.1708414115"
+  ]
+ },
+ {
+  "id": "CIT-09",
+  "pdf": "existing",
+  "pmc": "PMC6159863.1",
+  "pages": [
+   "https://doi.org/10.1371/journal.pone.0202743"
+  ],
+  "files": [
+   "gender-bias-data/05-citations/CIT-09/article.json",
+   "gender-bias-data/05-citations/CIT-09/article.xml",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.g001.jpg",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.g002.jpg",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.g003.jpg",
+   "gender-bias-data/05-citations/CIT-09/supplementary/pone.0202743.s001.pdf",
+   "gender-bias-data/05-citations/CIT-09/supplementary/pone.0202743.s002.pdf",
+   "gender-bias-data/05-citations/CIT-09/supplementary/pone.0202743.s003.pdf",
+   "gender-bias-data/05-citations/CIT-09/supplementary/pone.0202743.s004.pdf",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.t001.jpg",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.t002.jpg",
+   "gender-bias-data/05-citations/CIT-09/figures/pone.0202743.t003.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1371/journal.pone.0202743"
+  ]
+ },
+ {
+  "id": "CIT-10",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11132680",
+  "pmc": "PMC11132680.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/05-citations/CIT-10/article.json",
+   "gender-bias-data/05-citations/CIT-10/source.pdf",
+   "gender-bias-data/05-citations/CIT-10/article.xml",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig1-figsupp1.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig1.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2-figsupp1.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2-figsupp2.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig2.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp1.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp2.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp3.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3-figsupp4.jpg",
+   "gender-bias-data/05-citations/CIT-10/figures/elife-84855-fig3.jpg",
+   "gender-bias-data/05-citations/CIT-10/supplementary/elife-84855-mdarchecklist1.docx"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.84855"
+  ]
+ },
+ {
+  "id": "CIT-11",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://doi.org/10.17615/5zx6-hs09"
+  ],
+  "dois": [
+   "10.1177/14614448211023772"
+  ]
+ },
+ {
+  "id": "CIT-12",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://theprint.in/feature/wikipedia-gender-gap-women-scientists-study/2945729/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1098/rspb.2025.2566"
+  ]
+ },
+ {
+  "id": "PAY-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/annual-report-economic-status-profession-25-26"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PAY-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.ucea.ac.uk/our-work/employee-experience/intersectional-pay-gaps-in-higher-education/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "PAY-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://mpdf.cnrs.fr/wp-content/uploads/2023/12/MPDF-analyse-remunerations-synthese-2023.pdf"
+  ],
+  "dois": []
+ },
+ {
+  "id": "PAY-04",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6410805",
+  "pmc": "PMC6410805.1",
+  "pages": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6410805"
+  ],
+  "files": [
+   "gender-bias-data/06-pay/PAY-04/article.json",
+   "gender-bias-data/06-pay/PAY-04/source.pdf",
+   "gender-bias-data/06-pay/PAY-04/article.xml",
+   "gender-bias-data/06-pay/PAY-04/supplementary/pnas.1810862116.sapp.pdf",
+   "gender-bias-data/06-pay/PAY-04/figures/pnas.1810862116fig01.jpg",
+   "gender-bias-data/06-pay/PAY-04/figures/pnas.1810862116fig02.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1073/pnas.1810862116"
+  ]
+ },
+ {
+  "id": "PAY-05",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7904257",
+  "pmc": "PMC7904257.1",
+  "pages": [
+   "https://www.colorado.edu/today/2021/02/25/why-do-men-publish-more-papers-women-motherhood-plays-key-role"
+  ],
+  "files": [
+   "gender-bias-data/06-pay/PAY-05/article.json",
+   "gender-bias-data/06-pay/PAY-05/source.pdf",
+   "gender-bias-data/06-pay/PAY-05/article.xml",
+   "gender-bias-data/06-pay/PAY-05/figures/abd1996-F1.jpg",
+   "gender-bias-data/06-pay/PAY-05/figures/abd1996-F2.jpg",
+   "gender-bias-data/06-pay/PAY-05/figures/abd1996-F3.jpg",
+   "gender-bias-data/06-pay/PAY-05/figures/abd1996-F4.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1126/sciadv.abd1996"
+  ]
+ },
+ {
+  "id": "PAY-06",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.3386/w29436"
+  ]
+ },
+ {
+  "id": "PAY-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1001/jama.2015.8517"
+  ]
+ },
+ {
+  "id": "PAY-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1177/1529100614541236"
+  ]
+ },
+ {
+  "id": "PAY-09",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9299837",
+  "pmc": "PMC9299837.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/06-pay/PAY-09/article.json",
+   "gender-bias-data/06-pay/PAY-09/source.pdf",
+   "gender-bias-data/06-pay/PAY-09/article.xml",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-fig1.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-fig2.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-fig3.jpg",
+   "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-mdarchecklist1.pdf",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-sa2-fig1.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-sa2-fig2.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-sa2-fig3.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-sa2-fig4.jpg",
+   "gender-bias-data/06-pay/PAY-09/figures/elife-78909-sa2-fig5.jpg",
+   "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp1.docx",
+   "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp2.docx",
+   "gender-bias-data/06-pay/PAY-09/supplementary/elife-78909-supp3.docx",
+   "gender-bias-data/06-pay/PAY-09/figures/default.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.78909"
+  ]
+ },
+ {
+  "id": "TEACH-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1007/s10755-014-9313-4"
+  ]
+ },
+ {
+  "id": "TEACH-02",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1016/j.jpubeco.2016.11.006"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1016/j.jpubeco.2016.11.006"
+  ]
+ },
+ {
+  "id": "TEACH-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://repository.essex.ac.uk/20359/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1093/jeea/jvx057"
+  ]
+ },
+ {
+  "id": "TEACH-04",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.sciencedaily.com/releases/2017/04/170412144832.htm"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1007/s11162-017-9454-2"
+  ]
+ },
+ {
+  "id": "TEACH-05",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://econpapers.repec.org/RePEc:aea:aecrev:v:107:y:2017:i:3:p:714-47"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.20141734"
+  ],
+  "dois": [
+   "10.1257/aer.20141734"
+  ]
+ },
+ {
+  "id": "TEACH-06",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.insidehighered.com/node/76466"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-01",
+  "pdf": "https://www.nature.com/articles/s41593-020-0670-2.pdf",
+  "pmc": null,
+  "pages": [
+   "https://www.nature.com/articles/s41593-020-0670-2"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.nature.com/articles/s41593-020-0670-2.pdf"
+  ],
+  "dois": [
+   "10.1038/s41593-020-0670-2"
+  ]
+ },
+ {
+  "id": "NEURO-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.thetransmitter.org/publishing/women-are-systematically-under-cited-in-neuroscience-new-tools-can-change-that/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-03",
+  "pdf": null,
+  "pmc": "PMC9811856.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/08-neuroscience/NEURO-03/article.json",
+   "gender-bias-data/08-neuroscience/NEURO-03/article.xml"
+  ],
+  "tried": [
+   "https://www.biorxiv.org/content/biorxiv/early/2020/08/20/2020.08.19.257402.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.08.19.257402.full.pdfv3.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.08.19.257402.full.pdfv2.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.08.19.257402.full.pdfv1.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.08.19.257402.full.pdf"
+  ],
+  "dois": [
+   "10.1162/jocn_a_01643",
+   "10.1101/2020.08.19.257402.full.pdf"
+  ]
+ },
+ {
+  "id": "NEURO-04",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v3.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v2.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v1.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v1v3.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v1v2.full.pdf",
+   "https://www.biorxiv.org/content/10.1101/2020.10.12.336230v1v1.full.pdf"
+  ],
+  "dois": [
+   "10.1101/2020.10.12.336230",
+   "10.1101/2020.10.12.336230v1"
+  ]
+ },
+ {
+  "id": "NEURO-05",
+  "pdf": "existing",
+  "pmc": "PMC8553227.1",
+  "pages": [
+   "https://doi.org/10.1016/j.neuron.2021.06.002"
+  ],
+  "files": [
+   "gender-bias-data/08-neuroscience/NEURO-05/article.json",
+   "gender-bias-data/08-neuroscience/NEURO-05/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1016/j.neuron.2021.06.002"
+  ]
+ },
+ {
+  "id": "NEURO-06",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1111/ejn.14397"
+  ]
+ },
+ {
+  "id": "NEURO-07",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://sfn.org/publications/neuroscience-quarterly/spring-2018/women-in-neuroscience"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-09",
+  "pdf": "existing",
+  "pmc": "PMC7754118.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/08-neuroscience/NEURO-09/article.json",
+   "gender-bias-data/08-neuroscience/NEURO-09/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1002/jnr.24570"
+  ]
+ },
+ {
+  "id": "NEURO-10",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [
+   "https://doi.org/10.1038/d41586-019-02658-6"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": [
+   "10.1038/d41586-019-02658-6"
+  ]
+ },
+ {
+  "id": "NEURO-11",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8673833",
+  "pmc": "PMC8673833.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/08-neuroscience/NEURO-11/article.json",
+   "gender-bias-data/08-neuroscience/NEURO-11/source.pdf",
+   "gender-bias-data/08-neuroscience/NEURO-11/article.xml",
+   "gender-bias-data/08-neuroscience/NEURO-11/figures/elife-75818-fig1.jpg",
+   "gender-bias-data/08-neuroscience/NEURO-11/figures/elife-75818-fig2.jpg"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7554/eLife.75818"
+  ]
+ },
+ {
+  "id": "NEURO-12",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://charlesfrye.github.io/stats/2019/03/06/cosyne19-gender-bias.html"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-13",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.simonsfoundation.org/2020/08/28/addressing-gender-and-institutional-bias-at-cosyne/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-14",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://neuroscience.uchicago.edu/biasinneuroscience"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-15",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://biaswatchneuro.com"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "NEURO-16",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://anneslist.net"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "INT-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.90.4.715",
+   "https://dash.harvard.edu/bitstream/handle/1/30703974/aer.90.4.715.pdf?sequence=1"
+  ],
+  "dois": [
+   "10.1257/aer.90.4.715"
+  ]
+ },
+ {
+  "id": "INT-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://gwern.net/doc/www/jsmp.medium.com/0b9410ad1a51bf0a5a52c96c3177223217b013af.html"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "INT-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://reason.com/2019/10/22/orchestra-study-blind-auditions-gelman/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "INT-04",
+  "pdf": "existing",
+  "pmc": "PMC5715744.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/09-interventions/INT-04/article.json",
+   "gender-bias-data/09-interventions/INT-04/article.xml",
+   "gender-bias-data/09-interventions/INT-04/figures/pnas.1707323114fig01.jpg",
+   "gender-bias-data/09-interventions/INT-04/supplementary/pnas.201707323SI.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1073/pnas.1707323114"
+  ]
+ },
+ {
+  "id": "INT-05",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6450368",
+  "pmc": "PMC6450368.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/09-interventions/INT-05/article.json",
+   "gender-bias-data/09-interventions/INT-05/source.pdf",
+   "gender-bias-data/09-interventions/INT-05/article.xml",
+   "gender-bias-data/09-interventions/INT-05/figures/peerj-07-6702-g001.jpg",
+   "gender-bias-data/09-interventions/INT-05/figures/peerj-07-6702-g002.jpg",
+   "gender-bias-data/09-interventions/INT-05/figures/peerj-07-6702-g003.jpg",
+   "gender-bias-data/09-interventions/INT-05/figures/peerj-07-6702-g004.jpg",
+   "gender-bias-data/09-interventions/INT-05/figures/peerj-07-6702-g005.jpg",
+   "gender-bias-data/09-interventions/INT-05/supplementary/peerj-07-6702-s001.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.7717/peerj.6702"
+  ]
+ },
+ {
+  "id": "INT-06",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.aalto.fi/en/news/women-in-tenure-committees-do-not-speed-up-womens-science-careers"
+  ],
+  "files": [],
+  "tried": [
+   "https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.20151211"
+  ],
+  "dois": [
+   "10.1257/aer.20151211"
+  ]
+ },
+ {
+  "id": "INT-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.aeaweb.org/doi/10.1257/aer.20160613"
+  ],
+  "files": [],
+  "tried": [
+   "https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20160613"
+  ],
+  "dois": [
+   "10.1257/aer.20160613"
+  ]
+ },
+ {
+  "id": "INT-08",
+  "pdf": null,
+  "pmc": "PMC4310758.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/09-interventions/INT-08/article.json",
+   "gender-bias-data/09-interventions/INT-08/article.xml"
+  ],
+  "tried": [
+   "https://advance.washington.edu/liy/sites/default/files/Carnesetal_2015_0.pdf"
+  ],
+  "dois": [
+   "10.1097/ACM.0000000000000552"
+  ]
+ },
+ {
+  "id": "INT-09",
+  "pdf": null,
+  "pmc": "PMC5729935.1",
+  "pages": [
+   "https://doi.org/10.1016/j.jesp.2017.07.002"
+  ],
+  "files": [
+   "gender-bias-data/09-interventions/INT-09/article.json",
+   "gender-bias-data/09-interventions/INT-09/article.xml"
+  ],
+  "tried": [
+   "https://core.ac.uk/download/225400929.pdf"
+  ],
+  "dois": [
+   "10.1016/j.jesp.2017.07.002"
+  ]
+ },
+ {
+  "id": "INT-10",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7044944",
+  "pmc": "PMC7044944.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/09-interventions/INT-10/article.json",
+   "gender-bias-data/09-interventions/INT-10/source.pdf",
+   "gender-bias-data/09-interventions/INT-10/article.xml",
+   "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915.draft_revisions.pdf",
+   "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915.reviewer_comments.pdf",
+   "gender-bias-data/09-interventions/INT-10/figures/bmjopen-2019-032915f01.jpg",
+   "gender-bias-data/09-interventions/INT-10/figures/bmjopen-2019-032915f02.jpg",
+   "gender-bias-data/09-interventions/INT-10/supplementary/bmjopen-2019-032915supp001.pdf"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1136/bmjopen-2019-032915"
+  ]
+ },
+ {
+  "id": "INT-11",
+  "pdf": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5320775",
+  "pmc": "PMC5320775.1",
+  "pages": [],
+  "files": [
+   "gender-bias-data/09-interventions/INT-11/figures/12961_2017_177_Fig1_HTML.jpg",
+   "gender-bias-data/09-interventions/INT-11/supplementary/12961_2017_177_MOESM1_ESM.pdf",
+   "gender-bias-data/09-interventions/INT-11/article.json",
+   "gender-bias-data/09-interventions/INT-11/source.pdf",
+   "gender-bias-data/09-interventions/INT-11/article.xml"
+  ],
+  "tried": [],
+  "dois": [
+   "10.1186/s12961-017-0177-9"
+  ]
+ },
+ {
+  "id": "INT-12",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-01",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-02",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-03",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-04",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://databrowser.uis.unesco.org"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-05",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://lukeholman.github.io/genderGap/"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-06",
+  "pdf": null,
+  "pmc": null,
+  "pages": [
+   "https://www.nature.com/nature-index/author-gender-ratio/author-position-by-topic",
+   "https://www.nature.com/nature-index/author-gender-ratio/subjects-and-topics"
+  ],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-07",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-08",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-09",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-10",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-11",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [
+   "https://erc.europa.eu/sites/default/files/document/file/ERC_gender_actions_and_data.pdf"
+  ],
+  "dois": []
+ },
+ {
+  "id": "DATA-12",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-13",
+  "pdf": null,
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ },
+ {
+  "id": "DATA-14",
+  "pdf": "existing",
+  "pmc": null,
+  "pages": [],
+  "files": [],
+  "tried": [],
+  "dois": []
+ }
+]

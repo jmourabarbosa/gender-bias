@@ -1,0 +1,425 @@
+<!DOCTYPE html><html ng-app="ddiApp" id="ng-app" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase
+      indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage
+      borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections
+      csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage
+      sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope"><head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <meta content="width=device-width" name="viewport">
+    <link rel="preconnect" href="https://www.omicsdi.org">
+    <link rel="preconnect" href="https://www.ebi.ac.uk">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.omicsdi.org">
+    <link rel="dns-prefetch" href="https://www.ebi.ac.uk">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <meta content="[object Object]" name="description">
+    <meta name="google-site-verification" content="07pMm4mhj7lYu1zYE9ruBTR7gzDJIYjYHaT8JBfrZZU">
+    <title>S-EPMC6699508 - Little race or gender bias in an experiment of initial review of NIH R01 grant proposals. - OmicsDI</title>
+
+    <base href="/">
+
+    <!-- favico -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favico/favicon-16x16.png">
+    <!--<link rel="manifest" href="./img/favico/manifest.json">-->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" id="bootstrap-link">
+    <script>
+        if (window.location.href.includes("rosette")) {
+            var link = document.getElementById('bootstrap-link');
+            if (link) link.disabled = true;
+        }
+    </script>
+    <script>
+        if (!window.location.href.includes("rosette")) {
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            var authToken = getParameterByName('AUTH_TOKEN');
+            if (authToken && typeof localStorage !== 'undefined') {
+                localStorage.setItem('id_token', authToken);
+                window.location.href = window.location.href.replace('AUTH_TOKEN=' + authToken, '');
+            }
+
+            var galaxyURL = getParameterByName('GALAXY_URL');
+            if (galaxyURL && typeof sessionStorage !== 'undefined') {
+                sessionStorage.setItem('galaxy_instance', galaxyURL);
+            }
+        }
+    </script>
+<link rel="stylesheet" href="styles.850dd8dbd7dcab0442dd.css"><style ng-transition="serverApp">i.icon-socialmedia[_ngcontent-sc0], input.icon-socialmedia[_ngcontent-sc0], .icon-socialmedia[_ngcontent-sc0]:before {
+                color: #222 !important;
+            }
+            .elixir-ribbon[_ngcontent-sc0] {
+                padding: 1rem 0;
+                background-color: transparent;
+            }
+
+            .elixir-ribbon[_ngcontent-sc0] {
+                font-family: Helvetica, Arial, FreeSans, 'Liberation Sans', sans-serif;
+                clear: both;
+            }
+
+            .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0], .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:active, .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:visited, .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:hover {
+                border-bottom: none;
+            }
+
+            .elixir-ribbon[_ngcontent-sc0]   .row[_ngcontent-sc0] {
+                margin: 0 auto 1rem;
+            }
+
+            .elixir-ribbon[_ngcontent-sc0]   .row[_ngcontent-sc0]::before, .elixir-ribbon[_ngcontent-sc0]   .row[_ngcontent-sc0]::after {
+                display: table;
+                content: ' ';
+            }
+
+            .elixir-ribbon[_ngcontent-sc0]   h5[_ngcontent-sc0] {
+                font-size: 1.3rem;
+                padding: 0;
+                display: inline-block;
+            }
+
+            .elixir-ribbon[_ngcontent-sc0], .elixir-ribbon[_ngcontent-sc0]   h5[_ngcontent-sc0], .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0], .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:active, .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:visited, .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:hover {
+                color: #222;
+                text-decoration: none;
+            }
+            .elixir-ribbon[_ngcontent-sc0]   a[_ngcontent-sc0]:hover {
+                opacity: .8;
+            }
+            .elixir-ribbon[_ngcontent-sc0]   .readmore[_ngcontent-sc0] {
+                border-bottom: 1px dotted #222;
+            }
+            .elixir-ribbon[_ngcontent-sc0]   h5[_ngcontent-sc0] {
+                margin: 0;
+            }
+            .elixir-ribbon[_ngcontent-sc0]   .elixir-logo-kite[_ngcontent-sc0] {
+                background: 80% 58% url("https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.2/images/logos/assorted/elixir_kitemark-60px.png") no-repeat;
+                position: relative;
+                top: -5px;
+                margin: 0 1rem -.5rem 0;
+                height: 60px;
+                width: 60px;
+                display: inline-block;
+                float: left;
+                background-size: 60px;
+            }</style><style ng-transition="serverApp">ul[_ngcontent-sc0]   li[_ngcontent-sc0] {
+    font-size: 10pt;
+}
+
+.navbar-inverse[_ngcontent-sc0]   .navbar-nav[_ngcontent-sc0] > .open[_ngcontent-sc0] > a[_ngcontent-sc0], .navbar-inverse[_ngcontent-sc0]   .navbar-nav[_ngcontent-sc0] > .open[_ngcontent-sc0] > a[_ngcontent-sc0]:hover, .navbar-inverse[_ngcontent-sc0]   .navbar-nav[_ngcontent-sc0] > .open[_ngcontent-sc0] > a[_ngcontent-sc0]:focus {
+    background-color: #2e6da4;
+}
+
+.indent[_ngcontent-sc0] {
+    margin-left: 260px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvYXBwL2FwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInVsIGxpIHtcbiAgICBmb250LXNpemU6IDEwcHQ7XG59XG5cbi5uYXZiYXItaW52ZXJzZSAubmF2YmFyLW5hdj4ub3Blbj5hLCAubmF2YmFyLWludmVyc2UgLm5hdmJhci1uYXY+Lm9wZW4+YTpob3ZlciwgLm5hdmJhci1pbnZlcnNlIC5uYXZiYXItbmF2Pi5vcGVuPmE6Zm9jdXMge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMyZTZkYTQ7XG59XG5cbi5pbmRlbnQge1xuICAgIG1hcmdpbi1sZWZ0OiAyNjBweDtcbn0iXX0= */</style><style ng-transition="serverApp">ng-progress{z-index:999999;pointer-events:none}ng-progress[fixed=true] .ng-progress-bar,ng-progress[fixed=true] .ng-spinner{position:fixed}ng-progress[fixed=true] .ng-spinner{top:15px}ng-progress[fixed=true][spinnerPosition=left] .ng-spinner{left:15px}ng-progress[fixed=true][spinnerPosition=right] .ng-spinner{right:15px}ng-progress[thick=true] .ng-spinner-icon{width:24px;height:24px;border-width:3px}ng-progress[thick=true] .ng-bar-placeholder{height:3px!important}ng-progress[dir='ltr+'] .ng-meteor,ng-progress[dir=ltr-] .ng-meteor{-webkit-transform:rotate(3deg);transform:rotate(3deg)}ng-progress[dir='ltr+'][thick=true] .ng-meteor,ng-progress[dir=ltr-][thick=true] .ng-meteor{-webkit-transform:rotate(4deg);transform:rotate(4deg)}ng-progress[dir='ltr+'] .ng-bar,ng-progress[dir='rtl+'] .ng-bar{margin-left:-100%}ng-progress[dir='ltr+'] .ng-meteor,ng-progress[dir='rtl+'] .ng-meteor{right:0}ng-progress[dir='ltr+'] .ng-meteor,ng-progress[dir=rtl-] .ng-meteor{top:-3px}ng-progress[dir='ltr+'][thick=true] .ng-meteor,ng-progress[dir=rtl-][thick=true] .ng-meteor{top:-4px}ng-progress[dir='rtl+'] .ng-meteor,ng-progress[dir=ltr-] .ng-meteor{bottom:-3px}ng-progress[dir='rtl+'][thick=true] .ng-meteor,ng-progress[dir=ltr-][thick=true] .ng-meteor{bottom:-4px}ng-progress[dir='rtl+'] .ng-bar-placeholder,ng-progress[dir=ltr-] .ng-bar-placeholder{-webkit-transform:rotate(180deg);transform:rotate(180deg)}ng-progress[dir='rtl+'] .ng-spinner-icon,ng-progress[dir=ltr-] .ng-spinner-icon{animation-direction:reverse}ng-progress[dir='rtl+'] .ng-meteor,ng-progress[dir=rtl-] .ng-meteor{-webkit-transform:rotate(-3deg);transform:rotate(-3deg)}ng-progress[dir='rtl+'][thick=true] .ng-meteor,ng-progress[dir=rtl-][thick=true] .ng-meteor{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}ng-progress[spinnerPosition=left] .ng-spinner{left:10px}ng-progress[spinnerPosition=right] .ng-spinner{right:10px}.ng-progress-bar{position:relative;z-index:999999;top:0;left:0;width:100%;zoom:1;opacity:0}.ng-progress-bar.-active{opacity:1;transition:none}.ng-bar-placeholder{position:absolute;height:2px;width:100%}.ng-bar{width:100%;height:100%;-webkit-transform:translate(-100%,0,0);transform:translate(-100%,0,0)}.ng-meteor{display:block;position:absolute;width:100px;height:100%;opacity:1}.ng-spinner{position:absolute;display:block;z-index:1031;top:10px}.ng-spinner-icon{width:18px;height:18px;box-sizing:border-box;-webkit-animation:250ms linear infinite spinner-animation;animation:250ms linear infinite spinner-animation;border:2px solid transparent;border-radius:50%}@-webkit-keyframes spinner-animation{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner-animation{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}</style><style ng-transition="serverApp">.simple-notification-wrapper {
+    position: fixed;
+    width: 300px;
+    z-index: 1000;
+}
+
+.simple-notification-wrapper.left {
+    left: 20px;
+}
+
+.simple-notification-wrapper.top {
+    top: 20px;
+}
+
+.simple-notification-wrapper.right {
+    right: 20px;
+}
+
+.simple-notification-wrapper.bottom {
+    bottom: 20px;
+}
+
+.simple-notification-wrapper.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.simple-notification-wrapper.middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.simple-notification-wrapper.middle.center {
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 340px) {
+    .simple-notification-wrapper {
+        width: auto;
+        left: 20px;
+        right: 20px;
+    }
+}</style><style ng-transition="serverApp">div.mat-menu-panel {
+    width: 670px !important;
+}
+
+div.mat-menu-panel {
+    max-width: 670px;
+    width: 670px;
+    overflow: visible;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL21vZHVsZXMvY29udHJvbHMvc2VhcmNoLWJveC9zZWFyY2gtYm94LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSx1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsWUFBWTtJQUNaLGlCQUFpQjtBQUNyQiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9tb2R1bGVzL2NvbnRyb2xzL3NlYXJjaC1ib3gvc2VhcmNoLWJveC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2Lm1hdC1tZW51LXBhbmVsIHtcbiAgICB3aWR0aDogNjcwcHggIWltcG9ydGFudDtcbn1cblxuZGl2Lm1hdC1tZW51LXBhbmVsIHtcbiAgICBtYXgtd2lkdGg6IDY3MHB4O1xuICAgIHdpZHRoOiA2NzBweDtcbiAgICBvdmVyZmxvdzogdmlzaWJsZTtcbn1cbiJdfQ== */</style><style ng-transition="serverApp">.autocomplete[_ngcontent-sc5]   input[_ngcontent-sc5] {
+    font-size: 1.1em;
+    padding: 6px;
+    text-indent: 4px;
+    width: 100%;
+    border: 0px solid transparent;
+}
+
+.autocomplete[_ngcontent-sc5]   input[_ngcontent-sc5]:active, .autocomplete[_ngcontent-sc5]   input[_ngcontent-sc5]:focus {
+    border-color: transparent;
+    box-shadow: none;
+    outline: 0 solid transparent;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL21vZHVsZXMvY29udHJvbHMvYXV0b2NvbXBsZXRlLW4vYXV0b2NvbXBsZXRlLW4uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCw2QkFBNkI7QUFDakM7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsZ0JBQWdCO0lBQ2hCLDRCQUE0QjtBQUNoQyIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9tb2R1bGVzL2NvbnRyb2xzL2F1dG9jb21wbGV0ZS1uL2F1dG9jb21wbGV0ZS1uLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXV0b2NvbXBsZXRlIGlucHV0IHtcbiAgICBmb250LXNpemU6IDEuMWVtO1xuICAgIHBhZGRpbmc6IDZweDtcbiAgICB0ZXh0LWluZGVudDogNHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJvcmRlcjogMHB4IHNvbGlkIHRyYW5zcGFyZW50O1xufVxuXG4uYXV0b2NvbXBsZXRlIGlucHV0OmFjdGl2ZSwgLmF1dG9jb21wbGV0ZSBpbnB1dDpmb2N1cyB7XG4gICAgYm9yZGVyLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICBib3gtc2hhZG93OiBub25lO1xuICAgIG91dGxpbmU6IDAgc29saWQgdHJhbnNwYXJlbnQ7XG59Il19 */</style><style ng-transition="serverApp">.mat-menu-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;max-height:calc(100vh - 48px);border-radius:4px;outline:0}.mat-menu-panel.ng-animating{pointer-events:none}@media (-ms-high-contrast:active){.mat-menu-panel{outline:solid 1px}}.mat-menu-content:not(:empty){padding-top:8px;padding-bottom:8px}.mat-menu-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;line-height:48px;height:48px;padding:0 16px;text-align:left;text-decoration:none;max-width:100%;position:relative}.mat-menu-item::-moz-focus-inner{border:0}.mat-menu-item[disabled]{cursor:default}[dir=rtl] .mat-menu-item{text-align:right}.mat-menu-item .mat-icon{margin-right:16px;vertical-align:middle}.mat-menu-item .mat-icon svg{vertical-align:top}[dir=rtl] .mat-menu-item .mat-icon{margin-left:16px;margin-right:0}@media (-ms-high-contrast:active){.mat-menu-item-highlighted,.mat-menu-item.cdk-keyboard-focused,.mat-menu-item.cdk-program-focused{outline:dotted 1px}}.mat-menu-item-submenu-trigger{padding-right:32px}.mat-menu-item-submenu-trigger::after{width:0;height:0;border-style:solid;border-width:5px 0 5px 5px;border-color:transparent transparent transparent currentColor;content:'';display:inline-block;position:absolute;top:50%;right:16px;transform:translateY(-50%)}[dir=rtl] .mat-menu-item-submenu-trigger{padding-right:16px;padding-left:32px}[dir=rtl] .mat-menu-item-submenu-trigger::after{right:auto;left:16px;transform:rotateY(180deg) translateY(-50%)}button.mat-menu-item{width:100%}.mat-menu-item .mat-menu-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}</style><style ng-transition="serverApp">.form-inline[_ngcontent-sc7]   .form-control[_ngcontent-sc7] {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL21vZHVsZXMvY29udHJvbHMvcXVlcnktYnVpbGRlci9xdWVyeS1idWlsZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7SUFDRyxxQkFBcUI7SUFDckIsV0FBVztJQUNYLHNCQUFzQjtBQUMxQiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9tb2R1bGVzL2NvbnRyb2xzL3F1ZXJ5LWJ1aWxkZXIvcXVlcnktYnVpbGRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC5mb3JtLWlubGluZSAuZm9ybS1jb250cm9sIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgd2lkdGg6IGF1dG87XG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbn0iXX0= */</style><style ng-transition="serverApp">.even[_ngcontent-sc9] {
+    color: yellow;
+}
+
+.odd[_ngcontent-sc9] {
+    color: white;
+}
+
+.citation-button[_ngcontent-sc9] { 
+    transition-duration: 0.4s;
+
+}
+
+.citation-button[_ngcontent-sc9] {
+    background-color: #0099cc;
+    border-color: #0099cc;
+    border-bottom-color: #0099cc !Important;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 10px; 
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.03);
+    color: black;
+}
+
+.citation-button[_ngcontent-sc9]:hover {
+    background-color: white; 
+    color: black;
+}
+
+.elements[_ngcontent-sc9]    > span[_ngcontent-sc9] {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.btn[_ngcontent-sc9] {
+    padding: 4px 7px;
+    min-width: 85px;
+}
+
+@media (min-width: 768px) {
+    .btn[_ngcontent-sc9] {
+        padding: 4px 12px;
+        min-width: 100px;
+    }
+}
+
+#notfound-background[_ngcontent-sc9] {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:#0099cc;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#err-title[_ngcontent-sc9] {
+    text-align:center;
+    font-size:40px;
+    margin-top:40px;
+    margin-bottom:-40px;
+    position:relative;
+    color:#fff;
+}
+
+.circles-cut[_ngcontent-sc9] {
+    position: relative;
+}
+
+.circles-cut[_ngcontent-sc9]:after {
+    content:'';
+    display:inline-block;
+    width:100%;
+    height:100px;
+    background:#fff;
+    position:absolute;
+    top:-50px;
+    left:0;
+    transform:skewY(-5deg);
+    -webkit-transform:skewY(-5deg);
+}
+
+.circles[_ngcontent-sc9] {
+    background:#fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    height: 70%;
+}
+
+#err-message[_ngcontent-sc9] {
+    margin-top: 50px;
+    display: grid;
+}
+
+#err-message[_ngcontent-sc9]    > *[_ngcontent-sc9] {
+    text-align: center;
+}
+
+#err-message[_ngcontent-sc9]    > p[_ngcontent-sc9] {
+    font-size: 16px;
+}
+
+#err-message[_ngcontent-sc9]   ul[_ngcontent-sc9]   li[_ngcontent-sc9] {
+    list-style: none;
+    font-size: 16px;
+}
+
+#err-message[_ngcontent-sc9]   ul[_ngcontent-sc9]   li[_ngcontent-sc9]   i[_ngcontent-sc9] {
+    margin-right: 5px;
+}
+
+table[_ngcontent-sc9] {
+    width: 100%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbW9kdWxlcy9kYXRhc2V0L2NvbXBvbmVudHMvZGF0YXNldC9kYXRhc2V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksWUFBWTtBQUNoQjs7QUFFQSxtQkFDdUMsV0FBVztJQUM5Qyx5QkFBeUI7O0FBRTdCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHFCQUFxQjtJQUNyQix1Q0FBdUM7SUFDdkMsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixtQkFBbUI7SUFDbkIsZUFBZSxFQUNvQixXQUFXO0lBQzlDLHlCQUF5QjtJQUN6QiwyRUFBMkU7SUFDM0UsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHVCQUF1QixFQUFFLFVBQVU7SUFDbkMsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJO1FBQ0ksaUJBQWlCO1FBQ2pCLGdCQUFnQjtJQUNwQjtBQUNKOztBQUVBO0lBQ0ksZUFBZTtJQUNmLFdBQVc7SUFDWCxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLE1BQU07SUFDTixPQUFPO0lBQ1AsVUFBVTtBQUNkOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGNBQWM7SUFDZCxlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQixVQUFVO0FBQ2Q7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxVQUFVO0lBQ1Ysb0JBQW9CO0lBQ3BCLFVBQVU7SUFDVixZQUFZO0lBQ1osZUFBZTtJQUNmLGlCQUFpQjtJQUNqQixTQUFTO0lBQ1QsTUFBTTtJQUNOLHNCQUFzQjtJQUN0Qiw4QkFBOEI7QUFDbEM7O0FBRUE7SUFDSSxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsVUFBVTtJQUNWLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixhQUFhO0FBQ2pCOztBQUNBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvbW9kdWxlcy9kYXRhc2V0L2NvbXBvbmVudHMvZGF0YXNldC9kYXRhc2V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXZlbiB7XG4gICAgY29sb3I6IHllbGxvdztcbn1cblxuLm9kZCB7XG4gICAgY29sb3I6IHdoaXRlO1xufVxuXG4uY2l0YXRpb24tYnV0dG9uIHtcbiAgICAtd2Via2l0LXRyYW5zaXRpb24tZHVyYXRpb246IDAuNHM7IC8qIFNhZmFyaSAqL1xuICAgIHRyYW5zaXRpb24tZHVyYXRpb246IDAuNHM7XG5cbn1cblxuLmNpdGF0aW9uLWJ1dHRvbiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOTljYztcbiAgICBib3JkZXItY29sb3I6ICMwMDk5Y2M7XG4gICAgYm9yZGVyLWJvdHRvbS1jb2xvcjogIzAwOTljYyAhSW1wb3J0YW50O1xuICAgIHBhZGRpbmc6IDhweCAxNnB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBib3JkZXItcmFkaXVzOiAxMnB4O1xuICAgIGZvbnQtc2l6ZTogMTBweDtcbiAgICAtd2Via2l0LXRyYW5zaXRpb24tZHVyYXRpb246IDAuNHM7IC8qIFNhZmFyaSAqL1xuICAgIHRyYW5zaXRpb24tZHVyYXRpb246IDAuNHM7XG4gICAgYm94LXNoYWRvdzogMCAycHggNHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpLCAwIDFweCA1cHggMCByZ2JhKDAsIDAsIDAsIDAuMDMpO1xuICAgIGNvbG9yOiBibGFjaztcbn1cblxuLmNpdGF0aW9uLWJ1dHRvbjpob3ZlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7IC8qIEdyZWVuICovXG4gICAgY29sb3I6IGJsYWNrO1xufVxuXG4uZWxlbWVudHMgPiBzcGFuIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgbWFyZ2luLXJpZ2h0OiA4cHg7XG59XG5cbi5idG4ge1xuICAgIHBhZGRpbmc6IDRweCA3cHg7XG4gICAgbWluLXdpZHRoOiA4NXB4O1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICAuYnRuIHtcbiAgICAgICAgcGFkZGluZzogNHB4IDEycHg7XG4gICAgICAgIG1pbi13aWR0aDogMTAwcHg7XG4gICAgfVxufVxuXG4jbm90Zm91bmQtYmFja2dyb3VuZCB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBiYWNrZ3JvdW5kOiMwMDk5Y2M7XG4gICAgdG9wOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgei1pbmRleDogMTtcbn1cblxuI2Vyci10aXRsZSB7XG4gICAgdGV4dC1hbGlnbjpjZW50ZXI7XG4gICAgZm9udC1zaXplOjQwcHg7XG4gICAgbWFyZ2luLXRvcDo0MHB4O1xuICAgIG1hcmdpbi1ib3R0b206LTQwcHg7XG4gICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgY29sb3I6I2ZmZjtcbn1cblxuLmNpcmNsZXMtY3V0IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5jaXJjbGVzLWN1dDphZnRlciB7XG4gICAgY29udGVudDonJztcbiAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcbiAgICB3aWR0aDoxMDAlO1xuICAgIGhlaWdodDoxMDBweDtcbiAgICBiYWNrZ3JvdW5kOiNmZmY7XG4gICAgcG9zaXRpb246YWJzb2x1dGU7XG4gICAgdG9wOi01MHB4O1xuICAgIGxlZnQ6MDtcbiAgICB0cmFuc2Zvcm06c2tld1koLTVkZWcpO1xuICAgIC13ZWJraXQtdHJhbnNmb3JtOnNrZXdZKC01ZGVnKTtcbn1cblxuLmNpcmNsZXMge1xuICAgIGJhY2tncm91bmQ6I2ZmZjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHRvcDogMTYwcHg7XG4gICAgaGVpZ2h0OiA3MCU7XG59XG5cbiNlcnItbWVzc2FnZSB7XG4gICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICBkaXNwbGF5OiBncmlkO1xufVxuI2Vyci1tZXNzYWdlID4gKiB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4jZXJyLW1lc3NhZ2UgPiBwIHtcbiAgICBmb250LXNpemU6IDE2cHg7XG59XG5cbiNlcnItbWVzc2FnZSB1bCBsaSB7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG59XG5cbiNlcnItbWVzc2FnZSB1bCBsaSBpIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDVweDtcbn1cblxudGFibGUge1xuICAgIHdpZHRoOiAxMDAlO1xufSJdfQ== */</style><style ng-transition="serverApp">
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9tb2R1bGVzL2NvbnRyb2xzL3NvY2lhbG5ldHdvcmtzL3NvY2lhbG5ldHdvcmtzLmNvbXBvbmVudC5jc3MifQ== */</style><style ng-transition="serverApp">
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9tb2R1bGVzL2NvbnRyb2xzL29taWNzLWltYWdlL29taWNzLWltYWdlLmNvbXBvbmVudC5jc3MifQ== */</style><style ng-transition="serverApp">.even[_ngcontent-sc12] {
+    color: yellow;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL21vZHVsZXMvY29udHJvbHMvYW5ub3RhdGVkLXRleHQvYW5ub3RhdGVkLXRleHQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9zaGFyZWQvbW9kdWxlcy9jb250cm9scy9hbm5vdGF0ZWQtdGV4dC9hbm5vdGF0ZWQtdGV4dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV2ZW4ge1xuICAgIGNvbG9yOiB5ZWxsb3c7XG59XG4iXX0= */</style></head>
+
+
+<body class="level22" style="padding-top: 70px; background-color: #FFF;">
+    <app-root _nghost-sc0="" ng-version="7.2.16"><div _ngcontent-sc0="" class="container_ddi" id="wrapper1" style="margin:0px;"><nav _ngcontent-sc0="" role="navigation" style="border: none" class="navbar navbar-inverse navbar-fixed-top row" classname="navbar navbar-inverse navbar-fixed-top row"><div _ngcontent-sc0="" class="navbar-header"><div _ngcontent-sc0="" class="nav-item" style="padding: 10px 0 10px 15px; float: left;"><a _ngcontent-sc0="" class="nav-link text-center nav-element" style="padding: 20px 15px" title="OmicsDI Homepage" href="/"><img _ngcontent-sc0="" alt="logo" style="height: 25px;" src="./static/images/logo/imageedit_2_3220380406.png"><!----><span _ngcontent-sc0="" style="margin-left: 8px; font-size: 10pt; vertical-align: bottom" class="ng-star-inserted">OmicsDI</span></a></div><button _ngcontent-sc0="" class="navbar-toggle" type="button"><span _ngcontent-sc0="" class="sr-only">Toggle navigation</span><span _ngcontent-sc0="" class="icon-bar"></span><span _ngcontent-sc0="" class="icon-bar"></span><span _ngcontent-sc0="" class="icon-bar"></span></button></div><div _ngcontent-sc0="" class="nav navbar-left top-nav col-lg-5 col-md-10 col-sm-9 col-xs-8" style="padding: 0"><ul _ngcontent-sc0="" class="nav navbar-nav col-lg-7 col-md-12 col-sm-12 navbar-collapse collapse"><li _ngcontent-sc0="" class="nav-item"><a _ngcontent-sc0="" class="nav-link text-center nav-element" routerlink="/search" href="/search">Browse</a></li><li _ngcontent-sc0="" class="nav-item"><a _ngcontent-sc0="" class="nav-link text-center nav-element">Submit Data</a></li><li _ngcontent-sc0="" class="nav-item"><a _ngcontent-sc0="" class="nav-link text-center nav-element" href="/database">Databases</a></li><li _ngcontent-sc0="" class="nav-item"><a _ngcontent-sc0="" class="nav-link text-center nav-element">API</a></li><!----></ul></div><ul _ngcontent-sc0="" class="nav navbar-right top-nav hidden-md hidden-sm hidden-xs col-lg-5 omics-search-box"><!----><li _ngcontent-sc0="" app-search-box="" class="col-md-6 col-sm-12 col-xs-12 functional ng-star-inserted" style="width:100%;"><div class="search-box"><form class="local-search ng-untouched ng-pristine ng-valid" name="queryForm" novalidate=""><div class="form-group "><div class="input-group "><app-autocomplete-n _nghost-sc5=""><div _ngcontent-sc5="" class="autocomplete"><div class="ngui-auto-complete-wrapper" style="position: relative;"><input _ngcontent-sc5="" auto-complete="" min-chars="3" no-match-found-text=" " placeholder="Organism, repository, gene, tissue, accession" type="text" value="" class="ng-untouched ng-pristine ng-valid" autocomplete="off"></div></div></app-autocomplete-n><div class="input-group-btn"><button aria-haspopup="true" class="btn btn-primary ddi-btn" type="button"><i aria-hidden="true" class="fa fa-caret-down" classname="fa fa-caret-down"></i> Advanced </button><button class="btn btn-primary ddi-btn" type="submit" value="submit"><i class="fa fa-search"></i> Search </button></div></div><!----><!----></div></form></div><mat-menu id="advancedSearchMenu" class="ng-tns-c6-0"><!----></mat-menu></li></ul></nav><ng-progress _ngcontent-sc0="" role="progressbar" spinnerposition="left" dir="ltr+" thick="false" fixed="true"><!----><!----><div class="ng-progress-bar ng-star-inserted" style="transition:opacity 200ms linear;"><div class="ng-bar-placeholder"><div class="ng-bar" style="transform:translate3d(0%,0,0);background-color:red;transition:none;"><!----><div class="ng-meteor ng-star-inserted" style="box-shadow:0 0 10px red, 0 0 5px red;"></div></div></div><!----></div></ng-progress><div _ngcontent-sc0="" style=""><router-outlet _ngcontent-sc0=""></router-outlet><app-dataset _nghost-sc9="" class="ng-star-inserted"><div _ngcontent-sc9="" class="container_ddi" id="datasetCtrl"><!----><div _ngcontent-sc9="" class="row ng-star-inserted"><div _ngcontent-sc9="" class="col-lg-1 visible-lg" id="app-social" style="display: block; position: relative"><span _ngcontent-sc9="" style="position: fixed; left: 2.5%"><app-socialnetworks _ngcontent-sc9="" _nghost-sc10=""><div _ngcontent-sc10="" id="socialnetworks" ng-show="get_dataset_fail.length<1" style="display: flex;align-items: center;"><div _ngcontent-sc10="" class="simple-skinnyleft" style="margin: auto"><a _ngcontent-sc10="" class="tweetcountwrapper"><i _ngcontent-sc10="" class="fa fa-twitter"></i></a><a _ngcontent-sc10="" class="facebookcountwrapper"><i _ngcontent-sc10="" class="fa fa-facebook"></i></a><a _ngcontent-sc10="" class="emailcountwrapper"><i _ngcontent-sc10="" class="fa fa-envelope"></i></a><a _ngcontent-sc10="" class="tumblrcountwrapper"><i _ngcontent-sc10="" class="fa fa-tumblr"></i></a><a _ngcontent-sc10="" class="linkedincountwrapper"><i _ngcontent-sc10="" class="fa fa-linkedin"></i></a><a _ngcontent-sc10="" class="googlepluscountwrapper"><i _ngcontent-sc10="" class="fa fa-google-plus"></i></a></div></div></app-socialnetworks></span></div><div _ngcontent-sc9="" class="col-lg-8 col-md-9 col-sm-12 col-xs-12" id="centerpanel"><div _ngcontent-sc9="" class="mt-card"><div _ngcontent-sc9="" class="mt-card-header" style="padding: 10px 0; border-bottom: 1px solid #dddddd; display: flex; align-items: center"><div _ngcontent-sc9="" class="col-xs-10" style="display: flex; align-items: center"><div _ngcontent-sc9="" style="width: 50px"><app-omics-image _ngcontent-sc9="" _nghost-sc11=""><img _ngcontent-sc11="" style="border-radius:50%;" src="img/omics/Unknown.svg" alt="Unknown" title="Unknown"></app-omics-image></div><h3 _ngcontent-sc9="" class="mt-card-title" style="padding: 0; margin: 0 10px; font-weight: 500">Dataset Information</h3></div><div _ngcontent-sc9="" class="col-xs-2"><div _ngcontent-sc9="" apppiechart="" class="pull-right"></div></div></div><div _ngcontent-sc9="" class="mt-card-body"><div _ngcontent-sc9="" class="" id="dataset_upper_right" style="overflow:hidden;"><div _ngcontent-sc9="" style="margin-bottom: 25px"><h3 _ngcontent-sc9="" id="dataset-title"><app-annotated-text _ngcontent-sc9="" _nghost-sc12=""><!----><span _ngcontent-sc12="" class="ng-star-inserted">Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.</span><!----></app-annotated-text></h3><p _ngcontent-sc9="" class="hotword" id="ontology_highlight_box" style=""><i _ngcontent-sc9="" aria-hidden="true" class="fa fa-pencil-square-o">Ontology highlight</i></p></div><hr _ngcontent-sc9=""><div _ngcontent-sc9=""><div _ngcontent-sc9=""><p _ngcontent-sc9="" class="elements"><b _ngcontent-sc9="">ABSTRACT</b>: <app-annotated-text _ngcontent-sc9="" id="abstract" _nghost-sc12=""><!----><span _ngcontent-sc12="" class="ng-star-inserted">Many granting agencies allow reviewers to know the identity of a proposal's principal investigator (PI), which opens the possibility that reviewers discriminate on the basis of PI race and gender. We investigated this experimentally with 48 NIH R01 grant proposals, representing a broad range of NIH-funded science. We modified PI names to create separate white male, white female, black male and black female versions of each proposal, and 412 scientists each submitted initial reviews for 3 proposals. We find little to no race or gender bias in initial R01 evaluations, and additionally find that any bias that might have been present must be negligible in size. This conclusion was robust to a wide array of statistical model specifications. Pragmatically, important bias may be present in other </span><!----></app-annotated-text></p></div></div><!----><!----><!----><!----><!----><!----><p _ngcontent-sc9="" class="elements ng-star-inserted" id="submitter"><b _ngcontent-sc9="">SUBMITTER: </b><!----><span _ngcontent-sc9="" class="ng-star-inserted"><!----><!----><span _ngcontent-sc9="" class="ng-star-inserted">Forscher PS</span>&nbsp; </span></p><!----><p _ngcontent-sc9="" class="elements"><b _ngcontent-sc9="">PROVIDER: </b><span _ngcontent-sc9=""><a _ngcontent-sc9="" id="id" href="https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508">S-EPMC6699508</a> | <a _ngcontent-sc9="" href="https://www.ebi.ac.uk/biostudies/"><span _ngcontent-sc9="" class="ng-binding" id="source">biostudies-literature</span></a><span _ngcontent-sc9="" id="publicationDate"> | 2019 Mar </span></span></p><!----><!----><p _ngcontent-sc9="" class="elements ng-star-inserted"><b _ngcontent-sc9="">REPOSITORIES: </b><!----><span _ngcontent-sc9="" class="repositories ng-star-inserted"> biostudies-literature</span></p><p _ngcontent-sc9=""><a _ngcontent-sc9="" class="hidden-sm hidden-md hidden-lg" href="https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508">ACCESS DATA</a></p></div><div _ngcontent-sc9="" class="row" id="dataset_bottom_repository" style="margin-top:10px"></div><div _ngcontent-sc9="" class="row"><div _ngcontent-sc9="" class="col-lg-2 hidden-xs"><!----><!----><a _ngcontent-sc9="" class="btn btn-primary ng-star-inserted" id="full_dataset_link" style="color: white; border: 1px solid transparent; margin-left: 9px" href="https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508">ACCESS DATA</a></div><div _ngcontent-sc9="" class="col-lg-10 col-xs-12"><div _ngcontent-sc9="" class="btn-group pull-right widget-btn-group" role="group"><button _ngcontent-sc9="" class="btn btn-primary" type="button"><i _ngcontent-sc9="" aria-hidden="true" class="fa fa-quote-left"></i> Cite&nbsp;&nbsp;&nbsp;&nbsp; </button><!----><!----><a _ngcontent-sc9="" class="btn btn-success" style="color: white; border: 1px solid transparent" target="_blank" title="Download Dataset as JSON" href="https://www.omicsdi.org/ws/dataset/biostudies-literature/S-EPMC6699508.json"><i _ngcontent-sc9="" aria-hidden="true" class="fa fa-file-text-o"></i><span _ngcontent-sc9=""> Json</span></a><a _ngcontent-sc9="" class="btn btn-warning" style="color: white; border: 1px solid transparent" target="_blank" title="Download Dataset as XML" href="https://www.omicsdi.org/ws/dataset/biostudies-literature/S-EPMC6699508.xml"><i _ngcontent-sc9="" aria-hidden="true" class="fa fa-file-code-o"></i><span _ngcontent-sc9=""> Xml</span></a></div></div></div></div></div><!----><!----><!----></div><div _ngcontent-sc9="" class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><!----></div></div><!----></div><!----><ngx-json-ld _ngcontent-sc9="" class="ng-star-inserted"><script type="application/ld+json">{
+  "mainEntity": {
+    "creator": [
+      {
+        "name": "Forscher PS",
+        "@type": "Person"
+      }
+    ],
+    "citation": {
+      "name": "Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.",
+      "url": "http://www.omicsdi.org/dataset/biostudies-literature/S-EPMC6699508",
+      "author": {
+        "name": "Forscher PS",
+        "@type": "Person"
+      },
+      "publisher": {
+        "name": "BIOSTUDIES-LITERATURE",
+        "@type": "Organization"
+      },
+      "@type": "CreativeWork"
+    },
+    "@type": "Dataset",
+    "minLength": 5,
+    "name": {
+      "minLength": 5,
+      "name": "Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.",
+      "type": "string"
+    },
+    "variableMeasured": "Unknown",
+    "description": {
+      "minLength": 5,
+      "description": "Many granting agencies allow reviewers to know the identity of a proposal's principal investigator (PI), which opens the possibility that reviewers discriminate on the basis of PI race and gender. We investigated this experimentally with 48 NIH R01 grant proposals, representing a broad range of NIH-funded science. We modified PI names to create separate white male, white female, black male and black female versions of each proposal, and 412 scientists each submitted initial reviews for 3 proposals. We find little to no race or gender bias in initial R01 evaluations, and additionally find that any bias that might have been present must be negligible in size. This conclusion was robust to a wide array of statistical model specifications. Pragmatically, important bias may be present in other",
+      "type": "string"
+    },
+    "distribution": {
+      "contentUrl": "http://www.omicsdi.org/ws/dataset/biostudies-literature/S-EPMC6699508.xml",
+      "@type": "DataDownload",
+      "encodingFormat": "XML"
+    },
+    "sameAs": "https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508"
+  },
+  "breadcrumb": {
+    "itemListElement": [
+      {
+        "item": "https://www.omicsdi.org",
+        "@type": "ListItem",
+        "name": "OmicsDI",
+        "position": 1
+      },
+      {
+        "item": "https://www.omicsdi.org/search?q=(repository:%22biostudies-literature%22)",
+        "@type": "ListItem",
+        "name": "biostudies-literature",
+        "position": 2
+      },
+      {
+        "item": "http://www.omicsdi.org/dataset/biostudies-literature/S-EPMC6699508",
+        "@type": "ListItem",
+        "name": "S-EPMC6699508",
+        "position": 3
+      }
+    ],
+    "@type": "BreadcrumbList"
+  },
+  "@type": "ItemPage",
+  "minLength": 5,
+  "@context": "http://schema.org"
+}</script></ngx-json-ld></app-dataset></div><div _ngcontent-sc0="" data-color="none" data-use-basic-styles="true" id="elixir-banner" class=""><div _ngcontent-sc0="" class="elixir-ribbon" id="elixir-ribbon"><div _ngcontent-sc0="" class="row panel-row"><div _ngcontent-sc0="" class="col-md-10 col-sm-12 col-xs-12"><a _ngcontent-sc0="" href="//www.elixir-europe.org/platforms/interoperability"><div _ngcontent-sc0="" class="elixir-logo-kite"></div><h5 _ngcontent-sc0=""><span _ngcontent-sc0="" class="elixir-banner-name">OmicsDI</span> is part of the ELIXIR infrastructure </h5><div _ngcontent-sc0="" id="elixir-banner-info"><small _ngcontent-sc0=""><span _ngcontent-sc0="" class="elixir-banner-description">OmicsDI is an Elixir interoperability service. </span><span _ngcontent-sc0="" class="readmore">Learn more ›</span></small></div></a></div><div _ngcontent-sc0="" class="col-md-2 col-sm-12 col-xs-12"><div _ngcontent-sc0="" _ngcontent-rxc-c115="" class="margin-top-large" id="twitter"><h4 _ngcontent-sc0="" style="border-bottom-style: solid; border-color: #1bc0ea73;"><a _ngcontent-sc0="" _ngcontent-rxc-c115="" aria-describedby="cdk-describedby-message-rxc-1-2" cdk-describedby-host="rxc-1" class="mat-tooltip-trigger" href="https://twitter.com/OmicsDI" mattooltip="Follow us" mattooltipposition="left" target="_blank"><i _ngcontent-sc0="" _ngcontent-rxc-c115="" class="icon icon-socialmedia" data-icon="T" id="twitter-logo" style="color: #222 !important;"></i></a>Tweets </h4><div _ngcontent-sc0="" _ngcontent-rxc-c115="" class="margin-top-large margin-bottom-large"><iframe _ngcontent-sc0="" allowfullscreen="true" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" data-screen-name="OmicsDI" frameborder="0" id="twitter-widget-0" scrolling="no" src="https://platform.twitter.com/widgets/follow_button.2f70fb173b9000da126c79afe2098f02.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=OmicsDI&amp;show_count=false&amp;show_screen_name=true&amp;size=l&amp;time=1728298690388" style="position: static; visibility: visible; width: 182px; height: 28px;" title="Twitter Follow Button"></iframe></div></div></div></div></div></div><footer _ngcontent-sc0=""><div _ngcontent-sc0="" class="row" id="global-footer" style="border-top:none;"><nav _ngcontent-sc0="" class="col-md-12" id="global-nav-expanded"><!----><!----><div _ngcontent-sc0="" class="col-md-2 col-sm-12 col-xs-12 ng-star-inserted"><a _ngcontent-sc0="" class="no-icon" href="https://elixir-europe.org/platforms/interoperability" target="_blank" title="Elixir Interoperability"><img _ngcontent-sc0="" alt="EMBL-EBI logo" class="img_at_footer ebi-img" src="img/logo/elixir1.png" style="width:150px; margin-top:9px"></a><a _ngcontent-sc0="" class="no-icon" href="http://www.ebi.ac.uk/" target="_blank" title="European Bioinformatics Institute homepage"><img _ngcontent-sc0="" alt="EMBL-EBI logo" class="img_at_footer ebi-img" src="img/logo/embl-ebi.jpg" style="width:150px; margin-top:9px"></a><a _ngcontent-sc0="" class="no-icon" href="http://www.heartbd2k.org/" target="_blank" title="BD2K"><img _ngcontent-sc0="" alt="" class="img_at_footer img" src="img/logo/bd2k.png" style="width:150px; margin-top:9px"></a><a _ngcontent-sc0="" href="http://metabolomexchange.org/" target="_blank"><img _ngcontent-sc0="" class="img_at_footer" src="img/home/metabolome.png" style="width:150px; margin-top:9px"></a><a _ngcontent-sc0="" class="img_at_footer" href="http://www.proteomexchange.org/" target="_blank"><img _ngcontent-sc0="" src="img/home/proteome.png" style="width:150px; margin-top:9px"></a><a _ngcontent-sc0="" class="img_at_footer" href="https://www.ebi.ac.uk/ega/" target="_blank"><img _ngcontent-sc0="" src="img/db-logos/ega_phenome_logo.jpg" style="width:150px; margin-top:9px"></a></div><div _ngcontent-sc0="" class="col-md-8 col-sm-8 col-xs-12"><h3 _ngcontent-sc0="" class="about"> OmicsDI Databases </h3><!----><!----><div _ngcontent-sc0="" class="col-md-3 col-sm-4 col-xs-4 ng-star-inserted"><ul _ngcontent-sc0=""><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.ebi.ac.uk/pride/archive/" target="_blank">PRIDE</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.peptideatlas.org/" target="_blank">PeptideAtlas</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://massive.ucsd.edu/ProteoSAFe/datasets.jsp" target="_blank">MassIVE</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://jpostdb.org/" target="_blank">JPOST Repository</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://physiomeproject.org/" target="_blank">Physiome Model Repository</a></li></ul></div><!----><div _ngcontent-sc0="" class="col-md-3 col-sm-4 col-xs-4 ng-star-inserted"><ul _ngcontent-sc0=""><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ebi.ac.uk/ega/" target="_blank">EGA</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ebi.ac.uk/eva/" target="_blank">EVA</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ebi.ac.uk/ena/" target="_blank">ENA</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://lincsportal.ccs.miami.edu/dcic-portal/" target="_blank">LINCS</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://pax-db.org" target="_blank">PAXDB</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://cellcollective.org/" target="_blank">Cell Collective</a></li></ul></div><!----><div _ngcontent-sc0="" class="col-md-3 col-sm-4 col-xs-4 ng-star-inserted"><ul _ngcontent-sc0=""><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.ebi.ac.uk/metabolights/" target="_blank">MetaboLights</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.metabolomicsworkbench.org/" target="_blank">Metabolomics Workbench</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.metabolome-express.org/" target="_blank">MetabolomeExpress</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://GNPS.ucsd.edu" target="_blank">GNPS</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ebi.ac.uk/biomodels" target="_blank">BioModels</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://fairdomhub.org/" target="_blank">FAIRDOMHub</a></li></ul></div><!----><div _ngcontent-sc0="" class="col-md-3 col-sm-4 col-xs-4 ng-star-inserted"><ul _ngcontent-sc0=""><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ebi.ac.uk/arrayexpress/" target="_blank">ArrayExpress</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ncbi.nlm.nih.gov/gap" target="_blank">dbGaP</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.ebi.ac.uk/gxa/home" target="_blank">ExpressionAtlas</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank">GEO</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://www.biosino.org/node/" target="_blank">NODE</a></li></ul></div></div><div _ngcontent-sc0="" class="col-md-2 col-sm-4 col-xs-12"><h3 _ngcontent-sc0="" class="about">Information</h3><ul _ngcontent-sc0=""><li _ngcontent-sc0=""><a _ngcontent-sc0="" href="/database">Databases</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" href="http://blog.omicsdi.org/">Help</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" href="http://blog.omicsdi.org/post/introduction-api/">API</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" href="http://www.ebi.ac.uk/support/index.php?query=omics-di">Contact us</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="https://github.com/OmicsDI/" target="_blank">Code on GitHub</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" class="no-icon" href="http://www.ebi.ac.uk/about/terms-of-use" target="_blank">Terms of use</a></li><li _ngcontent-sc0=""><a _ngcontent-sc0="" href="https://www.ebi.ac.uk/biostudies/">Submit Data</a></li></ul></div></nav></div></footer></div><simple-notifications _ngcontent-sc0=""><div class="simple-notification-wrapper bottom right"><!----></div></simple-notifications></app-root>
+    <!-- Google Analytics -->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-70417662-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+<script type="text/javascript" src="runtime.31575f213c137481d73c.js"></script><script type="text/javascript" src="polyfills.dbed1976549cc8c32399.js"></script><script type="text/javascript" src="main.707813edce8ce38d2edc.js"></script>
+<script>
+    if (window.location.href.includes("rosette")) {    
+        // Remove Node.js scripts
+        var scripts = document.getElementsByTagName('script');
+        var i = scripts.length;
+        while (i--) {        
+            if (scripts[i].type == "text/javascript") {
+                scripts[i].parentNode.removeChild(scripts[i]);
+            }
+        }
+    }
+</script>
+
+<script id="serverApp-state" type="application/json">{&q;http_requests:__BASE_URL_0__seo/schema/biostudies-literature/S-EPMC6699508&q;:{&q;body&q;:{&q;mainEntity&q;:{&q;creator&q;:[{&q;name&q;:&q;Forscher PS&q;,&q;@type&q;:&q;Person&q;}],&q;citation&q;:{&q;name&q;:&q;Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.&q;,&q;url&q;:&q;http://www.omicsdi.org/dataset/biostudies-literature/S-EPMC6699508&q;,&q;author&q;:{&q;name&q;:&q;Forscher PS&q;,&q;@type&q;:&q;Person&q;},&q;publisher&q;:{&q;name&q;:&q;BIOSTUDIES-LITERATURE&q;,&q;@type&q;:&q;Organization&q;},&q;@type&q;:&q;CreativeWork&q;},&q;@type&q;:&q;Dataset&q;,&q;minLength&q;:5,&q;name&q;:{&q;minLength&q;:5,&q;name&q;:&q;Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.&q;,&q;type&q;:&q;string&q;},&q;variableMeasured&q;:&q;Unknown&q;,&q;description&q;:{&q;minLength&q;:5,&q;description&q;:&q;Many granting agencies allow reviewers to know the identity of a proposal&s;s principal investigator (PI), which opens the possibility that reviewers discriminate on the basis of PI race and gender. We investigated this experimentally with 48 NIH R01 grant proposals, representing a broad range of NIH-funded science. We modified PI names to create separate white male, white female, black male and black female versions of each proposal, and 412 scientists each submitted initial reviews for 3 proposals. We find little to no race or gender bias in initial R01 evaluations, and additionally find that any bias that might have been present must be negligible in size. This conclusion was robust to a wide array of statistical model specifications. Pragmatically, important bias may be present in other&q;,&q;type&q;:&q;string&q;},&q;distribution&q;:{&q;contentUrl&q;:&q;http://www.omicsdi.org/ws/dataset/biostudies-literature/S-EPMC6699508.xml&q;,&q;@type&q;:&q;DataDownload&q;,&q;encodingFormat&q;:&q;XML&q;},&q;sameAs&q;:&q;https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508&q;},&q;breadcrumb&q;:{&q;itemListElement&q;:[{&q;item&q;:&q;https://www.omicsdi.org&q;,&q;@type&q;:&q;ListItem&q;,&q;name&q;:&q;OmicsDI&q;,&q;position&q;:1},{&q;item&q;:&q;https://www.omicsdi.org/search?q=(repository:%22biostudies-literature%22)&q;,&q;@type&q;:&q;ListItem&q;,&q;name&q;:&q;biostudies-literature&q;,&q;position&q;:2},{&q;item&q;:&q;http://www.omicsdi.org/dataset/biostudies-literature/S-EPMC6699508&q;,&q;@type&q;:&q;ListItem&q;,&q;name&q;:&q;S-EPMC6699508&q;,&q;position&q;:3}],&q;@type&q;:&q;BreadcrumbList&q;},&q;@type&q;:&q;ItemPage&q;,&q;minLength&q;:5,&q;@context&q;:&q;http://schema.org&q;}},&q;http_requests:__BASE_URL_0__dataset/get?accession=S-EPMC6699508&a;database=biostudies-literature&q;:{&q;body&q;:{&q;id&q;:&q;S-EPMC6699508&q;,&q;source&q;:&q;biostudies-literature&q;,&q;name&q;:&q;Little race or gender bias in an experiment of initial review of NIH R01 grant proposals.&q;,&q;description&q;:&q;Many granting agencies allow reviewers to know the identity of a proposal&s;s principal investigator (PI), which opens the possibility that reviewers discriminate on the basis of PI race and gender. We investigated this experimentally with 48 NIH R01 grant proposals, representing a broad range of NIH-funded science. We modified PI names to create separate white male, white female, black male and black female versions of each proposal, and 412 scientists each submitted initial reviews for 3 proposals. We find little to no race or gender bias in initial R01 evaluations, and additionally find that any bias that might have been present must be negligible in size. This conclusion was robust to a wide array of statistical model specifications. Pragmatically, important bias may be present in other &q;,&q;keywords&q;:null,&q;organisms&q;:null,&q;publicationDate&q;:&q;2019 Mar&q;,&q;publicationIds&q;:[&q;30953009&q;],&q;protocols&q;:null,&q;instruments&q;:null,&q;citationsCount&q;:0,&q;connectionsCount&q;:0,&q;reanalysisCount&q;:0,&q;viewsCount&q;:0,&q;downloadCount&q;:0,&q;citationsCountScaled&q;:0,&q;connectionsCountScaled&q;:0,&q;reanalysisCountScaled&q;:0,&q;viewsCountScaled&q;:0,&q;downloadCountScaled&q;:0,&q;currentStatus&q;:&q;Inserted&q;,&q;experimentType&q;:null,&q;labMembers&q;:null,&q;full_dataset_link&q;:&q;https://www.ebi.ac.uk/biostudies/studies/S-EPMC6699508&q;,&q;tissues&q;:null,&q;diseases&q;:null,&q;omics_type&q;:[&q;Unknown&q;],&q;similars&q;:null,&q;organization&q;:null,&q;dates&q;:{&q;modification&q;:[&q;2025-04-04T13:57:40Z&q;],&q;release&q;:[&q;2019-01-01T00:00:00Z&q;],&q;creation&q;:[&q;2019-08-23T07:06:04Z&q;],&q;publication&q;:[&q;2019 Mar&q;]},&q;submitter&q;:[&q;Forscher PS&q;],&q;submitterMail&q;:null,&q;labHead&q;:null,&q;labHeadMail&q;:null,&q;secondary_accession&q;:null,&q;repositories&q;:[&q;biostudies-literature&q;],&q;scores&q;:null,&q;claimable&q;:false}}}</script></body></html>

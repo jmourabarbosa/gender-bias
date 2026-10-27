@@ -1,0 +1,186 @@
+<html>
+<head>
+	<title>GenderGap in Academic Publishing</title>
+
+
+	<script type="text/javascript" src='d3.min.js' charset="utf-8"></script>
+	<script type="text/javascript" src='d3-scale-chromatic.min.js'></script>
+	<script type="text/javascript" src='lodash.js'></script>
+	<script type="text/javascript" src='hsluv.min.js'></script>
+	<script type="text/javascript" src='jquery-3.1.1.min.js'></script>
+	<script type="text/javascript" src='select2.min.js'></script>
+	<script type="text/javascript" src='functions.js'></script>
+
+
+	<link rel="stylesheet" type="text/css" href="select2.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+
+
+<div class='about_cont'>
+
+
+	<div class='about_text'>
+
+		<br>
+		<h2>This Visualisation</h2>
+		
+		<p>This visualisation allows one to view the past, present, and (estimated) future gender ratio of authors on academic publications listed on <a href="https://www.ncbi.nlm.nih.gov/pubmed?cmd=search">PubMed</a>. The four buttons at the top allow subsetting of the data by journal, research discipline, the author's country of affiliation, and position in the author list (where 'overall' includes all authors).</p> 
+		
+		<p>The lefthand plot shows the estimated author gender ratio for each subset of the data (e.g. a journal, or a scientific discipline) in a certain year. The year can be controlled via the slider. The gender ratio was estimated by fitting a curve to the data, as described in the accompanying paper.</p>
+		
+		<p>Clicking on a data point in the left plot will bring up a curve showing our estimate of the past, present, and future gender ratio, as well as the author gender ratio and its 95% confidence limits (shown by the error bars, which can be toggled on or off).</p>
+		
+		<p>Hovering the mouse cursor over a data point shows the sample size in terms of the number of men and women authors, and the number of papers.</p>
+
+		<h2>The Data</h2>
+		
+		<p>The data were collected by downloading all the ~27 million records on <a href="https://www.ncbi.nlm.nih.gov/pubmed?cmd=search">PubMed</a>, and attempting to identify the gender of the authors by matching their given names against the <a href="https://genderize.io/">genderize.io</a> database. We assigned each of the journals on PubMed to a research discipline, using PubMed's own categorisation scheme where possible, and tried to identify the country in which each author was based from the address they provided. For clarity, the data accessible through this web app are limited to combinations for which we had a sufficiently large sample size in terms of the number of papers (at least 100), years (at least 5), and authors (at least 50 per year for 5 or more years).</p> 
+		
+		<p>The scripts used to collect, parse and analyse the PubMed data are on <a href="https://github.com/lukeholman/genderGapCode">Github</a>.</p>
+		
+		<p>The scripts and data underlying this visualisation are <a href="https://github.com/lukeholman/genderGap">here</a>, and the full dataset (2.5GB) is archived as a SQLite3 file <a href="https://osf.io/bt9ya/">here</a>.</p>
+		
+		<h2>Associated publication</h2>
+		
+		<p>This visualisation accompanies an article published in <a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004956">PLoS Biology</a>.</p>
+		
+		<p>Holman L, Stuart-Fox D, Hauser CE (2018) The gender gap in science: How long until women are equally represented? PLOS Biology 16(4): e2004956. DOI: 10.1371/journal.pbio.2004956.</p>
+		
+		<h2>Contacts</h2>
+		
+		The gender data were collected by <a href="https://sites.google.com/site/lukeholman/home">Luke Holman</a> from the <a href="http://biosciences.unimelb.edu.au/">School of BioSciences</a> at the University of Melbourne. This data visualisation was made by <a href="https://github.com/maegul">Errol Lloyd</a>. 
+		
+		<h2>FAQ</h2>
+		
+		<h3>How do I find a particular journal?</h3>
+		
+		<p>First, select the discipline on which the journal focuses. For example, select 'Biology' if you’d like to look up <i>PLoS Biology</i>. Then click ‘Journals’, and either type the name of the journal into the box, or manually inspect the list of journal names. If you don’t see the journal, it either means we didn’t recover enough data to accurately calculate the gender ratio, or it is classified under a different discipline. </p>
+		
+		<p>If you still cannot find the journal, please see S1 Data from the associated PLoS Biology publication. Search for the journal of interest, determine which discipline it is in, and then try the web app again. If you cannot find the journal in S1 Data, it means that we did not recover sufficient data for that journal.</p>
+		
+		<p>You can also access the raw data used in this web app as a .json file <a href="https://github.com/lukeholman/genderGap/blob/gh-pages/data_for_web_app_no_list.json">here</a>.</p>
+		
+	</div>
+
+</div>
+
+
+
+
+<div class='loader_cont'>
+	<div class="loader"></div>	
+</div>
+
+
+<div class='cont_main'>
+
+	<div class='top_main'>
+
+		<div class='menu'>
+			<div class='controls_by_cat_container'>
+
+				<div class='cont_cat Journal'>
+					<div value = 'J' class='disp_butt'>Journals</div>
+
+				</div>
+
+				<div class='cont_cat Discipline'>
+					<div value='D' class='disp_butt'>Disciplines</div>
+
+				</div>
+
+				<div class='cont_cat Country'>
+					<div value='C' class='disp_butt'>Countries</div>
+
+				</div>
+
+				<div class='cont_cat Position'>
+					<div value='P' class='disp_butt'>Author Position</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+		<div class='header'>
+
+			<div class='header_about' style='visibility: hidden;'>FAQ</div>
+
+
+			<div class='header_title'>
+				The <span class='head_one'>Gender</span> <span class='head_two'>Gap</span> in Academic Publishing
+			</div>
+
+			<div id='header_about' class='header_about' value='closed'>FAQ</div>
+
+		</div>
+
+		<div class='top_dummy'></div>
+
+
+	</div>
+
+
+<div class='main'>
+
+
+
+<!-- 	<div class='background'>
+		<svg id='background' width="100%" height="700"></svg>
+	</div>
+ -->
+
+
+	<div class='canvas'>
+		<svg id='background' width="100%" height="700">
+
+			<svg id='plot' width="400" height="700"></svg>
+
+			<svg id='line_plot' width="600" height="700"></svg>
+
+		</svg>
+
+	</div>
+
+	<div id='scat_disp_opts'>
+
+		<div id='CI_butt' value='on'>Error bars</div>
+		<div id='circ_small_butt' value='on'>Small Circles</div>
+
+	</div>
+
+
+</div>
+
+
+
+<div id='controls'>
+
+  <input style='width:80%;' type="range" name="range" class="year_slider" id="year_slider" value="2016" min="2002" max="2030" step="1" >
+
+
+  <div class='legend'>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src='main.js'></script>
+
+</body>
+</html>

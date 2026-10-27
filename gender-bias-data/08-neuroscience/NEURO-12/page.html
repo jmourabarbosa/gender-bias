@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tails You Win, One Tail You Lose</title>
+  <meta name="description" content="I presented the math for this at the #cosyne19 diversity lunch today. Success rates for first authors with known gender: Female: 83/264 accepted = 31.4%Male:...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://charlesfrye.github.io/stats/2019/03/06/cosyne19-gender-bias.html">
+  <link rel="alternate" type="application/rss+xml" title="Tangent Space" href="http://charlesfrye.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Tangent Space</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Me</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/projects/">My Projects</a>
+          
+        
+          
+          <a class="page-link" href="/research/">My Research</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Tails You Win, One Tail You Lose</h1>
+    <p class="post-meta"><time datetime="2019-03-06T00:00:00+00:00" itemprop="datePublished">Mar 6, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I presented the math for this at the <a href="https://twitter.com/hashtag/cosyne19?src=hash&amp;ref_src=twsrc%5Etfw">#cosyne19</a> diversity lunch today. <br /><br />Success rates for first authors with known gender: <br />Female: 83/264 accepted = 31.4%<br />Male: 255/677 accepted = 37.7%<br /><br />37.7/31.4 = a 20% higher success rate for men <a href="https://t.co/u2sF5WHHmy">https://t.co/u2sF5WHHmy</a></p>&mdash; Megan Carey (@meganinlisbon) <a href="https://twitter.com/meganinlisbon/status/1101870079858409478?ref_src=twsrc%5Etfw">March 2, 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Controversy over hypothesis testing methodology encountered in the wild
+<a href="http://charlesfrye.github.io/stats/2018/01/09/hypothesis-test-example.html">a second time</a>!
+At this year’s Computational and Systems Neuroscience conference, CoSyNE 2019,
+there was disagreement over whether the acceptance rates indicated bias against women authors.
+As it turns out, part of the disupute turned over which statistical test to run!
+<!--exc--></p>
+
+<h3 id="controversial-data">Controversial Data</h3>
+
+<p>CoSyNe is
+<a href="http://cosyne.org/c/index.php?title=Cosyne_19">an annual conference</a>
+where COmputational and SYstems NEuroscientists to get together.
+As a conference in the intersection of two male-dominated fields,
+concerns about gender bias abound.
+Further, the conference uses single-blind review,
+i.e. reviewers but not submitters are anonymous,
+which could be expected to
+<a href="https://doi.org/10.1177%2F1075547012472684">increase bias against women</a>,
+though effects
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5715744/">might be small</a>.</p>
+
+<p>During the welcome talk, the slide below was posted
+(thanks to Twitter user
+<a href="https://twitter.com/neuroecology">@neuroecology</a> for sharing their image of the slide;
+they have a nice
+<a href="https://neuroecology.wordpress.com/2019/02/27/cosyne19-by-the-numbers/">write-up</a>
+data mining other CoSyNe author data)
+to support the claim that bias was “not too bad”,
+since the ratio of male first authors to female first authors was about the same
+between submitted and accepted posters.</p>
+
+<p style="text-align: center"><img src="https://charlesfrye.github.io/img/cosynegenderbias.jpg" alt="cosynegenderbias" /></p>
+
+<p>However, this method of viewing the data has some problems:
+the real metric for bias isn’t the final gender composition of the conference,
+it’s the difference in acceptance rate across genders.
+A subtle effect there would be hard to see in data plotted as above.</p>
+
+<p>And so Twitter user
+<a href="https://twitter.com/meganinlisbon/">@meganinlisbon</a>
+got hold of the raw data and computed the acceptance rates and their ratio
+in the following tweet:</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I presented the math for this at the <a href="https://twitter.com/hashtag/cosyne19?src=hash&amp;ref_src=twsrc%5Etfw">#cosyne19</a> diversity lunch today. <br /><br />Success rates for first authors with known gender: <br />Female: 83/264 accepted = 31.4%<br />Male: 255/677 accepted = 37.7%<br /><br />37.7/31.4 = a 20% higher success rate for men <a href="https://t.co/u2sF5WHHmy">https://t.co/u2sF5WHHmy</a></p>&mdash; Megan Carey (@meganinlisbon) <a href="https://twitter.com/meganinlisbon/status/1101870079858409478?ref_src=twsrc%5Etfw">March 2, 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Phrased as “20% higher for men”, the gender bias seems staggeringly high!</p>
+
+<p>It seems like it’s time for statistics to come and give us a definitive answer.
+Surely math can clear everything up!</p>
+
+<h3 id="controversial-statistics">Controversial Statistics</h3>
+
+<p>Shortly afterwards, several other Twitter users,
+including
+<a href="https://twitter.com/mjaztwit/status/1101899788688257024">@mjaztwit</a>
+and
+<a href="https://twitter.com/alexpiet/status/1101882724581822465">@alexpiet</a>
+attempted to apply
+<a href="http://charlesfrye.github.io/stats/2018/06/09/hypothesis-testing.html">null hypothesis significance testing</a>
+to determine whether the observed gender bias was likely to be observed
+in the case that there was, in fact, no bias.
+Such a result is called <em>significant</em>,
+and the degree of evidence for significance is quantified by a value \(p\).
+For historical reasons, a value of \(0.05\) is taken as a threshold
+for a binary choice about significance.</p>
+
+<p>And they got different answers!
+One found that the observation was <em>not significant</em>, with \(p \approx 0.07\),
+while the other found the the observation was <em>significant</em>, with \(p \approx 0.03\).
+What gives?</p>
+
+<p>There were some slight differences in low-level, quantitative approach:
+one was parametric, the other non-parametric.
+But they weren’t big enough to change the \(p\) value.
+The biggest difference was a choice made at a very high level:
+namely, are we testing whether there was <em>any gender bias in CoSyNe acceptance</em>,
+or are we testing whether there was more specifically <em>gender bias against women</em>.</p>
+
+<p>The former is called a <em>two-tailed test</em> and is more standard.
+Especially in sciences like biology and psychology,
+we don’t know enough about our data to completely discount the possibility
+that there’s an effect opposite to what we might expect.</p>
+
+<p>Because we consider extreme events “in both directions”,
+the typical effect of switching from a two to a one-tailed test
+is to cut the \(p\)-value in half.
+And indeed, we \(0.03\) is approximately half of \(0.07\).</p>
+
+<p>But is it reasonable to run a two-tailed test for this question?
+The claims and concerns of most of the individuals concerned about bias
+was framed specifically in terms of female-identifying authors
+(to my recollection, choices for gender identification were
+<em>male</em>, <em>female</em>, and <em>prefer not to answer</em>, making it impossible to talk
+about non-binary authors with this data).
+And given the other evidence for misogynist bias in this field
+(the undeniably lower rate of female submissions,
+the near-absence of female PIs,
+the still-greater sparsity of women among top PIs)
+it would be a surprising result indeed if there were bias
+that favored women in just this one aspect.
+Suprising enough that only very strong evidence would be sufficient,
+which is approximately what a two-tailed test does.</p>
+
+<p>Even putting this question aside,
+is putting this much stock in a single number like the \(p\) value sensible?
+After all, the \(p\) value is calculated from our data,
+and it can fluctuate from sample to sample.
+If just two more female-led projects had been accepted or rejected,
+the two tests would agree on which side of \(0.05\) the \(p\) value lay!</p>
+
+<p>Indeed, the CoSyNe review process includes <em>a specific mechanism for randomness</em>,
+namely that papers on the margin of acceptance due to a scoring criterion
+have their acceptance or rejection determined by the output of a random number generator.</p>
+
+<p>And the effect size expected by most is probably not
+too much larger than what is reported,
+since the presumption is that the effect is mostly implicit bias from many reviewers
+or explicit bias from a small cohort.
+In that case, adhering to a strict \(p\) cutoff is electing to have your conclusions
+from this test determined <em>almost entirely by an explicitly random mechanism</em>.
+This is surely fool-hardy!</p>
+
+<p>It would seem to me that the more reasonable conclusion is that
+there is moderately strong evidence of a gender bias in the 2019 CoSyNe review process,
+but that the number of submissions is insufficient to make a definitive determination possible
+based off of a single year’s data.
+This data is unfortunately not available for previous years.</p>
+
+<h3 id="coda">Coda</h3>
+
+<p>At the end of the conference,
+the Executive Committee announced that they had heard the complaints
+of conference-goers around this bit of gender bias and others
+and would be taking concrete steps to address them.
+First, they would be adding chairs for Diversity and Inclusion to the committee.
+Second, they would move to a system of double-blind review,
+in which the authors of submissions are also anonymous to the reviewers.
+Given the absence of any evidence that such a system is biased against men
+and the
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5715744/">evidence that such a system reduces biases in general</a>,
+this is an unambiguously good move,
+regardless of the precise \(p\) value of the data for gender bias this year.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Charles Frye</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/charlesfrye"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">charlesfrye</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/charles_irl"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">charles_irl</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75656759-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

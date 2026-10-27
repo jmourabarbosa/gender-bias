@@ -1,0 +1,287 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article article-type="article-commentary" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">J Neurosci Res</journal-id><journal-id journal-id-type="iso-abbrev">J Neurosci Res</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">7600111</journal-id><journal-id journal-id-type="publisher-id">JNR</journal-id><journal-title-group><journal-title>Journal of Neuroscience Research</journal-title></journal-title-group><issn pub-type="ppub">0360-4012</issn><issn pub-type="epub">1097-4547</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7754118</article-id><article-id pub-id-type="pmcid-ver">PMC7754118.1</article-id><article-id pub-id-type="pmcaid">7754118</article-id><article-id pub-id-type="pmcaiid">7754118</article-id><article-id pub-id-type="pmid">32267025</article-id><article-id pub-id-type="doi">10.1002/jnr.24570</article-id><article-id pub-id-type="publisher-id">JNR24570</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Commentary</subject></subj-group><subj-group subj-group-type="heading"><subject>Commentaries/Perspectives</subject></subj-group></article-categories><title-group><article-title>Women in neuroscience: Where are we in 2019?</article-title></title-group><contrib-group><contrib id="jnr24570-cr-0001" contrib-type="author"><name name-style="western"><surname>Machlovi</surname><given-names initials="S">Saima</given-names></name><xref ref-type="aff" rid="jnr24570-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="jnr24570-cr-0002" contrib-type="author"><name name-style="western"><surname>Pero</surname><given-names initials="A">Adriana</given-names></name><xref ref-type="aff" rid="jnr24570-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="jnr24570-cr-0003" contrib-type="author"><name name-style="western"><surname>Ng</surname><given-names initials="S">Sabrina</given-names></name><xref ref-type="aff" rid="jnr24570-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="jnr24570-cr-0004" contrib-type="author"><name name-style="western"><surname>Zhong</surname><given-names initials="M">Margaret</given-names></name><xref ref-type="aff" rid="jnr24570-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="jnr24570-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cai</surname><given-names initials="D">Dongming</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0601-6826</contrib-id><xref ref-type="aff" rid="jnr24570-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="jnr24570-aff-0005">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="jnr24570-aff-0006">
+<sup>6</sup>
+</xref><address><email>dongming.cai@mssm.edu</email></address></contrib></contrib-group><aff id="jnr24570-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Neuroscience</named-content>
+<institution>Icahn School of Medicine at Mount Sinai</institution>
+<city>New York</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnr24570-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Icahn School of Medicine at Mount Sinai</institution>
+<city>New York</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnr24570-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Science and Technology Studies</named-content>
+<institution>Cornell University</institution>
+<city>Ithaca</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnr24570-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Neuroscience and Behavior</named-content>
+<institution>Barnard College of Columbia University</institution>
+<city>New York</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnr24570-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Research and Development</named-content>
+<institution>James J. Peters VA Medical Center</institution>
+<city>Bronx</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff id="jnr24570-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Neurology Section</named-content>
+<institution>James J. Peters VA Medical Center</institution>
+<city>Bronx</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Dongming Cai, Neurology Section, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.<break/>
+Email: <email>dongming.cai@mssm.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>4</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2021</year></pub-date><volume>99</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">371227</issue-id><issue-id pub-id-type="doi">10.1002/jnr.v99.1</issue-id><issue-title content-type="special-issue-title">Women in Neuroscience</issue-title><fpage>9</fpage><lpage>12</lpage><history><date date-type="received"><day>18</day><month>11</month><year>2019</year></date><date date-type="accepted"><day>20</day><month>11</month><year>2019</year></date></history><pub-history><event event-type="pmc-release"><date><day>22</day><month>12</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>23</day><month>12</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2020-12-24 00:16:24.033"><day>24</day><month>12</month><year>2020</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2019 The Authors. Journal of Neuroscience Research published by Wiley Periodicals, Inc.</copyright-statement><license license-type="creativeCommonsBy"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JNR-99-9.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JNR-99-9.pdf"/><counts><fig-count count="0"/><table-count count="0"/><page-count count="4"/><word-count count="6750"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.6 mode:remove_FC converted:22.12.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jnr24570-cit-1001">
+<string-name name-style="western">
+<surname>Machlovi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ng</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cai</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Women in neuroscience: Where are we in 2019?</article-title>
+<source xml:lang="en">J Neuro Res</source>. <year>2021</year>;<volume>99</volume>:<fpage>9</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1002/jnr.24570</pub-id>
+<pub-id pub-id-type="pmcid">PMC7754118</pub-id><pub-id pub-id-type="pmid">32267025</pub-id></mixed-citation>
+</p><fn-group id="jnr24570-ntgp-0001"><fn id="jnr24570-note-0001"><p>Edited by Eric Prager. Associate Editor: Costanza Cortes.</p></fn><fn id="jnr24570-note-0002"><p>The peer review history for this article is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://publons.com/publon/10.1002/jnr.24570">https://publons.com/publon/10.1002/jnr.24570</ext-link>.</p></fn></fn-group></notes></front><body id="jnr24570-body-0001"><p>Women have traditionally been excluded from positions of power, specifically in the field of science, technology, engineering, and mathematics (STEM). Believed to diminish the intellectual capabilities of scholars, women were historically barred from many opportunities. The first woman was not admitted to the forefront of scientific developments founded in 1666, the French Academy of Sciences until 1979. Over the past half a century, this situation has gradually improved with changes in the scientific landscape and an increased awareness of gender bias in science. More women are encouraged to pursue careers in science, and their interests in science are being cultivated. However, we have not yet reached equality. Where are we in 2019?</p><p>Data suggest that female scientists continue to face challenges and hurdles in their career advancement. As to be expected from the inequality of women in STEM, inequality for women also permeates the field of neuroscience. Equal percentages of males and females with college degrees in STEM fields proceed to PhDs (~10%). Similarly, there are equal percentages of males and female PhDs who receive assistant professor job offers (~35%). However, women only comprise one third or less of assistant professors in STEM fields and 7%–18% of full professors (Ceci, Ginther, Kahn, &amp; Williams, <xref rid="jnr24570-bib-0004" ref-type="ref">2014</xref>; Williams, <xref rid="jnr24570-bib-0019" ref-type="ref">2017</xref>). In neuroscience, a survey in 2003 indicated that females accounted for 50% of neuroscience PhD students, but only 25% of tenure‐track faculty and 22% of tenured full professors (“Women in neuroscience: A numbers game,” <xref rid="jnr24570-bib-0020" ref-type="ref">2006</xref>). In 2017–2018, females comprised of 53% of PhD matriculates, 30.8% of tenure‐track faculty but only 13.8% of tenured full professors in academic neurology and neuroscience fields (McDermott et al., <xref rid="jnr24570-bib-0010" ref-type="ref">2018</xref>; SFN Reports, <xref rid="jnr24570-bib-0012" ref-type="ref">2017</xref>).</p><p>As the data indicate, women make up at least 50% of the class at predoctoral and doctoral phases of their education. However, as women progress through their careers, a large number of women leave the field and the proportion of men in the field and in positions of power sharply increases. One reason for the drop in the proportion of women is the discrepancy in societal obligations between men and women. In addition to keeping up with the demands of the field, women are also expected by society to have and care for children. “At the end of the day you are fighting for a position and if your competitor didn't have to go over this maternity process, he is for sure in a better position that you are,” said Elisa Navarro, a current postdoctoral candidate of the Icahn School of Medicine at Mount Sinai.</p><p>Interestingly, evidence suggests that instead of being denied job opportunities in academic science, female scientists tend to choose leaving the field in order to maintain work–life balance. A general belief in our society is that academic careers are not compatible with family life. A 2011 survey by colleagues in UC Berkeley indicated that the ratio of female postdocs who plan to start families or who already had children before taking the postdoctoral positions chose to opt out of academic career paths was much higher than men (Ceci et al., <xref rid="jnr24570-bib-0004" ref-type="ref">2014</xref>). Balancing life and career is identified as a major hurdle for women scientists. A survey by The American Association for the Advancement of Science (AAAS) in 2011 found that the primary reasons male scientists left academic careers were grants and funding, whereas for female scientists balancing life and career, having and rearing children and gender bias were placed before grants and funding (Baker, <xref rid="jnr24570-bib-0001" ref-type="ref">2011</xref>).</p><p>A more insidious reason for the drop in the number of women especially in positions of power might be subtle biases and stereotypes against women scientists in the workplace. Saima Machlovi, a PhD student of the Icahn School of Medicine at Mount Sinai commented, “This can be observed at seminars. Female presenters are frequently interrupted throughout their talks, and their findings are more easily questioned by others compared to their male colleagues. This may represent an internal bias that women are not capable of making remarkable discoveries however our history proves otherwise.” Examples of men in powerful roles asserting their beliefs that women are incapable of the same scientific work as men can be found throughout history. High school students everywhere learn the names of Watson and Crick, but few recognize the name of Rosalind Franklin. James Watson, one of the discoverers of DNA structures, was known for his racist, sexist, and homophobic beliefs. He not only undermined and belittled his female colleague Rosalind Franklin's contributions to the discovery of DNA structure but also suggested using knowledge of DNA to make all girls pretty. When commenting on the increase in women in science he said, “It would be more fun for the men, but they are probably less effective.” Thankfully, people like Ben Barres, a transgender neuroscientist, are fighting against these misbeliefs against women in science. A personal experience shared by Ben was another example of discrimination. Ben overheard a comment about his talk at a scientific symposium that he did better work than his sister, Barbara Barres, who was actually Ben before he transitioned.</p><p>The bias can be manifested in publications as well. One study found that women had to publish 3 more papers in high‐profile journals, or 20 more in less impactful journals, to be considered as productive as their male colleagues when applying for postdoctoral positions (Hill, Corbett, &amp; Rose, <xref rid="jnr24570-bib-0007" ref-type="ref">2010</xref>). In a study that analyzed neuroscience journals from 2005 to 2017, women were underrepresented in many high‐profile journals, with only 29.8% of all authors being women, 33.1% of first authors being women, and 18.1% of last authors being women (Bendels, Muller, Brueggmann, &amp; Groneberg, <xref rid="jnr24570-bib-0002" ref-type="ref">2018</xref>; Shen et al., <xref rid="jnr24570-bib-0013" ref-type="ref">2018</xref>). It was also noted that the number of female authors of a journal was negatively correlated with its impact factor in 5 years. The highest number of female last authors was in Neuropsychology Review (39.04%), and the lowest was in Nature (14.64%). The highest number of female first authors was in Neuropsychology Review (52.58%), and the lowest was in Nature (25.22%). The average rate of increase was less than 1% per year for first female authors and less than 0.5% per year for last female authors (Bendels et al., <xref rid="jnr24570-bib-0002" ref-type="ref">2018</xref>; Shen et al., <xref rid="jnr24570-bib-0013" ref-type="ref">2018</xref>).</p><p>Moreover, data suggest that women are still not treated as equals to men in many areas of science despite the vast strides that women have made in the last 50 years. For example, a study by Academic Medicine showed a substantial salary difference between male and female scientists by about $20,000 (Girod et al., <xref rid="jnr24570-bib-0006" ref-type="ref">2016</xref>; Valantine, <xref rid="jnr24570-bib-0017" ref-type="ref">2016</xref>). Studies by MIT in 1999 showed that female faculty tended to have less space and fewer resources than their male colleagues with similar academic achievements. It was estimated that female scientists got 40% less start‐up money on average than male scientists (Girod et al., <xref rid="jnr24570-bib-0006" ref-type="ref">2016</xref>; Valantine, <xref rid="jnr24570-bib-0017" ref-type="ref">2016</xref>). Of the Research Publication Grants awarded, only 33% are awarded to women. Additionally, only 26% of the Research Center Grants are awarded to women. Not only are fewer grants awarded to women but the value of the grants awarded to women are smaller, with the average award being $505,271 for women compared to $579,673 for men (Pohlhaus, Jiang, Wagner, Schaffer, &amp; Pinn, <xref rid="jnr24570-bib-0011" ref-type="ref">2011</xref>). Studies also show that Asian and African‐American women scientists had a lower chance of receiving funding support, suggesting a double discrimination for women scientists of color (Girod et al., <xref rid="jnr24570-bib-0006" ref-type="ref">2016</xref>; Valantine, <xref rid="jnr24570-bib-0017" ref-type="ref">2016</xref>).</p><p>Besides gender bias, sexual harassment, a form of sex discrimination, is being increasingly reported by women in science. Sexual harassment can be blatant or can take the form of microaggressions. Microaggressions have been defined as “brief and commonplace daily verbal, behavioral, or environmental indignities, whether intentional or unintentional, that communicate hostile, derogatory, or negative prejudicial sights and insults toward any group, particularly culturally marginalized groups” (Sue et al., <xref rid="jnr24570-bib-0014" ref-type="ref">2007</xref>). The accumulation of microaggressions over time is believed to lead to lower self‐confidence, which can cause mental health problems and possibly associate with women's leaving science field.</p><p>With challenges mentioned above like difficulties in maintaining work–life balances, less control of work environment with a lower likelihood of promotion into leadership positions, confronting biases and stereotypes, as well as experiencing higher rates of sexual harassment, women in science and healthcare professionals have a higher risk of developing burnout. For example, surveys have found a much higher percentage of female physicians’ self‐reported burn out symptoms and dissatisfaction with work–life integration than male physicians (Tawfik et al., <xref rid="jnr24570-bib-0015" ref-type="ref">2018</xref>; West, Dyrbye, &amp; Shanafelt, <xref rid="jnr24570-bib-0018" ref-type="ref">2018</xref>). While many factors contributing to burnout among male and female scientists and healthcare professionals are comparable, it is important to recognize certain gender‐based differences in contributing factors of burnout and thereby tailor preventive and interventional strategies to mitigate burnout symptoms and increase retention rate among women scientists (Templeton et al., <xref rid="jnr24570-bib-0016" ref-type="ref">2019</xref>).</p><p>Despite increasing numbers of women in science in decades, the proportion of female scientists in leadership positions remains low. The lack of appropriate representation, compensation, and recognition of women in STEM is appalling, which results in a loss of talent and idea, leading to research from a male perspective. For example, the disparate representation of women in science has led to a prolonged lack of understanding, such as assuming the egg plays a passive role in fertilization (Martin, <xref rid="jnr24570-bib-0009" ref-type="ref">1991</xref>), and physical harm, such as introducing drugs into the market that have adverse effects for women since they were tested only in men (Zakiniaeiz, Cosgrove, Potenza, &amp; Mazure, <xref rid="jnr24570-bib-0021" ref-type="ref">2016</xref>). Compelling data have shown that diverse groups including women and people of color generate more creative ideas and improve scientific outcomes than homogenous groups do. For example, papers with more diverse backgrounds of authors received more citations (Jang, <xref rid="jnr24570-bib-0008" ref-type="ref">2017</xref>).</p><p>What can we do better? It is critical to identify barriers that prevent female scientists from career advancement. It is clear that bias and discrimination against women in science has not been adequately addressed. Changes in institutional and departmental structure and culture to develop female faculty value system are important steps to prevent the “leaky pipeline” and improve retention of women in science (Carr et al., <xref rid="jnr24570-bib-0003" ref-type="ref">2019</xref>). We need mechanisms in place to make success as a woman in science more feasible. When asked about what would make being a woman in science easier, Kathryn Bowles a postdoctoral fellow at Icahn School of Medicine at Mount Sinai commented, “I think the increased inclusion of women and minorities on committees, panels and leadership positions will help resolve some of the biases against women.”</p><p>Mentoring and strong leadership to support and promote women's work and sense of voice have been among the most important factors in retaining women scientists in the field. Female role models are particularly critical for recruiting young women scientists and rising stars into the science field and keeping them there. Lack of appropriate role models often leads to feelings of exclusion. Programs such as Maximizing Access to Research Careers, ENDURE Undergraduate Education, and Minority Biomedical Research Support match students with mentors and support a range of activities to increase student involvement and engagement in science. In addition to programs that help students from underrepresented groups, having a mentor is beneficial for all students and especially for students who are underrepresented in a field. Students with mentors perform better academically than students without mentors and women in particular rate the importance of mentorship more highly than men (Fisher, Fried, Goodman, &amp; Germano, <xref rid="jnr24570-bib-0005" ref-type="ref">2009</xref>). Margaret Zhong, an undergraduate neuroscience major at Barnard College of Columbia University, finds herself in a situation that proves such. “I work in a behavior lab at the Columbia University Medical Center. The entire lab is male, except for the graduate student I work with. Watching her navigate the neuroscience field inspires me to continue on my own path in neuroscience.”</p><p>For junior faculty in science, mentorship should focus not only on academic research progresses and grantsmanship training but also on career coaching of leadership skills, effective laboratory management, and conflict resolution, as well as techniques of coping and stress management. The NIH sponsored early career training programs as well as several PI training programs available in academic institutes are good examples. Every female scientist may have a story to tell. Dongming Cai, an Associate Professor of Neurology in Icahn School of Medicine at Mount Sinai, recalled how she wound up a neuroscientist, crediting her parents who nurtured her belief that women can do everything men can, and her science mentors Marie T. Filbin and Paul Greengard were particularly influential, as they encouraged and guided her during her career development while providing supportive environments where women in laboratories were not treated any differently from men.</p><p>It is critical to develop transparent mechanisms which allow women scientists to provide feedback that may increase job satisfaction and improve retention of women in science. For example, movements like “MeToo” are bringing awareness to the prevalence of sexual harassment, and are drawing attention to the unequal power dynamic between men and women. Efforts like this are beginning to influence academia, and will eventually lead to more women being in positions of power. In addition, changes at institutional and departmental levels to address concerns and issues about work–life balance and compensation equity among women scientists are important for recruitment and retention of top talent and increased job satisfaction. Examples such as onsite child and elder care, part‐time tenure tracks, and extension of clock for tenure track clock, as well as inclusion of workplace responsibilities like committees and teaching into consideration of promotion processes have been suggested as best practices in this regard (Carr et al., <xref rid="jnr24570-bib-0003" ref-type="ref">2019</xref>). Other efforts could be beneficial such as offering retention and mentorship grant support by academic institutes and departments in addition to the funding mechanisms provided by federal agencies such as NIH and NSF or institutions like Association for Women in Science. It is also important to recognize that women tend not to ask for salary raises, promotion, or recognition for good work they do. Educating women scientists with better negotiation skills is one way, but more important is to implement a more user‐friendly system to monitor career advancement and job satisfaction of women scientists particularly at early career development stage when most vulnerable to opt out. Establishing a supporting network of women scientists at different academic ranks within the same institute or from different academic institutes to share experiences and provide feedback could be helpful as well.</p><p>We need to recognize that even though progress toward increasing women in neuroscience is being made, more still needs to be done. Having a family and furthering a career should not be mutually exclusive. Programs that make maternity leave more accessible or also encourage paternity leave alleviate certain factors that drive women to leave their careers. Additionally, more needs to be done to fight the bias that remains in science. For example, articles submitted for publications or grant applications could be de‐identified for review to better eliminate the possibility of bias. The field of neuroscience is uniquely situated to lead the push for women's equality because of the high numbers of initial interest. We need to work as a team and take steps to foster, encourage, and nurture future women in neuroscience. We should be leaders in the women's fight for equality.</p><sec sec-type="COI-statement" id="jnr24570-sec-0003"><title>Conflict of interest</title><p>All authors declare that they have no conflict of interest.</p></sec><sec id="jnr24570-sec-0004"><title>AUTHOR CONTRIBUTIONS</title><p>
+<italic toggle="yes">Conceptualization</italic>, S.M. and D.C.; <italic toggle="yes">Data Curation</italic>, S.M., A.P., S.N. and D.C.; <italic toggle="yes">Formal Analysis</italic>, S.M., A.P., S.N., M.Z., and D.C.; <italic toggle="yes">Methodology</italic>, S.M., A.P., S.N., M.Z., and D.C.; <italic toggle="yes">Investigation</italic>, S.M., A.P., S.N., M.Z., and D.C.; <italic toggle="yes">Validation</italic>, S.M., A.P., S.N., M.Z., and D.C.; <italic toggle="yes">Writing ‐ Original Draft</italic>, S.M., A.P., and D.C.; <italic toggle="yes">Writing ‐ Review &amp; Editing</italic>, S.M., A.P., S.N., M.Z., and D.C.; <italic toggle="yes">Funding Acquisition</italic>, D.C.; <italic toggle="yes">Project Administration</italic>, D.C.; <italic toggle="yes">Resources</italic>, D.C.; <italic toggle="yes">Supervision</italic>, D.C.</p></sec></body><back><ack id="jnr24570-sec-0002"><title>ACKNOWLEDGMENT</title><p>We thank Dr. Alison Goate for critical reading of the manuscript and Dr. Eric Nestler for helpful comments during the preparation of the manuscript. We also thank Drs. Kathryn Bowles, Elisa Navarro and Sarah Neuner for critical reading and sharing of their personal experiences during the preparation of the manuscript.</p></ack><ref-list content-type="cited-references" id="jnr24570-bibl-0001"><title>REFERENCES</title><ref id="jnr24570-bib-0001"><mixed-citation publication-type="journal" id="jnr24570-cit-0001">
+<string-name name-style="western">
+<surname>Baker</surname>, <given-names>B.</given-names>
+</string-name> (<year>2011</year>). <article-title>Women face more hurdles in science careers, survey shows</article-title>. <source xml:lang="en">Bioscience</source>, <volume>61</volume>(<issue>1</issue>), <fpage>88</fpage>
+<pub-id pub-id-type="doi">10.1525/bio.2011.61.1.20</pub-id>
+</mixed-citation></ref><ref id="jnr24570-bib-0002"><mixed-citation publication-type="journal" id="jnr24570-cit-0002">
+<string-name name-style="western">
+<surname>Bendels</surname>, <given-names>M. H. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muller</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brueggmann</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Groneberg</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Gender disparities in high‐quality research revealed by Nature Index journals</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>13</volume>(<issue>1</issue>), <elocation-id>e0189136</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0189136</pub-id>
+<pub-id pub-id-type="pmid">29293499</pub-id><pub-id pub-id-type="pmcid">PMC5749692</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0003"><mixed-citation publication-type="journal" id="jnr24570-cit-0003">
+<string-name name-style="western">
+<surname>Carr</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Helitzer</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Freund</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Westring</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGee</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>, <given-names>P. B.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Villablanca</surname>, <given-names>A.</given-names>
+</string-name> (<year>2019</year>). <article-title>A summary report from the research partnership on women in science careers</article-title>. <source xml:lang="en">Journal of General Internal Medicine</source>, <volume>34</volume>(<issue>3</issue>), <fpage>356</fpage>–<lpage>362</lpage>. <pub-id pub-id-type="doi">10.1007/s11606-018-4547-y</pub-id>
+<pub-id pub-id-type="pmid">30003480</pub-id><pub-id pub-id-type="pmcid">PMC6420545</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0004"><mixed-citation publication-type="journal" id="jnr24570-cit-0004">
+<string-name name-style="western">
+<surname>Ceci</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ginther</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kahn</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Williams</surname>, <given-names>W. M.</given-names>
+</string-name> (<year>2014</year>). <article-title>Women in academic science: A changing landscape</article-title>. <source xml:lang="en">Psychological Science in the Public Interest</source>, <volume>15</volume>(<issue>3</issue>), <fpage>75</fpage>–<lpage>141</lpage>. <pub-id pub-id-type="doi">10.1177/1529100614541236</pub-id>
+<pub-id pub-id-type="pmid">26172066</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0005"><mixed-citation publication-type="journal" id="jnr24570-cit-0005">
+<string-name name-style="western">
+<surname>Fisher</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fried</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goodman</surname>, <given-names>S. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Germano</surname>, <given-names>K. K.</given-names>
+</string-name> (<year>2009</year>). <article-title>Measures of mentoring, department climate, and graduate student preparedness in the responsible conduct of psychological research</article-title>. <source xml:lang="en">Ethics and Behavior</source>, <volume>19</volume>(<issue>3</issue>), <fpage>227</fpage>–<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1080/10508420902886726</pub-id>
+<pub-id pub-id-type="pmid">23626454</pub-id><pub-id pub-id-type="pmcid">PMC3634717</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0006"><mixed-citation publication-type="journal" id="jnr24570-cit-0006">
+<string-name name-style="western">
+<surname>Girod</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fassiotto</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grewal</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ku</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sriram</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nosek</surname>, <given-names>B. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Valantine</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>). <article-title>Reducing implicit gender leadership bias in academic medicine with an educational intervention</article-title>. <source xml:lang="en">Academic Medicine</source>, <volume>91</volume>(<issue>8</issue>), <fpage>1143</fpage>–<lpage>1150</lpage>. <pub-id pub-id-type="doi">10.1097/ACM.0000000000001099</pub-id>
+<pub-id pub-id-type="pmid">26826068</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0007"><mixed-citation publication-type="journal" id="jnr24570-cit-0007">
+<string-name name-style="western">
+<surname>Hill</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corbett</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rose</surname>, <given-names>A. S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Why so few? women in science, technology, engineering and mathematics</article-title>. <source xml:lang="en">AAUW Report</source>, <fpage>1</fpage>–<lpage>134</lpage>, ISBN: 978‐1‐879922‐40‐2.</mixed-citation></ref><ref id="jnr24570-bib-0008"><mixed-citation publication-type="journal" id="jnr24570-cit-0008">
+<string-name name-style="western">
+<surname>Jang</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Cultural brokerage and creative performance in multicultural teams</article-title>. <source xml:lang="en">Organization Science</source>, <volume>28</volume>(<issue>6</issue>), <fpage>993</fpage>–<lpage>1009</lpage>. <pub-id pub-id-type="doi">10.1287/orsc.2017.1162</pub-id>
+</mixed-citation></ref><ref id="jnr24570-bib-0009"><mixed-citation publication-type="journal" id="jnr24570-cit-0009">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>E.</given-names>
+</string-name> (<year>1991</year>). <article-title>The egg and the sperm: How science has constructed a romance based on stereotypical male‐female roles</article-title>. <source xml:lang="en">Signs: Journal of Women in Culture and Society</source>, <volume>16</volume>(<issue>3</issue>), <fpage>485</fpage>–<lpage>501</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://0097-9740/91/1603-0003">0097‐9740/91/1603‐0003</ext-link>
+</mixed-citation></ref><ref id="jnr24570-bib-0010"><mixed-citation publication-type="journal" id="jnr24570-cit-0010">
+<string-name name-style="western">
+<surname>McDermott</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gelb</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pawloski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burke</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shelgikar</surname>, <given-names>A. V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>London</surname>, <given-names>Z. N.</given-names>
+</string-name> (<year>2018</year>). <article-title>Sex differences in academic rank and publication rate at top‐ranked US neurology programs</article-title>. <source xml:lang="en">JAMA Neurology</source>, <volume>75</volume>(<issue>8</issue>), <fpage>956</fpage>–<lpage>961</lpage>. <pub-id pub-id-type="doi">10.1001/jamaneurol.2018.0275</pub-id>
+<pub-id pub-id-type="pmid">29610899</pub-id><pub-id pub-id-type="pmcid">PMC6142929</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0011"><mixed-citation publication-type="journal" id="jnr24570-cit-0011">
+<string-name name-style="western">
+<surname>Pohlhaus</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wagner</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schaffer</surname>, <given-names>W. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pinn</surname>, <given-names>V. W.</given-names>
+</string-name> (<year>2011</year>). <article-title>Sex differences in application, success, and funding rates for NIH extramural programs</article-title>. <source xml:lang="en">Academic Medicine</source>, <volume>86</volume>(<issue>6</issue>), <fpage>759</fpage>‐<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1097/ACM.0b013e31821836ff</pub-id>
+<pub-id pub-id-type="pmid">21512358</pub-id><pub-id pub-id-type="pmcid">PMC3379556</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0012"><mixed-citation publication-type="book" id="jnr24570-cit-0012">
+<collab collab-type="authors"><italic toggle="yes">SFN Report of Neuroscience Departments &amp; Programs Survey of Academic Year 2016–2017</italic></collab>
+. (<year>2017</year>). <article-title>SFN McKinley Advisors</article-title>, <fpage>1</fpage>‐<lpage>85</lpage>. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>McKinley Advisors</publisher-name>.</mixed-citation></ref><ref id="jnr24570-bib-0013"><mixed-citation publication-type="journal" id="jnr24570-cit-0013">
+<string-name name-style="western">
+<surname>Shen</surname>, <given-names>Y. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Webster</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shoda</surname>, <given-names>Y.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fine</surname>, <given-names>I.</given-names>
+</string-name> (<year>2018</year>). <article-title>Persistent underrepresentation of women's science in high profile journals</article-title>. <source xml:lang="en">bioRxiv</source>, <fpage>275362</fpage>
+<pub-id pub-id-type="doi">10.1101/275362</pub-id>
+</mixed-citation></ref><ref id="jnr24570-bib-0014"><mixed-citation publication-type="journal" id="jnr24570-cit-0014">
+<string-name name-style="western">
+<surname>Sue</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capodilupo</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Torino</surname>, <given-names>G. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bucceri</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holder</surname>, <given-names>A. M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nadal</surname>, <given-names>K. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Esquilin</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Racial microaggressions in everyday life: Implications for clinical practice</article-title>. <source xml:lang="en">American Psychologist</source>, <volume>62</volume>(<issue>4</issue>), <fpage>271</fpage>–<lpage>286</lpage>. <pub-id pub-id-type="doi">10.1037/0003-066X.62.4.271</pub-id>
+<pub-id pub-id-type="pmid">17516773</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0015"><mixed-citation publication-type="journal" id="jnr24570-cit-0015">
+<string-name name-style="western">
+<surname>Tawfik</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Profit</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morgenthaler</surname>, <given-names>T. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Satele</surname>, <given-names>D. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sinsky</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dyrbye</surname>, <given-names>L. N.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Shanafelt</surname>, <given-names>T. D.</given-names>
+</string-name> (<year>2018</year>). <article-title>Physician burnout, well‐being, and work unit safety grades in relationship to reported medical errors</article-title>. <source xml:lang="en">Mayo Clinic Proceedings</source>, <volume>93</volume>(<issue>11</issue>), <fpage>1571</fpage>–<lpage>1580</lpage>. <pub-id pub-id-type="doi">10.1016/j.mayocp.2018.05.014</pub-id>
+<pub-id pub-id-type="pmid">30001832</pub-id><pub-id pub-id-type="pmcid">PMC6258067</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0016"><mixed-citation publication-type="book" id="jnr24570-cit-0016">
+<string-name name-style="western">
+<surname>Templeton</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernstein</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sukhera</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nora</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burstin</surname>, <given-names>H.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Busis</surname>, <given-names>N.</given-names>
+</string-name> (<year>2019</year>). <chapter-title>Gender‐based differences in burnout: Issues faced by women physicians</chapter-title>
+<source xml:lang="en">NAM Perspectives</source> (pp. <fpage>1</fpage>–<lpage>16</lpage>) (Discussion Paper). <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>National Academy of Medicine</publisher-name>
+<pub-id pub-id-type="doi">10.31478/201905a</pub-id>
+</mixed-citation></ref><ref id="jnr24570-bib-0017"><mixed-citation publication-type="journal" id="jnr24570-cit-0017">
+<string-name name-style="western">
+<surname>Valantine</surname>, <given-names>H. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Science has a gender problem</article-title>. <source xml:lang="en">Scientific American</source>, <volume>315</volume>(<issue>6</issue>), <fpage>12</fpage>
+<pub-id pub-id-type="doi">10.1038/scientificamerican1216-12</pub-id>
+<pub-id pub-id-type="pmid">28004668</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0018"><mixed-citation publication-type="journal" id="jnr24570-cit-0018">
+<string-name name-style="western">
+<surname>West</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dyrbye</surname>, <given-names>L. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Shanafelt</surname>, <given-names>T. D.</given-names>
+</string-name> (<year>2018</year>). <article-title>Physician burnout: Contributors, consequences and solutions</article-title>. <source xml:lang="en">Journal of Internal Medicine</source>, <volume>283</volume>(<issue>6</issue>), <fpage>516</fpage>–<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1111/joim.12752</pub-id>
+<pub-id pub-id-type="pmid">29505159</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0019"><mixed-citation publication-type="journal" id="jnr24570-cit-0019">
+<string-name name-style="western">
+<surname>Williams</surname>, <given-names>W. M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Editorial: Underrepresentation of women in science: International and cross‐disciplinary evidence and debate</article-title>. <source xml:lang="en">Frontiers in Psychology</source>, <volume>8</volume>, <fpage>2352</fpage>
+<pub-id pub-id-type="doi">10.3389/fpsyg.2017.02352</pub-id>
+<pub-id pub-id-type="pmid">29403410</pub-id><pub-id pub-id-type="pmcid">PMC5786540</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0020"><mixed-citation publication-type="journal" id="jnr24570-cit-0020">
+<article-title>Women in neuroscience: A numbers game</article-title>. (<year>2006</year>). <source xml:lang="en">Nature Neuroscience</source>, <volume>9</volume>(<issue>7</issue>), <fpage>853</fpage>
+<pub-id pub-id-type="doi">10.1038/nn0706-853</pub-id>
+<pub-id pub-id-type="pmid">16801912</pub-id></mixed-citation></ref><ref id="jnr24570-bib-0021"><mixed-citation publication-type="journal" id="jnr24570-cit-0021">
+<string-name name-style="western">
+<surname>Zakiniaeiz</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cosgrove</surname>, <given-names>K. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Potenza</surname>, <given-names>M. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mazure</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Balance of the sexes: Addressing sex differences in preclinical research</article-title>. <source xml:lang="en">Yale Journal of Biology and Medicine</source>, <volume>89</volume>(<issue>2</issue>), <fpage>255</fpage>–<lpage>259</lpage>.<pub-id pub-id-type="pmcid">PMC4918870</pub-id><pub-id pub-id-type="pmid">27354851</pub-id></mixed-citation></ref></ref-list></back></article>
