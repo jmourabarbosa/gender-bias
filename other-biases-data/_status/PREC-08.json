@@ -1,0 +1,16 @@
+{
+ "id": "PREC-08",
+ "title": "Les docteurs diplômés en 2024 / doctorants 2024-2025 (Note Flash SIES n°14, juin 2025)",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-06/nf-2025-14-37279.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-08/data/PREC-08.csv",
+  "other-biases-data/07-precarity/PREC-08/source.pdf",
+  "other-biases-data/07-precarity/PREC-08/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-08/figures/PREC-08_fig1.png",
+  "other-biases-data/07-precarity/PREC-08/figures/PREC-08_redraw.png"
+ ],
+ "notes": "Key \"81% funded; 53% in humanities\": MATCH"
+}

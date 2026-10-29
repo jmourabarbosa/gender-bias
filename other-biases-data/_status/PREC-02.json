@@ -1,0 +1,18 @@
+{
+ "id": "PREC-02",
+ "title": "Dossier \"Les effectifs d'enseignant-es titulaires en baisse depuis 2010\" / \"Des choix budgétaires qui structurent l'emploi\", Le Snesup n°734",
+ "url_used": "https://www.snesup.fr/sites/default/files/2025-06/dossier-mensuel-snesup734.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-02/data/PREC-02.csv",
+  "other-biases-data/07-precarity/PREC-02/source.pdf",
+  "other-biases-data/07-precarity/PREC-02/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-02/figures/PREC-02_fig1.png",
+  "other-biases-data/07-precarity/PREC-02/figures/PREC-02_fig2.png",
+  "other-biases-data/07-precarity/PREC-02/figures/PREC-02_fig3.png",
+  "other-biases-data/07-precarity/PREC-02/figures/PREC-02_redraw.png"
+ ],
+ "notes": "Key \"EC posts 3,613 (2011) -> 2,378 (2023)\": MATCH. Cross-check against official DGRH notes: 3,613 = posts AUTHORISED in 2010 and 2011 (DGRH bilan 2011 p6, bilan 2013 p10) and 2,378 = posts authorised in 2023 (Note DGRH n°2-2025 p1). The union figures are correct but are authorised..."
+}

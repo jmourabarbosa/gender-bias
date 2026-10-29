@@ -1,0 +1,22 @@
+{
+ "id": "PREC-15",
+ "title": "Age dynamics in scientific creativity",
+ "url_used": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3223465/ (full-text HTML) ; https://www.lindau-nobel.org/?p=22157",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-15/data/PREC-15.csv",
+  "other-biases-data/07-precarity/PREC-15/page.html",
+  "other-biases-data/07-precarity/PREC-15/page_pmc.html",
+  "other-biases-data/07-precarity/PREC-15/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-15/figures/PREC-15_fig1.jpg",
+  "other-biases-data/07-precarity/PREC-15/figures/PREC-15_redraw.png",
+  "other-biases-data/07-precarity/PREC-15/figures/pnas.1102895108fig01.jpg",
+  "other-biases-data/07-precarity/PREC-15/figures/pnas.1102895108fig02.jpg",
+  "other-biases-data/07-precarity/PREC-15/figures/pnas.1102895108fig03.jpg",
+  "other-biases-data/07-precarity/PREC-15/figures/pnas.1102895108fig04.jpg",
+  "other-biases-data/07-precarity/PREC-15/figures/pnas.1102895108fig05.jpg"
+ ],
+ "notes": "Key \"Age at Nobel work 36.9 -> 50.3 (physics)\": MATCH (the 36.9/50.3 levels are from the Lindau summary; the paper text gives the 13.4-year difference, consistent; levels are shown in Fig. 1A)"
+}

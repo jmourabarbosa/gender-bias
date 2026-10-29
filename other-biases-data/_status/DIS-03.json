@@ -1,0 +1,21 @@
+{
+ "id": "DIS-03",
+ "title": "Plan handicap Inserm 2023-2025 (prorogé en 2026) - suivi des axes, objectifs et actions",
+ "url_used": "https://pro.inserm.fr/wp-content/uploads/2025/03/Suivi-des-axes-objectifs-et-actions-du-plan-handicap_Actualise-au-03.09.2026.pdf",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-03/data/DIS-03.csv",
+  "other-biases-data/08-disability/DIS-03/page_gilles-bloch-2021.html",
+  "other-biases-data/08-disability/DIS-03/page_plan-handicap.html",
+  "other-biases-data/08-disability/DIS-03/source.pdf",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-100.png",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-32.png",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-41.png",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-70-79.png",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-80.png",
+  "other-biases-data/08-disability/DIS-03/web_images/chiffre-handicap-inserm-comparaison.png",
+  "other-biases-data/08-disability/DIS-03/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Key \"Not verified\": No key number to match; Inserm rate = 6.12% (2020), official Inserm web page. No more recent rate online."
+}

@@ -1,0 +1,17 @@
+{
+ "id": "DIS-01",
+ "title": "Plan \"handicap\" 2026-2031, quelles ambitions ? (Le Snesup n°743, Métier p18)",
+ "url_used": "https://www.snesup.fr/sites/default/files/2026-06/metier_snesup-ndeg743p18.pdf",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-01/crosscheck/AN_question_13-52233.pdf",
+  "other-biases-data/08-disability/DIS-01/crosscheck/univ-lorraine_bilan2023_schema-directeur-handicap.pdf",
+  "other-biases-data/08-disability/DIS-01/data/DIS-01.csv",
+  "other-biases-data/08-disability/DIS-01/source.pdf",
+  "other-biases-data/08-disability/DIS-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-01/figures/DIS-01_redraw.png"
+ ],
+ "notes": "Key \"ESR disability rate 4.49% vs 6%\": MATCH. Official cross-check: no national official ESR rate found online (MESR bilan social pages blocked; the 2026-2031 plan page is behind Cloudflare). Partial official checks in crosscheck/: Université de Lorraine direct rate 3.68% in ..."
+}

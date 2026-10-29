@@ -1,0 +1,15 @@
+{
+ "id": "DIS-04",
+ "title": "ACADISCRI first results (= ETH-04)",
+ "url_used": "see other-biases-data/03-ethnic/ETH-04/source.pdf",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-04/data/DIS-04.csv",
+  "other-biases-data/08-disability/DIS-04/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-04/figures/DIS-04_fig1.png",
+  "other-biases-data/08-disability/DIS-04/figures/DIS-04_redraw.png"
+ ],
+ "notes": "Key \"13.8% of LGBTQ+ staff face LGBT-phobic treatment\": MATCH"
+}

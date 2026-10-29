@@ -1,0 +1,16 @@
+{
+ "id": "PREC-10",
+ "title": "Les chaires de professeur junior : premier bilan (Le Snesup n°728, p19)",
+ "url_used": "https://www.snesup.fr/sites/default/files/2024-11/cpjpremierbilan_p19ndeg728.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-10/data/PREC-10.csv",
+  "other-biases-data/07-precarity/PREC-10/source.pdf",
+  "other-biases-data/07-precarity/PREC-10/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-10/figures/PREC-10_fig1.png",
+  "other-biases-data/07-precarity/PREC-10/figures/PREC-10_redraw.png"
+ ],
+ "notes": "Key \"25% women in junior chairs\": MATCH. Cross-check: the DGRH 2021 campaign note (PREC-04 p2) gives 42% women among PR recruited in 2021, consistent with the 42% PU benchmark."
+}

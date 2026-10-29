@@ -1,0 +1,25 @@
+{
+ "id": "DIS-10",
+ "title": "A decade of decline: Grant funding for researchers with disabilities 2008 to 2018",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/ (PMC7053734.1: PDF, XML, figures)",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-10/article.json",
+  "other-biases-data/08-disability/DIS-10/article.xml",
+  "other-biases-data/08-disability/DIS-10/data/DIS-10.csv",
+  "other-biases-data/08-disability/DIS-10/page.html",
+  "other-biases-data/08-disability/DIS-10/source.pdf",
+  "other-biases-data/08-disability/DIS-10/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-10/figures/DIS-10_fig1.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/DIS-10_fig2.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/DIS-10_redraw.png",
+  "other-biases-data/08-disability/DIS-10/figures/pone.0228686.g001.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/pone.0228686.g002.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/pone.0228686.g003.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/pone.0228686.t001.jpg",
+  "other-biases-data/08-disability/DIS-10/figures/pone.0228686.t002.jpg"
+ ],
+ "notes": "Key \"NIH applicants with disability 1.9% -> 1.2%\": MATCH"
+}

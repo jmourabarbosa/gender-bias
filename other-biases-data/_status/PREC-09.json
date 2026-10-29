@@ -1,0 +1,15 @@
+{
+ "id": "PREC-09",
+ "title": "Question écrite n°1155 (17e législature), Vacataires de l'enseignement supérieur, with ministry answer",
+ "url_used": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE1155.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-09/data/PREC-09.csv",
+  "other-biases-data/07-precarity/PREC-09/source.pdf",
+  "other-biases-data/07-precarity/PREC-09/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-09/figures/PREC-09_redraw.png"
+ ],
+ "notes": "Key \"€8.37/h effective\": MATCH, but note: 8.37 is the deputy's worked example (43.50 / (1 + 4.2 h prep)), not an official statistic; the ministry answer (p1-2) does not confirm it (it says 150,000+ vacataires, only 10% earn > EUR 4,000 gross/yr)."
+}

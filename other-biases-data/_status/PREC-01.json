@@ -1,0 +1,19 @@
+{
+ "id": "PREC-01",
+ "title": "Les enseignants contractuels affectés dans l'enseignement supérieur - Année 2024 (Note de la DGRH n°6-2025)",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-01/note-dgrh-n-6---2025---enseignants-contractuels-ann-e-2024-pdf-39144.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-01/data/PREC-01.csv",
+  "other-biases-data/07-precarity/PREC-01/series/contractuels2020-2021_note-dgrh-n5-2022.pdf",
+  "other-biases-data/07-precarity/PREC-01/series/contractuels2022_note-dgrh-n4-2023.pdf",
+  "other-biases-data/07-precarity/PREC-01/series/contractuels2023_note-dgrh-n3-2024.pdf",
+  "other-biases-data/07-precarity/PREC-01/series/nonpermanents2015-2016_note-dgrh-n4-2017.pdf",
+  "other-biases-data/07-precarity/PREC-01/source.pdf",
+  "other-biases-data/07-precarity/PREC-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-01/figures/PREC-01_redraw.png"
+ ],
+ "notes": "Key \"21,080 contract vs 61,879 tenured\": MATCH"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "PREC-13",
+ "title": "Changes in the National Cancer Institute's R01 workforce: growth, aging, retention, and policy implications",
+ "url_used": "https://jci.org/articles/view/146925/files/pdf (served from dm5migu4zj3pb.cloudfront.net JCI146925.v1.pdf); supplement JCI146925.sd.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-13/data/PREC-13.csv",
+  "other-biases-data/07-precarity/PREC-13/page.html",
+  "other-biases-data/07-precarity/PREC-13/source.pdf",
+  "other-biases-data/07-precarity/PREC-13/supplementary/JCI146925.sd.pdf",
+  "other-biases-data/07-precarity/PREC-13/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f1.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f2.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f3.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f4.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f5.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.f6.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.t1.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.t2.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/JCI146925.t3.jpg",
+  "other-biases-data/07-precarity/PREC-13/figures/PREC-13_fig1.png",
+  "other-biases-data/07-precarity/PREC-13/figures/PREC-13_fig2.png",
+  "other-biases-data/07-precarity/PREC-13/figures/PREC-13_redraw.png"
+ ],
+ "notes": "Key \"Age at first R01 36.2 -> 44.9\": MATCH"
+}

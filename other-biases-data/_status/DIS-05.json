@@ -1,0 +1,16 @@
+{
+ "id": "DIS-05",
+ "title": "Dénoncer les discriminations vécues à l'université (Défenseur des droits, Éclairages 2024) (= ETH-05)",
+ "url_used": "see other-biases-data/03-ethnic/ETH-05/source.pdf",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-05/data/DIS-05.csv",
+  "other-biases-data/08-disability/DIS-05/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-05/figures/DIS-05_fig1.png",
+  "other-biases-data/08-disability/DIS-05/figures/DIS-05_fig2.png",
+  "other-biases-data/08-disability/DIS-05/figures/DIS-05_redraw.png"
+ ],
+ "notes": "Key \"Reporting: students 17-21%, staff 43-51%\": MATCH (17-21% = LGBT-phobia 17.1 and ableism 20.6 for students; 43-51% = 42.5 and 51.0 for staff)"
+}

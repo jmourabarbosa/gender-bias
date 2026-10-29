@@ -1,0 +1,16 @@
+{
+ "id": "PREC-05",
+ "title": "Trajectoire professionnelle des enseignants-chercheurs recrutés en 2023 (Note de la DGRH n°3-2025) (= LOC-02)",
+ "url_used": "see other-biases-data/01-localism/LOC-02/source.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-05/data/PREC-05.csv",
+  "other-biases-data/07-precarity/PREC-05/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-05/figures/PREC-05_fig1.png",
+  "other-biases-data/07-precarity/PREC-05/figures/PREC-05_fig2.png",
+  "other-biases-data/07-precarity/PREC-05/figures/PREC-05_redraw.png"
+ ],
+ "notes": "Key \"New MCF age 35; 42% from postdoc\": MATCH"
+}

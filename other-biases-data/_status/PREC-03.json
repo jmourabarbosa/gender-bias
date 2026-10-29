@@ -1,0 +1,34 @@
+{
+ "id": "PREC-03",
+ "title": "La campagne de recrutement et d'affectation des MCF et des PR - Session 2023 (Note de la DGRH n°2-2025) + all campaign reports back to 2008",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-10/note-dgrh-n-2---2025---campagne-2023-pdf-38079.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-03/data/posts_candidates_series.csv",
+  "other-biases-data/07-precarity/PREC-03/series/bilan-provisoire-2022.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/bilan-provisoire-2024.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/bilan-provisoire-2025.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/bilan1998-2007_bilrec072.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/bilan_bilrec061.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2011_bilan.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2013_bilrec13.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2014_bilan.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2015_note-dgrh-n5-2016.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2016_note-dgrh-n6-2017.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2017_note-dgrh-n6-2018.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2018_note-dgrh-n7-2019.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2020_note-dgrh-n7-2021_univ-lorraine-copy.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/campagne2024_note-dgrh-n1-2026.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/candidatures2008_bilcandrec08.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/trajectoire2015_note-dgrh-n6-2016.pdf",
+  "other-biases-data/07-precarity/PREC-03/series/trajectoire2019_note-dgrh-n7-2020.pdf",
+  "other-biases-data/07-precarity/PREC-03/source.pdf",
+  "other-biases-data/07-precarity/PREC-03/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-03/figures/PREC-03_fig1.png",
+  "other-biases-data/07-precarity/PREC-03/figures/PREC-03_fig2.png",
+  "other-biases-data/07-precarity/PREC-03/figures/PREC-03_redraw.png"
+ ],
+ "notes": "Key \"1,567 MCF posts, 8,110 candidates\": MATCH"
+}

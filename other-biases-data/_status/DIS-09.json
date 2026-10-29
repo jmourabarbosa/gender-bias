@@ -1,0 +1,18 @@
+{
+ "id": "DIS-09",
+ "title": "Exploring the workplace for LGBT+ physical scientists",
+ "url_used": "https://www.ras.ac.uk/sites/default/files/2019-06/LGBT%20Report_Web.pdf (RAS copy; the RSC URL returns 404)",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-09/data/DIS-09.csv",
+  "other-biases-data/08-disability/DIS-09/page.html",
+  "other-biases-data/08-disability/DIS-09/source.pdf",
+  "other-biases-data/08-disability/DIS-09/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-09/figures/DIS-09_fig1.png",
+  "other-biases-data/08-disability/DIS-09/figures/DIS-09_fig2.png",
+  "other-biases-data/08-disability/DIS-09/figures/DIS-09_redraw.png"
+ ],
+ "notes": "Key \"~1 in 3 considered leaving\": MISMATCH (minor): the report says 28%, i.e. a bit more than 1 in 4; \"~1 in 3\" (and press \"almost a third\") overstates it. Use 28%."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "DIS-11",
+ "title": "Diversity and STEM: Women, Minorities, and Persons with Disabilities 2023 (NSF 23-315)",
+ "url_used": "https://ncses.nsf.gov/pubs/nsf23315/assets/nsf23315-report.pdf",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-11/data/DIS-11.csv",
+  "other-biases-data/08-disability/DIS-11/page.html",
+  "other-biases-data/08-disability/DIS-11/source.pdf",
+  "other-biases-data/08-disability/DIS-11/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-11/figures/DIS-11_fig1.png",
+  "other-biases-data/08-disability/DIS-11/figures/DIS-11_fig2.png",
+  "other-biases-data/08-disability/DIS-11/figures/DIS-11_redraw.png"
+ ],
+ "notes": "Key \"Disabled: 11% of S&E PhDs, 3% of workforce\": MATCH, with a caveat: the 3% (CPS, all STEM workers incl. the skilled technical workforce) and the 11% (SED doctorates) come from different surveys and definitions; among college-educated workers in S&E occupations (NSCG) the disability ..."
+}

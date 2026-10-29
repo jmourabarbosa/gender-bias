@@ -1,0 +1,19 @@
+{
+ "id": "PREC-12",
+ "title": "The Postdoc Queue: A Labour Force in Waiting",
+ "url_used": "https://dspace.mit.edu/server/api/core/bitstreams/215d27e9-9eaa-47ab-9281-489eaf2df3cc/content (MIT DSpace hdl 1721.1/122786, found via Unpaywall)",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-12/data/PREC-12.csv",
+  "other-biases-data/07-precarity/PREC-12/dspace.html",
+  "other-biases-data/07-precarity/PREC-12/page.html",
+  "other-biases-data/07-precarity/PREC-12/source.pdf",
+  "other-biases-data/07-precarity/PREC-12/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-12/figures/PREC-12_fig1.png",
+  "other-biases-data/07-precarity/PREC-12/figures/PREC-12_fig2.png",
+  "other-biases-data/07-precarity/PREC-12/figures/PREC-12_redraw.png"
+ ],
+ "notes": "Key \"~17% reach tenure track\": MATCH"
+}

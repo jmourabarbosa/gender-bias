@@ -1,0 +1,18 @@
+{
+ "id": "PREC-07",
+ "title": "Le Centre national de la recherche scientifique (CNRS), exercices 2013-2023 - rapport d'observations définitives",
+ "url_used": "https://campusmatin.com/file/a706bd62d95ab4dcc9c1a4df08973ee9/rapport-cour-comptes-exercices-2013-2023-cnrs.pdf",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-07/data/PREC-07_selection_rate.csv",
+  "other-biases-data/07-precarity/PREC-07/data/PREC-07_staff_age.csv",
+  "other-biases-data/07-precarity/PREC-07/source.pdf",
+  "other-biases-data/07-precarity/PREC-07/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-07/figures/PREC-07_fig1.png",
+  "other-biases-data/07-precarity/PREC-07/figures/PREC-07_fig2.png",
+  "other-biases-data/07-precarity/PREC-07/figures/PREC-07_redraw.png"
+ ],
+ "notes": "Key \"Contract staff 23% -> 29%\": MATCH (note: 23%->29% is the share funded on own resources; all contract staff are 27.8%->32.2% of ETPT)"
+}

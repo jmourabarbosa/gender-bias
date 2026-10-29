@@ -1,0 +1,726 @@
+{
+ "slides": [
+  {
+   "id": "o01_outline",
+   "kind": "text",
+   "title": "Outline",
+   "bullets": [
+    "**Localism:** hiring your own PhDs and colleagues",
+    "**Social origin:** who reaches the doctorate and the faculty",
+    "**Ethnic and racial discrimination:** what France can and cannot measure",
+    "**Nationality and language**",
+    "**Prestige:** famous names, elite institutions, Paris",
+    "**Geography:** high- vs low-income countries",
+    "**Precarity, age and career stage**",
+    "**Disability and LGBTQ+**",
+    "**Peer review:** noise, novelty and lotteries",
+    "Sources, data and figures: github.com/jmourabarbosa/gender-bias"
+   ]
+  },
+  {
+   "id": "o10_sec",
+   "kind": "section",
+   "title": "1. Localism and inbreeding",
+   "sub": "Hiring your own PhDs and your own colleagues"
+  },
+  {
+   "id": "o11_trend",
+   "kind": "fig",
+   "title": "About 1 in 5 new MCF are hired where they did their PhD; over half of new PR where they were already MCF",
+   "image": "other-biases-data/01-localism/LOC-03/figures/LOC-03_redraw.png",
+   "bullets": [
+    "2024 recruits: **23%** of new MCF local, **54%** of new PR local",
+    "MCF local share has stayed between 17% and 23% since 2018",
+    "The PR jump in 2022 partly reflects a change of definition",
+    "About 10% of posts are filled by transfer (mutation)"
+   ],
+   "refs": [
+    [
+     "MESR-DGRH Note n°2-2026",
+     "LOC-01"
+    ],
+    [
+     "MESR-DGRH trajectory notes 2019-2025",
+     "LOC-03"
+    ],
+    [
+     "MESR-DGRH Note n°1-2026",
+     "LOC-04"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o12_odds",
+   "kind": "fig",
+   "title": "Local candidates have about 10 times the odds of being hired as MCF",
+   "image": "other-biases-data/01-localism/LOC-06/figures/LOC-06_redraw.png",
+   "bullets": [
+    "MCF hiring 2017-2024: odds ratio **9.5 to 10.7** for local candidates",
+    "Physiology about 29; mathematics below 1",
+    "2008 study: 6.3% of local applications succeeded vs 0.24% of external ones"
+   ],
+   "refs": [
+    [
+     "Godechot, Issiakou, Renisio & Rougier (2025) Books & Ideas",
+     "LOC-06"
+    ],
+    [
+     "Godechot & Louvet (2008) La Vie des idées",
+     "LOC-05"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o13_spain",
+   "kind": "fig",
+   "title": "Spain is more inbred: 73% of university staff teach where they got their PhD",
+   "image": "other-biases-data/01-localism/LOC-11/figures/LOC-11_redraw.png",
+   "bullets": [
+    "Spain: **72.9%** (2020-21), unchanged since 2015",
+    "Spain 2006: 96% of permanent-post winners already worked there",
+    "Portugal: about 68% (secondary source)",
+    "Mexico: inbred faculty publish 15% fewer peer-reviewed articles"
+   ],
+   "refs": [
+    [
+     "Spanish ministry, Estadística de Personal de las Universidades",
+     "LOC-11"
+    ],
+    [
+     "Sanz-Menéndez & Cruz-Castro (2006), via press",
+     "LOC-12"
+    ],
+    [
+     "Portugal inbreeding data (SEDES)",
+     "LOC-13"
+    ],
+    [
+     "Horta, Veloso & Grediaga (2010) Management Science",
+     "LOC-08"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o20_sec",
+   "kind": "section",
+   "title": "2. Social origin",
+   "sub": "Who reaches the doctorate and the faculty"
+  },
+  {
+   "id": "o21_levels",
+   "kind": "fig",
+   "title": "Workers' children are 12% of licence students but 6% of doctoral students",
+   "image": "other-biases-data/02-social/SOC-01/figures/SOC-01_redraw.png",
+   "bullets": [
+    "Children of senior managers: 29% in licence, **40%** in doctorate (2019-20)",
+    "Doctoral students: 41% have a manager parent, 8% a manual-worker parent",
+    "No published data on the social origin of French academics"
+   ],
+   "refs": [
+    [
+     "Observatoire des inégalités, from MESR data",
+     "SOC-01"
+    ],
+    [
+     "Céreq Bref n°452 (2024)",
+     "SOC-04"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o22_ge",
+   "kind": "fig",
+   "title": "Grandes écoles: 64% of students come from very privileged homes, vs 23% of their age group",
+   "image": "other-biases-data/02-social/SOC-05/figures/SOC-05_redraw.png",
+   "bullets": [
+    "ENS: **72%** very privileged",
+    "ENS 2024: children of senior managers 65%, of manual workers 2%",
+    "Composition barely changed between 2009 and 2024"
+   ],
+   "refs": [
+    [
+     "Bonneau, Charousset, Grenet & Thebault (2021) IPP report 30",
+     "SOC-05"
+    ],
+    [
+     "Martin-Kleinbauer & Maurin (2025) Observatoire des inégalités",
+     "SOC-02"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o23_phd",
+   "kind": "fig",
+   "title": "22% of US faculty have a parent with a PhD; at top institutions, about a third",
+   "image": "other-biases-data/02-social/SOC-06/figures/SOC-06_redraw.png",
+   "bullets": [
+    "Share rises with institutional prestige",
+    "US economics PhDs: **48%** have a parent with a graduate degree",
+    "UK: 42% of Royal Society and British Academy fellows were privately educated, vs 7% of the population"
+   ],
+   "refs": [
+    [
+     "Morgan et al. (2022) Nature Human Behaviour",
+     "SOC-06"
+    ],
+    [
+     "Stansbury & Schultz (2023) J Econ Perspectives",
+     "SOC-07"
+    ],
+    [
+     "Sutton Trust (2009)",
+     "SOC-08"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o30_sec",
+   "kind": "section",
+   "title": "3. Ethnic and racial discrimination",
+   "sub": "What France can and cannot measure"
+  },
+  {
+   "id": "o31_teo",
+   "kind": "fig",
+   "title": "France bans ethnic statistics, but surveys show children of African immigrants report 2-3 times more discrimination",
+   "image": "other-biases-data/03-ethnic/ETH-06/figures/ETH-06_redraw.png",
+   "bullets": [
+    "Public statistics cannot use racial categories; surveys may ask about origin",
+    "TeO2 (2019-20): **42%** (children of immigrants from sub-Saharan Africa) vs 15% (no migration background)",
+    "No data on the ethnic composition of French academic staff"
+   ],
+   "refs": [
+    [
+     "Insee, statistiques ethniques",
+     "ETH-01"
+    ],
+    [
+     "TeO2 survey, Insee Première n°1911",
+     "ETH-06"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o32_masters",
+   "kind": "fig",
+   "title": "Master's programmes replied less often to applicants with North-African names",
+   "image": "other-biases-data/03-ethnic/ETH-02/figures/ETH-02_redraw.png",
+   "bullets": [
+    "Testing on 600+ master's programmes (2021): **69.7%** vs **61.1%** positive replies",
+    "Largest gaps in law, economics, management and science",
+    "Labour market testing: callbacks 33.3% vs 22.8%"
+   ],
+   "refs": [
+    [
+     "Chareyron, Erb & L'Horty (2022) TEPP report",
+     "ETH-02"
+    ],
+    [
+     "IPP Note 76 / Dares Analyses n°67 (2021)",
+     "ETH-03"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o33_acadiscri",
+   "kind": "fig",
+   "title": "In one French university, 28% of staff of immigrant descent reported racist treatment vs 5% of the majority",
+   "image": "other-biases-data/03-ethnic/ETH-04/figures/ETH-04_redraw.png",
+   "bullets": [
+    "ACADISCRI staff survey 2019-20 (small sample, 278 staff)",
+    "Few victims report it: **13%** of students vs 47% of staff",
+    "13.8% of LGBTQ+ staff report LGBT-phobic treatment (same survey)"
+   ],
+   "refs": [
+    [
+     "Cognet, Hajjat, Hamel et al. (2022) ACADISCRI",
+     "ETH-04"
+    ],
+    [
+     "Défenseur des droits (2024)",
+     "ETH-05"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o34_nih",
+   "kind": "fig",
+   "title": "At NIH, Black applicants' grant success has stayed 1.7 times lower than White applicants'",
+   "image": "other-biases-data/03-ethnic/ETH-11/figures/ETH-11_redraw.png",
+   "bullets": [
+    "2000-06: 17.1% vs 29.3%; 2011-15: 10.7% vs 17.7%",
+    "Topic choice explains about 20% of the gap",
+    "Black applicants' success rate about 75% of White applicants' after controls"
+   ],
+   "refs": [
+    [
+     "Taffe & Gilpin (2021) eLife",
+     "ETH-11"
+    ],
+    [
+     "Ginther et al. (2011) Science",
+     "ETH-08"
+    ],
+    [
+     "Hoppe et al. (2019) Science Advances",
+     "ETH-09"
+    ],
+    [
+     "Erosheva et al. (2020) Science Advances",
+     "ETH-10"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o40_sec",
+   "kind": "section",
+   "title": "4. Nationality and language",
+   "sub": "Foreign researchers and non-native English speakers"
+  },
+  {
+   "id": "o41_pipe",
+   "kind": "fig",
+   "title": "Foreign nationals are 42% of new PhDs in France but 8% of tenured faculty",
+   "image": "other-biases-data/04-nationality/NAT-01/figures/NAT-01_redraw.png",
+   "bullets": [
+    "21% of permanent research recruits (2022)",
+    "CNRS: about a third of recruits are foreign (CEO); MESR counts 24.5% for EPST recruits",
+    "CNRS interviews are held in French by default"
+   ],
+   "refs": [
+    [
+     "MESR, L'état de l'emploi scientifique 2025",
+     "NAT-01"
+    ],
+    [
+     "Petit (CNRS CEO) interview",
+     "NAT-04"
+    ],
+    [
+     "CNRS guide concours chercheurs",
+     "NAT-03"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o42_mcfpr",
+   "kind": "fig",
+   "title": "Foreigners are 23.5% of new MCF but 7.9% of new PR",
+   "image": "other-biases-data/04-nationality/NAT-02/figures/NAT-02_redraw.png",
+   "bullets": [
+    "Gap stable 2020-2024",
+    "Among PR hired from outside the MCF corps, 31-40% are foreign",
+    "Talent-passport visas can take about 5 months (one testimony)"
+   ],
+   "refs": [
+    [
+     "MESR-DGRH Note n°2-2026",
+     "NAT-02"
+    ],
+    [
+     "Passeport talent testimony (2026)",
+     "NAT-05"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o43_english",
+   "kind": "fig",
+   "title": "Non-native English speakers face more language rejections and more work",
+   "image": "other-biases-data/04-nationality/NAT-07/figures/NAT-07_redraw.png",
+   "bullets": [
+    "Up to **90.8%** more time to read a paper in English",
+    "Researchers who had a paper rejected for its English: 38% (moderate proficiency) vs 14% (native)",
+    "Authors from France chose double-blind review 8% of the time, from India 32%"
+   ],
+   "refs": [
+    [
+     "Amano et al. (2023) PLoS Biology",
+     "NAT-07"
+    ],
+    [
+     "McGillivray & De Ranieri (2018) arXiv",
+     "NAT-11"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o44_homophily",
+   "kind": "fig",
+   "title": "Reviewers often share a country with US and Chinese authors, rarely with low-income-country authors",
+   "image": "other-biases-data/04-nationality/NAT-09/figures/NAT-09_redraw.png",
+   "bullets": [
+    "A same-country reviewer raises acceptance by **4.78 points**",
+    "eLife: 39.2% of US submissions sent to review vs 12.6% from China"
+   ],
+   "refs": [
+    [
+     "Zumel Dumlao & Teplitskiy (2025) PNAS",
+     "NAT-09"
+    ],
+    [
+     "Murray et al. (2019) bioRxiv",
+     "NAT-10"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o50_sec",
+   "kind": "section",
+   "title": "5. Prestige",
+   "sub": "Famous names, elite institutions, and Paris"
+  },
+  {
+   "id": "o51_nobel",
+   "kind": "fig",
+   "title": "Same paper: 65% of reviewers rejected it under a junior author's name, 22% under a Nobel laureate's",
+   "image": "other-biases-data/05-prestige/PRES-01/figures/PRES-01_redraw.png",
+   "bullets": [
+    "534 reviews of one manuscript, author shown or hidden",
+    "Anonymized: 48% reject",
+    "Single-blind conference reviewers favoured famous authors (OR **1.63**)"
+   ],
+   "refs": [
+    [
+     "Huber et al. (2022) PNAS",
+     "PRES-01"
+    ],
+    [
+     "Tomkins, Zhang & Heavlin (2017) PNAS",
+     "PRES-02"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o52_lorenz",
+   "kind": "fig",
+   "title": "80% of US faculty trained at 20% of universities",
+   "image": "other-biases-data/05-prestige/PRES-06/figures/PRES-06_redraw.png",
+   "bullets": [
+    "Top 25% of institutions produce 71-86% of faculty, depending on field",
+    "Early-career grant winners just above the threshold got more than twice the later funding of near-misses"
+   ],
+   "refs": [
+    [
+     "Wapman et al. (2022) Nature",
+     "PRES-06"
+    ],
+    [
+     "Clauset, Arbesman & Larremore (2015) Science Advances",
+     "PRES-05"
+    ],
+    [
+     "Bol, de Vaan & van de Rijt (2018) PNAS",
+     "PRES-04"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o53_idf",
+   "kind": "fig",
+   "title": "Île-de-France concentrates French research money and prizes",
+   "image": "other-biases-data/05-prestige/PRES-08/figures/PRES-08_redraw.png",
+   "bullets": [
+    "**42%** of business R&D spending (2024)",
+    "About a third of French publications (2019)",
+    "4 of the first 8 Idex were in Île-de-France",
+    "ERC Starting Grants 2024: 25 of 49 French winners hosted by the CNRS"
+   ],
+   "refs": [
+    [
+     "MESR-SIES Note Flash 2026-06",
+     "PRES-08"
+    ],
+    [
+     "Hcéres-OST (2021), via MESR",
+     "PRES-07"
+    ],
+    [
+     "L'Etudiant, Idex season 1",
+     "PRES-10"
+    ],
+    [
+     "ERC StG 2024 French results",
+     "PRES-09"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o60_sec",
+   "kind": "section",
+   "title": "6. Geography",
+   "sub": "Research from high- vs low-income countries"
+  },
+  {
+   "id": "o61_abstracts",
+   "kind": "fig",
+   "title": "Clinicians rated the same abstract higher when told it came from a rich country",
+   "image": "other-biases-data/06-geography/GEO-03/figures/GEO-03_redraw.png",
+   "bullets": [
+    "347 English clinicians, same abstracts, randomised source country",
+    "Relevance +4.5 points (out of 100) for a high-income source",
+    "Implicit association test: 86% of researchers lean 'rich country = good research'",
+    "Systematic review: 2 of 3 randomised trials found bias"
+   ],
+   "refs": [
+    [
+     "Harris et al. (2017) Health Affairs",
+     "GEO-03"
+    ],
+    [
+     "Harris et al. (2017) Globalization and Health",
+     "GEO-04"
+    ],
+    [
+     "Skopec et al. (2020) Research Integrity and Peer Review",
+     "GEO-05"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o62_africa",
+   "kind": "fig",
+   "title": "Research done in Africa: half of the papers have an African first author",
+   "image": "other-biases-data/06-geography/GEO-09/figures/GEO-09_redraw.png",
+   "bullets": [
+    "1,182 papers on 6 infectious diseases, 1980-2016",
+    "African last author: 41.3%",
+    "Coral-reef papers in Indonesia and the Philippines: about 40% had no local author",
+    "Papers from peripheral countries are under-cited, and the gap is growing"
+   ],
+   "refs": [
+    [
+     "Mbaye et al. (2019) BMJ Global Health",
+     "GEO-09"
+    ],
+    [
+     "Stefanoudis et al. (2021) Current Biology",
+     "GEO-08"
+    ],
+    [
+     "Gomez, Herman & Parigi (2022) Nature Human Behaviour",
+     "GEO-01"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o63_apc",
+   "kind": "fig",
+   "title": "Open-access fees push out low-income authors",
+   "image": "other-biases-data/06-geography/GEO-06/figures/GEO-06_redraw.png",
+   "bullets": [
+    "Elsevier mirror journals: 0.5% of APC articles had low-income first authors, vs 2.4% in subscription versions",
+    "One APC can cost about 3 months of a Ukrainian professor's salary",
+    "Visas: 4 of 10 invited speakers from low-income countries got EU visas"
+   ],
+   "refs": [
+    [
+     "Smith et al. (2022) Quantitative Science Studies",
+     "GEO-06"
+    ],
+    [
+     "Ross-Hellauer (2022) Nature",
+     "GEO-07"
+    ],
+    [
+     "Owusu-Gyamfi (2024) Nature",
+     "GEO-10"
+    ]
+   ],
+   "note": ""
+  },
+  {
+   "id": "o70_sec",
+   "kind": "section",
+   "title": "7. Precarity, age and career stage",
+   "sub": "Fewer posts, later hiring, more contracts"
+  },
+  {
+   "id": "o71_posts",
+   "kind": "fig",
+   "title": "French universities published 21% fewer MCF posts in 2024 than in 2008",
+   "image": "other-biases-data/07-precarity/PREC-03/figures/PREC-03_redraw.png",
+   "bullets": [
+    "MCF posts: **2,060** (2008) → **1,628** (2024); PR posts 1,331 → 848",
+    "Candidates per MCF post: 4.7 (2008), peak 7.7 (2021), 5.0 (2024)",
+    "Authorised posts: 3,613 (2011) → 2,542 (2024)"
+   ],
+   "refs": [
+    [
+     "MESR-DGRH campaign notes 2008-2025",
+     "PREC-03"
+    ],
+    [
+     "MESR-DGRH Note n°7-2022 (2021 campaign)",
+     "PREC-04"
+    ],
+    [
+     "SNESUP dossier n°734 (2025)",
+     "PREC-02"
+    ]
+   ]
+  },
+  {
+   "id": "o72_contracts",
+   "kind": "fig",
+   "title": "A quarter of French university teachers are on fixed-term contracts",
+   "image": "other-biases-data/07-precarity/PREC-01/figures/PREC-01_redraw.png",
+   "bullets": [
+    "2024: **21,080** contract teachers vs 61,879 tenured",
+    "Excludes about 164,500 hourly lecturers (vacataires)",
+    "One deputy's worked example: €8.37 per hour actually worked for a vacataire",
+    "81% of first-year doctoral students are funded; 53% in humanities"
+   ],
+   "refs": [
+    [
+     "MESR-DGRH Note n°6-2025",
+     "PREC-01"
+    ],
+    [
+     "Assemblée nationale question n°1155 (2025)",
+     "PREC-09"
+    ],
+    [
+     "MESR-SIES Note Flash n°14 (2025)",
+     "PREC-08"
+    ]
+   ]
+  },
+  {
+   "id": "o73_age",
+   "kind": "fig",
+   "title": "New MCF are hired at 35, and 42% come straight from a postdoc",
+   "image": "other-biases-data/07-precarity/PREC-05/figures/PREC-05_redraw.png",
+   "bullets": [
+    "Sciences and technology: **67%** were postdocs just before hiring",
+    "CNRS: researchers recruited at 34.4 on average (2020)",
+    "CNRS contract staff on own funds: 23% (2013) → 29% (2023)",
+    "US cancer research: age at first R01 grant 36.2 (1990) → 44.9 (2016)"
+   ],
+   "refs": [
+    [
+     "MESR-DGRH Note n°3-2025",
+     "PREC-05"
+    ],
+    [
+     "Cour des comptes, CNRS 2013-2023",
+     "PREC-07"
+    ],
+    [
+     "Antman et al. (2021) JCI",
+     "PREC-13"
+    ]
+   ]
+  },
+  {
+   "id": "o74_leave",
+   "kind": "fig",
+   "title": "Half of a 2010s cohort of scientists left within 5 years, vs 35 years in the 1960s",
+   "image": "other-biases-data/07-precarity/PREC-11/figures/PREC-11_redraw.png",
+   "bullets": [
+    "Astronomy, ecology and robotics publication careers",
+    "US postdocs: **17%** eventually land a tenure-track job",
+    "51% of postdocs have considered leaving science over mental health (2020 survey)"
+   ],
+   "refs": [
+    [
+     "Milojević, Radicchi & Walsh (2018) PNAS",
+     "PREC-11"
+    ],
+    [
+     "Andalib, Ghaffarzadegan & Larson (2018) Syst Res Behav Sci",
+     "PREC-12"
+    ],
+    [
+     "Nature postdoc survey (2020)",
+     "PREC-14"
+    ]
+   ]
+  },
+  {
+   "id": "o80_sec",
+   "kind": "section",
+   "title": "8. Disability and LGBTQ+",
+   "sub": "Employment quotas, harassment and leaving"
+  },
+  {
+   "id": "o81_disability",
+   "kind": "fig",
+   "title": "French research institutions employ fewer disabled staff than the 6% legal quota",
+   "image": "other-biases-data/08-disability/DIS-01/figures/DIS-01_redraw.png",
+   "bullets": [
+    "Higher education and research: **4.49%** (union figure; no official national rate online)",
+    "Inserm: 6.12% (2020)",
+    "NIH applicants reporting a disability: 1.9% (2008) → 1.2% (2018)",
+    "US: disabled people are 11% of science and engineering PhDs but 3% of the workforce (two surveys)"
+   ],
+   "refs": [
+    [
+     "SNESUP Métier n°743 (2026)",
+     "DIS-01"
+    ],
+    [
+     "Inserm disability plan",
+     "DIS-03"
+    ],
+    [
+     "Swenor, Munoz & Meeks (2020) PLoS ONE",
+     "DIS-10"
+    ],
+    [
+     "NCSES Diversity and STEM (2023)",
+     "DIS-11"
+    ]
+   ]
+  },
+  {
+   "id": "o82_lgbt",
+   "kind": "fig",
+   "title": "A third of trans and non-binary students have faced sexual violence in French higher education",
+   "image": "other-biases-data/08-disability/DIS-07/figures/DIS-07_redraw.png",
+   "bullets": [
+    "**33%** vs 24% of women and 9% of men",
+    "13.8% of LGBTQ+ university staff report LGBT-phobic treatment",
+    "US STEM: 22% of LGBTQ professionals thought about leaving vs 15%",
+    "UK physical sciences: 28% of LGBT+ scientists considered leaving"
+   ],
+   "refs": [
+    [
+     "MESR guide on LGBTI-phobia (2026)",
+     "DIS-07"
+    ],
+    [
+     "ACADISCRI (2022)",
+     "DIS-04"
+    ],
+    [
+     "Cech & Waidzunas (2021) Science Advances",
+     "DIS-08"
+    ],
+    [
+     "IOP, RAS & RSC (2019)",
+     "DIS-09"
+    ]
+   ]
+  }
+ ]
+}

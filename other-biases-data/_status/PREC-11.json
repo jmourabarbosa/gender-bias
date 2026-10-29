@@ -1,0 +1,17 @@
+{
+ "id": "PREC-11",
+ "title": "Changing demographics of scientific careers: The rise of the temporary workforce",
+ "url_used": "https://re.public.polimi.it/bitstream/11311/1313878/1/milojevic%cc%81-et-al-2018-changing-demographics-of-scientific-careers-the-rise-of-the-temporary-workforce.pdf (via Unpaywall; Politecnico di Milano repository)",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-11/data/PREC-11.csv",
+  "other-biases-data/07-precarity/PREC-11/page.html",
+  "other-biases-data/07-precarity/PREC-11/source.pdf",
+  "other-biases-data/07-precarity/PREC-11/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-11/figures/PREC-11_fig1.png",
+  "other-biases-data/07-precarity/PREC-11/figures/PREC-11_redraw.png"
+ ],
+ "notes": "Key \"Half leave within ~5 years\": MATCH"
+}

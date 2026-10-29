@@ -1,0 +1,27 @@
+{
+ "id": "DIS-08",
+ "title": "Intersecting systems of disadvantage: LGBTQ STEM professionals",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7810386 (first pass)",
+ "file_paths": [
+  "other-biases-data/08-disability/DIS-08/article.json",
+  "other-biases-data/08-disability/DIS-08/article.xml",
+  "other-biases-data/08-disability/DIS-08/data/DIS-08.csv",
+  "other-biases-data/08-disability/DIS-08/source.pdf",
+  "other-biases-data/08-disability/DIS-08/supplementary/abe0933_SM.pdf",
+  "other-biases-data/08-disability/DIS-08/supplementary/supp_7_3_eabe0933__1.pdf",
+  "other-biases-data/08-disability/DIS-08/supplementary/supp_7_3_eabe0933__index.html",
+  "other-biases-data/08-disability/DIS-08/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/08-disability/DIS-08/figures/DIS-08_fig1.png",
+  "other-biases-data/08-disability/DIS-08/figures/DIS-08_redraw.png",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F1.jpg",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F2.jpg",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F3.jpg",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F4.jpg",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F5.jpg",
+  "other-biases-data/08-disability/DIS-08/figures/abe0933-F6.jpg"
+ ],
+ "notes": "Key \"22% vs 15% considered leaving\": MATCH"
+}

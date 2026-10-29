@@ -1,0 +1,16 @@
+{
+ "id": "PREC-14",
+ "title": "Postdocs in crisis: science cannot risk losing the next generation (Nature editorial) + survey feature",
+ "url_used": "https://www.nature.com/articles/d41586-020-02541-9",
+ "file_paths": [
+  "other-biases-data/07-precarity/PREC-14/data/PREC-14.csv",
+  "other-biases-data/07-precarity/PREC-14/page.html",
+  "other-biases-data/07-precarity/PREC-14/page_survey-feature_d41586-020-02548-2.html",
+  "other-biases-data/07-precarity/PREC-14/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/07-precarity/PREC-14/figures/PREC-14_redraw.png"
+ ],
+ "notes": "Key \"51% considered leaving over mental health\": MATCH"
+}
