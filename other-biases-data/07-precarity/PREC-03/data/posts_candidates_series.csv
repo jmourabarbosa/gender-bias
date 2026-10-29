@@ -1,0 +1,19 @@
+year,mcf_posts,pr_posts,total_posts_published,posts_authorised,mcf_candidates,candidates_per_mcf_post,ratio_status,ratio_basis_note,source
+2008,2060,1331,3391,,9644,4.68,derived,"candidates back-computed from year-on-year changes in recevable MCF candidates (bilan 2011 p7 / bilan 2013 p12); ratio = candidates / MCF posts published",series/campagne2013_bilrec13.pdf p10 (posts chart labels) + p12
+2009,1977,1154,3131,,9430,4.77,derived,same as 2008,series/campagne2013_bilrec13.pdf p10 + p12
+2010,1797,1047,2844,3613,9124,5.08,official,"official ratio stated in bilan 2011 p7 (candidates derived; 9124/1797=5.08 matches)",series/campagne2011_bilan.pdf p6-7; campagne2013_bilrec13.pdf p10
+2011,1707,1085,2792,3613,9427,5.52,official,recevable MCF candidates (synchronised session) per MCF post,series/campagne2011_bilan.pdf p6-7
+2012,1732,1120,2852,3561,9584,5.53,official,"ratio stated in bilan 2013 p13; candidates derived (+157 vs 2011)",series/campagne2013_bilrec13.pdf p10-13
+2013,1499,863,2362,3067,9472,6.32,official,"authorised = 3561-494 (bilan 2013 p11)",series/campagne2013_bilrec13.pdf p10-13 & p57
+2014,1444,914,2358,2846,9220,7.14,official,"ratio stated by DGRH on posts 'ouverts' of the synchronised session (9220/1444=6.39 on all published posts); PR posts = 2358-1444; authorised read from vector chart of Note n°2-2025 fig.1",series/campagne2014_bilan.pdf p12-13; campagne2015_note-dgrh-n5-2016.pdf p1
+2015,1299,877,2176,2520,9023,7.8,official,"ratio on the 1150 MCF posts of the synchronised session (9023/1299=6.95 on all published)",series/campagne2015_note-dgrh-n5-2016.pdf p1-2
+2016,1328,881,2209,2403,9507,7.2,official,all published MCF posts,series/campagne2016_note-dgrh-n6-2017.pdf p1-2
+2017,1254,795,2049,2204,9034,7.2,official,all published MCF posts,series/campagne2017_note-dgrh-n6-2018.pdf p1-2
+2018,1189,661,1850,1986,8536,7.2,official,ratio on 1183 MCF posts (excl. art. 29),series/campagne2018_note-dgrh-n7-2019.pdf p1-2
+2019,1070,661,1731,1898,,,missing,"campaign note PDF (Note d'information DGRH 20-06) not found as a downloadable file; posts/authorised from Note n°2-2025 fig.1 (vector) and the 2020 note; ministry page says ~44,000 candidatures",PREC-03/source.pdf fig.1; series/campagne2020_note-dgrh-n7-2021_univ-lorraine-copy.pdf p1
+2020,1155,680,1835,1971,8508,7.4,official,all published MCF posts,series/campagne2020_note-dgrh-n7-2021_univ-lorraine-copy.pdf p1-2
+2021,1106,706,1812,1935,8504,7.7,official,all published MCF posts,PREC-04/source.pdf p1-2
+2022,1351,747,2098,2199,,6.1,provisional,"final 2022 note (DGRH 23-06) not downloadable; ratio from bilan provisoire 4 July 2022 (1337 MCF posts at that date); authorised read from vector chart of Note n°2-2025 fig.1",series/bilan-provisoire-2022.pdf p5; PREC-03/source.pdf p1
+2023,1567,713,2280,2378,8110,5.2,official,"table fig.2 p2 gives 5.2 (text rounds to 5)",PREC-03/source.pdf p1-2
+2024,1628,848,2476,2542,8184,5.03,official,"note text rounds to 5 (8184/1628=5.03)",series/campagne2024_note-dgrh-n1-2026.pdf p1-2
+2025,1422,671,2093,2345,,5.9,provisional,provisional at 29 July 2025 (posts published so far),series/bilan-provisoire-2025.pdf p2 & p5

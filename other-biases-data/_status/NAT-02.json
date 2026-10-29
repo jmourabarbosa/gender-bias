@@ -1,0 +1,16 @@
+{
+ "id": "NAT-02",
+ "title": "MESR-DGRH Note n°2-2026 (= LOC-01): foreign share of EC recruits",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-09/Note%20DGRH%20n%C2%B02%20-%202026%20-%20Trajectoire%20professionnelle%20des%20enseignants-chercheurs%20recrut%C3%A9s%20en%202024.pdf",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-01/source.pdf",
+  "other-biases-data/04-nationality/NAT-02/data/NAT-02.csv",
+  "other-biases-data/04-nationality/NAT-02/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-02/figures/NAT-02_fig1.png",
+  "other-biases-data/04-nationality/NAT-02/figures/NAT-02_redraw.png"
+ ],
+ "notes": "Cross-ref LOC-01 (PDF there); MCF 23.5% vs PR 7.9% foreign in 2024 (graph 6 p.4): MATCH; 2021-23 digitised from vector chart"
+}

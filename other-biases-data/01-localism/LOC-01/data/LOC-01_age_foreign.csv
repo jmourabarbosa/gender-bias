@@ -1,0 +1,15 @@
+indicator,corps,discipline_or_year,value,page
+mean_age_at_hiring,MCF,Droit-Économie-Gestion,35,fig5 p3
+mean_age_at_hiring,MCF,Lettres-Sciences humaines,37,fig5 p3
+mean_age_at_hiring,MCF,Sciences-Techniques,33,fig5 p3
+mean_age_at_hiring,MCF,Toutes disciplines,35,fig5 p3
+mean_age_at_hiring,PR,Droit-Économie-Gestion,42,fig5 p3
+mean_age_at_hiring,PR,Lettres-Sciences humaines,50,fig5 p3
+mean_age_at_hiring,PR,Sciences-Techniques,46,fig5 p3
+mean_age_at_hiring,PR,Toutes disciplines,47,fig5 p3
+foreign_pct,MCF,2020,17.5,fig6 p4
+foreign_pct,MCF,2024,23.5,fig6 p4
+foreign_pct,PR,2020,10.0,fig6 p4
+foreign_pct,PR,2024,7.9,fig6 p4
+foreign_pct,PR not previously MCF,2020,39.6,fig6 p4
+foreign_pct,PR not previously MCF,2024,30.9,fig6 p4

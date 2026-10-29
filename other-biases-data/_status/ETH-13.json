@@ -1,0 +1,17 @@
+{
+ "id": "ETH-13",
+ "title": "NCES Fast Facts: Race/ethnicity of college faculty (fall 2022) + Digest Table 315.20",
+ "url_used": "https://nces.ed.gov/FastFacts/display.asp?id=61",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-13/data/ETH-13.csv",
+  "other-biases-data/03-ethnic/ETH-13/dt23_315.20.html",
+  "other-biases-data/03-ethnic/ETH-13/dt23_315.20.xlsx",
+  "other-biases-data/03-ethnic/ETH-13/notes.md",
+  "other-biases-data/03-ethnic/ETH-13/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-13/figures/ETH-13_redraw.png"
+ ],
+ "notes": "FT faculty fall 2022: 72% White, 7% Black, 6% Hispanic: MATCH; Table 315.20 xlsx; full professors Black 4.3%; population comparison not added (Census API needs key)"
+}

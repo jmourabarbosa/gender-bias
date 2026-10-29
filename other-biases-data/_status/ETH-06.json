@@ -1,0 +1,20 @@
+{
+ "id": "ETH-06",
+ "title": "TeO2: près d'une personne sur cinq déclare avoir été discriminée (Observatoire des inégalités 2023; Insee Première 1911)",
+ "url_used": "https://www.insee.fr/fr/statistiques/fichier/version-html/6473349/ip1911.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-06/data/ETH-06.csv",
+  "other-biases-data/03-ethnic/ETH-06/data/ETH-06_redraw.csv",
+  "other-biases-data/03-ethnic/ETH-06/insee_ip1911.pdf",
+  "other-biases-data/03-ethnic/ETH-06/insee_ip1911.xlsx",
+  "other-biases-data/03-ethnic/ETH-06/insee_ip1911_page.html",
+  "other-biases-data/03-ethnic/ETH-06/notes.md",
+  "other-biases-data/03-ethnic/ETH-06/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-06/figures/ETH-06_fig1.png",
+  "other-biases-data/03-ethnic/ETH-06/figures/ETH-06_redraw.png"
+ ],
+ "notes": "Relay page + primary Insee Première 1911 (corrected 2023) + xlsx; 42%/37% (descendants of sub-Saharan/Maghreb immigrants) vs 15%: MATCH (Fig.1 p.1); INED P&S not retrieved (ined.fr 503)"
+}

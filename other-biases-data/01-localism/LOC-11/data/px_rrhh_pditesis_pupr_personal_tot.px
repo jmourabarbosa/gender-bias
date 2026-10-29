@@ -1,0 +1,28 @@
+AXIS-VERSION="2006";
+CREATION-DATE="20260622";
+CHARSET="ANSI";
+SUBJECT-AREA="Resultados nacionales";
+SUBJECT-CODE="PDITESIS";
+MATRIX="PX_BASE";
+TITLE="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia";
+CONTENTS="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia";
+CODEPAGE="iso-8859-15";
+DESCRIPTION="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia";
+COPYRIGHT=YES;
+NOTE="1) (.) Dato omitido por falta de representatividad o para preservar el secret"
+"o estadístico#(..) No existe la desagregación o dato no disponible.#Se calcul"
+"a para universidades presenciales.";
+DECIMALS=2;
+SHOWDECIMALS=2;
+STUB="Tipo de personal";
+HEADING="Indicador","Periodo";
+VALUES("Tipo de personal")="Total","Funcionarios","Contratados";
+VALUES("Indicador")="% PDI que lee la tesis en la universidad en la que es docente",
+"% PDI que lee la tesis en la CCAA en la que es docente";
+VALUES("Periodo")="2015-2016","2016-2017","2017-2018","2018-2019","2019-2020","2020-2021","2021-2022",
+"2022-2023","2023-2024","2024-2025";
+PRECISION("Indicador","% PDI que lee la tesis en la CCAA en la que es docente")=2;
+SOURCE="Sistema Integrado de Información Universitaria (SIIU)";
+UNITS="Porcentaje";
+DATA=74.02 74.57 74.69 74.84 74.55 74.25 74.29 74.19 74.08 73.67 87.25 87.71 87.81 87.86 87.68 87.38 87.27 87.09 86.97 86.81 73.18 73.65 74.26 74.92 75.05 75.06 75.45 75.39 75.33 75.2 86.72 87.28 87.6 87.81 87.73 87.61 87.56 87.53 87.33 87.21 75.05 75.53 75.13 74.75 74.06 73.44 73.17 73.03 72.9 72.3
+ 87.9 88.16 88.03 87.9 87.63 87.17 87.0 86.67 86.63 86.44;

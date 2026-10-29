@@ -1,0 +1,25 @@
+discipline,recrutes_locaux,recrutes_locaux_attendus,candidatures_locales,recrutes_exterieurs,candidatures_exterieures,part_locaux_parmi_recrutes_pct,mantel_haenszel_odds_ratio
+Philosophie,42,15.1,1215,63,8199,40.0,6.04
+Ethnologie ; Sciences des religions,37,13.0,492,27,2512,57.81,7.08
+Littérature,63,13.7,1960,192,37952,24.71,7.74
+Sociologie,45,9.9,1101,77,15347,36.89,7.9
+Art et archéologie ; Cinéma ; Théâtre ; Musicologie,48,12.6,844,56,7351,46.15,8.42
+Linguistique,82,14.8,1429,125,21455,39.61,9.18
+Études langues et civilisations,147,31.7,3661,310,68141,32.17,9.61
+Histoire,102,19.7,2406,178,40315,36.43,10.66
+Sciences de l'éducation,24,5.3,306,21,2699,53.33,12.6
+Psychologie,119,20.3,1533,105,21211,53.13,13.32
+Biologie,986,149.1,15220,822,381988,54.54,14.77
+Physique,733,112.1,9683,516,246366,58.69,17.21
+Mathématiques,186,31.9,2148,137,29106,57.59,17.32
+Ensemble,4549,653.6,72257,3780,1546186,54.62,18.02
+"Terre, Océan, Géologie",213,29.3,3433,186,59804,53.38,18.13
+Géographie,96,10.7,1218,101,23617,48.73,19.98
+Gestion,68,15.5,851,28,6420,70.83,20.91
+Sciences médicales,87,10.3,1216,41,15453,67.97,26.64
+Science politique,32,4.4,248,13,2689,71.11,32.37
+Informatique,255,30.0,3002,133,54817,65.72,34.37
+Droit,191,15.5,3369,160,79056,54.42,37.04
+Économie,181,18.0,3255,95,58691,65.58,38.4
+Chimie,286,27.2,3846,103,70703,73.52,40.47
+Sciences de l'ingénieur,513,40.4,9697,287,291586,64.13,51.15

@@ -1,0 +1,15 @@
+{
+ "id": "GEO-08",
+ "title": "Turning the tide of parachute science",
+ "url_used": "https://researchonline.jcu.edu.au/66906/1/66906.pdf (JCU repository, first pass)",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-08/page.html",
+  "other-biases-data/06-geography/GEO-08/source.pdf",
+  "other-biases-data/06-geography/GEO-08/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-08/figures/GEO-08_fig1.png"
+ ],
+ "notes": "MATCHES (~40%, for Indonesia and the Philippines specifically). PDF p.1: 'approximately 40% of publications with fieldwork conducted in Indonesia or Philippines had no host nation scientist included, whereas the respective figure for Australia was half'."
+}

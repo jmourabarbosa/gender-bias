@@ -1,0 +1,18 @@
+{
+ "id": "GEO-03",
+ "title": "Explicit Bias Toward High-Income-Country Research: A Randomized, Blinded, Crossover Experiment Of English Clinicians",
+ "url_used": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/74c1c6fe-82f7-451b-b6eb-a776ec80d106/content",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-03/data/GEO-03.csv",
+  "other-biases-data/06-geography/GEO-03/page.html",
+  "other-biases-data/06-geography/GEO-03/source.pdf",
+  "other-biases-data/06-geography/GEO-03/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-03/figures/GEO-03_fig1.png",
+  "other-biases-data/06-geography/GEO-03/figures/GEO-03_fig2.png",
+  "other-biases-data/06-geography/GEO-03/figures/GEO-03_redraw.png"
+ ],
+ "notes": "MATCHES (up to 25%; note it is relevance more than recommendation: largest gaps 8.09/34.4 = 23.5% relevance, 5.50/33.6 = 16.4% recommendation, abstract 3). PDF p.18: 'The change in rating was up to 25% of the mean score for the abstract, in some instances.' Abstract (p.3): HIC source raised relevance by 4.50 (3.16-5.83) and recommendation to a peer by 3.05 (1.77-4.33) points on 0-100; strength n.s. (1.35, p=0.053)."
+}

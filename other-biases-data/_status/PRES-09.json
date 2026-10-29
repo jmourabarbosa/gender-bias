@@ -1,0 +1,15 @@
+{
+ "id": "PRES-09",
+ "title": "Résultats de l'appel ERC Starting Grants 2024",
+ "url_used": "https://www.horizon-europe.gouv.fr/resultats-de-l-appel-erc-starting-grants-2024-37575",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-09/data/PRES-09_erc_stg2024_france_hosts.csv",
+  "other-biases-data/05-prestige/PRES-09/page.html",
+  "other-biases-data/05-prestige/PRES-09/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-09/figures/PRES-09_redraw.png"
+ ],
+ "notes": "MATCHES (49 winners, 25 at CNRS). page.html: '49 lauréats (soit 9,9% des projets financés), la France se classe 4e'; 'la principale institution d'accueil ... est le CNRS (25). Viennent ensuite l'INRIA (3), l'Inserm (2) et l'Ecole Polytechnique (2). Les 17 autres établissements hébergeant chacun un projet'. 253 French proposals, success rate 19.4% (EU 14.2%)."
+}

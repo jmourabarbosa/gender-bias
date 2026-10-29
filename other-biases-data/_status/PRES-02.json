@@ -1,0 +1,16 @@
+{
+ "id": "PRES-02",
+ "title": "Reviewer bias in single- versus double-blind peer review",
+ "url_used": "https://arxiv.org/pdf/1702.00502",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-02/data/PRES-02.csv",
+  "other-biases-data/05-prestige/PRES-02/source.pdf",
+  "other-biases-data/05-prestige/PRES-02/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-02/figures/PRES-02_fig1.png",
+  "other-biases-data/05-prestige/PRES-02/figures/PRES-02_redraw.png"
+ ],
+ "notes": "MATCHES (OR 1.63). Table 5 (PDF p.7) / abstract: single-blind reviewers' odds multiplier 1.63 for famous authors, 1.58 top universities, 2.10 top companies."
+}

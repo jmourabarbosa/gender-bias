@@ -1,0 +1,33 @@
+table,group,category,value,unit,source_page
+prev_activity_2023,Droit-Economie-Gestion,Post-doctorant,21,pct,LOC-02 source.pdf p2 fig3
+prev_activity_2023,Droit-Economie-Gestion,ATER non fonctionnaire,21,pct,p2 fig3
+prev_activity_2023,Droit-Economie-Gestion,Autre enseignant contractuel,38,pct,p2 fig3
+prev_activity_2023,Droit-Economie-Gestion,Enseignant titulaire (hors ATER),4,pct,p2 fig3
+prev_activity_2023,Droit-Economie-Gestion,Sans emploi,16,pct,p2 fig3
+prev_activity_2023,Lettres-Sciences humaines,Post-doctorant,24,pct,p2 fig3
+prev_activity_2023,Lettres-Sciences humaines,ATER non fonctionnaire,13,pct,p2 fig3
+prev_activity_2023,Lettres-Sciences humaines,Autre enseignant contractuel,34,pct,p2 fig3
+prev_activity_2023,Lettres-Sciences humaines,Enseignant titulaire (hors ATER),26,pct,p2 fig3
+prev_activity_2023,Lettres-Sciences humaines,Sans emploi,3,pct,p2 fig3
+prev_activity_2023,Sciences-Techniques,Post-doctorant,67,pct,p2 fig3
+prev_activity_2023,Sciences-Techniques,ATER non fonctionnaire,10,pct,p2 fig3
+prev_activity_2023,Sciences-Techniques,Autre enseignant contractuel,17,pct,p2 fig3
+prev_activity_2023,Sciences-Techniques,Enseignant titulaire (hors ATER),3,pct,p2 fig3
+prev_activity_2023,Sciences-Techniques,Sans emploi,3,pct,p2 fig3
+prev_activity_2023,Total,Post-doctorant,42,pct,p1 text + p2 fig3
+prev_activity_2023,Total,ATER non fonctionnaire,13,pct,p1 text + p2 fig3
+prev_activity_2023,Total,Autre enseignant contractuel,27,pct,p2 fig3
+prev_activity_2023,Total,Enseignant titulaire (hors ATER),13,pct,p2 fig3
+prev_activity_2023,Total,Sans emploi,5,pct,p2 fig3
+prev_activity_2005_vs_2023,Total,ATER non fonctionnaire 2005,37,pct,p1 text (vs 13% in 2023)
+prev_activity_2005_vs_2023,Total,Post-doctorant 2005 (read from fig2 curve; approximate),24,pct,p2 fig2
+age_at_hiring_2023,MCF,Droit-Eco-Gestion,34,years,p3 fig5
+age_at_hiring_2023,MCF,Lettres-SH,38,years,p3 fig5
+age_at_hiring_2023,MCF,Sciences-Tech,33,years,p3 fig5
+age_at_hiring_2023,MCF,All disciplines,35,years,p3 fig5
+age_at_hiring_2023,PR,Droit-Eco-Gestion,45,years,p3 fig5
+age_at_hiring_2023,PR,Lettres-SH,49,years,p3 fig5
+age_at_hiring_2023,PR,Sciences-Tech,46,years,p3 fig5
+age_at_hiring_2023,PR,All disciplines,47,years,p3 fig5
+age_at_hiring_trend,MCF,~2013 (text: 'il y a une dizaine d annees'),33,years,p2 text
+age_at_hiring_trend,PR,~2013,45,years,p3 text

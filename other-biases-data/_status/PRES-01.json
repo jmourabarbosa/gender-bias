@@ -1,0 +1,20 @@
+{
+ "id": "PRES-01",
+ "title": "Nobel and novice: Author prominence affects peer review",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9564227 (PMC OA bucket, first pass)",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-01/article.json",
+  "other-biases-data/05-prestige/PRES-01/article.xml",
+  "other-biases-data/05-prestige/PRES-01/data/PRES-01.csv",
+  "other-biases-data/05-prestige/PRES-01/page.html",
+  "other-biases-data/05-prestige/PRES-01/source.pdf",
+  "other-biases-data/05-prestige/PRES-01/supplementary/pnas.2205779119.sapp.pdf",
+  "other-biases-data/05-prestige/PRES-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-01/figures/PRES-01_fig1.jpg",
+  "other-biases-data/05-prestige/PRES-01/figures/PRES-01_redraw.png"
+ ],
+ "notes": "MATCHES (23% vs 65%). Abstract (PDF p.1): 'only 23% recommended reject when the prominent researcher was the only author shown, 48% ... anonymized, and 65% ... little-known author'. Fig. 1 labels: reject 22.5% (AH) / 48.2% (AA) / 65.4% (AL)."
+}

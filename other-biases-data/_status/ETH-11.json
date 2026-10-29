@@ -1,0 +1,16 @@
+{
+ "id": "ETH-11",
+ "title": "Racial inequity in grant funding from the US NIH (Taffe & Gilpin 2021, eLife)",
+ "url_used": "https://cdn.elifesciences.org/articles/65697/elife-65697-v2.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-11/article.json",
+  "other-biases-data/03-ethnic/ETH-11/data/ETH-11.csv",
+  "other-biases-data/03-ethnic/ETH-11/notes.md",
+  "other-biases-data/03-ethnic/ETH-11/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-11/figures/ETH-11_redraw.png"
+ ],
+ "notes": "1.7-fold white/Black success ratio in FY2000-06 (29.3 vs 17.1) and FY2011-15 (17.7 vs 10.7), Box 1 p.5: MATCH; feature article has no figures, redraw only"
+}

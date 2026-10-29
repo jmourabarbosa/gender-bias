@@ -1,0 +1,18 @@
+{
+ "id": "GEO-06",
+ "title": "Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier's 'Mirror Journal' system",
+ "url_used": "https://osf.io/s7cx4/download",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-06/data/GEO-06.csv",
+  "other-biases-data/06-geography/GEO-06/page.html",
+  "other-biases-data/06-geography/GEO-06/source.pdf",
+  "other-biases-data/06-geography/GEO-06/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-06/figures/GEO-06_fig3.png",
+  "other-biases-data/06-geography/GEO-06/figures/GEO-06_redraw.png",
+  "other-biases-data/06-geography/GEO-06/figures/GEO-06_table5.png"
+ ],
+ "notes": "MATCHES (zero OA Mirror articles from low-income authors) - but see inconsistency note. Abstract (preprint p.3): 'Author Geographic Diversity of OA articles was significantly lower than that of non-OA articles. Most OA articles were written by authors in high-income countries, and there were no articles in Mirror journals by authors in low-income countries.' p.13: none of 975 Mirror articles and 0.15% of Parent articles had lead authors in low-income countries."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "ETH-14",
+ "title": "HESA Higher Education Staff Statistics UK 2022/23 (SB267)",
+ "url_used": "https://wonkhe.com/wonk-corner/hesa-spring-2024-staff-in-outline/",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-14/data/ETH-14.csv",
+  "other-biases-data/03-ethnic/ETH-14/notes.md",
+  "other-biases-data/03-ethnic/ETH-14/page_wonkhe.html"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-14/figures/ETH-14_redraw.png"
+ ],
+ "notes": "HESA (and Advance HE) behind Cloudflare challenge; secondary Wonkhe summary saved: Black = 0.86% of professors (210), 3.03% of academics: MATCH (~1%)"
+}

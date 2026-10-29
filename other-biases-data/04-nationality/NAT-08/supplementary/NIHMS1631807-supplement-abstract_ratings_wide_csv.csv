@@ -1,0 +1,103 @@
+,A1_bad_List1,A2_good_List1,A3_bad_List1,A4_good_List1,A1_good_List2,A2_good_List2,A3_good_List2,A4_good_List2,Race/ethnicity,Sex,Additional_languages,L1_English?,Position,Duties,Additional_duties,"Approximately what percentage of people at your institution (e.g. classmates, colleagues, professors, staff, students) speak: - Your first language or one of your first languages","Approximately what percentage of people at your institution (e.g. classmates, colleagues, professors, staff, students) speak: - The additional language you are the most proficient in",Approximately what percentage of people in your discipline speak: - Your first language or one of your first languages,Approximately what percentage of people in your discipline speak: - The additional language you are the most proficient in,Approximately how often do you communicate with others in your academic environment who speak: - A different first language from you,Are you an editor or a reviewer for an academic journal published in English?,Select the option that best describes your role as a reviewer.
+participant1,,,,,1,3,2,2,"Other: Earthling, Mixed US Urban",Female,3,TRUE,Professor or lecturer ,Teaching only ,,67% - 100%,1% - 33%,34% - 66%,1% - 33%,Never,No,
+participant2,5,4,2,5,,,,,Other: Multiracial,Female,0,TRUE,Professor or lecturer ,Research only ,,67% - 100%,Not applicable,67% - 100%,Not applicable,Weekly,Yes,Ad hoc reviewer
+participant3,3,3,2,2,,,,,White ,Female,1,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,Yes,Guest editor
+participant4,,,,,3,3,3,4,White ,Male,1,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,Yes,Ad hoc reviewer
+participant5,,,,,3,2,2,4,White ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,34% - 66%,Weekly,Yes,Ad hoc reviewer
+participant6,,,,,4,3,3,3,White ,Male,5,TRUE,Post-doctoral researcher , ,,34% - 66%,67% - 100%,67% - 100%,1% - 33%,Daily,Yes,Ad hoc reviewer
+participant7,3,2,,,,,,,White ,Female,0,TRUE,"Professor or lecturer,Practitioner (e.g. SLP, AuD, teacher, etc.) ",Other: Clinical service - audiology,,67% - 100%,Not applicable,67% - 100%,Not applicable,Daily,Yes,Ad hoc reviewer
+participant8,3,,,,,,,,White ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,1% - 33%,Monthly,Yes,Guest editor
+participant9,,,,,4,4,4,4,White ,Female,3,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,67% - 100%,34% - 66%,Daily,Yes,Ad hoc reviewer
+participant10,3,4,3,4,,,,,"American Indian, Eskimo, Aleut ",Female,1,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,Yes,Ad hoc reviewer
+participant11,,,,,4,3,3,4,White ,Female,1,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,34% - 66%,34% - 66%,Daily,No,
+participant12,,,,,,,,, ,,,, , ,,,,,,,,
+participant13,,,,,4,3,3,3,White ,Female,1,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,34% - 66%,1% - 33%,Monthly,Yes,Ad hoc reviewer
+participant14,,,,,4,3,3,3,White ,Female,1,TRUE,Other: Assoc Dean of Academic Affairs, ,,67% - 100%,1% - 33%,67% - 100%,34% - 66%,Daily,Yes,Associate editor or above
+participant15,4,3,2,4,,,,,White ,Female,5,TRUE,Professor or lecturer ,Research plus teaching ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant16,,,,,4,3,3,4,White ,Male,1,TRUE,Other: , ,,67% - 100%,1% - 33%,67% - 100%,34% - 66%,2-3 times per week,Yes,Ad hoc reviewer
+participant17,,,,,4,3,4,3,White ,Male,3,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,34% - 66%,Daily,Yes,Ad hoc reviewer
+participant18,3,2,4,3,,,,,White ,Male,1,TRUE,"Professor or lecturer,Student ",Research plus teaching ,"Teaching assistant, graduate teaching assistant, lecturer or equivalent,Research assistant, graduate research assistant, or equivalent",1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant19,4,2,3,4,,,,,White ,Female,3,TRUE,Post-doctoral researcher , ,,67% - 100%,0%,34% - 66%,1% - 33%,Daily,Yes,Associate editor or above
+participant20,3,2,2,3,,,,,White ,Female,3,TRUE,Post-doctoral researcher , ,,67% - 100%,67% - 100%,1% - 33%,67% - 100%,Weekly,Yes,Ad hoc reviewer
+participant21,,,,,3,4,3,3,White ,Male,2,TRUE,Student , ,"Research assistant, graduate research assistant, or equivalent",1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant22,4,3,2,3,,,,,White ,Female,4,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant23,,,,,4,3,2,2,White ,Female,1,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,1% - 33%,Weekly,Yes,Ad hoc reviewer
+participant24,3,4,4,4,,,,,White ,Male,2,TRUE,Student , ,"Teaching assistant, graduate teaching assistant, lecturer or equivalent,Research assistant, graduate research assistant, or equivalent",67% - 100%,34% - 66%,67% - 100%,34% - 66%,Monthly,No,
+participant25,4,4,4,5,,,,,White ,Female,1,TRUE,"Practitioner (e.g. SLP, AuD, teacher, etc.) ", ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,No,
+participant26,,,,,,,,,White ,Male,0,TRUE,Professor or lecturer ,Research plus teaching ,,34% - 66%,1% - 33%,67% - 100%,1% - 33%,Daily,,
+participant27,,,,,4,3,4,4,White ,Male,3,TRUE,Post-doctoral researcher , ,,67% - 100%,67% - 100%,34% - 66%,67% - 100%,Daily,No,
+participant28,3,3,2,4,,,,,White ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Monthly,Yes,Ad hoc reviewer
+participant29,3,2,1,3,,,,,Asian or Pacific Islander ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,2-3 times per week,Yes,Ad hoc reviewer
+participant30,4,4,3,5,,,,,Asian or Pacific Islander ,Male,2,TRUE,Student , ,"Teaching assistant, graduate teaching assistant, lecturer or equivalent",0%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant31,,,,,3,2,3,3,White ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Weekly,No,
+participant32,4,3,4,3,,,,,White ,Male,2,TRUE,Professor or lecturer ,"Other: research, teaching, management",,67% - 100%,1% - 33%,34% - 66%,1% - 33%,Monthly,Yes,Ad hoc reviewer
+participant33,4,4,3,5,,,,,Asian or Pacific Islander ,Female,2,TRUE,"Practitioner (e.g. SLP, AuD, teacher, etc.) ", ,,0%,67% - 100%,1% - 33%,67% - 100%,Daily,Yes,Ad hoc reviewer
+participant34,,,,,,3,2,3,White ,Female,3,TRUE,Professor or lecturer ,Research plus teaching ,,34% - 66%,1% - 33%,1% - 33%,67% - 100%,2-3 times per week,Yes,Ad hoc reviewer
+participant35,4,4,4,4,,,,,White ,Female,1,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,67% - 100%,34% - 66%,2-3 times per week,Yes,Ad hoc reviewer
+participant36,,,,,3,3,2,4,White ,Male,2,TRUE,Post-doctoral researcher , ,,67% - 100%,67% - 100%,67% - 100%,1% - 33%,2-3 times per week,Yes,Ad hoc reviewer
+participant37,,,,,5,4,3,3,White ,Female,3,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,Yes,Ad hoc reviewer
+participant38,,,,,,,,,White ,Female,,, , ,,,,,,,,
+participant39,,,,,,,,,Asian or Pacific Islander ,Female,3,TRUE, , ,,,,,,,,
+participant40,,,,,,,,,White ,Female,1,TRUE,Student , ,,,,,,,,
+participant41,,,,,,,,,"American Indian, Eskimo, Aleut ",Male,2,TRUE, , ,,,,,,,,
+participant42,,,,,,,,,White ,Female,1,TRUE, , ,,,,,,,,
+participant43,,,,,,,,,White ,Male,1,TRUE, , ,,,,,,,,
+participant44,,,,,,,,, ,,,, , ,,,,,,,,
+participant45,2,,,,,,,,Asian or Pacific Islander ,Female,4,TRUE,Other: researcher, ,,67% - 100%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant46,,,,,,,,,White ,Female,4,TRUE,Professor or lecturer , ,,,,,,,,
+participant47,,,,,,,,,White ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,0%,Weekly,,
+participant48,,,,,4,2,1,3,White ,Male,3,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Never,Yes,Associate editor or above
+participant49,,,,,,,,, ,Female,6,TRUE,Other: President of Professional organisation, ,,0%,1% - 33%,34% - 66%,34% - 66%,Daily,,
+participant50,,,,,,,,,White ,Female,2,TRUE, , ,,,,,,,,
+participant51,,,,,,,,,White ,Male,5,TRUE,Professor or lecturer ,Research plus teaching ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant52,,,,,,,,,White ,Male,1,TRUE, , ,,,,,,,,
+participant53,,,,,,,,,Other: latin american,Female,3,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,2-3 times per week,,
+participant54,,,,,,,,,White ,Male,,, , ,,,,,,,,
+participant55,,,,,,,,,"American Indian, Eskimo, Aleut ",Male,2,TRUE, , ,,,,,,,,
+participant56,,,,,,,,,Black or African-American ,Female,1,TRUE,Professor or lecturer ,Research plus teaching ,,0%,67% - 100%,0%,67% - 100%,Never,,
+participant57,,,,,,,,, ,,,, , ,,,,,,,,
+participant58,4,4,4,4,,,,,White ,Female,11,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,34% - 66%,34% - 66%,Daily,No,
+participant59,3,,,,,,,,White ,Female,2,TRUE,Post-doctoral researcher , ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Monthly,,
+participant60,,,,,,,,,Black or African-American ,Female,1,TRUE,"Other: Ph.D. Candidate, Clinical Fellow", ,,67% - 100%,1% - 33%,67% - 100%,1% - 33%,Monthly,,
+participant61,4,,,,,,,,Other: jewish,Female,2,TRUE,Student , ,"Teaching assistant, graduate teaching assistant, lecturer or equivalent,Research assistant, graduate research assistant, or equivalent",1% - 33%,1% - 33%,1% - 33%,1% - 33%,Daily,,
+participant62,,,,,,,,,White ,Male,1,TRUE,Post-doctoral researcher , ,,67% - 100%,67% - 100%,67% - 100%,1% - 33%,Daily,,
+participant63,,,,,,,,,White ,Male,2,TRUE, , ,,,,,,,,
+participant64,,,,,,,,,White ,Male,2,TRUE,Student , ,"Teaching assistant, graduate teaching assistant, lecturer or equivalent,Research assistant, graduate research assistant, or equivalent",67% - 100%,1% - 33%,67% - 100%,1% - 33%,Daily,,
+participant65,,,,,,,,,Other: latina,Female,2,TRUE, , ,,,,,,,,
+participant66,3,,,,,,,,White ,Female,4,TRUE,Professor or lecturer ,Research plus teaching ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant67,,,,,4,,,,White ,Female,2,TRUE,"Professor or lecturer,Post-doctoral researcher ",Research plus teaching ,,67% - 100%,0%,67% - 100%,1% - 33%,Never,,
+participant68,3,3,,4,,,,,White ,Female,5,TRUE,Professor or lecturer ,Research plus teaching ,,34% - 66%,1% - 33%,34% - 66%,1% - 33%,2-3 times per week,Yes,Ad hoc reviewer
+participant69,,,,,,,,, ,,,, , ,,,,,,,,
+participant70,,,,,,,,,White ,Female,2,TRUE,Post-doctoral researcher , ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant71,,,,,,,,,White ,Male,,, , ,,,,,,,,
+participant72,,,,,,,,,White ,Male,3,TRUE, , ,,,,,,,,
+participant73,,,,,,,,,White ,Female,1,TRUE,"Professor or lecturer,Practitioner (e.g. SLP, AuD, teacher, etc.) ","Other: Own a multi national clinic and day program in Shanghai, China ",,67% - 100%,34% - 66%,34% - 66%,67% - 100%,Daily,,
+participant74,,,,,,,,, ,,,, , ,,,,,,,,
+participant75,,,,,,,,,White ,Female,2,TRUE,"Practitioner (e.g. SLP, AuD, teacher, etc.) ", ,,67% - 100%,34% - 66%,0%,0%,Monthly,,
+participant76,,,,,,,,,White ,Female,4,TRUE, , ,,,,,,,,
+participant77,,,,,,,,, ,,,, , ,,,,,,,,
+participant78,,,,,,,,, ,,,, , ,,,,,,,,
+participant79,,,,,,,,,Asian or Pacific Islander ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,1% - 33%,1% - 33%,67% - 100%,Weekly,,
+participant80,,,,,,3,3,4,White ,Female,0,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,Not applicable,67% - 100%,Not applicable,Daily,Yes,Ad hoc reviewer
+participant81,,,,,,,,,White ,Male,5,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,0%,67% - 100%,1% - 33%,2-3 times per week,,
+participant82,,,,,,,,, ,,,, , ,,,,,,,,
+participant83,,,,,,,,,White ,Female,3,TRUE, , ,,,,,,,,
+participant84,,,,,,,,,White ,Female,6,TRUE,Student , ,"Research assistant, graduate research assistant, or equivalent",67% - 100%,67% - 100%,1% - 33%,67% - 100%,Monthly,,
+participant85,,,,,,,,,Asian or Pacific Islander ,Female,2,TRUE,Other: industry, ,,34% - 66%,67% - 100%,0%,67% - 100%,,,
+participant86,,,,,,,,,White ,Male,0,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,67% - 100%,67% - 100%,67% - 100%,Monthly,,
+participant87,,,,,,,,,Asian or Pacific Islander ,Male,6,TRUE, , ,,,,,,,,
+participant88,,,,,,,,,White ,Male,3,TRUE,Post-doctoral researcher , ,,,,,,,,
+participant89,,,,,,,,,White ,Male,2,TRUE,Professor or lecturer , ,,,,,,,,
+participant90,,,,,,,,,White ,Female,3,TRUE,Professor or lecturer ,Research plus teaching ,,0%,67% - 100%,1% - 33%,67% - 100%,2-3 times per week,,
+participant91,,,,,3,3,3,3, ,Female,2,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,0%,67% - 100%,0%,Monthly,Yes,Ad hoc reviewer
+participant92,,,,,,,,,White ,Female,3,TRUE,Professor or lecturer ,Research plus teaching ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant93,4,4,,4,,,,,White ,Female,5,TRUE,Post-doctoral researcher , ,,Not applicable,1% - 33%,Not applicable,1% - 33%,,Yes,Ad hoc reviewer
+participant94,,,,,4,,,,White ,Female,3,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,34% - 66%,Monthly,,
+participant95,,,,,3,,,,Other: Indian,Male,4,TRUE,Post-doctoral researcher , ,,1% - 33%,67% - 100%,1% - 33%,67% - 100%,Daily,,
+participant96,,,,,4,3,3,3,White ,Female,4,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,67% - 100%,67% - 100%,67% - 100%,2-3 times per week,No,
+participant97,,,,,,,,, ,Other:,,, , ,,,,,,,,
+participant98,,4,2,4,,,,,White ,Female,1,TRUE,"Professor or lecturer,Practitioner (e.g. SLP, AuD, teacher, etc.) ",Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,34% - 66%,Daily,Yes,Ad hoc reviewer
+participant99,,,,,,,,, ,,,, , ,,,,,,,,
+participant100,2,,,,,,,,Other: A person,Female,4,TRUE,Professor or lecturer ,Research plus teaching ,,67% - 100%,34% - 66%,67% - 100%,1% - 33%,Monthly,,
+participant101,,,,,4,3,3,4, ,Female,3,TRUE,Post-doctoral researcher , ,,67% - 100%,67% - 100%,Not applicable,Not applicable,Monthly,Yes,Ad hoc reviewer
+participant102,4,,,,,,,,White ,Female,6,TRUE,Professor or lecturer ,Teaching only ,,67% - 100%,67% - 100%,1% - 33%,67% - 100%,2-3 times per week,,

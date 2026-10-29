@@ -1,0 +1,9 @@
+groupe,pcs_defavorisees,pcs_moyennes,pcs_favorisees,pcs_tres_favorisees,source
+Cohorte (population 20-24),36,27,14,23,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+Étudiants bac+3 à bac+5,20,22,11,47,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+Étudiants grandes écoles,9,18,10,64,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+Ingénieur,9,17,10,63,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+Commerce,8,18,9,65,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+ENS,7,14,8,72,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+IEP,8,14,9,68,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"
+Autre,9,18,10,63,"IPP rapport 30, figure 4.1 p.93 (2016-2017)"

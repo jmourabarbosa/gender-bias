@@ -1,0 +1,4 @@
+group,R01 award probability (%),gap_vs_white_pp,how_obtained
+White,29.3,0,stated in text (R01 award probability for whites)
+Asian,25.4,-3.9,derived: 29.3 - 3.9 pp (text: Asian 3.9 pp less likely)
+Black,16.1,-13.2,derived: 29.3 - 13.2 pp (text: black 13.2 pp less likely)

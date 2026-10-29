@@ -4,16 +4,16 @@ Each cited source gets a short linked name; the source of the slide's figure als
 it was taken from (deck/figure_pages.json). The source line moves up to make room.
 Usage: python3 scripts/link_lines.py > requests.json
 """
-import csv, json, re
+import csv, json, os, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EMU = 914400
 GREY = {"opaqueColor": {"rgbColor": {"red": 0.35, "green": 0.35, "blue": 0.35}}}
-spec = {s["id"]: s for s in json.load(open(ROOT / "deck" / "slides.json"))["slides"]}
-links = json.load(open(ROOT / "deck" / "source_links.json"))
-figs = json.load(open(ROOT / "deck" / "figure_pages.json"))
-urls = {(r["slide"], r["id"]): (r["link_type"], r["url"]) for r in csv.DictReader(open(ROOT / "deck" / "source_links_resolved.csv"))}
+spec = {s["id"]: s for s in json.load(open(ROOT / os.environ.get("DECK_DIR", "deck") / "slides.json"))["slides"]}
+links = json.load(open(ROOT / os.environ.get("DECK_DIR", "deck") / "source_links.json"))
+figs = json.load(open(ROOT / os.environ.get("DECK_DIR", "deck") / "figure_pages.json"))
+urls = {(r["slide"], r["id"]): (r["link_type"], r["url"]) for r in csv.DictReader(open(ROOT / os.environ.get("DECK_DIR", "deck") / "source_links_resolved.csv"))}
 
 
 NAMES = {"MESR, Vers l'égalité femmes-hommes ? Chiffres clés 2026": "MESR Chiffres clés 2026",

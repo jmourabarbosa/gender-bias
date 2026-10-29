@@ -1,0 +1,18 @@
+{
+ "id": "GEO-04",
+ "title": "Measuring the bias against low-income country research: an Implicit Association Test",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5674740",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-04/article.json",
+  "other-biases-data/06-geography/GEO-04/article.xml",
+  "other-biases-data/06-geography/GEO-04/data/GEO-04.csv",
+  "other-biases-data/06-geography/GEO-04/source.pdf",
+  "other-biases-data/06-geography/GEO-04/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-04/figures/GEO-04_redraw.png",
+  "other-biases-data/06-geography/GEO-04/figures/GEO-04_table3.png"
+ ],
+ "notes": "MATCHES (IAT 0.57). Abstract (PDF p.1) and p.4: 'The mean IAT score was 0.57 (95% CI 0.52 to 0.61) ... moderately strong implicit associations between Rich Countries and Good Research'. Table 3: 86% of 321 respondents pro-rich, 3.7% pro-poor."
+}

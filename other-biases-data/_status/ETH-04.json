@@ -1,0 +1,19 @@
+{
+ "id": "ETH-04",
+ "title": "Expérience des discriminations dans l'ESR en France : premiers résultats de l'enquête ACADISCRI (Défenseur des droits 2022)",
+ "url_used": "https://parite.math.cnrs.fr/References/2022_10_20_Rapport_Acadiscri.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-04/data/ETH-04.csv",
+  "other-biases-data/03-ethnic/ETH-04/data/ETH-04_table3.csv",
+  "other-biases-data/03-ethnic/ETH-04/notes.md",
+  "other-biases-data/03-ethnic/ETH-04/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-04/figures/ETH-04_fig1.png",
+  "other-biases-data/03-ethnic/ETH-04/figures/ETH-04_fig2.png",
+  "other-biases-data/03-ethnic/ETH-04/figures/ETH-04_fig3.png",
+  "other-biases-data/03-ethnic/ETH-04/figures/ETH-04_redraw.png"
+ ],
+ "notes": "Racist unequal treatment 27.8% (descendants of immigrants/DROM) vs 5.3% (majority), Tableau 4 p.15: MATCH; small N (278 staff, one university)"
+}

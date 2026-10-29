@@ -1,0 +1,12 @@
+{
+ "id": "ETH-01",
+ "title": "Statistiques ethniques (Insee, cadre juridique)",
+ "url_used": "https://www.insee.fr/fr/information/2108548",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-01/notes.md",
+  "other-biases-data/03-ethnic/ETH-01/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Web page saved; CC 2007-557 DC bars ethno-racial referential/race variables, but origin and self-reported belonging allowed in surveys (TeO): MATCH with nuance; text slide, no figure"
+}

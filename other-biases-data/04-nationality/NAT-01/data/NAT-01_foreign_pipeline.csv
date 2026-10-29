@@ -1,0 +1,12 @@
+stage_order,stage,foreign_share_pct,reference_year,definition,pdf_page,table
+1,Doctoral students (foreign mobile),36.2,2023-24,"foreign nationals who got their baccalaureate abroad ('étrangers mobiles'), all doctoral students",139 (also p.11),Graphique 01
+2,PhD graduates (foreign nationality),42.0,2018 cohort,"doctors graduated in 2018 of foreign nationality, all study paths (IPDoc survey)",147 (also p.11),Tableau 17
+3,Permanent researcher recruits - all public research,20.8,2022,"616 new permanent researchers (EC, EPST, 4 EPIC), share of foreign nationals",143 (also p.11),Tableau 11
+3a,Permanent recruits - MCF (EPSCP),22.6,2022,"250 foreign MCF recruits, % of MCF recruited",143,Tableau 11
+3b,Permanent recruits - CR (6 EPST),24.5,2022,"109 foreign CR recruits, % of CR recruited",143,Tableau 11
+3c,Permanent recruits - PR (EPSCP),39.2,2022,"20 foreign PR recruits (small n), % of PR recruited",143,Tableau 11
+4,All paid public researchers incl. contract staff,15.1,end 2022,"researchers (incl. IR, tenured or contract, incl. PhD students) in all public research",142 (also p.11),Tableau 09
+4a,Researchers in the 6 EPST (incl. CNRS),23.5,end 2022,tenured or contract researchers,142,Tableau 09
+5,Tenured enseignants-chercheurs (EPSCP under MESR),7.8,31/12/2022,"tenured EC in activity, incl. medicine",143 (also p.11),Tableau 10
+5a,Tenured MCF,8.3,31/12/2022,tenured MCF in activity,143,Tableau 10
+5b,Tenured PR,6.8,31/12/2022,tenured PR in activity,143,Tableau 10

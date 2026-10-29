@@ -1,0 +1,16 @@
+{
+ "id": "PRES-11",
+ "title": "ANR: Atlas régional des projets 2014-2020 + Synthèse du suivi France 2030, région Île-de-France 2011-2022",
+ "url_used": "https://anr.fr/fileadmin/documents/2023/ANR-FRANCE2030-Synthese-regionale-2022-IDF-oct2023.pdf ; https://anr.fr/fr/projets-finances-et-impact/donnees-analyses-et-etudes/atlas-des-projets-anr-2014-2020/",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-11/page.html",
+  "other-biases-data/05-prestige/PRES-11/source.pdf",
+  "other-biases-data/05-prestige/PRES-11/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-11/figures/PRES-11_fig1.png",
+  "other-biases-data/05-prestige/PRES-11/figures/PRES-11_fig2.png"
+ ],
+ "notes": "Key number 'Not verified' - still not verified: no IdF share of ANR funding found. source.pdf p.1: Île-de-France: 401 France 2030/PIA projects, 4,835 M€ of funding 2011-2022 (3,393.7 M€ disbursed, 70.2%). No national total or regional share is given in this document."
+}

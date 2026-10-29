@@ -1,0 +1,18 @@
+{
+ "id": "ETH-05",
+ "title": "Dénoncer les discriminations vécues à l'université (Défenseur des droits, Éclairages, avril 2024)",
+ "url_used": "https://www.defenseurdesdroits.fr/sites/default/files/2024-04/ddd_eclairages_denoncer-les-discriminations-vecues-a-l-universite_20240423.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-05/data/ETH-05.csv",
+  "other-biases-data/03-ethnic/ETH-05/notes.md",
+  "other-biases-data/03-ethnic/ETH-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-05/figures/ETH-05_fig1.png",
+  "other-biases-data/03-ethnic/ETH-05/figures/ETH-05_fig2.png",
+  "other-biases-data/03-ethnic/ETH-05/figures/ETH-05_fig3.png",
+  "other-biases-data/03-ethnic/ETH-05/figures/ETH-05_redraw.png"
+ ],
+ "notes": "Reporting: 13.2% of student victims vs 46.5% of staff (Graphique 1 p.12) MATCH; by motive p.17 (racism 12.5% students / 48.1% staff)"
+}

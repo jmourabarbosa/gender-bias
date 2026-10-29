@@ -1,0 +1,16 @@
+{
+ "id": "PRES-04",
+ "title": "The Matthew effect in science funding",
+ "url_used": "https://osf.io/nur8p/download",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-04/page.html",
+  "other-biases-data/05-prestige/PRES-04/source.pdf",
+  "other-biases-data/05-prestige/PRES-04/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-04/figures/PRES-04_fig1.png",
+  "other-biases-data/05-prestige/PRES-04/figures/PRES-04_fig3.png"
+ ],
+ "notes": "MATCHES (>2x later funding). Preprint p.2 (abstract) and p.6: 'winners just above the funding threshold accumulating more than twice as much research funding (EUR 180,000) during the following eight years as non-winners just below it'; gap EUR 40,000 after 4 years."
+}

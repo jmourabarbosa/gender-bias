@@ -1,0 +1,11 @@
+indicator,value,page
+success_rate_local_applications_pct,6.3,12
+success_rate_external_applications_pct,0.24,12
+mantel_haenszel_odds_ratio,18.02,12
+crude_odds_ratio_text,27,12
+share_locals_among_recruits_pct,55,12
+share_locals_expected_under_independence_pct,8,12
+local_applications,72257,12
+external_applications,1546186,12
+local_recruits,4549,12
+external_recruits,3780,12

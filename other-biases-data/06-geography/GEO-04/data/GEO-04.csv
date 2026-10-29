@@ -1,0 +1,8 @@
+iat_category,n,pct,mean_d,source
+Moderate pro-poor,4,1.25,-0.509,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Slight pro-poor,8,2.49,-0.232,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Neutral,32,9.97,0.017,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Slight pro-rich,43,13.4,0.251,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Moderate pro-rich,94,29.28,0.515,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Strong pro-rich,67,20.87,0.748,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"
+Very strong pro-rich,73,22.74,1.038,"Harris et al. 2017 Global Health 13:80, Table 3 (PDF p.5); total n=321, mean d=0.57 (0.52-0.61)"

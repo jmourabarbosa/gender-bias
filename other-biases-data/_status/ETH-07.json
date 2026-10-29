@@ -1,0 +1,13 @@
+{
+ "id": "ETH-07",
+ "title": "Shades of Égalité: Educational Mobility and Ethnoracial Hierarchy Over Three Generations in France (Ferry et al., ASR 2025; INED press release Dec 2025)",
+ "url_used": "https://doi.org/10.1177/00031224251391760",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-07/crossref_asr.json",
+  "other-biases-data/03-ethnic/ETH-07/notes.md",
+  "other-biases-data/03-ethnic/ETH-07/openalex_asr.json"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [],
+ "notes": "INED site 503 (down), Sage PDF behind Cloudflare challenge, HAL record without file; abstract saved; key number 46% vs 55% NOT VERIFIED"
+}

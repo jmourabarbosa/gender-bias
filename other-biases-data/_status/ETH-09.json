@@ -1,0 +1,28 @@
+{
+ "id": "ETH-09",
+ "title": "Topic choice contributes to the lower rate of NIH awards to African-American/black scientists (Hoppe et al. 2019, Sci Adv)",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6785250.1/",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-09/article.json",
+  "other-biases-data/03-ethnic/ETH-09/article.xml",
+  "other-biases-data/03-ethnic/ETH-09/data/ETH-09.csv",
+  "other-biases-data/03-ethnic/ETH-09/notes.md",
+  "other-biases-data/03-ethnic/ETH-09/source.pdf",
+  "other-biases-data/03-ethnic/ETH-09/supplementary/Regression_analysis_results_for_all_variables.xlsx",
+  "other-biases-data/03-ethnic/ETH-09/supplementary/aaw7238_SM.pdf",
+  "other-biases-data/03-ethnic/ETH-09/supplementary/supp_5_10_eaaw7238__index.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-09/figures/ETH-09_fig1.png",
+  "other-biases-data/03-ethnic/ETH-09/figures/ETH-09_fig2.jpg",
+  "other-biases-data/03-ethnic/ETH-09/figures/ETH-09_fig3.png",
+  "other-biases-data/03-ethnic/ETH-09/figures/ETH-09_fig4.png",
+  "other-biases-data/03-ethnic/ETH-09/figures/ETH-09_redraw.png",
+  "other-biases-data/03-ethnic/ETH-09/figures/aaw7238-F1.jpg",
+  "other-biases-data/03-ethnic/ETH-09/figures/aaw7238-F2.jpg",
+  "other-biases-data/03-ethnic/ETH-09/figures/aaw7238-F3.jpg",
+  "other-biases-data/03-ethnic/ETH-09/figures/aaw7238-F4.jpg"
+ ],
+ "notes": "Award rate 10.7% AA/B vs 17.7% WH (Fig.1 p.2); topic choice ~21% of gap (p.9): MATCH"
+}

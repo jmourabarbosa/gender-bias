@@ -1,0 +1,15 @@
+{
+ "id": "PRES-10",
+ "title": "Idex : des milliards qui coûtent cher (bilan des initiatives d'excellence, saison 1)",
+ "url_used": "https://www.letudiant.fr/educpros/enquetes/idex-le-bilan-des-initiatives-d-excellence-saison-1-pour-les-universites.html",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-10/data/PRES-10.csv",
+  "other-biases-data/05-prestige/PRES-10/page.html",
+  "other-biases-data/05-prestige/PRES-10/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-10/figures/PRES-10_redraw.png"
+ ],
+ "notes": "MATCHES (4 of first 8 Idex in Île-de-France). page.html: 'Les huit regroupements qui ont obtenu des Idex au premier tour - Bordeaux, Strasbourg, PSL, Sorbonne Universités, Sorbonne Paris Cité, Saclay, Aix-Marseille et Toulouse'; 4 of 8 (PSL, SU, SPC, Saclay) in Île-de-France."
+}

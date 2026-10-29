@@ -1,0 +1,7 @@
+field,p_reneging,p_tenure_track,reneging_rate_per_year,mean_time_in_queue_years,avg_elapsed_time_to_date_years
+Biomedical sciences,0.69,0.31,0.19,3.6,2.6
+Health sciences,0.84,0.16,0.33,2.5,1.9
+Social sciences,0.72,0.28,0.28,2.5,2.0
+Psychology,0.83,0.17,0.33,2.5,2.0
+Engineering,0.84,0.16,0.33,2.6,1.9
+All fields,0.83,0.17,0.28,2.9,2.2

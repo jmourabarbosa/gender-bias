@@ -1,0 +1,12 @@
+{
+ "id": "GEO-11",
+ "title": "Canada is denying travel visas to AI researchers headed to NeurIPS again (VentureBeat, 2019)",
+ "url_used": "https://venturebeat.com/ai/canada-is-denying-travel-visas-to-ai-researchers-headed-to-neurips-again (failed); secondary https://cfjctoday.com/2019/11/15/canada-denies-numerous-researchers-visas-for-ai-conference-for-second-year/",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-11/page_canadianpress_cfjc.html",
+  "other-biases-data/06-geography/GEO-11/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "NOT VERIFIED / possible MISMATCH: '15 of 44 denied' could not be checked against VentureBeat; search snippets attribute it to Timnit Gebru (15 of 44 Black in AI workshop attendees), while the Canadian Press (same week) reports 30 denied, 15 reversed; The Logic later reported 202 initial denials, 158 reversed (snippet only).. Secondary (page_canadianpress_cfjc.html): 'the government initially denied 30 researchers, mostly from African countries, but ... has since approved 15 on further review' (Black in AI figures); Black in AI 'saw about a third of its attendees denied visas for last year's co"
+}

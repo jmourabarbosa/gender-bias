@@ -1,0 +1,20 @@
+{
+ "id": "ETH-02",
+ "title": "Discriminations dans l'accès aux masters : une évaluation expérimentale (Chareyron, Erb & L'Horty 2022)",
+ "url_used": "https://sgen-cfdt.fr/contenu/uploads/sites/18/2022/03/etude_MASTER1-fevrier_2022.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-02/data/ETH-02.csv",
+  "other-biases-data/03-ethnic/ETH-02/data/ETH-02_master2.csv",
+  "other-biases-data/03-ethnic/ETH-02/notes.md",
+  "other-biases-data/03-ethnic/ETH-02/report_TEPP_22-01.pdf",
+  "other-biases-data/03-ethnic/ETH-02/report_TEPP_23-01.pdf",
+  "other-biases-data/03-ethnic/ETH-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-02/figures/ETH-02_fig1.png",
+  "other-biases-data/03-ethnic/ETH-02/figures/ETH-02_fig2.png",
+  "other-biases-data/03-ethnic/ETH-02/figures/ETH-02_redraw.png"
+ ],
+ "notes": "Synthese + full report 22-01 + follow-up 23-01; 69.7% vs 61.1% reply rate MATCH (Tableau 3 p.16); rates by field in data/ETH-02.csv"
+}

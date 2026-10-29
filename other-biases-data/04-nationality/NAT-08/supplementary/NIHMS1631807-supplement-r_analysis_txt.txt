@@ -1,0 +1,172 @@
+# Clear the workspace
+rm(list=ls())
+
+# path where figures will be saved -- you will want to change this for use on your own machine
+path_for_figures <- "C:\\Users\\sjpolit\\Downloads\\"
+
+##########################
+### Preparing the data ###
+##########################
+
+# Import the data -- you will have to have downloaded the data to your machine, and then navigate to the location to open it
+ratings <- read.csv( file=file.choose(), header=T )
+
+# Remove rows without ratings
+ratings <- ratings[ !is.na(ratings$Rating), ]
+
+# Make Rating an ordered factor
+ratings$Rating <- ordered(ratings$Rating)
+
+# Remove 6 participants with bad data
+ratings <- ratings[ !(ratings$Participant %in% paste0("participant",1:6) ), ]
+ratings$Participant <- factor( ratings$Participant )
+
+# Count how many of each rating per each condition
+rating_dist <- xtabs( ~ Rating+English, ratings )
+
+# Convert that from counts to percentages, and show the result
+rating_dist[,1] <- rating_dist[,1] / sum(rating_dist[,1])
+rating_dist[,2] <- rating_dist[,2] / sum(rating_dist[,2])
+rating_dist
+
+### Make a graph
+
+# File will be saved here, with these properties 
+tiff( file=paste0(path_for_figures,"fig1.tif"), type="cairo", width=6, height=6, unit="in", res=300 )
+
+# Adjust the margins (the left margin needs to be increased a bit so the big y-axis label can fit)
+par(mar=c(4.1,5.1,2.1,1.1))
+
+# Plot the ratings for the "native-like English" condition as a line
+plot( 1:5, rating_dist[,"L1"], ylim=c(0,1), lwd=2, pch=5, col="purple", lty=1, type="o", cex=2, xlab="Rating", xaxt="n", ylab="Proportion", cex.lab=2, cex.axis=1.5)
+
+# x-axis labels corresponding to the five-point scale options
+axis(1, at=1:5, labels=c("Unacceptable","Poor","Fair","High","Top"), cex.axis=1.25 )
+
+# Plot the ratings for the "non-native-like English" condition
+lines( 1:5, rating_dist[,"L2"], lwd=2, pch=5, col="purple", lty=2, type="o", cex=2 )
+
+# Add a legend
+legend( "topleft", legend=c("\"standard\"", "\"non-standard\""), lty=c(1,2), lwd=2, pt.cex=2, col=c("purple","purple"), pch=c(5,5), inset=.025, cex=1.25 )
+
+# Finish the graph
+dev.off()
+
+
+
+
+###############################
+### Pre-registered analysis ###
+###############################
+
+# Load the 'ordinal' library
+library(ordinal)
+
+# Statistical model
+summary( model <- clmm( Rating ~ English + (English|Participant) + (English|Abstract), ratings ) )
+
+
+
+############################
+### Exploratory analyses ###
+############################
+
+### Same model, but without participants who didn't complete all abstracts
+
+# Identifies the participants who completed all abstracts
+goodptp <- names( which( colSums( xtabs( ~Abstract+Participant, ratings ) ) == 4 ) )
+
+# Remove data from participants who didn't complete all abstracts
+ratings_trimmed <- ratings[ ratings$Participant %in% goodptp, ]
+
+# Re-run the model on just these data
+summary( model <- clmm( Rating ~ English + (English|Participant) + (English|Abstract), ratings_trimmed ) )
+
+
+
+
+
+
+### Only looking at List 1
+
+# Get the ratings just from List 1
+ratings_List1 <- ratings[ ratings$List=="List1", ]
+
+# Statistical model
+summary( model <- clmm( Rating ~ English + (1|Participant), ratings_List1 ) )
+
+
+
+
+### Only looking at abstracts 1 and 3
+
+# Get the ratings just from List 1
+ratings_abs13 <- ratings[ ratings$Abstract %in% c("A1","A3"), ]
+ratings_abs13$Abstract <- factor(ratings_abs13$Abstract) 
+
+# Statistical model
+summary( model <- clmm( Rating ~ English + Abstract + (1|Participant), ratings_abs13 ) )
+
+# Distribution of ratings
+dist <- xtabs(~English+Rating+Abstract, ratings_abs13)
+
+# Convert to proportion
+dist["L1",,"A1"] <- dist["L1",,"A1"] / sum(dist["L1",,"A1"])
+dist["L2",,"A1"] <- dist["L2",,"A1"] / sum(dist["L2",,"A1"])
+dist["L1",,"A3"] <- dist["L1",,"A3"] / sum(dist["L1",,"A3"])
+dist["L2",,"A3"] <- dist["L2",,"A3"] / sum(dist["L2",,"A3"])
+
+# Make a graph
+tiff( file=paste0(path_for_figures,"fig2.tif"), type="cairo", width=6, height=6, unit="in", res=300 )
+par(mar=c(4.1,5.1,2.1,1.1))
+plot( 1:5, dist["L1",,"A1"], ylim=c(0,1), lwd=2, pch=15, col="red", lty=1, type="o", cex=2, xlab="Rating", xaxt="n", ylab="Proportion", cex.lab=2, cex.axis=1.5)
+axis(1, at=1:5, labels=c("Unacceptable","Poor","Fair","High","Top"), cex.axis=1.25 )
+lines( 1:5, dist["L2",,"A1"], lwd=2, pch=15, col="red", lty=2, type="o", cex=2 )
+lines( 1:5, dist["L1",,"A3"], lwd=2, pch=16, col="blue", lty=1, type="o", cex=2 )
+lines( 1:5, dist["L2",,"A3"], lwd=2, pch=16, col="blue", lty=2, type="o", cex=2 )
+legend( "topleft", legend=c("Abstract 1 \"standard\"", "Abstract 1 \"non-standard\"", "Abstract 3 \"standard\"", "Abstract 3 \"non-standard\""), lty=c(1,2,1,2), lwd=2, pt.cex=2, col=c("red","red","blue","blue"), pch=c(15,15,16,16), inset=.025, cex=1.25 )
+dev.off()
+
+
+### Last exploratory analysis
+
+# group abstracts 1 and 3 into a separate factor from abstracts 2 and 4
+ratings$LangCond <- ifelse( ratings$Abstract %in% c("A1","A3"), "A1A3", "A2A4" )
+
+# For visualization purposes: get means
+means <- tapply( as.numeric(ratings$Rating), ratings[,c("LangCond","List")], mean )
+
+# Make a graph
+tiff( file=paste0(path_for_figures,"fig3.tif"), type="cairo", width=6, height=6, unit="in", res=300 )
+par(mar=c(4.1,5.1,2.1,1.1))
+
+# Create the barplot
+xvals <- barplot( means, ylab="\"Mean\" rating", beside=T, ylim=c(1,5), col=c("indianred","cadetblue"), xpd=F, cex.names=2, cex.lab=2, cex.axis=1.5 )
+
+# Means for each abstract
+absmeans <- tapply( as.numeric(ratings$Rating), ratings[,c("Abstract","List")], mean )
+
+# Show these means on the graph
+text( xvals[1,], absmeans[1,], c("A1","A1") )
+text( xvals[1,], absmeans[3,], c("A3","A3") )
+text( xvals[2,], absmeans[2,], c("A2","A2") )
+text( xvals[2,], absmeans[4,], c("A4","A4") )
+
+# Make a legend
+legend( "topleft", inset=.025, cex=1, legend=c("\"Non-standard\" in List1 but \"standard\" in List2", "\"Standard\" in both"), fill=c("indianred","cadetblue") )
+
+# Finished making the graph
+dev.off()
+
+# Statistical model
+summary( model <- clmm( Rating ~ LangCond*List + (LangCond|Participant), ratings ) )
+
+
+# Statistical model with simple effects
+summary( model <- clmm( Rating ~ List/LangCond + (LangCond|Participant), ratings ) )
+
+
+
+
+
+

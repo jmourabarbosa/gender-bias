@@ -1,0 +1,30 @@
+{
+ "id": "PRES-06",
+ "title": "Quantifying hierarchy and dynamics in US faculty hiring and retention",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9534765 (PMC OA bucket, first pass)",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-06/article.json",
+  "other-biases-data/05-prestige/PRES-06/article.xml",
+  "other-biases-data/05-prestige/PRES-06/data/PRES-06_lorenz.csv",
+  "other-biases-data/05-prestige/PRES-06/source.pdf",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM10_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM11_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM12_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM1_ESM.pdf",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM2_ESM.pdf",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM3_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM4_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM5_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM6_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM7_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM8_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/supplementary/41586_2022_5222_MOESM9_ESM.csv",
+  "other-biases-data/05-prestige/PRES-06/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-06/figures/PRES-06_fig2.jpg",
+  "other-biases-data/05-prestige/PRES-06/figures/PRES-06_redraw.png"
+ ],
+ "notes": "MATCHES (80% from 20%). PDF p.2: 'Overall, 80% of all domestically trained faculty in our data were trained at just 20.4% of universities'; domains: 80% from 19-28%. Recomputed from MOESM4 panel a: 80% reached at 20.4% of universities."
+}

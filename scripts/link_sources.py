@@ -5,21 +5,21 @@ there is no PDF on GitHub (paywalled, or full text only) and the source has a DO
 (saved web page, data).
 Usage: python3 scripts/link_sources.py > requests.json   (writes deck/source_links_resolved.csv too)
 """
-import csv, json, sys
+import csv, json, os, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "gender-bias-data"
+DATA = ROOT / os.environ.get("DATA_DIR", "gender-bias-data")
 GH = "https://github.com/jmourabarbosa/gender-bias/"
 BRANCH = "claude/epic-cannon-fl66g4"
 GREY = {"opaqueColor": {"rgbColor": {"red": 0.35, "green": 0.35, "blue": 0.35}}}
 BLACK = {"opaqueColor": {"rgbColor": {"red": 0, "green": 0, "blue": 0}}}
 
-sources = {r["id"]: r for r in csv.DictReader(open(ROOT / "sources.csv"))}
+sources = {r["id"]: r for r in csv.DictReader(open(ROOT / os.environ.get("SOURCES_CSV", "sources.csv")))}
 manifest = {r["id"]: r for r in csv.DictReader(open(DATA / "manifest.csv"))}
-overrides = json.loads((ROOT / "scripts" / "doi_overrides.json").read_text())
-spec = {s["id"]: s for s in json.load(open(ROOT / "deck" / "slides.json"))["slides"]}
-links = json.load(open(ROOT / "deck" / "source_links.json"))
+overrides = json.loads((ROOT / "scripts" / os.environ.get("DOI_OVERRIDES", "doi_overrides.json")).read_text())
+spec = {s["id"]: s for s in json.load(open(ROOT / os.environ.get("DECK_DIR", "deck") / "slides.json"))["slides"]}
+links = json.load(open(ROOT / os.environ.get("DECK_DIR", "deck") / "source_links.json"))
 
 
 def target(sid):
@@ -55,6 +55,6 @@ for slide_id, refs in links.items():
                      "style": {"link": {"url": url}}, "fields": "link"}})
     # links take the theme's blue; keep the deck black and white
     reqs.append({"updateTextStyle": {"objectId": box, "textRange": {"type": "ALL"}, "style": {"foregroundColor": color}, "fields": "foregroundColor"}})
-with open(ROOT / "deck" / "source_links_resolved.csv", "w", newline="") as f:
+with open(ROOT / os.environ.get("DECK_DIR", "deck") / "source_links_resolved.csv", "w", newline="") as f:
     csv.writer(f).writerows([["slide", "id", "link_type", "url"]] + rows)
 print(json.dumps(reqs, ensure_ascii=False, separators=(",", ":")))

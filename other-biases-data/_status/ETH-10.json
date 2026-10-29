@@ -1,0 +1,22 @@
+{
+ "id": "ETH-10",
+ "title": "NIH peer review: criterion scores completely account for racial disparities in overall impact scores (Erosheva et al. 2020, Sci Adv)",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7269672.1/",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-10/article.json",
+  "other-biases-data/03-ethnic/ETH-10/article.xml",
+  "other-biases-data/03-ethnic/ETH-10/data/ETH-10.csv",
+  "other-biases-data/03-ethnic/ETH-10/notes.md",
+  "other-biases-data/03-ethnic/ETH-10/source.pdf",
+  "other-biases-data/03-ethnic/ETH-10/supplementary/aaz4868_SM.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-10/figures/ETH-10_fig1.jpg",
+  "other-biases-data/03-ethnic/ETH-10/figures/ETH-10_fig2.png",
+  "other-biases-data/03-ethnic/ETH-10/figures/ETH-10_redraw.png",
+  "other-biases-data/03-ethnic/ETH-10/figures/aaz4868-F1.jpg",
+  "other-biases-data/03-ethnic/ETH-10/figures/aaz4868-F2.jpg"
+ ],
+ "notes": "Matched Black award rate 75% of white (11.57% vs 15.39%), p.6: MATCH; unmatched 55%"
+}

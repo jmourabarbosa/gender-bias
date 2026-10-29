@@ -1,0 +1,18 @@
+{
+ "id": "ETH-03",
+ "title": "Discrimination à l'embauche des personnes d'origine supposée maghrébine (Dares Analyses n°67 / Note IPP n°76, 2021)",
+ "url_used": "https://www.ipp.eu/wp-content/uploads/2025/05/76_Note_IPP_n76_Discrimination-a-l_embauche-selon-l_origine.pdf",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-03/data/ETH-03.csv",
+  "other-biases-data/03-ethnic/ETH-03/data/ETH-03_table2.csv",
+  "other-biases-data/03-ethnic/ETH-03/notes.md",
+  "other-biases-data/03-ethnic/ETH-03/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-03/figures/ETH-03_fig1.png",
+  "other-biases-data/03-ethnic/ETH-03/figures/ETH-03_fig2.png",
+  "other-biases-data/03-ethnic/ETH-03/figures/ETH-03_redraw.png"
+ ],
+ "notes": "IPP co-publication of the Dares testing (Dares/EC copies blocked: proxy 502, bot challenge); callbacks 33.3% vs 22.8% MATCH (Tableau 2 p.5)"
+}

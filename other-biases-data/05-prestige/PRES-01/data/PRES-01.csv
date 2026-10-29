@@ -1,0 +1,4 @@
+condition,reject_pct,major_revision_pct,minor_revision_pct,accept_pct,source
+AL (less-known author shown),65.4,24.8,7.9,2.0,"Huber et al. 2022 PNAS, Fig. 1 data labels (PDF p.3)"
+AA (anonymized),48.2,28.2,21.8,1.8,"Huber et al. 2022 PNAS, Fig. 1 data labels (PDF p.3)"
+AH (Nobel laureate shown),22.5,18.6,38.2,20.6,"Huber et al. 2022 PNAS, Fig. 1 data labels (PDF p.3)"

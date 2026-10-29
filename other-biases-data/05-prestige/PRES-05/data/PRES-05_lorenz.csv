@@ -1,0 +1,462 @@
+discipline,rank,pct_institutions,cum_pct_faculty_produced
+Computer science,1,0.488,6.814
+Computer science,2,0.976,11.463
+Computer science,3,1.463,15.77
+Computer science,4,1.951,19.553
+Computer science,5,2.439,23.291
+Computer science,6,2.927,26.595
+Computer science,7,3.415,29.17
+Computer science,8,3.902,31.427
+Computer science,9,4.39,33.569
+Computer science,10,4.878,35.552
+Computer science,11,5.366,37.466
+Computer science,12,5.854,39.335
+Computer science,13,6.341,41.158
+Computer science,14,6.829,42.981
+Computer science,15,7.317,44.713
+Computer science,16,7.805,46.354
+Computer science,17,8.293,47.903
+Computer science,18,8.78,49.453
+Computer science,19,9.268,50.912
+Computer science,20,9.756,52.37
+Computer science,21,10.244,53.829
+Computer science,22,10.732,55.264
+Computer science,23,11.22,56.472
+Computer science,24,11.707,57.589
+Computer science,25,12.195,58.706
+Computer science,26,12.683,59.777
+Computer science,27,13.171,60.848
+Computer science,28,13.659,61.919
+Computer science,29,14.146,62.967
+Computer science,30,14.634,63.924
+Computer science,31,15.122,64.836
+Computer science,32,15.61,65.747
+Computer science,33,16.098,66.613
+Computer science,34,16.585,67.457
+Computer science,35,17.073,68.3
+Computer science,36,17.561,69.075
+Computer science,37,18.049,69.827
+Computer science,38,18.537,70.579
+Computer science,39,19.024,71.331
+Computer science,40,19.512,72.037
+Computer science,41,20.0,72.744
+Computer science,42,20.488,73.382
+Computer science,43,20.976,74.02
+Computer science,44,21.463,74.658
+Computer science,45,21.951,75.251
+Computer science,46,22.439,75.798
+Computer science,47,22.927,76.322
+Computer science,48,23.415,76.823
+Computer science,49,23.902,77.325
+Computer science,50,24.39,77.826
+Computer science,51,24.878,78.327
+Computer science,52,25.366,78.829
+Computer science,53,25.854,79.33
+Computer science,54,26.341,79.809
+Computer science,55,26.829,80.287
+Computer science,56,27.317,80.743
+Computer science,57,27.805,81.176
+Computer science,58,28.293,81.609
+Computer science,59,28.78,82.019
+Computer science,60,29.268,82.407
+Computer science,61,29.756,82.794
+Computer science,62,30.244,83.181
+Computer science,63,30.732,83.569
+Computer science,64,31.22,83.933
+Computer science,65,31.707,84.253
+Computer science,66,32.195,84.572
+Computer science,67,32.683,84.891
+Computer science,68,33.171,85.21
+Computer science,69,33.659,85.529
+Computer science,70,34.146,85.848
+Computer science,71,34.634,86.144
+Computer science,72,35.122,86.44
+Computer science,73,35.61,86.737
+Computer science,74,36.098,87.033
+Computer science,75,36.585,87.306
+Computer science,76,37.073,87.58
+Computer science,77,37.561,87.853
+Computer science,78,38.049,88.127
+Computer science,79,38.537,88.4
+Computer science,80,39.024,88.651
+Computer science,81,39.512,88.902
+Computer science,82,40.0,89.152
+Computer science,83,40.488,89.403
+Computer science,84,40.976,89.654
+Computer science,85,41.463,89.904
+Computer science,86,41.951,90.155
+Computer science,87,42.439,90.406
+Computer science,88,42.927,90.656
+Computer science,89,43.415,90.884
+Computer science,90,43.902,91.112
+Computer science,91,44.39,91.34
+Computer science,92,44.878,91.568
+Computer science,93,45.366,91.796
+Computer science,94,45.854,92.024
+Computer science,95,46.341,92.252
+Computer science,96,46.829,92.457
+Computer science,97,47.317,92.662
+Computer science,98,47.805,92.867
+Computer science,99,48.293,93.072
+Computer science,100,48.78,93.277
+Computer science,101,49.268,93.482
+Computer science,102,49.756,93.665
+Computer science,103,50.244,93.847
+Computer science,104,50.732,94.029
+Computer science,105,51.22,94.211
+Computer science,106,51.707,94.371
+Computer science,107,52.195,94.531
+Computer science,108,52.683,94.69
+Computer science,109,53.171,94.85
+Computer science,110,53.659,94.986
+Computer science,111,54.146,95.123
+Computer science,112,54.634,95.26
+Computer science,113,55.122,95.397
+Computer science,114,55.61,95.533
+Computer science,115,56.098,95.67
+Computer science,116,56.585,95.807
+Computer science,117,57.073,95.943
+Computer science,118,57.561,96.057
+Computer science,119,58.049,96.171
+Computer science,120,58.537,96.285
+Computer science,121,59.024,96.399
+Computer science,122,59.512,96.513
+Computer science,123,60.0,96.627
+Computer science,124,60.488,96.741
+Computer science,125,60.976,96.832
+Computer science,126,61.463,96.923
+Computer science,127,61.951,97.015
+Computer science,128,62.439,97.106
+Computer science,129,62.927,97.197
+Computer science,130,63.415,97.288
+Computer science,131,63.902,97.379
+Computer science,132,64.39,97.47
+Computer science,133,64.878,97.562
+Computer science,134,65.366,97.653
+Computer science,135,65.854,97.744
+Computer science,136,66.341,97.835
+Computer science,137,66.829,97.903
+Computer science,138,67.317,97.972
+Computer science,139,67.805,98.04
+Computer science,140,68.293,98.108
+Computer science,141,68.78,98.177
+Computer science,142,69.268,98.245
+Computer science,143,69.756,98.314
+Computer science,144,70.244,98.382
+Computer science,145,70.732,98.45
+Computer science,146,71.22,98.519
+Computer science,147,71.707,98.587
+Computer science,148,72.195,98.655
+Computer science,149,72.683,98.724
+Computer science,150,73.171,98.792
+Computer science,151,73.659,98.861
+Computer science,152,74.146,98.906
+Computer science,153,74.634,98.952
+Computer science,154,75.122,98.997
+Computer science,155,75.61,99.043
+Computer science,156,76.098,99.088
+Computer science,157,76.585,99.134
+Computer science,158,77.073,99.18
+Computer science,159,77.561,99.225
+Computer science,160,78.049,99.271
+Computer science,161,78.537,99.316
+Computer science,162,79.024,99.362
+Computer science,163,79.512,99.407
+Computer science,164,80.0,99.453
+Computer science,165,80.488,99.499
+Computer science,166,80.976,99.544
+Computer science,167,81.463,99.59
+Computer science,168,81.951,99.613
+Computer science,169,82.439,99.635
+Computer science,170,82.927,99.658
+Computer science,171,83.415,99.681
+Computer science,172,83.902,99.704
+Computer science,173,84.39,99.727
+Computer science,174,84.878,99.749
+Computer science,175,85.366,99.772
+Computer science,176,85.854,99.795
+Computer science,177,86.341,99.818
+Computer science,178,86.829,99.84
+Computer science,179,87.317,99.863
+Computer science,180,87.805,99.886
+Computer science,181,88.293,99.909
+Computer science,182,88.78,99.932
+Computer science,183,89.268,99.954
+Computer science,184,89.756,99.977
+Computer science,185,90.244,100.0
+Computer science,186,90.732,100.0
+Computer science,187,91.22,100.0
+Computer science,188,91.707,100.0
+Computer science,189,92.195,100.0
+Computer science,190,92.683,100.0
+Computer science,191,93.171,100.0
+Computer science,192,93.659,100.0
+Computer science,193,94.146,100.0
+Computer science,194,94.634,100.0
+Computer science,195,95.122,100.0
+Computer science,196,95.61,100.0
+Computer science,197,96.098,100.0
+Computer science,198,96.585,100.0
+Computer science,199,97.073,100.0
+Computer science,200,97.561,100.0
+Computer science,201,98.049,100.0
+Computer science,202,98.537,100.0
+Computer science,203,99.024,100.0
+Computer science,204,99.512,100.0
+Computer science,205,100.0,100.0
+Business,1,0.893,5.244
+Business,2,1.786,9.878
+Business,3,2.679,14.257
+Business,4,3.571,17.846
+Business,5,4.464,21.398
+Business,6,5.357,24.758
+Business,7,6.25,27.915
+Business,8,7.143,30.728
+Business,9,8.036,33.465
+Business,10,8.929,36.138
+Business,11,9.821,38.786
+Business,12,10.714,41.141
+Business,13,11.607,43.419
+Business,14,12.5,45.621
+Business,15,13.393,47.785
+Business,16,14.286,49.936
+Business,17,15.179,52.037
+Business,18,16.071,54.137
+Business,19,16.964,56.237
+Business,20,17.857,58.172
+Business,21,18.75,60.069
+Business,22,19.643,61.914
+Business,23,20.536,63.671
+Business,24,21.429,65.224
+Business,25,22.321,66.764
+Business,26,23.214,68.254
+Business,27,24.107,69.743
+Business,28,25.0,71.194
+Business,29,25.893,72.518
+Business,30,26.786,73.791
+Business,31,27.679,74.962
+Business,32,28.571,76.12
+Business,33,29.464,77.253
+Business,34,30.357,78.335
+Business,35,31.25,79.379
+Business,36,32.143,80.372
+Business,37,33.036,81.263
+Business,38,33.929,82.103
+Business,39,34.821,82.892
+Business,40,35.714,83.618
+Business,41,36.607,84.33
+Business,42,37.5,85.043
+Business,43,38.393,85.743
+Business,44,39.286,86.431
+Business,45,40.179,87.118
+Business,46,41.071,87.793
+Business,47,41.964,88.404
+Business,48,42.857,88.951
+Business,49,43.75,89.486
+Business,50,44.643,89.982
+Business,51,45.536,90.479
+Business,52,46.429,90.95
+Business,53,47.321,91.408
+Business,54,48.214,91.841
+Business,55,49.107,92.273
+Business,56,50.0,92.706
+Business,57,50.893,93.139
+Business,58,51.786,93.559
+Business,59,52.679,93.966
+Business,60,53.571,94.374
+Business,61,54.464,94.781
+Business,62,55.357,95.188
+Business,63,56.25,95.583
+Business,64,57.143,95.965
+Business,65,58.036,96.334
+Business,66,58.929,96.678
+Business,67,59.821,97.009
+Business,68,60.714,97.327
+Business,69,61.607,97.607
+Business,70,62.5,97.836
+Business,71,63.393,98.027
+Business,72,64.286,98.167
+Business,73,65.179,98.307
+Business,74,66.071,98.447
+Business,75,66.964,98.574
+Business,76,67.857,98.702
+Business,77,68.75,98.816
+Business,78,69.643,98.931
+Business,79,70.536,99.033
+Business,80,71.429,99.134
+Business,81,72.321,99.236
+Business,82,73.214,99.325
+Business,83,74.107,99.414
+Business,84,75.0,99.491
+Business,85,75.893,99.554
+Business,86,76.786,99.605
+Business,87,77.679,99.656
+Business,88,78.571,99.695
+Business,89,79.464,99.733
+Business,90,80.357,99.771
+Business,91,81.25,99.796
+Business,92,82.143,99.822
+Business,93,83.036,99.847
+Business,94,83.929,99.873
+Business,95,84.821,99.898
+Business,96,85.714,99.911
+Business,97,86.607,99.924
+Business,98,87.5,99.936
+Business,99,88.393,99.949
+Business,100,89.286,99.962
+Business,101,90.179,99.975
+Business,102,91.071,99.987
+Business,103,91.964,100.0
+Business,104,92.857,100.0
+Business,105,93.75,100.0
+Business,106,94.643,100.0
+Business,107,95.536,100.0
+Business,108,96.429,100.0
+Business,109,97.321,100.0
+Business,110,98.214,100.0
+Business,111,99.107,100.0
+Business,112,100.0,100.0
+History,1,0.694,7.879
+History,2,1.389,15.345
+History,3,2.083,21.498
+History,4,2.778,27.481
+History,5,3.472,33.317
+History,6,4.167,37.792
+History,7,4.861,42.169
+History,8,5.556,46.376
+History,9,6.25,50.559
+History,10,6.944,54.499
+History,11,7.639,57.612
+History,12,8.333,60.238
+History,13,9.028,62.038
+History,14,9.722,63.716
+History,15,10.417,65.321
+History,16,11.111,66.829
+History,17,11.806,68.337
+History,18,12.5,69.82
+History,19,13.194,71.304
+History,20,13.889,72.714
+History,21,14.583,74.052
+History,22,15.278,75.316
+History,23,15.972,76.508
+History,24,16.667,77.554
+History,25,17.361,78.599
+History,26,18.056,79.596
+History,27,18.75,80.447
+History,28,19.444,81.177
+History,29,20.139,81.882
+History,30,20.833,82.515
+History,31,21.528,83.123
+History,32,22.222,83.731
+History,33,22.917,84.241
+History,34,23.611,84.728
+History,35,24.306,85.214
+History,36,25.0,85.652
+History,37,25.694,86.089
+History,38,26.389,86.527
+History,39,27.083,86.941
+History,40,27.778,87.305
+History,41,28.472,87.67
+History,42,29.167,88.011
+History,43,29.861,88.327
+History,44,30.556,88.643
+History,45,31.25,88.959
+History,46,31.944,89.275
+History,47,32.639,89.591
+History,48,33.333,89.908
+History,49,34.028,90.199
+History,50,34.722,90.491
+History,51,35.417,90.783
+History,52,36.111,91.075
+History,53,36.806,91.342
+History,54,37.5,91.61
+History,55,38.194,91.877
+History,56,38.889,92.121
+History,57,39.583,92.364
+History,58,40.278,92.607
+History,59,40.972,92.85
+History,60,41.667,93.093
+History,61,42.361,93.337
+History,62,43.056,93.555
+History,63,43.75,93.774
+History,64,44.444,93.993
+History,65,45.139,94.188
+History,66,45.833,94.382
+History,67,46.528,94.577
+History,68,47.222,94.771
+History,69,47.917,94.966
+History,70,48.611,95.161
+History,71,49.306,95.331
+History,72,50.0,95.501
+History,73,50.694,95.671
+History,74,51.389,95.841
+History,75,52.083,95.987
+History,76,52.778,96.133
+History,77,53.472,96.279
+History,78,54.167,96.425
+History,79,54.861,96.571
+History,80,55.556,96.717
+History,81,56.25,96.863
+History,82,56.944,96.984
+History,83,57.639,97.106
+History,84,58.333,97.228
+History,85,59.028,97.349
+History,86,59.722,97.471
+History,87,60.417,97.568
+History,88,61.111,97.665
+History,89,61.806,97.763
+History,90,62.5,97.86
+History,91,63.194,97.957
+History,92,63.889,98.054
+History,93,64.583,98.127
+History,94,65.278,98.2
+History,95,65.972,98.273
+History,96,66.667,98.346
+History,97,67.361,98.419
+History,98,68.056,98.492
+History,99,68.75,98.565
+History,100,69.444,98.638
+History,101,70.139,98.711
+History,102,70.833,98.784
+History,103,71.528,98.833
+History,104,72.222,98.881
+History,105,72.917,98.93
+History,106,73.611,98.979
+History,107,74.306,99.027
+History,108,75.0,99.076
+History,109,75.694,99.125
+History,110,76.389,99.173
+History,111,77.083,99.222
+History,112,77.778,99.27
+History,113,78.472,99.319
+History,114,79.167,99.368
+History,115,79.861,99.416
+History,116,80.556,99.465
+History,117,81.25,99.514
+History,118,81.944,99.562
+History,119,82.639,99.611
+History,120,83.333,99.66
+History,121,84.028,99.708
+History,122,84.722,99.732
+History,123,85.417,99.757
+History,124,86.111,99.781
+History,125,86.806,99.805
+History,126,87.5,99.83
+History,127,88.194,99.854
+History,128,88.889,99.878
+History,129,89.583,99.903
+History,130,90.278,99.927
+History,131,90.972,99.951
+History,132,91.667,99.976
+History,133,92.361,100.0
+History,134,93.056,100.0
+History,135,93.75,100.0
+History,136,94.444,100.0
+History,137,95.139,100.0
+History,138,95.833,100.0
+History,139,96.528,100.0
+History,140,97.222,100.0
+History,141,97.917,100.0
+History,142,98.611,100.0
+History,143,99.306,100.0
+History,144,100.0,100.0

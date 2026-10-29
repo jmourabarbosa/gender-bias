@@ -1,0 +1,18 @@
+{
+ "id": "GEO-02",
+ "title": "Non-White scientists appear on fewer editorial boards, spend more time under review, and receive fewer citations",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10068789",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-02/article.json",
+  "other-biases-data/06-geography/GEO-02/article.xml",
+  "other-biases-data/06-geography/GEO-02/page.html",
+  "other-biases-data/06-geography/GEO-02/source.pdf",
+  "other-biases-data/06-geography/GEO-02/supplementary/pnas.2215324120.sapp.pdf",
+  "other-biases-data/06-geography/GEO-02/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-02/figures/GEO-02_fig1.jpg"
+ ],
+ "notes": "MATCHES. Abstract (PDF p.1): 'most countries in Asia, Africa, and South America ... have fewer editors than would be expected based on their share of authorship'. Fig. 1B: France has an editorship/authorship ratio just below 1."
+}

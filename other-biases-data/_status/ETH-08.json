@@ -1,0 +1,19 @@
+{
+ "id": "ETH-08",
+ "title": "Race, ethnicity, and NIH research awards (Ginther et al. 2011, Science)",
+ "url_used": "s3://pmc-oa-opendata/PMC3412416.1/ (PMC3412416 author manuscript XML+TXT)",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-08/article.json",
+  "other-biases-data/03-ethnic/ETH-08/article.txt",
+  "other-biases-data/03-ethnic/ETH-08/article.xml",
+  "other-biases-data/03-ethnic/ETH-08/data/ETH-08.csv",
+  "other-biases-data/03-ethnic/ETH-08/data/ETH-08_models.csv",
+  "other-biases-data/03-ethnic/ETH-08/notes.md",
+  "other-biases-data/03-ethnic/ETH-08/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-08/figures/ETH-08_redraw.png"
+ ],
+ "notes": "PMC author manuscript XML/TXT (no PDF/figures in OA bucket; PMC site challenge not bypassed); Black -13.2 pp raw, -10.4 pp adjusted: MATCH; redraw from text"
+}

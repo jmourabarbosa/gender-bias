@@ -1,0 +1,8 @@
+year,n_recruited_concours,mcf_endo_pct,pr_endo_pct,pr_endo_scope,mcf_foreign_pct,pr_foreign_pct,source_note,source_file,pages,loc_id
+2018,1433,18,45,incl. agrégés du supérieur,14,12,"DGRH note n°8, juillet 2019",other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2018.pdf,endo p1+p2+fig3 p3; foreign p1+p4,LOC-03
+2019,1367,17,41,incl. agrégés du supérieur,16,11,"DGRH note n°7, septembre 2020",other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2019.pdf,endo p1+fig3 p3 (body text p2 says 18% MCF); foreign p1+p4,LOC-03
+2020,1444,20,47,excl. agrégés du supérieur,18,12,"DGRH note n°8, septembre 2021",other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2020.pdf,endo p1+p2+fig4 p3; foreign p1+p4 (PR excl. agrégés),LOC-03
+2021,1449,18,46,excl. agrégés du supérieur,20,11,"DGRH note n°8, septembre 2022",other-biases-data/01-localism/LOC-03/source.pdf,endo p1+p2+fig4 p3; foreign p1+p4 (PR excl. agrégés),LOC-03
+2022,1730,19,57,incl. agrégés and art. 46-3,23,10,"DGRH note n°7, septembre 2023",other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2022.pdf,endo p1+p2+fig4 p3; foreign p1+p4,LOC-03
+2023,1836,19,54,incl. agrégés and art. 46-3,18.5,11,"DGRH note n°3, 2025",other-biases-data/01-localism/LOC-02/source.pdf,endo p1+p2+fig4 p3; foreign p1+p4,LOC-02
+2024,2015,23,54,incl. agrégés and art. 46-3,23.5,7.9,"DGRH note n°2, 2026",other-biases-data/01-localism/LOC-01/source.pdf,endo p1+p2+fig4 p3; foreign p1+p3+fig6 p4,LOC-01

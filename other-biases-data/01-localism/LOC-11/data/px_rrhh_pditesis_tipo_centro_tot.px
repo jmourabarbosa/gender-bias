@@ -1,0 +1,32 @@
+AXIS-VERSION="2006";
+CREATION-DATE="20260623";
+CHARSET="ANSI";
+SUBJECT-AREA="Resultados nacionales";
+SUBJECT-CODE="PDITESIS";
+MATRIX="PX_BASE";
+TITLE="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia por tipo de centro";
+CONTENTS="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia";
+CODEPAGE="iso-8859-15";
+DESCRIPTION="%PDI que ha leído la tesis en la misma universidad en la que imparte docencia por tipo de centro";
+COPYRIGHT=YES;
+NOTE="1) (.) Dato omitido por falta de representatividad o para preservar el secret"
+"o estadístico#(..) No existe la desagregación o dato no disponible.#Se calcul"
+"a para universidades presenciales.#En el Curso 2024-2025 la Universidad de la"
+"s Hespérides no  facilitó los datos correspondientes de su personal.";
+DECIMALS=2;
+SHOWDECIMALS=2;
+STUB="Tipo de universidad";
+HEADING="Tipo de centro","Indicador","Periodo";
+VALUES("Tipo de universidad")="Total","Pública","Privada";
+VALUES("Tipo de centro")="Total","Centro propio","Centro adscrito";
+VALUES("Indicador")="% PDI que lee la tesis en la universidad en la que es docente",
+"% PDI que lee la tesis en la CCAA en la que es docente";
+VALUES("Periodo")="2015-2016","2016-2017","2017-2018","2018-2019","2019-2020","2020-2021","2021-2022",
+"2022-2023","2023-2024","2024-2025";
+PRECISION("Indicador","% PDI que lee la tesis en la CCAA en la que es docente")=2;
+SOURCE="Sistema Integrado de Información Universitaria (SIIU)";
+UNITS="Porcentaje";
+DATA=69.17 68.95 68.83 68.69 68.42 67.89 67.71 67.32 66.78 66.01 85.97 86.21 86.2 86.11 85.95 85.56 85.28 84.97 84.74 84.35 70.15 70.15 70.09 69.94 69.66 69.15 68.8 68.43 67.91 67.03 86.45 86.77 86.73 86.6 86.42 86.05 85.76 85.52 85.31 84.9 42.89 40.04 40.51 39.94 39.93 38.94 39.49 39.42 38.46 39.28
+ 73.11 72.72 74.14 74.81 75.13 74.39 73.03 71.29 70.45 69.93 73.09 73.45 73.49 73.57 73.29 72.94 73.16 73.1 73.03 72.77 86.99 87.4 87.53 87.52 87.37 87.04 86.94 86.78 86.73 86.58 73.88 74.43 74.56 74.7 74.42 74.11 74.14 74.06 73.96 73.6 87.21 87.66 87.76 87.79 87.61 87.32 87.19 87.03 86.91 86.77
+ 50.46 47.81 47.67 46.33 46.41 45.15 46.65 47.45 47.54 48.99 80.48 80.45 81.83 81.05 81.61 80.41 80.14 80.15 81.67 81.04 32.16 31.52 32.89 31.76 31.52 30.33 29.27 28.21 26.97 25.78 76.33 76.31 75.96 75.48 75.25 74.54 73.6 72.76 72.06 71.05 34.04 33.48 34.74 33.33 33.11 31.83 30.62 29.63 28.44 27.07
+ 79.02 79.1 78.6 77.52 77.34 76.46 75.5 75.11 74.85 73.48 1.94 3.41 5.04 4.1 4.28 3.5 3.63 3.65 3.27 3.16 33.24 36.27 36.01 39.75 39.49 40.08 37.4 31.84 26.99 28.57;

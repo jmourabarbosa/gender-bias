@@ -1,0 +1,19 @@
+{
+ "id": "GEO-09",
+ "title": "Who is telling the story? A systematic review of authorship for infectious disease research conducted in Africa, 1980-2016",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6830283",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-09/article.json",
+  "other-biases-data/06-geography/GEO-09/article.xml",
+  "other-biases-data/06-geography/GEO-09/data/GEO-09.csv",
+  "other-biases-data/06-geography/GEO-09/source.pdf",
+  "other-biases-data/06-geography/GEO-09/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-09/figures/GEO-09_fig3.jpg",
+  "other-biases-data/06-geography/GEO-09/figures/GEO-09_fig4.jpg",
+  "other-biases-data/06-geography/GEO-09/figures/GEO-09_redraw.png"
+ ],
+ "notes": "MATCHES (49.8%). Abstract (PDF p.1), Results p.3: of 1182 articles, 1109 (93.2%) had at least one Africa-based author, 552 (49.8%) an African first author, 41.3% (n=458) an African last author."
+}

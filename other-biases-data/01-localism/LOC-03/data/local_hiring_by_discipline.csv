@@ -1,0 +1,57 @@
+year,corps,discipline,neo_recrutement_pct,endo_recrutement_pct,mutation_detachement_pct,source_note,figure_page
+2018,MCF,Droit-Économie-Gestion,60,21,19,"DGRH note n°8, juillet 2019",fig3 p3
+2018,MCF,Lettres-Sciences humaines,73,16,11,"DGRH note n°8, juillet 2019",fig3 p3
+2018,MCF,Sciences-Techniques,73,18,8,"DGRH note n°8, juillet 2019",fig3 p3
+2018,MCF,Toutes disciplines,70,18,12,"DGRH note n°8, juillet 2019",fig3 p3
+2018,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°8, juillet 2019",fig3 p3
+2018,PR,Lettres-Sciences humaines,37,46,16,"DGRH note n°8, juillet 2019",fig3 p3
+2018,PR,Sciences-Techniques,36,55,9,"DGRH note n°8, juillet 2019",fig3 p3
+2018,PR,Toutes disciplines,38,45,17,"DGRH note n°8, juillet 2019",fig3 p3
+2019,MCF,Droit-Économie-Gestion,64,18,17,"DGRH note n°7, septembre 2020",fig3 p3
+2019,MCF,Lettres-Sciences humaines,71,19,10,"DGRH note n°7, septembre 2020",fig3 p3
+2019,MCF,Sciences-Techniques,77,14,9,"DGRH note n°7, septembre 2020",fig3 p3
+2019,MCF,Toutes disciplines,71,17,11,"DGRH note n°7, septembre 2020",fig3 p3
+2019,PR,Droit-Économie-Gestion,50,18,33,"DGRH note n°7, septembre 2020",fig3 p3
+2019,PR,Lettres-Sciences humaines,42,41,17,"DGRH note n°7, septembre 2020",fig3 p3
+2019,PR,Sciences-Techniques,39,53,8,"DGRH note n°7, septembre 2020",fig3 p3
+2019,PR,Toutes disciplines,42,41,17,"DGRH note n°7, septembre 2020",fig3 p3
+2020,MCF,Droit-Économie-Gestion,65,20,15,"DGRH note n°8, septembre 2021",fig4 p3
+2020,MCF,Lettres-Sciences humaines,70,20,10,"DGRH note n°8, septembre 2021",fig4 p3
+2020,MCF,Sciences-Techniques,70,19,11,"DGRH note n°8, septembre 2021",fig4 p3
+2020,MCF,Toutes disciplines,69,20,12,"DGRH note n°8, septembre 2021",fig4 p3
+2020,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°8, septembre 2021",fig4 p3
+2020,PR,Lettres-Sciences humaines,42,45,13,"DGRH note n°8, septembre 2021",fig4 p3
+2020,PR,Sciences-Techniques,33,58,9,"DGRH note n°8, septembre 2021",fig4 p3
+2020,PR,Toutes disciplines,35,47,18,"DGRH note n°8, septembre 2021",fig4 p3
+2021,MCF,Droit-Économie-Gestion,66,19,15,"DGRH note n°8, septembre 2022",fig4 p3
+2021,MCF,Lettres-Sciences humaines,69,20,10,"DGRH note n°8, septembre 2022",fig4 p3
+2021,MCF,Sciences-Techniques,77,15,9,"DGRH note n°8, septembre 2022",fig4 p3
+2021,MCF,Toutes disciplines,71,18,11,"DGRH note n°8, septembre 2022",fig4 p3
+2021,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°8, septembre 2022",fig4 p3
+2021,PR,Lettres-Sciences humaines,47,40,12,"DGRH note n°8, septembre 2022",fig4 p3
+2021,PR,Sciences-Techniques,36,60,4,"DGRH note n°8, septembre 2022",fig4 p3
+2021,PR,Toutes disciplines,38,46,16,"DGRH note n°8, septembre 2022",fig4 p3
+2022,MCF,Droit-Économie-Gestion,62,15,22,"DGRH note n°7, septembre 2023",fig4 p3
+2022,MCF,Lettres-Sciences humaines,71,17,13,"DGRH note n°7, septembre 2023",fig4 p3
+2022,MCF,Sciences-Techniques,71,20,9,"DGRH note n°7, septembre 2023",fig4 p3
+2022,MCF,Toutes disciplines,68,19,13,"DGRH note n°7, septembre 2023",fig4 p3
+2022,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°7, septembre 2023",fig4 p3
+2022,PR,Lettres-Sciences humaines,34,54,12,"DGRH note n°7, septembre 2023",fig4 p3
+2022,PR,Sciences-Techniques,26,70,5,"DGRH note n°7, septembre 2023",fig4 p3
+2022,PR,Toutes disciplines,31,57,12,"DGRH note n°7, septembre 2023",fig4 p3
+2023,MCF,Droit-Économie-Gestion,62,21,17,"DGRH note n°3, 2025",fig4 p3
+2023,MCF,Lettres-Sciences humaines,71,17,12,"DGRH note n°3, 2025",fig4 p3
+2023,MCF,Sciences-Techniques,75,17,8,"DGRH note n°3, 2025",fig4 p3
+2023,MCF,Toutes disciplines,70,19,11,"DGRH note n°3, 2025",fig4 p3
+2023,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°3, 2025",fig4 p3
+2023,PR,Lettres-Sciences humaines,42,45,12,"DGRH note n°3, 2025",fig4 p3
+2023,PR,Sciences-Techniques,28,67,5,"DGRH note n°3, 2025",fig4 p3
+2023,PR,Toutes disciplines,33,54,13,"DGRH note n°3, 2025",fig4 p3
+2024,MCF,Droit-Économie-Gestion,68,17,15,"DGRH note n°2, 2026",fig4 p3
+2024,MCF,Lettres-Sciences humaines,66,24,11,"DGRH note n°2, 2026",fig4 p3
+2024,MCF,Sciences-Techniques,69,23,9,"DGRH note n°2, 2026",fig4 p3
+2024,MCF,Toutes disciplines,66,23,10,"DGRH note n°2, 2026",fig4 p3
+2024,PR,Droit-Économie-Gestion,41,26,33,"DGRH note n°2, 2026",fig4 p3
+2024,PR,Lettres-Sciences humaines,43,46,10,"DGRH note n°2, 2026",fig4 p3
+2024,PR,Sciences-Techniques,25,68,7,"DGRH note n°2, 2026",fig4 p3
+2024,PR,Toutes disciplines,35,54,11,"DGRH note n°2, 2026",fig4 p3

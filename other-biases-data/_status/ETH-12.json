@@ -1,0 +1,25 @@
+{
+ "id": "ETH-12",
+ "title": "Intersectional inequalities in science (Kozlowski et al. 2022, PNAS)",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8764684.1/",
+ "file_paths": [
+  "other-biases-data/03-ethnic/ETH-12/article.json",
+  "other-biases-data/03-ethnic/ETH-12/article.xml",
+  "other-biases-data/03-ethnic/ETH-12/data/ETH-12.csv",
+  "other-biases-data/03-ethnic/ETH-12/notes.md",
+  "other-biases-data/03-ethnic/ETH-12/source.pdf",
+  "other-biases-data/03-ethnic/ETH-12/supplementary/pnas.2113067119.sapp.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/03-ethnic/ETH-12/figures/ETH-12_fig1.png",
+  "other-biases-data/03-ethnic/ETH-12/figures/ETH-12_fig2.jpg",
+  "other-biases-data/03-ethnic/ETH-12/figures/ETH-12_fig3.jpg",
+  "other-biases-data/03-ethnic/ETH-12/figures/ETH-12_fig4.jpg",
+  "other-biases-data/03-ethnic/ETH-12/figures/ETH-12_redraw.png",
+  "other-biases-data/03-ethnic/ETH-12/figures/pnas.2113067119fig01.jpg",
+  "other-biases-data/03-ethnic/ETH-12/figures/pnas.2113067119fig02.jpg",
+  "other-biases-data/03-ethnic/ETH-12/figures/pnas.2113067119fig03.jpg"
+ ],
+ "notes": "+29% public-health articles if authors matched 2010 Census (p.6; SI Fig S4): MATCH"
+}

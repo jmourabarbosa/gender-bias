@@ -1,0 +1,22 @@
+{
+ "id": "GEO-01",
+ "title": "Leading countries in global science increasingly receive more citations than other countries doing similar research",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9314251 (PMC OA bucket, first pass)",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-01/article.json",
+  "other-biases-data/06-geography/GEO-01/article.xml",
+  "other-biases-data/06-geography/GEO-01/page.html",
+  "other-biases-data/06-geography/GEO-01/page1.html",
+  "other-biases-data/06-geography/GEO-01/source.pdf",
+  "other-biases-data/06-geography/GEO-01/supplementary/41562_2022_1351_MOESM1_ESM.pdf",
+  "other-biases-data/06-geography/GEO-01/supplementary/41562_2022_1351_MOESM2_ESM.pdf",
+  "other-biases-data/06-geography/GEO-01/supplementary/41562_2022_1351_MOESM3_ESM.pdf",
+  "other-biases-data/06-geography/GEO-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/06-geography/GEO-01/figures/GEO-01_fig6.jpg",
+  "other-biases-data/06-geography/GEO-01/figures/GEO-01_fig8.jpg"
+ ],
+ "notes": "MATCHES (periphery under-cited, gap growing). PDF p.3: 'the gap between core and periphery countries is growing substantially over time, as core countries are increasingly overcited ... while peripheral countries are increasingly undercited' (Fig. 3b)."
+}

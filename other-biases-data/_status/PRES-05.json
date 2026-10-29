@@ -1,0 +1,29 @@
+{
+ "id": "PRES-05",
+ "title": "Systematic inequality and hierarchy in faculty hiring networks",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4644075 (PMC OA bucket, first pass)",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-05/article.json",
+  "other-biases-data/05-prestige/PRES-05/article.xml",
+  "other-biases-data/05-prestige/PRES-05/data/PRES-05_lorenz.csv",
+  "other-biases-data/05-prestige/PRES-05/data/PRES-05_top25_share.csv",
+  "other-biases-data/05-prestige/PRES-05/source.pdf",
+  "other-biases-data/05-prestige/PRES-05/supplementary/1400005_Datasets.zip",
+  "other-biases-data/05-prestige/PRES-05/supplementary/1400005_SM.pdf",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 1. Business_edgelist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 2. Business_vertexlist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 3. ComputerScience_edgelist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 4. ComputerScience_vertexlist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 5. History_edgelist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/datasets/Dataset 6. History_vertexlist.txt",
+  "other-biases-data/05-prestige/PRES-05/supplementary/supp_1_1_e1400005__index.html",
+  "other-biases-data/05-prestige/PRES-05/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-05/figures/PRES-05_fig1.jpg",
+  "other-biases-data/05-prestige/PRES-05/figures/PRES-05_fig2.jpg",
+  "other-biases-data/05-prestige/PRES-05/figures/PRES-05_redraw.png"
+ ],
+ "notes": "MATCHES (71-86%; recomputation reproduces 71.2-85.7%). PDF p.2: 'only 25% of institutions producing 71 to 86% of all tenure-track faculty'. Recomputed from Datasets 1-6 (in-sample PhD origins only, 'All others' vertex excluded): top 25% of institutions produce 71.2% (business), 78.3% (computer science), 85.7% (history)."
+}

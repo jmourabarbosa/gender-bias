@@ -1,0 +1,21 @@
+{
+ "id": "NAT-01",
+ "title": "L'état de l'emploi scientifique en France, rapport 2025 (MESR)",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-05/l-tat-de-l-emploi-scientifique-en-france---rapport-2025-36858.pdf",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-01/data/NAT-01_foreign_pipeline.csv",
+  "other-biases-data/04-nationality/NAT-01/data/NAT-01_redraw.csv",
+  "other-biases-data/04-nationality/NAT-01/notes.md",
+  "other-biases-data/04-nationality/NAT-01/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_fig1.png",
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_fig2.png",
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_fig3.png",
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_fig4.png",
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_fig5.png",
+  "other-biases-data/04-nationality/NAT-01/figures/NAT-01_redraw.png"
+ ],
+ "notes": "Foreign share 42% PhD graduates (2018) -> 20.8% permanent recruits (2022) -> 7.8% tenured EC (end 2022): MATCH (p.11, Tab.09-11 pp.142-143, Tab.17 p.147); pipeline CSV in data/"
+}

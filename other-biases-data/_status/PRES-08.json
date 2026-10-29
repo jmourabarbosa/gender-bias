@@ -1,0 +1,16 @@
+{
+ "id": "PRES-08",
+ "title": "Les dépenses de R&D des entreprises en 2024 (données provisoires)",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-04/nf-sies-2026-06-39988.pdf",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-08/data/PRES-08.csv",
+  "other-biases-data/05-prestige/PRES-08/source.pdf",
+  "other-biases-data/05-prestige/PRES-08/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-08/figures/PRES-08_fig1.png",
+  "other-biases-data/05-prestige/PRES-08/figures/PRES-08_redraw.png"
+ ],
+ "notes": "MATCHES (~42%). PDF p.2: 'En Île-de-France, les entreprises réalisent 17,5 Md€ de dépenses intérieures de R&D en 2024, soit 42 % de la DIRDE totale et emploient 39 % des effectifs de R&D'. Map values sum to 41.87 bn (metropolitan) vs 41.9 bn total; IdF 17.52/41.87 = 41.8%."
+}

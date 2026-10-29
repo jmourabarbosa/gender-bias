@@ -1,0 +1,15 @@
+{
+ "id": "PRES-07",
+ "title": "La position scientifique de la France dans le monde et en Europe 2005-2018 (Hcéres-OST, édition 2021)",
+ "url_used": "https://www.hceres.fr/sites/default/files/media/downloads/hceres_ost_positionnement_scientifique_france_edition_2021.pdf (failed); secondary: https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2023-11/-le-de-france-pdf-30114.pdf",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-07/data/PRES-07.csv",
+  "other-biases-data/05-prestige/PRES-07/secondary_mesr_strater_idf.pdf",
+  "other-biases-data/05-prestige/PRES-07/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [
+  "other-biases-data/05-prestige/PRES-07/figures/PRES-07_redraw.png"
+ ],
+ "notes": "MATCHES via secondary source (34.5%, year 2019); primary Hcéres report not verified. Secondary source secondary_mesr_strater_idf.pdf (MESR diagnostic territorial Île-de-France, Nov 2023), PDF p.3: 'Les publications scientifiques régionales représentent 34,5 % de la production nationale (1er rang) en 2019' (OST data). Same page also says 3.6% of European output in the text but 16.1% of European publications in the key-figures box (internal inconsistency, not used)."
+}

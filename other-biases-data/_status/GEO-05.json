@@ -1,0 +1,15 @@
+{
+ "id": "GEO-05",
+ "title": "The role of geographic bias in knowledge diffusion: a systematic review and narrative synthesis",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6961296",
+ "file_paths": [
+  "other-biases-data/06-geography/GEO-05/article.json",
+  "other-biases-data/06-geography/GEO-05/article.xml",
+  "other-biases-data/06-geography/GEO-05/source.pdf",
+  "other-biases-data/06-geography/GEO-05/supplementary/41073_2019_88_MOESM1_ESM.xlsx",
+  "other-biases-data/06-geography/GEO-05/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "MATCHES (3 RCTs, 2 found bias). Abstract (PDF p.1): 'only three were randomized and controlled studies'; 'Two of the three included studies identified that geographic bias in some form was impacting on peer review'."
+}

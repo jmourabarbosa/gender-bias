@@ -1,0 +1,12 @@
+{
+ "id": "PRES-03",
+ "title": "The Matthew Effect in Science",
+ "url_used": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=5634379 (record only)",
+ "file_paths": [
+  "other-biases-data/05-prestige/PRES-03/pubmed_record.xml",
+  "other-biases-data/05-prestige/PRES-03/notes.md"
+ ],
+ "access_status": "paywalled",
+ "figures_extracted": [],
+ "notes": "Concept only - nothing to check (no number).. No full text obtained. PubMed record has no abstract (1968)."
+}

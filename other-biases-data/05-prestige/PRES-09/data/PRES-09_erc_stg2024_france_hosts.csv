@@ -1,0 +1,22 @@
+host_institution,count,type
+CNRS,25,national research organisation
+Inria,3,national research organisation
+Inserm,2,national research organisation
+École polytechnique,2,school
+Sorbonne Université,1,university
+Université de Haute-Alsace,1,university
+Université de Versailles Saint-Quentin-en-Yvelines,1,university
+Université Paris-Saclay,1,university
+Université de Bordeaux,1,university
+Université de Lorraine,1,university
+Université Claude Bernard Lyon 1,1,university
+Université de Rennes,1,university
+Fondation nationale des sciences politiques (Sciences Po),1,foundation/association
+Fondation Jean-Jacques Laffont - TSE,1,foundation/association
+Armines,1,foundation/association
+École normale supérieure (ENS),1,school
+ENSAI,1,school
+Institut Pasteur,1,institute
+Institut du cerveau (ICM),1,institute
+Observatoire de la Côte d'Azur,1,observatory
+CEA,1,national research organisation
