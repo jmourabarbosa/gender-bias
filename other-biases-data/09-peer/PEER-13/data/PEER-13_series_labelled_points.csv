@@ -1,0 +1,10 @@
+year,corps,taux_qualification_pct,source
+2015,MCF,62.9,Note DGRH n°8-2025 fig.3 p.2 (labelled point)
+2015,PR,63.0,Note DGRH n°8-2025 fig.3 p.2 (labelled point)
+2020,MCF,61.1,Note DGRH n°8-2025 fig.3 p.2 (labelled point)
+2020,PR,66.7,Note DGRH n°8-2025 fig.3 p.2 (labelled point)
+2022,PR,58.9,Note DGRH n°8-2025 fig.3 p.2 (labelled point)
+2023,MCF,63.5,Bilan provisoire 2024 p.3 text (2023 definitive)
+2023,PR,59.9,Bilan provisoire 2024 p.3 text (2023 definitive)
+2024,MCF,64.8,Bilan provisoire 2024 p.3 (provisional; definitive note n°8-2025 p.2 rounds to 65)
+2024,PR,59.4,Bilan provisoire 2024 p.3 (provisional; definitive note rounds to 59)

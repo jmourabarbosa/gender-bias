@@ -1,0 +1,22 @@
+{
+ "id": "PEER-05",
+ "title": "Boudreau et al. 2016, novelty and evaluation",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5062254.1/ (author manuscript)",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-05/article.json",
+  "other-biases-data/09-peer/PEER-05/article.xml",
+  "other-biases-data/09-peer/PEER-05/figures/PEER-05_fig1.jpg",
+  "other-biases-data/09-peer/PEER-05/figures/nihms754933f1.jpg",
+  "other-biases-data/09-peer/PEER-05/figures/nihms754933f2.jpg",
+  "other-biases-data/09-peer/PEER-05/figures/nihms754933f3.jpg",
+  "other-biases-data/09-peer/PEER-05/figures/nihms754933f4.jpg",
+  "other-biases-data/09-peer/PEER-05/notes.md",
+  "other-biases-data/09-peer/PEER-05/page.html",
+  "other-biases-data/09-peer/PEER-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-05/figures/PEER-05_fig1.jpg"
+ ],
+ "notes": "Key number MATCH (qualitative): highly novel proposals scored lower (abstract p.1; inverted-U Fig.3 p.28); 2,130 randomised evaluator-proposal pairs."
+}

@@ -1,0 +1,12 @@
+{
+ "id": "DATA-05",
+ "title": "TeO2 microdata (Insee / INED)",
+ "url_used": "https://www.insee.fr/fr/metadonnees/source/operation/s2086/acces-micro-donnees",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-05/notes.md",
+  "other-biases-data/10-datasets/DATA-05/page.html"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [],
+ "notes": "USER ACTION: microdata need a Quetelet-Progedo/CASD application; access page saved only."
+}

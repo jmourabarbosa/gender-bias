@@ -1,0 +1,16 @@
+{
+ "id": "PEER-07",
+ "title": "Mahoney 1977, confirmation bias in peer review",
+ "url_used": "https://pages.stern.nyu.edu/~wstarbuc/Writing/Prejud.htm",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-07/data/PEER-07.csv",
+  "other-biases-data/09-peer/PEER-07/figures/PEER-07_redraw.png",
+  "other-biases-data/09-peer/PEER-07/notes.md",
+  "other-biases-data/09-peer/PEER-07/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-07/figures/PEER-07_redraw.png"
+ ],
+ "notes": "Key number MATCH: summary recommendation 3.2 (positive results) vs 1.8 (negative) on 0-6 scale, identical manuscripts (Table I, web transcription); redraw from data/PEER-07.csv."
+}

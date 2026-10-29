@@ -1,4 +1,4 @@
-"""anr_fetch_by_year.py OUTDIR -- ANR_01 (DOS/DGDS) since-2010 projects+partners via tabular-api.data.gouv.fr CSV
+"""anr_fetch_by_year.py OUTDIR [partenaires|projets ...] -- ANR_01 (DOS/DGDS) since-2010 projects+partners via tabular-api.data.gouv.fr CSV
 export, split by decision-code year (ANR-YY-) because the full-file export is refused (403) and
 static.data.gouv.fr resets every connection through this proxy. Writes one merged CSV per table."""
 import sys, io, csv, time, requests
@@ -13,7 +13,7 @@ def get(url, params):
     for i in range(25):
         try:
             r = requests.get(url, params=params, timeout=(20, 180))
-            if r.status_code == 200 and r.content.startswith(b"__id"):
+            if r.status_code == 200 and (r.content.startswith(b"__id") or r.content.startswith(b"Projet.")):
                 return r.content.decode("utf-8")
             print("http", r.status_code, params, r.text[:120], flush=True)
         except Exception:
@@ -22,7 +22,10 @@ def get(url, params):
     raise SystemExit(f"gave up {params}")
 
 
+only = sys.argv[2:]  # optional subset of table names
 for name, (rid, cols) in RES.items():
+    if only and name not in only:
+        continue
     rows, header = [], None
     for yy in range(10, 27):
         p = {"Projet.Code_Decision__contains": f"ANR-{yy:02d}-"}

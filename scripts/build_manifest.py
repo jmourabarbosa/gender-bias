@@ -1,10 +1,10 @@
 """Rebuild gender-bias-data/manifest.csv from the per-source _status/<ID>.json files."""
-import csv, json
+import csv, json, os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "gender-bias-data"
-rows = list(csv.DictReader(open(ROOT / "sources.csv")))
+DATA = ROOT / os.environ.get("DATA_DIR", "gender-bias-data")
+rows = list(csv.DictReader(open(ROOT / os.environ.get("SOURCES_CSV", "sources.csv"))))
 cols = ["id", "title", "url_used", "file_paths", "access_status", "figures_extracted", "notes"]
 with open(DATA / "manifest.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=cols)

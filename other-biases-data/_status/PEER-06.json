@@ -1,0 +1,15 @@
+{
+ "id": "PEER-06",
+ "title": "Wang, Veugelers & Stephan 2017, bias against novelty",
+ "url_used": "https://www.nber.org/papers/w22180.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-06/figures/PEER-06_fig1.png",
+  "other-biases-data/09-peer/PEER-06/notes.md",
+  "other-biases-data/09-peer/PEER-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-06/figures/PEER-06_fig1.png"
+ ],
+ "notes": "Key number MATCH: odds of a big hit 39.82% higher for highly novel papers (p.13); crossing curves Fig.2 p.24."
+}

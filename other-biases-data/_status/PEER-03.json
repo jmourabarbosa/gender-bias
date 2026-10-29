@@ -1,0 +1,15 @@
+{
+ "id": "PEER-03",
+ "title": "Pier et al. 2018, NIH reviewer agreement",
+ "url_used": "https://www.Gwern.net/doc/statistics/peer-review/2018-pier.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-03/figures/PEER-03_fig1.png",
+  "other-biases-data/09-peer/PEER-03/notes.md",
+  "other-biases-data/09-peer/PEER-03/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-03/figures/PEER-03_fig1.png"
+ ],
+ "notes": "Key number MATCH: ICC = 0 for ratings of the same applications (p.2; Fig.2 p.3)."
+}

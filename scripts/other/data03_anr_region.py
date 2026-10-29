@@ -50,18 +50,22 @@ with open(f"{D}/data/anr_region_share.csv", "w", newline="") as f:
 for r in rows:
     print(r["year"], r["idf_share_of_known_region_pct"], r["pct_funding_with_region"], round(r["total_anr_partner_eur"] / 1e6, 1))
 
-ok = [r for r in rows if r["pct_funding_with_region"] and r["pct_funding_with_region"] >= 90]
-low = [r for r in rows if r not in ok and r["idf_share_of_known_region_pct"] != ""]
+partial = [r for r in rows[-1:] if r["total_anr_partner_eur"] < 0.6 * rows[-2]["total_anr_partner_eur"]]  # call still in progress
+ok = [r for r in rows if r["pct_funding_with_region"] and r["pct_funding_with_region"] >= 90 and r not in partial]
+low = [r for r in rows if r not in ok and r not in partial and r["idf_share_of_known_region_pct"] != ""]
 fig, ax = plt.subplots(figsize=(7.5, 4.3))
 ax.plot([r["year"] for r in ok], [r["idf_share_of_known_region_pct"] for r in ok], "o-", color="black", lw=2)
 if low:
     ax.plot([r["year"] for r in low], [r["idf_share_of_known_region_pct"] for r in low], "o", color="white", mec="grey",
             label="<90% of funding has a region (not comparable)")
-    ax.legend(frameon=False, fontsize=9, loc="lower left")
+for r in partial:
+    ax.plot([r["year"]], [r["idf_share_of_known_region_pct"]], "^", color="grey", label=f'{r["year"]} (call results still partial)')
+    ax.text(r["year"], r["idf_share_of_known_region_pct"] + 0.8, f'{r["idf_share_of_known_region_pct"]:.0f}', ha="center", fontsize=8, color="grey")
+ax.legend(frameon=False, fontsize=9, loc="lower left")
 for r in ok:
     ax.text(r["year"], r["idf_share_of_known_region_pct"] + 0.8, f'{r["idf_share_of_known_region_pct"]:.0f}', ha="center", fontsize=8)
-ax.axhline(18.8, color="grey", ls="--", lw=1)
-ax.text(rows[0]["year"], 19.6, "Île-de-France share of French population (~19%)", fontsize=8, color="dimgrey")
+ax.axhline(18.2, color="grey", ls="--", lw=1)
+ax.text(rows[0]["year"], 19.0, "Île-de-France share of French population (~18%, Insee 2024)", fontsize=8, color="dimgrey")
 ax.set_ylim(0, 50)
 ax.set_ylabel("Île-de-France share of ANR funding\n(% of partner allocations with a region)", fontsize=10)
 ax.set_xlabel("Call year (AAP edition)" if edition else "Year in ANR decision code", fontsize=10)

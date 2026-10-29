@@ -1,0 +1,24 @@
+{
+ "id": "PEER-09",
+ "title": "Liu et al. 2020, NZ HRC lottery",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6996170.1/",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-09/article.json",
+  "other-biases-data/09-peer/PEER-09/article.xml",
+  "other-biases-data/09-peer/PEER-09/data/PEER-09_table4.csv",
+  "other-biases-data/09-peer/PEER-09/figures/41073_2019_89_Fig1_HTML.jpg",
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_fig1.jpg",
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_fig2.png",
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_redraw.png",
+  "other-biases-data/09-peer/PEER-09/notes.md",
+  "other-biases-data/09-peer/PEER-09/source.pdf",
+  "other-biases-data/09-peer/PEER-09/supplementary/41073_2019_89_MOESM1_ESM.docx"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_fig1.jpg",
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_fig2.png",
+  "other-biases-data/09-peer/PEER-09/figures/PEER-09_redraw.png"
+ ],
+ "notes": "Key number MATCH: 63% (79) find lottery acceptable (p.1); by outcome 78% lottery winners vs 44% panel-declined (Table 4 p.6). reCAPTCHA page.html deleted."
+}

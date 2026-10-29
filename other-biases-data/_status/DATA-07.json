@@ -1,0 +1,12 @@
+{
+ "id": "DATA-07",
+ "title": "OpenAlex (OurResearch)",
+ "url_used": "https://api.openalex.org/works?filter=institutions.country_code:FR,publication_year:2023&group_by=authorships.institutions.id&mailto=joaoifodase@gmail.com",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-07/notes.md",
+  "other-biases-data/10-datasets/DATA-07/page.html"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "Tried once: HTTP 429 (shared IP daily budget exhausted); query recorded in notes.md; rerun after midnight UTC or with an API key."
+}

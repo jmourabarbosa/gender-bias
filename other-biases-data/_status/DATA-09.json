@@ -1,0 +1,23 @@
+{
+ "id": "DATA-09",
+ "title": "US faculty hiring networks (Larremore lab)",
+ "url_used": "https://zenodo.org/api/records/22099839/files/us-faculty-hiring-networks-v2026.08.zip/content (latest version of 10.5281/zenodo.6941650)",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-09/data/DATA-09_lorenz_academia.csv",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08.zip",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08/README.md",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08/data/edge-lists.csv",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08/data/institution-stats.csv",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08/data/stats.csv",
+  "other-biases-data/10-datasets/DATA-09/data/us-faculty-hiring-networks-v2026.08/data/yearly-stats.csv",
+  "other-biases-data/10-datasets/DATA-09/data/zenodo_record.json",
+  "other-biases-data/10-datasets/DATA-09/figures/DATA-09_redraw.png",
+  "other-biases-data/10-datasets/DATA-09/notes.md",
+  "other-biases-data/10-datasets/DATA-09/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-09/figures/DATA-09_redraw.png"
+ ],
+ "notes": "Zenodo v2026.08 zip (3.7 MB) + extracted CSVs; our Lorenz curve: 21.5% of US PhD-granting universities trained 80% of US-trained faculty (paper 20.4%, PRES-06 key number MATCH)."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "PEER-17",
+ "title": "CoARA French chapter",
+ "url_used": "https://www.enssib.fr/bibliotheque-numerique/documents/71623-coara-french-chapter.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-17/data/PEER-17.csv",
+  "other-biases-data/09-peer/PEER-17/figures/PEER-17_fig1.png",
+  "other-biases-data/09-peer/PEER-17/figures/PEER-17_redraw.png",
+  "other-biases-data/09-peer/PEER-17/notes.md",
+  "other-biases-data/09-peer/PEER-17/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-17/figures/PEER-17_fig1.png",
+  "other-biases-data/09-peer/PEER-17/figures/PEER-17_redraw.png"
+ ],
+ "notes": "Key number MATCH: 49 French signatories at 31 Aug 2023 = 32 universities + 4 schools + 13 NROs/agencies (slide 8, PDF p.9)."
+}

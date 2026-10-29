@@ -1,0 +1,13 @@
+{
+ "id": "PEER-15",
+ "title": "DORA, Inserm profile",
+ "url_used": "https://sfdora.org/institutions/inserm/ ; https://pro.inserm.fr/wp-content/uploads/2026/03/DR2-Criteres-Evaluation_CSS.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-15/inserm_DR2_criteres_CSS.pdf",
+  "other-biases-data/09-peer/PEER-15/notes.md",
+  "other-biases-data/09-peer/PEER-15/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Key number MATCH: 2021 evaluation finds strong dependence on traditional metrics (DORA profile); Inserm DR2 criteria PDF p.1 says do not use IF (DORA signatory 2018)."
+}

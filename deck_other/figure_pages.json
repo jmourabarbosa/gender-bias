@@ -1,0 +1,157 @@
+{
+ "o11_trend": {
+  "id": "LOC-01",
+  "label": null,
+  "page": "data from 2019-2026 notes"
+ },
+ "o12_odds": {
+  "id": "LOC-06",
+  "label": null,
+  "page": "data from Fig. 1, p. 15"
+ },
+ "o13_spain": {
+  "id": "LOC-11",
+  "label": null,
+  "page": "ministry tables"
+ },
+ "o21_levels": {
+  "id": "SOC-01",
+  "label": null,
+  "page": "saved page"
+ },
+ "o22_ge": {
+  "id": "SOC-05",
+  "label": null,
+  "page": "data from Fig. 4.1, p. 93"
+ },
+ "o23_phd": {
+  "id": "SOC-06",
+  "label": null,
+  "page": "data from Fig. 6a, p. 6"
+ },
+ "o31_teo": {
+  "id": "ETH-01",
+  "label": null,
+  "page": "data from Fig. 1, p. 1"
+ },
+ "o32_masters": {
+  "id": "ETH-02",
+  "label": null,
+  "page": "data from Tables 3-4, pp. 16-17"
+ },
+ "o33_acadiscri": {
+  "id": "ETH-04",
+  "label": null,
+  "page": "data from Table 4, p. 15"
+ },
+ "o34_nih": {
+  "id": "ETH-11",
+  "label": null,
+  "page": "data from Box 1, p. 5"
+ },
+ "o41_pipe": {
+  "id": "NAT-01",
+  "label": null,
+  "page": "data from pp. 11, 139-147"
+ },
+ "o42_mcfpr": {
+  "id": "NAT-02",
+  "label": null,
+  "page": "data from graph, p. 4"
+ },
+ "o43_english": {
+  "id": "NAT-07",
+  "label": null,
+  "page": "data from pp. 4-5"
+ },
+ "o44_homophily": {
+  "id": "NAT-09",
+  "label": null,
+  "page": "data from Fig. 2B, p. 4"
+ },
+ "o51_nobel": {
+  "id": "PRES-01",
+  "label": null,
+  "page": "data from Fig. 1, p. 3"
+ },
+ "o52_lorenz": {
+  "id": "PRES-06",
+  "label": null,
+  "page": "data from Fig. 2, p. 3"
+ },
+ "o53_idf": {
+  "id": "PRES-08",
+  "label": null,
+  "page": "data from Carte 1, p. 2"
+ },
+ "o54_anr": {
+  "id": "DATA-03",
+  "label": null,
+  "page": "our computation"
+ },
+ "o61_abstracts": {
+  "id": "GEO-03",
+  "label": null,
+  "page": "data from Table 2, pp. 36-37"
+ },
+ "o62_africa": {
+  "id": "GEO-09",
+  "label": null,
+  "page": "data from Figs 3-4"
+ },
+ "o63_apc": {
+  "id": "GEO-06",
+  "label": null,
+  "page": "data from Table 5, p. 31"
+ },
+ "o71_posts": {
+  "id": "PREC-03",
+  "label": null,
+  "page": "data from campaign notes 2008-2025"
+ },
+ "o72_contracts": {
+  "id": "PREC-01",
+  "label": null,
+  "page": "data from Fig. 2, p. 2"
+ },
+ "o73_age": {
+  "id": "PREC-05",
+  "label": null,
+  "page": "data from Fig. 3, p. 2"
+ },
+ "o74_leave": {
+  "id": "PREC-11",
+  "label": null,
+  "page": "data from Fig. 4D, p. 4"
+ },
+ "o81_disability": {
+  "id": "DIS-01",
+  "label": null,
+  "page": "data from p. 18"
+ },
+ "o82_lgbt": {
+  "id": "DIS-07",
+  "label": null,
+  "page": "data from p. 11"
+ },
+ "o91_neurips": {
+  "id": "PEER-01",
+  "label": null,
+  "page": "data from Table 1, p. 4"
+ },
+ "o92_confirm": {
+  "id": "PEER-07",
+  "label": null,
+  "page": "data from Table I"
+ },
+ "o93_cnu": {
+  "id": "PEER-13",
+  "label": null,
+  "page": "data from Fig. 3, p. 3"
+ },
+ "o94_lottery": {
+  "id": "PEER-10",
+  "label": null,
+  "page": "data from Table 1 and Fig. 2, pp. 9-10"
+ }
+}

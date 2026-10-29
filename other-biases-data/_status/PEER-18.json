@@ -1,0 +1,11 @@
+{
+ "id": "PEER-18",
+ "title": "Hcéres-OST Inserm indicators 2020",
+ "url_used": "https://hceres.fr/rapport-indicateurs-2020-Inserm",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-18/notes.md"
+ ],
+ "access_status": "failed",
+ "figures_extracted": [],
+ "notes": "hceres.fr returned HTTP 503 (site in maintenance) on 2026-10-29, retried twice; no alternative copy found; key number (14% of French output, impact 1.3) NOT VERIFIED - retry later."
+}

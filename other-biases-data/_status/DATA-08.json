@@ -1,0 +1,21 @@
+{
+ "id": "DATA-08",
+ "title": "NCSES Survey of Earned Doctorates (NSF)",
+ "url_used": "https://ncses.nsf.gov/pubs/nsf24300/assets/nsf24300.pdf ; figure data nsf24300-fig013/014.xlsx",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-08/data/DATA-08.csv",
+  "other-biases-data/10-datasets/DATA-08/data/nsf24300-fig013.xlsx",
+  "other-biases-data/10-datasets/DATA-08/data/nsf24300-fig014.xlsx",
+  "other-biases-data/10-datasets/DATA-08/figures/DATA-08_fig1.png",
+  "other-biases-data/10-datasets/DATA-08/figures/DATA-08_redraw.png",
+  "other-biases-data/10-datasets/DATA-08/notes.md",
+  "other-biases-data/10-datasets/DATA-08/page.html",
+  "other-biases-data/10-datasets/DATA-08/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-08/figures/DATA-08_fig1.png",
+  "other-biases-data/10-datasets/DATA-08/figures/DATA-08_redraw.png"
+ ],
+ "notes": "Fig.14 (p.22): parent with bachelor's+ 78% White, 76% Asian vs 54% Black, 56% Hispanic, 51% AIAN (2022); xlsx + redraw. No key number listed."
+}

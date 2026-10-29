@@ -1,0 +1,18 @@
+{
+ "id": "PEER-02",
+ "title": "Cortes & Lawrence 2021, NeurIPS 2014 revisited",
+ "url_used": "https://arxiv.org/pdf/2109.09774",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-02/figures/PEER-02_fig1.png",
+  "other-biases-data/09-peer/PEER-02/figures/PEER-02_fig2.png",
+  "other-biases-data/09-peer/PEER-02/notes.md",
+  "other-biases-data/09-peer/PEER-02/page.html",
+  "other-biases-data/09-peer/PEER-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-02/figures/PEER-02_fig1.png",
+  "other-biases-data/09-peer/PEER-02/figures/PEER-02_fig2.png"
+ ],
+ "notes": "Key number MATCH: 50% of variation in reviewer scores subjective (p.1); committees agreed on ~51% of accepts (Table 1 p.3); score vs citations rho=0.051 (Fig.4 p.7)."
+}

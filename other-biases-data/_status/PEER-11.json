@@ -1,0 +1,17 @@
+{
+ "id": "PEER-11",
+ "title": "Volkswagen Foundation partial randomization, via DORA 2025",
+ "url_used": "https://sfdora.org/2025/03/27/insights-on-partial-randomization-in-research-funding-learnings-from-the-volkswagen-foundation/ ; https://www.volkswagenstiftung.de/sites/default/files/documents/Fo%201%2B2%202020_Roebbecke_Simon_0.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-11/figures/PEER-11_fig1.png",
+  "other-biases-data/09-peer/PEER-11/interim_2020_Roebbecke_Simon.pdf",
+  "other-biases-data/09-peer/PEER-11/notes.md",
+  "other-biases-data/09-peer/PEER-11/page.html",
+  "other-biases-data/09-peer/PEER-11/page2.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-11/figures/PEER-11_fig1.png"
+ ],
+ "notes": "Key number MATCH (qualitative): lottery cohort same outputs, more early-career/women/minority fields (DORA page); interim EvaConsult report Tab.2 p.3 cropped; final cohort-comparison report not found."
+}

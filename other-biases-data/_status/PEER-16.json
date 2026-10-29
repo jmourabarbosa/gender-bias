@@ -1,0 +1,13 @@
+{
+ "id": "PEER-16",
+ "title": "ANR and DORA",
+ "url_used": "https://anr.fr/fr/lanr/engagements/la-declaration-de-san-francisco/ ; https://anr.fr/fileadmin/aap/2026/anr-aapg-2026.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-16/anr-aapg-2026.pdf",
+  "other-biases-data/09-peer/PEER-16/notes.md",
+  "other-biases-data/09-peer/PEER-16/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Key number MATCH: ANR signed DORA 7 Sep 2018; AAPG 2026 text has no narrative-CV requirement (CVs on IRIS; preprints allowed since 2019, p.17)."
+}

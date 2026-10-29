@@ -1,0 +1,18 @@
+{
+ "id": "DATA-11",
+ "title": "CoARA/DORA by-numbers dataset (Zenodo)",
+ "url_used": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx/content",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-11/data/DATA-11_by_country.csv",
+  "other-biases-data/10-datasets/DATA-11/data/eter_coara_dataset_2022.xlsx",
+  "other-biases-data/10-datasets/DATA-11/data/zenodo_record.json",
+  "other-biases-data/10-datasets/DATA-11/figures/DATA-11_redraw.png",
+  "other-biases-data/10-datasets/DATA-11/notes.md",
+  "other-biases-data/10-datasets/DATA-11/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-11/figures/DATA-11_redraw.png"
+ ],
+ "notes": "ETER x CoARA xlsx (3,439 HEIs); France: 45 CoARA signatories (5.7% of HEIs; 36.6% of PhD-awarding HEIs) vs 27.1% Europe-wide. No key number listed."
+}

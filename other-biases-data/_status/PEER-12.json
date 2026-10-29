@@ -1,0 +1,19 @@
+{
+ "id": "PEER-12",
+ "title": "McKiernan et al. 2019, impact factor in promotion",
+ "url_used": "https://cdn.elifesciences.org/articles/47338/elife-47338-v1.pdf",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-12/article.json",
+  "other-biases-data/09-peer/PEER-12/data/PEER-12.csv",
+  "other-biases-data/09-peer/PEER-12/figures/PEER-12_fig1.png",
+  "other-biases-data/09-peer/PEER-12/figures/PEER-12_redraw.png",
+  "other-biases-data/09-peer/PEER-12/notes.md",
+  "other-biases-data/09-peer/PEER-12/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-12/figures/PEER-12_fig1.png",
+  "other-biases-data/09-peer/PEER-12/figures/PEER-12_redraw.png"
+ ],
+ "notes": "Key number MATCH: 40% of R-type institutions mention JIF (Table 2 p.5); 23% overall, 18% M-type, 0% B-type."
+}

@@ -1,0 +1,25 @@
+{
+ "id": "PEER-01",
+ "title": "NeurIPS 2021 consistency experiment",
+ "url_used": "https://blog.neurips.cc/2021/12/08/the-neurips-2021-consistency-experiment ; https://arxiv.org/pdf/2306.03262",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-01/data/PEER-01.csv",
+  "other-biases-data/09-peer/PEER-01/data/PEER-01_table1_5x5.csv",
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_fig1.png",
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_fig2.png",
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_redraw.png",
+  "other-biases-data/09-peer/PEER-01/figures/web_disagreement_vs_acceptance.png",
+  "other-biases-data/09-peer/PEER-01/figures/web_fractionchanged_vs_acceptance.png",
+  "other-biases-data/09-peer/PEER-01/figures/web_results.png",
+  "other-biases-data/09-peer/PEER-01/notes.md",
+  "other-biases-data/09-peer/PEER-01/page.html",
+  "other-biases-data/09-peer/PEER-01/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_fig1.png",
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_fig2.png",
+  "other-biases-data/09-peer/PEER-01/figures/PEER-01_redraw.png"
+ ],
+ "notes": "Key number MATCH: 50.6% of accepted papers rejected by the other committee (blog; arXiv 2306.03262 p.6); 203/882 (23%) inconsistent; 2x2 table transcribed from Table 1 p.4."
+}

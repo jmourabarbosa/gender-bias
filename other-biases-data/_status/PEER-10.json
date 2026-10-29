@@ -1,0 +1,21 @@
+{
+ "id": "PEER-10",
+ "title": "SNSF 2021, drawing lots as a tie-breaker",
+ "url_used": "https://snf.ch/en/JyifP2I9SUo8CPxI/news/news-210331-drawing-lots-as-a-tie-breaker ; https://arxiv.org/pdf/2102.09958",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-10/data/PEER-10.csv",
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_fig1.png",
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_fig2.png",
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_redraw.png",
+  "other-biases-data/09-peer/PEER-10/notes.md",
+  "other-biases-data/09-peer/PEER-10/page.html",
+  "other-biases-data/09-peer/PEER-10/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_fig1.png",
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_fig2.png",
+  "other-biases-data/09-peer/PEER-10/figures/PEER-10_redraw.png"
+ ],
+ "notes": "Key number NOT VERIFIED/possible MISMATCH: ~3% not stated; Heyard et al. pilot: 8 of 181 submissions (4.4%) in draw zone, 4 (2.2%) funded by lot (Table 1 p.8, Fig.2 p.10)."
+}

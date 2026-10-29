@@ -1,0 +1,23 @@
+{
+ "id": "DATA-04",
+ "title": "ERC call statistics (ERC)",
+ "url_used": "https://erc.europa.eu/system/files/2026-09/erc-2026-stg-statistics.pdf ; .../2025-09/erc-2025-stg-statistics.pdf ; .../2025-12/erc-2025-cog-statistics.pdf ; .../2026-06/erc-2025-adg-statistics.pdf",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-04/data/erc-2025-adg-statistics.pdf",
+  "other-biases-data/10-datasets/DATA-04/data/erc-2025-cog-statistics.pdf",
+  "other-biases-data/10-datasets/DATA-04/data/erc-2025-stg-statistics.pdf",
+  "other-biases-data/10-datasets/DATA-04/data/erc_host_country.csv",
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_fig1.png",
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_fig2.png",
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_redraw.png",
+  "other-biases-data/10-datasets/DATA-04/notes.md",
+  "other-biases-data/10-datasets/DATA-04/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_fig1.png",
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_fig2.png",
+  "other-biases-data/10-datasets/DATA-04/figures/DATA-04_redraw.png"
+ ],
+ "notes": "ERC site reachable this time; StG 2025/2026, CoG 2025, AdG 2025 host-country tables transcribed (sum-checked); France 9.0% of StG 2026 grants (38/421, p.3). 2021-2024 calls not found under the guessed URL pattern."
+}

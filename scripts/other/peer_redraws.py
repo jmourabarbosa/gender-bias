@@ -76,3 +76,39 @@ ax.set_xlim(0, 100); ax.set_xlabel("Qualifications délivrées / dossiers examin
 ax.set_title("Qualification CNU 2024 (provisoire) : taux par groupe disciplinaire", fontsize=10.5)
 finish(fig, ax, "Source: MESR-DGRH A1-1, Bilan provisoire de la campagne de qualification 2024 (juillet 2024), figure 3, p. 3", f"{R}/PEER-13/figures/PEER-13_redraw.png")
 print("done")
+
+# PEER-12: JIF mentions by institution type
+rows = list(csv.DictReader(open(f"{R}/PEER-12/data/PEER-12.csv")))
+fig, ax = plt.subplots(figsize=(6.5, 4))
+lab = [r["institution_type"].replace(" (", "\n(") + f'\nn={r["n_institutions"]}' for r in rows]
+v = [float(r["pct"]) for r in rows]
+ax.bar(lab, v, color=["grey", "black", "grey", "grey"], edgecolor="black")
+for i, t in enumerate(v):
+    ax.text(i, t + 1, f"{t:.0f}%", ha="center", fontsize=11)
+ax.set_ylim(0, 50); ax.set_ylabel("% of institutions whose RPT documents\nmention the journal impact factor", fontsize=10)
+ax.tick_params(axis="x", labelsize=9)
+finish(fig, ax, "Source: McKiernan et al. 2019, eLife 8:e47338, Table 2 (US & Canadian review, promotion and tenure documents)", f"{R}/PEER-12/figures/PEER-12_redraw.png")
+
+# PEER-09: support for lottery by funding outcome
+rows = list(csv.DictReader(open(f"{R}/PEER-09/data/PEER-09_table4.csv")))
+r = rows[0]
+groups = [("Funded by\nlottery", "funded_by_lottery"), ("Not funded\nby lottery", "not_funded_by_lottery"), ("Declined by\npanel", "declined_by_panel")]
+v = [100 * int(r[k + "_n"]) / int(r[k + "_N"]) for _, k in groups]
+fig, ax = plt.subplots(figsize=(6, 4))
+ax.bar([g for g, _ in groups], v, color=["black", "grey", "lightgrey"], edgecolor="black")
+for i, (t, (_, k)) in enumerate(zip(v, groups)):
+    ax.text(i, t + 1.5, f'{t:.0f}% ({r[k + "_n"]}/{r[k + "_N"]})', ha="center", fontsize=10)
+ax.set_ylim(0, 100); ax.set_ylabel("% saying a lottery is acceptable\nfor Explorer Grants", fontsize=10)
+finish(fig, ax, "Source: Liu et al. 2020, Research Integrity and Peer Review 5:3, Table 4 (applicants 2013-2018, N = 76)", f"{R}/PEER-09/figures/PEER-09_redraw.png")
+
+# PEER-17: French CoARA signatories by type (Aug 2023)
+rows = [x for x in csv.DictReader(open(f"{R}/PEER-17/data/PEER-17.csv")) if x["type"] != "Total"]
+fig, ax = plt.subplots(figsize=(6.5, 3))
+lab = ["Universities", "Schools", "Research orgs, agencies\n& associations"]
+v = [int(x["n_signatories_2023_08_31"]) for x in rows]
+ax.barh(lab[::-1], v[::-1], color=["grey", "grey", "black"][::-1])
+for i, t in enumerate(v[::-1]):
+    ax.text(t + 0.4, i, str(t), va="center", fontsize=11)
+ax.set_xlabel("French CoARA signatories, 31 Aug 2023 (total 49)", fontsize=10)
+finish(fig, ax, "Source: CoARA French chapter presentation (HAL hal-04264538), slide 8", f"{R}/PEER-17/figures/PEER-17_redraw.png")
+print("extra done")

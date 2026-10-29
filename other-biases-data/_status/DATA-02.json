@@ -1,0 +1,38 @@
+{
+ "id": "DATA-02",
+ "title": "Other MESR open datasets (contract staff, doctoral students, qualification, recruitment) (MESR-SIES)",
+ "url_used": "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/<id>/exports/csv?delimiter=%3B (8 datasets, ids in notes.md)",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_doctorants_by_year.csv",
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_idf_concentration_comparison.csv",
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_iuf_idf_share.csv",
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_nonpermanent_by_group.csv",
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_nonpermanent_vs_tenured.csv",
+  "other-biases-data/10-datasets/DATA-02/data/DATA-02_researcher_recruits_nationality.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-effectifs-doctorants-docteurs-ecoles-doctorales-financements-doctorants-c.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-effectifs-doctorants-docteurs-ecoles-doctorales-financements-doctorants-c.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-enseignants-nonpermanents-esr-public.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-enseignants-nonpermanents-esr-public.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-chercheurs-recrutements-departs-discipline.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-chercheurs-recrutements-departs-discipline.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-chercheurs-recrutements-nationalites.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-chercheurs-recrutements-nationalites.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-recrutements-departs.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-epst-epic-fondations-recrutements-departs.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-iuf-les-membres.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-iuf-les-membres.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-nouveaux-inscrits-doctorat-diplome-de-plus-haut-niveau-france-etranger.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-nouveaux-inscrits-doctorat-diplome-de-plus-haut-niveau-france-etranger.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-tbes-personnels-epst-epic-fondation-par-type-contrat-emploi.csv",
+  "other-biases-data/10-datasets/DATA-02/data/fr-esr-tbes-personnels-epst-epic-fondation-par-type-contrat-emploi.metadata.json",
+  "other-biases-data/10-datasets/DATA-02/figures/DATA-02_redraw.png",
+  "other-biases-data/10-datasets/DATA-02/figures/DATA-02_redraw2_idf_concentration.png",
+  "other-biases-data/10-datasets/DATA-02/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-02/figures/DATA-02_redraw.png",
+  "other-biases-data/10-datasets/DATA-02/figures/DATA-02_redraw2_idf_concentration.png"
+ ],
+ "notes": "8 full CSV exports (non-permanent staff, doctoral funding, researcher recruitment by nationality, IUF...); thesis-duration export failed (resets); no CNU-qualification dataset exists. Non-permanent share of teaching staff 27.2% (2012) -> 33.8% (2024). No key number listed."
+}

@@ -1,0 +1,19 @@
+{
+ "id": "DATA-03",
+ "title": "ANR funded projects and partners (ANR)",
+ "url_used": "https://tabular-api.data.gouv.fr/api/resources/{4b576f41-8f4a-4f0f-860a-98eca420f3b9,87d29a24-392e-4a29-a009-83eddcff3e66,0d691519-9a6c-4d66-a2e0-b9a8b3938968,51cba202-da27-4f95-9337-0ff5aae7e6ae}/data/csv/ (static.data.gouv.fr blocked by connection resets)",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-03/data/anr-dgds-2005-2009-partenaires.csv",
+  "other-biases-data/10-datasets/DATA-03/data/anr-dgds-depuis-2010-partenaires.csv",
+  "other-biases-data/10-datasets/DATA-03/data/anr-dgds-depuis-2010-projets.csv",
+  "other-biases-data/10-datasets/DATA-03/data/anr-dgpie-depuis-2010-partenaires.csv",
+  "other-biases-data/10-datasets/DATA-03/data/anr_region_share.csv",
+  "other-biases-data/10-datasets/DATA-03/figures/DATA-03_redraw.png",
+  "other-biases-data/10-datasets/DATA-03/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-03/figures/DATA-03_redraw.png"
+ ],
+ "notes": "ANR_01 partners+projects since 2010 exported year by year via tabular API; Île-de-France receives 34-38% of ANR partner funding each year 2011-2025 (36.4% in 2025) -> data/anr_region_share.csv + redraw. No key number listed."
+}

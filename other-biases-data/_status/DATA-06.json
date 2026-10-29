@@ -1,0 +1,12 @@
+{
+ "id": "DATA-06",
+ "title": "Céreq Génération surveys (Céreq)",
+ "url_used": "https://www.insee.fr/fr/statistiques/fichier/5762573/BFE-presentation-enquetes-generation.pdf",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-06/notes.md",
+  "other-biases-data/10-datasets/DATA-06/source.pdf"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [],
+ "notes": "USER ACTION: microdata need a Quetelet-Progedo account; 1-page survey presentation saved; Céreq Bref tables not collected."
+}

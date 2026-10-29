@@ -1,0 +1,19 @@
+{
+ "id": "DATA-01",
+ "title": "Tenured higher-education staff open data (MESR-SIES)",
+ "url_used": "copied from gender-bias-data/10-datasets/DATA-01/data (export https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-enseignants-titulaires-esr-public/exports/csv?delimiter=%3B)",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-01/data/DATA-01_by_year_age_category.csv",
+  "other-biases-data/10-datasets/DATA-01/data/DATA-01_by_year_region_category.csv",
+  "other-biases-data/10-datasets/DATA-01/data/aggregated_by_year_sex_category_section.csv",
+  "other-biases-data/10-datasets/DATA-01/data/dataset_metadata.json",
+  "other-biases-data/10-datasets/DATA-01/data/fr-esr-enseignants-titulaires-esr-public.csv.gz",
+  "other-biases-data/10-datasets/DATA-01/figures/DATA-01_redraw.png",
+  "other-biases-data/10-datasets/DATA-01/notes.md"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-01/figures/DATA-01_redraw.png"
+ ],
+ "notes": "Full export copied (gz, not re-downloaded); new region and age aggregates; Île-de-France holds 28.1% of PR and 24.7% of MCF in 2024 (flat since 2010). No key number listed."
+}

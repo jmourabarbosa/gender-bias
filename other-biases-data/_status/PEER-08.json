@@ -1,0 +1,18 @@
+{
+ "id": "PEER-08",
+ "title": "Fang & Casadevall 2016, modified lottery",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4959526.1/",
+ "file_paths": [
+  "other-biases-data/09-peer/PEER-08/article.json",
+  "other-biases-data/09-peer/PEER-08/article.xml",
+  "other-biases-data/09-peer/PEER-08/figures/PEER-08_fig1.jpg",
+  "other-biases-data/09-peer/PEER-08/figures/mbo0021627730001.jpg",
+  "other-biases-data/09-peer/PEER-08/notes.md",
+  "other-biases-data/09-peer/PEER-08/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/09-peer/PEER-08/figures/PEER-08_fig1.jpg"
+ ],
+ "notes": "Key number MATCH: paylines >50% when designed vs ~10% today (p.1, text only); Fig.1 is the lottery scheme (no payline time series in article). reCAPTCHA page.html deleted."
+}

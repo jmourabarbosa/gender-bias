@@ -1,0 +1,16 @@
+{
+ "id": "DATA-10",
+ "title": "Nature Index Research Leaders (Springer Nature)",
+ "url_used": "https://www.nature.com/nature-index/research-leaders/2026/country/all/global",
+ "file_paths": [
+  "other-biases-data/10-datasets/DATA-10/data/nature_index_2026_country_all_global.csv",
+  "other-biases-data/10-datasets/DATA-10/figures/DATA-10_redraw.png",
+  "other-biases-data/10-datasets/DATA-10/notes.md",
+  "other-biases-data/10-datasets/DATA-10/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/10-datasets/DATA-10/figures/DATA-10_redraw.png"
+ ],
+ "notes": "Export CSV link returned 403; top-50 country table parsed from saved page.html; France 6th (Share 2025 = 2,850.8). Institution table not collected."
+}
