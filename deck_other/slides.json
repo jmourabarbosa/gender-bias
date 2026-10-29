@@ -37,15 +37,18 @@
    "refs": [
     [
      "MESR-DGRH Note n°2-2026",
-     "LOC-01"
+     "LOC-01",
+     "DGRH note 2-2026"
     ],
     [
      "MESR-DGRH trajectory notes 2019-2025",
-     "LOC-03"
+     "LOC-03",
+     "DGRH notes 2019-2025"
     ],
     [
      "MESR-DGRH Note n°1-2026",
-     "LOC-04"
+     "LOC-04",
+     "DGRH note 1-2026"
     ]
    ],
    "note": "",
@@ -64,11 +67,13 @@
    "refs": [
     [
      "Godechot, Issiakou, Renisio & Rougier (2025) Books & Ideas",
-     "LOC-06"
+     "LOC-06",
+     "Godechot et al. 2025"
     ],
     [
      "Godechot & Louvet (2008) La Vie des idées",
-     "LOC-05"
+     "LOC-05",
+     "Godechot & Louvet 2008"
     ]
    ],
    "note": "",
@@ -88,15 +93,18 @@
    "refs": [
     [
      "Spanish ministry, Estadística de Personal de las Universidades",
-     "LOC-11"
+     "LOC-11",
+     "Spanish ministry (EPU)"
     ],
     [
      "Sanz-Menéndez & Cruz-Castro (2006), via press",
-     "LOC-12"
+     "LOC-12",
+     "Sanz-Menéndez & Cruz-Castro 2006"
     ],
     [
      "Portugal inbreeding data (SEDES)",
-     "LOC-13"
+     "LOC-13",
+     "Portugal (SEDES)"
     ],
     [
      "Horta, Veloso & Grediaga (2010) Management Science",
@@ -125,11 +133,13 @@
    "refs": [
     [
      "Observatoire des inégalités, from MESR data",
-     "SOC-01"
+     "SOC-01",
+     "Observatoire des inégalités"
     ],
     [
      "Céreq Bref n°452 (2024)",
-     "SOC-04"
+     "SOC-04",
+     "Céreq 2024"
     ]
    ],
    "note": "",
@@ -148,11 +158,13 @@
    "refs": [
     [
      "Bonneau, Charousset, Grenet & Thebault (2021) IPP report 30",
-     "SOC-05"
+     "SOC-05",
+     "Bonneau et al. 2021"
     ],
     [
      "Martin-Kleinbauer & Maurin (2025) Observatoire des inégalités",
-     "SOC-02"
+     "SOC-02",
+     "Martin-Kleinbauer & Maurin 2025"
     ]
    ],
    "note": "",
@@ -179,7 +191,8 @@
     ],
     [
      "Sutton Trust (2009)",
-     "SOC-08"
+     "SOC-08",
+     "Sutton Trust 2009"
     ]
    ],
    "note": "",
@@ -204,11 +217,13 @@
    "refs": [
     [
      "Insee, statistiques ethniques",
-     "ETH-01"
+     "ETH-01",
+     "Insee"
     ],
     [
      "TeO2 survey, Insee Première n°1911",
-     "ETH-06"
+     "ETH-06",
+     "Insee Première 1911"
     ]
    ],
    "note": "",
@@ -227,11 +242,13 @@
    "refs": [
     [
      "Chareyron, Erb & L'Horty (2022) TEPP report",
-     "ETH-02"
+     "ETH-02",
+     "Chareyron et al. 2022"
     ],
     [
      "IPP Note 76 / Dares Analyses n°67 (2021)",
-     "ETH-03"
+     "ETH-03",
+     "IPP/Dares 2021"
     ]
    ],
    "note": "",
@@ -250,11 +267,13 @@
    "refs": [
     [
      "Cognet, Hajjat, Hamel et al. (2022) ACADISCRI",
-     "ETH-04"
+     "ETH-04",
+     "Cognet et al. 2022"
     ],
     [
      "Défenseur des droits (2024)",
-     "ETH-05"
+     "ETH-05",
+     "Défenseur des droits 2024"
     ]
    ],
    "note": "",
@@ -310,15 +329,18 @@
    "refs": [
     [
      "MESR, L'état de l'emploi scientifique 2025",
-     "NAT-01"
+     "NAT-01",
+     "MESR emploi scientifique 2025"
     ],
     [
      "Petit (CNRS CEO) interview",
-     "NAT-04"
+     "NAT-04",
+     "Petit interview"
     ],
     [
      "CNRS guide concours chercheurs",
-     "NAT-03"
+     "NAT-03",
+     "CNRS guide"
     ]
    ],
    "note": "",
@@ -337,11 +359,13 @@
    "refs": [
     [
      "MESR-DGRH Note n°2-2026",
-     "NAT-02"
+     "NAT-02",
+     "DGRH note 2-2026"
     ],
     [
      "Passeport talent testimony (2026)",
-     "NAT-05"
+     "NAT-05",
+     "Passeport talent testimony"
     ]
    ],
    "note": "",
@@ -461,19 +485,23 @@
    "refs": [
     [
      "MESR-SIES Note Flash 2026-06",
-     "PRES-08"
+     "PRES-08",
+     "SIES note 2026-06"
     ],
     [
      "Hcéres-OST (2021), via MESR",
-     "PRES-07"
+     "PRES-07",
+     "Hcéres-OST 2021"
     ],
     [
      "L'Etudiant, Idex season 1",
-     "PRES-10"
+     "PRES-10",
+     "L'Etudiant"
     ],
     [
      "ERC StG 2024 French results",
-     "PRES-09"
+     "PRES-09",
+     "ERC StG 2024"
     ]
    ],
    "note": "",
@@ -492,15 +520,18 @@
    "refs": [
     [
      "ANR open data on data.gouv.fr, our computation",
-     "DATA-03"
+     "DATA-03",
+     "ANR open data"
     ],
     [
      "MESR tenured staff open data",
-     "DATA-01"
+     "DATA-01",
+     "MESR staff data"
     ],
     [
      "MESR open datasets",
-     "DATA-02"
+     "DATA-02",
+     "MESR open data"
     ]
    ],
    "source": "Sources: ANR open data on data.gouv.fr, our computation; MESR tenured staff open data; MESR open datasets."
@@ -525,11 +556,13 @@
    "refs": [
     [
      "Harris et al. (2017) Health Affairs",
-     "GEO-03"
+     "GEO-03",
+     "Harris et al. 2017a"
     ],
     [
      "Harris et al. (2017) Globalization and Health",
-     "GEO-04"
+     "GEO-04",
+     "Harris et al. 2017b"
     ],
     [
      "Skopec et al. (2020) Research Integrity and Peer Review",
@@ -613,15 +646,18 @@
    "refs": [
     [
      "MESR-DGRH campaign notes 2008-2025",
-     "PREC-03"
+     "PREC-03",
+     "DGRH campaign notes"
     ],
     [
      "MESR-DGRH Note n°7-2022 (2021 campaign)",
-     "PREC-04"
+     "PREC-04",
+     "DGRH note 7-2022"
     ],
     [
      "SNESUP dossier n°734 (2025)",
-     "PREC-02"
+     "PREC-02",
+     "SNESUP 2025"
     ]
    ],
    "source": "Sources: MESR-DGRH campaign notes 2008-2025; MESR-DGRH Note n°7-2022 (2021 campaign); SNESUP dossier n°734 (2025)."
@@ -640,15 +676,18 @@
    "refs": [
     [
      "MESR-DGRH Note n°6-2025",
-     "PREC-01"
+     "PREC-01",
+     "DGRH note 6-2025"
     ],
     [
      "Assemblée nationale question n°1155 (2025)",
-     "PREC-09"
+     "PREC-09",
+     "AN question 1155"
     ],
     [
      "MESR-SIES Note Flash n°14 (2025)",
-     "PREC-08"
+     "PREC-08",
+     "SIES note 14-2025"
     ]
    ],
    "source": "Sources: MESR-DGRH Note n°6-2025; Assemblée nationale question n°1155 (2025); MESR-SIES Note Flash n°14 (2025)."
@@ -667,11 +706,13 @@
    "refs": [
     [
      "MESR-DGRH Note n°3-2025",
-     "PREC-05"
+     "PREC-05",
+     "DGRH note 3-2025"
     ],
     [
      "Cour des comptes, CNRS 2013-2023",
-     "PREC-07"
+     "PREC-07",
+     "Cour des comptes 2024"
     ],
     [
      "Antman et al. (2021) JCI",
@@ -701,7 +742,8 @@
     ],
     [
      "Nature postdoc survey (2020)",
-     "PREC-14"
+     "PREC-14",
+     "Nature survey 2020"
     ]
    ],
    "source": "Sources: Milojević, Radicchi & Walsh (2018) PNAS; Andalib, Ghaffarzadegan & Larson (2018) Syst Res Behav Sci; Nature postdoc survey (2020)."
@@ -726,11 +768,13 @@
    "refs": [
     [
      "SNESUP Métier n°743 (2026)",
-     "DIS-01"
+     "DIS-01",
+     "SNESUP 2026"
     ],
     [
      "Inserm disability plan",
-     "DIS-03"
+     "DIS-03",
+     "Inserm plan"
     ],
     [
      "Swenor, Munoz & Meeks (2020) PLoS ONE",
@@ -738,7 +782,8 @@
     ],
     [
      "NCSES Diversity and STEM (2023)",
-     "DIS-11"
+     "DIS-11",
+     "NCSES 2023"
     ]
    ],
    "source": "Sources: SNESUP Métier n°743 (2026); Inserm disability plan; Swenor, Munoz & Meeks (2020) PLoS ONE; NCSES Diversity and STEM (2023)."
@@ -757,11 +802,13 @@
    "refs": [
     [
      "MESR guide on LGBTI-phobia (2026)",
-     "DIS-07"
+     "DIS-07",
+     "MESR guide 2026"
     ],
     [
      "ACADISCRI (2022)",
-     "DIS-04"
+     "DIS-04",
+     "ACADISCRI 2022"
     ],
     [
      "Cech & Waidzunas (2021) Science Advances",
@@ -769,7 +816,8 @@
     ],
     [
      "IOP, RAS & RSC (2019)",
-     "DIS-09"
+     "DIS-09",
+     "IOP/RAS/RSC 2019"
     ]
    ],
    "source": "Sources: MESR guide on LGBTI-phobia (2026); ACADISCRI (2022); Cech & Waidzunas (2021) Science Advances; IOP, RAS & RSC (2019)."
@@ -794,7 +842,8 @@
    "refs": [
     [
      "Beygelzimer et al. (2023), NeurIPS 2021 consistency experiment",
-     "PEER-01"
+     "PEER-01",
+     "Beygelzimer et al. 2023"
     ],
     [
      "Cortes & Lawrence (2021) arXiv",
@@ -851,7 +900,8 @@
    "refs": [
     [
      "MESR-DGRH, CNU qualification 2024",
-     "PEER-13"
+     "PEER-13",
+     "DGRH qualification 2024"
     ],
     [
      "McKiernan et al. (2019) eLife",
@@ -859,11 +909,13 @@
     ],
     [
      "CNRS evaluation reform",
-     "PEER-14"
+     "PEER-14",
+     "CNRS reform"
     ],
     [
      "CoARA French chapter (2023)",
-     "PEER-17"
+     "PEER-17",
+     "CoARA 2023"
     ]
    ],
    "source": "Sources: MESR-DGRH, CNU qualification 2024; McKiernan et al. (2019) eLife; CNRS evaluation reform; CoARA French chapter (2023)."
@@ -882,7 +934,8 @@
    "refs": [
     [
      "Heyard, Ott, Salanti & Egger (2022) arXiv (SNSF)",
-     "PEER-10"
+     "PEER-10",
+     "Heyard et al. 2022"
     ],
     [
      "Liu et al. (2020) Research Integrity and Peer Review",
@@ -890,7 +943,8 @@
     ],
     [
      "Volkswagen Foundation, via DORA (2025)",
-     "PEER-11"
+     "PEER-11",
+     "Volkswagen Foundation 2025"
     ],
     [
      "Fang & Casadevall (2016) mBio",

@@ -1,6 +1,6 @@
 {
  "o11_trend": {
-  "id": "LOC-01",
+  "id": "LOC-03",
   "label": null,
   "page": "data from 2019-2026 notes"
  },
@@ -12,12 +12,12 @@
  "o13_spain": {
   "id": "LOC-11",
   "label": null,
-  "page": "ministry tables"
+  "page": null
  },
  "o21_levels": {
   "id": "SOC-01",
   "label": null,
-  "page": "saved page"
+  "page": null
  },
  "o22_ge": {
   "id": "SOC-05",
@@ -30,7 +30,7 @@
   "page": "data from Fig. 6a, p. 6"
  },
  "o31_teo": {
-  "id": "ETH-01",
+  "id": "ETH-06",
   "label": null,
   "page": "data from Fig. 1, p. 1"
  },
@@ -87,7 +87,7 @@
  "o54_anr": {
   "id": "DATA-03",
   "label": null,
-  "page": "our computation"
+  "page": null
  },
  "o61_abstracts": {
   "id": "GEO-03",

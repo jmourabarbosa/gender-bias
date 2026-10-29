@@ -48,8 +48,9 @@ reqs = []
 for slide, refs in links.items():
     fig = figs.get(slide, {})
     parts, spans = [], []
-    for cite, sid in refs:
-        name = short(cite)
+    for ref in refs:
+        cite, sid = ref[0], ref[1]
+        name = ref[2] if len(ref) > 2 else short(cite)
         kind, url = urls[(slide, sid)]
         note = {"publisher": "publisher page", "github-folder": "saved page"}.get(kind)
         if sid == fig.get("id") and fig.get("page"):

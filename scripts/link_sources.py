@@ -45,7 +45,8 @@ for slide_id, refs in links.items():
         box, text, color = slide_id + "_src", s["source"], GREY
     else:  # text slides carry the citation as the last bullet
         box, text, color = slide_id + "_b", "\n".join(b.replace("**", "") for b in s["bullets"]), BLACK
-    for cite, sid in refs:
+    for ref in refs:
+        cite, sid = ref[0], ref[1]
         start = text.find(cite)
         if start < 0:
             sys.exit(f"{slide_id}: citation not found: {cite}")
