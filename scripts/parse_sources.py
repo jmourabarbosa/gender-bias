@@ -1,10 +1,14 @@
-"""Parse SOURCES.md into sources.csv and create the per-source folder layout."""
+"""Parse a source list into a CSV and create the per-source folder layout.
+
+Usage: python3 scripts/parse_sources.py [SOURCES.md sources.csv gender-bias-data]
+"""
 import csv, re, sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-md = (root / "SOURCES.md").read_text()
-data_dir = root / "gender-bias-data"
+md_name, csv_name, data_name = sys.argv[1:4] if len(sys.argv) > 3 else ("SOURCES.md", "sources.csv", "gender-bias-data")
+md = (root / md_name).read_text()
+data_dir = root / data_name
 
 rows, section = [], None
 for line in md.splitlines():
@@ -27,7 +31,7 @@ for line in md.splitlines():
                      dois=" ".join(re.findall(r"10\.\d{4,9}/[^\s;*]+", link)),
                      how=how, extract=extract))
 
-with open(root / "sources.csv", "w", newline="") as f:
+with open(root / csv_name, "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0]))
     w.writeheader(); w.writerows(rows)
 

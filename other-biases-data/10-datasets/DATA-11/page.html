@@ -1,0 +1,1523 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="5fPGCLllnWrvFxH9QWI0l1TadV7byeEvfPcyK2VkS_s"/>
+    <meta name="google-site-verification" content="Rp5zp04IKW-s1IbpTOGB7Z6XY60oloZD5C3kTM-AiY4"/>
+
+    
+    
+    <meta name="generator" content="InvenioRDM 15.0"/>
+
+    
+    
+    
+  
+    <meta name="description" content="This dataset has been created for the study Pölönen, J. &amp; Rushforth, A. (2025) &#34;CoARA by numbers: Research assessment reform uptake in European higher education&#34;, available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education  Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf Field Description ETER ID ETER, unique HEI identifier Institution Name ETER, legal name of the institution English Institution Name ETER, official English translation Reference year ETER, the year to which the data in ETER refer Founding year ETER, year when the institution was established Country ETER, the country where the institution is established CoARAsign2025 1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA) COARAmemb2025 1=institution is member of the Coalition for Advancing Research Assessment (CoARA) CoARAactionplan 1=institution has published an Action plan on CoARA Zenodo community DORA2025 1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA) HR2025 1=institution has the HR Excellence in Research Label Leiden Ranking 1=institution is included in the Leiden Ranking Open Edition 2024 EQAR Number of valid quality assurance reports ETER, 1=institution has at least 1 valid QA report EU-FP projects (number) ETER, Number of EU-FP projects (m = data not available) Alliance member 1=institution is member of European Universities Alliances Alliance name Name of the European Universities Alliance Networks member 1=institution is member of European university networks CESAER 1=institution is member of CESAER network Coimbra Group 1=institution is member of Coimbra Group network LERU - League of European Research Universities 1=institution is member of LERU - League of European Research Universities network The Guild of European Research-Intensive Universities 1=institution is member of The Guild of European Research-Intensive Universities network UNICA - Network of Universities from the Capitals of Europe 1=institution is member of UNICA - Network of Universities from the Capitals of Europe network YERUN - Young European Research Universities 1=institution is member of YERUN - Young European Research Universities network Total academic personnel (HC) ETER, numbers of personnel in headcounts Classification - Institutional control ETER, 0=institution is under public controlor is mostly financed by the state, 1=is privateand mostly funded by private sources Classification - PhD status ETER, 1=the HEI has the legal right to awardthe PhD, 0=otherwise Classification - HEI size ETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs Classification - Education intensity ETER, number of diploma, bachelor and master studentsISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above" />
+    <meta name="citation_title" content="CoARA by numbers dataset" />
+    <meta name="citation_author" content="Pölönen, Janne" />
+    <meta name="citation_author" content="Rushforth, Alex" />
+    <meta name="citation_doi" content="10.5281/zenodo.17846515" />
+    <meta name="citation_keywords" content="CoARA" />
+    <meta name="citation_keywords" content="DORA" />
+    <meta name="citation_keywords" content="HRS4R" />
+    <meta name="citation_keywords" content="EQAR" />
+    <meta name="citation_keywords" content="Higher Education Institutions" />
+    <meta name="citation_keywords" content="Universities" />
+    <meta name="citation_keywords" content="ETER" />
+    <meta name="citation_keywords" content="European Universities Alliances" />
+    <meta name="citation_abstract_html_url" content="https://zenodo.org/records/17846515" />
+    <meta property="og:title" content="CoARA by numbers dataset" />
+    <meta property="og:description" content="This dataset has been created for the study Pölönen, J. &amp; Rushforth, A. (2025) &#34;CoARA by numbers: Research assessment reform uptake in European higher education&#34;, available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education  Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf Field Description ETER ID ETER, unique HEI identifier Institution Name ETER, legal name of the institution English Institution Name ETER, official English translation Reference year ETER, the year to which the data in ETER refer Founding year ETER, year when the institution was established Country ETER, the country where the institution is established CoARAsign2025 1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA) COARAmemb2025 1=institution is member of the Coalition for Advancing Research Assessment (CoARA) CoARAactionplan 1=institution has published an Action plan on CoARA Zenodo community DORA2025 1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA) HR2025 1=institution has the HR Excellence in Research Label Leiden Ranking 1=institution is included in the Leiden Ranking Open Edition 2024 EQAR Number of valid quality assurance reports ETER, 1=institution has at least 1 valid QA report EU-FP projects (number) ETER, Number of EU-FP projects (m = data not available) Alliance member 1=institution is member of European Universities Alliances Alliance name Name of the European Universities Alliance Networks member 1=institution is member of European university networks CESAER 1=institution is member of CESAER network Coimbra Group 1=institution is member of Coimbra Group network LERU - League of European Research Universities 1=institution is member of LERU - League of European Research Universities network The Guild of European Research-Intensive Universities 1=institution is member of The Guild of European Research-Intensive Universities network UNICA - Network of Universities from the Capitals of Europe 1=institution is member of UNICA - Network of Universities from the Capitals of Europe network YERUN - Young European Research Universities 1=institution is member of YERUN - Young European Research Universities network Total academic personnel (HC) ETER, numbers of personnel in headcounts Classification - Institutional control ETER, 0=institution is under public controlor is mostly financed by the state, 1=is privateand mostly funded by private sources Classification - PhD status ETER, 1=the HEI has the legal right to awardthe PhD, 0=otherwise Classification - HEI size ETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs Classification - Education intensity ETER, number of diploma, bachelor and master studentsISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above" />
+    <meta property="og:url" content="https://zenodo.org/records/17846515" />
+    <meta property="og:site_name" content="Zenodo" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@zenodo_org" />
+    <meta name="twitter:title" content="CoARA by numbers dataset" />
+    <meta name="twitter:description" content="This dataset has been created for the study Pölönen, J. &amp; Rushforth, A. (2025) &#34;CoARA by numbers: Research assessment reform uptake in European higher education&#34;, available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education  Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf Field Description ETER ID ETER, unique HEI identifier Institution Name ETER, legal name of the institution English Institution Name ETER, official English translation Reference year ETER, the year to which the data in ETER refer Founding year ETER, year when the institution was established Country ETER, the country where the institution is established CoARAsign2025 1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA) COARAmemb2025 1=institution is member of the Coalition for Advancing Research Assessment (CoARA) CoARAactionplan 1=institution has published an Action plan on CoARA Zenodo community DORA2025 1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA) HR2025 1=institution has the HR Excellence in Research Label Leiden Ranking 1=institution is included in the Leiden Ranking Open Edition 2024 EQAR Number of valid quality assurance reports ETER, 1=institution has at least 1 valid QA report EU-FP projects (number) ETER, Number of EU-FP projects (m = data not available) Alliance member 1=institution is member of European Universities Alliances Alliance name Name of the European Universities Alliance Networks member 1=institution is member of European university networks CESAER 1=institution is member of CESAER network Coimbra Group 1=institution is member of Coimbra Group network LERU - League of European Research Universities 1=institution is member of LERU - League of European Research Universities network The Guild of European Research-Intensive Universities 1=institution is member of The Guild of European Research-Intensive Universities network UNICA - Network of Universities from the Capitals of Europe 1=institution is member of UNICA - Network of Universities from the Capitals of Europe network YERUN - Young European Research Universities 1=institution is member of YERUN - Young European Research Universities network Total academic personnel (HC) ETER, numbers of personnel in headcounts Classification - Institutional control ETER, 0=institution is under public controlor is mostly financed by the state, 1=is privateand mostly funded by private sources Classification - PhD status ETER, 1=the HEI has the legal right to awardthe PhD, 0=otherwise Classification - HEI size ETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs Classification - Education intensity ETER, number of diploma, bachelor and master studentsISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above" />
+    
+    <link rel="alternate" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" href="https://zenodo.org/records/17846515/files/eter_coara_dataset_2022.xlsx">
+    <link rel="item" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" href="https://zenodo.org/records/17846515/files/eter_coara_dataset_2022.xlsx">
+
+
+<link rel="canonical" href="https://zenodo.org/records/17846515">
+      
+      
+      <title>CoARA by numbers dataset | Zenodo</title>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-touch-icon-120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/apple-touch-icon-167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png"/>
+    
+      <link rel="stylesheet" href="/static/dist/css/6874.190253af05cded53.css" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body data-invenio-config='{"isMathJaxEnabled": "//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"}'  itemscope itemtype="http://schema.org/WebPage" data-spy="scroll" data-target=".scrollspy-target">
+      <a id="skip-to-main" class="ui button primary ml-5 mt-5 skip-link" href="#main">Skip to main</a>
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    
+
+<div>
+  <header class="theme header">
+
+    <div class="outer-navbar">
+      <div class="ui container invenio-header-container">
+        <nav id="invenio-nav" class="ui inverted menu borderless p-0">
+          <div class="item logo p-0">
+                      <a class="logo-link" href="https://zenodo.org/">
+                      <img class="ui image rdm-logo"
+                            src="/static/images/invenio-rdm.svg"
+                            alt="Zenodo home"/>
+                    </a>
+          </div>
+
+          <div id="rdm-burger-toggle">
+            <button
+              id="rdm-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Menu"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              aria-controls="invenio-menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <nav
+            id="invenio-menu"
+            aria-labelledby="rdm-burger-menu-icon"
+            class="ui fluid menu borderless mobile-hidden"
+          >
+            <button
+              id="rdm-close-burger-menu-icon"
+              class="ui button transparent"
+              aria-label="Close menu"
+            >
+              <span class="navicon" aria-hidden="true"></span>
+            </button>
+
+    
+        
+          
+        
+    
+      <div class="item p-0 search-bar">
+        <div id="header-search-bar" data-options='[{"key": "communities", "text": "In this community", "value": "/communities/tsv/records"}, {"key": "records", "text": "All Zenodo", "value": "/search"}]'>
+          <div class="ui fluid search">
+            <div class="ui icon input">
+              <input
+                autocomplete="off"
+                aria-label="Search records"
+                placeholder="Search records..."
+                type="text"
+                tabindex="0"
+                class="prompt"
+                value=""
+              >
+              <button class="ui icon button right-floated search" aria-label="Search">
+                <i aria-hidden="true" class="search icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                  <div class="item">
+                    <a href="/communities">Communities</a>
+                  </div>
+
+              
+                <div class="item">
+                  <a href="/me/uploads">My dashboard</a>
+                </div>
+              
+              <div class="right menu item">
+    <form>
+      <a
+        href="/login/?next=/records/17846515"
+        class="ui button auth-button" aria-busy="false" aria-live="polite" aria-label="Log in"
+      >
+        <i class="sign-in icon auth-icon" aria-hidden="true"></i>
+        Log in
+      </a>
+      
+        <a href="/signup/" class="ui button signup">
+          <i class="edit outline icon"></i>
+          Sign up
+        </a>
+      
+    </form>
+              </div>
+          </nav>
+        </nav>
+      </div>
+    </div>
+      
+      
+    
+      
+    
+    
+      
+        <div class="ui info message top attached m-0 inv-banner" id="banner-100">
+          <div class="ui container">
+              <p><strong>Scheduled maintenance:</strong> On Tuesday, November 3rd, Zenodo will be unavailable between 08:00 and 08:15 UTC for an infrastructure upgrade.</p>
+          </div>
+        </div>
+      
+    
+  </header>
+</div>
+
+  <main id="main">
+    <div class="invenio-page-body">
+<span id="detail-share-btn-require-link-expiration"
+        data-share-btn-require-link-expiration='false'>
+
+  <section id="banners" class="banners" aria-label="Information banner">
+    <!-- COMMUNITY HEADER: hide it when displaying the submission request -->
+    
+      
+        
+        
+          <div
+            class="ui fluid container page-subheader-outer with-submenu compact ml-0-mobile mr-0-mobile">
+            <div class="ui container page-subheader">
+              <div class="page-subheader-element">
+                <img
+                  class="ui rounded image community-header-logo"
+                  src="https://zenodo.org/api/communities/8f439e0d-6c73-4a46-892f-20542721b3c6/logo"
+                  alt=""
+                />
+              </div>
+              <div class="page-subheader-element">
+                <div class="ui header">
+                  <a
+                  href="/communities/tsv/records" class="ui small header">
+                    Federation of Finnish Learned Societies (TSV)
+                  </a>
+                  <!-- Show the icon for subcommunities -->
+                  
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        
+      
+    
+    <!-- /COMMUNITY HEADER -->
+
+    <!-- PREVIEW HEADER -->
+    
+    <!-- /PREVIEW HEADER -->
+
+    
+      <div class="ui warning flashed bottom attached manage message">
+        <div class="ui container">
+          <div class="ui relaxed grid">
+            <div class="column">
+              <div class="row">
+                <p>
+                  
+                    There is a <a href="https://zenodo.org/records/17846515/latest"><b>newer version</b></a> of the record
+                    available.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+
+  <div class="ui container">
+    <div class="ui relaxed grid mt-5">
+      <div class="two column row top-padded">
+
+        
+        <article
+          class="sixteen wide tablet eleven wide computer column main-record-content">
+          
+
+              
+
+              
+
+              <section id="record-info"
+                       aria-label="Publication date and version number">
+                <div class="ui grid middle aligned">
+                  <div class="two column row">
+                    <div class="left floated left aligned column">
+                      <span class="ui" title="Publication date">
+                        Published December 7, 2025
+                      </span>
+                      <span
+                        class="label text-muted"> | Version v1</span>
+                    </div>
+                    <div class="right floated right aligned column">
+
+                      
+                      
+                        
+                          
+                        
+                        
+                          
+                        
+                        <a href="/communities/tsv/records?q=&amp;f=resource_type%3Adataset"
+                           role="note"
+                           class="ui label horizontal small neutral mb-5"
+                           aria-label="Resource type"
+                        >
+                          Dataset
+                        </a>
+                      
+
+                      <span role="note"
+                            class="ui label horizontal small access-status open mb-5"
+                            data-tooltip="The record and files are publicly accessible."
+                            data-inverted=""
+                            aria-label="Access status"
+                      >
+                        
+                          <i class="icon unlock"
+                             aria-hidden="true"></i>
+                        
+                        <span
+                          aria-label="The record and files are publicly accessible.">
+                          Open
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="ui divider hidden"></div><section id="record-title-section"
+                       aria-label="Record title, authors and contributors">
+                <h1 id="record-title"
+                    class="wrap-overflowing-text">CoARA by numbers dataset</h1>
+
+                
+                  <section id="creatibutors"
+                           aria-label="Authors and contributors"><div class="ui grid">
+
+  
+    <div id="creators-section" class="row ui accordion affiliations">
+      <div class="sixteen wide mobile twelve wide tablet thirteen wide computer column">
+        <h3 class="sr-only">Authors/Creators</h3>
+        <ul class="creatibutors">
+          
+  
+  <li class="creatibutor-wrap separated"
+      data-affiliation-refs="1"
+      data-affiliations="Federation of Finnish Learned Societies">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Federation of Finnish Learned Societies"
+        data-position="bottom center"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22P%C3%B6l%C3%B6nen,+Janne%22"
+    >
+      <span class="creatibutor-name">Pölönen, Janne
+          (Researcher)</span><sup class="font-tiny">1</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-1649-0879"
+           aria-label="Pölönen, Janne's ORCID profile"
+           title="Pölönen, Janne's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+  <li class="creatibutor-wrap separated"
+      data-affiliation-refs="2"
+      data-affiliations="Universiteit Leiden Centre for Science and Technology Studies">
+    <a class="ui creatibutor-link"
+      
+        data-tooltip="Universiteit Leiden Centre for Science and Technology Studies"
+        data-position="bottom center"
+      
+      href="/search?q=metadata.creators.person_or_org.name:%22Rushforth,+Alex%22"
+    >
+      <span class="creatibutor-name">Rushforth, Alex
+          (Researcher)</span><sup class="font-tiny">2</sup></a>
+  
+
+  
+    
+      
+        
+        <a href="https://orcid.org/0000-0003-3352-943X"
+           aria-label="Rushforth, Alex's ORCID profile"
+           title="Rushforth, Alex's ORCID profile">
+          <img class="ml-5 inline-id-icon"
+               src="/static/images/orcid.svg"
+               alt="ORCID icon"/>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+</li>
+  
+        </ul>
+      </div>
+
+      
+        
+<div id="creators-affiliations-title"
+     class="ui sixteen wide tablet three wide computer column title right aligned bottom aligned">
+  <button class="ui affiliations-button trigger button mini mr-0"
+          aria-controls="creators-affiliations"
+          data-open-text="Show affiliations"
+          data-close-text="Hide affiliations"
+          aria-expanded="false"
+  >
+    Show affiliations
+  </button>
+</div>
+
+<section class="ui sixteen wide column content" id="creators-affiliations" aria-label="Affiliations for creators">
+  
+  <ul>
+    
+    <li data-affiliation-ref="1">
+      1.
+
+      
+        
+        
+
+        
+          <a class="no-text-decoration"
+             href="https://ror.org/02cdzet69"
+             aria-label="Federation of Finnish Learned Societies's ROR profile"
+             title="Federation of Finnish Learned Societies's ROR profile"
+          >
+            <img class="ml-5 inline-id-icon"
+                 src="/static/images/ror-icon.svg"
+                 alt="ROR icon"
+            />
+          </a>
+        
+      
+
+      Federation of Finnish Learned Societies
+    </li>
+    
+    <li data-affiliation-ref="2">
+      2.
+
+      
+
+      Universiteit Leiden Centre for Science and Technology Studies
+    </li>
+    
+  </ul>
+
+</section>
+
+      
+    </div>
+  
+
+  
+
+</div>
+                  </section>
+                
+              </section>
+
+
+
+  <section id="description" class="rel-mt-2 rich-input-content" aria-label="Record description">
+    <h2 id="description-heading" class="sr-only">Description</h2>
+    
+    <div style="word-wrap: break-word;">
+      <p>This dataset has been created for the study P&ouml;l&ouml;nen, J. &amp; Rushforth, A. (2025) "CoARA by numbers: Research assessment reform uptake in European higher education", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1<br>The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.<br>The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education &nbsp;Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf</p>
+<table style="border-collapse: collapse; width: 799px;"><colgroup><col style="width: 254px;"> <col style="width: 544px;"> </colgroup>
+<tbody>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt; width: 262pt;"><strong>Field</strong></td>
+<td style="width: 624pt;"><strong>Description</strong></td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">ETER ID</td>
+<td>ETER, unique HEI identifier</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Institution Name</td>
+<td>ETER, legal name of the institution</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">English Institution Name</td>
+<td>ETER, official English translation</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Reference year</td>
+<td>ETER, the year to which the data in ETER refer</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Founding year</td>
+<td>ETER, year when the institution was established</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Country</td>
+<td>ETER, the country where the institution is established</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">CoARAsign2025</td>
+<td>1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">COARAmemb2025</td>
+<td>1=institution is member of the Coalition for Advancing Research Assessment (CoARA)</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">CoARAactionplan</td>
+<td>1=institution has published an Action plan on CoARA Zenodo community</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">DORA2025</td>
+<td>1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">HR2025</td>
+<td>1=institution has the HR Excellence in Research Label</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Leiden Ranking</td>
+<td>1=institution is included in the Leiden Ranking Open Edition 2024</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">EQAR Number of valid quality assurance reports</td>
+<td>ETER, 1=institution has at least 1 valid QA report</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">EU-FP projects (number)</td>
+<td>ETER, Number of EU-FP projects (m = data not available)</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Alliance member</td>
+<td>1=institution is member of European Universities Alliances</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Alliance name</td>
+<td>Name of the European Universities Alliance</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Networks member</td>
+<td>1=institution is member of European university networks</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">CESAER</td>
+<td>1=institution is member of CESAER network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Coimbra Group</td>
+<td>1=institution is member of Coimbra Group network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">LERU - League of European Research Universities</td>
+<td>1=institution is member of LERU - League of European Research Universities network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">The Guild of European Research-Intensive Universities</td>
+<td>1=institution is member of The Guild of European Research-Intensive Universities network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">UNICA - Network of Universities from the Capitals of Europe</td>
+<td>1=institution is member of UNICA - Network of Universities from the Capitals of Europe network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">YERUN - Young European Research Universities</td>
+<td>1=institution is member of YERUN - Young European Research Universities network</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Total academic personnel (HC)</td>
+<td>ETER, numbers of personnel in headcounts</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Classification - Institutional control</td>
+<td>ETER, 0=institution is under public control<br>or is mostly financed by the state, 1=is private<br>and mostly funded by private sources</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Classification - PhD status</td>
+<td>ETER, 1=the HEI has the legal right to award<br>the PhD, 0=otherwise</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Classification - HEI size</td>
+<td>ETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs</td>
+</tr>
+<tr style="height: 14.4pt;">
+<td style="height: 14.4pt;">Classification - Education intensity</td>
+<td>ETER, number of diploma, bachelor and master students<br>ISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above</td>
+</tr>
+</tbody>
+</table>
+    </div>
+  </section>
+
+
+<section
+      id="record-files" class="rel-mt-2 rel-mb-3"
+      aria-label="Files"
+    ><h2 id="files-heading">Files</h2>
+  <div class="ui accordion panel mb-10 open" href="#files-list-accordion-panel">
+    <h3 class="active title panel-heading open m-0">
+      <div role="button" id="files-list-accordion-trigger" aria-controls="files-list-accordion-panel" aria-expanded="true" tabindex="0" class="trigger">
+        Files
+        <small class="text-muted"> (466.0 kB)</small>
+        <i class="angle right icon" aria-hidden="true"></i>
+      </div>
+    </h3>
+
+    <div role="region" id="files-list-accordion-panel" aria-labelledby="files-list-accordion-trigger" class="active content pt-0">
+      
+      <div>
+        
+  <table id="file-list-table" class="ui striped table files fluid open">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th class>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    
+      
+        
+        
+        <tr>
+          <td class="ten wide">
+            <div>
+              <a href="/records/17846515/files/eter_coara_dataset_2022.xlsx?download=1">eter_coara_dataset_2022.xlsx</a>
+            </div>
+            <small class="ui text-muted font-tiny">md5:dc9aa1c471680a1a8ee3d0cd42f960a9
+            <div class="ui icon inline-block" data-tooltip="This is the file fingerprint (checksum), which can be used to verify the file integrity.">
+              <i class="question circle checksum icon"></i>
+            </div>
+            </small>
+          </td>
+	  <td>466.0 kB</td>
+          <td class="right aligned">
+            <span>
+              
+              <a role="button" class="ui compact mini button" href="/records/17846515/files/eter_coara_dataset_2022.xlsx?download=1">
+                <i class="download icon" aria-hidden="true"></i>Download
+              </a>
+            </span>
+          </td>
+        </tr>
+      
+    
+    </tbody>
+  </table>
+      </div>
+    </div>
+  </div>
+
+    </section>
+              
+
+  <section id="additional-details" class="rel-mt-2" aria-label="Additional record details">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  </section>
+    
+    <section
+      id="citations-search"
+      data-record-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846515", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:17846515", "provider": "oai"}}'
+      data-record-parent-pids='{"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846514", "provider": "datacite"}}'
+      data-citations-endpoint="https://zenodo-broker.web.cern.ch/api/relationships"
+      aria-label="Record citations"
+      class="rel-mb-1"
+    >
+    </section>
+  
+        </article>
+
+        
+        <aside class="sixteen wide tablet five wide computer column sidebar"
+               aria-label="Record details">
+          
+
+
+
+
+<section id="metrics" aria-label="Metrics" class="ui segment rdm-sidebar sidebar-container">
+
+
+<div class="ui tiny two statistics rel-mt-1">
+  
+  
+
+  <div class="ui statistic">
+    <div class="value">535</div>
+    <div class="label">
+      <i aria-hidden="true" class="eye icon"></i>
+      Views
+    </div>
+  </div>
+
+  <div class="ui statistic">
+    <div class="value">93</div>
+    <div class="label">
+      <i aria-hidden="true" class="download icon"></i>
+      Downloads
+    </div>
+  </div>
+</div>
+
+<div class="ui accordion rel-mt-1 centered">
+  <div class="title trigger" tabindex="0">
+    <i class="caret right icon" aria-hidden="true"></i>
+    <span
+      data-open-text="Show more details"
+      data-close-text="Show less details"
+    >
+      Show more details
+    </span>
+  </div>
+
+  <div class="content">
+    <table id="record-statistics" class="ui definition table fluid">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="right aligned">All versions</th>
+          <th class="right aligned">This version</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Views
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total views
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    535
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    464
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Downloads
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total downloads
+            </p>
+          </td>
+          <td data-label="All versions" class="right aligned">
+  
+    93
+  
+</td>
+          <td data-label="This version" class="right aligned">
+  
+    68
+  
+</td>
+        </tr>
+        <tr>
+          <td>
+            Data volume
+            <i
+              tabindex="0"
+              role="button"
+              style="position:relative"
+              class="popup-trigger question circle small icon"
+              aria-expanded="false"
+              aria-label="More info"
+              data-variation="mini inverted"
+            >
+            </i>
+            <p role="tooltip" class="popup-content ui flowing popup transition hidden">
+              Total data volume
+            </p>
+          </td>
+
+          <td data-label="All versions" class="right aligned">44.6 MB</td>
+          <td data-label="This version" class="right aligned">32.2 MB</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="text-align-center rel-mt-1">
+      <small>
+        <a href="https://zenodo.org/help/statistics">More info on how stats are collected....</a>
+      </small>
+    </p>
+  </div>
+
+</div>
+
+</section>
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Versions</h2>
+  <div id="record-versions" class="ui segment rdm-sidebar bottom attached pl-0 pr-0 pt-0">
+    <div class="versions">
+      <div id="recordVersions" data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2025-12-08T04:43:58.157568+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "152400", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/152400/avatar.svg", "records_html": "https://zenodo.org/search?q=parent.access.owned_by.user:152400", "self": "https://zenodo.org/api/users/152400"}, "profile": {"affiliations": "", "full_name": ""}, "username": "jpolonen", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "open", "visibility": "public"}, "id": "8f439e0d-6c73-4a46-892f-20542721b3c6", "links": {"logo": "https://zenodo.org/api/communities/8f439e0d-6c73-4a46-892f-20542721b3c6/logo"}, "metadata": {"description": "The Federation of Finnish Learned Societies (TSV), established in 1899, is a national co-operative body for ca. 300 learned societies in Finland. TSV brings together independent research expertise from all disciplines.", "title": "Federation of Finnish Learned Societies (TSV)", "type": {"id": "organization", "title": {"de": "Organisation", "en": "Organization"}}}, "slug": "tsv"}}}}, "files": {"count": 1, "enabled": true, "entries": {"eter_coara_dataset_2022.xlsx": {"access": {"hidden": false}, "checksum": "md5:dc9aa1c471680a1a8ee3d0cd42f960a9", "ext": "xlsx", "id": "d0fd4f7a-206e-440c-9fde-31eff4cb2d6a", "key": "eter_coara_dataset_2022.xlsx", "links": {"content": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx/content", "self": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx"}, "metadata": {}, "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "size": 466029, "storage_class": "L"}}, "order": [], "total_bytes": 466029}, "id": "17846515", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/17846515/access", "access_grants": "https://zenodo.org/api/records/17846515/access/grants", "access_links": "https://zenodo.org/api/records/17846515/access/links", "access_request": "https://zenodo.org/api/records/17846515/access/request", "access_users": "https://zenodo.org/api/records/17846515/access/users", "communities": "https://zenodo.org/api/records/17846515/communities", "communities-suggestions": "https://zenodo.org/api/records/17846515/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.17846515", "draft": "https://zenodo.org/api/records/17846515/draft", "file_modification": "https://zenodo.org/api/records/17846515/file-modification", "files": "https://zenodo.org/api/records/17846515/files", "latest": "https://zenodo.org/api/records/17846515/versions/latest", "latest_html": "https://zenodo.org/records/17846515/latest", "media_files": "https://zenodo.org/api/records/17846515/media-files", "parent": "https://zenodo.org/api/records/17846514", "parent_doi": "https://doi.org/10.5281/zenodo.17846514", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846514", "parent_html": "https://zenodo.org/records/17846514", "preview_html": "https://zenodo.org/records/17846515?preview=1", "quota_increase": "https://zenodo.org/api/records/17846515/quota-increase", "request_deletion": "https://zenodo.org/api/records/17846515/request-deletion", "requests": "https://zenodo.org/api/records/17846515/requests", "reserve_doi": "https://zenodo.org/api/records/17846515/draft/pids/doi", "self": "https://zenodo.org/api/records/17846515", "self_doi": "https://doi.org/10.5281/zenodo.17846515", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846515", "self_html": "https://zenodo.org/records/17846515", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17846515/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17846515/sequence/default", "versions": "https://zenodo.org/api/records/17846515/versions"}, "media_files": {"count": 0, "enabled": false, "entries": {}, "order": [], "total_bytes": 0}, "metadata": {"creators": [{"affiliations": [{"id": "02cdzet69", "identifiers": [{"identifier": "02cdzet69", "scheme": "ror"}, {"identifier": "grid.453501.6", "scheme": "grid"}, {"identifier": "0000 0001 0671 8273", "scheme": "isni"}], "name": "Federation of Finnish Learned Societies"}], "person_or_org": {"family_name": "P\u00f6l\u00f6nen", "given_name": "Janne", "identifiers": [{"identifier": "0000-0003-1649-0879", "scheme": "orcid"}], "name": "P\u00f6l\u00f6nen, Janne", "type": "personal"}, "role": {"id": "researcher", "title": {"de": "WissenschaftlerIn", "en": "Researcher"}}}, {"affiliations": [{"name": "Universiteit Leiden Centre for Science and Technology Studies"}], "person_or_org": {"family_name": "Rushforth", "given_name": "Alex", "identifiers": [{"identifier": "0000-0003-3352-943X", "scheme": "orcid"}], "name": "Rushforth, Alex", "type": "personal"}, "role": {"id": "researcher", "title": {"de": "WissenschaftlerIn", "en": "Researcher"}}}], "description": "\u003cp\u003eThis dataset has been created for the study P\u0026ouml;l\u0026ouml;nen, J. \u0026amp; Rushforth, A. (2025) \"CoARA by numbers: Research assessment reform uptake in European higher education\", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1\u003cbr\u003eThe dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.\u003cbr\u003eThe information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education \u0026nbsp;Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf\u003c/p\u003e\n\u003ctable style=\"border-collapse: collapse; width: 799px;\"\u003e\u003ccolgroup\u003e\u003ccol style=\"width: 254px;\"\u003e \u003ccol style=\"width: 544px;\"\u003e \u003c/colgroup\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt; width: 262pt;\"\u003e\u003cstrong\u003eField\u003c/strong\u003e\u003c/td\u003e\n\u003ctd style=\"width: 624pt;\"\u003e\u003cstrong\u003eDescription\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eETER ID\u003c/td\u003e\n\u003ctd\u003eETER, unique HEI identifier\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eInstitution Name\u003c/td\u003e\n\u003ctd\u003eETER, legal name of the institution\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEnglish Institution Name\u003c/td\u003e\n\u003ctd\u003eETER, official English translation\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eReference year\u003c/td\u003e\n\u003ctd\u003eETER, the year to which the data in ETER refer\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eFounding year\u003c/td\u003e\n\u003ctd\u003eETER, year when the institution was established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCountry\u003c/td\u003e\n\u003ctd\u003eETER, the country where the institution is established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAsign2025\u003c/td\u003e\n\u003ctd\u003e1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCOARAmemb2025\u003c/td\u003e\n\u003ctd\u003e1=institution is member of the Coalition for Advancing Research Assessment (CoARA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAactionplan\u003c/td\u003e\n\u003ctd\u003e1=institution has published an Action plan on CoARA Zenodo community\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eDORA2025\u003c/td\u003e\n\u003ctd\u003e1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eHR2025\u003c/td\u003e\n\u003ctd\u003e1=institution has the HR Excellence in Research Label\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLeiden Ranking\u003c/td\u003e\n\u003ctd\u003e1=institution is included in the Leiden Ranking Open Edition 2024\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEQAR Number of valid quality assurance reports\u003c/td\u003e\n\u003ctd\u003eETER, 1=institution has at least 1 valid QA report\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEU-FP projects (number)\u003c/td\u003e\n\u003ctd\u003eETER, Number of EU-FP projects (m = data not available)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European Universities Alliances\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance name\u003c/td\u003e\n\u003ctd\u003eName of the European Universities Alliance\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eNetworks member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European university networks\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCESAER\u003c/td\u003e\n\u003ctd\u003e1=institution is member of CESAER network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoimbra Group\u003c/td\u003e\n\u003ctd\u003e1=institution is member of Coimbra Group network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLERU - League of European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of LERU - League of European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eThe Guild of European Research-Intensive Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of The Guild of European Research-Intensive Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eUNICA - Network of Universities from the Capitals of Europe\u003c/td\u003e\n\u003ctd\u003e1=institution is member of UNICA - Network of Universities from the Capitals of Europe network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eYERUN - Young European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of YERUN - Young European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eTotal academic personnel (HC)\u003c/td\u003e\n\u003ctd\u003eETER, numbers of personnel in headcounts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Institutional control\u003c/td\u003e\n\u003ctd\u003eETER, 0=institution is under public control\u003cbr\u003eor is mostly financed by the state, 1=is private\u003cbr\u003eand mostly funded by private sources\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - PhD status\u003c/td\u003e\n\u003ctd\u003eETER, 1=the HEI has the legal right to award\u003cbr\u003ethe PhD, 0=otherwise\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - HEI size\u003c/td\u003e\n\u003ctd\u003eETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Education intensity\u003c/td\u003e\n\u003ctd\u003eETER, number of diploma, bachelor and master students\u003cbr\u003eISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2025-12-07", "publisher": "Zenodo", "resource_type": {"id": "dataset", "title": {"de": "Datensatz", "en": "Dataset"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "CoARA"}, {"subject": "DORA"}, {"subject": "HRS4R"}, {"subject": "EQAR"}, {"subject": "Higher Education Institutions"}, {"id": "mesh:D014495", "scheme": "MeSH", "subject": "Universities"}, {"subject": "ETER"}, {"subject": "European Universities Alliances"}], "title": "CoARA by numbers dataset"}, "parent": {"access": {"owned_by": {"user": "152400"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "8f439e0d-6c73-4a46-892f-20542721b3c6", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "open", "visibility": "public"}, "children": {"allow": false}, "created": "2024-06-10T06:59:19.491097+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "8f439e0d-6c73-4a46-892f-20542721b3c6", "links": {}, "metadata": {"curation_policy": "", "description": "The Federation of Finnish Learned Societies (TSV), established in 1899, is a national co-operative body for ca. 300 learned societies in Finland. TSV brings together independent research expertise from all disciplines.", "title": "Federation of Finnish Learned Societies (TSV)", "type": {"id": "organization"}, "website": "https://www.tsv.fi/en"}, "revision_id": 5, "slug": "tsv", "updated": "2024-06-10T07:11:06.460420+00:00"}], "ids": ["8f439e0d-6c73-4a46-892f-20542721b3c6"]}, "id": "17846514", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846514", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846515", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:17846515", "provider": "oai"}}, "revision_id": 4, "stats": {"all_versions": {"data_volume": 44592225.0, "downloads": 96, "unique_downloads": 93, "unique_views": 535, "views": 625}, "this_version": {"data_volume": 32231385.0, "downloads": 71, "unique_downloads": 68, "unique_views": 464, "views": 514}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "created_date_l10n_long": "December 8, 2025", "creators": {"affiliations": [[1, "Federation of Finnish Learned Societies", "02cdzet69"], [2, "Universiteit Leiden Centre for Science and Technology Studies", null]], "creators": [{"affiliations": [[1, "Federation of Finnish Learned Societies"]], "person_or_org": {"family_name": "P\u00f6l\u00f6nen", "given_name": "Janne", "identifiers": [{"identifier": "0000-0003-1649-0879", "scheme": "orcid"}], "name": "P\u00f6l\u00f6nen, Janne", "type": "personal"}, "role": {"id": "researcher", "title": "Researcher"}}, {"affiliations": [[2, "Universiteit Leiden Centre for Science and Technology Studies"]], "person_or_org": {"family_name": "Rushforth", "given_name": "Alex", "identifiers": [{"identifier": "0000-0003-3352-943X", "scheme": "orcid"}], "name": "Rushforth, Alex", "type": "personal"}, "role": {"id": "researcher", "title": "Researcher"}}]}, "custom_fields": {}, "description_stripped": "This dataset has been created for the study P\u00f6l\u00f6nen, J. \u0026 Rushforth, A. (2025) \"CoARA by numbers: Research assessment reform uptake in European higher education\", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education \u00a0Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf\n\n  \n\n\nField\nDescription\n\n\nETER ID\nETER, unique HEI identifier\n\n\nInstitution Name\nETER, legal name of the institution\n\n\nEnglish Institution Name\nETER, official English translation\n\n\nReference year\nETER, the year to which the data in ETER refer\n\n\nFounding year\nETER, year when the institution was established\n\n\nCountry\nETER, the country where the institution is established\n\n\nCoARAsign2025\n1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)\n\n\nCOARAmemb2025\n1=institution is member of the Coalition for Advancing Research Assessment (CoARA)\n\n\nCoARAactionplan\n1=institution has published an Action plan on CoARA Zenodo community\n\n\nDORA2025\n1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)\n\n\nHR2025\n1=institution has the HR Excellence in Research Label\n\n\nLeiden Ranking\n1=institution is included in the Leiden Ranking Open Edition 2024\n\n\nEQAR Number of valid quality assurance reports\nETER, 1=institution has at least 1 valid QA report\n\n\nEU-FP projects (number)\nETER, Number of EU-FP projects (m = data not available)\n\n\nAlliance member\n1=institution is member of European Universities Alliances\n\n\nAlliance name\nName of the European Universities Alliance\n\n\nNetworks member\n1=institution is member of European university networks\n\n\nCESAER\n1=institution is member of CESAER network\n\n\nCoimbra Group\n1=institution is member of Coimbra Group network\n\n\nLERU - League of European Research Universities\n1=institution is member of LERU - League of European Research Universities network\n\n\nThe Guild of European Research-Intensive Universities\n1=institution is member of The Guild of European Research-Intensive Universities network\n\n\nUNICA - Network of Universities from the Capitals of Europe\n1=institution is member of UNICA - Network of Universities from the Capitals of Europe network\n\n\nYERUN - Young European Research Universities\n1=institution is member of YERUN - Young European Research Universities network\n\n\nTotal academic personnel (HC)\nETER, numbers of personnel in headcounts\n\n\nClassification - Institutional control\nETER, 0=institution is under public controlor is mostly financed by the state, 1=is privateand mostly funded by private sources\n\n\nClassification - PhD status\nETER, 1=the HEI has the legal right to awardthe PhD, 0=otherwise\n\n\nClassification - HEI size\nETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs\n\n\nClassification - Education intensity\nETER, number of diploma, bachelor and master studentsISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "December 7, 2025", "publication_date_l10n_medium": "Dec 7, 2025", "resource_type": {"id": "dataset", "title_l10n": "Dataset"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "December 8, 2025", "version": "v1"}, "updated": "2025-12-08T04:43:58.452898+00:00", "versions": {"index": 1, "is_latest": false}}' data-preview='false'>
+        <div class="rel-p-1"></div>
+        <div class="ui fluid placeholder rel-mr-1 rel-ml-1"></div>
+        <div class="header">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="sidebar-container">
+  <h2 class="ui small top attached header">External resources</h2>
+  <dl id="external-resource" aria-label="External resources" class="ui bottom attached segment rdm-sidebar external resource details-list">
+
+    <dt class="ui tiny header">Indexed in</dt>
+      <ul class="ui list no-bullet m-0">
+              <li class="item flex align-items-center">
+
+                
+                  <img class="ui image" src="/static/images/openaire.svg" alt="" width="32">
+                
+
+                <div class="content">
+                  <a
+                    class="header"
+                    href="https://explore.openaire.eu/search/result?pid=10.5281/zenodo.17846515"
+                    target="_blank"
+                    rel="noreferrer"
+                  >OpenAIRE
+                  </a>
+
+                  </div>
+              </li></ul></dl>
+</div>
+<div
+  id="sidebar-communities-manage"
+  data-user-communities-memberships='{}'
+  data-record-community-endpoint='https://zenodo.org/api/records/17846515/communities'
+  data-record-community-search-endpoint='https://zenodo.org/api/records/17846515/communities-suggestions'
+  data-record-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": null, "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/17846515/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-record-user-community-search-endpoint=''
+  data-record-user-community-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "funder", "field": "metadata.funding.funder", "title": "Funders"}, {"aggName": "organization", "field": "metadata.organizations", "title": "Organizations"}], "appId": "InvenioAppRdm.RecordUserCommunitiesSuggestions", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["membership", "true"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}]}, "searchApi": {"axios": {"headers": {"Accept": "application/vnd.inveniordm.v1+json"}, "url": "https://zenodo.org/api/records/17846515/communities-suggestions", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}], "sortOrderDisabled": true}'
+  data-pending-communities-search-config='{"aggs": [{"aggName": "type", "field": "type", "title": "Type"}, {"aggName": "status", "field": "status", "title": "Status"}], "appId": "InvenioAppRdm.RecordRequests", "defaultSortingOnEmptyQueryString": [{"sortBy": "newest"}], "initialQueryState": {"filters": [], "hiddenParams": [["expand", "1"], ["is_open", "true"], ["type", "community-inclusion"], ["type", "community-submission"]], "layout": "list", "page": 1, "size": 10, "sortBy": "bestmatch"}, "layoutOptions": {"gridView": false, "listView": true}, "paginationOptions": {"defaultValue": 10, "maxTotalResults": 10000, "resultsPerPage": [{"text": "10", "value": 10}, {"text": "20", "value": 20}, {"text": "50", "value": 50}]}, "searchApi": {"axios": {"headers": {"Accept": "application/json"}, "url": "https://zenodo.org/api/records/17846515/requests", "withCredentials": true}, "invenio": {"requestSerializer": "InvenioRecordsResourcesRequestSerializer"}}, "sortOptions": [{"sortBy": "bestmatch", "text": "Best match"}, {"sortBy": "newest", "text": "Newest"}, {"sortBy": "oldest", "text": "Oldest"}, {"sortBy": "newestactivity", "text": "Newest activity"}, {"sortBy": "oldestactivity", "text": "Oldest activity"}], "sortOrderDisabled": true}'
+  data-permissions='{"can_edit": false, "can_immediately_delete": false, "can_manage": false, "can_media_read_files": true, "can_moderate": false, "can_new_version": false, "can_read_files": true, "can_remove_community_from_record": false, "can_request_deletion": false, "can_review": false, "can_update_draft": false, "can_view": false, "removable_community_ids": []}'
+  data-record='{"access": {"embargo": {"active": false, "reason": null}, "files": "public", "record": "public", "status": "open"}, "created": "2025-12-08T04:43:58.157568+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "expanded": {"parent": {"access": {"owned_by": {"active": null, "blocked_at": null, "confirmed_at": null, "email": "", "id": "152400", "is_current_user": false, "links": {"avatar": "https://zenodo.org/api/users/152400/avatar.svg", "records_html": "https://zenodo.org/search?q=parent.access.owned_by.user:152400", "self": "https://zenodo.org/api/users/152400"}, "profile": {"affiliations": "", "full_name": ""}, "username": "jpolonen", "verified_at": null}}, "communities": {"default": {"access": {"review_policy": "open", "visibility": "public"}, "id": "8f439e0d-6c73-4a46-892f-20542721b3c6", "links": {"logo": "https://zenodo.org/api/communities/8f439e0d-6c73-4a46-892f-20542721b3c6/logo"}, "metadata": {"description": "The Federation of Finnish Learned Societies (TSV), established in 1899, is a national co-operative body for ca. 300 learned societies in Finland. TSV brings together independent research expertise from all disciplines.", "title": "Federation of Finnish Learned Societies (TSV)", "type": {"id": "organization", "title": {"de": "Organisation", "en": "Organization"}}}, "slug": "tsv"}}}}, "files": {"count": 1, "enabled": true, "entries": {"eter_coara_dataset_2022.xlsx": {"access": {"hidden": false}, "checksum": "md5:dc9aa1c471680a1a8ee3d0cd42f960a9", "ext": "xlsx", "id": "d0fd4f7a-206e-440c-9fde-31eff4cb2d6a", "key": "eter_coara_dataset_2022.xlsx", "links": {"content": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx/content", "self": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx"}, "metadata": {}, "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "size": 466029, "storage_class": "L"}}, "order": [], "total_bytes": 466029}, "id": "17846515", "is_draft": false, "is_published": true, "links": {"access": "https://zenodo.org/api/records/17846515/access", "access_grants": "https://zenodo.org/api/records/17846515/access/grants", "access_links": "https://zenodo.org/api/records/17846515/access/links", "access_request": "https://zenodo.org/api/records/17846515/access/request", "access_users": "https://zenodo.org/api/records/17846515/access/users", "communities": "https://zenodo.org/api/records/17846515/communities", "communities-suggestions": "https://zenodo.org/api/records/17846515/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.17846515", "draft": "https://zenodo.org/api/records/17846515/draft", "file_modification": "https://zenodo.org/api/records/17846515/file-modification", "files": "https://zenodo.org/api/records/17846515/files", "latest": "https://zenodo.org/api/records/17846515/versions/latest", "latest_html": "https://zenodo.org/records/17846515/latest", "media_files": "https://zenodo.org/api/records/17846515/media-files", "parent": "https://zenodo.org/api/records/17846514", "parent_doi": "https://doi.org/10.5281/zenodo.17846514", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846514", "parent_html": "https://zenodo.org/records/17846514", "preview_html": "https://zenodo.org/records/17846515?preview=1", "quota_increase": "https://zenodo.org/api/records/17846515/quota-increase", "request_deletion": "https://zenodo.org/api/records/17846515/request-deletion", "requests": "https://zenodo.org/api/records/17846515/requests", "reserve_doi": "https://zenodo.org/api/records/17846515/draft/pids/doi", "self": "https://zenodo.org/api/records/17846515", "self_doi": "https://doi.org/10.5281/zenodo.17846515", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846515", "self_html": "https://zenodo.org/records/17846515", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17846515/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17846515/sequence/default", "versions": "https://zenodo.org/api/records/17846515/versions"}, "media_files": {"count": 0, "enabled": false, "entries": {}, "order": [], "total_bytes": 0}, "metadata": {"creators": [{"affiliations": [{"id": "02cdzet69", "identifiers": [{"identifier": "02cdzet69", "scheme": "ror"}, {"identifier": "grid.453501.6", "scheme": "grid"}, {"identifier": "0000 0001 0671 8273", "scheme": "isni"}], "name": "Federation of Finnish Learned Societies"}], "person_or_org": {"family_name": "P\u00f6l\u00f6nen", "given_name": "Janne", "identifiers": [{"identifier": "0000-0003-1649-0879", "scheme": "orcid"}], "name": "P\u00f6l\u00f6nen, Janne", "type": "personal"}, "role": {"id": "researcher", "title": {"de": "WissenschaftlerIn", "en": "Researcher"}}}, {"affiliations": [{"name": "Universiteit Leiden Centre for Science and Technology Studies"}], "person_or_org": {"family_name": "Rushforth", "given_name": "Alex", "identifiers": [{"identifier": "0000-0003-3352-943X", "scheme": "orcid"}], "name": "Rushforth, Alex", "type": "personal"}, "role": {"id": "researcher", "title": {"de": "WissenschaftlerIn", "en": "Researcher"}}}], "description": "\u003cp\u003eThis dataset has been created for the study P\u0026ouml;l\u0026ouml;nen, J. \u0026amp; Rushforth, A. (2025) \"CoARA by numbers: Research assessment reform uptake in European higher education\", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1\u003cbr\u003eThe dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.\u003cbr\u003eThe information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education \u0026nbsp;Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf\u003c/p\u003e\n\u003ctable style=\"border-collapse: collapse; width: 799px;\"\u003e\u003ccolgroup\u003e\u003ccol style=\"width: 254px;\"\u003e \u003ccol style=\"width: 544px;\"\u003e \u003c/colgroup\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt; width: 262pt;\"\u003e\u003cstrong\u003eField\u003c/strong\u003e\u003c/td\u003e\n\u003ctd style=\"width: 624pt;\"\u003e\u003cstrong\u003eDescription\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eETER ID\u003c/td\u003e\n\u003ctd\u003eETER, unique HEI identifier\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eInstitution Name\u003c/td\u003e\n\u003ctd\u003eETER, legal name of the institution\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEnglish Institution Name\u003c/td\u003e\n\u003ctd\u003eETER, official English translation\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eReference year\u003c/td\u003e\n\u003ctd\u003eETER, the year to which the data in ETER refer\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eFounding year\u003c/td\u003e\n\u003ctd\u003eETER, year when the institution was established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCountry\u003c/td\u003e\n\u003ctd\u003eETER, the country where the institution is established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAsign2025\u003c/td\u003e\n\u003ctd\u003e1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCOARAmemb2025\u003c/td\u003e\n\u003ctd\u003e1=institution is member of the Coalition for Advancing Research Assessment (CoARA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAactionplan\u003c/td\u003e\n\u003ctd\u003e1=institution has published an Action plan on CoARA Zenodo community\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eDORA2025\u003c/td\u003e\n\u003ctd\u003e1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eHR2025\u003c/td\u003e\n\u003ctd\u003e1=institution has the HR Excellence in Research Label\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLeiden Ranking\u003c/td\u003e\n\u003ctd\u003e1=institution is included in the Leiden Ranking Open Edition 2024\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEQAR Number of valid quality assurance reports\u003c/td\u003e\n\u003ctd\u003eETER, 1=institution has at least 1 valid QA report\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEU-FP projects (number)\u003c/td\u003e\n\u003ctd\u003eETER, Number of EU-FP projects (m = data not available)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European Universities Alliances\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance name\u003c/td\u003e\n\u003ctd\u003eName of the European Universities Alliance\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eNetworks member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European university networks\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCESAER\u003c/td\u003e\n\u003ctd\u003e1=institution is member of CESAER network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoimbra Group\u003c/td\u003e\n\u003ctd\u003e1=institution is member of Coimbra Group network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLERU - League of European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of LERU - League of European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eThe Guild of European Research-Intensive Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of The Guild of European Research-Intensive Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eUNICA - Network of Universities from the Capitals of Europe\u003c/td\u003e\n\u003ctd\u003e1=institution is member of UNICA - Network of Universities from the Capitals of Europe network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eYERUN - Young European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of YERUN - Young European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eTotal academic personnel (HC)\u003c/td\u003e\n\u003ctd\u003eETER, numbers of personnel in headcounts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Institutional control\u003c/td\u003e\n\u003ctd\u003eETER, 0=institution is under public control\u003cbr\u003eor is mostly financed by the state, 1=is private\u003cbr\u003eand mostly funded by private sources\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - PhD status\u003c/td\u003e\n\u003ctd\u003eETER, 1=the HEI has the legal right to award\u003cbr\u003ethe PhD, 0=otherwise\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - HEI size\u003c/td\u003e\n\u003ctd\u003eETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Education intensity\u003c/td\u003e\n\u003ctd\u003eETER, number of diploma, bachelor and master students\u003cbr\u003eISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e", "languages": [{"id": "eng", "title": {"en": "English"}}], "publication_date": "2025-12-07", "publisher": "Zenodo", "resource_type": {"id": "dataset", "title": {"de": "Datensatz", "en": "Dataset"}}, "rights": [{"description": {"en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."}, "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title": {"en": "Creative Commons Attribution 4.0 International"}}], "subjects": [{"subject": "CoARA"}, {"subject": "DORA"}, {"subject": "HRS4R"}, {"subject": "EQAR"}, {"subject": "Higher Education Institutions"}, {"id": "mesh:D014495", "scheme": "MeSH", "subject": "Universities"}, {"subject": "ETER"}, {"subject": "European Universities Alliances"}], "title": "CoARA by numbers dataset"}, "parent": {"access": {"owned_by": {"user": "152400"}, "settings": {"accept_conditions_text": null, "allow_guest_requests": false, "allow_user_requests": false, "secret_link_expiration": 0}}, "communities": {"default": "8f439e0d-6c73-4a46-892f-20542721b3c6", "entries": [{"access": {"member_policy": "open", "members_visibility": "public", "record_submission_policy": "open", "review_policy": "open", "visibility": "public"}, "children": {"allow": false}, "created": "2024-06-10T06:59:19.491097+00:00", "custom_fields": {}, "deletion_status": {"is_deleted": false, "status": "P"}, "id": "8f439e0d-6c73-4a46-892f-20542721b3c6", "links": {}, "metadata": {"curation_policy": "", "description": "The Federation of Finnish Learned Societies (TSV), established in 1899, is a national co-operative body for ca. 300 learned societies in Finland. TSV brings together independent research expertise from all disciplines.", "title": "Federation of Finnish Learned Societies (TSV)", "type": {"id": "organization"}, "website": "https://www.tsv.fi/en"}, "revision_id": 5, "slug": "tsv", "updated": "2024-06-10T07:11:06.460420+00:00"}], "ids": ["8f439e0d-6c73-4a46-892f-20542721b3c6"]}, "id": "17846514", "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846514", "provider": "datacite"}}}, "pids": {"doi": {"client": "datacite", "identifier": "10.5281/zenodo.17846515", "provider": "datacite"}, "oai": {"identifier": "oai:zenodo.org:17846515", "provider": "oai"}}, "revision_id": 4, "stats": {"all_versions": {"data_volume": 44592225.0, "downloads": 96, "unique_downloads": 93, "unique_views": 535, "views": 625}, "this_version": {"data_volume": 32231385.0, "downloads": 71, "unique_downloads": 68, "unique_views": 464, "views": 514}}, "status": "published", "swh": {}, "ui": {"access_status": {"description_l10n": "The record and files are publicly accessible.", "embargo_date_l10n": null, "icon": "unlock", "id": "open", "message_class": "", "title_l10n": "Open"}, "created_date_l10n_long": "December 8, 2025", "creators": {"affiliations": [[1, "Federation of Finnish Learned Societies", "02cdzet69"], [2, "Universiteit Leiden Centre for Science and Technology Studies", null]], "creators": [{"affiliations": [[1, "Federation of Finnish Learned Societies"]], "person_or_org": {"family_name": "P\u00f6l\u00f6nen", "given_name": "Janne", "identifiers": [{"identifier": "0000-0003-1649-0879", "scheme": "orcid"}], "name": "P\u00f6l\u00f6nen, Janne", "type": "personal"}, "role": {"id": "researcher", "title": "Researcher"}}, {"affiliations": [[2, "Universiteit Leiden Centre for Science and Technology Studies"]], "person_or_org": {"family_name": "Rushforth", "given_name": "Alex", "identifiers": [{"identifier": "0000-0003-3352-943X", "scheme": "orcid"}], "name": "Rushforth, Alex", "type": "personal"}, "role": {"id": "researcher", "title": "Researcher"}}]}, "custom_fields": {}, "description_stripped": "This dataset has been created for the study P\u00f6l\u00f6nen, J. \u0026 Rushforth, A. (2025) \"CoARA by numbers: Research assessment reform uptake in European higher education\", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1The dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.The information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education \u00a0Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf\n\n  \n\n\nField\nDescription\n\n\nETER ID\nETER, unique HEI identifier\n\n\nInstitution Name\nETER, legal name of the institution\n\n\nEnglish Institution Name\nETER, official English translation\n\n\nReference year\nETER, the year to which the data in ETER refer\n\n\nFounding year\nETER, year when the institution was established\n\n\nCountry\nETER, the country where the institution is established\n\n\nCoARAsign2025\n1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)\n\n\nCOARAmemb2025\n1=institution is member of the Coalition for Advancing Research Assessment (CoARA)\n\n\nCoARAactionplan\n1=institution has published an Action plan on CoARA Zenodo community\n\n\nDORA2025\n1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)\n\n\nHR2025\n1=institution has the HR Excellence in Research Label\n\n\nLeiden Ranking\n1=institution is included in the Leiden Ranking Open Edition 2024\n\n\nEQAR Number of valid quality assurance reports\nETER, 1=institution has at least 1 valid QA report\n\n\nEU-FP projects (number)\nETER, Number of EU-FP projects (m = data not available)\n\n\nAlliance member\n1=institution is member of European Universities Alliances\n\n\nAlliance name\nName of the European Universities Alliance\n\n\nNetworks member\n1=institution is member of European university networks\n\n\nCESAER\n1=institution is member of CESAER network\n\n\nCoimbra Group\n1=institution is member of Coimbra Group network\n\n\nLERU - League of European Research Universities\n1=institution is member of LERU - League of European Research Universities network\n\n\nThe Guild of European Research-Intensive Universities\n1=institution is member of The Guild of European Research-Intensive Universities network\n\n\nUNICA - Network of Universities from the Capitals of Europe\n1=institution is member of UNICA - Network of Universities from the Capitals of Europe network\n\n\nYERUN - Young European Research Universities\n1=institution is member of YERUN - Young European Research Universities network\n\n\nTotal academic personnel (HC)\nETER, numbers of personnel in headcounts\n\n\nClassification - Institutional control\nETER, 0=institution is under public controlor is mostly financed by the state, 1=is privateand mostly funded by private sources\n\n\nClassification - PhD status\nETER, 1=the HEI has the legal right to awardthe PhD, 0=otherwise\n\n\nClassification - HEI size\nETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs\n\n\nClassification - Education intensity\nETER, number of diploma, bachelor and master studentsISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above", "is_draft": false, "languages": [{"id": "eng", "title_l10n": "English"}], "publication_date_l10n_long": "December 7, 2025", "publication_date_l10n_medium": "Dec 7, 2025", "resource_type": {"id": "dataset", "title_l10n": "Dataset"}, "rights": [{"description_l10n": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.", "icon": "cc-by-icon", "id": "cc-by-4.0", "props": {"scheme": "spdx", "url": "https://creativecommons.org/licenses/by/4.0/legalcode"}, "title_l10n": "Creative Commons Attribution 4.0 International"}], "updated_date_l10n_long": "December 8, 2025", "version": "v1"}, "updated": "2025-12-08T04:43:58.452898+00:00", "versions": {"index": 1, "is_latest": false}}'
+  data-record-requests='{}'
+  class='sidebar-container'
+>
+
+  <h2 class="ui medium top attached header">Communities</h2>
+
+  <div class="ui segment bottom attached rdm-sidebar">
+    <div class="ui fluid placeholder">
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Keywords and subjects</h2>
+    <div id="keywords-and-subjects" aria-label="Keywords and subjects"
+            class="ui segment bottom attached rdm-sidebar">
+  
+  
+  <h3 class="hidden">Keywords</h3>
+  <ul class="ui horizontal list no-bullets subjects">
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22CoARA%22"
+          class="subject"
+          title="Search results for CoARA"
+      >
+        CoARA
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22DORA%22"
+          class="subject"
+          title="Search results for DORA"
+      >
+        DORA
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22HRS4R%22"
+          class="subject"
+          title="Search results for HRS4R"
+      >
+        HRS4R
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22EQAR%22"
+          class="subject"
+          title="Search results for EQAR"
+      >
+        EQAR
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22Higher+Education+Institutions%22"
+          class="subject"
+          title="Search results for Higher Education Institutions"
+      >
+        Higher Education Institutions
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22ETER%22"
+          class="subject"
+          title="Search results for ETER"
+      >
+        ETER
+      </a>
+    </li>
+    <li class="item">
+      <a href="/search?q=metadata.subjects.subject:%22European+Universities+Alliances%22"
+          class="subject"
+          title="Search results for European Universities Alliances"
+      >
+        European Universities Alliances
+      </a>
+    </li>
+  </ul>
+  
+  <h3 class="ui tiny header">MeSH</h3>
+  <ul class="ui horizontal list no-bullets subjects">
+    <li class="item">
+      <a href="/search?q=metadata.subjects.id:%22mesh:D014495%22"
+         class="subject"
+         title="Search results for Universities"
+      >
+        Universities
+      </a>
+    </li>
+  </ul>
+
+    </div>
+  </div>
+
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Details</h2>
+  <div id="record-details" class="ui segment bottom attached rdm-sidebar">
+
+    <dl class="details-list">
+      
+
+ 
+  <dt class="ui tiny header">DOI
+    
+  </dt>
+  <dd>
+    <span class="get-badge details-doi-section" data-toggle="tooltip" data-placement="bottom">
+      <img id='record-doi-badge' data-target="[data-modal='10.5281/zenodo.17846515']" title="Get the DOI badge!"
+        src="/badge/DOI/10.5281/zenodo.17846515.svg" alt="10.5281/zenodo.17846515" />
+      <div id="copy-button-record-doi-badge" class="copy-doi-button" data-value=https://doi.org/10.5281/zenodo.17846515 data-size="mini"></div>
+    </span>
+
+    <div id="doi-modal" class="ui modal fade badge-modal" data-modal="10.5281/zenodo.17846515">
+      <div class="header">DOI Badge</div>
+      <div class="content">
+        <h4>
+          <small>DOI</small>
+        </h4>
+        <h4>
+          <pre>10.5281/zenodo.17846515</pre>
+        </h4>
+        
+        
+
+    <h3 class="ui small header">
+      Markdown
+    </h3>
+    <div class="ui message code">
+      <pre>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17846515.svg)](https://doi.org/10.5281/zenodo.17846515)</pre>
+    </div>
+
+    <h3 class="ui small header">
+      reStructuredText
+    </h3>
+      <div class="ui message code">
+        <pre>.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.17846515.svg
+  :target: https://doi.org/10.5281/zenodo.17846515</pre>
+      </div>
+
+    <h3 class="ui small header">
+      HTML
+    </h3>
+    <div class="ui message code">
+      <pre>&lt;a href="https://doi.org/10.5281/zenodo.17846515"&gt;&lt;img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17846515.svg" alt="DOI"&gt;&lt;/a&gt;</pre>
+    </div>
+
+    <h3 class="ui small header">
+      Image URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://zenodo.org/badge/DOI/10.5281/zenodo.17846515.svg</pre>
+    </div>
+
+    <h3 class="ui small header">
+    Target URL
+    </h3>
+    <div class="ui message code">
+      <pre>https://doi.org/10.5281/zenodo.17846515</pre>
+    </div>
+      </div>
+    </div>
+  </dd>
+
+      
+      
+  <dt class="ui tiny header">Resource type</dt>
+  <dd>Dataset</dd>
+      
+      
+  <dt class="ui tiny header">Publisher</dt>
+  <dd>Zenodo</dd>
+      
+      
+      
+      
+      
+  <dt class="ui tiny header">Languages</dt>
+  <dd>
+  
+    English
+  
+</dd>
+      
+      
+    </dl>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Rights</h2>
+    <div id="licenses" class="ui segment bottom attached rdm-sidebar">
+      <dl class="details-list">
+      
+        <dt class="ui tiny header">License</dt><dd id="license-cc-by-4.0-1" class="has-popup">
+              <div id="title-cc-by-4.0-1"
+                   class="license clickable"
+                   tabindex="0"
+                   aria-haspopup="dialog"
+                   aria-expanded="false"
+                   role="button"
+                   aria-label="Creative Commons Attribution 4.0 International"
+              >
+                
+                  
+                  <span class="icon-wrap">
+                  <img class="icon" src="/static/icons/licenses/cc-by-icon.svg"
+                       alt="cc-by-4.0 icon"/>
+                </span>
+                
+                <span class="title-text">
+                Creative Commons Attribution 4.0 International
+              </span>
+              </div>
+              <div id="description-cc-by-4.0-1"
+                   class="licenses-description ui flowing popup transition hidden"
+                   role="dialog"
+                   aria-labelledby="title-cc-by-4.0-1"
+              >
+                <i role="button" tabindex="0" class="close icon text-muted"
+                   aria-label="Close"></i>
+                <div id="license-description-1" class="description">
+                <span class="text-muted">
+                  The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+                </span>
+                  
+  
+    <a class="license-link" href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"
+       title="Opens in new tab">Read more</a>
+  
+
+                </div>
+              </div>
+            </dd>
+          
+      
+      
+      </dl>
+    </div>
+  </div>
+
+<div class="sidebar-container">
+  <h2 class="ui medium top attached header mt-0">Citation</h2>
+  <div id="citation" class="ui segment bottom attached rdm-sidebar">
+
+<div id="recordCitation" data-record-links='{"access": "https://zenodo.org/api/records/17846515/access", "access_grants": "https://zenodo.org/api/records/17846515/access/grants", "access_links": "https://zenodo.org/api/records/17846515/access/links", "access_request": "https://zenodo.org/api/records/17846515/access/request", "access_users": "https://zenodo.org/api/records/17846515/access/users", "communities": "https://zenodo.org/api/records/17846515/communities", "communities-suggestions": "https://zenodo.org/api/records/17846515/communities-suggestions", "doi": "https://doi.org/10.5281/zenodo.17846515", "draft": "https://zenodo.org/api/records/17846515/draft", "file_modification": "https://zenodo.org/api/records/17846515/file-modification", "files": "https://zenodo.org/api/records/17846515/files", "latest": "https://zenodo.org/api/records/17846515/versions/latest", "latest_html": "https://zenodo.org/records/17846515/latest", "media_files": "https://zenodo.org/api/records/17846515/media-files", "parent": "https://zenodo.org/api/records/17846514", "parent_doi": "https://doi.org/10.5281/zenodo.17846514", "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846514", "parent_html": "https://zenodo.org/records/17846514", "preview_html": "https://zenodo.org/records/17846515?preview=1", "quota_increase": "https://zenodo.org/api/records/17846515/quota-increase", "request_deletion": "https://zenodo.org/api/records/17846515/request-deletion", "requests": "https://zenodo.org/api/records/17846515/requests", "reserve_doi": "https://zenodo.org/api/records/17846515/draft/pids/doi", "self": "https://zenodo.org/api/records/17846515", "self_doi": "https://doi.org/10.5281/zenodo.17846515", "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17846515", "self_html": "https://zenodo.org/records/17846515", "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17846515/manifest", "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17846515/sequence/default", "versions": "https://zenodo.org/api/records/17846515/versions"}'
+  data-styles='[["apa", "APA"], ["harvard-cite-them-right", "Harvard"], ["modern-language-association", "MLA"], ["nlm-citation-sequence", "Vancouver"], ["chicago-notes-bibliography", "Chicago"], ["ieee", "IEEE"]]'
+  data-defaultstyle='"apa"'
+  data-include-deleted='false'>
+</div>
+  </div>
+</div>
+  <div class="sidebar-container">
+    <h2 class="ui medium top attached header mt-0">Export</h2>
+    <div id="export-record" class="ui segment bottom attached exports rdm-sidebar">
+
+      
+      
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <div id="recordExportDownload" data-formats='[{"export_url": "/records/17846515/export/json", "name": "JSON"}, {"export_url": "/records/17846515/export/json-ld", "name": "JSON-LD"}, {"export_url": "/records/17846515/export/csl", "name": "CSL"}, {"export_url": "/records/17846515/export/datacite-json", "name": "DataCite JSON"}, {"export_url": "/records/17846515/export/datacite-xml", "name": "DataCite XML"}, {"export_url": "/records/17846515/export/dublincore", "name": "Dublin Core XML"}, {"export_url": "/records/17846515/export/marcxml", "name": "MARCXML"}, {"export_url": "/records/17846515/export/bibtex", "name": "BibTeX"}, {"export_url": "/records/17846515/export/geojson", "name": "GeoJSON"}, {"export_url": "/records/17846515/export/dcat-ap", "name": "DCAT"}, {"export_url": "/records/17846515/export/codemeta", "name": "Codemeta"}, {"export_url": "/records/17846515/export/cff", "name": "Citation File Format"}, {"export_url": "/records/17846515/export/datapackage", "name": "Data Package JSON"}]'></div>
+    </div>
+  </div>
+
+<section
+  id="upload-info"
+  role="note"
+  aria-label="Upload information"
+  class="sidebar-container ui segment rdm-sidebar text-muted"
+>
+  <h2 class="ui small header text-muted p-0 mb-5"><small>Technical metadata</small></h2>
+  <dl class="m-0">
+    <dt class="inline"><small>Created</small></dt>
+    <dd class="inline">
+      <small>December 8, 2025</small>
+    </dd>
+    <div>
+      <dt class="rel-mt-1 inline"><small>Modified</small></dt>
+      <dd class="inline">
+        <small>December 8, 2025</small>
+      </dd>
+    </div>
+  </dl>
+</section>
+          
+        </aside>
+      </div>
+    </div>
+
+    <div class="ui container">
+      <div class="ui relaxed grid">
+        <div class="two column row">
+          <div class="sixteen wide tablet eleven wide computer column">
+            <div class="ui grid">
+                <div class="centered row rel-mt-1">
+                  <button id="jump-btn" class="jump-to-top ui button labeled icon"
+                          aria-label="Jump to top of page">
+                    <i class="arrow alternate circle up outline icon"></i>
+                    Jump up
+                  </button>
+                </div>
+              </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </main>
+    <footer id="rdm-footer-element">
+        
+
+  <div class="footer-top">
+    <div class="ui container app-rdm-footer">
+<div class="ui equal width stackable grid zenodo-footer">
+  <div class="column">
+    <h2 class="ui inverted tiny header">About</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://about.zenodo.org">About</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/policies">Policies</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/infrastructure">Infrastructure</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/principles">Principles</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/projects/">Projects</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/roadmap/">Roadmap</a>
+      </li>
+      <li class="item">
+        <a href="https://about.zenodo.org/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Blog</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://blog.zenodo.org">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Support</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://help.zenodo.org/">Help</a>
+      </li>
+      <li class="item">
+        <a href="https://support.zenodo.org/help/">FAQ</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Developers</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://developers.zenodo.org">REST API</a>
+      </li>
+      <li class="item">
+        <a href="https://developers.zenodo.org#oai-pmh">OAI-PMH</a>
+      </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2 class="ui inverted tiny header">Contribute</h2>
+    <ul class="ui inverted link list">
+      <li class="item">
+        <a href="https://github.com/zenodo/zenodo-rdm">
+          <i class="icon external" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </li>
+      <li class="item">
+        <a href="/donate">
+          <i class="icon external" aria-hidden="true"></i>
+          Donate
+        </a>
+      </li>
+    </ul>
+  </div>
+      <div class="six wide column right aligned">
+  <h2 class="ui inverted tiny header">Funded by</h2>
+  <ul class="ui horizontal link list">
+    <li class="item">
+      <a href="https://home.cern" aria-label="CERN">
+        <img src="/static/images/cern.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://www.openaire.eu" aria-label="OpenAIRE">
+        <img src="/static/images/openaire.png" width="60" height="60" alt="" />
+      </a>
+    </li>
+    <li class="item">
+      <a href="https://commission.europa.eu/index_en" aria-label="European Commission">
+        <img src="/static/images/eu.png" width="88" height="60" alt="" />
+      </a>
+    </li>
+  </ul>
+      </div>
+      </div>
+    </div>
+
+  </div>
+        
+<div class="footer-bottom">
+  <div class="ui inverted container">
+    <div class="ui grid">
+      <div class="eight wide column left middle aligned">
+        <p class="m-0">
+          Powered by
+          <a href="https://home.cern/science/computing/data-centre">CERN Data Centre</a> & <a href="https://inveniordm.docs.cern.ch/">InvenioRDM</a>
+        </p>
+      </div>
+      <div class="eight wide column right aligned">
+        <ul class="ui inverted horizontal link list">
+          <li class="item">
+            <a href="https://stats.uptimerobot.com/vlYOVuWgM/">Status</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/privacy-policy">Privacy policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/cookie-policy">Cookie policy</a>
+          </li>
+          <li class="item">
+            <a href="https://about.zenodo.org/terms">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </footer>
+  
+  
+    
+
+        
+          <script type="text/javascript">
+            window.MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                processEscapes: true // Allows escaping $ signs if needed
+              }
+            };
+          </script>
+          <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+<script src="/static/dist/js/manifest.74af14a633682ed0.js"></script>
+<script src="/static/dist/js/2210.927045c5842e144f.js"></script>
+<script src="/static/dist/js/6874.62964fb23ef06a36.js"></script>
+<script src="/static/dist/js/theme.baaff2a62f570ec3.js"></script>
+<script src="/static/dist/js/9516.bc0a99f010b76af1.js"></script>
+<script src="/static/dist/js/4993.9b6c5ad959265314.js"></script>
+<script src="/static/dist/js/2766.1b99024cbed716f7.js"></script>
+<script src="/static/dist/js/1514.21769a54699f6711.js"></script>
+<script src="/static/dist/js/2129.447d2fbedd1ee9c8.js"></script>
+<script src="/static/dist/js/6555.29e4b8a5876fdd5d.js"></script>
+<script src="/static/dist/js/2028.06cef4fb71d62607.js"></script>
+<script src="/static/dist/js/8357.57c5c846196d7762.js"></script>
+<script src="/static/dist/js/240.a771ab8d945631f9.js"></script>
+<script src="/static/dist/js/1242.e6c7a37fd9c1d834.js"></script>
+<script src="/static/dist/js/1930.a74559fb3ee11c3d.js"></script>
+<script src="/static/dist/js/700.9df83bd2e46c12ab.js"></script>
+<script src="/static/dist/js/8532.4c319e0b8377b195.js"></script>
+<script src="/static/dist/js/1246.b396fa28f0972a35.js"></script>
+<script src="/static/dist/js/2620.cf785df0e2426647.js"></script>
+<script src="/static/dist/js/7954.70fdbe77932d6bf9.js"></script>
+<script src="/static/dist/js/base-theme-rdm.aefaeeadffed1a17.js"></script>
+<script src="/static/dist/js/i18n_app.1236e0b632f0b16b.js"></script>
+<script src="/static/dist/js/1273.0e9a1e369533175f.js"></script>
+<script src="/static/dist/js/1947.988c4158df45a81f.js"></script>
+<script src="/static/dist/js/5250.40ef85abdffada44.js"></script>
+<script src="/static/dist/js/overridable-registry.547d03a537181eef.js"></script>
+  
+    
+      <script type='application/ld+json'>{"@context": "http://schema.org", "@id": "https://doi.org/10.5281/zenodo.17846515", "@type": "https://schema.org/Dataset", "author": [{"@id": "https://orcid.org/0000-0003-1649-0879", "@type": "Person", "affiliation": [{"@id": "https://ror.org/02cdzet69", "@type": "Organization", "name": "Federation of Finnish Learned Societies"}], "familyName": "P\u00f6l\u00f6nen", "givenName": "Janne", "name": "P\u00f6l\u00f6nen, Janne"}, {"@id": "https://orcid.org/0000-0003-3352-943X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Universiteit Leiden Centre for Science and Technology Studies"}], "familyName": "Rushforth", "givenName": "Alex", "name": "Rushforth, Alex"}], "contentSize": "455.11 KB", "creator": [{"@id": "https://orcid.org/0000-0003-1649-0879", "@type": "Person", "affiliation": [{"@id": "https://ror.org/02cdzet69", "@type": "Organization", "name": "Federation of Finnish Learned Societies"}], "familyName": "P\u00f6l\u00f6nen", "givenName": "Janne", "name": "P\u00f6l\u00f6nen, Janne"}, {"@id": "https://orcid.org/0000-0003-3352-943X", "@type": "Person", "affiliation": [{"@type": "Organization", "name": "Universiteit Leiden Centre for Science and Technology Studies"}], "familyName": "Rushforth", "givenName": "Alex", "name": "Rushforth, Alex"}], "dateCreated": "2025-12-08T04:43:58.157568+00:00", "dateModified": "2025-12-08T04:43:58.452898+00:00", "datePublished": "2025-12-07", "description": "\u003cp\u003eThis dataset has been created for the study P\u0026ouml;l\u0026ouml;nen, J. \u0026amp; Rushforth, A. (2025) \"CoARA by numbers: Research assessment reform uptake in European higher education\", available as preprint here: https://doi.org/10.31235/osf.io/69vjr_v1\u003cbr\u003eThe dataset consists of information about 3439 European Higher Education Institutions with reference year 2022 from 1) the European Tertiary Education Register (ETER), enriched with data on 2) universities included in Leiden Ranking Open Edition, 3) partners of the European Universities Alliances, 4) CoARA signatories, members, and action plans, and 5) organisations awarded the HR Excellence in Research label, and 6) signatories of the DORA declaration.\u003cbr\u003eThe information sources and their integration into ETER dataset is described in the preprint. Comprehensive description of the ETER data can be found in European Tertiary Education \u0026nbsp;Register (ETER) Handbook for Data Collection: https://national-policies.eacea.ec.europa.eu/sites/default/files/2025-01/ETERIV_Handbook_Complete_2023updated.pdf\u003c/p\u003e\n\u003ctable style=\"border-collapse: collapse; width: 799px;\"\u003e\u003ccolgroup\u003e\u003ccol style=\"width: 254px;\"\u003e \u003ccol style=\"width: 544px;\"\u003e \u003c/colgroup\u003e\n\u003ctbody\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt; width: 262pt;\"\u003e\u003cstrong\u003eField\u003c/strong\u003e\u003c/td\u003e\n\u003ctd style=\"width: 624pt;\"\u003e\u003cstrong\u003eDescription\u003c/strong\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eETER ID\u003c/td\u003e\n\u003ctd\u003eETER, unique HEI identifier\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eInstitution Name\u003c/td\u003e\n\u003ctd\u003eETER, legal name of the institution\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEnglish Institution Name\u003c/td\u003e\n\u003ctd\u003eETER, official English translation\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eReference year\u003c/td\u003e\n\u003ctd\u003eETER, the year to which the data in ETER refer\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eFounding year\u003c/td\u003e\n\u003ctd\u003eETER, year when the institution was established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCountry\u003c/td\u003e\n\u003ctd\u003eETER, the country where the institution is established\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAsign2025\u003c/td\u003e\n\u003ctd\u003e1=institution is signatory of the Agreement on Reforming Research Assessment (ARRA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCOARAmemb2025\u003c/td\u003e\n\u003ctd\u003e1=institution is member of the Coalition for Advancing Research Assessment (CoARA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoARAactionplan\u003c/td\u003e\n\u003ctd\u003e1=institution has published an Action plan on CoARA Zenodo community\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eDORA2025\u003c/td\u003e\n\u003ctd\u003e1=institution has signed the San Francisco Declaration on Resaerch Assessment (DORA)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eHR2025\u003c/td\u003e\n\u003ctd\u003e1=institution has the HR Excellence in Research Label\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLeiden Ranking\u003c/td\u003e\n\u003ctd\u003e1=institution is included in the Leiden Ranking Open Edition 2024\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEQAR Number of valid quality assurance reports\u003c/td\u003e\n\u003ctd\u003eETER, 1=institution has at least 1 valid QA report\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eEU-FP projects (number)\u003c/td\u003e\n\u003ctd\u003eETER, Number of EU-FP projects (m = data not available)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European Universities Alliances\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eAlliance name\u003c/td\u003e\n\u003ctd\u003eName of the European Universities Alliance\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eNetworks member\u003c/td\u003e\n\u003ctd\u003e1=institution is member of European university networks\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCESAER\u003c/td\u003e\n\u003ctd\u003e1=institution is member of CESAER network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eCoimbra Group\u003c/td\u003e\n\u003ctd\u003e1=institution is member of Coimbra Group network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eLERU - League of European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of LERU - League of European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eThe Guild of European Research-Intensive Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of The Guild of European Research-Intensive Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eUNICA - Network of Universities from the Capitals of Europe\u003c/td\u003e\n\u003ctd\u003e1=institution is member of UNICA - Network of Universities from the Capitals of Europe network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eYERUN - Young European Research Universities\u003c/td\u003e\n\u003ctd\u003e1=institution is member of YERUN - Young European Research Universities network\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eTotal academic personnel (HC)\u003c/td\u003e\n\u003ctd\u003eETER, numbers of personnel in headcounts\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Institutional control\u003c/td\u003e\n\u003ctd\u003eETER, 0=institution is under public control\u003cbr\u003eor is mostly financed by the state, 1=is private\u003cbr\u003eand mostly funded by private sources\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - PhD status\u003c/td\u003e\n\u003ctd\u003eETER, 1=the HEI has the legal right to award\u003cbr\u003ethe PhD, 0=otherwise\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - HEI size\u003c/td\u003e\n\u003ctd\u003eETER, mumber of academic personnel FTE: 1=below 100 FTEs, 2=below 500 FTEs, 3=below 1,500 FTEs, 4=more or equal 1,500 FTEs\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr style=\"height: 14.4pt;\"\u003e\n\u003ctd style=\"height: 14.4pt;\"\u003eClassification - Education intensity\u003c/td\u003e\n\u003ctd\u003eETER, number of diploma, bachelor and master students\u003cbr\u003eISCED5-7 divided by academic staff: 1=below 10, 2=below 25, 3=below 50, 4=50 or above\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e", "distribution": [{"@type": "DataDownload", "contentUrl": "https://zenodo.org/api/records/17846515/files/eter_coara_dataset_2022.xlsx/content", "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}], "identifier": "https://doi.org/10.5281/zenodo.17846515", "inLanguage": {"@type": "Language", "alternateName": "eng", "name": "English"}, "keywords": "CoARA, DORA, HRS4R, EQAR, Higher Education Institutions, Universities, ETER, European Universities Alliances", "license": "https://creativecommons.org/licenses/by/4.0/legalcode", "name": "CoARA by numbers dataset", "publisher": {"@type": "Organization", "name": "Zenodo"}, "size": "455.11 KB", "url": "https://zenodo.org/records/17846515"}</script>
+
+  <script src="/static/dist/js/invenio-app-rdm-landing-page-theme.d297449c9bc62233.js"></script>
+  <script src="/static/dist/js/4505.ab7a1eca17d759c0.js"></script>
+<script src="/static/dist/js/3536.86076ba3bc3b1b39.js"></script>
+<script src="/static/dist/js/2716.f8086db402b2cfd3.js"></script>
+<script src="/static/dist/js/8397.cfb5fcd1f9045cd0.js"></script>
+<script src="/static/dist/js/6437.71df7d82b290cac2.js"></script>
+<script src="/static/dist/js/9530.c929789152b8afde.js"></script>
+<script src="/static/dist/js/3646.f9960a96ae80e501.js"></script>
+<script src="/static/dist/js/8193.1d01fea3d1edd6f4.js"></script>
+<script src="/static/dist/js/5261.76aa1779083cb6e9.js"></script>
+<script src="/static/dist/js/8646.9c4236586d5d39ca.js"></script>
+<script src="/static/dist/js/9150.a1df7bd0283c1788.js"></script>
+<script src="/static/dist/js/1030.2bd7ba0097a92ffb.js"></script>
+<script src="/static/dist/js/invenio-app-rdm-landing-page.37af3b753704bb31.js"></script>
+  <script src="/static/dist/js/previewer_theme.acc158ceaae454a2.js"></script>
+  <script src="/static/dist/js/zenodo-rdm-citations.ea10f4c3b5878dd5.js"></script>
+  
+
+        <div class="ui container info message cookie-banner hidden">
+  <i class="close icon"></i>
+  <div>
+    <i aria-hidden="true" class="info icon"></i>
+    <p class="inline">This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+  </div>
+  <div class="buttons">
+    <button class="ui button small primary" id="cookies-all">Accept all cookies</button>
+    <button class="ui button small" id="cookies-essential">Accept only essential cookies</button>
+  </div>
+</div>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['requireCookieConsent']);
+
+  (function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '366']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  const cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+  if (cookieConsent) {
+    if (cookieConsent === "all") {
+      matomo();
+    }
+  } else {
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+  }
+
+  $('.cookie-banner .close')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-essential')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","essential");
+    });
+
+  $('#cookies-all')
+    .on('click', function () {
+      $(this)
+        .closest('.message')
+        .transition('fade');
+      setCookie("cookie_consent","all");
+      _paq.push(['rememberCookieConsentGiven']);
+      matomo();
+    });
+
+  function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+  }
+
+  function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure";
+    document.cookie = cookie;
+  }
+</script>
+  </body>
+</html>

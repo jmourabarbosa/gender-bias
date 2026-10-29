@@ -1,0 +1,1035 @@
+Element,Attribute,Value,Subfigure
+0,TaxonomyLevel,Academia,A
+0,TaxonomyValue,Academia,A
+0,NonUSPhD,10.501577490180928,A
+0,USPhD,82.2440009624215,A
+0,NonPhD,7.254421547397564,A
+0,Color,#45A1F8,A
+1,TaxonomyLevel,Umbrella,A
+1,TaxonomyValue,Applied Sciences,A
+1,NonUSPhD,6.675362791456058,A
+1,USPhD,82.16207402576228,A
+1,NonPhD,11.162563182781673,A
+1,Color,#1b9e77,A
+2,TaxonomyLevel,Umbrella,A
+2,TaxonomyValue,Education,A
+2,NonUSPhD,2.0028612303290414,A
+2,USPhD,95.0071530758226,A
+2,NonPhD,2.9899856938483547,A
+2,Color,#d95f02,A
+3,TaxonomyLevel,Umbrella,A
+3,TaxonomyValue,Engineering,A
+3,NonUSPhD,11.94511428862548,A
+3,USPhD,85.59929355024964,A
+3,NonPhD,2.4555921611248857,A
+3,Color,#7570b3,A
+4,TaxonomyLevel,Umbrella,A
+4,TaxonomyValue,Humanities,A
+4,NonUSPhD,6.595534479351907,A
+4,USPhD,74.42205097806757,A
+4,NonPhD,18.982414542580518,A
+4,Color,#66a61e,A
+5,TaxonomyLevel,Umbrella,A
+5,TaxonomyValue,Mathematics and Computing,A
+5,NonUSPhD,14.436443451807927,A
+5,USPhD,83.23000500596865,A
+5,NonPhD,2.3335515422234203,A
+5,Color,#e7298a,A
+6,TaxonomyLevel,Umbrella,A
+6,TaxonomyValue,Medicine and Health,A
+6,NonUSPhD,11.183430873853672,A
+6,USPhD,81.71343142080987,A
+6,NonPhD,7.1031377053364695,A
+6,Color,#e6ab02,A
+7,TaxonomyLevel,Umbrella,A
+7,TaxonomyValue,Natural Sciences,A
+7,NonUSPhD,18.666214631803477,A
+7,USPhD,78.6371148874857,A
+7,NonPhD,2.696670480710825,A
+7,Color,#a6761d,A
+8,TaxonomyLevel,Umbrella,A
+8,TaxonomyValue,Social Sciences,A
+8,NonUSPhD,5.541965859175675,A
+8,USPhD,93.02454036139825,A
+8,NonPhD,1.4334937794260765,A
+8,Color,#666666,A
+0,TaxonomyLevel,Umbrella,B
+0,TaxonomyValue,Applied Sciences,B
+0,Color,#1b9e77,B
+0,Africa Fraction,0.0126582278481012,B
+0,Asia Fraction,0.1475170399221032,B
+0,Europe Fraction,0.5384615384615384,B
+0,North America Fraction,0.2366114897760467,B
+0,Oceania Fraction,0.049172346640701,B
+0,South America Fraction,0.0194741966893865,B
+0,Canada Fraction,0.229683698296837,B
+0,United Kingdom Fraction,0.2024330900243309,B
+1,TaxonomyLevel,Umbrella,B
+1,TaxonomyValue,Education,B
+1,Color,#d95f02,B
+1,Africa Fraction,0.0106761565836298,B
+1,Asia Fraction,0.099644128113879,B
+1,Europe Fraction,0.3843416370106761,B
+1,North America Fraction,0.4021352313167259,B
+1,Oceania Fraction,0.096085409252669,B
+1,South America Fraction,0.0106761565836298,B
+1,Canada Fraction,0.3879003558718861,B
+1,United Kingdom Fraction,0.1637010676156583,B
+2,TaxonomyLevel,Umbrella,B
+2,TaxonomyValue,Engineering,B
+2,Color,#7570b3,B
+2,Africa Fraction,0.0061867266591676,B
+2,Asia Fraction,0.280652418447694,B
+2,Europe Fraction,0.4955005624296963,B
+2,North America Fraction,0.1836332958380202,B
+2,Oceania Fraction,0.0337457817772778,B
+2,South America Fraction,0.0118110236220472,B
+2,Canada Fraction,0.1708825182686902,B
+2,United Kingdom Fraction,0.1576728499156829,B
+3,TaxonomyLevel,Umbrella,B
+3,TaxonomyValue,Humanities,B
+3,Color,#66a61e,B
+3,Africa Fraction,0.0141438459223593,B
+3,Asia Fraction,0.0650015046644598,B
+3,Europe Fraction,0.665362624134818,B
+3,North America Fraction,0.2208847427023773,B
+3,Oceania Fraction,0.0309960878724044,B
+3,South America Fraction,0.0075233222991272,B
+3,Canada Fraction,0.2106833780960907,B
+3,United Kingdom Fraction,0.3661593554162936,B
+4,TaxonomyLevel,Umbrella,B
+4,TaxonomyValue,Mathematics and Computing,B
+4,Color,#e7298a,B
+4,Africa Fraction,0.0028985507246376,B
+4,Asia Fraction,0.2830039525691699,B
+4,Europe Fraction,0.5125164690382081,B
+4,North America Fraction,0.1770750988142292,B
+4,Oceania Fraction,0.0284584980237154,B
+4,South America Fraction,0.0102766798418972,B
+4,Canada Fraction,0.1609255850644228,B
+4,United Kingdom Fraction,0.131212200894031,B
+5,TaxonomyLevel,Umbrella,B
+5,TaxonomyValue,Medicine and Health,B
+5,Color,#e6ab02,B
+5,Africa Fraction,0.0146127618119824,B
+5,Asia Fraction,0.3123883747361585,B
+5,Europe Fraction,0.4307517454132164,B
+5,North America Fraction,0.163013476213671,B
+5,Oceania Fraction,0.0449748335768793,B
+5,South America Fraction,0.0405910050332846,B
+5,Canada Fraction,0.1448242345699011,B
+5,United Kingdom Fraction,0.1477401587558723,B
+6,TaxonomyLevel,Umbrella,B
+6,TaxonomyValue,Natural Sciences,B
+6,Color,#a6761d,B
+6,Africa Fraction,0.0102991291177584,B
+6,Asia Fraction,0.3029155622870125,B
+6,Europe Fraction,0.4834532374100719,B
+6,North America Fraction,0.1365391897008709,B
+6,Oceania Fraction,0.038318818629307,B
+6,South America Fraction,0.0311245740249905,B
+6,Canada Fraction,0.1236319722243188,B
+6,United Kingdom Fraction,0.1595592120160012,B
+7,TaxonomyLevel,Umbrella,B
+7,TaxonomyValue,Social Sciences,B
+7,Color,#666666,B
+7,Africa Fraction,0.0120874012087401,B
+7,Asia Fraction,0.0799628079962808,B
+7,Europe Fraction,0.5774058577405857,B
+7,North America Fraction,0.305904230590423,B
+7,Oceania Fraction,0.0399814039981404,B
+7,South America Fraction,0.00697350069735,B
+7,Canada Fraction,0.2802784222737819,B
+7,United Kingdom Fraction,0.3020881670533643,B
+0,TaxonomyLevel,Field,C
+0,TaxonomyValue,Mathematics,C
+0,Risk Ratio,-0.1497509847550613,C
+0,P,0.915441719889563,C
+1,TaxonomyLevel,Umbrella,C
+1,TaxonomyValue,Mathematics and Computing,C
+1,Risk Ratio,0.04062297698018079,C
+1,P,0.6928946925325421,C
+2,TaxonomyLevel,Academia,C
+2,TaxonomyValue,Academia,C
+2,Risk Ratio,-0.053570989887173064,C
+2,P,0.011522992210879887,C
+3,TaxonomyLevel,Field,C
+3,TaxonomyValue,Biological Sciences,C
+3,Risk Ratio,-0.09939893226668844,C
+3,P,0.9826927294571418,C
+4,TaxonomyLevel,Umbrella,C
+4,TaxonomyValue,Natural Sciences,C
+4,Risk Ratio,-0.0069628793438977175,C
+4,P,0.8615329181816027,C
+5,TaxonomyLevel,Field,C
+5,TaxonomyValue,Statistics,C
+5,Risk Ratio,-0.2746721718991191,C
+5,P,0.915441719889563,C
+6,TaxonomyLevel,Umbrella,C
+6,TaxonomyValue,Applied Sciences,C
+6,Risk Ratio,-0.12271998603048831,C
+6,P,0.35233972968873634,C
+7,TaxonomyLevel,Field,C
+7,TaxonomyValue,Psychology,C
+7,Risk Ratio,-0.3183392099735539,C
+7,P,0.7326884753244646,C
+8,TaxonomyLevel,Umbrella,C
+8,TaxonomyValue,Social Sciences,C
+8,Risk Ratio,-0.10994119785955321,C
+8,P,0.35233972968873634,C
+9,TaxonomyLevel,Field,C
+9,TaxonomyValue,Civil Engineering,C
+9,Risk Ratio,0.21002176607266262,C
+9,P,0.915441719889563,C
+10,TaxonomyLevel,Umbrella,C
+10,TaxonomyValue,Engineering,C
+10,Risk Ratio,0.0871448570533622,C
+10,P,0.4120145993927794,C
+11,TaxonomyLevel,Field,C
+11,TaxonomyValue,Environmental Engineering,C
+11,Risk Ratio,-0.002494850709068853,C
+11,P,1.0,C
+12,TaxonomyLevel,Field,C
+12,TaxonomyValue,Linguistics,C
+12,Risk Ratio,0.06757270374127397,C
+12,P,1.0,C
+13,TaxonomyLevel,Umbrella,C
+13,TaxonomyValue,Humanities,C
+13,Risk Ratio,0.04504983780324866,C
+13,P,0.5278829808254719,C
+14,TaxonomyLevel,Field,C
+14,TaxonomyValue,"Exercise Science, Kinesiology, Rehab, Health",C
+14,Risk Ratio,-0.0036247246233278656,C
+14,P,1.0,C
+15,TaxonomyLevel,Umbrella,C
+15,TaxonomyValue,Medicine and Health,C
+15,Risk Ratio,-0.0716722668098642,C
+15,P,0.35233972968873634,C
+16,TaxonomyLevel,Field,C
+16,TaxonomyValue,Chemistry,C
+16,Risk Ratio,0.062344176201382516,C
+16,P,1.0,C
+17,TaxonomyLevel,Field,C
+17,TaxonomyValue,Biochemistry,C
+17,Risk Ratio,-0.024162828532055,C
+17,P,1.0,C
+18,TaxonomyLevel,Field,C
+18,TaxonomyValue,Physics,C
+18,Risk Ratio,-0.0312804174600137,C
+18,P,1.0,C
+19,TaxonomyLevel,Field,C
+19,TaxonomyValue,Agricultural Engineering,C
+19,Risk Ratio,0.27345518082421555,C
+19,P,0.915441719889563,C
+20,TaxonomyLevel,Field,C
+20,TaxonomyValue,Chemical Engineering,C
+20,Risk Ratio,0.24193075241558953,C
+20,P,0.915441719889563,C
+21,TaxonomyLevel,Field,C
+21,TaxonomyValue,Aerospace Engineering,C
+21,Risk Ratio,0.2113621844773621,C
+21,P,0.9826927294571418,C
+22,TaxonomyLevel,Field,C
+22,TaxonomyValue,Industrial Engineering,C
+22,Risk Ratio,-0.32498715315832594,C
+22,P,0.9826927294571418,C
+23,TaxonomyLevel,Field,C
+23,TaxonomyValue,Systems Engineering,C
+23,Risk Ratio,-0.31804207927462197,C
+23,P,0.9826927294571418,C
+24,TaxonomyLevel,Field,C
+24,TaxonomyValue,Mechanical Engineering,C
+24,Risk Ratio,0.1131317200425216,C
+24,P,0.9826927294571418,C
+25,TaxonomyLevel,Field,C
+25,TaxonomyValue,Management,C
+25,Risk Ratio,-0.1868332927608536,C
+25,P,0.915441719889563,C
+26,TaxonomyLevel,Field,C
+26,TaxonomyValue,Electrical Engineering,C
+26,Risk Ratio,0.18509212960358104,C
+26,P,0.915441719889563,C
+27,TaxonomyLevel,Field,C
+27,TaxonomyValue,Computer Engineering,C
+27,Risk Ratio,0.24809126687720645,C
+27,P,0.915441719889563,C
+28,TaxonomyLevel,Field,C
+28,TaxonomyValue,Materials Engineering,C
+28,Risk Ratio,0.49325563195922073,C
+28,P,0.4606518246888971,C
+29,TaxonomyLevel,Field,C
+29,TaxonomyValue,Biomedical Engineering,C
+29,Risk Ratio,0.3122935165842903,C
+29,P,0.915441719889563,C
+30,TaxonomyLevel,Field,C
+30,TaxonomyValue,Architecture,C
+30,Risk Ratio,0.2905121898577693,C
+30,P,0.915441719889563,C
+31,TaxonomyLevel,Field,C
+31,TaxonomyValue,Computer Science,C
+31,Risk Ratio,0.2625030405680094,C
+31,P,0.8231657320761459,C
+32,TaxonomyLevel,Field,C
+32,TaxonomyValue,Information Technology,C
+32,Risk Ratio,0.009242969025540367,C
+32,P,1.0,C
+33,TaxonomyLevel,Field,C
+33,TaxonomyValue,Management Information Systems,C
+33,Risk Ratio,-0.24944666138939978,C
+33,P,1.0,C
+34,TaxonomyLevel,Field,C
+34,TaxonomyValue,Finance,C
+34,Risk Ratio,-0.22948736144426937,C
+34,P,0.9826927294571418,C
+35,TaxonomyLevel,Field,C
+35,TaxonomyValue,Economics,C
+35,Risk Ratio,-0.06828451733113569,C
+35,P,1.0,C
+36,TaxonomyLevel,Field,C
+36,TaxonomyValue,Accounting,C
+36,Risk Ratio,-0.08280146388047623,C
+36,P,1.0,C
+37,TaxonomyLevel,Field,C
+37,TaxonomyValue,Physiology,C
+37,Risk Ratio,0.25080865657500806,C
+37,P,0.7326884753244646,C
+38,TaxonomyLevel,Field,C
+38,TaxonomyValue,Information Science,C
+38,Risk Ratio,-0.03779755916956974,C
+38,P,1.0,C
+39,TaxonomyLevel,Field,C
+39,TaxonomyValue,Atmospheric Sciences and Meteorology,C
+39,Risk Ratio,-0.04402041257203801,C
+39,P,1.0,C
+40,TaxonomyLevel,Field,C
+40,TaxonomyValue,Geology,C
+40,Risk Ratio,0.1462780408493838,C
+40,P,0.915441719889563,C
+41,TaxonomyLevel,Field,C
+41,TaxonomyValue,Microbiology,C
+41,Risk Ratio,0.09339089264119395,C
+41,P,0.9826927294571418,C
+42,TaxonomyLevel,Field,C
+42,TaxonomyValue,English Language and Literature,C
+42,Risk Ratio,-0.24742479598186023,C
+42,P,0.915441719889563,C
+43,TaxonomyLevel,Field,C
+43,TaxonomyValue,Music,C
+43,Risk Ratio,0.04509085443443106,C
+43,P,1.0,C
+44,TaxonomyLevel,Field,C
+44,TaxonomyValue,Veterinary Medical Sciences,C
+44,Risk Ratio,-0.2737608124268521,C
+44,P,0.8231657320761459,C
+45,TaxonomyLevel,Field,C
+45,TaxonomyValue,Immunology,C
+45,Risk Ratio,-0.06668820375199655,C
+45,P,1.0,C
+46,TaxonomyLevel,Field,C
+46,TaxonomyValue,Cell Biology,C
+46,Risk Ratio,0.060975911043968586,C
+46,P,1.0,C
+47,TaxonomyLevel,Field,C
+47,TaxonomyValue,Neuroscience,C
+47,Risk Ratio,-0.22671464382301543,C
+47,P,0.915441719889563,C
+48,TaxonomyLevel,Field,C
+48,TaxonomyValue,Ecology,C
+48,Risk Ratio,-0.297680548640685,C
+48,P,0.9826927294571418,C
+49,TaxonomyLevel,Field,C
+49,TaxonomyValue,Evolutionary Biology,C
+49,Risk Ratio,-0.29756574379911027,C
+49,P,0.9826927294571418,C
+50,TaxonomyLevel,Field,C
+50,TaxonomyValue,History,C
+50,Risk Ratio,0.3326340211789052,C
+50,P,0.20091210908255447,C
+51,TaxonomyLevel,Field,C
+51,TaxonomyValue,Environmental Sciences,C
+51,Risk Ratio,-0.09259865948964645,C
+51,P,1.0,C
+52,TaxonomyLevel,Field,C
+52,TaxonomyValue,Human Development and Family Sciences,C
+52,Risk Ratio,-0.3373281881811077,C
+52,P,0.9826927294571418,C
+53,TaxonomyLevel,Field,C
+53,TaxonomyValue,Art History and Criticism,C
+53,Risk Ratio,-0.15238878922087729,C
+53,P,1.0,C
+54,TaxonomyLevel,Field,C
+54,TaxonomyValue,Urban and Regional Planning,C
+54,Risk Ratio,0.6708978722249019,C
+54,P,0.7326884753244646,C
+55,TaxonomyLevel,Field,C
+55,TaxonomyValue,International Affairs,C
+55,Risk Ratio,0.060018083584630656,C
+55,P,1.0,C
+56,TaxonomyLevel,Field,C
+56,TaxonomyValue,Marketing,C
+56,Risk Ratio,0.10486154514853742,C
+56,P,1.0,C
+57,TaxonomyLevel,Field,C
+57,TaxonomyValue,Philosophy,C
+57,Risk Ratio,0.05098392871880462,C
+57,P,1.0,C
+58,TaxonomyLevel,Field,C
+58,TaxonomyValue,Education,C
+58,Risk Ratio,0.016636001591861932,C
+58,P,1.0,C
+59,TaxonomyLevel,Umbrella,C
+59,TaxonomyValue,Education,C
+59,Risk Ratio,-0.20426821784661023,C
+59,P,0.4120145993927794,C
+60,TaxonomyLevel,Field,C
+60,TaxonomyValue,Curriculum and Instruction,C
+60,Risk Ratio,-0.3394118035647893,C
+60,P,0.9826927294571418,C
+61,TaxonomyLevel,Field,C
+61,TaxonomyValue,Geography,C
+61,Risk Ratio,-0.008018942524218213,C
+61,P,1.0,C
+62,TaxonomyLevel,Field,C
+62,TaxonomyValue,Education Administration,C
+62,Risk Ratio,0.2508596918876916,C
+62,P,1.0,C
+63,TaxonomyLevel,Field,C
+63,TaxonomyValue,Germanic Languages and Literatures,C
+63,Risk Ratio,0.7125125504416672,C
+63,P,0.915441719889563,C
+64,TaxonomyLevel,Field,C
+64,TaxonomyValue,Business Administration,C
+64,Risk Ratio,-0.05470134278839128,C
+64,P,1.0,C
+65,TaxonomyLevel,Field,C
+65,TaxonomyValue,Public Health,C
+65,Risk Ratio,-0.22873078418216686,C
+65,P,0.915441719889563,C
+66,TaxonomyLevel,Field,C
+66,TaxonomyValue,Political Science,C
+66,Risk Ratio,0.12480543111264147,C
+66,P,1.0,C
+67,TaxonomyLevel,Field,C
+67,TaxonomyValue,Agricultural Economics,C
+67,Risk Ratio,0.145725120018994,C
+67,P,1.0,C
+68,TaxonomyLevel,Field,C
+68,TaxonomyValue,Environmental Health Sciences,C
+68,Risk Ratio,0.0004591499484629995,C
+68,P,1.0,C
+69,TaxonomyLevel,Field,C
+69,TaxonomyValue,Biostatistics,C
+69,Risk Ratio,-0.43025939785037864,C
+69,P,0.915441719889563,C
+70,TaxonomyLevel,Field,C
+70,TaxonomyValue,Anthropology,C
+70,Risk Ratio,0.08150811811271806,C
+70,P,1.0,C
+71,TaxonomyLevel,Field,C
+71,TaxonomyValue,Epidemiology,C
+71,Risk Ratio,0.29675635627437275,C
+71,P,0.915441719889563,C
+72,TaxonomyLevel,Field,C
+72,TaxonomyValue,Social Work,C
+72,Risk Ratio,0.24156608596783669,C
+72,P,0.9826927294571418,C
+73,TaxonomyLevel,Field,C
+73,TaxonomyValue,Biophysics,C
+73,Risk Ratio,0.3596617603539654,C
+73,P,0.8231657320761459,C
+74,TaxonomyLevel,Field,C
+74,TaxonomyValue,Molecular Biology,C
+74,Risk Ratio,0.14713672985155657,C
+74,P,0.915441719889563,C
+75,TaxonomyLevel,Field,C
+75,TaxonomyValue,Nutrition Sciences,C
+75,Risk Ratio,-0.3067416910726862,C
+75,P,0.915441719889563,C
+76,TaxonomyLevel,Field,C
+76,TaxonomyValue,Plant Sciences,C
+76,Risk Ratio,0.06779610662837478,C
+76,P,1.0,C
+77,TaxonomyLevel,Field,C
+77,TaxonomyValue,Comparative Literature,C
+77,Risk Ratio,-0.019285670767921825,C
+77,P,1.0,C
+78,TaxonomyLevel,Field,C
+78,TaxonomyValue,Gender Studies,C
+78,Risk Ratio,0.03914107549874538,C
+78,P,1.0,C
+79,TaxonomyLevel,Field,C
+79,TaxonomyValue,Classics and Classical Languages,C
+79,Risk Ratio,-0.16381269190198341,C
+79,P,0.9938588185320992,C
+80,TaxonomyLevel,Field,C
+80,TaxonomyValue,Spanish Language and Literature,C
+80,Risk Ratio,-0.28755879892448866,C
+80,P,1.0,C
+81,TaxonomyLevel,Field,C
+81,TaxonomyValue,Pharmacology,C
+81,Risk Ratio,-0.19448840613516852,C
+81,P,0.915441719889563,C
+82,TaxonomyLevel,Field,C
+82,TaxonomyValue,Astronomy,C
+82,Risk Ratio,-0.2860753617492223,C
+82,P,0.915441719889563,C
+83,TaxonomyLevel,Field,C
+83,TaxonomyValue,Near and Middle Eastern Languages and Cultures,C
+83,Risk Ratio,0.37778132962087985,C
+83,P,0.9826927294571418,C
+84,TaxonomyLevel,Field,C
+84,TaxonomyValue,Asian Languages,C
+84,Risk Ratio,0.1650592462704962,C
+84,P,1.0,C
+85,TaxonomyLevel,Field,C
+85,TaxonomyValue,Asian Studies,C
+85,Risk Ratio,0.6381710945544752,C
+85,P,0.915441719889563,C
+86,TaxonomyLevel,Field,C
+86,TaxonomyValue,Sociology,C
+86,Risk Ratio,0.11243266756535593,C
+86,P,1.0,C
+87,TaxonomyLevel,Field,C
+87,TaxonomyValue,Slavic Languages and Literatures,C
+87,Risk Ratio,-0.4849336823898841,C
+87,P,1.0,C
+88,TaxonomyLevel,Field,C
+88,TaxonomyValue,Entomology,C
+88,Risk Ratio,0.06540647560163364,C
+88,P,1.0,C
+89,TaxonomyLevel,Field,C
+89,TaxonomyValue,"Theatre Literature, History and Criticism",C
+89,Risk Ratio,0.14184899402589893,C
+89,P,1.0,C
+90,TaxonomyLevel,Field,C
+90,TaxonomyValue,Religious Studies,C
+90,Risk Ratio,0.17137197985801575,C
+90,P,0.9826927294571418,C
+91,TaxonomyLevel,Field,C
+91,TaxonomyValue,Theological Studies,C
+91,Risk Ratio,0.11206481448341757,C
+91,P,0.9826927294571418,C
+92,TaxonomyLevel,Field,C
+92,TaxonomyValue,Pathology,C
+92,Risk Ratio,0.037649567385875854,C
+92,P,1.0,C
+93,TaxonomyLevel,Field,C
+93,TaxonomyValue,Anatomy,C
+93,Risk Ratio,-0.23187849024493876,C
+93,P,0.915441719889563,C
+94,TaxonomyLevel,Field,C
+94,TaxonomyValue,Pharmacy,C
+94,Risk Ratio,0.022982510541328525,C
+94,P,1.0,C
+95,TaxonomyLevel,Field,C
+95,TaxonomyValue,Genetics,C
+95,Risk Ratio,0.3198941243814362,C
+95,P,0.915441719889563,C
+96,TaxonomyLevel,Field,C
+96,TaxonomyValue,Natural Resources,C
+96,Risk Ratio,0.00011705911328487693,C
+96,P,1.0,C
+97,TaxonomyLevel,Field,C
+97,TaxonomyValue,Marine Sciences,C
+97,Risk Ratio,-0.3068491391919767,C
+97,P,0.915441719889563,C
+98,TaxonomyLevel,Field,C
+98,TaxonomyValue,Pharmaceutical Sciences,C
+98,Risk Ratio,0.008843028340257849,C
+98,P,1.0,C
+99,TaxonomyLevel,Field,C
+99,TaxonomyValue,Speech and Hearing Sciences,C
+99,Risk Ratio,-0.14295795384204313,C
+99,P,1.0,C
+100,TaxonomyLevel,Field,C
+100,TaxonomyValue,Communication Disorders and Sciences,C
+100,Risk Ratio,-0.07723532504307773,C
+100,P,1.0,C
+101,TaxonomyLevel,Field,C
+101,TaxonomyValue,"Health, Physical Education, Recreation",C
+101,Risk Ratio,0.28168726355962875,C
+101,P,0.9826927294571418,C
+102,TaxonomyLevel,Field,C
+102,TaxonomyValue,Plant Pathology,C
+102,Risk Ratio,0.13394782091866148,C
+102,P,1.0,C
+103,TaxonomyLevel,Field,C
+103,TaxonomyValue,Food Science,C
+103,Risk Ratio,-0.3992526818884746,C
+103,P,0.915441719889563,C
+104,TaxonomyLevel,Field,C
+104,TaxonomyValue,Animal Sciences,C
+104,Risk Ratio,-0.2297474973785644,C
+104,P,0.9826927294571418,C
+105,TaxonomyLevel,Field,C
+105,TaxonomyValue,Soil Science,C
+105,Risk Ratio,-0.3074285251922469,C
+105,P,1.0,C
+106,TaxonomyLevel,Field,C
+106,TaxonomyValue,Forestry and Forest Resources,C
+106,Risk Ratio,-0.3554722355342469,C
+106,P,0.915441719889563,C
+0,TaxonomyLevel,Field,D
+0,TaxonomyValue,Mathematics,D
+0,Risk Ratio,-0.042988004003120577,D
+0,P,0.6434658381232063,D
+1,TaxonomyLevel,Umbrella,D
+1,TaxonomyValue,Mathematics and Computing,D
+1,Risk Ratio,0.17774973013221376,D
+1,P,4.664410810779528e-05,D
+2,TaxonomyLevel,Academia,D
+2,TaxonomyValue,Academia,D
+2,Risk Ratio,0.23378728469457175,D
+2,P,3.5969361260130803e-106,D
+3,TaxonomyLevel,Field,D
+3,TaxonomyValue,Biological Sciences,D
+3,Risk Ratio,0.03037224430589348,D
+3,P,0.751057793849809,D
+4,TaxonomyLevel,Umbrella,D
+4,TaxonomyValue,Natural Sciences,D
+4,Risk Ratio,0.17868563740149349,D
+4,P,4.532825879539551e-17,D
+5,TaxonomyLevel,Field,D
+5,TaxonomyValue,Statistics,D
+5,Risk Ratio,0.21955510317786758,D
+5,P,0.15581036690392594,D
+6,TaxonomyLevel,Umbrella,D
+6,TaxonomyValue,Applied Sciences,D
+6,Risk Ratio,0.19541421106556817,D
+6,P,1.7260041532835601e-09,D
+7,TaxonomyLevel,Field,D
+7,TaxonomyValue,Psychology,D
+7,Risk Ratio,0.20271357284048422,D
+7,P,0.1622646986288633,D
+8,TaxonomyLevel,Umbrella,D
+8,TaxonomyValue,Social Sciences,D
+8,Risk Ratio,0.4022810021240849,D
+8,P,2.38190553006036e-14,D
+9,TaxonomyLevel,Field,D
+9,TaxonomyValue,Civil Engineering,D
+9,Risk Ratio,0.355205490308789,D
+9,P,0.023477721393426278,D
+10,TaxonomyLevel,Umbrella,D
+10,TaxonomyValue,Engineering,D
+10,Risk Ratio,0.3230531339204256,D
+10,P,8.232416033906291e-15,D
+11,TaxonomyLevel,Field,D
+11,TaxonomyValue,Environmental Engineering,D
+11,Risk Ratio,0.2984361628832534,D
+11,P,0.0918672237739527,D
+12,TaxonomyLevel,Field,D
+12,TaxonomyValue,Linguistics,D
+12,Risk Ratio,-0.305644619842943,D
+12,P,0.5488463309165098,D
+13,TaxonomyLevel,Umbrella,D
+13,TaxonomyValue,Humanities,D
+13,Risk Ratio,0.31829526484355253,D
+13,P,1.740880838652963e-44,D
+14,TaxonomyLevel,Field,D
+14,TaxonomyValue,"Exercise Science, Kinesiology, Rehab, Health",D
+14,Risk Ratio,0.2273088380434419,D
+14,P,0.04542662652417477,D
+15,TaxonomyLevel,Umbrella,D
+15,TaxonomyValue,Medicine and Health,D
+15,Risk Ratio,0.14373193448967228,D
+15,P,1.404431287015649e-10,D
+16,TaxonomyLevel,Field,D
+16,TaxonomyValue,Chemistry,D
+16,Risk Ratio,0.08820060400785847,D
+16,P,0.4076031795033831,D
+17,TaxonomyLevel,Field,D
+17,TaxonomyValue,Biochemistry,D
+17,Risk Ratio,0.29959743054017207,D
+17,P,7.72442435197477e-05,D
+18,TaxonomyLevel,Field,D
+18,TaxonomyValue,Physics,D
+18,Risk Ratio,0.007056573671332163,D
+18,P,0.961032463823064,D
+19,TaxonomyLevel,Field,D
+19,TaxonomyValue,Agricultural Engineering,D
+19,Risk Ratio,0.36502680389309955,D
+19,P,0.039597365136421266,D
+20,TaxonomyLevel,Field,D
+20,TaxonomyValue,Chemical Engineering,D
+20,Risk Ratio,0.06803684877033153,D
+20,P,0.771349090634189,D
+21,TaxonomyLevel,Field,D
+21,TaxonomyValue,Aerospace Engineering,D
+21,Risk Ratio,0.14166297620729817,D
+21,P,0.4894948038728827,D
+22,TaxonomyLevel,Field,D
+22,TaxonomyValue,Industrial Engineering,D
+22,Risk Ratio,0.2785910257301774,D
+22,P,0.32438095313439796,D
+23,TaxonomyLevel,Field,D
+23,TaxonomyValue,Systems Engineering,D
+23,Risk Ratio,0.43898116723283775,D
+23,P,0.0918672237739527,D
+24,TaxonomyLevel,Field,D
+24,TaxonomyValue,Mechanical Engineering,D
+24,Risk Ratio,0.2745679858685092,D
+24,P,0.019338520695828035,D
+25,TaxonomyLevel,Field,D
+25,TaxonomyValue,Operations Research,D
+25,Risk Ratio,0.3421358350197644,D
+25,P,0.20254039926884576,D
+26,TaxonomyLevel,Field,D
+26,TaxonomyValue,Management,D
+26,Risk Ratio,0.4939169473633071,D
+26,P,2.364719483670332e-06,D
+27,TaxonomyLevel,Field,D
+27,TaxonomyValue,Electrical Engineering,D
+27,Risk Ratio,0.3464182370480326,D
+27,P,0.0003316413253135193,D
+28,TaxonomyLevel,Field,D
+28,TaxonomyValue,Computer Engineering,D
+28,Risk Ratio,0.34147471344652536,D
+28,P,0.001092572654575567,D
+29,TaxonomyLevel,Field,D
+29,TaxonomyValue,Materials Engineering,D
+29,Risk Ratio,0.19636948439863816,D
+29,P,0.24410064707401827,D
+30,TaxonomyLevel,Field,D
+30,TaxonomyValue,Biomedical Engineering,D
+30,Risk Ratio,0.3141443122722317,D
+30,P,0.024727825495017848,D
+31,TaxonomyLevel,Field,D
+31,TaxonomyValue,Architecture,D
+31,Risk Ratio,0.23429155799460805,D
+31,P,0.023477721393426278,D
+32,TaxonomyLevel,Field,D
+32,TaxonomyValue,Computer Science,D
+32,Risk Ratio,0.26159023127410386,D
+32,P,0.009932575124587166,D
+33,TaxonomyLevel,Field,D
+33,TaxonomyValue,Information Technology,D
+33,Risk Ratio,0.23524664391436728,D
+33,P,0.284651419925589,D
+34,TaxonomyLevel,Field,D
+34,TaxonomyValue,Management Information Systems,D
+34,Risk Ratio,0.5843804720293957,D
+34,P,0.005221837513275586,D
+35,TaxonomyLevel,Field,D
+35,TaxonomyValue,Finance,D
+35,Risk Ratio,0.13498225085592017,D
+35,P,0.5665519105152174,D
+36,TaxonomyLevel,Field,D
+36,TaxonomyValue,Economics,D
+36,Risk Ratio,0.24379579159987946,D
+36,P,0.15581036690392594,D
+37,TaxonomyLevel,Field,D
+37,TaxonomyValue,Accounting,D
+37,Risk Ratio,0.5992740481247388,D
+37,P,0.0003776202051282679,D
+38,TaxonomyLevel,Field,D
+38,TaxonomyValue,Physiology,D
+38,Risk Ratio,0.05676765231839794,D
+38,P,0.5967385275641647,D
+39,TaxonomyLevel,Field,D
+39,TaxonomyValue,Information Science,D
+39,Risk Ratio,0.32495778990088003,D
+39,P,0.08007954522989363,D
+40,TaxonomyLevel,Field,D
+40,TaxonomyValue,Atmospheric Sciences and Meteorology,D
+40,Risk Ratio,0.052487568281308,D
+40,P,0.8598410372815729,D
+41,TaxonomyLevel,Field,D
+41,TaxonomyValue,Geology,D
+41,Risk Ratio,0.21160428872732717,D
+41,P,0.15581036690392594,D
+42,TaxonomyLevel,Field,D
+42,TaxonomyValue,Microbiology,D
+42,Risk Ratio,0.02168663677705219,D
+42,P,0.8458813335155713,D
+43,TaxonomyLevel,Field,D
+43,TaxonomyValue,English Language and Literature,D
+43,Risk Ratio,0.1824166599989019,D
+43,P,0.025060444379177274,D
+44,TaxonomyLevel,Field,D
+44,TaxonomyValue,Music,D
+44,Risk Ratio,0.5212344246494658,D
+44,P,9.198793282112337e-20,D
+45,TaxonomyLevel,Field,D
+45,TaxonomyValue,Veterinary Medical Sciences,D
+45,Risk Ratio,-0.09610307086135911,D
+45,P,0.3509519876611441,D
+46,TaxonomyLevel,Field,D
+46,TaxonomyValue,Immunology,D
+46,Risk Ratio,0.052610724620348194,D
+46,P,0.6434658381232063,D
+47,TaxonomyLevel,Field,D
+47,TaxonomyValue,Cell Biology,D
+47,Risk Ratio,0.18960562212545534,D
+47,P,0.04482324424991446,D
+48,TaxonomyLevel,Field,D
+48,TaxonomyValue,Neuroscience,D
+48,Risk Ratio,0.06874123970315622,D
+48,P,0.559530113283584,D
+49,TaxonomyLevel,Field,D
+49,TaxonomyValue,Ecology,D
+49,Risk Ratio,0.32681031626710877,D
+49,P,0.37197906556292654,D
+50,TaxonomyLevel,Field,D
+50,TaxonomyValue,Evolutionary Biology,D
+50,Risk Ratio,0.1902280979150476,D
+50,P,0.7385926836601454,D
+51,TaxonomyLevel,Field,D
+51,TaxonomyValue,History,D
+51,Risk Ratio,0.17766998483827176,D
+51,P,0.3451186838431884,D
+52,TaxonomyLevel,Field,D
+52,TaxonomyValue,Environmental Sciences,D
+52,Risk Ratio,0.3332035242623585,D
+52,P,0.025964932946106897,D
+53,TaxonomyLevel,Field,D
+53,TaxonomyValue,Human Development and Family Sciences,D
+53,Risk Ratio,0.20827751248565138,D
+53,P,0.4166364202981905,D
+54,TaxonomyLevel,Field,D
+54,TaxonomyValue,Art History and Criticism,D
+54,Risk Ratio,0.18498753612981475,D
+54,P,0.0496734882257514,D
+55,TaxonomyLevel,Field,D
+55,TaxonomyValue,Urban and Regional Planning,D
+55,Risk Ratio,0.2420545734210274,D
+55,P,0.1915083126354526,D
+56,TaxonomyLevel,Field,D
+56,TaxonomyValue,International Affairs,D
+56,Risk Ratio,0.6036397889248872,D
+56,P,0.0005987487959425092,D
+57,TaxonomyLevel,Field,D
+57,TaxonomyValue,Marketing,D
+57,Risk Ratio,0.6516151237274457,D
+57,P,0.0002938269418734076,D
+58,TaxonomyLevel,Field,D
+58,TaxonomyValue,Philosophy,D
+58,Risk Ratio,0.5849625007211562,D
+58,P,0.0005527321551315656,D
+59,TaxonomyLevel,Field,D
+59,TaxonomyValue,Education,D
+59,Risk Ratio,0.4664389190313824,D
+59,P,0.039597365136421266,D
+60,TaxonomyLevel,Umbrella,D
+60,TaxonomyValue,Education,D
+60,Risk Ratio,0.2547333232674872,D
+60,P,0.0007417803050858488,D
+61,TaxonomyLevel,Field,D
+61,TaxonomyValue,Curriculum and Instruction,D
+61,Risk Ratio,0.11085418402503605,D
+61,P,0.6954520346045839,D
+62,TaxonomyLevel,Field,D
+62,TaxonomyValue,Geography,D
+62,Risk Ratio,0.5520107269244718,D
+62,P,0.008945909095414374,D
+63,TaxonomyLevel,Field,D
+63,TaxonomyValue,Education Administration,D
+63,Risk Ratio,0.17870990613185578,D
+63,P,0.49458053722059636,D
+64,TaxonomyLevel,Field,D
+64,TaxonomyValue,Germanic Languages and Literatures,D
+64,Risk Ratio,0.8167235454298014,D
+64,P,0.0015142050500834782,D
+65,TaxonomyLevel,Field,D
+65,TaxonomyValue,Business Administration,D
+65,Risk Ratio,0.6433150348486097,D
+65,P,8.619411047674728e-05,D
+66,TaxonomyLevel,Field,D
+66,TaxonomyValue,Public Health,D
+66,Risk Ratio,0.3431220724244818,D
+66,P,0.0005519112352410659,D
+67,TaxonomyLevel,Field,D
+67,TaxonomyValue,Political Science,D
+67,Risk Ratio,0.5043424915017732,D
+67,P,0.02333992440513258,D
+68,TaxonomyLevel,Field,D
+68,TaxonomyValue,Agricultural Economics,D
+68,Risk Ratio,0.43429461795992536,D
+68,P,0.24596401360085673,D
+69,TaxonomyLevel,Field,D
+69,TaxonomyValue,Environmental Health Sciences,D
+69,Risk Ratio,0.1331908540992634,D
+69,P,0.5767244809590991,D
+70,TaxonomyLevel,Field,D
+70,TaxonomyValue,Biostatistics,D
+70,Risk Ratio,0.21734936378362044,D
+70,P,0.284651419925589,D
+71,TaxonomyLevel,Field,D
+71,TaxonomyValue,Anthropology,D
+71,Risk Ratio,0.11169112360909605,D
+71,P,0.6954520346045839,D
+72,TaxonomyLevel,Field,D
+72,TaxonomyValue,Epidemiology,D
+72,Risk Ratio,0.18484701394127995,D
+72,P,0.22115493990576882,D
+73,TaxonomyLevel,Field,D
+73,TaxonomyValue,Social Work,D
+73,Risk Ratio,0.7097149217062431,D
+73,P,1.179137928468975e-12,D
+74,TaxonomyLevel,Field,D
+74,TaxonomyValue,Biophysics,D
+74,Risk Ratio,0.1982660602241375,D
+74,P,0.1915083126354526,D
+75,TaxonomyLevel,Field,D
+75,TaxonomyValue,Molecular Biology,D
+75,Risk Ratio,0.27471697996090566,D
+75,P,0.002856762736565039,D
+76,TaxonomyLevel,Field,D
+76,TaxonomyValue,Nutrition Sciences,D
+76,Risk Ratio,0.23455033799149333,D
+76,P,0.15581036690392594,D
+77,TaxonomyLevel,Field,D
+77,TaxonomyValue,Plant Sciences,D
+77,Risk Ratio,-0.19976628514243874,D
+77,P,0.37856592151333224,D
+78,TaxonomyLevel,Field,D
+78,TaxonomyValue,Comparative Literature,D
+78,Risk Ratio,0.395751828510922,D
+78,P,0.23755899171307607,D
+79,TaxonomyLevel,Field,D
+79,TaxonomyValue,Gender Studies,D
+79,Risk Ratio,0.9960723536068598,D
+79,P,0.023477721393426278,D
+80,TaxonomyLevel,Field,D
+80,TaxonomyValue,Classics and Classical Languages,D
+80,Risk Ratio,0.43630818098746943,D
+80,P,0.07470439392423493,D
+81,TaxonomyLevel,Field,D
+81,TaxonomyValue,Spanish Language and Literature,D
+81,Risk Ratio,0.3771308942674018,D
+81,P,0.22647566333360356,D
+82,TaxonomyLevel,Field,D
+82,TaxonomyValue,French Language and Literature,D
+82,Risk Ratio,0.3291841806127047,D
+82,P,0.27438612731215506,D
+83,TaxonomyLevel,Field,D
+83,TaxonomyValue,Pharmacology,D
+83,Risk Ratio,-0.051488948177550224,D
+83,P,0.6434658381232063,D
+84,TaxonomyLevel,Field,D
+84,TaxonomyValue,Astronomy,D
+84,Risk Ratio,-0.09408601989949379,D
+84,P,0.5488463309165098,D
+85,TaxonomyLevel,Field,D
+85,TaxonomyValue,Near and Middle Eastern Languages and Cultures,D
+85,Risk Ratio,0.5795670614197449,D
+85,P,0.09926269314791454,D
+86,TaxonomyLevel,Field,D
+86,TaxonomyValue,Asian Languages,D
+86,Risk Ratio,0.6948801927991921,D
+86,P,0.22115493990576882,D
+87,TaxonomyLevel,Field,D
+87,TaxonomyValue,Asian Studies,D
+87,Risk Ratio,0.7256339358048148,D
+87,P,0.09442684103419416,D
+88,TaxonomyLevel,Field,D
+88,TaxonomyValue,Sociology,D
+88,Risk Ratio,0.5966321913515955,D
+88,P,0.005221837513275586,D
+89,TaxonomyLevel,Field,D
+89,TaxonomyValue,Slavic Languages and Literatures,D
+89,Risk Ratio,0.6794531355109983,D
+89,P,0.04035199943123138,D
+90,TaxonomyLevel,Field,D
+90,TaxonomyValue,Entomology,D
+90,Risk Ratio,-0.07500864356820433,D
+90,P,0.8598410372815729,D
+91,TaxonomyLevel,Field,D
+91,TaxonomyValue,"Theatre Literature, History and Criticism",D
+91,Risk Ratio,0.10348852032713873,D
+91,P,0.40107683459511106,D
+92,TaxonomyLevel,Field,D
+92,TaxonomyValue,Religious Studies,D
+92,Risk Ratio,0.4344063856918098,D
+92,P,0.03953200356591911,D
+93,TaxonomyLevel,Field,D
+93,TaxonomyValue,Nursing,D
+93,Risk Ratio,0.17633644316318625,D
+93,P,0.0035218801174322872,D
+94,TaxonomyLevel,Field,D
+94,TaxonomyValue,Theological Studies,D
+94,Risk Ratio,0.390924187478894,D
+94,P,0.007982931743097428,D
+95,TaxonomyLevel,Field,D
+95,TaxonomyValue,Pathology,D
+95,Risk Ratio,0.042765861510599606,D
+95,P,0.4934373357764671,D
+96,TaxonomyLevel,Field,D
+96,TaxonomyValue,Anatomy,D
+96,Risk Ratio,-0.07751879194950283,D
+96,P,0.5767244809590991,D
+97,TaxonomyLevel,Field,D
+97,TaxonomyValue,Pharmacy,D
+97,Risk Ratio,0.19371281205528368,D
+97,P,0.18384384737180243,D
+98,TaxonomyLevel,Field,D
+98,TaxonomyValue,Genetics,D
+98,Risk Ratio,-0.30696742446368586,D
+98,P,0.15581036690392594,D
+99,TaxonomyLevel,Field,D
+99,TaxonomyValue,Natural Resources,D
+99,Risk Ratio,0.5060079888432422,D
+99,P,0.005221837513275586,D
+100,TaxonomyLevel,Field,D
+100,TaxonomyValue,Marine Sciences,D
+100,Risk Ratio,-0.028350472860898212,D
+100,P,0.9859389745617988,D
+101,TaxonomyLevel,Field,D
+101,TaxonomyValue,Counselor Education,D
+101,Risk Ratio,-0.18902831372429688,D
+101,P,0.7488355780978058,D
+102,TaxonomyLevel,Field,D
+102,TaxonomyValue,Special Education,D
+102,Risk Ratio,0.5115164239208969,D
+102,P,0.1290907436730953,D
+103,TaxonomyLevel,Field,D
+103,TaxonomyValue,Educational Psychology,D
+103,Risk Ratio,0.2161958005184337,D
+103,P,0.6526596259363998,D
+104,TaxonomyLevel,Field,D
+104,TaxonomyValue,Pharmaceutical Sciences,D
+104,Risk Ratio,-0.006807474835035604,D
+104,P,0.9859389745617988,D
+105,TaxonomyLevel,Field,D
+105,TaxonomyValue,Criminal Justice and Criminology,D
+105,Risk Ratio,0.8369009515279602,D
+105,P,0.0017869551090553082,D
+106,TaxonomyLevel,Field,D
+106,TaxonomyValue,Speech and Hearing Sciences,D
+106,Risk Ratio,0.5742443855027333,D
+106,P,0.0025255388727235947,D
+107,TaxonomyLevel,Field,D
+107,TaxonomyValue,Communication Disorders and Sciences,D
+107,Risk Ratio,0.5191798698143297,D
+107,P,0.023477721393426278,D
+108,TaxonomyLevel,Field,D
+108,TaxonomyValue,"Health, Physical Education, Recreation",D
+108,Risk Ratio,0.21609892193205218,D
+108,P,0.40107683459511106,D
+109,TaxonomyLevel,Field,D
+109,TaxonomyValue,Plant Pathology,D
+109,Risk Ratio,-0.41024183267719483,D
+109,P,0.1915083126354526,D
+110,TaxonomyLevel,Field,D
+110,TaxonomyValue,Food Science,D
+110,Risk Ratio,0.13246269292025512,D
+110,P,0.6211560087492942,D
+111,TaxonomyLevel,Field,D
+111,TaxonomyValue,Animal Sciences,D
+111,Risk Ratio,-0.3037480788223413,D
+111,P,0.18428290547242307,D
+112,TaxonomyLevel,Field,D
+112,TaxonomyValue,Agronomy,D
+112,Risk Ratio,-0.07176090037122948,D
+112,P,0.8598410372815729,D
+113,TaxonomyLevel,Field,D
+113,TaxonomyValue,Horticulture,D
+113,Risk Ratio,-0.11874922554958049,D
+113,P,0.6954520346045839,D
+114,TaxonomyLevel,Field,D
+114,TaxonomyValue,Soil Science,D
+114,Risk Ratio,-0.33188156891678605,D
+114,P,0.2067095542024938,D
+115,TaxonomyLevel,Field,D
+115,TaxonomyValue,Forestry and Forest Resources,D
+115,Risk Ratio,0.3400167226557999,D
+115,P,0.1869211675077364,D

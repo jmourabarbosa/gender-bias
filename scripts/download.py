@@ -8,17 +8,20 @@ Per source, in order:
   5. Landing pages (saved as page*.html), then their citation_pdf_url
 Sites that answer with a bot challenge are recorded as failed, not worked around.
 Usage: python3 scripts/download.py <email> [ID ...]
+Set SOURCES_CSV / DATA_DIR / DOWNLOAD_LOG to run on another source list.
 """
-import csv, json, re, sys, concurrent.futures as cf
+import csv, json, os, re, sys, concurrent.futures as cf
 from pathlib import Path
 from urllib.parse import urljoin, quote
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "gender-bias-data"
+DATA = ROOT / os.environ.get("DATA_DIR", "gender-bias-data")
+SOURCES = ROOT / os.environ.get("SOURCES_CSV", "sources.csv")
+LOGFILE = ROOT / os.environ.get("DOWNLOAD_LOG", "download_log.json")
 EMAIL = sys.argv[1] if len(sys.argv) > 1 else "research@example.org"
 UA = {"User-Agent": f"Mozilla/5.0 (compatible; gender-bias-sources; mailto:{EMAIL})", "Accept": "*/*"}
-OVERRIDES = json.loads((ROOT / "scripts" / "doi_overrides.json").read_text())
+OVERRIDES = json.loads((ROOT / "scripts" / os.environ.get("DOI_OVERRIDES", "doi_overrides.json")).read_text())
 S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
 
 
@@ -175,12 +178,12 @@ def process(row):
 
 
 if __name__ == "__main__":
-    rows = list(csv.DictReader(open(ROOT / "sources.csv")))
+    rows = list(csv.DictReader(open(SOURCES)))
     if len(sys.argv) > 2:
         rows = [r for r in rows if r["id"] in sys.argv[2:]]
     with cf.ThreadPoolExecutor(10) as ex:
         logs = list(ex.map(process, rows))
-    logfile = ROOT / "download_log.json"
+    logfile = LOGFILE
     old = {l["id"]: l for l in json.loads(logfile.read_text())} if logfile.exists() else {}
     old.update({l["id"]: l for l in logs})
     logfile.write_text(json.dumps(list(old.values()), indent=1))

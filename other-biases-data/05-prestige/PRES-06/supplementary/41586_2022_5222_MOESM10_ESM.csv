@@ -1,0 +1,5455 @@
+Element,Attribute,Value
+0,Percentile,0.0
+0,MeanFractionalPathLength,0.3278644982020267
+0,TaxonomyLevel,Academia
+0,TaxonomyValue,Academia
+0,Color,#45A1F8
+0,Line,Academia
+1,Percentile,0.01
+1,MeanFractionalPathLength,0.3289393734809613
+1,TaxonomyLevel,Academia
+1,TaxonomyValue,Academia
+1,Color,#45A1F8
+1,Line,Academia
+2,Percentile,0.02
+2,MeanFractionalPathLength,0.33161132345914945
+2,TaxonomyLevel,Academia
+2,TaxonomyValue,Academia
+2,Color,#45A1F8
+2,Line,Academia
+3,Percentile,0.03
+3,MeanFractionalPathLength,0.33378623188405787
+3,TaxonomyLevel,Academia
+3,TaxonomyValue,Academia
+3,Color,#45A1F8
+3,Line,Academia
+4,Percentile,0.04
+4,MeanFractionalPathLength,0.33519820971867
+4,TaxonomyLevel,Academia
+4,TaxonomyValue,Academia
+4,Color,#45A1F8
+4,Line,Academia
+5,Percentile,0.05
+5,MeanFractionalPathLength,0.3373231538992407
+5,TaxonomyLevel,Academia
+5,TaxonomyValue,Academia
+5,Color,#45A1F8
+5,Line,Academia
+6,Percentile,0.06
+6,MeanFractionalPathLength,0.3391598119858989
+6,TaxonomyLevel,Academia
+6,TaxonomyValue,Academia
+6,Color,#45A1F8
+6,Line,Academia
+7,Percentile,0.07
+7,MeanFractionalPathLength,0.3446470538861842
+7,TaxonomyLevel,Academia
+7,TaxonomyValue,Academia
+7,Color,#45A1F8
+7,Line,Academia
+8,Percentile,0.08
+8,MeanFractionalPathLength,0.3503385955831608
+8,TaxonomyLevel,Academia
+8,TaxonomyValue,Academia
+8,Color,#45A1F8
+8,Line,Academia
+9,Percentile,0.09
+9,MeanFractionalPathLength,0.3493998657042135
+9,TaxonomyLevel,Academia
+9,TaxonomyValue,Academia
+9,Color,#45A1F8
+9,Line,Academia
+10,Percentile,0.1
+10,MeanFractionalPathLength,0.35090020144367967
+10,TaxonomyLevel,Academia
+10,TaxonomyValue,Academia
+10,Color,#45A1F8
+10,Line,Academia
+11,Percentile,0.11
+11,MeanFractionalPathLength,0.3506297446514838
+11,TaxonomyLevel,Academia
+11,TaxonomyValue,Academia
+11,Color,#45A1F8
+11,Line,Academia
+12,Percentile,0.12
+12,MeanFractionalPathLength,0.35062741312741313
+12,TaxonomyLevel,Academia
+12,TaxonomyValue,Academia
+12,Color,#45A1F8
+12,Line,Academia
+13,Percentile,0.13
+13,MeanFractionalPathLength,0.35321890213194557
+13,TaxonomyLevel,Academia
+13,TaxonomyValue,Academia
+13,Color,#45A1F8
+13,Line,Academia
+14,Percentile,0.14
+14,MeanFractionalPathLength,0.3524521221532091
+14,TaxonomyLevel,Academia
+14,TaxonomyValue,Academia
+14,Color,#45A1F8
+14,Line,Academia
+15,Percentile,0.15
+15,MeanFractionalPathLength,0.35378546248111464
+15,TaxonomyLevel,Academia
+15,TaxonomyValue,Academia
+15,Color,#45A1F8
+15,Line,Academia
+16,Percentile,0.16
+16,MeanFractionalPathLength,0.35338677186503265
+16,TaxonomyLevel,Academia
+16,TaxonomyValue,Academia
+16,Color,#45A1F8
+16,Line,Academia
+17,Percentile,0.17
+17,MeanFractionalPathLength,0.35143849206349204
+17,TaxonomyLevel,Academia
+17,TaxonomyValue,Academia
+17,Color,#45A1F8
+17,Line,Academia
+18,Percentile,0.18
+18,MeanFractionalPathLength,0.3484031391640086
+18,TaxonomyLevel,Academia
+18,TaxonomyValue,Academia
+18,Color,#45A1F8
+18,Line,Academia
+19,Percentile,0.19
+19,MeanFractionalPathLength,0.35673367466845723
+19,TaxonomyLevel,Academia
+19,TaxonomyValue,Academia
+19,Color,#45A1F8
+19,Line,Academia
+20,Percentile,0.2
+20,MeanFractionalPathLength,0.3583290200138026
+20,TaxonomyLevel,Academia
+20,TaxonomyValue,Academia
+20,Color,#45A1F8
+20,Line,Academia
+21,Percentile,0.21
+21,MeanFractionalPathLength,0.3637946953164344
+21,TaxonomyLevel,Academia
+21,TaxonomyValue,Academia
+21,Color,#45A1F8
+21,Line,Academia
+22,Percentile,0.22
+22,MeanFractionalPathLength,0.3651271613228134
+22,TaxonomyLevel,Academia
+22,TaxonomyValue,Academia
+22,Color,#45A1F8
+22,Line,Academia
+23,Percentile,0.23
+23,MeanFractionalPathLength,0.3641520013802622
+23,TaxonomyLevel,Academia
+23,TaxonomyValue,Academia
+23,Color,#45A1F8
+23,Line,Academia
+24,Percentile,0.24
+24,MeanFractionalPathLength,0.36723602484472045
+24,TaxonomyLevel,Academia
+24,TaxonomyValue,Academia
+24,Color,#45A1F8
+24,Line,Academia
+25,Percentile,0.25
+25,MeanFractionalPathLength,0.37212523082088295
+25,TaxonomyLevel,Academia
+25,TaxonomyValue,Academia
+25,Color,#45A1F8
+25,Line,Academia
+26,Percentile,0.26
+26,MeanFractionalPathLength,0.3727355072463767
+26,TaxonomyLevel,Academia
+26,TaxonomyValue,Academia
+26,Color,#45A1F8
+26,Line,Academia
+27,Percentile,0.27
+27,MeanFractionalPathLength,0.3718524425046164
+27,TaxonomyLevel,Academia
+27,TaxonomyValue,Academia
+27,Color,#45A1F8
+27,Line,Academia
+28,Percentile,0.28
+28,MeanFractionalPathLength,0.37263933187846227
+28,TaxonomyLevel,Academia
+28,TaxonomyValue,Academia
+28,Color,#45A1F8
+28,Line,Academia
+29,Percentile,0.29
+29,MeanFractionalPathLength,0.3712042788129744
+29,TaxonomyLevel,Academia
+29,TaxonomyValue,Academia
+29,Color,#45A1F8
+29,Line,Academia
+30,Percentile,0.3
+30,MeanFractionalPathLength,0.37325835151922104
+30,TaxonomyLevel,Academia
+30,TaxonomyValue,Academia
+30,Color,#45A1F8
+30,Line,Academia
+31,Percentile,0.31
+31,MeanFractionalPathLength,0.3722091656874265
+31,TaxonomyLevel,Academia
+31,TaxonomyValue,Academia
+31,Color,#45A1F8
+31,Line,Academia
+32,Percentile,0.32
+32,MeanFractionalPathLength,0.3776203416149067
+32,TaxonomyLevel,Academia
+32,TaxonomyValue,Academia
+32,Color,#45A1F8
+32,Line,Academia
+33,Percentile,0.33
+33,MeanFractionalPathLength,0.38125314755749534
+33,TaxonomyLevel,Academia
+33,TaxonomyValue,Academia
+33,Color,#45A1F8
+33,Line,Academia
+34,Percentile,0.34
+34,MeanFractionalPathLength,0.38320463320463316
+34,TaxonomyLevel,Academia
+34,TaxonomyValue,Academia
+34,Color,#45A1F8
+34,Line,Academia
+35,Percentile,0.35000000000000003
+35,MeanFractionalPathLength,0.38249439268461005
+35,TaxonomyLevel,Academia
+35,TaxonomyValue,Academia
+35,Color,#45A1F8
+35,Line,Academia
+36,Percentile,0.36
+36,MeanFractionalPathLength,0.3877266241396676
+36,TaxonomyLevel,Academia
+36,TaxonomyValue,Academia
+36,Color,#45A1F8
+36,Line,Academia
+37,Percentile,0.37
+37,MeanFractionalPathLength,0.3914512338425382
+37,TaxonomyLevel,Academia
+37,TaxonomyValue,Academia
+37,Color,#45A1F8
+37,Line,Academia
+38,Percentile,0.38
+38,MeanFractionalPathLength,0.3965665976535541
+38,TaxonomyLevel,Academia
+38,TaxonomyValue,Academia
+38,Color,#45A1F8
+38,Line,Academia
+39,Percentile,0.39
+39,MeanFractionalPathLength,0.3968335571596441
+39,TaxonomyLevel,Academia
+39,TaxonomyValue,Academia
+39,Color,#45A1F8
+39,Line,Academia
+40,Percentile,0.4
+40,MeanFractionalPathLength,0.3959522410609367
+40,TaxonomyLevel,Academia
+40,TaxonomyValue,Academia
+40,Color,#45A1F8
+40,Line,Academia
+41,Percentile,0.41000000000000003
+41,MeanFractionalPathLength,0.3976664941338854
+41,TaxonomyLevel,Academia
+41,TaxonomyValue,Academia
+41,Color,#45A1F8
+41,Line,Academia
+42,Percentile,0.42
+42,MeanFractionalPathLength,0.3979037267080745
+42,TaxonomyLevel,Academia
+42,TaxonomyValue,Academia
+42,Color,#45A1F8
+42,Line,Academia
+43,Percentile,0.43
+43,MeanFractionalPathLength,0.3964138828269263
+43,TaxonomyLevel,Academia
+43,TaxonomyValue,Academia
+43,Color,#45A1F8
+43,Line,Academia
+44,Percentile,0.44
+44,MeanFractionalPathLength,0.3985291580400276
+44,TaxonomyLevel,Academia
+44,TaxonomyValue,Academia
+44,Color,#45A1F8
+44,Line,Academia
+45,Percentile,0.45
+45,MeanFractionalPathLength,0.3978498102139406
+45,TaxonomyLevel,Academia
+45,TaxonomyValue,Academia
+45,Color,#45A1F8
+45,Line,Academia
+46,Percentile,0.46
+46,MeanFractionalPathLength,0.3973645617667356
+46,TaxonomyLevel,Academia
+46,TaxonomyValue,Academia
+46,Color,#45A1F8
+46,Line,Academia
+47,Percentile,0.47000000000000003
+47,MeanFractionalPathLength,0.407564330079858
+47,TaxonomyLevel,Academia
+47,TaxonomyValue,Academia
+47,Color,#45A1F8
+47,Line,Academia
+48,Percentile,0.48
+48,MeanFractionalPathLength,0.40788906142167003
+48,TaxonomyLevel,Academia
+48,TaxonomyValue,Academia
+48,Color,#45A1F8
+48,Line,Academia
+49,Percentile,0.49
+49,MeanFractionalPathLength,0.40795376121463073
+49,TaxonomyLevel,Academia
+49,TaxonomyValue,Academia
+49,Color,#45A1F8
+49,Line,Academia
+50,Percentile,0.5
+50,MeanFractionalPathLength,0.40980087687248806
+50,TaxonomyLevel,Academia
+50,TaxonomyValue,Academia
+50,Color,#45A1F8
+50,Line,Academia
+51,Percentile,0.51
+51,MeanFractionalPathLength,0.4084183673469387
+51,TaxonomyLevel,Academia
+51,TaxonomyValue,Academia
+51,Color,#45A1F8
+51,Line,Academia
+52,Percentile,0.52
+52,MeanFractionalPathLength,0.40679902395740897
+52,TaxonomyLevel,Academia
+52,TaxonomyValue,Academia
+52,Color,#45A1F8
+52,Line,Academia
+53,Percentile,0.53
+53,MeanFractionalPathLength,0.4071405736207526
+53,TaxonomyLevel,Academia
+53,TaxonomyValue,Academia
+53,Color,#45A1F8
+53,Line,Academia
+54,Percentile,0.54
+54,MeanFractionalPathLength,0.4068322981366459
+54,TaxonomyLevel,Academia
+54,TaxonomyValue,Academia
+54,Color,#45A1F8
+54,Line,Academia
+55,Percentile,0.55
+55,MeanFractionalPathLength,0.4059480676328502
+55,TaxonomyLevel,Academia
+55,TaxonomyValue,Academia
+55,Color,#45A1F8
+55,Line,Academia
+56,Percentile,0.56
+56,MeanFractionalPathLength,0.40612244897959177
+56,TaxonomyLevel,Academia
+56,TaxonomyValue,Academia
+56,Color,#45A1F8
+56,Line,Academia
+57,Percentile,0.5700000000000001
+57,MeanFractionalPathLength,0.3993594720496894
+57,TaxonomyLevel,Academia
+57,TaxonomyValue,Academia
+57,Color,#45A1F8
+57,Line,Academia
+58,Percentile,0.58
+58,MeanFractionalPathLength,0.4035541752933057
+58,TaxonomyLevel,Academia
+58,TaxonomyValue,Academia
+58,Color,#45A1F8
+58,Line,Academia
+59,Percentile,0.59
+59,MeanFractionalPathLength,0.40560115350488013
+59,TaxonomyLevel,Academia
+59,TaxonomyValue,Academia
+59,Color,#45A1F8
+59,Line,Academia
+60,Percentile,0.6
+60,MeanFractionalPathLength,0.40504868222259527
+60,TaxonomyLevel,Academia
+60,TaxonomyValue,Academia
+60,Color,#45A1F8
+60,Line,Academia
+61,Percentile,0.61
+61,MeanFractionalPathLength,0.4090355883834144
+61,TaxonomyLevel,Academia
+61,TaxonomyValue,Academia
+61,Color,#45A1F8
+61,Line,Academia
+62,Percentile,0.62
+62,MeanFractionalPathLength,0.4094634230503796
+62,TaxonomyLevel,Academia
+62,TaxonomyValue,Academia
+62,Color,#45A1F8
+62,Line,Academia
+63,Percentile,0.63
+63,MeanFractionalPathLength,0.4145438140003357
+63,TaxonomyLevel,Academia
+63,TaxonomyValue,Academia
+63,Color,#45A1F8
+63,Line,Academia
+64,Percentile,0.64
+64,MeanFractionalPathLength,0.41953793855967764
+64,TaxonomyLevel,Academia
+64,TaxonomyValue,Academia
+64,Color,#45A1F8
+64,Line,Academia
+65,Percentile,0.65
+65,MeanFractionalPathLength,0.4194918909592822
+65,TaxonomyLevel,Academia
+65,TaxonomyValue,Academia
+65,Color,#45A1F8
+65,Line,Academia
+66,Percentile,0.66
+66,MeanFractionalPathLength,0.4209753231492362
+66,TaxonomyLevel,Academia
+66,TaxonomyValue,Academia
+66,Color,#45A1F8
+66,Line,Academia
+67,Percentile,0.67
+67,MeanFractionalPathLength,0.4202618767836159
+67,TaxonomyLevel,Academia
+67,TaxonomyValue,Academia
+67,Color,#45A1F8
+67,Line,Academia
+68,Percentile,0.68
+68,MeanFractionalPathLength,0.4210339026915114
+68,TaxonomyLevel,Academia
+68,TaxonomyValue,Academia
+68,Color,#45A1F8
+68,Line,Academia
+69,Percentile,0.6900000000000001
+69,MeanFractionalPathLength,0.41906580493537016
+69,TaxonomyLevel,Academia
+69,TaxonomyValue,Academia
+69,Color,#45A1F8
+69,Line,Academia
+70,Percentile,0.7000000000000001
+70,MeanFractionalPathLength,0.4233674668457276
+70,TaxonomyLevel,Academia
+70,TaxonomyValue,Academia
+70,Color,#45A1F8
+70,Line,Academia
+71,Percentile,0.71
+71,MeanFractionalPathLength,0.4235140614216701
+71,TaxonomyLevel,Academia
+71,TaxonomyValue,Academia
+71,Color,#45A1F8
+71,Line,Academia
+72,Percentile,0.72
+72,MeanFractionalPathLength,0.42390255161994295
+72,TaxonomyLevel,Academia
+72,TaxonomyValue,Academia
+72,Color,#45A1F8
+72,Line,Academia
+73,Percentile,0.73
+73,MeanFractionalPathLength,0.42182108350586606
+73,TaxonomyLevel,Academia
+73,TaxonomyValue,Academia
+73,Color,#45A1F8
+73,Line,Academia
+74,Percentile,0.74
+74,MeanFractionalPathLength,0.417790594498669
+74,TaxonomyLevel,Academia
+74,TaxonomyValue,Academia
+74,Color,#45A1F8
+74,Line,Academia
+75,Percentile,0.75
+75,MeanFractionalPathLength,0.42230633195307105
+75,TaxonomyLevel,Academia
+75,TaxonomyValue,Academia
+75,Color,#45A1F8
+75,Line,Academia
+76,Percentile,0.76
+76,MeanFractionalPathLength,0.42210144927536225
+76,TaxonomyLevel,Academia
+76,TaxonomyValue,Academia
+76,Color,#45A1F8
+76,Line,Academia
+77,Percentile,0.77
+77,MeanFractionalPathLength,0.4280501330967169
+77,TaxonomyLevel,Academia
+77,TaxonomyValue,Academia
+77,Color,#45A1F8
+77,Line,Academia
+78,Percentile,0.78
+78,MeanFractionalPathLength,0.42639320220841953
+78,TaxonomyLevel,Academia
+78,TaxonomyValue,Academia
+78,Color,#45A1F8
+78,Line,Academia
+79,Percentile,0.79
+79,MeanFractionalPathLength,0.42902432712215316
+79,TaxonomyLevel,Academia
+79,TaxonomyValue,Academia
+79,Color,#45A1F8
+79,Line,Academia
+80,Percentile,0.8
+80,MeanFractionalPathLength,0.4288930789707187
+80,TaxonomyLevel,Academia
+80,TaxonomyValue,Academia
+80,Color,#45A1F8
+80,Line,Academia
+81,Percentile,0.81
+81,MeanFractionalPathLength,0.43141821946169767
+81,TaxonomyLevel,Academia
+81,TaxonomyValue,Academia
+81,Color,#45A1F8
+81,Line,Academia
+82,Percentile,0.8200000000000001
+82,MeanFractionalPathLength,0.435904071773637
+82,TaxonomyLevel,Academia
+82,TaxonomyValue,Academia
+82,Color,#45A1F8
+82,Line,Academia
+83,Percentile,0.8300000000000001
+83,MeanFractionalPathLength,0.45190648723257415
+83,TaxonomyLevel,Academia
+83,TaxonomyValue,Academia
+83,Color,#45A1F8
+83,Line,Academia
+84,Percentile,0.84
+84,MeanFractionalPathLength,0.45455917874396135
+84,TaxonomyLevel,Academia
+84,TaxonomyValue,Academia
+84,Color,#45A1F8
+84,Line,Academia
+85,Percentile,0.85
+85,MeanFractionalPathLength,0.4576000690131124
+85,TaxonomyLevel,Academia
+85,TaxonomyValue,Academia
+85,Color,#45A1F8
+85,Line,Academia
+86,Percentile,0.86
+86,MeanFractionalPathLength,0.45905057675244004
+86,TaxonomyLevel,Academia
+86,TaxonomyValue,Academia
+86,Color,#45A1F8
+86,Line,Academia
+87,Percentile,0.87
+87,MeanFractionalPathLength,0.4628515355417529
+87,TaxonomyLevel,Academia
+87,TaxonomyValue,Academia
+87,Color,#45A1F8
+87,Line,Academia
+88,Percentile,0.88
+88,MeanFractionalPathLength,0.46251725327812276
+88,TaxonomyLevel,Academia
+88,TaxonomyValue,Academia
+88,Color,#45A1F8
+88,Line,Academia
+89,Percentile,0.89
+89,MeanFractionalPathLength,0.46421916592724044
+89,TaxonomyLevel,Academia
+89,TaxonomyValue,Academia
+89,Color,#45A1F8
+89,Line,Academia
+90,Percentile,0.9
+90,MeanFractionalPathLength,0.4703135783298826
+90,TaxonomyLevel,Academia
+90,TaxonomyValue,Academia
+90,Color,#45A1F8
+90,Line,Academia
+91,Percentile,0.91
+91,MeanFractionalPathLength,0.47435731538992404
+91,TaxonomyLevel,Academia
+91,TaxonomyValue,Academia
+91,Color,#45A1F8
+91,Line,Academia
+92,Percentile,0.92
+92,MeanFractionalPathLength,0.4813664596273291
+92,TaxonomyLevel,Academia
+92,TaxonomyValue,Academia
+92,Color,#45A1F8
+92,Line,Academia
+93,Percentile,0.93
+93,MeanFractionalPathLength,0.4696342305037956
+93,TaxonomyLevel,Academia
+93,TaxonomyValue,Academia
+93,Color,#45A1F8
+93,Line,Academia
+94,Percentile,0.9400000000000001
+94,MeanFractionalPathLength,0.4695421353030048
+94,TaxonomyLevel,Academia
+94,TaxonomyValue,Academia
+94,Color,#45A1F8
+94,Line,Academia
+95,Percentile,0.9500000000000001
+95,MeanFractionalPathLength,0.47434653209109723
+95,TaxonomyLevel,Academia
+95,TaxonomyValue,Academia
+95,Color,#45A1F8
+95,Line,Academia
+96,Percentile,0.96
+96,MeanFractionalPathLength,0.4790372670807453
+96,TaxonomyLevel,Academia
+96,TaxonomyValue,Academia
+96,Color,#45A1F8
+96,Line,Academia
+97,Percentile,0.97
+97,MeanFractionalPathLength,0.4755568644249303
+97,TaxonomyLevel,Academia
+97,TaxonomyValue,Academia
+97,Color,#45A1F8
+97,Line,Academia
+98,Percentile,0.98
+98,MeanFractionalPathLength,0.4826863354037267
+98,TaxonomyLevel,Academia
+98,TaxonomyValue,Academia
+98,Color,#45A1F8
+98,Line,Academia
+99,Percentile,0.99
+99,MeanFractionalPathLength,0.4892010163749294
+99,TaxonomyLevel,Academia
+99,TaxonomyValue,Academia
+99,Color,#45A1F8
+99,Line,Academia
+100,Percentile,1.0
+100,MeanFractionalPathLength,0.4886128364389233
+100,TaxonomyLevel,Academia
+100,TaxonomyValue,Academia
+100,Color,#45A1F8
+100,Line,Academia
+101,Percentile,0.0
+101,MeanFractionalPathLength,0.3600288600288599
+101,TaxonomyLevel,Umbrella
+101,TaxonomyValue,Applied Sciences
+101,Color,#1b9e77
+101,Line,Applied Sciences
+102,Percentile,0.01
+102,MeanFractionalPathLength,0.3603479853479853
+102,TaxonomyLevel,Umbrella
+102,TaxonomyValue,Applied Sciences
+102,Color,#1b9e77
+102,Line,Applied Sciences
+103,Percentile,0.02
+103,MeanFractionalPathLength,0.3607804232804232
+103,TaxonomyLevel,Umbrella
+103,TaxonomyValue,Applied Sciences
+103,Color,#1b9e77
+103,Line,Applied Sciences
+104,Percentile,0.03
+104,MeanFractionalPathLength,0.36405055849500284
+104,TaxonomyLevel,Umbrella
+104,TaxonomyValue,Applied Sciences
+104,Color,#1b9e77
+104,Line,Applied Sciences
+105,Percentile,0.04
+105,MeanFractionalPathLength,0.3630621693121692
+105,TaxonomyLevel,Umbrella
+105,TaxonomyValue,Applied Sciences
+105,Color,#1b9e77
+105,Line,Applied Sciences
+106,Percentile,0.05
+106,MeanFractionalPathLength,0.36397707231040555
+106,TaxonomyLevel,Umbrella
+106,TaxonomyValue,Applied Sciences
+106,Color,#1b9e77
+106,Line,Applied Sciences
+107,Percentile,0.06
+107,MeanFractionalPathLength,0.3659611992945325
+107,TaxonomyLevel,Umbrella
+107,TaxonomyValue,Applied Sciences
+107,Color,#1b9e77
+107,Line,Applied Sciences
+108,Percentile,0.07
+108,MeanFractionalPathLength,0.36662257495590816
+108,TaxonomyLevel,Umbrella
+108,TaxonomyValue,Applied Sciences
+108,Color,#1b9e77
+108,Line,Applied Sciences
+109,Percentile,0.08
+109,MeanFractionalPathLength,0.3653628117913831
+109,TaxonomyLevel,Umbrella
+109,TaxonomyValue,Applied Sciences
+109,Color,#1b9e77
+109,Line,Applied Sciences
+110,Percentile,0.09
+110,MeanFractionalPathLength,0.3658008658008657
+110,TaxonomyLevel,Umbrella
+110,TaxonomyValue,Applied Sciences
+110,Color,#1b9e77
+110,Line,Applied Sciences
+111,Percentile,0.1
+111,MeanFractionalPathLength,0.3635161135161134
+111,TaxonomyLevel,Umbrella
+111,TaxonomyValue,Applied Sciences
+111,Color,#1b9e77
+111,Line,Applied Sciences
+112,Percentile,0.11
+112,MeanFractionalPathLength,0.36264430014430005
+112,TaxonomyLevel,Umbrella
+112,TaxonomyValue,Applied Sciences
+112,Color,#1b9e77
+112,Line,Applied Sciences
+113,Percentile,0.12
+113,MeanFractionalPathLength,0.3605127236079616
+113,TaxonomyLevel,Umbrella
+113,TaxonomyValue,Applied Sciences
+113,Color,#1b9e77
+113,Line,Applied Sciences
+114,Percentile,0.13
+114,MeanFractionalPathLength,0.3627802973041067
+114,TaxonomyLevel,Umbrella
+114,TaxonomyValue,Applied Sciences
+114,Color,#1b9e77
+114,Line,Applied Sciences
+115,Percentile,0.14
+115,MeanFractionalPathLength,0.3636306374401611
+115,TaxonomyLevel,Umbrella
+115,TaxonomyValue,Applied Sciences
+115,Color,#1b9e77
+115,Line,Applied Sciences
+116,Percentile,0.15
+116,MeanFractionalPathLength,0.3617409926933735
+116,TaxonomyLevel,Umbrella
+116,TaxonomyValue,Applied Sciences
+116,Color,#1b9e77
+116,Line,Applied Sciences
+117,Percentile,0.16
+117,MeanFractionalPathLength,0.36087061087061073
+117,TaxonomyLevel,Umbrella
+117,TaxonomyValue,Applied Sciences
+117,Color,#1b9e77
+117,Line,Applied Sciences
+118,Percentile,0.17
+118,MeanFractionalPathLength,0.3637566137566136
+118,TaxonomyLevel,Umbrella
+118,TaxonomyValue,Applied Sciences
+118,Color,#1b9e77
+118,Line,Applied Sciences
+119,Percentile,0.18
+119,MeanFractionalPathLength,0.3658309283309283
+119,TaxonomyLevel,Umbrella
+119,TaxonomyValue,Applied Sciences
+119,Color,#1b9e77
+119,Line,Applied Sciences
+120,Percentile,0.19
+120,MeanFractionalPathLength,0.37216553287981846
+120,TaxonomyLevel,Umbrella
+120,TaxonomyValue,Applied Sciences
+120,Color,#1b9e77
+120,Line,Applied Sciences
+121,Percentile,0.2
+121,MeanFractionalPathLength,0.3744646006550767
+121,TaxonomyLevel,Umbrella
+121,TaxonomyValue,Applied Sciences
+121,Color,#1b9e77
+121,Line,Applied Sciences
+122,Percentile,0.21
+122,MeanFractionalPathLength,0.37796044343663376
+122,TaxonomyLevel,Umbrella
+122,TaxonomyValue,Applied Sciences
+122,Color,#1b9e77
+122,Line,Applied Sciences
+123,Percentile,0.22
+123,MeanFractionalPathLength,0.38017075517075505
+123,TaxonomyLevel,Umbrella
+123,TaxonomyValue,Applied Sciences
+123,Color,#1b9e77
+123,Line,Applied Sciences
+124,Percentile,0.23
+124,MeanFractionalPathLength,0.3760822510822509
+124,TaxonomyLevel,Umbrella
+124,TaxonomyValue,Applied Sciences
+124,Color,#1b9e77
+124,Line,Applied Sciences
+125,Percentile,0.24
+125,MeanFractionalPathLength,0.37770562770562754
+125,TaxonomyLevel,Umbrella
+125,TaxonomyValue,Applied Sciences
+125,Color,#1b9e77
+125,Line,Applied Sciences
+126,Percentile,0.25
+126,MeanFractionalPathLength,0.3774880322499369
+126,TaxonomyLevel,Umbrella
+126,TaxonomyValue,Applied Sciences
+126,Color,#1b9e77
+126,Line,Applied Sciences
+127,Percentile,0.26
+127,MeanFractionalPathLength,0.3802910052910052
+127,TaxonomyLevel,Umbrella
+127,TaxonomyValue,Applied Sciences
+127,Color,#1b9e77
+127,Line,Applied Sciences
+128,Percentile,0.27
+128,MeanFractionalPathLength,0.3789367598891407
+128,TaxonomyLevel,Umbrella
+128,TaxonomyValue,Applied Sciences
+128,Color,#1b9e77
+128,Line,Applied Sciences
+129,Percentile,0.28
+129,MeanFractionalPathLength,0.3781494079113126
+129,TaxonomyLevel,Umbrella
+129,TaxonomyValue,Applied Sciences
+129,Color,#1b9e77
+129,Line,Applied Sciences
+130,Percentile,0.29
+130,MeanFractionalPathLength,0.37836700336700324
+130,TaxonomyLevel,Umbrella
+130,TaxonomyValue,Applied Sciences
+130,Color,#1b9e77
+130,Line,Applied Sciences
+131,Percentile,0.3
+131,MeanFractionalPathLength,0.38098244348244337
+131,TaxonomyLevel,Umbrella
+131,TaxonomyValue,Applied Sciences
+131,Color,#1b9e77
+131,Line,Applied Sciences
+132,Percentile,0.31
+132,MeanFractionalPathLength,0.3809223184223183
+132,TaxonomyLevel,Umbrella
+132,TaxonomyValue,Applied Sciences
+132,Color,#1b9e77
+132,Line,Applied Sciences
+133,Percentile,0.32
+133,MeanFractionalPathLength,0.38287351977828155
+133,TaxonomyLevel,Umbrella
+133,TaxonomyValue,Applied Sciences
+133,Color,#1b9e77
+133,Line,Applied Sciences
+134,Percentile,0.33
+134,MeanFractionalPathLength,0.3835978835978835
+134,TaxonomyLevel,Umbrella
+134,TaxonomyValue,Applied Sciences
+134,Color,#1b9e77
+134,Line,Applied Sciences
+135,Percentile,0.34
+135,MeanFractionalPathLength,0.3820861678004534
+135,TaxonomyLevel,Umbrella
+135,TaxonomyValue,Applied Sciences
+135,Color,#1b9e77
+135,Line,Applied Sciences
+136,Percentile,0.35000000000000003
+136,MeanFractionalPathLength,0.38517258755353984
+136,TaxonomyLevel,Umbrella
+136,TaxonomyValue,Applied Sciences
+136,Color,#1b9e77
+136,Line,Applied Sciences
+137,Percentile,0.36
+137,MeanFractionalPathLength,0.38711519961519947
+137,TaxonomyLevel,Umbrella
+137,TaxonomyValue,Applied Sciences
+137,Color,#1b9e77
+137,Line,Applied Sciences
+138,Percentile,0.37
+138,MeanFractionalPathLength,0.3884379509379508
+138,TaxonomyLevel,Umbrella
+138,TaxonomyValue,Applied Sciences
+138,Color,#1b9e77
+138,Line,Applied Sciences
+139,Percentile,0.38
+139,MeanFractionalPathLength,0.3890993265993265
+139,TaxonomyLevel,Umbrella
+139,TaxonomyValue,Applied Sciences
+139,Color,#1b9e77
+139,Line,Applied Sciences
+140,Percentile,0.39
+140,MeanFractionalPathLength,0.3891408415217938
+140,TaxonomyLevel,Umbrella
+140,TaxonomyValue,Applied Sciences
+140,Color,#1b9e77
+140,Line,Applied Sciences
+141,Percentile,0.4
+141,MeanFractionalPathLength,0.3926996724615771
+141,TaxonomyLevel,Umbrella
+141,TaxonomyValue,Applied Sciences
+141,Color,#1b9e77
+141,Line,Applied Sciences
+142,Percentile,0.41000000000000003
+142,MeanFractionalPathLength,0.3973607961703199
+142,TaxonomyLevel,Umbrella
+142,TaxonomyValue,Applied Sciences
+142,Color,#1b9e77
+142,Line,Applied Sciences
+143,Percentile,0.42
+143,MeanFractionalPathLength,0.3995310245310244
+143,TaxonomyLevel,Umbrella
+143,TaxonomyValue,Applied Sciences
+143,Color,#1b9e77
+143,Line,Applied Sciences
+144,Percentile,0.43
+144,MeanFractionalPathLength,0.40382996632996626
+144,TaxonomyLevel,Umbrella
+144,TaxonomyValue,Applied Sciences
+144,Color,#1b9e77
+144,Line,Applied Sciences
+145,Percentile,0.44
+145,MeanFractionalPathLength,0.4089405964405963
+145,TaxonomyLevel,Umbrella
+145,TaxonomyValue,Applied Sciences
+145,Color,#1b9e77
+145,Line,Applied Sciences
+146,Percentile,0.45
+146,MeanFractionalPathLength,0.41169060216679254
+146,TaxonomyLevel,Umbrella
+146,TaxonomyValue,Applied Sciences
+146,Color,#1b9e77
+146,Line,Applied Sciences
+147,Percentile,0.46
+147,MeanFractionalPathLength,0.4146825396825396
+147,TaxonomyLevel,Umbrella
+147,TaxonomyValue,Applied Sciences
+147,Color,#1b9e77
+147,Line,Applied Sciences
+148,Percentile,0.47000000000000003
+148,MeanFractionalPathLength,0.4184618291761148
+148,TaxonomyLevel,Umbrella
+148,TaxonomyValue,Applied Sciences
+148,Color,#1b9e77
+148,Line,Applied Sciences
+149,Percentile,0.48
+149,MeanFractionalPathLength,0.43033509700176353
+149,TaxonomyLevel,Umbrella
+149,TaxonomyValue,Applied Sciences
+149,Color,#1b9e77
+149,Line,Applied Sciences
+150,Percentile,0.49
+150,MeanFractionalPathLength,0.43211880711880696
+150,TaxonomyLevel,Umbrella
+150,TaxonomyValue,Applied Sciences
+150,Color,#1b9e77
+150,Line,Applied Sciences
+151,Percentile,0.5
+151,MeanFractionalPathLength,0.431156806156806
+151,TaxonomyLevel,Umbrella
+151,TaxonomyValue,Applied Sciences
+151,Color,#1b9e77
+151,Line,Applied Sciences
+152,Percentile,0.51
+152,MeanFractionalPathLength,0.43097643097643085
+152,TaxonomyLevel,Umbrella
+152,TaxonomyValue,Applied Sciences
+152,Color,#1b9e77
+152,Line,Applied Sciences
+153,Percentile,0.52
+153,MeanFractionalPathLength,0.4375157470395564
+153,TaxonomyLevel,Umbrella
+153,TaxonomyValue,Applied Sciences
+153,Color,#1b9e77
+153,Line,Applied Sciences
+154,Percentile,0.53
+154,MeanFractionalPathLength,0.4372008062484251
+154,TaxonomyLevel,Umbrella
+154,TaxonomyValue,Applied Sciences
+154,Color,#1b9e77
+154,Line,Applied Sciences
+155,Percentile,0.54
+155,MeanFractionalPathLength,0.4419879062736204
+155,TaxonomyLevel,Umbrella
+155,TaxonomyValue,Applied Sciences
+155,Color,#1b9e77
+155,Line,Applied Sciences
+156,Percentile,0.55
+156,MeanFractionalPathLength,0.4386123136123135
+156,TaxonomyLevel,Umbrella
+156,TaxonomyValue,Applied Sciences
+156,Color,#1b9e77
+156,Line,Applied Sciences
+157,Percentile,0.56
+157,MeanFractionalPathLength,0.4413780663780662
+157,TaxonomyLevel,Umbrella
+157,TaxonomyValue,Applied Sciences
+157,Color,#1b9e77
+157,Line,Applied Sciences
+158,Percentile,0.5700000000000001
+158,MeanFractionalPathLength,0.44113756613756605
+158,TaxonomyLevel,Umbrella
+158,TaxonomyValue,Applied Sciences
+158,Color,#1b9e77
+158,Line,Applied Sciences
+159,Percentile,0.58
+159,MeanFractionalPathLength,0.4356361231361231
+159,TaxonomyLevel,Umbrella
+159,TaxonomyValue,Applied Sciences
+159,Color,#1b9e77
+159,Line,Applied Sciences
+160,Percentile,0.59
+160,MeanFractionalPathLength,0.44554673721340377
+160,TaxonomyLevel,Umbrella
+160,TaxonomyValue,Applied Sciences
+160,Color,#1b9e77
+160,Line,Applied Sciences
+161,Percentile,0.6
+161,MeanFractionalPathLength,0.4508692365835221
+161,TaxonomyLevel,Umbrella
+161,TaxonomyValue,Applied Sciences
+161,Color,#1b9e77
+161,Line,Applied Sciences
+162,Percentile,0.61
+162,MeanFractionalPathLength,0.45168808264046345
+162,TaxonomyLevel,Umbrella
+162,TaxonomyValue,Applied Sciences
+162,Color,#1b9e77
+162,Line,Applied Sciences
+163,Percentile,0.62
+163,MeanFractionalPathLength,0.4491370622323002
+163,TaxonomyLevel,Umbrella
+163,TaxonomyValue,Applied Sciences
+163,Color,#1b9e77
+163,Line,Applied Sciences
+164,Percentile,0.63
+164,MeanFractionalPathLength,0.45622323003275367
+164,TaxonomyLevel,Umbrella
+164,TaxonomyValue,Applied Sciences
+164,Color,#1b9e77
+164,Line,Applied Sciences
+165,Percentile,0.64
+165,MeanFractionalPathLength,0.45272738725119677
+165,TaxonomyLevel,Umbrella
+165,TaxonomyValue,Applied Sciences
+165,Color,#1b9e77
+165,Line,Applied Sciences
+166,Percentile,0.65
+166,MeanFractionalPathLength,0.45426587301587296
+166,TaxonomyLevel,Umbrella
+166,TaxonomyValue,Applied Sciences
+166,Color,#1b9e77
+166,Line,Applied Sciences
+167,Percentile,0.66
+167,MeanFractionalPathLength,0.45975529100529094
+167,TaxonomyLevel,Umbrella
+167,TaxonomyValue,Applied Sciences
+167,Color,#1b9e77
+167,Line,Applied Sciences
+168,Percentile,0.67
+168,MeanFractionalPathLength,0.45952380952380945
+168,TaxonomyLevel,Umbrella
+168,TaxonomyValue,Applied Sciences
+168,Color,#1b9e77
+168,Line,Applied Sciences
+169,Percentile,0.68
+169,MeanFractionalPathLength,0.4591931216931216
+169,TaxonomyLevel,Umbrella
+169,TaxonomyValue,Applied Sciences
+169,Color,#1b9e77
+169,Line,Applied Sciences
+170,Percentile,0.6900000000000001
+170,MeanFractionalPathLength,0.4480662635424539
+170,TaxonomyLevel,Umbrella
+170,TaxonomyValue,Applied Sciences
+170,Color,#1b9e77
+170,Line,Applied Sciences
+171,Percentile,0.7000000000000001
+171,MeanFractionalPathLength,0.44611363063744003
+171,TaxonomyLevel,Umbrella
+171,TaxonomyValue,Applied Sciences
+171,Color,#1b9e77
+171,Line,Applied Sciences
+172,Percentile,0.71
+172,MeanFractionalPathLength,0.4454837490551775
+172,TaxonomyLevel,Umbrella
+172,TaxonomyValue,Applied Sciences
+172,Color,#1b9e77
+172,Line,Applied Sciences
+173,Percentile,0.72
+173,MeanFractionalPathLength,0.45108969513731406
+173,TaxonomyLevel,Umbrella
+173,TaxonomyValue,Applied Sciences
+173,Color,#1b9e77
+173,Line,Applied Sciences
+174,Percentile,0.73
+174,MeanFractionalPathLength,0.44857016880826384
+174,TaxonomyLevel,Umbrella
+174,TaxonomyValue,Applied Sciences
+174,Color,#1b9e77
+174,Line,Applied Sciences
+175,Percentile,0.74
+175,MeanFractionalPathLength,0.45095899470899453
+175,TaxonomyLevel,Umbrella
+175,TaxonomyValue,Applied Sciences
+175,Color,#1b9e77
+175,Line,Applied Sciences
+176,Percentile,0.75
+176,MeanFractionalPathLength,0.46316137566137555
+176,TaxonomyLevel,Umbrella
+176,TaxonomyValue,Applied Sciences
+176,Color,#1b9e77
+176,Line,Applied Sciences
+177,Percentile,0.76
+177,MeanFractionalPathLength,0.46327790375409406
+177,TaxonomyLevel,Umbrella
+177,TaxonomyValue,Applied Sciences
+177,Color,#1b9e77
+177,Line,Applied Sciences
+178,Percentile,0.77
+178,MeanFractionalPathLength,0.46765558075081876
+178,TaxonomyLevel,Umbrella
+178,TaxonomyValue,Applied Sciences
+178,Color,#1b9e77
+178,Line,Applied Sciences
+179,Percentile,0.78
+179,MeanFractionalPathLength,0.4692617787855883
+179,TaxonomyLevel,Umbrella
+179,TaxonomyValue,Applied Sciences
+179,Color,#1b9e77
+179,Line,Applied Sciences
+180,Percentile,0.79
+180,MeanFractionalPathLength,0.47562830687830676
+180,TaxonomyLevel,Umbrella
+180,TaxonomyValue,Applied Sciences
+180,Color,#1b9e77
+180,Line,Applied Sciences
+181,Percentile,0.8
+181,MeanFractionalPathLength,0.4874999999999999
+181,TaxonomyLevel,Umbrella
+181,TaxonomyValue,Applied Sciences
+181,Color,#1b9e77
+181,Line,Applied Sciences
+182,Percentile,0.81
+182,MeanFractionalPathLength,0.4928989139515455
+182,TaxonomyLevel,Umbrella
+182,TaxonomyValue,Applied Sciences
+182,Color,#1b9e77
+182,Line,Applied Sciences
+183,Percentile,0.8200000000000001
+183,MeanFractionalPathLength,0.500429894179894
+183,TaxonomyLevel,Umbrella
+183,TaxonomyValue,Applied Sciences
+183,Color,#1b9e77
+183,Line,Applied Sciences
+184,Percentile,0.8300000000000001
+184,MeanFractionalPathLength,0.505324074074074
+184,TaxonomyLevel,Umbrella
+184,TaxonomyValue,Applied Sciences
+184,Color,#1b9e77
+184,Line,Applied Sciences
+185,Percentile,0.84
+185,MeanFractionalPathLength,0.5043320105820105
+185,TaxonomyLevel,Umbrella
+185,TaxonomyValue,Applied Sciences
+185,Color,#1b9e77
+185,Line,Applied Sciences
+186,Percentile,0.85
+186,MeanFractionalPathLength,0.4992724867724867
+186,TaxonomyLevel,Umbrella
+186,TaxonomyValue,Applied Sciences
+186,Color,#1b9e77
+186,Line,Applied Sciences
+187,Percentile,0.86
+187,MeanFractionalPathLength,0.5036549707602338
+187,TaxonomyLevel,Umbrella
+187,TaxonomyValue,Applied Sciences
+187,Color,#1b9e77
+187,Line,Applied Sciences
+188,Percentile,0.87
+188,MeanFractionalPathLength,0.5110345307713727
+188,TaxonomyLevel,Umbrella
+188,TaxonomyValue,Applied Sciences
+188,Color,#1b9e77
+188,Line,Applied Sciences
+189,Percentile,0.88
+189,MeanFractionalPathLength,0.5177836566725454
+189,TaxonomyLevel,Umbrella
+189,TaxonomyValue,Applied Sciences
+189,Color,#1b9e77
+189,Line,Applied Sciences
+190,Percentile,0.89
+190,MeanFractionalPathLength,0.5298721340388006
+190,TaxonomyLevel,Umbrella
+190,TaxonomyValue,Applied Sciences
+190,Color,#1b9e77
+190,Line,Applied Sciences
+191,Percentile,0.9
+191,MeanFractionalPathLength,0.5276221599751011
+191,TaxonomyLevel,Umbrella
+191,TaxonomyValue,Applied Sciences
+191,Color,#1b9e77
+191,Line,Applied Sciences
+192,Percentile,0.91
+192,MeanFractionalPathLength,0.526882975412387
+192,TaxonomyLevel,Umbrella
+192,TaxonomyValue,Applied Sciences
+192,Color,#1b9e77
+192,Line,Applied Sciences
+193,Percentile,0.92
+193,MeanFractionalPathLength,0.5169064153439152
+193,TaxonomyLevel,Umbrella
+193,TaxonomyValue,Applied Sciences
+193,Color,#1b9e77
+193,Line,Applied Sciences
+194,Percentile,0.93
+194,MeanFractionalPathLength,0.5171957671957671
+194,TaxonomyLevel,Umbrella
+194,TaxonomyValue,Applied Sciences
+194,Color,#1b9e77
+194,Line,Applied Sciences
+195,Percentile,0.9400000000000001
+195,MeanFractionalPathLength,0.5220616024187452
+195,TaxonomyLevel,Umbrella
+195,TaxonomyValue,Applied Sciences
+195,Color,#1b9e77
+195,Line,Applied Sciences
+196,Percentile,0.9500000000000001
+196,MeanFractionalPathLength,0.527006172839506
+196,TaxonomyLevel,Umbrella
+196,TaxonomyValue,Applied Sciences
+196,Color,#1b9e77
+196,Line,Applied Sciences
+197,Percentile,0.96
+197,MeanFractionalPathLength,0.5291666666666665
+197,TaxonomyLevel,Umbrella
+197,TaxonomyValue,Applied Sciences
+197,Color,#1b9e77
+197,Line,Applied Sciences
+198,Percentile,0.97
+198,MeanFractionalPathLength,0.5268683862433862
+198,TaxonomyLevel,Umbrella
+198,TaxonomyValue,Applied Sciences
+198,Color,#1b9e77
+198,Line,Applied Sciences
+199,Percentile,0.98
+199,MeanFractionalPathLength,0.5239040060468632
+199,TaxonomyLevel,Umbrella
+199,TaxonomyValue,Applied Sciences
+199,Color,#1b9e77
+199,Line,Applied Sciences
+200,Percentile,0.99
+200,MeanFractionalPathLength,0.5026455026455025
+200,TaxonomyLevel,Umbrella
+200,TaxonomyValue,Applied Sciences
+200,Color,#1b9e77
+200,Line,Applied Sciences
+201,Percentile,1.0
+201,MeanFractionalPathLength,0.48495370370370355
+201,TaxonomyLevel,Umbrella
+201,TaxonomyValue,Applied Sciences
+201,Color,#1b9e77
+201,Line,Applied Sciences
+202,Percentile,0.0
+202,MeanFractionalPathLength,0.4427766032417196
+202,TaxonomyLevel,Umbrella
+202,TaxonomyValue,Education
+202,Color,#d95f02
+202,Line,Education
+203,Percentile,0.01
+203,MeanFractionalPathLength,0.44341085271317826
+203,TaxonomyLevel,Umbrella
+203,TaxonomyValue,Education
+203,Color,#d95f02
+203,Line,Education
+204,Percentile,0.02
+204,MeanFractionalPathLength,0.4454780361757105
+204,TaxonomyLevel,Umbrella
+204,TaxonomyValue,Education
+204,Color,#d95f02
+204,Line,Education
+205,Percentile,0.03
+205,MeanFractionalPathLength,0.44599483204134366
+205,TaxonomyLevel,Umbrella
+205,TaxonomyValue,Education
+205,Color,#d95f02
+205,Line,Education
+206,Percentile,0.04
+206,MeanFractionalPathLength,0.4475581395348837
+206,TaxonomyLevel,Umbrella
+206,TaxonomyValue,Education
+206,Color,#d95f02
+206,Line,Education
+207,Percentile,0.05
+207,MeanFractionalPathLength,0.4491694352159468
+207,TaxonomyLevel,Umbrella
+207,TaxonomyValue,Education
+207,Color,#d95f02
+207,Line,Education
+208,Percentile,0.06
+208,MeanFractionalPathLength,0.4522332964193429
+208,TaxonomyLevel,Umbrella
+208,TaxonomyValue,Education
+208,Color,#d95f02
+208,Line,Education
+209,Percentile,0.07
+209,MeanFractionalPathLength,0.45308231819859723
+209,TaxonomyLevel,Umbrella
+209,TaxonomyValue,Education
+209,Color,#d95f02
+209,Line,Education
+210,Percentile,0.08
+210,MeanFractionalPathLength,0.45334071613141386
+210,TaxonomyLevel,Umbrella
+210,TaxonomyValue,Education
+210,Color,#d95f02
+210,Line,Education
+211,Percentile,0.09
+211,MeanFractionalPathLength,0.4502399409376154
+211,TaxonomyLevel,Umbrella
+211,TaxonomyValue,Education
+211,Color,#d95f02
+211,Line,Education
+212,Percentile,0.1
+212,MeanFractionalPathLength,0.4538407329105004
+212,TaxonomyLevel,Umbrella
+212,TaxonomyValue,Education
+212,Color,#d95f02
+212,Line,Education
+213,Percentile,0.11
+213,MeanFractionalPathLength,0.4515856236786469
+213,TaxonomyLevel,Umbrella
+213,TaxonomyValue,Education
+213,Color,#d95f02
+213,Line,Education
+214,Percentile,0.12
+214,MeanFractionalPathLength,0.4511980267794221
+214,TaxonomyLevel,Umbrella
+214,TaxonomyValue,Education
+214,Color,#d95f02
+214,Line,Education
+215,Percentile,0.13
+215,MeanFractionalPathLength,0.45112587670727206
+215,TaxonomyLevel,Umbrella
+215,TaxonomyValue,Education
+215,Color,#d95f02
+215,Line,Education
+216,Percentile,0.14
+216,MeanFractionalPathLength,0.45286083425618306
+216,TaxonomyLevel,Umbrella
+216,TaxonomyValue,Education
+216,Color,#d95f02
+216,Line,Education
+217,Percentile,0.15
+217,MeanFractionalPathLength,0.452454780361757
+217,TaxonomyLevel,Umbrella
+217,TaxonomyValue,Education
+217,Color,#d95f02
+217,Line,Education
+218,Percentile,0.16
+218,MeanFractionalPathLength,0.4512366186784792
+218,TaxonomyLevel,Umbrella
+218,TaxonomyValue,Education
+218,Color,#d95f02
+218,Line,Education
+219,Percentile,0.17
+219,MeanFractionalPathLength,0.4553911205073996
+219,TaxonomyLevel,Umbrella
+219,TaxonomyValue,Education
+219,Color,#d95f02
+219,Line,Education
+220,Percentile,0.18
+220,MeanFractionalPathLength,0.4591261451726569
+220,TaxonomyLevel,Umbrella
+220,TaxonomyValue,Education
+220,Color,#d95f02
+220,Line,Education
+221,Percentile,0.19
+221,MeanFractionalPathLength,0.46391825229034533
+221,TaxonomyLevel,Umbrella
+221,TaxonomyValue,Education
+221,Color,#d95f02
+221,Line,Education
+222,Percentile,0.2
+222,MeanFractionalPathLength,0.467109634551495
+222,TaxonomyLevel,Umbrella
+222,TaxonomyValue,Education
+222,Color,#d95f02
+222,Line,Education
+223,Percentile,0.21
+223,MeanFractionalPathLength,0.47918050941306756
+223,TaxonomyLevel,Umbrella
+223,TaxonomyValue,Education
+223,Color,#d95f02
+223,Line,Education
+224,Percentile,0.22
+224,MeanFractionalPathLength,0.4822443706164636
+224,TaxonomyLevel,Umbrella
+224,TaxonomyValue,Education
+224,Color,#d95f02
+224,Line,Education
+225,Percentile,0.23
+225,MeanFractionalPathLength,0.48914728682170544
+225,TaxonomyLevel,Umbrella
+225,TaxonomyValue,Education
+225,Color,#d95f02
+225,Line,Education
+226,Percentile,0.24
+226,MeanFractionalPathLength,0.4877730796335447
+226,TaxonomyLevel,Umbrella
+226,TaxonomyValue,Education
+226,Color,#d95f02
+226,Line,Education
+227,Percentile,0.25
+227,MeanFractionalPathLength,0.49520789288231143
+227,TaxonomyLevel,Umbrella
+227,TaxonomyValue,Education
+227,Color,#d95f02
+227,Line,Education
+228,Percentile,0.26
+228,MeanFractionalPathLength,0.499154334038055
+228,TaxonomyLevel,Umbrella
+228,TaxonomyValue,Education
+228,Color,#d95f02
+228,Line,Education
+229,Percentile,0.27
+229,MeanFractionalPathLength,0.504282022886674
+229,TaxonomyLevel,Umbrella
+229,TaxonomyValue,Education
+229,Color,#d95f02
+229,Line,Education
+230,Percentile,0.28
+230,MeanFractionalPathLength,0.5140273163528977
+230,TaxonomyLevel,Umbrella
+230,TaxonomyValue,Education
+230,Color,#d95f02
+230,Line,Education
+231,Percentile,0.29
+231,MeanFractionalPathLength,0.5119970468807677
+231,TaxonomyLevel,Umbrella
+231,TaxonomyValue,Education
+231,Color,#d95f02
+231,Line,Education
+232,Percentile,0.3
+232,MeanFractionalPathLength,0.5077150239940937
+232,TaxonomyLevel,Umbrella
+232,TaxonomyValue,Education
+232,Color,#d95f02
+232,Line,Education
+233,Percentile,0.31
+233,MeanFractionalPathLength,0.5003875968992247
+233,TaxonomyLevel,Umbrella
+233,TaxonomyValue,Education
+233,Color,#d95f02
+233,Line,Education
+234,Percentile,0.32
+234,MeanFractionalPathLength,0.5007047216349542
+234,TaxonomyLevel,Umbrella
+234,TaxonomyValue,Education
+234,Color,#d95f02
+234,Line,Education
+235,Percentile,0.33
+235,MeanFractionalPathLength,0.5003171247357294
+235,TaxonomyLevel,Umbrella
+235,TaxonomyValue,Education
+235,Color,#d95f02
+235,Line,Education
+236,Percentile,0.34
+236,MeanFractionalPathLength,0.5036913990402363
+236,TaxonomyLevel,Umbrella
+236,TaxonomyValue,Education
+236,Color,#d95f02
+236,Line,Education
+237,Percentile,0.35000000000000003
+237,MeanFractionalPathLength,0.502547065337763
+237,TaxonomyLevel,Umbrella
+237,TaxonomyValue,Education
+237,Color,#d95f02
+237,Line,Education
+238,Percentile,0.36
+238,MeanFractionalPathLength,0.5004798818752307
+238,TaxonomyLevel,Umbrella
+238,TaxonomyValue,Education
+238,Color,#d95f02
+238,Line,Education
+239,Percentile,0.37
+239,MeanFractionalPathLength,0.49815430047988196
+239,TaxonomyLevel,Umbrella
+239,TaxonomyValue,Education
+239,Color,#d95f02
+239,Line,Education
+240,Percentile,0.38
+240,MeanFractionalPathLength,0.49157857646229736
+240,TaxonomyLevel,Umbrella
+240,TaxonomyValue,Education
+240,Color,#d95f02
+240,Line,Education
+241,Percentile,0.39
+241,MeanFractionalPathLength,0.4894291754756871
+241,TaxonomyLevel,Umbrella
+241,TaxonomyValue,Education
+241,Color,#d95f02
+241,Line,Education
+242,Percentile,0.4
+242,MeanFractionalPathLength,0.495877378435518
+242,TaxonomyLevel,Umbrella
+242,TaxonomyValue,Education
+242,Color,#d95f02
+242,Line,Education
+243,Percentile,0.41000000000000003
+243,MeanFractionalPathLength,0.508342561830934
+243,TaxonomyLevel,Umbrella
+243,TaxonomyValue,Education
+243,Color,#d95f02
+243,Line,Education
+244,Percentile,0.42
+244,MeanFractionalPathLength,0.5094130675526024
+244,TaxonomyLevel,Umbrella
+244,TaxonomyValue,Education
+244,Color,#d95f02
+244,Line,Education
+245,Percentile,0.43
+245,MeanFractionalPathLength,0.5085271317829457
+245,TaxonomyLevel,Umbrella
+245,TaxonomyValue,Education
+245,Color,#d95f02
+245,Line,Education
+246,Percentile,0.44
+246,MeanFractionalPathLength,0.508859357696567
+246,TaxonomyLevel,Umbrella
+246,TaxonomyValue,Education
+246,Color,#d95f02
+246,Line,Education
+247,Percentile,0.45
+247,MeanFractionalPathLength,0.5060169804355851
+247,TaxonomyLevel,Umbrella
+247,TaxonomyValue,Education
+247,Color,#d95f02
+247,Line,Education
+248,Percentile,0.46
+248,MeanFractionalPathLength,0.5076814658210006
+248,TaxonomyLevel,Umbrella
+248,TaxonomyValue,Education
+248,Color,#d95f02
+248,Line,Education
+249,Percentile,0.47000000000000003
+249,MeanFractionalPathLength,0.5119450317124735
+249,TaxonomyLevel,Umbrella
+249,TaxonomyValue,Education
+249,Color,#d95f02
+249,Line,Education
+250,Percentile,0.48
+250,MeanFractionalPathLength,0.5166482096714655
+250,TaxonomyLevel,Umbrella
+250,TaxonomyValue,Education
+250,Color,#d95f02
+250,Line,Education
+251,Percentile,0.49
+251,MeanFractionalPathLength,0.5276854928017719
+251,TaxonomyLevel,Umbrella
+251,TaxonomyValue,Education
+251,Color,#d95f02
+251,Line,Education
+252,Percentile,0.5
+252,MeanFractionalPathLength,0.5375415282392026
+252,TaxonomyLevel,Umbrella
+252,TaxonomyValue,Education
+252,Color,#d95f02
+252,Line,Education
+253,Percentile,0.51
+253,MeanFractionalPathLength,0.5280915466961978
+253,TaxonomyLevel,Umbrella
+253,TaxonomyValue,Education
+253,Color,#d95f02
+253,Line,Education
+254,Percentile,0.52
+254,MeanFractionalPathLength,0.5351790328534514
+254,TaxonomyLevel,Umbrella
+254,TaxonomyValue,Education
+254,Color,#d95f02
+254,Line,Education
+255,Percentile,0.53
+255,MeanFractionalPathLength,0.5334038054968288
+255,TaxonomyLevel,Umbrella
+255,TaxonomyValue,Education
+255,Color,#d95f02
+255,Line,Education
+256,Percentile,0.54
+256,MeanFractionalPathLength,0.5352713178294572
+256,TaxonomyLevel,Umbrella
+256,TaxonomyValue,Education
+256,Color,#d95f02
+256,Line,Education
+257,Percentile,0.55
+257,MeanFractionalPathLength,0.5404946474713916
+257,TaxonomyLevel,Umbrella
+257,TaxonomyValue,Education
+257,Color,#d95f02
+257,Line,Education
+258,Percentile,0.56
+258,MeanFractionalPathLength,0.5406053894425987
+258,TaxonomyLevel,Umbrella
+258,TaxonomyValue,Education
+258,Color,#d95f02
+258,Line,Education
+259,Percentile,0.5700000000000001
+259,MeanFractionalPathLength,0.5412329272794388
+259,TaxonomyLevel,Umbrella
+259,TaxonomyValue,Education
+259,Color,#d95f02
+259,Line,Education
+260,Percentile,0.58
+260,MeanFractionalPathLength,0.5392395717977114
+260,TaxonomyLevel,Umbrella
+260,TaxonomyValue,Education
+260,Color,#d95f02
+260,Line,Education
+261,Percentile,0.59
+261,MeanFractionalPathLength,0.5441860465116279
+261,TaxonomyLevel,Umbrella
+261,TaxonomyValue,Education
+261,Color,#d95f02
+261,Line,Education
+262,Percentile,0.6
+262,MeanFractionalPathLength,0.5398167723749119
+262,TaxonomyLevel,Umbrella
+262,TaxonomyValue,Education
+262,Color,#d95f02
+262,Line,Education
+263,Percentile,0.61
+263,MeanFractionalPathLength,0.5475821336286452
+263,TaxonomyLevel,Umbrella
+263,TaxonomyValue,Education
+263,Color,#d95f02
+263,Line,Education
+264,Percentile,0.62
+264,MeanFractionalPathLength,0.5427464008859357
+264,TaxonomyLevel,Umbrella
+264,TaxonomyValue,Education
+264,Color,#d95f02
+264,Line,Education
+265,Percentile,0.63
+265,MeanFractionalPathLength,0.5564728682170542
+265,TaxonomyLevel,Umbrella
+265,TaxonomyValue,Education
+265,Color,#d95f02
+265,Line,Education
+266,Percentile,0.64
+266,MeanFractionalPathLength,0.5611627906976744
+266,TaxonomyLevel,Umbrella
+266,TaxonomyValue,Education
+266,Color,#d95f02
+266,Line,Education
+267,Percentile,0.65
+267,MeanFractionalPathLength,0.568953488372093
+267,TaxonomyLevel,Umbrella
+267,TaxonomyValue,Education
+267,Color,#d95f02
+267,Line,Education
+268,Percentile,0.66
+268,MeanFractionalPathLength,0.571705426356589
+268,TaxonomyLevel,Umbrella
+268,TaxonomyValue,Education
+268,Color,#d95f02
+268,Line,Education
+269,Percentile,0.67
+269,MeanFractionalPathLength,0.5702842377260983
+269,TaxonomyLevel,Umbrella
+269,TaxonomyValue,Education
+269,Color,#d95f02
+269,Line,Education
+270,Percentile,0.68
+270,MeanFractionalPathLength,0.5741971207087486
+270,TaxonomyLevel,Umbrella
+270,TaxonomyValue,Education
+270,Color,#d95f02
+270,Line,Education
+271,Percentile,0.6900000000000001
+271,MeanFractionalPathLength,0.5649317091177556
+271,TaxonomyLevel,Umbrella
+271,TaxonomyValue,Education
+271,Color,#d95f02
+271,Line,Education
+272,Percentile,0.7000000000000001
+272,MeanFractionalPathLength,0.5702713178294574
+272,TaxonomyLevel,Umbrella
+272,TaxonomyValue,Education
+272,Color,#d95f02
+272,Line,Education
+273,Percentile,0.71
+273,MeanFractionalPathLength,0.5632705795496493
+273,TaxonomyLevel,Umbrella
+273,TaxonomyValue,Education
+273,Color,#d95f02
+273,Line,Education
+274,Percentile,0.72
+274,MeanFractionalPathLength,0.5792174234034699
+274,TaxonomyLevel,Umbrella
+274,TaxonomyValue,Education
+274,Color,#d95f02
+274,Line,Education
+275,Percentile,0.73
+275,MeanFractionalPathLength,0.5768180140273164
+275,TaxonomyLevel,Umbrella
+275,TaxonomyValue,Education
+275,Color,#d95f02
+275,Line,Education
+276,Percentile,0.74
+276,MeanFractionalPathLength,0.5805144467935166
+276,TaxonomyLevel,Umbrella
+276,TaxonomyValue,Education
+276,Color,#d95f02
+276,Line,Education
+277,Percentile,0.75
+277,MeanFractionalPathLength,0.5783650458069063
+277,TaxonomyLevel,Umbrella
+277,TaxonomyValue,Education
+277,Color,#d95f02
+277,Line,Education
+278,Percentile,0.76
+278,MeanFractionalPathLength,0.5856773717238832
+278,TaxonomyLevel,Umbrella
+278,TaxonomyValue,Education
+278,Color,#d95f02
+278,Line,Education
+279,Percentile,0.77
+279,MeanFractionalPathLength,0.5958792329661362
+279,TaxonomyLevel,Umbrella
+279,TaxonomyValue,Education
+279,Color,#d95f02
+279,Line,Education
+280,Percentile,0.78
+280,MeanFractionalPathLength,0.6015503875968992
+280,TaxonomyLevel,Umbrella
+280,TaxonomyValue,Education
+280,Color,#d95f02
+280,Line,Education
+281,Percentile,0.79
+281,MeanFractionalPathLength,0.605548755609955
+281,TaxonomyLevel,Umbrella
+281,TaxonomyValue,Education
+281,Color,#d95f02
+281,Line,Education
+282,Percentile,0.8
+282,MeanFractionalPathLength,0.5999184006527948
+282,TaxonomyLevel,Umbrella
+282,TaxonomyValue,Education
+282,Color,#d95f02
+282,Line,Education
+283,Percentile,0.81
+283,MeanFractionalPathLength,0.6124418604651163
+283,TaxonomyLevel,Umbrella
+283,TaxonomyValue,Education
+283,Color,#d95f02
+283,Line,Education
+284,Percentile,0.8200000000000001
+284,MeanFractionalPathLength,0.6065503875968993
+284,TaxonomyLevel,Umbrella
+284,TaxonomyValue,Education
+284,Color,#d95f02
+284,Line,Education
+285,Percentile,0.8300000000000001
+285,MeanFractionalPathLength,0.6079242032730404
+285,TaxonomyLevel,Umbrella
+285,TaxonomyValue,Education
+285,Color,#d95f02
+285,Line,Education
+286,Percentile,0.84
+286,MeanFractionalPathLength,0.6032831737346102
+286,TaxonomyLevel,Umbrella
+286,TaxonomyValue,Education
+286,Color,#d95f02
+286,Line,Education
+287,Percentile,0.85
+287,MeanFractionalPathLength,0.6193798449612402
+287,TaxonomyLevel,Umbrella
+287,TaxonomyValue,Education
+287,Color,#d95f02
+287,Line,Education
+288,Percentile,0.86
+288,MeanFractionalPathLength,0.6159345391903532
+288,TaxonomyLevel,Umbrella
+288,TaxonomyValue,Education
+288,Color,#d95f02
+288,Line,Education
+289,Percentile,0.87
+289,MeanFractionalPathLength,0.6154222766217871
+289,TaxonomyLevel,Umbrella
+289,TaxonomyValue,Education
+289,Color,#d95f02
+289,Line,Education
+290,Percentile,0.88
+290,MeanFractionalPathLength,0.6160852713178294
+290,TaxonomyLevel,Umbrella
+290,TaxonomyValue,Education
+290,Color,#d95f02
+290,Line,Education
+291,Percentile,0.89
+291,MeanFractionalPathLength,0.618563851489188
+291,TaxonomyLevel,Umbrella
+291,TaxonomyValue,Education
+291,Color,#d95f02
+291,Line,Education
+292,Percentile,0.9
+292,MeanFractionalPathLength,0.6300602928509904
+292,TaxonomyLevel,Umbrella
+292,TaxonomyValue,Education
+292,Color,#d95f02
+292,Line,Education
+293,Percentile,0.91
+293,MeanFractionalPathLength,0.6359980620155039
+293,TaxonomyLevel,Umbrella
+293,TaxonomyValue,Education
+293,Color,#d95f02
+293,Line,Education
+294,Percentile,0.92
+294,MeanFractionalPathLength,0.6285852713178295
+294,TaxonomyLevel,Umbrella
+294,TaxonomyValue,Education
+294,Color,#d95f02
+294,Line,Education
+295,Percentile,0.93
+295,MeanFractionalPathLength,0.6307797537619699
+295,TaxonomyLevel,Umbrella
+295,TaxonomyValue,Education
+295,Color,#d95f02
+295,Line,Education
+296,Percentile,0.9400000000000001
+296,MeanFractionalPathLength,0.6413953488372093
+296,TaxonomyLevel,Umbrella
+296,TaxonomyValue,Education
+296,Color,#d95f02
+296,Line,Education
+297,Percentile,0.9500000000000001
+297,MeanFractionalPathLength,0.6437984496124031
+297,TaxonomyLevel,Umbrella
+297,TaxonomyValue,Education
+297,Color,#d95f02
+297,Line,Education
+298,Percentile,0.96
+298,MeanFractionalPathLength,0.6516795865633075
+298,TaxonomyLevel,Umbrella
+298,TaxonomyValue,Education
+298,Color,#d95f02
+298,Line,Education
+299,Percentile,0.97
+299,MeanFractionalPathLength,0.6573643410852713
+299,TaxonomyLevel,Umbrella
+299,TaxonomyValue,Education
+299,Color,#d95f02
+299,Line,Education
+300,Percentile,0.98
+300,MeanFractionalPathLength,0.6733111849390919
+300,TaxonomyLevel,Umbrella
+300,TaxonomyValue,Education
+300,Color,#d95f02
+300,Line,Education
+301,Percentile,0.99
+301,MeanFractionalPathLength,0.6870801033591731
+301,TaxonomyLevel,Umbrella
+301,TaxonomyValue,Education
+301,Color,#d95f02
+301,Line,Education
+302,Percentile,1.0
+302,MeanFractionalPathLength,0.673953488372093
+302,TaxonomyLevel,Umbrella
+302,TaxonomyValue,Education
+302,Color,#d95f02
+302,Line,Education
+303,Percentile,0.0
+303,MeanFractionalPathLength,0.4149130190796857
+303,TaxonomyLevel,Umbrella
+303,TaxonomyValue,Engineering
+303,Color,#7570b3
+303,Line,Engineering
+304,Percentile,0.01
+304,MeanFractionalPathLength,0.4132834757834758
+304,TaxonomyLevel,Umbrella
+304,TaxonomyValue,Engineering
+304,Color,#7570b3
+304,Line,Engineering
+305,Percentile,0.02
+305,MeanFractionalPathLength,0.4105902777777778
+305,TaxonomyLevel,Umbrella
+305,TaxonomyValue,Engineering
+305,Color,#7570b3
+305,Line,Engineering
+306,Percentile,0.03
+306,MeanFractionalPathLength,0.4105366941015089
+306,TaxonomyLevel,Umbrella
+306,TaxonomyValue,Engineering
+306,Color,#7570b3
+306,Line,Engineering
+307,Percentile,0.04
+307,MeanFractionalPathLength,0.4149305555555556
+307,TaxonomyLevel,Umbrella
+307,TaxonomyValue,Engineering
+307,Color,#7570b3
+307,Line,Engineering
+308,Percentile,0.05
+308,MeanFractionalPathLength,0.4105673133450911
+308,TaxonomyLevel,Umbrella
+308,TaxonomyValue,Engineering
+308,Color,#7570b3
+308,Line,Engineering
+309,Percentile,0.06
+309,MeanFractionalPathLength,0.4121840094062316
+309,TaxonomyLevel,Umbrella
+309,TaxonomyValue,Engineering
+309,Color,#7570b3
+309,Line,Engineering
+310,Percentile,0.07
+310,MeanFractionalPathLength,0.41560111699000585
+310,TaxonomyLevel,Umbrella
+310,TaxonomyValue,Engineering
+310,Color,#7570b3
+310,Line,Engineering
+311,Percentile,0.08
+311,MeanFractionalPathLength,0.4131760728982951
+311,TaxonomyLevel,Umbrella
+311,TaxonomyValue,Engineering
+311,Color,#7570b3
+311,Line,Engineering
+312,Percentile,0.09
+312,MeanFractionalPathLength,0.4117915263748597
+312,TaxonomyLevel,Umbrella
+312,TaxonomyValue,Engineering
+312,Color,#7570b3
+312,Line,Engineering
+313,Percentile,0.1
+313,MeanFractionalPathLength,0.41084455667789005
+313,TaxonomyLevel,Umbrella
+313,TaxonomyValue,Engineering
+313,Color,#7570b3
+313,Line,Engineering
+314,Percentile,0.11
+314,MeanFractionalPathLength,0.41280864197530864
+314,TaxonomyLevel,Umbrella
+314,TaxonomyValue,Engineering
+314,Color,#7570b3
+314,Line,Engineering
+315,Percentile,0.12
+315,MeanFractionalPathLength,0.4191651969429747
+315,TaxonomyLevel,Umbrella
+315,TaxonomyValue,Engineering
+315,Color,#7570b3
+315,Line,Engineering
+316,Percentile,0.13
+316,MeanFractionalPathLength,0.4210390946502057
+316,TaxonomyLevel,Umbrella
+316,TaxonomyValue,Engineering
+316,Color,#7570b3
+316,Line,Engineering
+317,Percentile,0.14
+317,MeanFractionalPathLength,0.41986331569664903
+317,TaxonomyLevel,Umbrella
+317,TaxonomyValue,Engineering
+317,Color,#7570b3
+317,Line,Engineering
+318,Percentile,0.15
+318,MeanFractionalPathLength,0.42754262198706644
+318,TaxonomyLevel,Umbrella
+318,TaxonomyValue,Engineering
+318,Color,#7570b3
+318,Line,Engineering
+319,Percentile,0.16
+319,MeanFractionalPathLength,0.4337471941638608
+319,TaxonomyLevel,Umbrella
+319,TaxonomyValue,Engineering
+319,Color,#7570b3
+319,Line,Engineering
+320,Percentile,0.17
+320,MeanFractionalPathLength,0.43080106621773284
+320,TaxonomyLevel,Umbrella
+320,TaxonomyValue,Engineering
+320,Color,#7570b3
+320,Line,Engineering
+321,Percentile,0.18
+321,MeanFractionalPathLength,0.4339576318742986
+321,TaxonomyLevel,Umbrella
+321,TaxonomyValue,Engineering
+321,Color,#7570b3
+321,Line,Engineering
+322,Percentile,0.19
+322,MeanFractionalPathLength,0.434891240446796
+322,TaxonomyLevel,Umbrella
+322,TaxonomyValue,Engineering
+322,Color,#7570b3
+322,Line,Engineering
+323,Percentile,0.2
+323,MeanFractionalPathLength,0.43805114638447973
+323,TaxonomyLevel,Umbrella
+323,TaxonomyValue,Engineering
+323,Color,#7570b3
+323,Line,Engineering
+324,Percentile,0.21
+324,MeanFractionalPathLength,0.44539976484420934
+324,TaxonomyLevel,Umbrella
+324,TaxonomyValue,Engineering
+324,Color,#7570b3
+324,Line,Engineering
+325,Percentile,0.22
+325,MeanFractionalPathLength,0.44556677890011226
+325,TaxonomyLevel,Umbrella
+325,TaxonomyValue,Engineering
+325,Color,#7570b3
+325,Line,Engineering
+326,Percentile,0.23
+326,MeanFractionalPathLength,0.44679433221099896
+326,TaxonomyLevel,Umbrella
+326,TaxonomyValue,Engineering
+326,Color,#7570b3
+326,Line,Engineering
+327,Percentile,0.24
+327,MeanFractionalPathLength,0.4487233445566779
+327,TaxonomyLevel,Umbrella
+327,TaxonomyValue,Engineering
+327,Color,#7570b3
+327,Line,Engineering
+328,Percentile,0.25
+328,MeanFractionalPathLength,0.44896384479717816
+328,TaxonomyLevel,Umbrella
+328,TaxonomyValue,Engineering
+328,Color,#7570b3
+328,Line,Engineering
+329,Percentile,0.26
+329,MeanFractionalPathLength,0.4453630217519106
+329,TaxonomyLevel,Umbrella
+329,TaxonomyValue,Engineering
+329,Color,#7570b3
+329,Line,Engineering
+330,Percentile,0.27
+330,MeanFractionalPathLength,0.4552101704879483
+330,TaxonomyLevel,Umbrella
+330,TaxonomyValue,Engineering
+330,Color,#7570b3
+330,Line,Engineering
+331,Percentile,0.28
+331,MeanFractionalPathLength,0.4570840681951793
+331,TaxonomyLevel,Umbrella
+331,TaxonomyValue,Engineering
+331,Color,#7570b3
+331,Line,Engineering
+332,Percentile,0.29
+332,MeanFractionalPathLength,0.46047278338945
+332,TaxonomyLevel,Umbrella
+332,TaxonomyValue,Engineering
+332,Color,#7570b3
+332,Line,Engineering
+333,Percentile,0.3
+333,MeanFractionalPathLength,0.46229657687991027
+333,TaxonomyLevel,Umbrella
+333,TaxonomyValue,Engineering
+333,Color,#7570b3
+333,Line,Engineering
+334,Percentile,0.31
+334,MeanFractionalPathLength,0.4633487654320988
+334,TaxonomyLevel,Umbrella
+334,TaxonomyValue,Engineering
+334,Color,#7570b3
+334,Line,Engineering
+335,Percentile,0.32
+335,MeanFractionalPathLength,0.4632569077013521
+335,TaxonomyLevel,Umbrella
+335,TaxonomyValue,Engineering
+335,Color,#7570b3
+335,Line,Engineering
+336,Percentile,0.33
+336,MeanFractionalPathLength,0.4685479129923574
+336,TaxonomyLevel,Umbrella
+336,TaxonomyValue,Engineering
+336,Color,#7570b3
+336,Line,Engineering
+337,Percentile,0.34
+337,MeanFractionalPathLength,0.4721119929453263
+337,TaxonomyLevel,Umbrella
+337,TaxonomyValue,Engineering
+337,Color,#7570b3
+337,Line,Engineering
+338,Percentile,0.35000000000000003
+338,MeanFractionalPathLength,0.4772560258671369
+338,TaxonomyLevel,Umbrella
+338,TaxonomyValue,Engineering
+338,Color,#7570b3
+338,Line,Engineering
+339,Percentile,0.36
+339,MeanFractionalPathLength,0.4807800224466891
+339,TaxonomyLevel,Umbrella
+339,TaxonomyValue,Engineering
+339,Color,#7570b3
+339,Line,Engineering
+340,Percentile,0.37
+340,MeanFractionalPathLength,0.47923681257014583
+340,TaxonomyLevel,Umbrella
+340,TaxonomyValue,Engineering
+340,Color,#7570b3
+340,Line,Engineering
+341,Percentile,0.38
+341,MeanFractionalPathLength,0.48039421997755327
+341,TaxonomyLevel,Umbrella
+341,TaxonomyValue,Engineering
+341,Color,#7570b3
+341,Line,Engineering
+342,Percentile,0.39
+342,MeanFractionalPathLength,0.483722810111699
+342,TaxonomyLevel,Umbrella
+342,TaxonomyValue,Engineering
+342,Color,#7570b3
+342,Line,Engineering
+343,Percentile,0.4
+343,MeanFractionalPathLength,0.48578042328042326
+343,TaxonomyLevel,Umbrella
+343,TaxonomyValue,Engineering
+343,Color,#7570b3
+343,Line,Engineering
+344,Percentile,0.41000000000000003
+344,MeanFractionalPathLength,0.4846046443268666
+344,TaxonomyLevel,Umbrella
+344,TaxonomyValue,Engineering
+344,Color,#7570b3
+344,Line,Engineering
+345,Percentile,0.42
+345,MeanFractionalPathLength,0.4851992143658811
+345,TaxonomyLevel,Umbrella
+345,TaxonomyValue,Engineering
+345,Color,#7570b3
+345,Line,Engineering
+346,Percentile,0.43
+346,MeanFractionalPathLength,0.4833754208754209
+346,TaxonomyLevel,Umbrella
+346,TaxonomyValue,Engineering
+346,Color,#7570b3
+346,Line,Engineering
+347,Percentile,0.44
+347,MeanFractionalPathLength,0.4797278338945005
+347,TaxonomyLevel,Umbrella
+347,TaxonomyValue,Engineering
+347,Color,#7570b3
+347,Line,Engineering
+348,Percentile,0.45
+348,MeanFractionalPathLength,0.47619047619047616
+348,TaxonomyLevel,Umbrella
+348,TaxonomyValue,Engineering
+348,Color,#7570b3
+348,Line,Engineering
+349,Percentile,0.46
+349,MeanFractionalPathLength,0.4754556143445033
+349,TaxonomyLevel,Umbrella
+349,TaxonomyValue,Engineering
+349,Color,#7570b3
+349,Line,Engineering
+350,Percentile,0.47000000000000003
+350,MeanFractionalPathLength,0.47582304526748964
+350,TaxonomyLevel,Umbrella
+350,TaxonomyValue,Engineering
+350,Color,#7570b3
+350,Line,Engineering
+351,Percentile,0.48
+351,MeanFractionalPathLength,0.4758965314520871
+351,TaxonomyLevel,Umbrella
+351,TaxonomyValue,Engineering
+351,Color,#7570b3
+351,Line,Engineering
+352,Percentile,0.49
+352,MeanFractionalPathLength,0.48042929292929293
+352,TaxonomyLevel,Umbrella
+352,TaxonomyValue,Engineering
+352,Color,#7570b3
+352,Line,Engineering
+353,Percentile,0.5
+353,MeanFractionalPathLength,0.478395061728395
+353,TaxonomyLevel,Umbrella
+353,TaxonomyValue,Engineering
+353,Color,#7570b3
+353,Line,Engineering
+354,Percentile,0.51
+354,MeanFractionalPathLength,0.4762205387205387
+354,TaxonomyLevel,Umbrella
+354,TaxonomyValue,Engineering
+354,Color,#7570b3
+354,Line,Engineering
+355,Percentile,0.52
+355,MeanFractionalPathLength,0.47997501469723697
+355,TaxonomyLevel,Umbrella
+355,TaxonomyValue,Engineering
+355,Color,#7570b3
+355,Line,Engineering
+356,Percentile,0.53
+356,MeanFractionalPathLength,0.48012198706643144
+356,TaxonomyLevel,Umbrella
+356,TaxonomyValue,Engineering
+356,Color,#7570b3
+356,Line,Engineering
+357,Percentile,0.54
+357,MeanFractionalPathLength,0.48578042328042326
+357,TaxonomyLevel,Umbrella
+357,TaxonomyValue,Engineering
+357,Color,#7570b3
+357,Line,Engineering
+358,Percentile,0.55
+358,MeanFractionalPathLength,0.5027356902356902
+358,TaxonomyLevel,Umbrella
+358,TaxonomyValue,Engineering
+358,Color,#7570b3
+358,Line,Engineering
+359,Percentile,0.56
+359,MeanFractionalPathLength,0.5064183501683501
+359,TaxonomyLevel,Umbrella
+359,TaxonomyValue,Engineering
+359,Color,#7570b3
+359,Line,Engineering
+360,Percentile,0.5700000000000001
+360,MeanFractionalPathLength,0.5084175084175084
+360,TaxonomyLevel,Umbrella
+360,TaxonomyValue,Engineering
+360,Color,#7570b3
+360,Line,Engineering
+361,Percentile,0.58
+361,MeanFractionalPathLength,0.5126964085297419
+361,TaxonomyLevel,Umbrella
+361,TaxonomyValue,Engineering
+361,Color,#7570b3
+361,Line,Engineering
+362,Percentile,0.59
+362,MeanFractionalPathLength,0.5127498530276309
+362,TaxonomyLevel,Umbrella
+362,TaxonomyValue,Engineering
+362,Color,#7570b3
+362,Line,Engineering
+363,Percentile,0.6
+363,MeanFractionalPathLength,0.5171222810111699
+363,TaxonomyLevel,Umbrella
+363,TaxonomyValue,Engineering
+363,Color,#7570b3
+363,Line,Engineering
+364,Percentile,0.61
+364,MeanFractionalPathLength,0.5214212228101117
+364,TaxonomyLevel,Umbrella
+364,TaxonomyValue,Engineering
+364,Color,#7570b3
+364,Line,Engineering
+365,Percentile,0.62
+365,MeanFractionalPathLength,0.5185535914702581
+365,TaxonomyLevel,Umbrella
+365,TaxonomyValue,Engineering
+365,Color,#7570b3
+365,Line,Engineering
+366,Percentile,0.63
+366,MeanFractionalPathLength,0.5212892817059483
+366,TaxonomyLevel,Umbrella
+366,TaxonomyValue,Engineering
+366,Color,#7570b3
+366,Line,Engineering
+367,Percentile,0.64
+367,MeanFractionalPathLength,0.5208333333333334
+367,TaxonomyLevel,Umbrella
+367,TaxonomyValue,Engineering
+367,Color,#7570b3
+367,Line,Engineering
+368,Percentile,0.65
+368,MeanFractionalPathLength,0.5072751322751323
+368,TaxonomyLevel,Umbrella
+368,TaxonomyValue,Engineering
+368,Color,#7570b3
+368,Line,Engineering
+369,Percentile,0.66
+369,MeanFractionalPathLength,0.5151748971193416
+369,TaxonomyLevel,Umbrella
+369,TaxonomyValue,Engineering
+369,Color,#7570b3
+369,Line,Engineering
+370,Percentile,0.67
+370,MeanFractionalPathLength,0.5158362727807172
+370,TaxonomyLevel,Umbrella
+370,TaxonomyValue,Engineering
+370,Color,#7570b3
+370,Line,Engineering
+371,Percentile,0.68
+371,MeanFractionalPathLength,0.5261978248089358
+371,TaxonomyLevel,Umbrella
+371,TaxonomyValue,Engineering
+371,Color,#7570b3
+371,Line,Engineering
+372,Percentile,0.6900000000000001
+372,MeanFractionalPathLength,0.5347572951739618
+372,TaxonomyLevel,Umbrella
+372,TaxonomyValue,Engineering
+372,Color,#7570b3
+372,Line,Engineering
+373,Percentile,0.7000000000000001
+373,MeanFractionalPathLength,0.5374579124579124
+373,TaxonomyLevel,Umbrella
+373,TaxonomyValue,Engineering
+373,Color,#7570b3
+373,Line,Engineering
+374,Percentile,0.71
+374,MeanFractionalPathLength,0.5379138608305275
+374,TaxonomyLevel,Umbrella
+374,TaxonomyValue,Engineering
+374,Color,#7570b3
+374,Line,Engineering
+375,Percentile,0.72
+375,MeanFractionalPathLength,0.542364785420341
+375,TaxonomyLevel,Umbrella
+375,TaxonomyValue,Engineering
+375,Color,#7570b3
+375,Line,Engineering
+376,Percentile,0.73
+376,MeanFractionalPathLength,0.546957671957672
+376,TaxonomyLevel,Umbrella
+376,TaxonomyValue,Engineering
+376,Color,#7570b3
+376,Line,Engineering
+377,Percentile,0.74
+377,MeanFractionalPathLength,0.5472148736037624
+377,TaxonomyLevel,Umbrella
+377,TaxonomyValue,Engineering
+377,Color,#7570b3
+377,Line,Engineering
+378,Percentile,0.75
+378,MeanFractionalPathLength,0.5527998236331569
+378,TaxonomyLevel,Umbrella
+378,TaxonomyValue,Engineering
+378,Color,#7570b3
+378,Line,Engineering
+379,Percentile,0.76
+379,MeanFractionalPathLength,0.551440329218107
+379,TaxonomyLevel,Umbrella
+379,TaxonomyValue,Engineering
+379,Color,#7570b3
+379,Line,Engineering
+380,Percentile,0.77
+380,MeanFractionalPathLength,0.5551881246325691
+380,TaxonomyLevel,Umbrella
+380,TaxonomyValue,Engineering
+380,Color,#7570b3
+380,Line,Engineering
+381,Percentile,0.78
+381,MeanFractionalPathLength,0.5458553791887125
+381,TaxonomyLevel,Umbrella
+381,TaxonomyValue,Engineering
+381,Color,#7570b3
+381,Line,Engineering
+382,Percentile,0.79
+382,MeanFractionalPathLength,0.5426311728395061
+382,TaxonomyLevel,Umbrella
+382,TaxonomyValue,Engineering
+382,Color,#7570b3
+382,Line,Engineering
+383,Percentile,0.8
+383,MeanFractionalPathLength,0.5412808641975307
+383,TaxonomyLevel,Umbrella
+383,TaxonomyValue,Engineering
+383,Color,#7570b3
+383,Line,Engineering
+384,Percentile,0.81
+384,MeanFractionalPathLength,0.5439429012345678
+384,TaxonomyLevel,Umbrella
+384,TaxonomyValue,Engineering
+384,Color,#7570b3
+384,Line,Engineering
+385,Percentile,0.8200000000000001
+385,MeanFractionalPathLength,0.5532774838330393
+385,TaxonomyLevel,Umbrella
+385,TaxonomyValue,Engineering
+385,Color,#7570b3
+385,Line,Engineering
+386,Percentile,0.8300000000000001
+386,MeanFractionalPathLength,0.557172251616696
+386,TaxonomyLevel,Umbrella
+386,TaxonomyValue,Engineering
+386,Color,#7570b3
+386,Line,Engineering
+387,Percentile,0.84
+387,MeanFractionalPathLength,0.5618441358024692
+387,TaxonomyLevel,Umbrella
+387,TaxonomyValue,Engineering
+387,Color,#7570b3
+387,Line,Engineering
+388,Percentile,0.85
+388,MeanFractionalPathLength,0.5643904320987654
+388,TaxonomyLevel,Umbrella
+388,TaxonomyValue,Engineering
+388,Color,#7570b3
+388,Line,Engineering
+389,Percentile,0.86
+389,MeanFractionalPathLength,0.5666666666666667
+389,TaxonomyLevel,Umbrella
+389,TaxonomyValue,Engineering
+389,Color,#7570b3
+389,Line,Engineering
+390,Percentile,0.87
+390,MeanFractionalPathLength,0.5802469135802468
+390,TaxonomyLevel,Umbrella
+390,TaxonomyValue,Engineering
+390,Color,#7570b3
+390,Line,Engineering
+391,Percentile,0.88
+391,MeanFractionalPathLength,0.5837577160493828
+391,TaxonomyLevel,Umbrella
+391,TaxonomyValue,Engineering
+391,Color,#7570b3
+391,Line,Engineering
+392,Percentile,0.89
+392,MeanFractionalPathLength,0.5958333333333333
+392,TaxonomyLevel,Umbrella
+392,TaxonomyValue,Engineering
+392,Color,#7570b3
+392,Line,Engineering
+393,Percentile,0.9
+393,MeanFractionalPathLength,0.6063190383365821
+393,TaxonomyLevel,Umbrella
+393,TaxonomyValue,Engineering
+393,Color,#7570b3
+393,Line,Engineering
+394,Percentile,0.91
+394,MeanFractionalPathLength,0.6123366013071896
+394,TaxonomyLevel,Umbrella
+394,TaxonomyValue,Engineering
+394,Color,#7570b3
+394,Line,Engineering
+395,Percentile,0.92
+395,MeanFractionalPathLength,0.6181657848324515
+395,TaxonomyLevel,Umbrella
+395,TaxonomyValue,Engineering
+395,Color,#7570b3
+395,Line,Engineering
+396,Percentile,0.93
+396,MeanFractionalPathLength,0.6212013295346629
+396,TaxonomyLevel,Umbrella
+396,TaxonomyValue,Engineering
+396,Color,#7570b3
+396,Line,Engineering
+397,Percentile,0.9400000000000001
+397,MeanFractionalPathLength,0.6271367521367521
+397,TaxonomyLevel,Umbrella
+397,TaxonomyValue,Engineering
+397,Color,#7570b3
+397,Line,Engineering
+398,Percentile,0.9500000000000001
+398,MeanFractionalPathLength,0.6343995510662178
+398,TaxonomyLevel,Umbrella
+398,TaxonomyValue,Engineering
+398,Color,#7570b3
+398,Line,Engineering
+399,Percentile,0.96
+399,MeanFractionalPathLength,0.6427469135802469
+399,TaxonomyLevel,Umbrella
+399,TaxonomyValue,Engineering
+399,Color,#7570b3
+399,Line,Engineering
+400,Percentile,0.97
+400,MeanFractionalPathLength,0.6320546737213404
+400,TaxonomyLevel,Umbrella
+400,TaxonomyValue,Engineering
+400,Color,#7570b3
+400,Line,Engineering
+401,Percentile,0.98
+401,MeanFractionalPathLength,0.653858024691358
+401,TaxonomyLevel,Umbrella
+401,TaxonomyValue,Engineering
+401,Color,#7570b3
+401,Line,Engineering
+402,Percentile,0.99
+402,MeanFractionalPathLength,0.6381172839506173
+402,TaxonomyLevel,Umbrella
+402,TaxonomyValue,Engineering
+402,Color,#7570b3
+402,Line,Engineering
+403,Percentile,1.0
+403,MeanFractionalPathLength,0.6346450617283951
+403,TaxonomyLevel,Umbrella
+403,TaxonomyValue,Engineering
+403,Color,#7570b3
+403,Line,Engineering
+404,Percentile,0.0
+404,MeanFractionalPathLength,0.29256112104949317
+404,TaxonomyLevel,Umbrella
+404,TaxonomyValue,Humanities
+404,Color,#66a61e
+404,Line,Humanities
+405,Percentile,0.01
+405,MeanFractionalPathLength,0.2922722868217054
+405,TaxonomyLevel,Umbrella
+405,TaxonomyValue,Humanities
+405,Color,#66a61e
+405,Line,Humanities
+406,Percentile,0.02
+406,MeanFractionalPathLength,0.29608096468561584
+406,TaxonomyLevel,Umbrella
+406,TaxonomyValue,Humanities
+406,Color,#66a61e
+406,Line,Humanities
+407,Percentile,0.03
+407,MeanFractionalPathLength,0.2975729051310447
+407,TaxonomyLevel,Umbrella
+407,TaxonomyValue,Humanities
+407,Color,#66a61e
+407,Line,Humanities
+408,Percentile,0.04
+408,MeanFractionalPathLength,0.3016795865633075
+408,TaxonomyLevel,Umbrella
+408,TaxonomyValue,Humanities
+408,Color,#66a61e
+408,Line,Humanities
+409,Percentile,0.05
+409,MeanFractionalPathLength,0.3019573643410853
+409,TaxonomyLevel,Umbrella
+409,TaxonomyValue,Humanities
+409,Color,#66a61e
+409,Line,Humanities
+410,Percentile,0.06
+410,MeanFractionalPathLength,0.30730098389982113
+410,TaxonomyLevel,Umbrella
+410,TaxonomyValue,Humanities
+410,Color,#66a61e
+410,Line,Humanities
+411,Percentile,0.07
+411,MeanFractionalPathLength,0.30862403100775193
+411,TaxonomyLevel,Umbrella
+411,TaxonomyValue,Humanities
+411,Color,#66a61e
+411,Line,Humanities
+412,Percentile,0.08
+412,MeanFractionalPathLength,0.30836314847942753
+412,TaxonomyLevel,Umbrella
+412,TaxonomyValue,Humanities
+412,Color,#66a61e
+412,Line,Humanities
+413,Percentile,0.09
+413,MeanFractionalPathLength,0.3112015503875969
+413,TaxonomyLevel,Umbrella
+413,TaxonomyValue,Humanities
+413,Color,#66a61e
+413,Line,Humanities
+414,Percentile,0.1
+414,MeanFractionalPathLength,0.31106514609421587
+414,TaxonomyLevel,Umbrella
+414,TaxonomyValue,Humanities
+414,Color,#66a61e
+414,Line,Humanities
+415,Percentile,0.11
+415,MeanFractionalPathLength,0.31419573643410853
+415,TaxonomyLevel,Umbrella
+415,TaxonomyValue,Humanities
+415,Color,#66a61e
+415,Line,Humanities
+416,Percentile,0.12
+416,MeanFractionalPathLength,0.313152206320811
+416,TaxonomyLevel,Umbrella
+416,TaxonomyValue,Humanities
+416,Color,#66a61e
+416,Line,Humanities
+417,Percentile,0.13
+417,MeanFractionalPathLength,0.3149597495527728
+417,TaxonomyLevel,Umbrella
+417,TaxonomyValue,Humanities
+417,Color,#66a61e
+417,Line,Humanities
+418,Percentile,0.14
+418,MeanFractionalPathLength,0.31608527131782943
+418,TaxonomyLevel,Umbrella
+418,TaxonomyValue,Humanities
+418,Color,#66a61e
+418,Line,Humanities
+419,Percentile,0.15
+419,MeanFractionalPathLength,0.321724060822898
+419,TaxonomyLevel,Umbrella
+419,TaxonomyValue,Humanities
+419,Color,#66a61e
+419,Line,Humanities
+420,Percentile,0.16
+420,MeanFractionalPathLength,0.3198062015503876
+420,TaxonomyLevel,Umbrella
+420,TaxonomyValue,Humanities
+420,Color,#66a61e
+420,Line,Humanities
+421,Percentile,0.17
+421,MeanFractionalPathLength,0.3220408467501491
+421,TaxonomyLevel,Umbrella
+421,TaxonomyValue,Humanities
+421,Color,#66a61e
+421,Line,Humanities
+422,Percentile,0.18
+422,MeanFractionalPathLength,0.32599135360763265
+422,TaxonomyLevel,Umbrella
+422,TaxonomyValue,Humanities
+422,Color,#66a61e
+422,Line,Humanities
+423,Percentile,0.19
+423,MeanFractionalPathLength,0.3247614788312463
+423,TaxonomyLevel,Umbrella
+423,TaxonomyValue,Humanities
+423,Color,#66a61e
+423,Line,Humanities
+424,Percentile,0.2
+424,MeanFractionalPathLength,0.32738893858079904
+424,TaxonomyLevel,Umbrella
+424,TaxonomyValue,Humanities
+424,Color,#66a61e
+424,Line,Humanities
+425,Percentile,0.21
+425,MeanFractionalPathLength,0.32753875968992247
+425,TaxonomyLevel,Umbrella
+425,TaxonomyValue,Humanities
+425,Color,#66a61e
+425,Line,Humanities
+426,Percentile,0.22
+426,MeanFractionalPathLength,0.33044499105545616
+426,TaxonomyLevel,Umbrella
+426,TaxonomyValue,Humanities
+426,Color,#66a61e
+426,Line,Humanities
+427,Percentile,0.23
+427,MeanFractionalPathLength,0.33277131782945735
+427,TaxonomyLevel,Umbrella
+427,TaxonomyValue,Humanities
+427,Color,#66a61e
+427,Line,Humanities
+428,Percentile,0.24
+428,MeanFractionalPathLength,0.3321593619558736
+428,TaxonomyLevel,Umbrella
+428,TaxonomyValue,Humanities
+428,Color,#66a61e
+428,Line,Humanities
+429,Percentile,0.25
+429,MeanFractionalPathLength,0.3331283542039356
+429,TaxonomyLevel,Umbrella
+429,TaxonomyValue,Humanities
+429,Color,#66a61e
+429,Line,Humanities
+430,Percentile,0.26
+430,MeanFractionalPathLength,0.3359235241502683
+430,TaxonomyLevel,Umbrella
+430,TaxonomyValue,Humanities
+430,Color,#66a61e
+430,Line,Humanities
+431,Percentile,0.27
+431,MeanFractionalPathLength,0.3381782945736434
+431,TaxonomyLevel,Umbrella
+431,TaxonomyValue,Humanities
+431,Color,#66a61e
+431,Line,Humanities
+432,Percentile,0.28
+432,MeanFractionalPathLength,0.3408527131782946
+432,TaxonomyLevel,Umbrella
+432,TaxonomyValue,Humanities
+432,Color,#66a61e
+432,Line,Humanities
+433,Percentile,0.29
+433,MeanFractionalPathLength,0.3457252534287418
+433,TaxonomyLevel,Umbrella
+433,TaxonomyValue,Humanities
+433,Color,#66a61e
+433,Line,Humanities
+434,Percentile,0.3
+434,MeanFractionalPathLength,0.34854651162790695
+434,TaxonomyLevel,Umbrella
+434,TaxonomyValue,Humanities
+434,Color,#66a61e
+434,Line,Humanities
+435,Percentile,0.31
+435,MeanFractionalPathLength,0.3538871496720334
+435,TaxonomyLevel,Umbrella
+435,TaxonomyValue,Humanities
+435,Color,#66a61e
+435,Line,Humanities
+436,Percentile,0.32
+436,MeanFractionalPathLength,0.35612328562909956
+436,TaxonomyLevel,Umbrella
+436,TaxonomyValue,Humanities
+436,Color,#66a61e
+436,Line,Humanities
+437,Percentile,0.33
+437,MeanFractionalPathLength,0.3575767740011926
+437,TaxonomyLevel,Umbrella
+437,TaxonomyValue,Humanities
+437,Color,#66a61e
+437,Line,Humanities
+438,Percentile,0.34
+438,MeanFractionalPathLength,0.35843395945140133
+438,TaxonomyLevel,Umbrella
+438,TaxonomyValue,Humanities
+438,Color,#66a61e
+438,Line,Humanities
+439,Percentile,0.35000000000000003
+439,MeanFractionalPathLength,0.35903100775193797
+439,TaxonomyLevel,Umbrella
+439,TaxonomyValue,Humanities
+439,Color,#66a61e
+439,Line,Humanities
+440,Percentile,0.36
+440,MeanFractionalPathLength,0.3604092128801431
+440,TaxonomyLevel,Umbrella
+440,TaxonomyValue,Humanities
+440,Color,#66a61e
+440,Line,Humanities
+441,Percentile,0.37
+441,MeanFractionalPathLength,0.3783720930232558
+441,TaxonomyLevel,Umbrella
+441,TaxonomyValue,Humanities
+441,Color,#66a61e
+441,Line,Humanities
+442,Percentile,0.38
+442,MeanFractionalPathLength,0.3820251937984496
+442,TaxonomyLevel,Umbrella
+442,TaxonomyValue,Humanities
+442,Color,#66a61e
+442,Line,Humanities
+443,Percentile,0.39
+443,MeanFractionalPathLength,0.3844186046511628
+443,TaxonomyLevel,Umbrella
+443,TaxonomyValue,Humanities
+443,Color,#66a61e
+443,Line,Humanities
+444,Percentile,0.4
+444,MeanFractionalPathLength,0.3849418604651163
+444,TaxonomyLevel,Umbrella
+444,TaxonomyValue,Humanities
+444,Color,#66a61e
+444,Line,Humanities
+445,Percentile,0.41000000000000003
+445,MeanFractionalPathLength,0.3846317829457364
+445,TaxonomyLevel,Umbrella
+445,TaxonomyValue,Humanities
+445,Color,#66a61e
+445,Line,Humanities
+446,Percentile,0.42
+446,MeanFractionalPathLength,0.38702814290529153
+446,TaxonomyLevel,Umbrella
+446,TaxonomyValue,Humanities
+446,Color,#66a61e
+446,Line,Humanities
+447,Percentile,0.43
+447,MeanFractionalPathLength,0.3939760981912145
+447,TaxonomyLevel,Umbrella
+447,TaxonomyValue,Humanities
+447,Color,#66a61e
+447,Line,Humanities
+448,Percentile,0.44
+448,MeanFractionalPathLength,0.39852965958881026
+448,TaxonomyLevel,Umbrella
+448,TaxonomyValue,Humanities
+448,Color,#66a61e
+448,Line,Humanities
+449,Percentile,0.45
+449,MeanFractionalPathLength,0.39900274547803616
+449,TaxonomyLevel,Umbrella
+449,TaxonomyValue,Humanities
+449,Color,#66a61e
+449,Line,Humanities
+450,Percentile,0.46
+450,MeanFractionalPathLength,0.4109159083249073
+450,TaxonomyLevel,Umbrella
+450,TaxonomyValue,Humanities
+450,Color,#66a61e
+450,Line,Humanities
+451,Percentile,0.47000000000000003
+451,MeanFractionalPathLength,0.39555948769801147
+451,TaxonomyLevel,Umbrella
+451,TaxonomyValue,Humanities
+451,Color,#66a61e
+451,Line,Humanities
+452,Percentile,0.48
+452,MeanFractionalPathLength,0.3929684866868891
+452,TaxonomyLevel,Umbrella
+452,TaxonomyValue,Humanities
+452,Color,#66a61e
+452,Line,Humanities
+453,Percentile,0.49
+453,MeanFractionalPathLength,0.39115689248399055
+453,TaxonomyLevel,Umbrella
+453,TaxonomyValue,Humanities
+453,Color,#66a61e
+453,Line,Humanities
+454,Percentile,0.5
+454,MeanFractionalPathLength,0.39151324289405687
+454,TaxonomyLevel,Umbrella
+454,TaxonomyValue,Humanities
+454,Color,#66a61e
+454,Line,Humanities
+455,Percentile,0.51
+455,MeanFractionalPathLength,0.39558055274688236
+455,TaxonomyLevel,Umbrella
+455,TaxonomyValue,Humanities
+455,Color,#66a61e
+455,Line,Humanities
+456,Percentile,0.52
+456,MeanFractionalPathLength,0.3941279069767442
+456,TaxonomyLevel,Umbrella
+456,TaxonomyValue,Humanities
+456,Color,#66a61e
+456,Line,Humanities
+457,Percentile,0.53
+457,MeanFractionalPathLength,0.3878997093023256
+457,TaxonomyLevel,Umbrella
+457,TaxonomyValue,Humanities
+457,Color,#66a61e
+457,Line,Humanities
+458,Percentile,0.54
+458,MeanFractionalPathLength,0.38844476744186046
+458,TaxonomyLevel,Umbrella
+458,TaxonomyValue,Humanities
+458,Color,#66a61e
+458,Line,Humanities
+459,Percentile,0.55
+459,MeanFractionalPathLength,0.387374838501292
+459,TaxonomyLevel,Umbrella
+459,TaxonomyValue,Humanities
+459,Color,#66a61e
+459,Line,Humanities
+460,Percentile,0.56
+460,MeanFractionalPathLength,0.38152051033591733
+460,TaxonomyLevel,Umbrella
+460,TaxonomyValue,Humanities
+460,Color,#66a61e
+460,Line,Humanities
+461,Percentile,0.5700000000000001
+461,MeanFractionalPathLength,0.3877325581395349
+461,TaxonomyLevel,Umbrella
+461,TaxonomyValue,Humanities
+461,Color,#66a61e
+461,Line,Humanities
+462,Percentile,0.58
+462,MeanFractionalPathLength,0.39421834625323
+462,TaxonomyLevel,Umbrella
+462,TaxonomyValue,Humanities
+462,Color,#66a61e
+462,Line,Humanities
+463,Percentile,0.59
+463,MeanFractionalPathLength,0.395671834625323
+463,TaxonomyLevel,Umbrella
+463,TaxonomyValue,Humanities
+463,Color,#66a61e
+463,Line,Humanities
+464,Percentile,0.6
+464,MeanFractionalPathLength,0.40010953825412876
+464,TaxonomyLevel,Umbrella
+464,TaxonomyValue,Humanities
+464,Color,#66a61e
+464,Line,Humanities
+465,Percentile,0.61
+465,MeanFractionalPathLength,0.39836113919784294
+465,TaxonomyLevel,Umbrella
+465,TaxonomyValue,Humanities
+465,Color,#66a61e
+465,Line,Humanities
+466,Percentile,0.62
+466,MeanFractionalPathLength,0.40133131108864173
+466,TaxonomyLevel,Umbrella
+466,TaxonomyValue,Humanities
+466,Color,#66a61e
+466,Line,Humanities
+467,Percentile,0.63
+467,MeanFractionalPathLength,0.40358527131782945
+467,TaxonomyLevel,Umbrella
+467,TaxonomyValue,Humanities
+467,Color,#66a61e
+467,Line,Humanities
+468,Percentile,0.64
+468,MeanFractionalPathLength,0.4055864509605662
+468,TaxonomyLevel,Umbrella
+468,TaxonomyValue,Humanities
+468,Color,#66a61e
+468,Line,Humanities
+469,Percentile,0.65
+469,MeanFractionalPathLength,0.4144644115574348
+469,TaxonomyLevel,Umbrella
+469,TaxonomyValue,Humanities
+469,Color,#66a61e
+469,Line,Humanities
+470,Percentile,0.66
+470,MeanFractionalPathLength,0.42212825933756165
+470,TaxonomyLevel,Umbrella
+470,TaxonomyValue,Humanities
+470,Color,#66a61e
+470,Line,Humanities
+471,Percentile,0.67
+471,MeanFractionalPathLength,0.4180320648343904
+471,TaxonomyLevel,Umbrella
+471,TaxonomyValue,Humanities
+471,Color,#66a61e
+471,Line,Humanities
+472,Percentile,0.68
+472,MeanFractionalPathLength,0.41913528977482467
+472,TaxonomyLevel,Umbrella
+472,TaxonomyValue,Humanities
+472,Color,#66a61e
+472,Line,Humanities
+473,Percentile,0.6900000000000001
+473,MeanFractionalPathLength,0.4268410852713178
+473,TaxonomyLevel,Umbrella
+473,TaxonomyValue,Humanities
+473,Color,#66a61e
+473,Line,Humanities
+474,Percentile,0.7000000000000001
+474,MeanFractionalPathLength,0.4362667371388302
+474,TaxonomyLevel,Umbrella
+474,TaxonomyValue,Humanities
+474,Color,#66a61e
+474,Line,Humanities
+475,Percentile,0.71
+475,MeanFractionalPathLength,0.43912200876306035
+475,TaxonomyLevel,Umbrella
+475,TaxonomyValue,Humanities
+475,Color,#66a61e
+475,Line,Humanities
+476,Percentile,0.72
+476,MeanFractionalPathLength,0.4441508104298802
+476,TaxonomyLevel,Umbrella
+476,TaxonomyValue,Humanities
+476,Color,#66a61e
+476,Line,Humanities
+477,Percentile,0.73
+477,MeanFractionalPathLength,0.44306117290192115
+477,TaxonomyLevel,Umbrella
+477,TaxonomyValue,Humanities
+477,Color,#66a61e
+477,Line,Humanities
+478,Percentile,0.74
+478,MeanFractionalPathLength,0.4468107516009437
+478,TaxonomyLevel,Umbrella
+478,TaxonomyValue,Humanities
+478,Color,#66a61e
+478,Line,Humanities
+479,Percentile,0.75
+479,MeanFractionalPathLength,0.44702140208965285
+479,TaxonomyLevel,Umbrella
+479,TaxonomyValue,Humanities
+479,Color,#66a61e
+479,Line,Humanities
+480,Percentile,0.76
+480,MeanFractionalPathLength,0.4583535206718346
+480,TaxonomyLevel,Umbrella
+480,TaxonomyValue,Humanities
+480,Color,#66a61e
+480,Line,Humanities
+481,Percentile,0.77
+481,MeanFractionalPathLength,0.4666389811738649
+481,TaxonomyLevel,Umbrella
+481,TaxonomyValue,Humanities
+481,Color,#66a61e
+481,Line,Humanities
+482,Percentile,0.78
+482,MeanFractionalPathLength,0.4635012919896641
+482,TaxonomyLevel,Umbrella
+482,TaxonomyValue,Humanities
+482,Color,#66a61e
+482,Line,Humanities
+483,Percentile,0.79
+483,MeanFractionalPathLength,0.46656976744186046
+483,TaxonomyLevel,Umbrella
+483,TaxonomyValue,Humanities
+483,Color,#66a61e
+483,Line,Humanities
+484,Percentile,0.8
+484,MeanFractionalPathLength,0.45704941860465115
+484,TaxonomyLevel,Umbrella
+484,TaxonomyValue,Humanities
+484,Color,#66a61e
+484,Line,Humanities
+485,Percentile,0.81
+485,MeanFractionalPathLength,0.46446220930232557
+485,TaxonomyLevel,Umbrella
+485,TaxonomyValue,Humanities
+485,Color,#66a61e
+485,Line,Humanities
+486,Percentile,0.8200000000000001
+486,MeanFractionalPathLength,0.4670797633618931
+486,TaxonomyLevel,Umbrella
+486,TaxonomyValue,Humanities
+486,Color,#66a61e
+486,Line,Humanities
+487,Percentile,0.8300000000000001
+487,MeanFractionalPathLength,0.47986649440137813
+487,TaxonomyLevel,Umbrella
+487,TaxonomyValue,Humanities
+487,Color,#66a61e
+487,Line,Humanities
+488,Percentile,0.84
+488,MeanFractionalPathLength,0.4837551299589603
+488,TaxonomyLevel,Umbrella
+488,TaxonomyValue,Humanities
+488,Color,#66a61e
+488,Line,Humanities
+489,Percentile,0.85
+489,MeanFractionalPathLength,0.4861206110351117
+489,TaxonomyLevel,Umbrella
+489,TaxonomyValue,Humanities
+489,Color,#66a61e
+489,Line,Humanities
+490,Percentile,0.86
+490,MeanFractionalPathLength,0.46608527131782945
+490,TaxonomyLevel,Umbrella
+490,TaxonomyValue,Humanities
+490,Color,#66a61e
+490,Line,Humanities
+491,Percentile,0.87
+491,MeanFractionalPathLength,0.48204514363885087
+491,TaxonomyLevel,Umbrella
+491,TaxonomyValue,Humanities
+491,Color,#66a61e
+491,Line,Humanities
+492,Percentile,0.88
+492,MeanFractionalPathLength,0.49316005471956226
+492,TaxonomyLevel,Umbrella
+492,TaxonomyValue,Humanities
+492,Color,#66a61e
+492,Line,Humanities
+493,Percentile,0.89
+493,MeanFractionalPathLength,0.4931262112403101
+493,TaxonomyLevel,Umbrella
+493,TaxonomyValue,Humanities
+493,Color,#66a61e
+493,Line,Humanities
+494,Percentile,0.9
+494,MeanFractionalPathLength,0.5024547803617571
+494,TaxonomyLevel,Umbrella
+494,TaxonomyValue,Humanities
+494,Color,#66a61e
+494,Line,Humanities
+495,Percentile,0.91
+495,MeanFractionalPathLength,0.5095284237726099
+495,TaxonomyLevel,Umbrella
+495,TaxonomyValue,Humanities
+495,Color,#66a61e
+495,Line,Humanities
+496,Percentile,0.92
+496,MeanFractionalPathLength,0.5078326873385013
+496,TaxonomyLevel,Umbrella
+496,TaxonomyValue,Humanities
+496,Color,#66a61e
+496,Line,Humanities
+497,Percentile,0.93
+497,MeanFractionalPathLength,0.501937984496124
+497,TaxonomyLevel,Umbrella
+497,TaxonomyValue,Humanities
+497,Color,#66a61e
+497,Line,Humanities
+498,Percentile,0.9400000000000001
+498,MeanFractionalPathLength,0.5146425495262704
+498,TaxonomyLevel,Umbrella
+498,TaxonomyValue,Humanities
+498,Color,#66a61e
+498,Line,Humanities
+499,Percentile,0.9500000000000001
+499,MeanFractionalPathLength,0.5325218023255814
+499,TaxonomyLevel,Umbrella
+499,TaxonomyValue,Humanities
+499,Color,#66a61e
+499,Line,Humanities
+500,Percentile,0.96
+500,MeanFractionalPathLength,0.5373667635658915
+500,TaxonomyLevel,Umbrella
+500,TaxonomyValue,Humanities
+500,Color,#66a61e
+500,Line,Humanities
+501,Percentile,0.97
+501,MeanFractionalPathLength,0.5159076227390181
+501,TaxonomyLevel,Umbrella
+501,TaxonomyValue,Humanities
+501,Color,#66a61e
+501,Line,Humanities
+502,Percentile,0.98
+502,MeanFractionalPathLength,0.49631782945736436
+502,TaxonomyLevel,Umbrella
+502,TaxonomyValue,Humanities
+502,Color,#66a61e
+502,Line,Humanities
+503,Percentile,0.99
+503,MeanFractionalPathLength,0.49631782945736436
+503,TaxonomyLevel,Umbrella
+503,TaxonomyValue,Humanities
+503,Color,#66a61e
+503,Line,Humanities
+504,Percentile,1.0
+504,MeanFractionalPathLength,0.5027454780361758
+504,TaxonomyLevel,Umbrella
+504,TaxonomyValue,Humanities
+504,Color,#66a61e
+504,Line,Humanities
+505,Percentile,0.0
+505,MeanFractionalPathLength,0.4111459968602826
+505,TaxonomyLevel,Umbrella
+505,TaxonomyValue,Mathematics and Computing
+505,Color,#e7298a
+505,Line,Mathematics and Computing
+506,Percentile,0.01
+506,MeanFractionalPathLength,0.4101587301587301
+506,TaxonomyLevel,Umbrella
+506,TaxonomyValue,Mathematics and Computing
+506,Color,#e7298a
+506,Line,Mathematics and Computing
+507,Percentile,0.02
+507,MeanFractionalPathLength,0.4069538926681784
+507,TaxonomyLevel,Umbrella
+507,TaxonomyValue,Mathematics and Computing
+507,Color,#e7298a
+507,Line,Mathematics and Computing
+508,Percentile,0.03
+508,MeanFractionalPathLength,0.4080272108843538
+508,TaxonomyLevel,Umbrella
+508,TaxonomyValue,Mathematics and Computing
+508,Color,#e7298a
+508,Line,Mathematics and Computing
+509,Percentile,0.04
+509,MeanFractionalPathLength,0.4098948670377241
+509,TaxonomyLevel,Umbrella
+509,TaxonomyValue,Mathematics and Computing
+509,Color,#e7298a
+509,Line,Mathematics and Computing
+510,Percentile,0.05
+510,MeanFractionalPathLength,0.4151077097505668
+510,TaxonomyLevel,Umbrella
+510,TaxonomyValue,Mathematics and Computing
+510,Color,#e7298a
+510,Line,Mathematics and Computing
+511,Percentile,0.06
+511,MeanFractionalPathLength,0.41476757369614514
+511,TaxonomyLevel,Umbrella
+511,TaxonomyValue,Mathematics and Computing
+511,Color,#e7298a
+511,Line,Mathematics and Computing
+512,Percentile,0.07
+512,MeanFractionalPathLength,0.41736054421768704
+512,TaxonomyLevel,Umbrella
+512,TaxonomyValue,Mathematics and Computing
+512,Color,#e7298a
+512,Line,Mathematics and Computing
+513,Percentile,0.08
+513,MeanFractionalPathLength,0.417063492063492
+513,TaxonomyLevel,Umbrella
+513,TaxonomyValue,Mathematics and Computing
+513,Color,#e7298a
+513,Line,Mathematics and Computing
+514,Percentile,0.09
+514,MeanFractionalPathLength,0.42046258503401357
+514,TaxonomyLevel,Umbrella
+514,TaxonomyValue,Mathematics and Computing
+514,Color,#e7298a
+514,Line,Mathematics and Computing
+515,Percentile,0.1
+515,MeanFractionalPathLength,0.4203231292517007
+515,TaxonomyLevel,Umbrella
+515,TaxonomyValue,Mathematics and Computing
+515,Color,#e7298a
+515,Line,Mathematics and Computing
+516,Percentile,0.11
+516,MeanFractionalPathLength,0.4239455782312925
+516,TaxonomyLevel,Umbrella
+516,TaxonomyValue,Mathematics and Computing
+516,Color,#e7298a
+516,Line,Mathematics and Computing
+517,Percentile,0.12
+517,MeanFractionalPathLength,0.42831632653061225
+517,TaxonomyLevel,Umbrella
+517,TaxonomyValue,Mathematics and Computing
+517,Color,#e7298a
+517,Line,Mathematics and Computing
+518,Percentile,0.13
+518,MeanFractionalPathLength,0.4280895691609977
+518,TaxonomyLevel,Umbrella
+518,TaxonomyValue,Mathematics and Computing
+518,Color,#e7298a
+518,Line,Mathematics and Computing
+519,Percentile,0.14
+519,MeanFractionalPathLength,0.4309659863945578
+519,TaxonomyLevel,Umbrella
+519,TaxonomyValue,Mathematics and Computing
+519,Color,#e7298a
+519,Line,Mathematics and Computing
+520,Percentile,0.15
+520,MeanFractionalPathLength,0.43021541950113373
+520,TaxonomyLevel,Umbrella
+520,TaxonomyValue,Mathematics and Computing
+520,Color,#e7298a
+520,Line,Mathematics and Computing
+521,Percentile,0.16
+521,MeanFractionalPathLength,0.4359183673469388
+521,TaxonomyLevel,Umbrella
+521,TaxonomyValue,Mathematics and Computing
+521,Color,#e7298a
+521,Line,Mathematics and Computing
+522,Percentile,0.17
+522,MeanFractionalPathLength,0.4387755102040816
+522,TaxonomyLevel,Umbrella
+522,TaxonomyValue,Mathematics and Computing
+522,Color,#e7298a
+522,Line,Mathematics and Computing
+523,Percentile,0.18
+523,MeanFractionalPathLength,0.4411156462585034
+523,TaxonomyLevel,Umbrella
+523,TaxonomyValue,Mathematics and Computing
+523,Color,#e7298a
+523,Line,Mathematics and Computing
+524,Percentile,0.19
+524,MeanFractionalPathLength,0.4461734693877551
+524,TaxonomyLevel,Umbrella
+524,TaxonomyValue,Mathematics and Computing
+524,Color,#e7298a
+524,Line,Mathematics and Computing
+525,Percentile,0.2
+525,MeanFractionalPathLength,0.4484977324263038
+525,TaxonomyLevel,Umbrella
+525,TaxonomyValue,Mathematics and Computing
+525,Color,#e7298a
+525,Line,Mathematics and Computing
+526,Percentile,0.21
+526,MeanFractionalPathLength,0.4523809523809524
+526,TaxonomyLevel,Umbrella
+526,TaxonomyValue,Mathematics and Computing
+526,Color,#e7298a
+526,Line,Mathematics and Computing
+527,Percentile,0.22
+527,MeanFractionalPathLength,0.4557823129251701
+527,TaxonomyLevel,Umbrella
+527,TaxonomyValue,Mathematics and Computing
+527,Color,#e7298a
+527,Line,Mathematics and Computing
+528,Percentile,0.23
+528,MeanFractionalPathLength,0.45986394557823135
+528,TaxonomyLevel,Umbrella
+528,TaxonomyValue,Mathematics and Computing
+528,Color,#e7298a
+528,Line,Mathematics and Computing
+529,Percentile,0.24
+529,MeanFractionalPathLength,0.4623866213151927
+529,TaxonomyLevel,Umbrella
+529,TaxonomyValue,Mathematics and Computing
+529,Color,#e7298a
+529,Line,Mathematics and Computing
+530,Percentile,0.25
+530,MeanFractionalPathLength,0.4664217687074829
+530,TaxonomyLevel,Umbrella
+530,TaxonomyValue,Mathematics and Computing
+530,Color,#e7298a
+530,Line,Mathematics and Computing
+531,Percentile,0.26
+531,MeanFractionalPathLength,0.46816893424036277
+531,TaxonomyLevel,Umbrella
+531,TaxonomyValue,Mathematics and Computing
+531,Color,#e7298a
+531,Line,Mathematics and Computing
+532,Percentile,0.27
+532,MeanFractionalPathLength,0.47186394557823136
+532,TaxonomyLevel,Umbrella
+532,TaxonomyValue,Mathematics and Computing
+532,Color,#e7298a
+532,Line,Mathematics and Computing
+533,Percentile,0.28
+533,MeanFractionalPathLength,0.47463151927437636
+533,TaxonomyLevel,Umbrella
+533,TaxonomyValue,Mathematics and Computing
+533,Color,#e7298a
+533,Line,Mathematics and Computing
+534,Percentile,0.29
+534,MeanFractionalPathLength,0.47304421768707483
+534,TaxonomyLevel,Umbrella
+534,TaxonomyValue,Mathematics and Computing
+534,Color,#e7298a
+534,Line,Mathematics and Computing
+535,Percentile,0.3
+535,MeanFractionalPathLength,0.47769274376417237
+535,TaxonomyLevel,Umbrella
+535,TaxonomyValue,Mathematics and Computing
+535,Color,#e7298a
+535,Line,Mathematics and Computing
+536,Percentile,0.31
+536,MeanFractionalPathLength,0.4785714285714286
+536,TaxonomyLevel,Umbrella
+536,TaxonomyValue,Mathematics and Computing
+536,Color,#e7298a
+536,Line,Mathematics and Computing
+537,Percentile,0.32
+537,MeanFractionalPathLength,0.48106122448979594
+537,TaxonomyLevel,Umbrella
+537,TaxonomyValue,Mathematics and Computing
+537,Color,#e7298a
+537,Line,Mathematics and Computing
+538,Percentile,0.33
+538,MeanFractionalPathLength,0.4828231292517007
+538,TaxonomyLevel,Umbrella
+538,TaxonomyValue,Mathematics and Computing
+538,Color,#e7298a
+538,Line,Mathematics and Computing
+539,Percentile,0.34
+539,MeanFractionalPathLength,0.48416326530612247
+539,TaxonomyLevel,Umbrella
+539,TaxonomyValue,Mathematics and Computing
+539,Color,#e7298a
+539,Line,Mathematics and Computing
+540,Percentile,0.35000000000000003
+540,MeanFractionalPathLength,0.4829365079365079
+540,TaxonomyLevel,Umbrella
+540,TaxonomyValue,Mathematics and Computing
+540,Color,#e7298a
+540,Line,Mathematics and Computing
+541,Percentile,0.36
+541,MeanFractionalPathLength,0.48089795918367345
+541,TaxonomyLevel,Umbrella
+541,TaxonomyValue,Mathematics and Computing
+541,Color,#e7298a
+541,Line,Mathematics and Computing
+542,Percentile,0.37
+542,MeanFractionalPathLength,0.48404195011337875
+542,TaxonomyLevel,Umbrella
+542,TaxonomyValue,Mathematics and Computing
+542,Color,#e7298a
+542,Line,Mathematics and Computing
+543,Percentile,0.38
+543,MeanFractionalPathLength,0.487046485260771
+543,TaxonomyLevel,Umbrella
+543,TaxonomyValue,Mathematics and Computing
+543,Color,#e7298a
+543,Line,Mathematics and Computing
+544,Percentile,0.39
+544,MeanFractionalPathLength,0.49219047619047623
+544,TaxonomyLevel,Umbrella
+544,TaxonomyValue,Mathematics and Computing
+544,Color,#e7298a
+544,Line,Mathematics and Computing
+545,Percentile,0.4
+545,MeanFractionalPathLength,0.49160997732426304
+545,TaxonomyLevel,Umbrella
+545,TaxonomyValue,Mathematics and Computing
+545,Color,#e7298a
+545,Line,Mathematics and Computing
+546,Percentile,0.41000000000000003
+546,MeanFractionalPathLength,0.49319727891156456
+546,TaxonomyLevel,Umbrella
+546,TaxonomyValue,Mathematics and Computing
+546,Color,#e7298a
+546,Line,Mathematics and Computing
+547,Percentile,0.42
+547,MeanFractionalPathLength,0.4939342403628118
+547,TaxonomyLevel,Umbrella
+547,TaxonomyValue,Mathematics and Computing
+547,Color,#e7298a
+547,Line,Mathematics and Computing
+548,Percentile,0.43
+548,MeanFractionalPathLength,0.49937414965986393
+548,TaxonomyLevel,Umbrella
+548,TaxonomyValue,Mathematics and Computing
+548,Color,#e7298a
+548,Line,Mathematics and Computing
+549,Percentile,0.44
+549,MeanFractionalPathLength,0.5011054421768707
+549,TaxonomyLevel,Umbrella
+549,TaxonomyValue,Mathematics and Computing
+549,Color,#e7298a
+549,Line,Mathematics and Computing
+550,Percentile,0.45
+550,MeanFractionalPathLength,0.5025793650793651
+550,TaxonomyLevel,Umbrella
+550,TaxonomyValue,Mathematics and Computing
+550,Color,#e7298a
+550,Line,Mathematics and Computing
+551,Percentile,0.46
+551,MeanFractionalPathLength,0.5066326530612245
+551,TaxonomyLevel,Umbrella
+551,TaxonomyValue,Mathematics and Computing
+551,Color,#e7298a
+551,Line,Mathematics and Computing
+552,Percentile,0.47000000000000003
+552,MeanFractionalPathLength,0.5045351473922902
+552,TaxonomyLevel,Umbrella
+552,TaxonomyValue,Mathematics and Computing
+552,Color,#e7298a
+552,Line,Mathematics and Computing
+553,Percentile,0.48
+553,MeanFractionalPathLength,0.5037278911564625
+553,TaxonomyLevel,Umbrella
+553,TaxonomyValue,Mathematics and Computing
+553,Color,#e7298a
+553,Line,Mathematics and Computing
+554,Percentile,0.49
+554,MeanFractionalPathLength,0.5018041999408459
+554,TaxonomyLevel,Umbrella
+554,TaxonomyValue,Mathematics and Computing
+554,Color,#e7298a
+554,Line,Mathematics and Computing
+555,Percentile,0.5
+555,MeanFractionalPathLength,0.5056972789115646
+555,TaxonomyLevel,Umbrella
+555,TaxonomyValue,Mathematics and Computing
+555,Color,#e7298a
+555,Line,Mathematics and Computing
+556,Percentile,0.51
+556,MeanFractionalPathLength,0.5082224194025435
+556,TaxonomyLevel,Umbrella
+556,TaxonomyValue,Mathematics and Computing
+556,Color,#e7298a
+556,Line,Mathematics and Computing
+557,Percentile,0.52
+557,MeanFractionalPathLength,0.5098195800059153
+557,TaxonomyLevel,Umbrella
+557,TaxonomyValue,Mathematics and Computing
+557,Color,#e7298a
+557,Line,Mathematics and Computing
+558,Percentile,0.53
+558,MeanFractionalPathLength,0.5178107606679035
+558,TaxonomyLevel,Umbrella
+558,TaxonomyValue,Mathematics and Computing
+558,Color,#e7298a
+558,Line,Mathematics and Computing
+559,Percentile,0.54
+559,MeanFractionalPathLength,0.5192949907235621
+559,TaxonomyLevel,Umbrella
+559,TaxonomyValue,Mathematics and Computing
+559,Color,#e7298a
+559,Line,Mathematics and Computing
+560,Percentile,0.55
+560,MeanFractionalPathLength,0.5255442176870749
+560,TaxonomyLevel,Umbrella
+560,TaxonomyValue,Mathematics and Computing
+560,Color,#e7298a
+560,Line,Mathematics and Computing
+561,Percentile,0.56
+561,MeanFractionalPathLength,0.53078231292517
+561,TaxonomyLevel,Umbrella
+561,TaxonomyValue,Mathematics and Computing
+561,Color,#e7298a
+561,Line,Mathematics and Computing
+562,Percentile,0.5700000000000001
+562,MeanFractionalPathLength,0.536530612244898
+562,TaxonomyLevel,Umbrella
+562,TaxonomyValue,Mathematics and Computing
+562,Color,#e7298a
+562,Line,Mathematics and Computing
+563,Percentile,0.58
+563,MeanFractionalPathLength,0.5421768707482992
+563,TaxonomyLevel,Umbrella
+563,TaxonomyValue,Mathematics and Computing
+563,Color,#e7298a
+563,Line,Mathematics and Computing
+564,Percentile,0.59
+564,MeanFractionalPathLength,0.5473275024295432
+564,TaxonomyLevel,Umbrella
+564,TaxonomyValue,Mathematics and Computing
+564,Color,#e7298a
+564,Line,Mathematics and Computing
+565,Percentile,0.6
+565,MeanFractionalPathLength,0.5580612244897959
+565,TaxonomyLevel,Umbrella
+565,TaxonomyValue,Mathematics and Computing
+565,Color,#e7298a
+565,Line,Mathematics and Computing
+566,Percentile,0.61
+566,MeanFractionalPathLength,0.573265306122449
+566,TaxonomyLevel,Umbrella
+566,TaxonomyValue,Mathematics and Computing
+566,Color,#e7298a
+566,Line,Mathematics and Computing
+567,Percentile,0.62
+567,MeanFractionalPathLength,0.5747959183673469
+567,TaxonomyLevel,Umbrella
+567,TaxonomyValue,Mathematics and Computing
+567,Color,#e7298a
+567,Line,Mathematics and Computing
+568,Percentile,0.63
+568,MeanFractionalPathLength,0.5705442176870749
+568,TaxonomyLevel,Umbrella
+568,TaxonomyValue,Mathematics and Computing
+568,Color,#e7298a
+568,Line,Mathematics and Computing
+569,Percentile,0.64
+569,MeanFractionalPathLength,0.5712342079689019
+569,TaxonomyLevel,Umbrella
+569,TaxonomyValue,Mathematics and Computing
+569,Color,#e7298a
+569,Line,Mathematics and Computing
+570,Percentile,0.65
+570,MeanFractionalPathLength,0.572665429808287
+570,TaxonomyLevel,Umbrella
+570,TaxonomyValue,Mathematics and Computing
+570,Color,#e7298a
+570,Line,Mathematics and Computing
+571,Percentile,0.66
+571,MeanFractionalPathLength,0.5716947648624667
+571,TaxonomyLevel,Umbrella
+571,TaxonomyValue,Mathematics and Computing
+571,Color,#e7298a
+571,Line,Mathematics and Computing
+572,Percentile,0.67
+572,MeanFractionalPathLength,0.5724046140195208
+572,TaxonomyLevel,Umbrella
+572,TaxonomyValue,Mathematics and Computing
+572,Color,#e7298a
+572,Line,Mathematics and Computing
+573,Percentile,0.68
+573,MeanFractionalPathLength,0.585969387755102
+573,TaxonomyLevel,Umbrella
+573,TaxonomyValue,Mathematics and Computing
+573,Color,#e7298a
+573,Line,Mathematics and Computing
+574,Percentile,0.6900000000000001
+574,MeanFractionalPathLength,0.5894114167406093
+574,TaxonomyLevel,Umbrella
+574,TaxonomyValue,Mathematics and Computing
+574,Color,#e7298a
+574,Line,Mathematics and Computing
+575,Percentile,0.7000000000000001
+575,MeanFractionalPathLength,0.5866213151927437
+575,TaxonomyLevel,Umbrella
+575,TaxonomyValue,Mathematics and Computing
+575,Color,#e7298a
+575,Line,Mathematics and Computing
+576,Percentile,0.71
+576,MeanFractionalPathLength,0.5738095238095238
+576,TaxonomyLevel,Umbrella
+576,TaxonomyValue,Mathematics and Computing
+576,Color,#e7298a
+576,Line,Mathematics and Computing
+577,Percentile,0.72
+577,MeanFractionalPathLength,0.5782312925170068
+577,TaxonomyLevel,Umbrella
+577,TaxonomyValue,Mathematics and Computing
+577,Color,#e7298a
+577,Line,Mathematics and Computing
+578,Percentile,0.73
+578,MeanFractionalPathLength,0.5764625850340136
+578,TaxonomyLevel,Umbrella
+578,TaxonomyValue,Mathematics and Computing
+578,Color,#e7298a
+578,Line,Mathematics and Computing
+579,Percentile,0.74
+579,MeanFractionalPathLength,0.5843820861678005
+579,TaxonomyLevel,Umbrella
+579,TaxonomyValue,Mathematics and Computing
+579,Color,#e7298a
+579,Line,Mathematics and Computing
+580,Percentile,0.75
+580,MeanFractionalPathLength,0.5965986394557824
+580,TaxonomyLevel,Umbrella
+580,TaxonomyValue,Mathematics and Computing
+580,Color,#e7298a
+580,Line,Mathematics and Computing
+581,Percentile,0.76
+581,MeanFractionalPathLength,0.6041383219954649
+581,TaxonomyLevel,Umbrella
+581,TaxonomyValue,Mathematics and Computing
+581,Color,#e7298a
+581,Line,Mathematics and Computing
+582,Percentile,0.77
+582,MeanFractionalPathLength,0.6118367346938776
+582,TaxonomyLevel,Umbrella
+582,TaxonomyValue,Mathematics and Computing
+582,Color,#e7298a
+582,Line,Mathematics and Computing
+583,Percentile,0.78
+583,MeanFractionalPathLength,0.6058390022675737
+583,TaxonomyLevel,Umbrella
+583,TaxonomyValue,Mathematics and Computing
+583,Color,#e7298a
+583,Line,Mathematics and Computing
+584,Percentile,0.79
+584,MeanFractionalPathLength,0.6031943212067435
+584,TaxonomyLevel,Umbrella
+584,TaxonomyValue,Mathematics and Computing
+584,Color,#e7298a
+584,Line,Mathematics and Computing
+585,Percentile,0.8
+585,MeanFractionalPathLength,0.6075125702454894
+585,TaxonomyLevel,Umbrella
+585,TaxonomyValue,Mathematics and Computing
+585,Color,#e7298a
+585,Line,Mathematics and Computing
+586,Percentile,0.81
+586,MeanFractionalPathLength,0.616533569949719
+586,TaxonomyLevel,Umbrella
+586,TaxonomyValue,Mathematics and Computing
+586,Color,#e7298a
+586,Line,Mathematics and Computing
+587,Percentile,0.8200000000000001
+587,MeanFractionalPathLength,0.6210034013605442
+587,TaxonomyLevel,Umbrella
+587,TaxonomyValue,Mathematics and Computing
+587,Color,#e7298a
+587,Line,Mathematics and Computing
+588,Percentile,0.8300000000000001
+588,MeanFractionalPathLength,0.629251700680272
+588,TaxonomyLevel,Umbrella
+588,TaxonomyValue,Mathematics and Computing
+588,Color,#e7298a
+588,Line,Mathematics and Computing
+589,Percentile,0.84
+589,MeanFractionalPathLength,0.6316893424036282
+589,TaxonomyLevel,Umbrella
+589,TaxonomyValue,Mathematics and Computing
+589,Color,#e7298a
+589,Line,Mathematics and Computing
+590,Percentile,0.85
+590,MeanFractionalPathLength,0.6286305826678498
+590,TaxonomyLevel,Umbrella
+590,TaxonomyValue,Mathematics and Computing
+590,Color,#e7298a
+590,Line,Mathematics and Computing
+591,Percentile,0.86
+591,MeanFractionalPathLength,0.6417800453514739
+591,TaxonomyLevel,Umbrella
+591,TaxonomyValue,Mathematics and Computing
+591,Color,#e7298a
+591,Line,Mathematics and Computing
+592,Percentile,0.87
+592,MeanFractionalPathLength,0.6420841063698207
+592,TaxonomyLevel,Umbrella
+592,TaxonomyValue,Mathematics and Computing
+592,Color,#e7298a
+592,Line,Mathematics and Computing
+593,Percentile,0.88
+593,MeanFractionalPathLength,0.6463203463203463
+593,TaxonomyLevel,Umbrella
+593,TaxonomyValue,Mathematics and Computing
+593,Color,#e7298a
+593,Line,Mathematics and Computing
+594,Percentile,0.89
+594,MeanFractionalPathLength,0.6513443472627146
+594,TaxonomyLevel,Umbrella
+594,TaxonomyValue,Mathematics and Computing
+594,Color,#e7298a
+594,Line,Mathematics and Computing
+595,Percentile,0.9
+595,MeanFractionalPathLength,0.656991685563114
+595,TaxonomyLevel,Umbrella
+595,TaxonomyValue,Mathematics and Computing
+595,Color,#e7298a
+595,Line,Mathematics and Computing
+596,Percentile,0.91
+596,MeanFractionalPathLength,0.6590325018896447
+596,TaxonomyLevel,Umbrella
+596,TaxonomyValue,Mathematics and Computing
+596,Color,#e7298a
+596,Line,Mathematics and Computing
+597,Percentile,0.92
+597,MeanFractionalPathLength,0.659608843537415
+597,TaxonomyLevel,Umbrella
+597,TaxonomyValue,Mathematics and Computing
+597,Color,#e7298a
+597,Line,Mathematics and Computing
+598,Percentile,0.93
+598,MeanFractionalPathLength,0.6636540330417882
+598,TaxonomyLevel,Umbrella
+598,TaxonomyValue,Mathematics and Computing
+598,Color,#e7298a
+598,Line,Mathematics and Computing
+599,Percentile,0.9400000000000001
+599,MeanFractionalPathLength,0.6687074829931973
+599,TaxonomyLevel,Umbrella
+599,TaxonomyValue,Mathematics and Computing
+599,Color,#e7298a
+599,Line,Mathematics and Computing
+600,Percentile,0.9500000000000001
+600,MeanFractionalPathLength,0.6678004535147393
+600,TaxonomyLevel,Umbrella
+600,TaxonomyValue,Mathematics and Computing
+600,Color,#e7298a
+600,Line,Mathematics and Computing
+601,Percentile,0.96
+601,MeanFractionalPathLength,0.6352607709750566
+601,TaxonomyLevel,Umbrella
+601,TaxonomyValue,Mathematics and Computing
+601,Color,#e7298a
+601,Line,Mathematics and Computing
+602,Percentile,0.97
+602,MeanFractionalPathLength,0.6319727891156464
+602,TaxonomyLevel,Umbrella
+602,TaxonomyValue,Mathematics and Computing
+602,Color,#e7298a
+602,Line,Mathematics and Computing
+603,Percentile,0.98
+603,MeanFractionalPathLength,0.6190476190476191
+603,TaxonomyLevel,Umbrella
+603,TaxonomyValue,Mathematics and Computing
+603,Color,#e7298a
+603,Line,Mathematics and Computing
+604,Percentile,0.99
+604,MeanFractionalPathLength,0.6190476190476191
+604,TaxonomyLevel,Umbrella
+604,TaxonomyValue,Mathematics and Computing
+604,Color,#e7298a
+604,Line,Mathematics and Computing
+605,Percentile,1.0
+605,MeanFractionalPathLength,0.6190476190476191
+605,TaxonomyLevel,Umbrella
+605,TaxonomyValue,Mathematics and Computing
+605,Color,#e7298a
+605,Line,Mathematics and Computing
+606,Percentile,0.0
+606,MeanFractionalPathLength,0.5151885289431757
+606,TaxonomyLevel,Umbrella
+606,TaxonomyValue,Medicine and Health
+606,Color,#e6ab02
+606,Line,Medicine and Health
+607,Percentile,0.01
+607,MeanFractionalPathLength,0.516291274874262
+607,TaxonomyLevel,Umbrella
+607,TaxonomyValue,Medicine and Health
+607,Color,#e6ab02
+607,Line,Medicine and Health
+608,Percentile,0.02
+608,MeanFractionalPathLength,0.5179416943846605
+608,TaxonomyLevel,Umbrella
+608,TaxonomyValue,Medicine and Health
+608,Color,#e6ab02
+608,Line,Medicine and Health
+609,Percentile,0.03
+609,MeanFractionalPathLength,0.5131801284217641
+609,TaxonomyLevel,Umbrella
+609,TaxonomyValue,Medicine and Health
+609,Color,#e6ab02
+609,Line,Medicine and Health
+610,Percentile,0.04
+610,MeanFractionalPathLength,0.514438661710037
+610,TaxonomyLevel,Umbrella
+610,TaxonomyValue,Medicine and Health
+610,Color,#e6ab02
+610,Line,Medicine and Health
+611,Percentile,0.05
+611,MeanFractionalPathLength,0.518558764655419
+611,TaxonomyLevel,Umbrella
+611,TaxonomyValue,Medicine and Health
+611,Color,#e6ab02
+611,Line,Medicine and Health
+612,Percentile,0.06
+612,MeanFractionalPathLength,0.5166735508742943
+612,TaxonomyLevel,Umbrella
+612,TaxonomyValue,Medicine and Health
+612,Color,#e6ab02
+612,Line,Medicine and Health
+613,Percentile,0.07
+613,MeanFractionalPathLength,0.5154343935013079
+613,TaxonomyLevel,Umbrella
+613,TaxonomyValue,Medicine and Health
+613,Color,#e6ab02
+613,Line,Medicine and Health
+614,Percentile,0.08
+614,MeanFractionalPathLength,0.5210752073205605
+614,TaxonomyLevel,Umbrella
+614,TaxonomyValue,Medicine and Health
+614,Color,#e6ab02
+614,Line,Medicine and Health
+615,Percentile,0.09
+615,MeanFractionalPathLength,0.5240809582817018
+615,TaxonomyLevel,Umbrella
+615,TaxonomyValue,Medicine and Health
+615,Color,#e6ab02
+615,Line,Medicine and Health
+616,Percentile,0.1
+616,MeanFractionalPathLength,0.5260636100784799
+616,TaxonomyLevel,Umbrella
+616,TaxonomyValue,Medicine and Health
+616,Color,#e6ab02
+616,Line,Medicine and Health
+617,Percentile,0.11
+617,MeanFractionalPathLength,0.5253074063482985
+617,TaxonomyLevel,Umbrella
+617,TaxonomyValue,Medicine and Health
+617,Color,#e6ab02
+617,Line,Medicine and Health
+618,Percentile,0.12
+618,MeanFractionalPathLength,0.5327275230620955
+618,TaxonomyLevel,Umbrella
+618,TaxonomyValue,Medicine and Health
+618,Color,#e6ab02
+618,Line,Medicine and Health
+619,Percentile,0.13
+619,MeanFractionalPathLength,0.5410987195373812
+619,TaxonomyLevel,Umbrella
+619,TaxonomyValue,Medicine and Health
+619,Color,#e6ab02
+619,Line,Medicine and Health
+620,Percentile,0.14
+620,MeanFractionalPathLength,0.5397769516728623
+620,TaxonomyLevel,Umbrella
+620,TaxonomyValue,Medicine and Health
+620,Color,#e6ab02
+620,Line,Medicine and Health
+621,Percentile,0.15
+621,MeanFractionalPathLength,0.5354812061131764
+621,TaxonomyLevel,Umbrella
+621,TaxonomyValue,Medicine and Health
+621,Color,#e6ab02
+621,Line,Medicine and Health
+622,Percentile,0.16
+622,MeanFractionalPathLength,0.5369406581302492
+622,TaxonomyLevel,Umbrella
+622,TaxonomyValue,Medicine and Health
+622,Color,#e6ab02
+622,Line,Medicine and Health
+623,Percentile,0.17
+623,MeanFractionalPathLength,0.5406920217329139
+623,TaxonomyLevel,Umbrella
+623,TaxonomyValue,Medicine and Health
+623,Color,#e6ab02
+623,Line,Medicine and Health
+624,Percentile,0.18
+624,MeanFractionalPathLength,0.5365826793336087
+624,TaxonomyLevel,Umbrella
+624,TaxonomyValue,Medicine and Health
+624,Color,#e6ab02
+624,Line,Medicine and Health
+625,Percentile,0.19
+625,MeanFractionalPathLength,0.539253751893157
+625,TaxonomyLevel,Umbrella
+625,TaxonomyValue,Medicine and Health
+625,Color,#e6ab02
+625,Line,Medicine and Health
+626,Percentile,0.2
+626,MeanFractionalPathLength,0.5375750643408636
+626,TaxonomyLevel,Umbrella
+626,TaxonomyValue,Medicine and Health
+626,Color,#e6ab02
+626,Line,Medicine and Health
+627,Percentile,0.21
+627,MeanFractionalPathLength,0.5416769929781082
+627,TaxonomyLevel,Umbrella
+627,TaxonomyValue,Medicine and Health
+627,Color,#e6ab02
+627,Line,Medicine and Health
+628,Percentile,0.22
+628,MeanFractionalPathLength,0.5331956491807792
+628,TaxonomyLevel,Umbrella
+628,TaxonomyValue,Medicine and Health
+628,Color,#e6ab02
+628,Line,Medicine and Health
+629,Percentile,0.23
+629,MeanFractionalPathLength,0.5283216301803663
+629,TaxonomyLevel,Umbrella
+629,TaxonomyValue,Medicine and Health
+629,Color,#e6ab02
+629,Line,Medicine and Health
+630,Percentile,0.24
+630,MeanFractionalPathLength,0.533526091146909
+630,TaxonomyLevel,Umbrella
+630,TaxonomyValue,Medicine and Health
+630,Color,#e6ab02
+630,Line,Medicine and Health
+631,Percentile,0.25
+631,MeanFractionalPathLength,0.5364725320115654
+631,TaxonomyLevel,Umbrella
+631,TaxonomyValue,Medicine and Health
+631,Color,#e6ab02
+631,Line,Medicine and Health
+632,Percentile,0.26
+632,MeanFractionalPathLength,0.5374638579099544
+632,TaxonomyLevel,Umbrella
+632,TaxonomyValue,Medicine and Health
+632,Color,#e6ab02
+632,Line,Medicine and Health
+633,Percentile,0.27
+633,MeanFractionalPathLength,0.5363348478590114
+633,TaxonomyLevel,Umbrella
+633,TaxonomyValue,Medicine and Health
+633,Color,#e6ab02
+633,Line,Medicine and Health
+634,Percentile,0.28
+634,MeanFractionalPathLength,0.5383174996557896
+634,TaxonomyLevel,Umbrella
+634,TaxonomyValue,Medicine and Health
+634,Color,#e6ab02
+634,Line,Medicine and Health
+635,Percentile,0.29
+635,MeanFractionalPathLength,0.5387030152829408
+635,TaxonomyLevel,Umbrella
+635,TaxonomyValue,Medicine and Health
+635,Color,#e6ab02
+635,Line,Medicine and Health
+636,Percentile,0.3
+636,MeanFractionalPathLength,0.5400629110666285
+636,TaxonomyLevel,Umbrella
+636,TaxonomyValue,Medicine and Health
+636,Color,#e6ab02
+636,Line,Medicine and Health
+637,Percentile,0.31
+637,MeanFractionalPathLength,0.5439900867410161
+637,TaxonomyLevel,Umbrella
+637,TaxonomyValue,Medicine and Health
+637,Color,#e6ab02
+637,Line,Medicine and Health
+638,Percentile,0.32
+638,MeanFractionalPathLength,0.5528018725044748
+638,TaxonomyLevel,Umbrella
+638,TaxonomyValue,Medicine and Health
+638,Color,#e6ab02
+638,Line,Medicine and Health
+639,Percentile,0.33
+639,MeanFractionalPathLength,0.5546182442093222
+639,TaxonomyLevel,Umbrella
+639,TaxonomyValue,Medicine and Health
+639,Color,#e6ab02
+639,Line,Medicine and Health
+640,Percentile,0.34
+640,MeanFractionalPathLength,0.5539584193859286
+640,TaxonomyLevel,Umbrella
+640,TaxonomyValue,Medicine and Health
+640,Color,#e6ab02
+640,Line,Medicine and Health
+641,Percentile,0.35000000000000003
+641,MeanFractionalPathLength,0.556491807792923
+641,TaxonomyLevel,Umbrella
+641,TaxonomyValue,Medicine and Health
+641,Color,#e6ab02
+641,Line,Medicine and Health
+642,Percentile,0.36
+642,MeanFractionalPathLength,0.5570203031169573
+642,TaxonomyLevel,Umbrella
+642,TaxonomyValue,Medicine and Health
+642,Color,#e6ab02
+642,Line,Medicine and Health
+643,Percentile,0.37
+643,MeanFractionalPathLength,0.5571526917251823
+643,TaxonomyLevel,Umbrella
+643,TaxonomyValue,Medicine and Health
+643,Color,#e6ab02
+643,Line,Medicine and Health
+644,Percentile,0.38
+644,MeanFractionalPathLength,0.5593281013355362
+644,TaxonomyLevel,Umbrella
+644,TaxonomyValue,Medicine and Health
+644,Color,#e6ab02
+644,Line,Medicine and Health
+645,Percentile,0.39
+645,MeanFractionalPathLength,0.5588504432370602
+645,TaxonomyLevel,Umbrella
+645,TaxonomyValue,Medicine and Health
+645,Color,#e6ab02
+645,Line,Medicine and Health
+646,Percentile,0.4
+646,MeanFractionalPathLength,0.5567121024370094
+646,TaxonomyLevel,Umbrella
+646,TaxonomyValue,Medicine and Health
+646,Color,#e6ab02
+646,Line,Medicine and Health
+647,Percentile,0.41000000000000003
+647,MeanFractionalPathLength,0.5593281013355362
+647,TaxonomyLevel,Umbrella
+647,TaxonomyValue,Medicine and Health
+647,Color,#e6ab02
+647,Line,Medicine and Health
+648,Percentile,0.42
+648,MeanFractionalPathLength,0.5558478696025164
+648,TaxonomyLevel,Umbrella
+648,TaxonomyValue,Medicine and Health
+648,Color,#e6ab02
+648,Line,Medicine and Health
+649,Percentile,0.43
+649,MeanFractionalPathLength,0.5614484372848684
+649,TaxonomyLevel,Umbrella
+649,TaxonomyValue,Medicine and Health
+649,Color,#e6ab02
+649,Line,Medicine and Health
+650,Percentile,0.44
+650,MeanFractionalPathLength,0.5624122263527467
+650,TaxonomyLevel,Umbrella
+650,TaxonomyValue,Medicine and Health
+650,Color,#e6ab02
+650,Line,Medicine and Health
+651,Percentile,0.45
+651,MeanFractionalPathLength,0.5677437803831855
+651,TaxonomyLevel,Umbrella
+651,TaxonomyValue,Medicine and Health
+651,Color,#e6ab02
+651,Line,Medicine and Health
+652,Percentile,0.46
+652,MeanFractionalPathLength,0.5695718022855568
+652,TaxonomyLevel,Umbrella
+652,TaxonomyValue,Medicine and Health
+652,Color,#e6ab02
+652,Line,Medicine and Health
+653,Percentile,0.47000000000000003
+653,MeanFractionalPathLength,0.5743632107944373
+653,TaxonomyLevel,Umbrella
+653,TaxonomyValue,Medicine and Health
+653,Color,#e6ab02
+653,Line,Medicine and Health
+654,Percentile,0.48
+654,MeanFractionalPathLength,0.5777227041167562
+654,TaxonomyLevel,Umbrella
+654,TaxonomyValue,Medicine and Health
+654,Color,#e6ab02
+654,Line,Medicine and Health
+655,Percentile,0.49
+655,MeanFractionalPathLength,0.5824590389646152
+655,TaxonomyLevel,Umbrella
+655,TaxonomyValue,Medicine and Health
+655,Color,#e6ab02
+655,Line,Medicine and Health
+656,Percentile,0.5
+656,MeanFractionalPathLength,0.583615585846069
+656,TaxonomyLevel,Umbrella
+656,TaxonomyValue,Medicine and Health
+656,Color,#e6ab02
+656,Line,Medicine and Health
+657,Percentile,0.51
+657,MeanFractionalPathLength,0.5803937766763045
+657,TaxonomyLevel,Umbrella
+657,TaxonomyValue,Medicine and Health
+657,Color,#e6ab02
+657,Line,Medicine and Health
+658,Percentile,0.52
+658,MeanFractionalPathLength,0.5794299876084262
+658,TaxonomyLevel,Umbrella
+658,TaxonomyValue,Medicine and Health
+658,Color,#e6ab02
+658,Line,Medicine and Health
+659,Percentile,0.53
+659,MeanFractionalPathLength,0.5784937353710589
+659,TaxonomyLevel,Umbrella
+659,TaxonomyValue,Medicine and Health
+659,Color,#e6ab02
+659,Line,Medicine and Health
+660,Percentile,0.54
+660,MeanFractionalPathLength,0.5794850612694478
+660,TaxonomyLevel,Umbrella
+660,TaxonomyValue,Medicine and Health
+660,Color,#e6ab02
+660,Line,Medicine and Health
+661,Percentile,0.55
+661,MeanFractionalPathLength,0.5734915641978838
+661,TaxonomyLevel,Umbrella
+661,TaxonomyValue,Medicine and Health
+661,Color,#e6ab02
+661,Line,Medicine and Health
+662,Percentile,0.56
+662,MeanFractionalPathLength,0.5741429161503511
+662,TaxonomyLevel,Umbrella
+662,TaxonomyValue,Medicine and Health
+662,Color,#e6ab02
+662,Line,Medicine and Health
+663,Percentile,0.5700000000000001
+663,MeanFractionalPathLength,0.5711414016246729
+663,TaxonomyLevel,Umbrella
+663,TaxonomyValue,Medicine and Health
+663,Color,#e6ab02
+663,Line,Medicine and Health
+664,Percentile,0.58
+664,MeanFractionalPathLength,0.5724621103803259
+664,TaxonomyLevel,Umbrella
+664,TaxonomyValue,Medicine and Health
+664,Color,#e6ab02
+664,Line,Medicine and Health
+665,Percentile,0.59
+665,MeanFractionalPathLength,0.5715819909128459
+665,TaxonomyLevel,Umbrella
+665,TaxonomyValue,Medicine and Health
+665,Color,#e6ab02
+665,Line,Medicine and Health
+666,Percentile,0.6
+666,MeanFractionalPathLength,0.5730965165909403
+666,TaxonomyLevel,Umbrella
+666,TaxonomyValue,Medicine and Health
+666,Color,#e6ab02
+666,Line,Medicine and Health
+667,Percentile,0.61
+667,MeanFractionalPathLength,0.5762367743780382
+667,TaxonomyLevel,Umbrella
+667,TaxonomyValue,Medicine and Health
+667,Color,#e6ab02
+667,Line,Medicine and Health
+668,Percentile,0.62
+668,MeanFractionalPathLength,0.5813575657441828
+668,TaxonomyLevel,Umbrella
+668,TaxonomyValue,Medicine and Health
+668,Color,#e6ab02
+668,Line,Medicine and Health
+669,Percentile,0.63
+669,MeanFractionalPathLength,0.5814401762357153
+669,TaxonomyLevel,Umbrella
+669,TaxonomyValue,Medicine and Health
+669,Color,#e6ab02
+669,Line,Medicine and Health
+670,Percentile,0.64
+670,MeanFractionalPathLength,0.5819273663139833
+670,TaxonomyLevel,Umbrella
+670,TaxonomyValue,Medicine and Health
+670,Color,#e6ab02
+670,Line,Medicine and Health
+671,Percentile,0.65
+671,MeanFractionalPathLength,0.5843590802698609
+671,TaxonomyLevel,Umbrella
+671,TaxonomyValue,Medicine and Health
+671,Color,#e6ab02
+671,Line,Medicine and Health
+672,Percentile,0.66
+672,MeanFractionalPathLength,0.5863968057276607
+672,TaxonomyLevel,Umbrella
+672,TaxonomyValue,Medicine and Health
+672,Color,#e6ab02
+672,Line,Medicine and Health
+673,Percentile,0.67
+673,MeanFractionalPathLength,0.5925936517014583
+673,TaxonomyLevel,Umbrella
+673,TaxonomyValue,Medicine and Health
+673,Color,#e6ab02
+673,Line,Medicine and Health
+674,Percentile,0.68
+674,MeanFractionalPathLength,0.5926201294231033
+674,TaxonomyLevel,Umbrella
+674,TaxonomyValue,Medicine and Health
+674,Color,#e6ab02
+674,Line,Medicine and Health
+675,Percentile,0.6900000000000001
+675,MeanFractionalPathLength,0.5971637064573866
+675,TaxonomyLevel,Umbrella
+675,TaxonomyValue,Medicine and Health
+675,Color,#e6ab02
+675,Line,Medicine and Health
+676,Percentile,0.7000000000000001
+676,MeanFractionalPathLength,0.600578273440727
+676,TaxonomyLevel,Umbrella
+676,TaxonomyValue,Medicine and Health
+676,Color,#e6ab02
+676,Line,Medicine and Health
+677,Percentile,0.71
+677,MeanFractionalPathLength,0.6022580201018861
+677,TaxonomyLevel,Umbrella
+677,TaxonomyValue,Medicine and Health
+677,Color,#e6ab02
+677,Line,Medicine and Health
+678,Percentile,0.72
+678,MeanFractionalPathLength,0.6068015971361694
+678,TaxonomyLevel,Umbrella
+678,TaxonomyValue,Medicine and Health
+678,Color,#e6ab02
+678,Line,Medicine and Health
+679,Percentile,0.73
+679,MeanFractionalPathLength,0.6125843315434392
+679,TaxonomyLevel,Umbrella
+679,TaxonomyValue,Medicine and Health
+679,Color,#e6ab02
+679,Line,Medicine and Health
+680,Percentile,0.74
+680,MeanFractionalPathLength,0.6164394878149524
+680,TaxonomyLevel,Umbrella
+680,TaxonomyValue,Medicine and Health
+680,Color,#e6ab02
+680,Line,Medicine and Health
+681,Percentile,0.75
+681,MeanFractionalPathLength,0.6199642021203359
+681,TaxonomyLevel,Umbrella
+681,TaxonomyValue,Medicine and Health
+681,Color,#e6ab02
+681,Line,Medicine and Health
+682,Percentile,0.76
+682,MeanFractionalPathLength,0.619220707696544
+682,TaxonomyLevel,Umbrella
+682,TaxonomyValue,Medicine and Health
+682,Color,#e6ab02
+682,Line,Medicine and Health
+683,Percentile,0.77
+683,MeanFractionalPathLength,0.6183395291201983
+683,TaxonomyLevel,Umbrella
+683,TaxonomyValue,Medicine and Health
+683,Color,#e6ab02
+683,Line,Medicine and Health
+684,Percentile,0.78
+684,MeanFractionalPathLength,0.6204598650695304
+684,TaxonomyLevel,Umbrella
+684,TaxonomyValue,Medicine and Health
+684,Color,#e6ab02
+684,Line,Medicine and Health
+685,Percentile,0.79
+685,MeanFractionalPathLength,0.6226628115103952
+685,TaxonomyLevel,Umbrella
+685,TaxonomyValue,Medicine and Health
+685,Color,#e6ab02
+685,Line,Medicine and Health
+686,Percentile,0.8
+686,MeanFractionalPathLength,0.623734629682585
+686,TaxonomyLevel,Umbrella
+686,TaxonomyValue,Medicine and Health
+686,Color,#e6ab02
+686,Line,Medicine and Health
+687,Percentile,0.81
+687,MeanFractionalPathLength,0.6300977557483133
+687,TaxonomyLevel,Umbrella
+687,TaxonomyValue,Medicine and Health
+687,Color,#e6ab02
+687,Line,Medicine and Health
+688,Percentile,0.8200000000000001
+688,MeanFractionalPathLength,0.6270411675616135
+688,TaxonomyLevel,Umbrella
+688,TaxonomyValue,Medicine and Health
+688,Color,#e6ab02
+688,Line,Medicine and Health
+689,Percentile,0.8300000000000001
+689,MeanFractionalPathLength,0.6253645982270517
+689,TaxonomyLevel,Umbrella
+689,TaxonomyValue,Medicine and Health
+689,Color,#e6ab02
+689,Line,Medicine and Health
+690,Percentile,0.84
+690,MeanFractionalPathLength,0.622938179815503
+690,TaxonomyLevel,Umbrella
+690,TaxonomyValue,Medicine and Health
+690,Color,#e6ab02
+690,Line,Medicine and Health
+691,Percentile,0.85
+691,MeanFractionalPathLength,0.6261875258157785
+691,TaxonomyLevel,Umbrella
+691,TaxonomyValue,Medicine and Health
+691,Color,#e6ab02
+691,Line,Medicine and Health
+692,Percentile,0.86
+692,MeanFractionalPathLength,0.6280812124678294
+692,TaxonomyLevel,Umbrella
+692,TaxonomyValue,Medicine and Health
+692,Color,#e6ab02
+692,Line,Medicine and Health
+693,Percentile,0.87
+693,MeanFractionalPathLength,0.6364863004268208
+693,TaxonomyLevel,Umbrella
+693,TaxonomyValue,Medicine and Health
+693,Color,#e6ab02
+693,Line,Medicine and Health
+694,Percentile,0.88
+694,MeanFractionalPathLength,0.6466473908853089
+694,TaxonomyLevel,Umbrella
+694,TaxonomyValue,Medicine and Health
+694,Color,#e6ab02
+694,Line,Medicine and Health
+695,Percentile,0.89
+695,MeanFractionalPathLength,0.6464112096082356
+695,TaxonomyLevel,Umbrella
+695,TaxonomyValue,Medicine and Health
+695,Color,#e6ab02
+695,Line,Medicine and Health
+696,Percentile,0.9
+696,MeanFractionalPathLength,0.6483546743769791
+696,TaxonomyLevel,Umbrella
+696,TaxonomyValue,Medicine and Health
+696,Color,#e6ab02
+696,Line,Medicine and Health
+697,Percentile,0.91
+697,MeanFractionalPathLength,0.6481619165634035
+697,TaxonomyLevel,Umbrella
+697,TaxonomyValue,Medicine and Health
+697,Color,#e6ab02
+697,Line,Medicine and Health
+698,Percentile,0.92
+698,MeanFractionalPathLength,0.6557048899056332
+698,TaxonomyLevel,Umbrella
+698,TaxonomyValue,Medicine and Health
+698,Color,#e6ab02
+698,Line,Medicine and Health
+699,Percentile,0.93
+699,MeanFractionalPathLength,0.6747349580063335
+699,TaxonomyLevel,Umbrella
+699,TaxonomyValue,Medicine and Health
+699,Color,#e6ab02
+699,Line,Medicine and Health
+700,Percentile,0.9400000000000001
+700,MeanFractionalPathLength,0.6904489562482128
+700,TaxonomyLevel,Umbrella
+700,TaxonomyValue,Medicine and Health
+700,Color,#e6ab02
+700,Line,Medicine and Health
+701,Percentile,0.9500000000000001
+701,MeanFractionalPathLength,0.6984820322180917
+701,TaxonomyLevel,Umbrella
+701,TaxonomyValue,Medicine and Health
+701,Color,#e6ab02
+701,Line,Medicine and Health
+702,Percentile,0.96
+702,MeanFractionalPathLength,0.7067928354173706
+702,TaxonomyLevel,Umbrella
+702,TaxonomyValue,Medicine and Health
+702,Color,#e6ab02
+702,Line,Medicine and Health
+703,Percentile,0.97
+703,MeanFractionalPathLength,0.7081197417335159
+703,TaxonomyLevel,Umbrella
+703,TaxonomyValue,Medicine and Health
+703,Color,#e6ab02
+703,Line,Medicine and Health
+704,Percentile,0.98
+704,MeanFractionalPathLength,0.7080855018587361
+704,TaxonomyLevel,Umbrella
+704,TaxonomyValue,Medicine and Health
+704,Color,#e6ab02
+704,Line,Medicine and Health
+705,Percentile,0.99
+705,MeanFractionalPathLength,0.7170472650026553
+705,TaxonomyLevel,Umbrella
+705,TaxonomyValue,Medicine and Health
+705,Color,#e6ab02
+705,Line,Medicine and Health
+706,Percentile,1.0
+706,MeanFractionalPathLength,0.7373436971949984
+706,TaxonomyLevel,Umbrella
+706,TaxonomyValue,Medicine and Health
+706,Color,#e6ab02
+706,Line,Medicine and Health
+707,Percentile,0.0
+707,MeanFractionalPathLength,0.4652396878483835
+707,TaxonomyLevel,Umbrella
+707,TaxonomyValue,Natural Sciences
+707,Color,#a6761d
+707,Line,Natural Sciences
+708,Percentile,0.01
+708,MeanFractionalPathLength,0.46625789669267925
+708,TaxonomyLevel,Umbrella
+708,TaxonomyValue,Natural Sciences
+708,Color,#a6761d
+708,Line,Natural Sciences
+709,Percentile,0.02
+709,MeanFractionalPathLength,0.46755852842809353
+709,TaxonomyLevel,Umbrella
+709,TaxonomyValue,Natural Sciences
+709,Color,#a6761d
+709,Line,Natural Sciences
+710,Percentile,0.03
+710,MeanFractionalPathLength,0.4728539576365663
+710,TaxonomyLevel,Umbrella
+710,TaxonomyValue,Natural Sciences
+710,Color,#a6761d
+710,Line,Natural Sciences
+711,Percentile,0.04
+711,MeanFractionalPathLength,0.47828564350303476
+711,TaxonomyLevel,Umbrella
+711,TaxonomyValue,Natural Sciences
+711,Color,#a6761d
+711,Line,Natural Sciences
+712,Percentile,0.05
+712,MeanFractionalPathLength,0.4850882251182101
+712,TaxonomyLevel,Umbrella
+712,TaxonomyValue,Natural Sciences
+712,Color,#a6761d
+712,Line,Natural Sciences
+713,Percentile,0.06
+713,MeanFractionalPathLength,0.48767001114827196
+713,TaxonomyLevel,Umbrella
+713,TaxonomyValue,Natural Sciences
+713,Color,#a6761d
+713,Line,Natural Sciences
+714,Percentile,0.07
+714,MeanFractionalPathLength,0.48838350055741353
+714,TaxonomyLevel,Umbrella
+714,TaxonomyValue,Natural Sciences
+714,Color,#a6761d
+714,Line,Natural Sciences
+715,Percentile,0.08
+715,MeanFractionalPathLength,0.4923968784838349
+715,TaxonomyLevel,Umbrella
+715,TaxonomyValue,Natural Sciences
+715,Color,#a6761d
+715,Line,Natural Sciences
+716,Percentile,0.09
+716,MeanFractionalPathLength,0.4951616499442586
+716,TaxonomyLevel,Umbrella
+716,TaxonomyValue,Natural Sciences
+716,Color,#a6761d
+716,Line,Natural Sciences
+717,Percentile,0.1
+717,MeanFractionalPathLength,0.49752508361204006
+717,TaxonomyLevel,Umbrella
+717,TaxonomyValue,Natural Sciences
+717,Color,#a6761d
+717,Line,Natural Sciences
+718,Percentile,0.11
+718,MeanFractionalPathLength,0.5033667781493868
+718,TaxonomyLevel,Umbrella
+718,TaxonomyValue,Natural Sciences
+718,Color,#a6761d
+718,Line,Natural Sciences
+719,Percentile,0.12
+719,MeanFractionalPathLength,0.5058416945373467
+719,TaxonomyLevel,Umbrella
+719,TaxonomyValue,Natural Sciences
+719,Color,#a6761d
+719,Line,Natural Sciences
+720,Percentile,0.13
+720,MeanFractionalPathLength,0.5062653288740245
+720,TaxonomyLevel,Umbrella
+720,TaxonomyValue,Natural Sciences
+720,Color,#a6761d
+720,Line,Natural Sciences
+721,Percentile,0.14
+721,MeanFractionalPathLength,0.5090523968784839
+721,TaxonomyLevel,Umbrella
+721,TaxonomyValue,Natural Sciences
+721,Color,#a6761d
+721,Line,Natural Sciences
+722,Percentile,0.15
+722,MeanFractionalPathLength,0.5065774804905239
+722,TaxonomyLevel,Umbrella
+722,TaxonomyValue,Natural Sciences
+722,Color,#a6761d
+722,Line,Natural Sciences
+723,Percentile,0.16
+723,MeanFractionalPathLength,0.5102341137123745
+723,TaxonomyLevel,Umbrella
+723,TaxonomyValue,Natural Sciences
+723,Color,#a6761d
+723,Line,Natural Sciences
+724,Percentile,0.17
+724,MeanFractionalPathLength,0.5161426978818282
+724,TaxonomyLevel,Umbrella
+724,TaxonomyValue,Natural Sciences
+724,Color,#a6761d
+724,Line,Natural Sciences
+725,Percentile,0.18
+725,MeanFractionalPathLength,0.5161204013377926
+725,TaxonomyLevel,Umbrella
+725,TaxonomyValue,Natural Sciences
+725,Color,#a6761d
+725,Line,Natural Sciences
+726,Percentile,0.19
+726,MeanFractionalPathLength,0.5191081382385729
+726,TaxonomyLevel,Umbrella
+726,TaxonomyValue,Natural Sciences
+726,Color,#a6761d
+726,Line,Natural Sciences
+727,Percentile,0.2
+727,MeanFractionalPathLength,0.523010033444816
+727,TaxonomyLevel,Umbrella
+727,TaxonomyValue,Natural Sciences
+727,Color,#a6761d
+727,Line,Natural Sciences
+728,Percentile,0.21
+728,MeanFractionalPathLength,0.5252173913043477
+728,TaxonomyLevel,Umbrella
+728,TaxonomyValue,Natural Sciences
+728,Color,#a6761d
+728,Line,Natural Sciences
+729,Percentile,0.22
+729,MeanFractionalPathLength,0.5297658862876253
+729,TaxonomyLevel,Umbrella
+729,TaxonomyValue,Natural Sciences
+729,Color,#a6761d
+729,Line,Natural Sciences
+730,Percentile,0.23
+730,MeanFractionalPathLength,0.5319063545150502
+730,TaxonomyLevel,Umbrella
+730,TaxonomyValue,Natural Sciences
+730,Color,#a6761d
+730,Line,Natural Sciences
+731,Percentile,0.24
+731,MeanFractionalPathLength,0.5263991081382386
+731,TaxonomyLevel,Umbrella
+731,TaxonomyValue,Natural Sciences
+731,Color,#a6761d
+731,Line,Natural Sciences
+732,Percentile,0.25
+732,MeanFractionalPathLength,0.5313935340022296
+732,TaxonomyLevel,Umbrella
+732,TaxonomyValue,Natural Sciences
+732,Color,#a6761d
+732,Line,Natural Sciences
+733,Percentile,0.26
+733,MeanFractionalPathLength,0.5305239687848383
+733,TaxonomyLevel,Umbrella
+733,TaxonomyValue,Natural Sciences
+733,Color,#a6761d
+733,Line,Natural Sciences
+734,Percentile,0.27
+734,MeanFractionalPathLength,0.5330434782608695
+734,TaxonomyLevel,Umbrella
+734,TaxonomyValue,Natural Sciences
+734,Color,#a6761d
+734,Line,Natural Sciences
+735,Percentile,0.28
+735,MeanFractionalPathLength,0.5412709030100333
+735,TaxonomyLevel,Umbrella
+735,TaxonomyValue,Natural Sciences
+735,Color,#a6761d
+735,Line,Natural Sciences
+736,Percentile,0.29
+736,MeanFractionalPathLength,0.5425863991081381
+736,TaxonomyLevel,Umbrella
+736,TaxonomyValue,Natural Sciences
+736,Color,#a6761d
+736,Line,Natural Sciences
+737,Percentile,0.3
+737,MeanFractionalPathLength,0.5467558528428093
+737,TaxonomyLevel,Umbrella
+737,TaxonomyValue,Natural Sciences
+737,Color,#a6761d
+737,Line,Natural Sciences
+738,Percentile,0.31
+738,MeanFractionalPathLength,0.5498773690078037
+738,TaxonomyLevel,Umbrella
+738,TaxonomyValue,Natural Sciences
+738,Color,#a6761d
+738,Line,Natural Sciences
+739,Percentile,0.32
+739,MeanFractionalPathLength,0.5550947603121517
+739,TaxonomyLevel,Umbrella
+739,TaxonomyValue,Natural Sciences
+739,Color,#a6761d
+739,Line,Natural Sciences
+740,Percentile,0.33
+740,MeanFractionalPathLength,0.5558974358974359
+740,TaxonomyLevel,Umbrella
+740,TaxonomyValue,Natural Sciences
+740,Color,#a6761d
+740,Line,Natural Sciences
+741,Percentile,0.34
+741,MeanFractionalPathLength,0.565195094760312
+741,TaxonomyLevel,Umbrella
+741,TaxonomyValue,Natural Sciences
+741,Color,#a6761d
+741,Line,Natural Sciences
+742,Percentile,0.35000000000000003
+742,MeanFractionalPathLength,0.5654626532887401
+742,TaxonomyLevel,Umbrella
+742,TaxonomyValue,Natural Sciences
+742,Color,#a6761d
+742,Line,Natural Sciences
+743,Percentile,0.36
+743,MeanFractionalPathLength,0.5713489409141583
+743,TaxonomyLevel,Umbrella
+743,TaxonomyValue,Natural Sciences
+743,Color,#a6761d
+743,Line,Natural Sciences
+744,Percentile,0.37
+744,MeanFractionalPathLength,0.5683835005574136
+744,TaxonomyLevel,Umbrella
+744,TaxonomyValue,Natural Sciences
+744,Color,#a6761d
+744,Line,Natural Sciences
+745,Percentile,0.38
+745,MeanFractionalPathLength,0.566020066889632
+745,TaxonomyLevel,Umbrella
+745,TaxonomyValue,Natural Sciences
+745,Color,#a6761d
+745,Line,Natural Sciences
+746,Percentile,0.39
+746,MeanFractionalPathLength,0.5677591973244146
+746,TaxonomyLevel,Umbrella
+746,TaxonomyValue,Natural Sciences
+746,Color,#a6761d
+746,Line,Natural Sciences
+747,Percentile,0.4
+747,MeanFractionalPathLength,0.5671348940914158
+747,TaxonomyLevel,Umbrella
+747,TaxonomyValue,Natural Sciences
+747,Color,#a6761d
+747,Line,Natural Sciences
+748,Percentile,0.41000000000000003
+748,MeanFractionalPathLength,0.5666443701226309
+748,TaxonomyLevel,Umbrella
+748,TaxonomyValue,Natural Sciences
+748,Color,#a6761d
+748,Line,Natural Sciences
+749,Percentile,0.42
+749,MeanFractionalPathLength,0.5634336677814937
+749,TaxonomyLevel,Umbrella
+749,TaxonomyValue,Natural Sciences
+749,Color,#a6761d
+749,Line,Natural Sciences
+750,Percentile,0.43
+750,MeanFractionalPathLength,0.5657748049052396
+750,TaxonomyLevel,Umbrella
+750,TaxonomyValue,Natural Sciences
+750,Color,#a6761d
+750,Line,Natural Sciences
+751,Percentile,0.44
+751,MeanFractionalPathLength,0.5639464882943143
+751,TaxonomyLevel,Umbrella
+751,TaxonomyValue,Natural Sciences
+751,Color,#a6761d
+751,Line,Natural Sciences
+752,Percentile,0.45
+752,MeanFractionalPathLength,0.5649175412293852
+752,TaxonomyLevel,Umbrella
+752,TaxonomyValue,Natural Sciences
+752,Color,#a6761d
+752,Line,Natural Sciences
+753,Percentile,0.46
+753,MeanFractionalPathLength,0.564756083496713
+753,TaxonomyLevel,Umbrella
+753,TaxonomyValue,Natural Sciences
+753,Color,#a6761d
+753,Line,Natural Sciences
+754,Percentile,0.47000000000000003
+754,MeanFractionalPathLength,0.5703379079690923
+754,TaxonomyLevel,Umbrella
+754,TaxonomyValue,Natural Sciences
+754,Color,#a6761d
+754,Line,Natural Sciences
+755,Percentile,0.48
+755,MeanFractionalPathLength,0.5713989159266519
+755,TaxonomyLevel,Umbrella
+755,TaxonomyValue,Natural Sciences
+755,Color,#a6761d
+755,Line,Natural Sciences
+756,Percentile,0.49
+756,MeanFractionalPathLength,0.5703609733594741
+756,TaxonomyLevel,Umbrella
+756,TaxonomyValue,Natural Sciences
+756,Color,#a6761d
+756,Line,Natural Sciences
+757,Percentile,0.5
+757,MeanFractionalPathLength,0.5732210817668089
+757,TaxonomyLevel,Umbrella
+757,TaxonomyValue,Natural Sciences
+757,Color,#a6761d
+757,Line,Natural Sciences
+758,Percentile,0.51
+758,MeanFractionalPathLength,0.5737746511359704
+758,TaxonomyLevel,Umbrella
+758,TaxonomyValue,Natural Sciences
+758,Color,#a6761d
+758,Line,Natural Sciences
+759,Percentile,0.52
+759,MeanFractionalPathLength,0.5776957675008648
+759,TaxonomyLevel,Umbrella
+759,TaxonomyValue,Natural Sciences
+759,Color,#a6761d
+759,Line,Natural Sciences
+760,Percentile,0.53
+760,MeanFractionalPathLength,0.5797255218544572
+760,TaxonomyLevel,Umbrella
+760,TaxonomyValue,Natural Sciences
+760,Color,#a6761d
+760,Line,Natural Sciences
+761,Percentile,0.54
+761,MeanFractionalPathLength,0.5823780417483564
+761,TaxonomyLevel,Umbrella
+761,TaxonomyValue,Natural Sciences
+761,Color,#a6761d
+761,Line,Natural Sciences
+762,Percentile,0.55
+762,MeanFractionalPathLength,0.5825856302617921
+762,TaxonomyLevel,Umbrella
+762,TaxonomyValue,Natural Sciences
+762,Color,#a6761d
+762,Line,Natural Sciences
+763,Percentile,0.56
+763,MeanFractionalPathLength,0.5829208472686733
+763,TaxonomyLevel,Umbrella
+763,TaxonomyValue,Natural Sciences
+763,Color,#a6761d
+763,Line,Natural Sciences
+764,Percentile,0.5700000000000001
+764,MeanFractionalPathLength,0.5843701226309921
+764,TaxonomyLevel,Umbrella
+764,TaxonomyValue,Natural Sciences
+764,Color,#a6761d
+764,Line,Natural Sciences
+765,Percentile,0.58
+765,MeanFractionalPathLength,0.5867335562987736
+765,TaxonomyLevel,Umbrella
+765,TaxonomyValue,Natural Sciences
+765,Color,#a6761d
+765,Line,Natural Sciences
+766,Percentile,0.59
+766,MeanFractionalPathLength,0.5904739937723444
+766,TaxonomyLevel,Umbrella
+766,TaxonomyValue,Natural Sciences
+766,Color,#a6761d
+766,Line,Natural Sciences
+767,Percentile,0.6
+767,MeanFractionalPathLength,0.5938184753776956
+767,TaxonomyLevel,Umbrella
+767,TaxonomyValue,Natural Sciences
+767,Color,#a6761d
+767,Line,Natural Sciences
+768,Percentile,0.61
+768,MeanFractionalPathLength,0.5947410909929649
+768,TaxonomyLevel,Umbrella
+768,TaxonomyValue,Natural Sciences
+768,Color,#a6761d
+768,Line,Natural Sciences
+769,Percentile,0.62
+769,MeanFractionalPathLength,0.593357167570061
+769,TaxonomyLevel,Umbrella
+769,TaxonomyValue,Natural Sciences
+769,Color,#a6761d
+769,Line,Natural Sciences
+770,Percentile,0.63
+770,MeanFractionalPathLength,0.5949717448967822
+770,TaxonomyLevel,Umbrella
+770,TaxonomyValue,Natural Sciences
+770,Color,#a6761d
+770,Line,Natural Sciences
+771,Percentile,0.64
+771,MeanFractionalPathLength,0.5958671763019587
+771,TaxonomyLevel,Umbrella
+771,TaxonomyValue,Natural Sciences
+771,Color,#a6761d
+771,Line,Natural Sciences
+772,Percentile,0.65
+772,MeanFractionalPathLength,0.5981605351170568
+772,TaxonomyLevel,Umbrella
+772,TaxonomyValue,Natural Sciences
+772,Color,#a6761d
+772,Line,Natural Sciences
+773,Percentile,0.66
+773,MeanFractionalPathLength,0.597658862876254
+773,TaxonomyLevel,Umbrella
+773,TaxonomyValue,Natural Sciences
+773,Color,#a6761d
+773,Line,Natural Sciences
+774,Percentile,0.67
+774,MeanFractionalPathLength,0.6000238891543239
+774,TaxonomyLevel,Umbrella
+774,TaxonomyValue,Natural Sciences
+774,Color,#a6761d
+774,Line,Natural Sciences
+775,Percentile,0.68
+775,MeanFractionalPathLength,0.6026994744386048
+775,TaxonomyLevel,Umbrella
+775,TaxonomyValue,Natural Sciences
+775,Color,#a6761d
+775,Line,Natural Sciences
+776,Percentile,0.6900000000000001
+776,MeanFractionalPathLength,0.6017529696690116
+776,TaxonomyLevel,Umbrella
+776,TaxonomyValue,Natural Sciences
+776,Color,#a6761d
+776,Line,Natural Sciences
+777,Percentile,0.7000000000000001
+777,MeanFractionalPathLength,0.6014761849844307
+777,TaxonomyLevel,Umbrella
+777,TaxonomyValue,Natural Sciences
+777,Color,#a6761d
+777,Line,Natural Sciences
+778,Percentile,0.71
+778,MeanFractionalPathLength,0.601799100449775
+778,TaxonomyLevel,Umbrella
+778,TaxonomyValue,Natural Sciences
+778,Color,#a6761d
+778,Line,Natural Sciences
+779,Percentile,0.72
+779,MeanFractionalPathLength,0.6026755852842809
+779,TaxonomyLevel,Umbrella
+779,TaxonomyValue,Natural Sciences
+779,Color,#a6761d
+779,Line,Natural Sciences
+780,Percentile,0.73
+780,MeanFractionalPathLength,0.6086725867835312
+780,TaxonomyLevel,Umbrella
+780,TaxonomyValue,Natural Sciences
+780,Color,#a6761d
+780,Line,Natural Sciences
+781,Percentile,0.74
+781,MeanFractionalPathLength,0.6084503901895204
+781,TaxonomyLevel,Umbrella
+781,TaxonomyValue,Natural Sciences
+781,Color,#a6761d
+781,Line,Natural Sciences
+782,Percentile,0.75
+782,MeanFractionalPathLength,0.6107246376811593
+782,TaxonomyLevel,Umbrella
+782,TaxonomyValue,Natural Sciences
+782,Color,#a6761d
+782,Line,Natural Sciences
+783,Percentile,0.76
+783,MeanFractionalPathLength,0.6189520624303232
+783,TaxonomyLevel,Umbrella
+783,TaxonomyValue,Natural Sciences
+783,Color,#a6761d
+783,Line,Natural Sciences
+784,Percentile,0.77
+784,MeanFractionalPathLength,0.6176142697881828
+784,TaxonomyLevel,Umbrella
+784,TaxonomyValue,Natural Sciences
+784,Color,#a6761d
+784,Line,Natural Sciences
+785,Percentile,0.78
+785,MeanFractionalPathLength,0.6171145196632453
+785,TaxonomyLevel,Umbrella
+785,TaxonomyValue,Natural Sciences
+785,Color,#a6761d
+785,Line,Natural Sciences
+786,Percentile,0.79
+786,MeanFractionalPathLength,0.6292469150040364
+786,TaxonomyLevel,Umbrella
+786,TaxonomyValue,Natural Sciences
+786,Color,#a6761d
+786,Line,Natural Sciences
+787,Percentile,0.8
+787,MeanFractionalPathLength,0.6360248447204968
+787,TaxonomyLevel,Umbrella
+787,TaxonomyValue,Natural Sciences
+787,Color,#a6761d
+787,Line,Natural Sciences
+788,Percentile,0.81
+788,MeanFractionalPathLength,0.6377926421404682
+788,TaxonomyLevel,Umbrella
+788,TaxonomyValue,Natural Sciences
+788,Color,#a6761d
+788,Line,Natural Sciences
+789,Percentile,0.8200000000000001
+789,MeanFractionalPathLength,0.6521022455805063
+789,TaxonomyLevel,Umbrella
+789,TaxonomyValue,Natural Sciences
+789,Color,#a6761d
+789,Line,Natural Sciences
+790,Percentile,0.8300000000000001
+790,MeanFractionalPathLength,0.6532728141423794
+790,TaxonomyLevel,Umbrella
+790,TaxonomyValue,Natural Sciences
+790,Color,#a6761d
+790,Line,Natural Sciences
+791,Percentile,0.84
+791,MeanFractionalPathLength,0.6595078834209267
+791,TaxonomyLevel,Umbrella
+791,TaxonomyValue,Natural Sciences
+791,Color,#a6761d
+791,Line,Natural Sciences
+792,Percentile,0.85
+792,MeanFractionalPathLength,0.6685857620640229
+792,TaxonomyLevel,Umbrella
+792,TaxonomyValue,Natural Sciences
+792,Color,#a6761d
+792,Line,Natural Sciences
+793,Percentile,0.86
+793,MeanFractionalPathLength,0.6775680840898232
+793,TaxonomyLevel,Umbrella
+793,TaxonomyValue,Natural Sciences
+793,Color,#a6761d
+793,Line,Natural Sciences
+794,Percentile,0.87
+794,MeanFractionalPathLength,0.6898948877209747
+794,TaxonomyLevel,Umbrella
+794,TaxonomyValue,Natural Sciences
+794,Color,#a6761d
+794,Line,Natural Sciences
+795,Percentile,0.88
+795,MeanFractionalPathLength,0.696816548990462
+795,TaxonomyLevel,Umbrella
+795,TaxonomyValue,Natural Sciences
+795,Color,#a6761d
+795,Line,Natural Sciences
+796,Percentile,0.89
+796,MeanFractionalPathLength,0.6930261365043973
+796,TaxonomyLevel,Umbrella
+796,TaxonomyValue,Natural Sciences
+796,Color,#a6761d
+796,Line,Natural Sciences
+797,Percentile,0.9
+797,MeanFractionalPathLength,0.691280458671763
+797,TaxonomyLevel,Umbrella
+797,TaxonomyValue,Natural Sciences
+797,Color,#a6761d
+797,Line,Natural Sciences
+798,Percentile,0.91
+798,MeanFractionalPathLength,0.7040905582711602
+798,TaxonomyLevel,Umbrella
+798,TaxonomyValue,Natural Sciences
+798,Color,#a6761d
+798,Line,Natural Sciences
+799,Percentile,0.92
+799,MeanFractionalPathLength,0.6998795986622074
+799,TaxonomyLevel,Umbrella
+799,TaxonomyValue,Natural Sciences
+799,Color,#a6761d
+799,Line,Natural Sciences
+800,Percentile,0.93
+800,MeanFractionalPathLength,0.7058891958702922
+800,TaxonomyLevel,Umbrella
+800,TaxonomyValue,Natural Sciences
+800,Color,#a6761d
+800,Line,Natural Sciences
+801,Percentile,0.9400000000000001
+801,MeanFractionalPathLength,0.7218346870520783
+801,TaxonomyLevel,Umbrella
+801,TaxonomyValue,Natural Sciences
+801,Color,#a6761d
+801,Line,Natural Sciences
+802,Percentile,0.9500000000000001
+802,MeanFractionalPathLength,0.7262453793346241
+802,TaxonomyLevel,Umbrella
+802,TaxonomyValue,Natural Sciences
+802,Color,#a6761d
+802,Line,Natural Sciences
+803,Percentile,0.96
+803,MeanFractionalPathLength,0.7225752508361204
+803,TaxonomyLevel,Umbrella
+803,TaxonomyValue,Natural Sciences
+803,Color,#a6761d
+803,Line,Natural Sciences
+804,Percentile,0.97
+804,MeanFractionalPathLength,0.7223565731926935
+804,TaxonomyLevel,Umbrella
+804,TaxonomyValue,Natural Sciences
+804,Color,#a6761d
+804,Line,Natural Sciences
+805,Percentile,0.98
+805,MeanFractionalPathLength,0.7234671125975475
+805,TaxonomyLevel,Umbrella
+805,TaxonomyValue,Natural Sciences
+805,Color,#a6761d
+805,Line,Natural Sciences
+806,Percentile,0.99
+806,MeanFractionalPathLength,0.738610182088443
+806,TaxonomyLevel,Umbrella
+806,TaxonomyValue,Natural Sciences
+806,Color,#a6761d
+806,Line,Natural Sciences
+807,Percentile,1.0
+807,MeanFractionalPathLength,0.7685618729096991
+807,TaxonomyLevel,Umbrella
+807,TaxonomyValue,Natural Sciences
+807,Color,#a6761d
+807,Line,Natural Sciences
+808,Percentile,0.0
+808,MeanFractionalPathLength,0.34789064879683207
+808,TaxonomyLevel,Umbrella
+808,TaxonomyValue,Social Sciences
+808,Color,#666666
+808,Line,Social Sciences
+809,Percentile,0.01
+809,MeanFractionalPathLength,0.34591747146619833
+809,TaxonomyLevel,Umbrella
+809,TaxonomyValue,Social Sciences
+809,Color,#666666
+809,Line,Social Sciences
+810,Percentile,0.02
+810,MeanFractionalPathLength,0.34547188867691614
+810,TaxonomyLevel,Umbrella
+810,TaxonomyValue,Social Sciences
+810,Color,#666666
+810,Line,Social Sciences
+811,Percentile,0.03
+811,MeanFractionalPathLength,0.3455611552626477
+811,TaxonomyLevel,Umbrella
+811,TaxonomyValue,Social Sciences
+811,Color,#666666
+811,Line,Social Sciences
+812,Percentile,0.04
+812,MeanFractionalPathLength,0.3472707889125799
+812,TaxonomyLevel,Umbrella
+812,TaxonomyValue,Social Sciences
+812,Color,#666666
+812,Line,Social Sciences
+813,Percentile,0.05
+813,MeanFractionalPathLength,0.346809906511399
+813,TaxonomyLevel,Umbrella
+813,TaxonomyValue,Social Sciences
+813,Color,#666666
+813,Line,Social Sciences
+814,Percentile,0.06
+814,MeanFractionalPathLength,0.34671878701729447
+814,TaxonomyLevel,Umbrella
+814,TaxonomyValue,Social Sciences
+814,Color,#666666
+814,Line,Social Sciences
+815,Percentile,0.07
+815,MeanFractionalPathLength,0.34920634920634913
+815,TaxonomyLevel,Umbrella
+815,TaxonomyValue,Social Sciences
+815,Color,#666666
+815,Line,Social Sciences
+816,Percentile,0.08
+816,MeanFractionalPathLength,0.3521403969165163
+816,TaxonomyLevel,Umbrella
+816,TaxonomyValue,Social Sciences
+816,Color,#666666
+816,Line,Social Sciences
+817,Percentile,0.09
+817,MeanFractionalPathLength,0.3510621495696122
+817,TaxonomyLevel,Umbrella
+817,TaxonomyValue,Social Sciences
+817,Color,#666666
+817,Line,Social Sciences
+818,Percentile,0.1
+818,MeanFractionalPathLength,0.35424070125562657
+818,TaxonomyLevel,Umbrella
+818,TaxonomyValue,Social Sciences
+818,Color,#666666
+818,Line,Social Sciences
+819,Percentile,0.11
+819,MeanFractionalPathLength,0.3569993439396424
+819,TaxonomyLevel,Umbrella
+819,TaxonomyValue,Social Sciences
+819,Color,#666666
+819,Line,Social Sciences
+820,Percentile,0.12
+820,MeanFractionalPathLength,0.36077548764115924
+820,TaxonomyLevel,Umbrella
+820,TaxonomyValue,Social Sciences
+820,Color,#666666
+820,Line,Social Sciences
+821,Percentile,0.13
+821,MeanFractionalPathLength,0.365197820421701
+821,TaxonomyLevel,Umbrella
+821,TaxonomyValue,Social Sciences
+821,Color,#666666
+821,Line,Social Sciences
+822,Percentile,0.14
+822,MeanFractionalPathLength,0.3642160078727242
+822,TaxonomyLevel,Umbrella
+822,TaxonomyValue,Social Sciences
+822,Color,#666666
+822,Line,Social Sciences
+823,Percentile,0.15
+823,MeanFractionalPathLength,0.36460554371002124
+823,TaxonomyLevel,Umbrella
+823,TaxonomyValue,Social Sciences
+823,Color,#666666
+823,Line,Social Sciences
+824,Percentile,0.16
+824,MeanFractionalPathLength,0.3684948274500513
+824,TaxonomyLevel,Umbrella
+824,TaxonomyValue,Social Sciences
+824,Color,#666666
+824,Line,Social Sciences
+825,Percentile,0.17
+825,MeanFractionalPathLength,0.3719657208463178
+825,TaxonomyLevel,Umbrella
+825,TaxonomyValue,Social Sciences
+825,Color,#666666
+825,Line,Social Sciences
+826,Percentile,0.18
+826,MeanFractionalPathLength,0.3769248993129589
+826,TaxonomyLevel,Umbrella
+826,TaxonomyValue,Social Sciences
+826,Color,#666666
+826,Line,Social Sciences
+827,Percentile,0.19
+827,MeanFractionalPathLength,0.3829266366579798
+827,TaxonomyLevel,Umbrella
+827,TaxonomyValue,Social Sciences
+827,Color,#666666
+827,Line,Social Sciences
+828,Percentile,0.2
+828,MeanFractionalPathLength,0.38006396588486135
+828,TaxonomyLevel,Umbrella
+828,TaxonomyValue,Social Sciences
+828,Color,#666666
+828,Line,Social Sciences
+829,Percentile,0.21
+829,MeanFractionalPathLength,0.3822356471610202
+829,TaxonomyLevel,Umbrella
+829,TaxonomyValue,Social Sciences
+829,Color,#666666
+829,Line,Social Sciences
+830,Percentile,0.22
+830,MeanFractionalPathLength,0.38270946853036397
+830,TaxonomyLevel,Umbrella
+830,TaxonomyValue,Social Sciences
+830,Color,#666666
+830,Line,Social Sciences
+831,Percentile,0.23
+831,MeanFractionalPathLength,0.38264720354272586
+831,TaxonomyLevel,Umbrella
+831,TaxonomyValue,Social Sciences
+831,Color,#666666
+831,Line,Social Sciences
+832,Percentile,0.24
+832,MeanFractionalPathLength,0.38685540551212183
+832,TaxonomyLevel,Umbrella
+832,TaxonomyValue,Social Sciences
+832,Color,#666666
+832,Line,Social Sciences
+833,Percentile,0.25
+833,MeanFractionalPathLength,0.39725973308062856
+833,TaxonomyLevel,Umbrella
+833,TaxonomyValue,Social Sciences
+833,Color,#666666
+833,Line,Social Sciences
+834,Percentile,0.26
+834,MeanFractionalPathLength,0.3975520747908807
+834,TaxonomyLevel,Umbrella
+834,TaxonomyValue,Social Sciences
+834,Color,#666666
+834,Line,Social Sciences
+835,Percentile,0.27
+835,MeanFractionalPathLength,0.3955026455026454
+835,TaxonomyLevel,Umbrella
+835,TaxonomyValue,Social Sciences
+835,Color,#666666
+835,Line,Social Sciences
+836,Percentile,0.28
+836,MeanFractionalPathLength,0.39425886440811814
+836,TaxonomyLevel,Umbrella
+836,TaxonomyValue,Social Sciences
+836,Color,#666666
+836,Line,Social Sciences
+837,Percentile,0.29
+837,MeanFractionalPathLength,0.39503034279153676
+837,TaxonomyLevel,Umbrella
+837,TaxonomyValue,Social Sciences
+837,Color,#666666
+837,Line,Social Sciences
+838,Percentile,0.3
+838,MeanFractionalPathLength,0.39850351417515595
+838,TaxonomyLevel,Umbrella
+838,TaxonomyValue,Social Sciences
+838,Color,#666666
+838,Line,Social Sciences
+839,Percentile,0.31
+839,MeanFractionalPathLength,0.40024085919608304
+839,TaxonomyLevel,Umbrella
+839,TaxonomyValue,Social Sciences
+839,Color,#666666
+839,Line,Social Sciences
+840,Percentile,0.32
+840,MeanFractionalPathLength,0.4013039199606363
+840,TaxonomyLevel,Umbrella
+840,TaxonomyValue,Social Sciences
+840,Color,#666666
+840,Line,Social Sciences
+841,Percentile,0.33
+841,MeanFractionalPathLength,0.4012674721629945
+841,TaxonomyLevel,Umbrella
+841,TaxonomyValue,Social Sciences
+841,Color,#666666
+841,Line,Social Sciences
+842,Percentile,0.34
+842,MeanFractionalPathLength,0.4036958066808813
+842,TaxonomyLevel,Umbrella
+842,TaxonomyValue,Social Sciences
+842,Color,#666666
+842,Line,Social Sciences
+843,Percentile,0.35000000000000003
+843,MeanFractionalPathLength,0.39732655404297196
+843,TaxonomyLevel,Umbrella
+843,TaxonomyValue,Social Sciences
+843,Color,#666666
+843,Line,Social Sciences
+844,Percentile,0.36
+844,MeanFractionalPathLength,0.40148464029061043
+844,TaxonomyLevel,Umbrella
+844,TaxonomyValue,Social Sciences
+844,Color,#666666
+844,Line,Social Sciences
+845,Percentile,0.37
+845,MeanFractionalPathLength,0.40567006238648023
+845,TaxonomyLevel,Umbrella
+845,TaxonomyValue,Social Sciences
+845,Color,#666666
+845,Line,Social Sciences
+846,Percentile,0.38
+846,MeanFractionalPathLength,0.40927915368213874
+846,TaxonomyLevel,Umbrella
+846,TaxonomyValue,Social Sciences
+846,Color,#666666
+846,Line,Social Sciences
+847,Percentile,0.39
+847,MeanFractionalPathLength,0.40863144594487877
+847,TaxonomyLevel,Umbrella
+847,TaxonomyValue,Social Sciences
+847,Color,#666666
+847,Line,Social Sciences
+848,Percentile,0.4
+848,MeanFractionalPathLength,0.41115849324804543
+848,TaxonomyLevel,Umbrella
+848,TaxonomyValue,Social Sciences
+848,Color,#666666
+848,Line,Social Sciences
+849,Percentile,0.41000000000000003
+849,MeanFractionalPathLength,0.41309250451041496
+849,TaxonomyLevel,Umbrella
+849,TaxonomyValue,Social Sciences
+849,Color,#666666
+849,Line,Social Sciences
+850,Percentile,0.42
+850,MeanFractionalPathLength,0.4135276000947642
+850,TaxonomyLevel,Umbrella
+850,TaxonomyValue,Social Sciences
+850,Color,#666666
+850,Line,Social Sciences
+851,Percentile,0.43
+851,MeanFractionalPathLength,0.4174168838347943
+851,TaxonomyLevel,Umbrella
+851,TaxonomyValue,Social Sciences
+851,Color,#666666
+851,Line,Social Sciences
+852,Percentile,0.44
+852,MeanFractionalPathLength,0.42278989667049366
+852,TaxonomyLevel,Umbrella
+852,TaxonomyValue,Social Sciences
+852,Color,#666666
+852,Line,Social Sciences
+853,Percentile,0.45
+853,MeanFractionalPathLength,0.4300323777935718
+853,TaxonomyLevel,Umbrella
+853,TaxonomyValue,Social Sciences
+853,Color,#666666
+853,Line,Social Sciences
+854,Percentile,0.46
+854,MeanFractionalPathLength,0.4304667140488036
+854,TaxonomyLevel,Umbrella
+854,TaxonomyValue,Social Sciences
+854,Color,#666666
+854,Line,Social Sciences
+855,Percentile,0.47000000000000003
+855,MeanFractionalPathLength,0.43189273413154006
+855,TaxonomyLevel,Umbrella
+855,TaxonomyValue,Social Sciences
+855,Color,#666666
+855,Line,Social Sciences
+856,Percentile,0.48
+856,MeanFractionalPathLength,0.42718944957750926
+856,TaxonomyLevel,Umbrella
+856,TaxonomyValue,Social Sciences
+856,Color,#666666
+856,Line,Social Sciences
+857,Percentile,0.49
+857,MeanFractionalPathLength,0.4289465371554923
+857,TaxonomyLevel,Umbrella
+857,TaxonomyValue,Social Sciences
+857,Color,#666666
+857,Line,Social Sciences
+858,Percentile,0.5
+858,MeanFractionalPathLength,0.4295965228801049
+858,TaxonomyLevel,Umbrella
+858,TaxonomyValue,Social Sciences
+858,Color,#666666
+858,Line,Social Sciences
+859,Percentile,0.51
+859,MeanFractionalPathLength,0.43024954592118764
+859,TaxonomyLevel,Umbrella
+859,TaxonomyValue,Social Sciences
+859,Color,#666666
+859,Line,Social Sciences
+860,Percentile,0.52
+860,MeanFractionalPathLength,0.43585643212508873
+860,TaxonomyLevel,Umbrella
+860,TaxonomyValue,Social Sciences
+860,Color,#666666
+860,Line,Social Sciences
+861,Percentile,0.53
+861,MeanFractionalPathLength,0.43771526980482206
+861,TaxonomyLevel,Umbrella
+861,TaxonomyValue,Social Sciences
+861,Color,#666666
+861,Line,Social Sciences
+862,Percentile,0.54
+862,MeanFractionalPathLength,0.43269762299613046
+862,TaxonomyLevel,Umbrella
+862,TaxonomyValue,Social Sciences
+862,Color,#666666
+862,Line,Social Sciences
+863,Percentile,0.55
+863,MeanFractionalPathLength,0.431513069572771
+863,TaxonomyLevel,Umbrella
+863,TaxonomyValue,Social Sciences
+863,Color,#666666
+863,Line,Social Sciences
+864,Percentile,0.56
+864,MeanFractionalPathLength,0.4356650811874692
+864,TaxonomyLevel,Umbrella
+864,TaxonomyValue,Social Sciences
+864,Color,#666666
+864,Line,Social Sciences
+865,Percentile,0.5700000000000001
+865,MeanFractionalPathLength,0.43818605385769566
+865,TaxonomyLevel,Umbrella
+865,TaxonomyValue,Social Sciences
+865,Color,#666666
+865,Line,Social Sciences
+866,Percentile,0.58
+866,MeanFractionalPathLength,0.4428452973229092
+866,TaxonomyLevel,Umbrella
+866,TaxonomyValue,Social Sciences
+866,Color,#666666
+866,Line,Social Sciences
+867,Percentile,0.59
+867,MeanFractionalPathLength,0.44720764310316546
+867,TaxonomyLevel,Umbrella
+867,TaxonomyValue,Social Sciences
+867,Color,#666666
+867,Line,Social Sciences
+868,Percentile,0.6
+868,MeanFractionalPathLength,0.44799810471452256
+868,TaxonomyLevel,Umbrella
+868,TaxonomyValue,Social Sciences
+868,Color,#666666
+868,Line,Social Sciences
+869,Percentile,0.61
+869,MeanFractionalPathLength,0.45005133064834557
+869,TaxonomyLevel,Umbrella
+869,TaxonomyValue,Social Sciences
+869,Color,#666666
+869,Line,Social Sciences
+870,Percentile,0.62
+870,MeanFractionalPathLength,0.4481507298671477
+870,TaxonomyLevel,Umbrella
+870,TaxonomyValue,Social Sciences
+870,Color,#666666
+870,Line,Social Sciences
+871,Percentile,0.63
+871,MeanFractionalPathLength,0.44724788754639494
+871,TaxonomyLevel,Umbrella
+871,TaxonomyValue,Social Sciences
+871,Color,#666666
+871,Line,Social Sciences
+872,Percentile,0.64
+872,MeanFractionalPathLength,0.4516109926557687
+872,TaxonomyLevel,Umbrella
+872,TaxonomyValue,Social Sciences
+872,Color,#666666
+872,Line,Social Sciences
+873,Percentile,0.65
+873,MeanFractionalPathLength,0.456043956043956
+873,TaxonomyLevel,Umbrella
+873,TaxonomyValue,Social Sciences
+873,Color,#666666
+873,Line,Social Sciences
+874,Percentile,0.66
+874,MeanFractionalPathLength,0.4589142201082499
+874,TaxonomyLevel,Umbrella
+874,TaxonomyValue,Social Sciences
+874,Color,#666666
+874,Line,Social Sciences
+875,Percentile,0.67
+875,MeanFractionalPathLength,0.46362965392816136
+875,TaxonomyLevel,Umbrella
+875,TaxonomyValue,Social Sciences
+875,Color,#666666
+875,Line,Social Sciences
+876,Percentile,0.68
+876,MeanFractionalPathLength,0.4695735607675906
+876,TaxonomyLevel,Umbrella
+876,TaxonomyValue,Social Sciences
+876,Color,#666666
+876,Line,Social Sciences
+877,Percentile,0.6900000000000001
+877,MeanFractionalPathLength,0.467073970805314
+877,TaxonomyLevel,Umbrella
+877,TaxonomyValue,Social Sciences
+877,Color,#666666
+877,Line,Social Sciences
+878,Percentile,0.7000000000000001
+878,MeanFractionalPathLength,0.47189191405609304
+878,TaxonomyLevel,Umbrella
+878,TaxonomyValue,Social Sciences
+878,Color,#666666
+878,Line,Social Sciences
+879,Percentile,0.71
+879,MeanFractionalPathLength,0.4784648187633262
+879,TaxonomyLevel,Umbrella
+879,TaxonomyValue,Social Sciences
+879,Color,#666666
+879,Line,Social Sciences
+880,Percentile,0.72
+880,MeanFractionalPathLength,0.4878218796129243
+880,TaxonomyLevel,Umbrella
+880,TaxonomyValue,Social Sciences
+880,Color,#666666
+880,Line,Social Sciences
+881,Percentile,0.73
+881,MeanFractionalPathLength,0.48763736263736257
+881,TaxonomyLevel,Umbrella
+881,TaxonomyValue,Social Sciences
+881,Color,#666666
+881,Line,Social Sciences
+882,Percentile,0.74
+882,MeanFractionalPathLength,0.48707889125799564
+882,TaxonomyLevel,Umbrella
+882,TaxonomyValue,Social Sciences
+882,Color,#666666
+882,Line,Social Sciences
+883,Percentile,0.75
+883,MeanFractionalPathLength,0.4849311136624569
+883,TaxonomyLevel,Umbrella
+883,TaxonomyValue,Social Sciences
+883,Color,#666666
+883,Line,Social Sciences
+884,Percentile,0.76
+884,MeanFractionalPathLength,0.48833214877990994
+884,TaxonomyLevel,Umbrella
+884,TaxonomyValue,Social Sciences
+884,Color,#666666
+884,Line,Social Sciences
+885,Percentile,0.77
+885,MeanFractionalPathLength,0.4858848614072494
+885,TaxonomyLevel,Umbrella
+885,TaxonomyValue,Social Sciences
+885,Color,#666666
+885,Line,Social Sciences
+886,Percentile,0.78
+886,MeanFractionalPathLength,0.4832294571100541
+886,TaxonomyLevel,Umbrella
+886,TaxonomyValue,Social Sciences
+886,Color,#666666
+886,Line,Social Sciences
+887,Percentile,0.79
+887,MeanFractionalPathLength,0.48852878464818755
+887,TaxonomyLevel,Umbrella
+887,TaxonomyValue,Social Sciences
+887,Color,#666666
+887,Line,Social Sciences
+888,Percentile,0.8
+888,MeanFractionalPathLength,0.49007196162046895
+888,TaxonomyLevel,Umbrella
+888,TaxonomyValue,Social Sciences
+888,Color,#666666
+888,Line,Social Sciences
+889,Percentile,0.81
+889,MeanFractionalPathLength,0.483368869936034
+889,TaxonomyLevel,Umbrella
+889,TaxonomyValue,Social Sciences
+889,Color,#666666
+889,Line,Social Sciences
+890,Percentile,0.8200000000000001
+890,MeanFractionalPathLength,0.4855010660980809
+890,TaxonomyLevel,Umbrella
+890,TaxonomyValue,Social Sciences
+890,Color,#666666
+890,Line,Social Sciences
+891,Percentile,0.8300000000000001
+891,MeanFractionalPathLength,0.4936922530206111
+891,TaxonomyLevel,Umbrella
+891,TaxonomyValue,Social Sciences
+891,Color,#666666
+891,Line,Social Sciences
+892,Percentile,0.84
+892,MeanFractionalPathLength,0.5041755508173418
+892,TaxonomyLevel,Umbrella
+892,TaxonomyValue,Social Sciences
+892,Color,#666666
+892,Line,Social Sciences
+893,Percentile,0.85
+893,MeanFractionalPathLength,0.5111940298507462
+893,TaxonomyLevel,Umbrella
+893,TaxonomyValue,Social Sciences
+893,Color,#666666
+893,Line,Social Sciences
+894,Percentile,0.86
+894,MeanFractionalPathLength,0.5111213413452218
+894,TaxonomyLevel,Umbrella
+894,TaxonomyValue,Social Sciences
+894,Color,#666666
+894,Line,Social Sciences
+895,Percentile,0.87
+895,MeanFractionalPathLength,0.5160358919687278
+895,TaxonomyLevel,Umbrella
+895,TaxonomyValue,Social Sciences
+895,Color,#666666
+895,Line,Social Sciences
+896,Percentile,0.88
+896,MeanFractionalPathLength,0.5341817697228144
+896,TaxonomyLevel,Umbrella
+896,TaxonomyValue,Social Sciences
+896,Color,#666666
+896,Line,Social Sciences
+897,Percentile,0.89
+897,MeanFractionalPathLength,0.5352044127190135
+897,TaxonomyLevel,Umbrella
+897,TaxonomyValue,Social Sciences
+897,Color,#666666
+897,Line,Social Sciences
+898,Percentile,0.9
+898,MeanFractionalPathLength,0.5440344859553164
+898,TaxonomyLevel,Umbrella
+898,TaxonomyValue,Social Sciences
+898,Color,#666666
+898,Line,Social Sciences
+899,Percentile,0.91
+899,MeanFractionalPathLength,0.5627301802674936
+899,TaxonomyLevel,Umbrella
+899,TaxonomyValue,Social Sciences
+899,Color,#666666
+899,Line,Social Sciences
+900,Percentile,0.92
+900,MeanFractionalPathLength,0.5655650319829423
+900,TaxonomyLevel,Umbrella
+900,TaxonomyValue,Social Sciences
+900,Color,#666666
+900,Line,Social Sciences
+901,Percentile,0.93
+901,MeanFractionalPathLength,0.5696162046908315
+901,TaxonomyLevel,Umbrella
+901,TaxonomyValue,Social Sciences
+901,Color,#666666
+901,Line,Social Sciences
+902,Percentile,0.9400000000000001
+902,MeanFractionalPathLength,0.5728944562899786
+902,TaxonomyLevel,Umbrella
+902,TaxonomyValue,Social Sciences
+902,Color,#666666
+902,Line,Social Sciences
+903,Percentile,0.9500000000000001
+903,MeanFractionalPathLength,0.5827628773426101
+903,TaxonomyLevel,Umbrella
+903,TaxonomyValue,Social Sciences
+903,Color,#666666
+903,Line,Social Sciences
+904,Percentile,0.96
+904,MeanFractionalPathLength,0.58789038003261
+904,TaxonomyLevel,Umbrella
+904,TaxonomyValue,Social Sciences
+904,Color,#666666
+904,Line,Social Sciences
+905,Percentile,0.97
+905,MeanFractionalPathLength,0.6004797441364605
+905,TaxonomyLevel,Umbrella
+905,TaxonomyValue,Social Sciences
+905,Color,#666666
+905,Line,Social Sciences
+906,Percentile,0.98
+906,MeanFractionalPathLength,0.593380500096918
+906,TaxonomyLevel,Umbrella
+906,TaxonomyValue,Social Sciences
+906,Color,#666666
+906,Line,Social Sciences
+907,Percentile,0.99
+907,MeanFractionalPathLength,0.6070895522388059
+907,TaxonomyLevel,Umbrella
+907,TaxonomyValue,Social Sciences
+907,Color,#666666
+907,Line,Social Sciences
+908,Percentile,1.0
+908,MeanFractionalPathLength,0.607276119402985
+908,TaxonomyLevel,Umbrella
+908,TaxonomyValue,Social Sciences
+908,Color,#666666
+908,Line,Social Sciences

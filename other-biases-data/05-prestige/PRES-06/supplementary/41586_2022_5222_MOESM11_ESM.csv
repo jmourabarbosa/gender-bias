@@ -1,0 +1,217 @@
+Element,Attribute,Value
+0,TaxonomyLevel,Academia
+0,TaxonomyValue,Academia
+0,LogOdds,0.01021220601965045
+0,P,4.3719382739051334e-07
+0,CareerAgeBin,0-10
+0,Color,#45A1F8
+1,TaxonomyLevel,Umbrella
+1,TaxonomyValue,Applied Sciences
+1,LogOdds,0.07885750801805011
+1,P,7.829363476476365e-28
+1,CareerAgeBin,0-10
+1,Color,#1b9e77
+2,TaxonomyLevel,Umbrella
+2,TaxonomyValue,Education
+2,LogOdds,0.00105382734865137
+2,P,0.8862810801957097
+2,CareerAgeBin,0-10
+2,Color,#d95f02
+3,TaxonomyLevel,Umbrella
+3,TaxonomyValue,Engineering
+3,LogOdds,0.00550148381356087
+3,P,0.4821877223146074
+3,CareerAgeBin,0-10
+3,Color,#7570b3
+4,TaxonomyLevel,Umbrella
+4,TaxonomyValue,Humanities
+4,LogOdds,0.00842219910007843
+4,P,0.3335104630722416
+4,CareerAgeBin,0-10
+4,Color,#66a61e
+5,TaxonomyLevel,Umbrella
+5,TaxonomyValue,Mathematics and Computing
+5,LogOdds,-0.01144944979025814
+5,P,0.281775085450777
+5,CareerAgeBin,0-10
+5,Color,#e7298a
+6,TaxonomyLevel,Umbrella
+6,TaxonomyValue,Medicine and Health
+6,LogOdds,0.05730676208964911
+6,P,2.633306309630177e-57
+6,CareerAgeBin,0-10
+6,Color,#e6ab02
+7,TaxonomyLevel,Umbrella
+7,TaxonomyValue,Natural Sciences
+7,LogOdds,-0.00383932445910403
+7,P,0.5117607156790545
+7,CareerAgeBin,0-10
+7,Color,#a6761d
+8,TaxonomyLevel,Umbrella
+8,TaxonomyValue,Social Sciences
+8,LogOdds,-0.02834280167650021
+8,P,0.0002200864332358
+8,CareerAgeBin,0-10
+8,Color,#666666
+9,TaxonomyLevel,Academia
+9,TaxonomyValue,Academia
+9,LogOdds,0.07255340294560204
+9,P,2.6660339655752567e-279
+9,CareerAgeBin,11-20
+9,Color,#45A1F8
+10,TaxonomyLevel,Umbrella
+10,TaxonomyValue,Applied Sciences
+10,LogOdds,0.12489114537173769
+10,P,6.998410476487488e-70
+10,CareerAgeBin,11-20
+10,Color,#1b9e77
+11,TaxonomyLevel,Umbrella
+11,TaxonomyValue,Education
+11,LogOdds,0.0757901236541861
+11,P,4.195367593236699e-27
+11,CareerAgeBin,11-20
+11,Color,#d95f02
+12,TaxonomyLevel,Umbrella
+12,TaxonomyValue,Engineering
+12,LogOdds,0.07982253404343881
+12,P,1.9821168019157512e-39
+12,CareerAgeBin,11-20
+12,Color,#7570b3
+13,TaxonomyLevel,Umbrella
+13,TaxonomyValue,Humanities
+13,LogOdds,0.06838516633275497
+13,P,2.089849339191704e-30
+13,CareerAgeBin,11-20
+13,Color,#66a61e
+14,TaxonomyLevel,Umbrella
+14,TaxonomyValue,Mathematics and Computing
+14,LogOdds,0.08244266898935235
+14,P,1.3105432763969e-25
+14,CareerAgeBin,11-20
+14,Color,#e7298a
+15,TaxonomyLevel,Umbrella
+15,TaxonomyValue,Medicine and Health
+15,LogOdds,0.12859228926580232
+15,P,2.9509124367859065e-238
+15,CareerAgeBin,11-20
+15,Color,#e6ab02
+16,TaxonomyLevel,Umbrella
+16,TaxonomyValue,Natural Sciences
+16,LogOdds,0.06618424480300747
+16,P,1.8819077626250032e-50
+16,CareerAgeBin,11-20
+16,Color,#a6761d
+17,TaxonomyLevel,Umbrella
+17,TaxonomyValue,Social Sciences
+17,LogOdds,0.06512633139777321
+17,P,2.1716723156048287e-22
+17,CareerAgeBin,11-20
+17,Color,#666666
+18,TaxonomyLevel,Academia
+18,TaxonomyValue,Academia
+18,LogOdds,0.1493634730977988
+18,P,0.0
+18,CareerAgeBin,21-30
+18,Color,#45A1F8
+19,TaxonomyLevel,Umbrella
+19,TaxonomyValue,Applied Sciences
+19,LogOdds,0.22689411533293086
+19,P,3.9260096928813787e-163
+19,CareerAgeBin,21-30
+19,Color,#1b9e77
+20,TaxonomyLevel,Umbrella
+20,TaxonomyValue,Education
+20,LogOdds,0.12397329633600958
+20,P,5.875634886138457e-35
+20,CareerAgeBin,21-30
+20,Color,#d95f02
+21,TaxonomyLevel,Umbrella
+21,TaxonomyValue,Engineering
+21,LogOdds,0.12712071368465588
+21,P,6.679846732769633e-81
+21,CareerAgeBin,21-30
+21,Color,#7570b3
+22,TaxonomyLevel,Umbrella
+22,TaxonomyValue,Humanities
+22,LogOdds,0.14391293541943723
+22,P,5.68735564227896e-77
+22,CareerAgeBin,21-30
+22,Color,#66a61e
+23,TaxonomyLevel,Umbrella
+23,TaxonomyValue,Mathematics and Computing
+23,LogOdds,0.16563833452724103
+23,P,2.858026308648417e-74
+23,CareerAgeBin,21-30
+23,Color,#e7298a
+24,TaxonomyLevel,Umbrella
+24,TaxonomyValue,Medicine and Health
+24,LogOdds,0.2081937151847689
+24,P,0.0
+24,CareerAgeBin,21-30
+24,Color,#e6ab02
+25,TaxonomyLevel,Umbrella
+25,TaxonomyValue,Natural Sciences
+25,LogOdds,0.14564227025202542
+25,P,7.227515074651204e-169
+25,CareerAgeBin,21-30
+25,Color,#a6761d
+26,TaxonomyLevel,Umbrella
+26,TaxonomyValue,Social Sciences
+26,LogOdds,0.189574973493264
+26,P,1.6812019716709657e-102
+26,CareerAgeBin,21-30
+26,Color,#666666
+27,TaxonomyLevel,Academia
+27,TaxonomyValue,Academia
+27,LogOdds,0.1881340503995967
+27,P,0.0
+27,CareerAgeBin,31-40
+27,Color,#45A1F8
+28,TaxonomyLevel,Umbrella
+28,TaxonomyValue,Applied Sciences
+28,LogOdds,0.21501290112549679
+28,P,4.35415060213082e-55
+28,CareerAgeBin,31-40
+28,Color,#1b9e77
+29,TaxonomyLevel,Umbrella
+29,TaxonomyValue,Education
+29,LogOdds,0.13180768762365486
+29,P,3.505546272378251e-11
+29,CareerAgeBin,31-40
+29,Color,#d95f02
+30,TaxonomyLevel,Umbrella
+30,TaxonomyValue,Engineering
+30,LogOdds,0.22128802219483243
+30,P,3.197107262768507e-89
+30,CareerAgeBin,31-40
+30,Color,#7570b3
+31,TaxonomyLevel,Umbrella
+31,TaxonomyValue,Humanities
+31,LogOdds,0.0938725311624257
+31,P,9.315732658614613e-14
+31,CareerAgeBin,31-40
+31,Color,#66a61e
+32,TaxonomyLevel,Umbrella
+32,TaxonomyValue,Mathematics and Computing
+32,LogOdds,0.2618109963932181
+32,P,8.609914577532486e-57
+32,CareerAgeBin,31-40
+32,Color,#e7298a
+33,TaxonomyLevel,Umbrella
+33,TaxonomyValue,Medicine and Health
+33,LogOdds,0.20542497632827605
+33,P,6.461130909996387e-108
+33,CareerAgeBin,31-40
+33,Color,#e6ab02
+34,TaxonomyLevel,Umbrella
+34,TaxonomyValue,Natural Sciences
+34,LogOdds,0.16970258261659985
+34,P,7.551634229044297e-88
+34,CareerAgeBin,31-40
+34,Color,#a6761d
+35,TaxonomyLevel,Umbrella
+35,TaxonomyValue,Social Sciences
+35,LogOdds,0.24808450686639172
+35,P,7.019919111666027e-54
+35,CareerAgeBin,31-40
+35,Color,#666666
