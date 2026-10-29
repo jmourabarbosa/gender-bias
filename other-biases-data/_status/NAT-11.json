@@ -1,0 +1,19 @@
+{
+ "id": "NAT-11",
+ "title": "Uptake and outcome of manuscripts in Nature journals by review model and author characteristics (McGillivray & De Ranieri 2018)",
+ "url_used": "https://arxiv.org/pdf/1802.02188",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-11/data/NAT-11.csv",
+  "other-biases-data/04-nationality/NAT-11/notes.md",
+  "other-biases-data/04-nationality/NAT-11/page.html",
+  "other-biases-data/04-nationality/NAT-11/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-11/figures/NAT-11_fig1.png",
+  "other-biases-data/04-nationality/NAT-11/figures/NAT-11_fig2.png",
+  "other-biases-data/04-nationality/NAT-11/figures/NAT-11_fig3.png",
+  "other-biases-data/04-nationality/NAT-11/figures/NAT-11_redraw.png"
+ ],
+ "notes": "Double-blind opt-in France 8% vs India 32% (Table 4 pp.12-13): MATCH"
+}

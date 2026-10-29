@@ -1,0 +1,13 @@
+group,pct_with_disability,year,survey,source
+US population 18-74,9,2021,CPS ASEC,PDF p6 Figure 1-1
+In the labor force,4,2021,CPS ASEC,PDF p6 Figure 1-1
+In the workforce,3,2021,CPS ASEC,PDF p6 Figure 1-1
+In the STEM workforce,3,2021,CPS ASEC,PDF p6 Figure 1-1
+All doctorate recipients,11.3,2021,SED,PDF p56 Figure 7-10
+S&E doctorate recipients,10.8,2021,SED,PDF p56 Figure 7-10
+Non-S&E doctorate recipients,13.3,2021,SED,PDF p56 Figure 7-10
+Engineering doctorates,8.2,2021,SED,PDF p56 Figure 7-10
+Psychology doctorates,13.1,2021,SED,PDF p56 Figure 7-10
+Social sciences doctorates,13.2,2021,SED,PDF p56 Figure 7-10
+College-educated workers in S&E occupations,11,2021,NSCG,PDF p37 text
+College-educated workers in non-S&E occupations,13,2021,NSCG,PDF p37 text

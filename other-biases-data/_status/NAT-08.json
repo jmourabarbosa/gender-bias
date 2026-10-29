@@ -1,0 +1,26 @@
+{
+ "id": "NAT-08",
+ "title": "Preliminary evidence of linguistic bias in academic reviewing (Politzer-Ahles, Girolamo & Ghali 2020, JEAP)",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7575202.1/",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-08/article.json",
+  "other-biases-data/04-nationality/NAT-08/article.xml",
+  "other-biases-data/04-nationality/NAT-08/notes.md",
+  "other-biases-data/04-nationality/NAT-08/page.html",
+  "other-biases-data/04-nationality/NAT-08/source.pdf",
+  "other-biases-data/04-nationality/NAT-08/supplementary/NIHMS1631807-supplement-Conference_Abstract_Review_Survey_July_7_2C_2019_16_48_csv.csv",
+  "other-biases-data/04-nationality/NAT-08/supplementary/NIHMS1631807-supplement-abstract_ratings_long_csv.csv",
+  "other-biases-data/04-nationality/NAT-08/supplementary/NIHMS1631807-supplement-abstract_ratings_wide_csv.csv",
+  "other-biases-data/04-nationality/NAT-08/supplementary/NIHMS1631807-supplement-r_analysis_txt.txt"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-08/figures/NAT-08_fig1.jpg",
+  "other-biases-data/04-nationality/NAT-08/figures/NAT-08_fig2.jpg",
+  "other-biases-data/04-nationality/NAT-08/figures/NAT-08_fig3.jpg",
+  "other-biases-data/04-nationality/NAT-08/figures/nihms-1631807-f0001.jpg",
+  "other-biases-data/04-nationality/NAT-08/figures/nihms-1631807-f0002.jpg",
+  "other-biases-data/04-nationality/NAT-08/figures/nihms-1631807-f0003.jpg"
+ ],
+ "notes": "PMC author manuscript found via Unpaywall; non-standard English abstracts rated lower (b=-1.34, p=.048) but authors call effects inconclusive: MATCH (caveat)"
+}

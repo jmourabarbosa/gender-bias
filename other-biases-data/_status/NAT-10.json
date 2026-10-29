@@ -1,0 +1,16 @@
+{
+ "id": "NAT-10",
+ "title": "Author-Reviewer Homophily in Peer Review (Murray et al., bioRxiv 400515)",
+ "url_used": "https://elifesciences.org/inside-elife/f3645452/meta-research-researchers-study-implicit-bias-in-peer-review",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-10/biorxiv_api.json",
+  "other-biases-data/04-nationality/NAT-10/data/NAT-10.csv",
+  "other-biases-data/04-nationality/NAT-10/notes.md",
+  "other-biases-data/04-nationality/NAT-10/page.html"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-10/figures/NAT-10_redraw.png"
+ ],
+ "notes": "bioRxiv PDF/XML rate-limited (Cloudflare 1015/HTTP 429); eLife summary + bioRxiv API abstract saved; 39.2% US vs 12.6% China encouraged: MATCH (from eLife summary)"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "SOC-08",
+ "title": "Sutton Trust (2009), The Educational Backgrounds of Leading Scientists and Scholars (via Times Higher Education)",
+ "url_used": "https://dera.ioe.ac.uk/id/eprint/30358/1/ScientistScholars-1.pdf (report); THE page saved as page.html",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-08/data/SOC-08.csv",
+  "other-biases-data/02-social/SOC-08/data/SOC-08_table1.csv",
+  "other-biases-data/02-social/SOC-08/notes.md",
+  "other-biases-data/02-social/SOC-08/page.html",
+  "other-biases-data/02-social/SOC-08/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-08/figures/SOC-08_fig1.png",
+  "other-biases-data/02-social/SOC-08/figures/SOC-08_fig2.png",
+  "other-biases-data/02-social/SOC-08/figures/SOC-08_redraw.png"
+ ],
+ "notes": "Original Sutton Trust report from DERA; 42% privately educated (Table 1 p.6) - minor MISMATCH vs key's 40% (THE rounding); 7% MATCH"
+}

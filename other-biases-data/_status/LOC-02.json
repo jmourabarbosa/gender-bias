@@ -1,0 +1,17 @@
+{
+ "id": "LOC-02",
+ "title": "MESR-DGRH Note n°3-2025: Trajectoire professionnelle des enseignants-chercheurs recrutés en 2023",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-10/note-dgrh-n-3---2025---trajectoire-professionnelle-des-enseignants-chercheurs-recrut-s-en-2023-pdf-38087.pdf",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-02/data/LOC-02.csv",
+  "other-biases-data/01-localism/LOC-02/notes.md",
+  "other-biases-data/01-localism/LOC-02/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-02/figures/LOC-02_fig1.png",
+  "other-biases-data/01-localism/LOC-02/figures/LOC-02_fig2.png",
+  "other-biases-data/01-localism/LOC-02/figures/LOC-02_redraw.png"
+ ],
+ "notes": "2023 recruits: MCF endo 19%, PR 54% MATCH (p.1-3); foreign 18.5%/11% (p.4); fig.4/5 cropped; data/LOC-02.csv"
+}

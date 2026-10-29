@@ -1,0 +1,13 @@
+{
+ "id": "NAT-05",
+ "title": "Délai 5 mois passeport talent - Sous-préfecture de Saint-Denis (Services Publics+ testimony)",
+ "url_used": "https://www.plus.transformation.gouv.fr/experiences/7327070_delai-5-mois-passeport-talent-sous-prefecture-de-saint-denis",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-05/data/NAT-05_timeline.csv",
+  "other-biases-data/04-nationality/NAT-05/notes.md",
+  "other-biases-data/04-nationality/NAT-05/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Anecdotal testimony: Passeport Talent Chercheur filed 14 Nov 2025, still pending after ~5 months: MATCH; timeline CSV"
+}

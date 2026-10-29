@@ -1,0 +1,16 @@
+{
+ "id": "LOC-04",
+ "title": "MESR-DGRH Note n°1-2026: Campagne de recrutement et d'affectation des MCF et PR, session 2024",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-09/Note%20DGRH%20n%C2%B01%20-%202026%20-%20Campagne%202024.pdf",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-04/data/LOC-04.csv",
+  "other-biases-data/01-localism/LOC-04/notes.md",
+  "other-biases-data/01-localism/LOC-04/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-04/figures/LOC-04_fig1.png",
+  "other-biases-data/01-localism/LOC-04/figures/LOC-04_redraw.png"
+ ],
+ "notes": "Hiring routes table transcribed; mutation 233/2,251 = 10% MATCH (p.3); fig.6 cropped"
+}

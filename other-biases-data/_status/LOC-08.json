@@ -1,0 +1,17 @@
+{
+ "id": "LOC-08",
+ "title": "Horta, Veloso & Grediaga (2010), Navel gazing: academic inbreeding and scientific productivity",
+ "url_used": "https://ndownloader.figshare.com/files/10942667 (CMU KiltHub/figshare record 6073232, submitted version, CC BY)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-08/data/LOC-08.csv",
+  "other-biases-data/01-localism/LOC-08/notes.md",
+  "other-biases-data/01-localism/LOC-08/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-08/figures/LOC-08_fig1.png",
+  "other-biases-data/01-localism/LOC-08/figures/LOC-08_fig2.png",
+  "other-biases-data/01-localism/LOC-08/figures/LOC-08_redraw.png"
+ ],
+ "notes": "OA submitted version via figshare/CMU; -15% publications MATCH (Table 3 p.17); Mexican data"
+}

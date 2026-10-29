@@ -1,0 +1,19 @@
+{
+ "id": "LOC-05",
+ "title": "Godechot & Louvet (2008), Le localisme dans le monde académique : un essai d'évaluation",
+ "url_used": "https://laviedesidees.fr/IMG/pdf/20080422_localisme.pdf (PDF linked from https://laviedesidees.fr/Le-localisme-dans-le-monde.html)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-05/data/LOC-05.csv",
+  "other-biases-data/01-localism/LOC-05/data/LOC-05_table5_summary.csv",
+  "other-biases-data/01-localism/LOC-05/notes.md",
+  "other-biases-data/01-localism/LOC-05/page.html",
+  "other-biases-data/01-localism/LOC-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-05/figures/LOC-05_fig1.png",
+  "other-biases-data/01-localism/LOC-05/figures/LOC-05_fig2.png",
+  "other-biases-data/01-localism/LOC-05/figures/LOC-05_redraw.png"
+ ],
+ "notes": "PDF from laviedesidees; 6.30% vs 0.24%, MH OR 18.02 MATCH (Tableau 5 p.12); Tableau 7 by discipline transcribed"
+}

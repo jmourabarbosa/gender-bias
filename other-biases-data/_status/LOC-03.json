@@ -1,0 +1,26 @@
+{
+ "id": "LOC-03",
+ "title": "MESR-DGRH trajectory notes, recruits 2018-2022 (series)",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2022-12/note-dgrh-n8-septembre-2022--trajectoire-professionnelle-des-enseignants-chercheurs-recrut-s-en-2021-25546.pdf (+ 4 other editions, URLs below)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-03/data/local_hiring_by_discipline.csv",
+  "other-biases-data/01-localism/LOC-03/data/local_hiring_series.csv",
+  "other-biases-data/01-localism/LOC-03/notes.md",
+  "other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2018.pdf",
+  "other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2019.pdf",
+  "other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2020.pdf",
+  "other-biases-data/01-localism/LOC-03/series/dgrh_trajectoire_recrutes_2022.pdf",
+  "other-biases-data/01-localism/LOC-03/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig1.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig2.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig3.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig4.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig5.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_fig6.png",
+  "other-biases-data/01-localism/LOC-03/figures/LOC-03_redraw.png"
+ ],
+ "notes": "Series 2018-2024 assembled (5 notes here + LOC-01/02): data/local_hiring_series.csv + by_discipline.csv; PR scope excl. agrégés in 2020-21 (break); 2019 MCF 17% (p.1) vs 18% (p.2) inconsistency"
+}

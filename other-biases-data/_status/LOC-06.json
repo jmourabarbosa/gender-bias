@@ -1,0 +1,20 @@
+{
+ "id": "LOC-06",
+ "title": "Godechot, Issiakou, Renisio & Rougier (2025), Le localisme universitaire, nouvelles évaluations",
+ "url_used": "https://booksandideas.net/IMG/pdf/20251118_godechot-2.pdf (byte-identical to https://laviedesidees.fr/IMG/pdf/20251118_godechot-2.pdf)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-06/data/LOC-06.csv",
+  "other-biases-data/01-localism/LOC-06/data/LOC-06_fig3_local_rate.csv",
+  "other-biases-data/01-localism/LOC-06/notes.md",
+  "other-biases-data/01-localism/LOC-06/page_laviedesidees.html",
+  "other-biases-data/01-localism/LOC-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-06/figures/LOC-06_fig1.png",
+  "other-biases-data/01-localism/LOC-06/figures/LOC-06_fig2.png",
+  "other-biases-data/01-localism/LOC-06/figures/LOC-06_fig3.png",
+  "other-biases-data/01-localism/LOC-06/figures/LOC-06_redraw.png"
+ ],
+ "notes": "Tableau 2 p.12 MH OR 9.5/10.7 MATCH; physiology 29 MATCH (p.13); odds ratios by CNU section digitized from vector fig.1 (approx.) -> data/LOC-06.csv; replication zip not reachable"
+}

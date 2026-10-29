@@ -1,0 +1,19 @@
+{
+ "id": "LOC-01",
+ "title": "MESR-DGRH Note n°2-2026: Trajectoire professionnelle des enseignants-chercheurs recrutés en 2024",
+ "url_used": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-09/Note%20DGRH%20n%C2%B02%20-%202026%20-%20Trajectoire%20professionnelle%20des%20enseignants-chercheurs%20recrut%C3%A9s%20en%202024.pdf",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-01/data/LOC-01.csv",
+  "other-biases-data/01-localism/LOC-01/data/LOC-01_age_foreign.csv",
+  "other-biases-data/01-localism/LOC-01/notes.md",
+  "other-biases-data/01-localism/LOC-01/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-01/figures/LOC-01_fig1.png",
+  "other-biases-data/01-localism/LOC-01/figures/LOC-01_fig2.png",
+  "other-biases-data/01-localism/LOC-01/figures/LOC-01_fig3.png",
+  "other-biases-data/01-localism/LOC-01/figures/LOC-01_redraw.png"
+ ],
+ "notes": "2024 recruits: MCF endo 23%, PR endo 54% MATCH (p.1-3); foreign 23.5%/7.9% (fig.6 p.4); fig.4/5/6 cropped; data/LOC-01.csv"
+}

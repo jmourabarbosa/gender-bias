@@ -1,0 +1,20 @@
+{
+ "id": "SOC-05",
+ "title": "Bonneau, Charousset, Grenet & Thebault (2021), Quelle démocratisation des grandes écoles depuis le milieu des années 2000 ? (IPP report n°30)",
+ "url_used": "https://www.ipp.eu/wp-content/uploads/2025/06/30_democratisation-grandes-ecoles-depuis-milieu-annees-2000-ipp-janvier-2021.pdf (full report, 308 pp.); slides https://www.ipp.eu/wp-content/uploads/2021/01/democratisation-grandes-ecoles-ipp-slides-debats-egalite-mars-2021.pdf",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-05/data/SOC-05.csv",
+  "other-biases-data/02-social/SOC-05/data/SOC-05_fig7-17_trend.csv",
+  "other-biases-data/02-social/SOC-05/notes.md",
+  "other-biases-data/02-social/SOC-05/slides.pdf",
+  "other-biases-data/02-social/SOC-05/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-05/figures/SOC-05_fig1.png",
+  "other-biases-data/02-social/SOC-05/figures/SOC-05_fig2.png",
+  "other-biases-data/02-social/SOC-05/figures/SOC-05_redraw.png",
+  "other-biases-data/02-social/SOC-05/figures/SOC-05_redraw_trend.png"
+ ],
+ "notes": "Full IPP report (synthesis URL 404); 64% vs 23% MATCH (p.11, fig.4.1 p.93); fig.4.1 + 7.17 trend transcribed"
+}

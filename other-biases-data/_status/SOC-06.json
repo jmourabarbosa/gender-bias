@@ -1,0 +1,29 @@
+{
+ "id": "SOC-06",
+ "title": "Morgan et al. (2022), Socioeconomic roots of academic faculty",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9755046 (PMC OA bucket, first pass)",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-06/article.json",
+  "other-biases-data/02-social/SOC-06/article.xml",
+  "other-biases-data/02-social/SOC-06/data/SOC-06.csv",
+  "other-biases-data/02-social/SOC-06/notes.md",
+  "other-biases-data/02-social/SOC-06/page.html",
+  "other-biases-data/02-social/SOC-06/source.pdf",
+  "other-biases-data/02-social/SOC-06/supplementary/41562_2022_1425_MOESM1_ESM.pdf",
+  "other-biases-data/02-social/SOC-06/supplementary/41562_2022_1425_MOESM2_ESM.pdf",
+  "other-biases-data/02-social/SOC-06/supplementary/41562_2022_1425_MOESM3_ESM.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig1_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig2_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig3_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig4_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig5_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/41562_2022_1425_Fig6_HTML.jpg",
+  "other-biases-data/02-social/SOC-06/figures/SOC-06_fig1.png",
+  "other-biases-data/02-social/SOC-06/figures/SOC-06_fig2.png",
+  "other-biases-data/02-social/SOC-06/figures/SOC-06_redraw.png"
+ ],
+ "notes": "PMC OA PDF+figs; 22.2% PhD parent MATCH (p.2); fig.6 cropped from PDF, fig.6a digitized; data only via IRB agreement"
+}

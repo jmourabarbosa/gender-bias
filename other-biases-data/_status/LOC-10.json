@@ -1,0 +1,13 @@
+{
+ "id": "LOC-10",
+ "title": "Yudkevich, Altbach & Rumbley (eds) (2015), Academic Inbreeding and Mobility in Higher Education: Global Perspectives",
+ "url_used": "https://doi.org/10.1057/9781137461254 (metadata via api.crossref.org)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-10/crossref_book.json",
+  "other-biases-data/01-localism/LOC-10/notes.md",
+  "other-biases-data/01-localism/LOC-10/toc.csv"
+ ],
+ "access_status": "paywalled",
+ "figures_extracted": [],
+ "notes": "Paywalled book; publisher pages are bot challenges (deleted); Crossref metadata + TOC saved; needs library access"
+}

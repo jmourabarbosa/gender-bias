@@ -1,0 +1,4 @@
+field,mean_age_early_period_pre1905,mean_age_late_period_post1985,difference_years,source
+Physics,36.9,50.3,13.4,"means: Lindau blog 2016 (page.html); difference 13.4 y stated in PNAS text (page_pmc.html, Results, Fig. 1B)"
+Chemistry,36.1,46.3,10.2,same
+Medicine,37.6,45.0,7.4,same

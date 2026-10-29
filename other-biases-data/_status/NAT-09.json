@@ -1,0 +1,23 @@
+{
+ "id": "NAT-09",
+ "title": "Geographical diversity of peer reviewers shapes author success (Zumel Dumlao & Teplitskiy 2025, PNAS)",
+ "url_used": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12377754.1/",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-09/article.json",
+  "other-biases-data/04-nationality/NAT-09/article.xml",
+  "other-biases-data/04-nationality/NAT-09/data/NAT-09.csv",
+  "other-biases-data/04-nationality/NAT-09/notes.md",
+  "other-biases-data/04-nationality/NAT-09/page.html",
+  "other-biases-data/04-nationality/NAT-09/source.pdf",
+  "other-biases-data/04-nationality/NAT-09/supplementary/pnas.2507394122.sapp.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-09/figures/NAT-09_fig1.png",
+  "other-biases-data/04-nationality/NAT-09/figures/NAT-09_fig2.png",
+  "other-biases-data/04-nationality/NAT-09/figures/NAT-09_redraw.png",
+  "other-biases-data/04-nationality/NAT-09/figures/pnas.2507394122fig01.jpg",
+  "other-biases-data/04-nationality/NAT-09/figures/pnas.2507394122fig02.jpg"
+ ],
+ "notes": "Same-country reviewers +4.78 pp positive (p.1, p.3 Fig.1): MATCH; same-country reviewer rate USA 30.3% vs LLMIC 2.7% (SI Table S9)"
+}

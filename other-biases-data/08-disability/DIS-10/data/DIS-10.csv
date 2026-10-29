@@ -1,0 +1,12 @@
+fiscal_year,applicants,applicants_disability,pct_applicants_disability,awardees,awardees_disability,pct_awardees_disability,success_rate_no_disability_pct,success_rate_disability_pct,source
+2008,40050,746,1.9,12409,235,1.9,34.7,31.5,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2009,39796,731,1.8,12052,213,1.8,32.1,29.1,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2010,46042,774,1.7,12817,207,1.6,28.7,26.7,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2011,48251,752,1.6,12354,165,1.3,26.3,21.9,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2012,48911,731,1.5,12731,189,1.5,27.1,25.9,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2013,47506,672,1.4,11773,159,1.4,26.4,21.8,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2014,48627,634,1.3,13364,165,1.2,29.1,26.0,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2015,48768,596,1.2,13689,153,1.1,29.7,25.7,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2016,51234,651,1.3,14811,172,1.2,30.7,26.4,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2017,51497,608,1.2,14920,175,1.2,30.7,28.8,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"
+2018,52124,617,1.2,16441,191,1.2,33.0,31.0,"Swenor et al. 2020 PLOS ONE Tables 1-2 (article.xml; Table 1 PDF p4, Table 2 PDF p6)"

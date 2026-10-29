@@ -1,0 +1,23 @@
+{
+ "id": "LOC-11",
+ "title": "Spain: El Salto (2023) 'El enclaustramiento de la universidad pública española' + ministry EPU tables",
+ "url_used": "https://www.elsaltodiario.com/educacion/enclaustramiento-universidad-publica-espanola ; https://estadisticas.ciencia.gob.es/jaxiPx/files/_px/es/px/Universitaria/RRHH/PDITESIS/l0/px_rrhh_pditesis_tipo_centro_tot.px (+3 other PDITESIS tables)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-11/data/LOC-11.csv",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_ca.csv",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_ca.px",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_pupr_personal_tot.csv",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_pupr_personal_tot.px",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_tipo_centro_tot.csv",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_tipo_centro_tot.px",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_univ.csv",
+  "other-biases-data/01-localism/LOC-11/data/px_rrhh_pditesis_univ.px",
+  "other-biases-data/01-localism/LOC-11/notes.md",
+  "other-biases-data/01-localism/LOC-11/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-11/figures/LOC-11_redraw.png"
+ ],
+ "notes": "El Salto 72.94% MATCH, confirmed in ministry SIIU PDITESIS table (2020-21); 2024-25 = 72.77%; px+csv saved"
+}

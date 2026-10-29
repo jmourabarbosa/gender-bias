@@ -1,0 +1,3 @@
+question,funded_by_lottery_n,funded_by_lottery_N,not_funded_by_lottery_n,not_funded_by_lottery_N,declined_by_panel_n,declined_by_panel_N,p_value
+Q2 acceptable for Explorer Grants,18,23,3,5,21,48,0.044
+Q3 acceptable for other grant types,13,23,0,5,12,48,0.010

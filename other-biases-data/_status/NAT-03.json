@@ -1,0 +1,14 @@
+{
+ "id": "NAT-03",
+ "title": "CNRS Guide du candidat chercheur (2026 V7; 2023 guide 404)",
+ "url_used": "https://carrieres.cnrs.fr/wp-content/uploads/2025/12/Guide-du-candidat-chercheur-V7.pdf",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-03/notes.md",
+  "other-biases-data/04-nationality/NAT-03/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-03/figures/NAT-03_fig1.png"
+ ],
+ "notes": "2023 guide 404 -> 2026 guide used; interviews in French by default (p.12) MATCH; ~1/3 foreign not in guide (only Petit interview NAT-04; MESR says 24.5% of EPST CR recruits 2022); bilan social not found"
+}

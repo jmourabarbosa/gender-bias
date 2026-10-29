@@ -1,0 +1,12 @@
+{
+ "id": "SOC-09",
+ "title": "Delhomme (2020), L'origine sociale des enseignant.e.s comparée à la population active occupée en 2015 (DEPP)",
+ "url_used": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-03097223 (metadata); file https://hal.science/hal-03097223/file/depp-2020EF101-article-02.pdf not retrievable",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-09/hal_metadata.json",
+  "other-biases-data/02-social/SOC-09/notes.md"
+ ],
+ "access_status": "abstract_only",
+ "figures_extracted": [],
+ "notes": "HAL behind Anubis bot challenge (challenge page deleted); abstract via HAL API; likely excludes higher-ed staff (keywords)"
+}

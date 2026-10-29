@@ -1,0 +1,15 @@
+{
+ "id": "SOC-02",
+ "title": "Martin-Kleinbauer & Maurin (2025), Enseignement supérieur : comment évolue la composition sociale des filières ?",
+ "url_used": "https://www.inegalites.fr/Enseignement-superieur-comment-evolue-la-composition-sociale-des-filieres",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-02/data/SOC-02.csv",
+  "other-biases-data/02-social/SOC-02/notes.md",
+  "other-biases-data/02-social/SOC-02/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-02/figures/SOC-02_redraw.png"
+ ],
+ "notes": "Web table transcribed; ENS cadres 64.9%, ouvriers 2.0% MATCH"
+}

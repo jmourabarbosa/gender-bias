@@ -1,0 +1,20 @@
+{
+ "id": "NAT-06",
+ "title": "Campus France, Chiffres clés 2025 (press release, 20 May 2025)",
+ "url_used": "https://www.campusfrance.org/system/files/medias/documents/2025-05/CP_Chiffres_cles_2025_FR_vdef.pdf",
+ "file_paths": [
+  "other-biases-data/04-nationality/NAT-06/data/NAT-06.csv",
+  "other-biases-data/04-nationality/NAT-06/data/NAT-06_redraw.csv",
+  "other-biases-data/04-nationality/NAT-06/data/NAT-06_top25.csv",
+  "other-biases-data/04-nationality/NAT-06/notes.md",
+  "other-biases-data/04-nationality/NAT-06/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/04-nationality/NAT-06/figures/NAT-06_fig1.png",
+  "other-biases-data/04-nationality/NAT-06/figures/NAT-06_fig2.png",
+  "other-biases-data/04-nationality/NAT-06/figures/NAT-06_fig3.png",
+  "other-biases-data/04-nationality/NAT-06/figures/NAT-06_redraw.png"
+ ],
+ "notes": ">430,000 foreign students 2023-24 (text p.2): MATCH; but annex tables total 419,694 (SIES scope); origin breakdown Annexe 2 p.4"
+}

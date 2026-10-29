@@ -1,0 +1,22 @@
+{
+  "response":{
+    "numFound":1,
+    "start":0,
+    "maxScore":5.9663405,
+    "numFoundExact":true,
+    "docs":[{
+      "title_s":["L'origine sociale des enseignant.e.s comparée à la population active occupée en 2015"],
+      "keyword_s":["Enseignant enseignement secondaire","Enseignement primaire et secondaire","Enseignant enseignement primaire","Origine sociale"],
+      "abstract_s":["L'origine sociale des membres d'une profession est une dimension essentielle pour mesurer leur positionnement dans l'espace social et les segmentations d'un groupe professionnel. Les enquêtes habituellement mobilisées pour travailler cette dimension sur les enseignant.e.s disposent d'effectifs trop réduits pour obtenir des estimateurs précis. Fruit de l'exploitation de l'échantillon démographique permanent, cet article propose de documenter l'origine sociale des enseignant.e.s de quatre générations en 2015. Au regard de l'ensemble des individus exerçant une activité professionnelle, l'origine sociale des enseignant.e.s est nettement plus élevée. Néanmoins, les enseignant.e.s sont plus souvent issu.e.s des couches intermédiaires que l'ensemble des cadres. Depuis les années 1990, les milieux populaires accèdent plus à la profession d'enseignant.e. La réforme de la masterisation du recrutement enseignant n'a pas diminué l'accès à la profession pour les enfants de milieux populaires. Enfin, entre 2006 et 2015, le poids des enfants de cadres et d'indépendants chez les jeunes enseignant.e.s diminue. 1. Le corps de professeurs des écoles remplace progressivement celui des instituteurs depuis 1990."],
+      "journalTitle_s":"Éducation & formations",
+      "authFullName_s":["Bertrand Delhomme"],
+      "halId_s":"hal-03097223",
+      "uri_s":"https://hal.science/hal-03097223v1",
+      "issue_s":["101"],
+      "page_s":"pp. 27-51",
+      "doiId_s":"10.48464/ef-101-02",
+      "producedDateY_i":2020,
+      "files_s":["https://hal.science/hal-03097223/file/depp-2020EF101-article-02.pdf"]
+    }]
+  }
+}

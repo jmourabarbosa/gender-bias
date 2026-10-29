@@ -1,0 +1,28 @@
+rank,country,students_2023_24,share_pct,change_1y_pct,change_5y_pct
+1,Maroc,43354,10,-4,4
+2,Algérie,34269,8,7,10
+3,Chine,27123,6,6,-5
+4,Italie,21037,5,5,43
+5,Sénégal,16955,4,11,37
+6,Tunisie,15224,4,7,17
+7,Espagne,12087,3,4,44
+8,Côte d'Ivoire,11772,3,10,32
+9,Liban,11234,3,-3,90
+10,Cameroun,10880,3,11,46
+11,Congo,8307,2,11,50
+12,Allemagne,8244,2,-3,-1
+13,Inde,7798,2,12,39
+14,Portugal,7762,2,0,19
+15,Bénin,7003,2,24,105
+16,États-Unis,6943,2,3,8
+17,Gabon,5813,1,3,17
+18,Madagascar,5612,1,11,28
+19,Brésil,5527,1,-3,-5
+20,Russie,5506,1,5,6
+21,Togo,5424,1,17,73
+22,Vietnam,5383,1,2,-4
+23,Belgique,4944,1,1,5
+24,Turquie,4912,1,4,16
+25,Haïti,4727,1,-3,64
+,Autres pays,121854,29,4,12
+,Total,419694,100,4,17

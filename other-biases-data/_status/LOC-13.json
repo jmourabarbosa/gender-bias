@@ -1,0 +1,16 @@
+{
+ "id": "LOC-13",
+ "title": "Portugal: DGEEC report on academic inbreeding (endogamia académica), public universities 2021/2022",
+ "url_used": "https://sedes.pt/wp-content/uploads/2024/01/Policy-Paper-5-2024.pdf (primary https://www.dges.gov.pt/sites/default/files/endogamiaacademica_20212022.pdf now redirects to a landing page)",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-13/data/LOC-13.csv",
+  "other-biases-data/01-localism/LOC-13/dges_redirect_page.html",
+  "other-biases-data/01-localism/LOC-13/notes.md",
+  "other-biases-data/01-localism/LOC-13/source_secondary_sedes_policy_paper_2024.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/01-localism/LOC-13/figures/LOC-13_redraw.png"
+ ],
+ "notes": "Primary DGEEC PDF unreachable (redirect/404); secondary SEDES 2024 policy paper saved: 68% PhD from own institution (p.3)"
+}

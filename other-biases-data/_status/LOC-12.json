@@ -1,0 +1,12 @@
+{
+ "id": "LOC-12",
+ "title": "El País press article citing Sanz-Menéndez & Cruz-Castro (CSIC 2006): 'La endogamia enferma el campus'",
+ "url_used": "https://www.ucm.es/data/cont/media/www/pag-50946/ENDOGAMIA%20PAIS.pdf",
+ "file_paths": [
+  "other-biases-data/01-localism/LOC-12/notes.md",
+  "other-biases-data/01-localism/LOC-12/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [],
+ "notes": "Press PDF (UCM-hosted El País article) 96% MATCH p.1; primary CSIC 2006 WP not found"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "SOC-01",
+ "title": "Observatoire des inégalités: Les milieux populaires largement sous-représentés dans l'enseignement supérieur",
+ "url_used": "https://www.inegalites.fr/Les-milieux-populaires-largement-sous-representes-dans-l-enseignement-superieur",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-01/data/SOC-01.csv",
+  "other-biases-data/02-social/SOC-01/data/SOC-01_table1_filieres.csv",
+  "other-biases-data/02-social/SOC-01/notes.md",
+  "other-biases-data/02-social/SOC-01/page.html"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-01/figures/SOC-01_redraw.png"
+ ],
+ "notes": "Web tables transcribed; 12.3% licence -> 5.9% doctorate MATCH; data 2019-20"
+}

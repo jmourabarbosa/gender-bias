@@ -1,0 +1,19 @@
+{
+ "id": "SOC-03",
+ "title": "RERS 2025 (DEPP-SIES), fiche 7.16 'L'origine sociale des étudiants français'",
+ "url_used": "https://rers.depp.education.fr/data/2025/RERS.pdf (full volume, 470 pp.; fiche extracted to source_rers2025_fiche7-16.pdf)",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-03/data/SOC-03.csv",
+  "other-biases-data/02-social/SOC-03/data/SOC-03_table1_filieres.csv",
+  "other-biases-data/02-social/SOC-03/data/SOC-03_table2_disciplines.csv",
+  "other-biases-data/02-social/SOC-03/notes.md",
+  "other-biases-data/02-social/SOC-03/source_rers2025_fiche7-16.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-03/figures/SOC-03_fig1.png",
+  "other-biases-data/02-social/SOC-03/figures/SOC-03_fig2.png",
+  "other-biases-data/02-social/SOC-03/figures/SOC-03_redraw.png"
+ ],
+ "notes": "RERS 2025 fiche 7.16 extracted from rers.depp.education.fr full PDF; 3 tables transcribed; XLS not found (site SPA/Cloudflare)"
+}

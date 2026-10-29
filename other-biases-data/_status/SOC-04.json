@@ -1,0 +1,16 @@
+{
+ "id": "SOC-04",
+ "title": "Céreq Bref n°452 (2024): origine sociale, parcours scolaires et insertion (Génération 2017)",
+ "url_used": "https://www.cereq.fr/sites/default/files/2024-11/C%C3%A9req%20Bref%20452.pdf",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-04/data/SOC-04.csv",
+  "other-biases-data/02-social/SOC-04/notes.md",
+  "other-biases-data/02-social/SOC-04/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-04/figures/SOC-04_fig1.png",
+  "other-biases-data/02-social/SOC-04/figures/SOC-04_redraw.png"
+ ],
+ "notes": "41% cadres vs 8% ouvriers in doctorate MATCH (p.1, quoting MESR 2023); fig.2 transcribed"
+}

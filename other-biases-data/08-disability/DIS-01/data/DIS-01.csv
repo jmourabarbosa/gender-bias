@@ -1,0 +1,8 @@
+entity,boe_employment_rate_pct,year,source_type,source
+Legal obligation (6%),6.0,,law,Loi 87-517 / loi du 11 fevrier 2005 (cited DIS-01 p18)
+ESR (all establishments),4.49,~2025,union,SNESUP Metier n°743 p18 (PDF p1)
+Universite de Strasbourg,3.67,~2025,union,SNESUP Metier n°743 p18
+Universite Toulouse Paul-Sabatier,5.25,~2025,union,SNESUP Metier n°743 p18
+Universite de Lorraine (direct rate),3.68,2023,official (university),crosscheck/univ-lorraine_bilan2023_schema-directeur-handicap.pdf p4
+MEN+MESR ministries combined (declared),3.31,2008,official (AN answer),crosscheck/AN_question_13-52233.pdf p1
+Inserm,6.12,2020,official (Inserm),see DIS-03

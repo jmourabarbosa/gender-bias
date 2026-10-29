@@ -1,0 +1,19 @@
+{
+ "id": "SOC-07",
+ "title": "Stansbury & Schultz (2023), The economics profession's socioeconomic diversity problem (JEP) - working-paper version used",
+ "url_used": "https://www.piie.com/sites/default/files/documents/wp22-4.pdf",
+ "file_paths": [
+  "other-biases-data/02-social/SOC-07/data/SOC-07.csv",
+  "other-biases-data/02-social/SOC-07/notes.md",
+  "other-biases-data/02-social/SOC-07/page.html",
+  "other-biases-data/02-social/SOC-07/page_piie.html",
+  "other-biases-data/02-social/SOC-07/source.pdf"
+ ],
+ "access_status": "downloaded",
+ "figures_extracted": [
+  "other-biases-data/02-social/SOC-07/figures/SOC-07_fig1.png",
+  "other-biases-data/02-social/SOC-07/figures/SOC-07_fig2.png",
+  "other-biases-data/02-social/SOC-07/figures/SOC-07_redraw.png"
+ ],
+ "notes": "JEP behind Cloudflare; PIIE WP 22-4 used; 48% (all econ PhDs, Table A1 p.65) MATCH, 65% for US-born (p.2); Table A1 transcribed"
+}

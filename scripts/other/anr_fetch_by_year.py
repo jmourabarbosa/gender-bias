@@ -13,8 +13,8 @@ def get(url, params):
     for i in range(25):
         try:
             r = requests.get(url, params=params, timeout=(20, 180))
-            if r.status_code == 200 and r.text.startswith("__id"):
-                return r.text
+            if r.status_code == 200 and r.content.startswith(b"__id"):
+                return r.content.decode("utf-8")
             print("http", r.status_code, params, r.text[:120], flush=True)
         except Exception:
             pass
@@ -28,7 +28,7 @@ for name, (rid, cols) in RES.items():
         p = {"Projet.Code_Decision__contains": f"ANR-{yy:02d}-"}
         if cols:
             p["columns"] = cols
-        rd = list(csv.reader(io.StringIO(get(T.format(rid), p))))
+        rd = list(csv.reader(io.StringIO(get(T.format(rid), p))))  # NB: get() returns r.content decoded as UTF-8
         header = header or rd[0]
         assert rd[0] == header
         rows += rd[1:]
