@@ -132,6 +132,17 @@ Median (quantile 0.5) regressions of log award. exp(coef) is the women/men ratio
 
 The raw 5.5% gap reverses once team size is held fixed: women lead more single-team grants, which are smaller. The small advantage for women at equal team size goes away when committee and year are added, because women are more often in committees with larger budgets. The best-fitting model, which adds instrument, gives women a median award 0.9% lower. Its CI just excludes 1 (p = 0.03). The equivalent mean (OLS) model, B in section 4, gives −0.6% [−1.5, +0.3]. So any remaining gap is under about 1.5% in either direction, small next to the 37% typical spread between projects.
 
+**The same figure for neuroscience and physics** (`figures/fig2_raw_vs_team_size_neuro.png`, `figures/fig2_raw_vs_team_size_physics.png`):
+
+| Model | Neuroscience (n = 994) | CV R² | Physics (n = 841) | CV R² |
+| --- | --- | --- | --- | --- |
+| Raw | 0.877 [0.806, 0.955] | 0.01 | 0.911 [0.823, 1.008] | 0.00 |
+| Same team size | 0.975 [0.926, 1.026] | 0.23 | 0.983 [0.930, 1.039] | 0.26 |
+| + committee and year | 0.994 [0.958, 1.032] | 0.36 | 1.000 [0.948, 1.055] | 0.30 |
+| + instrument | 1.000 [0.965, 1.037] | 0.42 | 1.000 [0.953, 1.049] | 0.36 |
+
+Neuroscience covers CE16, CE37, CE28 and SV4 (2012–13); physics covers CE30, CE31, CE47 and CE57 (2014+ only, because the 2010–13 codes do not isolate physics). Both fields have a larger raw gap than the whole call (−12% and −9%), and in both it goes to zero like for like. The intervals are wider because the samples are about 1,000 projects.
+
 **Which model fits best?** The table gives in-sample pseudo-R¹ (Koenker–Machado, the median-regression analogue of R²) and the 5-fold cross-validated absolute error of log award (`tables/2c_model_fit.csv`):
 
 | Model | Parameters | Pseudo-R¹ | CV typical error |

@@ -77,6 +77,12 @@ DOMAIN_CE = {
     "SHS": ["CE26", "CE27", "CE28", "CE41", "CE53", "CE54", "CE55"],
 }
 CE_TO_DOMAIN = {ce: dom for dom, ces in DOMAIN_CE.items() for ce in ces}
+SUBSETS = [  # (file tag, committees, figure title) for the per-field median-award figure
+    ("_neuro", ["CE16", "CE37", "CE28", "SV4"],
+     "Neuroscience (CE16, CE37, CE28; SV4 2012-13): median award, women vs. men"),
+    ("_physics", ["CE30", "CE31", "CE47", "CE57"],
+     "Physics (CE30, CE31, CE47, CE57): median award, women vs. men"),
+]
 NEURO = {"CE16", "CE37", "CE28", "CE14", "SV4"}  # SV4 = 2012-13 Blanc/JCJC "SVSE 4 Neurosciences"
 
 
@@ -560,7 +566,7 @@ FIG2_MODELS = [  # (label in figure, key in model_fit, formula rhs)
 ]
 
 
-def raw_vs_team_size(a, fit_table):
+def raw_vs_team_size(a, fit_table, tag="", title="ANR generic call 2010-2025: median award, women vs. men"):
     """Median regressions with increasing controls, with each model's cross-validated pseudo-R1."""
     d = a[a.gender.isin(["F", "M"])].copy()
     d["female"] = (d.gender == "F").astype(int)
@@ -573,7 +579,7 @@ def raw_vs_team_size(a, fit_table):
     for c in ("pct", "lo", "hi"):
         t["ratio_" + c] = 1 + t[c] / 100
     flat = t.assign(model=t.model.str.replace("\n", " "))
-    flat.to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
+    flat.to_csv(TAB / f"2b_raw_vs_team_size{tag}.csv", index=False)
 
     fig, ax = plt.subplots(figsize=(7.2, 3.6))
     y = list(range(len(t)))  # raw at the bottom, each added control one row up (crop from the top to build up)
@@ -582,8 +588,9 @@ def raw_vs_team_size(a, fit_table):
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
         ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
-                    xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2)
-    ax.axvline(1, color=INK, lw=1)
+                    xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2,
+                    bbox=dict(boxstyle="square,pad=0.1", fc="#fcfcfb", ec="none"), zorder=5)
+    ax.axvline(1, color=INK, lw=1, zorder=1)
     # direction cues at the bottom (kept by any top crop)
     ya = -0.55
     for x1, x2, txt, ha in ((0.996, 0.976, "Women get less", "right"), (1.004, 1.024, "Men get less", "left")):
@@ -601,16 +608,16 @@ def raw_vs_team_size(a, fit_table):
     for yi, (_, r) in zip(y, t.iterrows()):  # label on every row so any crop keeps it
         ax.text(xr, yi, f"CV R² {r.cv_pseudo_R1:.2f}", fontsize=9, color=INK2, va="center")
     ax.set_xlabel("Women / men ratio of median award (median regression, 95% CI)")
-    ax.set_title("ANR generic call 2010-2025: median award, women vs. men", loc="left")
+    ax.set_title(title, loc="left")
     ax.grid(axis="y", visible=False)
     fig.text(0.01, -0.08, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
              "Quantile regression on log award, robust CIs. CV R² = 5-fold cross-validated pseudo-R¹ "
              "(share of absolute error removed vs. predicting the median).", fontsize=6.5, color=INK2, wrap=True)
-    save_fig(fig, "fig2_raw_vs_team_size", flat)
+    save_fig(fig, f"fig2_raw_vs_team_size{tag}", flat)
     return t
 
 
-def model_fit(a, k=5):
+def model_fit(a, k=5, tag=""):
     """Fit comparison of the median-regression models: in-sample pseudo-R1 (Koenker-Machado) and
     k-fold cross-validated median absolute error of log award (reported as a typical % error)."""
     import patsy
@@ -658,7 +665,7 @@ def model_fit(a, k=5):
                      "cv_median_abs_err_log": np.median(cv_err), "cv_mean_abs_err_log": cv_err.mean(),
                      "cv_typical_pct_error": np.expm1(np.median(cv_err)) * 100})
     t = pd.DataFrame(rows)
-    t.to_csv(TAB / "2c_model_fit.csv", index=False)
+    t.to_csv(TAB / f"2c_model_fit{tag}.csv", index=False)
     return t
 
 
@@ -802,6 +809,10 @@ def main():
     res["dom"], res["cells"] = by_domain_committee(a)
     res["model_fit"] = model_fit(a)
     res["raw_team"] = raw_vs_team_size(a, res["model_fit"])
+    for tag, ces, title in SUBSETS:
+        s_ = a[a.committee.isin(ces)]
+        mf = model_fit(s_, tag=tag)
+        raw_vs_team_size(s_, mf, tag=tag, title=title)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)
