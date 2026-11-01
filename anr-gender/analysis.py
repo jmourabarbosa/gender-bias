@@ -587,6 +587,55 @@ def raw_vs_team_size(a):
     return t
 
 
+def model_fit(a, k=5):
+    """Fit comparison of the median-regression models: in-sample pseudo-R1 (Koenker-Machado) and
+    k-fold cross-validated median absolute error of log award (reported as a typical % error)."""
+    import patsy
+    import scipy.linalg as sla
+    import statsmodels.api as sm
+    d = a[a.gender.isin(["F", "M"])].copy().reset_index(drop=True)
+    d["female"] = (d.gender == "F").astype(int)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    models = {
+        "Raw": "female",
+        "Team size": "female + C(np_cap)",
+        "Team size + committee": "female + C(np_cap) + C(committee)",
+        "Team size + committee + year": "female + C(np_cap) + C(committee) + C(year)",
+        "+ instrument (full)": "female + C(np_cap) + C(committee) + C(year) + C(instrument)",
+    }
+    y = d.log_amt.values
+
+    def qfit(X, yy):
+        _, r, piv = sla.qr(X, mode="economic", pivoting=True)
+        dd = np.abs(np.diag(r))
+        keep = sorted(piv[: int((dd > 1e-9 * dd.max()).sum())])
+        m = sm.QuantReg(yy, X[:, keep]).fit(q=0.5, max_iter=5000)
+        beta = np.zeros(X.shape[1])
+        beta[keep] = m.params
+        return beta
+
+    folds = RNG.permutation(len(d)) % k
+    base_loss = np.abs(y - np.median(y)).sum()
+    rows = []
+    for name, rhs in models.items():
+        X = np.asarray(patsy.dmatrix(rhs, d))
+        beta = qfit(X, y)
+        r1 = 1 - np.abs(y - X @ beta).sum() / base_loss
+        cv_err = np.empty(len(d))
+        for f in range(k):
+            tr, te = folds != f, folds == f
+            b = qfit(X[tr], y[tr])
+            # committee/year levels absent from the training fold get coefficient 0 (rare)
+            cv_err[te] = np.abs(y[te] - X[te] @ b)
+        rows.append({"model": name, "n_params": int(np.linalg.matrix_rank(X)), "pseudo_R1": r1,
+                     "cv_median_abs_err_log": np.median(cv_err), "cv_mean_abs_err_log": cv_err.mean(),
+                     "cv_typical_pct_error": np.expm1(np.median(cv_err)) * 100})
+    t = pd.DataFrame(rows)
+    t.to_csv(TAB / "2c_model_fit.csv", index=False)
+    return t
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -726,6 +775,7 @@ def main():
     res["reg"] = reg
     res["dom"], res["cells"] = by_domain_committee(a)
     res["raw_team"] = raw_vs_team_size(a)
+    res["model_fit"] = model_fit(a)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)

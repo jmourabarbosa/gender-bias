@@ -131,6 +131,18 @@ Median (quantile 0.5) regressions of log award. exp(coef) is the women/men ratio
 
 The raw 5.5% gap reverses once team size is held fixed: women lead more single-team grants, which are smaller. The small advantage for women at equal team size then goes away when committee and year are added too, because women are more often in committees with larger budgets.
 
+**Which model fits best?** The table gives in-sample pseudo-R¹ (Koenker–Machado, the median-regression analogue of R²) and the 5-fold cross-validated absolute error of log award (`tables/2c_model_fit.csv`):
+
+| Model | Parameters | Pseudo-R¹ | CV typical error |
+| --- | --- | --- | --- |
+| Raw (female only) | 2 | 0.00 | 37% |
+| Team size | 9 | 0.28 | 22% |
+| Team size + committee | 96 | 0.37 | 19% |
+| Team size + committee + year | 109 | 0.40 | 17% |
+| + instrument (full) | 113 | 0.44 | 16% |
+
+Each step improves out-of-sample prediction, so the extra regressors are not overfitting. Gender alone explains essentially nothing about award size; team size explains the most.
+
 ### 4. Regression: log(award) on female plus fixed effects, HC3 robust SEs
 
 | Specification | N | Women vs men [95% CI] | p |
