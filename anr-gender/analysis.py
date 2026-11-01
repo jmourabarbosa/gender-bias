@@ -576,7 +576,7 @@ def raw_vs_team_size(a, fit_table):
     flat.to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
 
     fig, ax = plt.subplots(figsize=(7.2, 3.6))
-    y = list(range(len(t)))[::-1]
+    y = list(range(len(t)))  # raw at the bottom, each added control one row up (crop from the top to build up)
     for yi, (_, r) in zip(y, t.iterrows()):
         col = INK2 if r.model == "Raw" else C_F
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
@@ -591,9 +591,8 @@ def raw_vs_team_size(a, fit_table):
     ax.set_xlim(lo, hi)
     # CV R2 column to the right of the plot
     xr = hi + (hi - lo) * 0.04
-    ax.text(xr, len(t) - 0.55, "CV R²", fontsize=8.5, fontweight="bold", color=INK, va="center")
-    for yi, (_, r) in zip(y, t.iterrows()):
-        ax.text(xr, yi, f"{r.cv_pseudo_R1:.2f}", fontsize=9, color=INK2, va="center")
+    for yi, (_, r) in zip(y, t.iterrows()):  # label on every row so any crop keeps it
+        ax.text(xr, yi, f"CV R² {r.cv_pseudo_R1:.2f}", fontsize=9, color=INK2, va="center")
     ax.set_xlabel("Women / men ratio of median award (median regression, 95% CI)")
     ax.set_title("ANR generic call 2010-2025: median award, women vs. men", loc="left")
     ax.grid(axis="y", visible=False)
