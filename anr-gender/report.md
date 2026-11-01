@@ -215,6 +215,16 @@ The full median model (log award ~ female + team size + year + instrument) was f
 
 The estimates centre on 1. The heterogeneity tests are far from significant, so committees differ from each other no more than sampling noise would predict. Three significant committees out of 66 is about what chance gives (3.3 expected). Pooled STEM sits about 1% in men's favour and SHS about 3.5% in women's favour. The STEM–SHS difference (p = 0.02) depends on the small 2012–13 SH committees: with 2014+ committees only, SHS is 1.017 [0.977, 1.059] and the difference is no longer significant (p = 0.19). Non-STEM is CE26, CE27, CE28, CE41, CE53, CE54, CE55 and the 2012–13 SH/S56 codes, i.e. ANR's SHS domain, which includes CE28 (cognition, behaviour, language).
 
+**Testing STEM vs non-STEM in a single model.** One pooled median regression, `log award ~ female + female×STEM + team size + year + instrument + committee`. The STEM main effect is absorbed by the committee fixed effects. Projects with no known field are excluded: the 2010–11 projects without a committee code and the CE9x international calls (`tables/8b_stem_interaction.csv`).
+
+| Estimate | 2010–2025 (n = 15,879) | 2014–2025 only (n = 14,166) |
+| --- | --- | --- |
+| Non-STEM: women / men | 1.016 [0.989, 1.043], p = 0.24 | 1.008 [0.980, 1.037], p = 0.58 |
+| STEM: women / men | 0.988 [0.979, 0.997], p = 0.007 | 0.990 [0.981, 0.999], p = 0.03 |
+| Interaction (STEM ratio ÷ non-STEM ratio) | 0.972 [0.946, 1.000], p = 0.049 | 0.982 [0.953, 1.012], p = 0.24 |
+
+In STEM, women's median award is about 1% lower than men's in comparable projects. The estimate is precise and statistically significant, but small. In SHS there is no gap. The interaction (the STEM–SHS difference) is borderline over 2010–2025 and not significant for 2014–2025, which matches the per-committee histograms.
+
 ### 6. Share of funding vs share of projects
 
 ![Share of projects vs funding](figures/fig6_share_projects_vs_funding.png)

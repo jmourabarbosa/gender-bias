@@ -753,6 +753,56 @@ def field_histograms(a, min_per_gender=20):
     return t, summ
 
 
+def fit_median_terms(df, formula, terms):
+    """Median regression returning estimates and covariance for the named terms (collinear
+    fixed-effect columns removed first, the named terms always kept)."""
+    import patsy
+    import scipy.linalg as sla
+    import statsmodels.api as sm
+    y, X = patsy.dmatrices(formula, data=df.reset_index(drop=True), return_type="dataframe")
+    cols = list(X.columns)
+    idx = [cols.index(t) for t in terms]
+    order = idx + [i for i in range(len(cols)) if i not in idx]
+    Xo = X.values[:, order]
+    _, r, piv = sla.qr(Xo, mode="economic", pivoting=True)
+    d = np.abs(np.diag(r))
+    keep = sorted(piv[: int((d > 1e-9 * d.max()).sum())])
+    assert all(i in keep for i in range(len(terms))), "a requested term is collinear with the fixed effects"
+    m = sm.QuantReg(y.iloc[:, 0].values, Xo[:, keep]).fit(q=0.5, max_iter=5000)
+    j = [keep.index(i) for i in range(len(terms))]
+    return m.params[j], m.cov_params()[np.ix_(j, j)], int(m.nobs)
+
+
+def stem_interaction(a):
+    """One pooled median model with a female x STEM interaction:
+    log award ~ female + female:STEM + team size + year + instrument + committee
+    (STEM main effect absorbed by committee). Projects with unknown field are excluded."""
+    from scipy import stats
+    d = a[a.gender.isin(["F", "M"]) & (a.committee != "NA") & ~a.committee.str.startswith("CE9")].copy()
+    d["female"] = (d.gender == "F").astype(int)
+    d["stem"] = (~d.domain.isin(NON_STEM_DOMAINS)).astype(int)
+    d["female_stem"] = d.female * d.stem
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    rows = []
+    for label, sub in (("2010-2025", d), ("2014-2025 only", d[d.year >= 2014])):
+        f = "log_amt ~ female + female_stem + C(np_cap) + C(year) + C(instrument) + C(committee)"
+        b, V, n = fit_median_terms(sub, f, ["female", "female_stem"])
+        est = {
+            "Non-STEM (SHS): women / men": (b[0], V[0, 0]),
+            "STEM: women / men": (b[0] + b[1], V[0, 0] + V[1, 1] + 2 * V[0, 1]),
+            "Interaction: STEM ratio / non-STEM ratio": (b[1], V[1, 1]),
+        }
+        for k, (bb, vv) in est.items():
+            se = np.sqrt(vv)
+            rows.append({"sample": label, "estimate": k, "ratio": np.exp(bb), "lo": np.exp(bb - 1.96 * se),
+                         "hi": np.exp(bb + 1.96 * se), "p": 2 * stats.norm.sf(abs(bb / se)), "n": n,
+                         "n_stem": int(sub.stem.sum()), "n_non_stem": int((1 - sub.stem).sum())})
+    t = pd.DataFrame(rows)
+    t.to_csv(TAB / "8b_stem_interaction.csv", index=False)
+    return t
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -898,6 +948,7 @@ def main():
         mf = model_fit(s_, tag=tag)
         raw_vs_team_size(s_, mf, tag=tag, title=title)
     res["field_hist"] = field_histograms(a)
+    res["stem_inter"] = stem_interaction(a)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)
