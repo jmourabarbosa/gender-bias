@@ -225,6 +225,10 @@ The estimates centre on 1. The heterogeneity tests are far from significant, so 
 
 In STEM, women's median award is about 1% lower than men's in comparable projects. The estimate is precise and statistically significant, but small. In SHS there is no gap. The interaction (the STEM–SHS difference) is borderline over 2010–2025 and not significant for 2014–2025, which matches the per-committee histograms.
 
+![Full model, STEM and non-STEM](figures/fig9_full_model_stem_vs_nonstem.png)
+
+`figures/fig9_full_model_stem_vs_nonstem.png` has the same layout as figure 2: the full model on all fields at the bottom (0.990 [0.982, 0.998] on this sample of 15,879 projects with a known field), then the STEM (0.988 [0.979, 0.997]) and non-STEM (1.016 [0.989, 1.043]) ratios from the interaction model.
+
 ### 6. Share of funding vs share of projects
 
 ![Share of projects vs funding](figures/fig6_share_projects_vs_funding.png)

@@ -566,25 +566,13 @@ FIG2_MODELS = [  # (label in figure, key in model_fit, formula rhs)
 ]
 
 
-def raw_vs_team_size(a, fit_table, tag="", title="ANR generic call 2010-2025: median award, women vs. men"):
-    """Median regressions with increasing controls, with each model's cross-validated pseudo-R1."""
-    d = a[a.gender.isin(["F", "M"])].copy()
-    d["female"] = (d.gender == "F").astype(int)
-    d["log_amt"] = np.log(d.amount)
-    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
-    cv = fit_table.set_index("model")["cv_pseudo_R1"]
-    rows = [{"model": lab, **fit_median(d, "log_amt ~ " + rhs), "cv_pseudo_R1": cv[key]}
-            for lab, key, rhs in FIG2_MODELS]
-    t = pd.DataFrame(rows)
-    for c in ("pct", "lo", "hi"):
-        t["ratio_" + c] = 1 + t[c] / 100
-    flat = t.assign(model=t.model.str.replace("\n", " "))
-    flat.to_csv(TAB / f"2b_raw_vs_team_size{tag}.csv", index=False)
-
-    fig, ax = plt.subplots(figsize=(7.2, 3.6))
+def forest_rows(t, fname, title, note, data, grey=()):
+    """Shared row plot: one median-regression ratio per row (first row at the bottom, so slides can
+    build up by cropping from the top), direction arrows, and a CV R² label on every row."""
+    fig, ax = plt.subplots(figsize=(7.2, max(3.6, 0.9 * len(t))))
     y = list(range(len(t)))  # raw at the bottom, each added control one row up (crop from the top to build up)
     for yi, (_, r) in zip(y, t.iterrows()):
-        col = INK2 if r.model == "Raw" else C_F
+        col = INK2 if r.model in grey else C_F
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
         ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
@@ -610,10 +598,29 @@ def raw_vs_team_size(a, fit_table, tag="", title="ANR generic call 2010-2025: me
     ax.set_xlabel("Women / men ratio of median award (median regression, 95% CI)")
     ax.set_title(title, loc="left")
     ax.grid(axis="y", visible=False)
-    fig.text(0.01, -0.08, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
-             "Quantile regression on log award, robust CIs. CV R² = 5-fold cross-validated pseudo-R¹ "
-             "(share of absolute error removed vs. predicting the median).", fontsize=6.5, color=INK2, wrap=True)
-    save_fig(fig, f"fig2_raw_vs_team_size{tag}", flat)
+    fig.text(0.01, -0.03, note, fontsize=6.5, color=INK2, wrap=True, va="top")
+    save_fig(fig, fname, data)
+
+
+def raw_vs_team_size(a, fit_table, tag="", title="ANR generic call 2010-2025: median award, women vs. men"):
+    """Median regressions with increasing controls, with each model's cross-validated pseudo-R1."""
+    d = a[a.gender.isin(["F", "M"])].copy()
+    d["female"] = (d.gender == "F").astype(int)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    cv = fit_table.set_index("model")["cv_pseudo_R1"]
+    rows = [{"model": lab, **fit_median(d, "log_amt ~ " + rhs), "cv_pseudo_R1": cv[key]}
+            for lab, key, rhs in FIG2_MODELS]
+    t = pd.DataFrame(rows)
+    for c in ("pct", "lo", "hi"):
+        t["ratio_" + c] = 1 + t[c] / 100
+    flat = t.assign(model=t.model.str.replace("\n", " "))
+    flat.to_csv(TAB / f"2b_raw_vs_team_size{tag}.csv", index=False)
+
+    note = (f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
+            "Quantile regression on log award, robust CIs. CV R² = 5-fold cross-validated pseudo-R¹ "
+            "(share of absolute error removed vs. predicting the median).")
+    forest_rows(t, f"fig2_raw_vs_team_size{tag}", title, note, flat, grey={"Raw"})
     return t
 
 
@@ -803,6 +810,62 @@ def stem_interaction(a):
     return t
 
 
+def cv_pseudo_r1(d, rhs, k=5):
+    """5-fold cross-validated pseudo-R1 of a median regression of log award on `rhs`."""
+    import patsy
+    import scipy.linalg as sla
+    import statsmodels.api as sm
+    X = np.asarray(patsy.dmatrix(rhs, d))
+    y = d.log_amt.values
+    folds = np.random.default_rng(20261101).permutation(len(d)) % k
+    err, base = np.empty(len(d)), np.empty(len(d))
+    for f in range(k):
+        tr, te = folds != f, folds == f
+        _, r, piv = sla.qr(X[tr], mode="economic", pivoting=True)
+        dd = np.abs(np.diag(r))
+        keep = sorted(piv[: int((dd > 1e-9 * dd.max()).sum())])
+        m = sm.QuantReg(y[tr], X[tr][:, keep]).fit(q=0.5, max_iter=5000)
+        err[te] = np.abs(y[te] - X[te][:, keep] @ m.params)
+        base[te] = np.abs(y[te] - np.median(y[tr]))
+    return 1 - err.sum() / base.sum()
+
+
+def stem_figure(a):
+    """Row plot: full model (all fields) at the bottom, then STEM and non-STEM gender ratios from the
+    pooled female x STEM interaction model. Same sample (projects with a known field) for all rows."""
+    d = a[a.gender.isin(["F", "M"]) & (a.committee != "NA") & ~a.committee.str.startswith("CE9")].copy()
+    d = d.reset_index(drop=True)
+    d["female"] = (d.gender == "F").astype(int)
+    d["stem"] = (~d.domain.isin(NON_STEM_DOMAINS)).astype(int)
+    d["female_stem"] = d.female * d.stem
+    d["female_nonstem"] = d.female * (1 - d.stem)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    fe = "C(np_cap) + C(year) + C(instrument) + C(committee)"
+    full = fit_median(d, "log_amt ~ female + " + fe)
+    # separate female dummies per group: each coefficient is directly that group's women/men ratio
+    b, V, n = fit_median_terms(d, "log_amt ~ female_stem + female_nonstem + " + fe, ["female_stem", "female_nonstem"])
+    cv_full = cv_pseudo_r1(d, "female + " + fe)
+    cv_int = cv_pseudo_r1(d, "female_stem + female_nonstem + " + fe)
+    rows = [{"model": "Full model, all fields", "ratio_pct": 1 + full["pct"] / 100, "ratio_lo": 1 + full["lo"] / 100,
+             "ratio_hi": 1 + full["hi"] / 100, "p": full["p"], "n": full["n"], "cv_pseudo_R1": cv_full}]
+    from scipy import stats
+    for lab, j, nn in (("STEM", 0, int(d.stem.sum())), ("Non-STEM (SHS)", 1, int((1 - d.stem).sum()))):
+        se = np.sqrt(V[j, j])
+        rows.append({"model": lab, "ratio_pct": np.exp(b[j]), "ratio_lo": np.exp(b[j] - 1.96 * se),
+                     "ratio_hi": np.exp(b[j] + 1.96 * se), "p": 2 * stats.norm.sf(abs(b[j] / se)), "n": nn,
+                     "cv_pseudo_R1": cv_int})
+    t = pd.DataFrame(rows)
+    t.to_csv(TAB / "8c_stem_rows.csv", index=False)
+    note = (f"n = {len(d):,} projects with a known field ({int(d.stem.sum()):,} STEM, {int((1 - d.stem).sum()):,} SHS). "
+            "All rows: same team size, committee, year and instrument. STEM / non-STEM rows from one model with a "
+            "female × STEM interaction. Quantile regression on log award, robust CIs; CV R² = 5-fold cross-validated pseudo-R¹.")
+    forest_rows(t, "fig9_full_model_stem_vs_nonstem",
+                "ANR generic call 2010-2025: median award, women vs. men, by field", note, t,
+                grey={"Full model, all fields"})
+    return t
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -949,6 +1012,7 @@ def main():
         raw_vs_team_size(s_, mf, tag=tag, title=title)
     res["field_hist"] = field_histograms(a)
     res["stem_inter"] = stem_interaction(a)
+    res["stem_fig"] = stem_figure(a)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)
