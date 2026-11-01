@@ -526,6 +526,39 @@ def by_domain_committee(a):
     return t, cells
 
 
+def raw_vs_team_size(a):
+    """Two regressions only: raw (log award ~ female) and adjusted for team size (number of partners)."""
+    d = a[a.gender.isin(["F", "M"])].copy()
+    d["female"] = (d.gender == "F").astype(int)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    rows = [{"model": "Raw", **fit(d, "log_amt ~ female")},
+            {"model": "Accounting for team size", **fit(d, "log_amt ~ female + C(np_cap)")}]
+    t = pd.DataFrame(rows)
+    for c in ("pct", "lo", "hi"):
+        t["ratio_" + c] = 1 + t[c] / 100
+    t.to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
+
+    fig, ax = plt.subplots(figsize=(6.5, 2.2))
+    y = [1, 0]
+    for yi, (_, r), col in zip(y, t.iterrows(), (INK2, C_F)):
+        ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
+        ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
+        ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
+                    xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2)
+    ax.axvline(1, color=INK, lw=1)
+    ax.set_yticks(y, t.model)
+    ax.set_ylim(-0.6, 1.6)
+    ax.set_xlim(0.95, 1.05)
+    ax.set_xlabel("Women / men award ratio (regression on log award, 95% CI)")
+    ax.set_title("ANR generic call 2010-2025: raw vs. same team size", loc="left")
+    ax.grid(axis="y", visible=False)
+    fig.text(0.01, -0.2, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
+             "HC3 robust CIs.", fontsize=7, color=INK2)
+    save_fig(fig, "fig2_raw_vs_team_size", t)
+    return t
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -664,6 +697,7 @@ def main():
     reg.to_csv(TAB / "4_regressions.csv", index=False)
     res["reg"] = reg
     res["dom"], res["cells"] = by_domain_committee(a)
+    res["raw_team"] = raw_vs_team_size(a)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)
