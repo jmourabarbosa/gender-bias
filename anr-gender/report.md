@@ -117,19 +117,20 @@ Bootstrap 95% CIs, 2,000 resamples, drawn separately within the women's and men'
 
 The pooled 5.5% gap reverses inside instruments (Simpson's paradox). Women make up 37% of Mono-team coordinators but 26–31% of the collaborative instruments, and Mono-team grants are the smallest. Women's slightly higher Mono-team median goes away once committee is controlled (next table). Women in that group are concentrated in biology committees, which have larger budgets.
 
-### Median award: raw, same team size, then committee and year as well
+### Median award: from raw to fully like-for-like
 
 ![Raw vs team size](figures/fig2_raw_vs_team_size.png)
 
-Median (quantile 0.5) regressions of log award. exp(coef) is the women/men ratio of medians.
+Median (quantile 0.5) regressions of log award. exp(coef) is the women/men ratio of medians. CV R² is the 5-fold cross-validated pseudo-R¹: the share of absolute prediction error removed, compared with predicting every project at the median.
 
-| Model | Women / men median ratio [95% CI] |
-| --- | --- |
-| Raw | 0.945 [0.926, 0.965] |
-| Same team size (number of partners) | 1.018 [1.006, 1.030] |
-| Same team size, committee and year | 0.993 [0.985, 1.002] |
+| Model | Women / men median ratio [95% CI] | p | CV R² |
+| --- | --- | --- | --- |
+| Raw | 0.945 [0.926, 0.965] | <0.001 | 0.00 |
+| Same team size (number of partners) | 1.018 [1.006, 1.030] | 0.003 | 0.28 |
+| Same team size, committee and year | 0.993 [0.985, 1.002] | 0.14 | 0.40 |
+| Same team size, committee, year and instrument | 0.991 [0.983, 0.999] | 0.03 | 0.44 |
 
-The raw 5.5% gap reverses once team size is held fixed: women lead more single-team grants, which are smaller. The small advantage for women at equal team size then goes away when committee and year are added too, because women are more often in committees with larger budgets.
+The raw 5.5% gap reverses once team size is held fixed: women lead more single-team grants, which are smaller. The small advantage for women at equal team size goes away when committee and year are added, because women are more often in committees with larger budgets. The best-fitting model, which adds instrument, gives women a median award 0.9% lower. Its CI just excludes 1 (p = 0.03). The equivalent mean (OLS) model, B in section 4, gives −0.6% [−1.5, +0.3]. So any remaining gap is under about 1.5% in either direction, small next to the 37% typical spread between projects.
 
 **Which model fits best?** The table gives in-sample pseudo-R¹ (Koenker–Machado, the median-regression analogue of R²) and the 5-fold cross-validated absolute error of log award (`tables/2c_model_fit.csv`):
 

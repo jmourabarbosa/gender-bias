@@ -550,40 +550,57 @@ def fit_median(df, formula):
             "p": m.pvalues[j], "n": int(m.nobs)}
 
 
-def raw_vs_team_size(a):
-    """Three median regressions: raw; same team size; same team size + committee + year."""
+FIG2_MODELS = [  # (label in figure, key in model_fit, formula rhs)
+    ("Raw", "Raw", "female"),
+    ("Same team size", "Team size", "female + C(np_cap)"),
+    ("Same team size,\ncommittee and year", "Team size + committee + year",
+     "female + C(np_cap) + C(committee) + C(year)"),
+    ("Same team size, committee,\nyear and instrument", "+ instrument (full)",
+     "female + C(np_cap) + C(committee) + C(year) + C(instrument)"),
+]
+
+
+def raw_vs_team_size(a, fit_table):
+    """Median regressions with increasing controls, with each model's cross-validated pseudo-R1."""
     d = a[a.gender.isin(["F", "M"])].copy()
     d["female"] = (d.gender == "F").astype(int)
     d["log_amt"] = np.log(d.amount)
     d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
-    rows = [{"model": "Raw", **fit_median(d, "log_amt ~ female")},
-            {"model": "Same team size", **fit_median(d, "log_amt ~ female + C(np_cap)")},
-            {"model": "Same team size,\ncommittee and year",
-             **fit_median(d, "log_amt ~ female + C(np_cap) + C(committee) + C(year)")}]
+    cv = fit_table.set_index("model")["cv_pseudo_R1"]
+    rows = [{"model": lab, **fit_median(d, "log_amt ~ " + rhs), "cv_pseudo_R1": cv[key]}
+            for lab, key, rhs in FIG2_MODELS]
     t = pd.DataFrame(rows)
     for c in ("pct", "lo", "hi"):
         t["ratio_" + c] = 1 + t[c] / 100
-    t.assign(model=t.model.str.replace("\n", " ")).to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
+    flat = t.assign(model=t.model.str.replace("\n", " "))
+    flat.to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
 
-    fig, ax = plt.subplots(figsize=(6.5, 2.9))
-    y = [2, 1, 0]
-    for yi, (_, r), col in zip(y, t.iterrows(), (INK2, C_F, C_F)):
+    fig, ax = plt.subplots(figsize=(7.2, 3.6))
+    y = list(range(len(t)))[::-1]
+    for yi, (_, r) in zip(y, t.iterrows()):
+        col = INK2 if r.model == "Raw" else C_F
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
         ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
                     xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2)
     ax.axvline(1, color=INK, lw=1)
     ax.set_yticks(y, t.model)
-    ax.set_ylim(-0.6, 2.6)
-    lo = min(0.93, t.ratio_lo.min() - 0.01)
+    ax.set_ylim(-0.6, len(t) - 0.4)
+    lo = min(0.92, t.ratio_lo.min() - 0.01)
     hi = max(1.05, t.ratio_hi.max() + 0.01)
     ax.set_xlim(lo, hi)
+    # CV R2 column to the right of the plot
+    xr = hi + (hi - lo) * 0.04
+    ax.text(xr, len(t) - 0.55, "CV R²", fontsize=8.5, fontweight="bold", color=INK, va="center")
+    for yi, (_, r) in zip(y, t.iterrows()):
+        ax.text(xr, yi, f"{r.cv_pseudo_R1:.2f}", fontsize=9, color=INK2, va="center")
     ax.set_xlabel("Women / men ratio of median award (median regression, 95% CI)")
     ax.set_title("ANR generic call 2010-2025: median award, women vs. men", loc="left")
     ax.grid(axis="y", visible=False)
-    fig.text(0.01, -0.12, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
-             "Quantile regression on log award, robust CIs.", fontsize=7, color=INK2)
-    save_fig(fig, "fig2_raw_vs_team_size", t.assign(model=t.model.str.replace("\n", " ")))
+    fig.text(0.01, -0.08, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
+             "Quantile regression on log award, robust CIs. CV R² = 5-fold cross-validated pseudo-R¹ "
+             "(share of absolute error removed vs. predicting the median).", fontsize=6.5, color=INK2, wrap=True)
+    save_fig(fig, "fig2_raw_vs_team_size", flat)
     return t
 
 
@@ -623,12 +640,15 @@ def model_fit(a, k=5):
         beta = qfit(X, y)
         r1 = 1 - np.abs(y - X @ beta).sum() / base_loss
         cv_err = np.empty(len(d))
+        cv_base = np.empty(len(d))
         for f in range(k):
             tr, te = folds != f, folds == f
             b = qfit(X[tr], y[tr])
             # committee/year levels absent from the training fold get coefficient 0 (rare)
             cv_err[te] = np.abs(y[te] - X[te] @ b)
+            cv_base[te] = np.abs(y[te] - np.median(y[tr]))
         rows.append({"model": name, "n_params": int(np.linalg.matrix_rank(X)), "pseudo_R1": r1,
+                     "cv_pseudo_R1": 1 - cv_err.sum() / cv_base.sum(),
                      "cv_median_abs_err_log": np.median(cv_err), "cv_mean_abs_err_log": cv_err.mean(),
                      "cv_typical_pct_error": np.expm1(np.median(cv_err)) * 100})
     t = pd.DataFrame(rows)
@@ -774,8 +794,8 @@ def main():
     reg.to_csv(TAB / "4_regressions.csv", index=False)
     res["reg"] = reg
     res["dom"], res["cells"] = by_domain_committee(a)
-    res["raw_team"] = raw_vs_team_size(a)
     res["model_fit"] = model_fit(a)
+    res["raw_team"] = raw_vs_team_size(a, res["model_fit"])
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)
