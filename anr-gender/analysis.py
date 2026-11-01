@@ -566,7 +566,7 @@ FIG2_MODELS = [  # (label in figure, key in model_fit, formula rhs)
 ]
 
 
-def forest_rows(t, fname, title, note, data, grey=()):
+def forest_rows(t, fname, title, note, data, grey=(), xmin=None):
     """Shared row plot: one median-regression ratio per row (first row at the bottom, so slides can
     build up by cropping from the top), direction arrows, and a CV R² label on every row."""
     fig, ax = plt.subplots(figsize=(7.2, max(3.6, 0.9 * len(t))))
@@ -580,16 +580,18 @@ def forest_rows(t, fname, title, note, data, grey=()):
                     bbox=dict(boxstyle="square,pad=0.1", fc="#fcfcfb", ec="none"), zorder=5)
     ax.axvline(1, color=INK, lw=1, zorder=1)
     # direction cues at the bottom (kept by any top crop)
+    lo = xmin if xmin is not None else min(0.92, t.ratio_lo.min() - 0.01)
+    hi = max(1.05, t.ratio_hi.max() + 0.01)
+    w = hi - lo
     ya = -0.55
-    for x1, x2, txt, ha in ((0.996, 0.976, "Women get less", "right"), (1.004, 1.024, "Men get less", "left")):
+    for x1, x2, txt, ha in ((1 - 0.03 * w, 1 - 0.18 * w, "Women get less", "right"),
+                            (1 + 0.03 * w, 1 + 0.18 * w, "Men get less", "left")):
         ax.annotate("", xy=(x2, ya), xytext=(x1, ya),
                     arrowprops=dict(arrowstyle="-|>", color=INK2, lw=1, mutation_scale=9))
-        ax.text(x2 + (-0.002 if ha == "right" else 0.002), ya, txt, ha=ha, va="center", fontsize=8,
+        ax.text(x2 + (-0.015 if ha == "right" else 0.015) * w, ya, txt, ha=ha, va="center", fontsize=8,
                 color=INK2, style="italic")
     ax.set_yticks(y, t.model)
     ax.set_ylim(-0.8, len(t) - 0.4)
-    lo = min(0.92, t.ratio_lo.min() - 0.01)
-    hi = max(1.05, t.ratio_hi.max() + 0.01)
     ax.set_xlim(lo, hi)
     # CV R2 column to the right of the plot
     xr = hi + (hi - lo) * 0.04
@@ -862,7 +864,7 @@ def stem_figure(a):
             "female × STEM interaction. Quantile regression on log award, robust CIs; CV R² = 5-fold cross-validated pseudo-R¹.")
     forest_rows(t, "fig9_full_model_stem_vs_nonstem",
                 "ANR generic call 2010-2025: median award, women vs. men, by field", note, t,
-                grey={"Full model, all fields"})
+                grey={"Full model, all fields"}, xmin=0.96)
     return t
 
 
