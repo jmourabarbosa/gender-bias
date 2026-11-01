@@ -247,6 +247,10 @@ Each project is matched to its committee-year (10,117 AAPG projects). Same media
 | Same, counting only members who sat at stage 2 | 1.006 [0.997, 1.014] | 0.18 |
 | Committee chaired by a woman vs a man (interaction) | 0.999 [0.978, 1.020] | 0.94 |
 
+![Continuous interaction with jury share](figures/fig11_jury_share_interaction.png)
+
+`figures/fig11_jury_share_interaction.png` plots the continuous interaction: the model's women/men ratio as a function of the share of women on the committee, with a 95% CI band. It rises from 0.983 [0.963, 1.002] at 17% women to 1.013 [0.989, 1.039] at 65%. The slope is ×1.006 per +10 points, p = 0.13.
+
 The direction is the one the question suggests. In the third of committees with the fewest women, women's median award is 1.6% lower than men's, at the edge of significance; with more women on the jury, the gap disappears. But the continuous test of a trend is not significant (p = 0.13), and the chair's gender makes no difference. Even in the most male committees, the gap is under 2%.
 
 Caveats. The amount awarded mostly reflects the budget requested; committees rank proposals and can recommend cuts, but they do not set amounts freely, so a jury effect on amounts would be expected to be small. Committees with more women are also in fields with more women applicants (correlation 0.40 between the jury share and the share of women coordinators). The committee and year fixed effects absorb stable field differences, but not year-to-year changes within a committee. Finally, juries decide who gets funded, and this data covers funded projects only, so a jury effect on selection cannot be tested here.

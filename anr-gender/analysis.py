@@ -943,6 +943,8 @@ def jury_analysis(a, ref):
         d["js"] = d[col] - mean_share
         d["f_js"] = d.female * d.js
         b, V, n = fit_median_terms(d, "log_amt ~ female + f_js + js + " + fe, ["female", "f_js"])
+        if col == "jury_share_f":
+            b_js, V_js = b, V
         add(f"Women/men at average jury ({mean_share:.0%} women), {lab}", b[0], V[0, 0], n)
         add(f"Change in women/men ratio per +10 pts women on jury, {lab}", b[1], V[1, 1], n, scale=0.10)
     dc = d.dropna(subset=["chair_f"]).copy()
@@ -986,6 +988,45 @@ def jury_analysis(a, ref):
     forest_rows(ft, "fig10_jury_share_terciles", "Median award, women vs. men, by women's share of the jury", note,
                 ft.assign(model=ft.model.str.replace("\n", " ")), grey={"Full model, projects\nwith jury data"},
                 xmin=min(0.92, ft.ratio_lo.min() - 0.01))
+    # continuous interaction: implied women/men ratio vs women's share of the committee
+    cy_share = cy.jury_share_f.values
+    grid = np.linspace(np.percentile(cy_share, 2.5), np.percentile(cy_share, 97.5), 60)
+    xg = grid - mean_share
+    est = b_js[0] + b_js[1] * xg
+    se = np.sqrt(V_js[0, 0] + xg ** 2 * V_js[1, 1] + 2 * xg * V_js[0, 1])
+    line = pd.DataFrame({"jury_share_f": grid, "ratio": np.exp(est), "lo": np.exp(est - 1.96 * se),
+                         "hi": np.exp(est + 1.96 * se)})
+    se_slope = np.sqrt(V_js[1, 1])
+    p_slope = 2 * stats.norm.sf(abs(b_js[1] / se_slope))
+    fig, ax = plt.subplots(figsize=(7.2, 3.8))
+    ax.fill_between(grid * 100, line.lo, line.hi, color=C_F, alpha=0.18, lw=0)
+    ax.plot(grid * 100, line.ratio, color=C_F, lw=2.2)
+    ax.axhline(1, color=INK, lw=1, zorder=1)
+    # rug: one tick per committee-year
+    ylo = min(0.95, line.lo.min() - 0.005)
+    yhi = max(1.03, line.hi.max() + 0.005)
+    ax.set_ylim(ylo, yhi)
+    ax.plot(cy_share * 100, np.full(len(cy_share), ylo + 0.0025), "|", color=INK2, ms=8, alpha=0.5)
+    ax.set_xlim(grid.min() * 100 - 2, grid.max() * 100 + 2)
+    w = yhi - ylo
+    xa = grid.min() * 100 + 1
+    for y1, y2, lab_, va in ((1 + 0.04 * w, 1 + 0.2 * w, "Men get less", "bottom"),
+                              (1 - 0.04 * w, 1 - 0.2 * w, "Women get less", "top")):
+        ax.annotate("", xy=(xa, y2), xytext=(xa, y1),
+                    arrowprops=dict(arrowstyle="-|>", color=INK2, lw=1, mutation_scale=9))
+        ax.text(xa + 1, y2, lab_, ha="left", va="center", fontsize=8, color=INK2, style="italic")
+    ax.set_xlabel("Women among committee members (%)")
+    ax.set_ylabel("Women / men ratio of median award")
+    ax.set_title("Award gap vs. women's share of the evaluation committee", loc="left", pad=20)
+    ax.text(0, 1.015, f"Interaction: ×{np.exp(0.1 * b_js[1]):.3f} per +10 points of women "
+            f"[{np.exp(0.1 * (b_js[1] - 1.96 * se_slope)):.3f}, {np.exp(0.1 * (b_js[1] + 1.96 * se_slope)):.3f}], "
+            f"p = {p_slope:.2f}", transform=ax.transAxes, fontsize=8, color=INK2, va="bottom")
+    ax.grid(axis="x", visible=False)
+    fig.text(0.01, -0.03, f"n = {len(d):,} AAPG projects, {len(cy)} committee-years (ticks at the bottom = committees). "
+             "Median regression of log award with female × women's share of the committee, plus team size, committee, "
+             "year and instrument; 95% CI band.", fontsize=6.5, color=INK2, wrap=True, va="top")
+    save_fig(fig, "fig11_jury_share_interaction", line)
+
     summary = {"members_parsed": int(len(pd.read_csv(JURY_CSV))), "members_kept": int(len(j)),
                "gender_counts": j.gender.value_counts().to_dict(), "mean_share": mean_share,
                "share_by_year": cy.groupby("year").jury_share_f.mean().round(3).to_dict(),
