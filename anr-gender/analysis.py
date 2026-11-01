@@ -584,8 +584,15 @@ def raw_vs_team_size(a, fit_table):
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
                     xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2)
     ax.axvline(1, color=INK, lw=1)
+    # direction cues at the bottom (kept by any top crop)
+    ya = -0.55
+    for x1, x2, txt, ha in ((0.996, 0.976, "Women get less", "right"), (1.004, 1.024, "Men get less", "left")):
+        ax.annotate("", xy=(x2, ya), xytext=(x1, ya),
+                    arrowprops=dict(arrowstyle="-|>", color=INK2, lw=1, mutation_scale=9))
+        ax.text(x2 + (-0.002 if ha == "right" else 0.002), ya, txt, ha=ha, va="center", fontsize=8,
+                color=INK2, style="italic")
     ax.set_yticks(y, t.model)
-    ax.set_ylim(-0.6, len(t) - 0.4)
+    ax.set_ylim(-0.8, len(t) - 0.4)
     lo = min(0.92, t.ratio_lo.min() - 0.01)
     hi = max(1.05, t.ratio_hi.max() + 0.01)
     ax.set_xlim(lo, hi)
