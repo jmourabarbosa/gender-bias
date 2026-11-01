@@ -1,0 +1,270 @@
+{
+ "CERA": {
+  "code": "ANR-14-CERA-0001",
+  "label": null
+ },
+ "ACHN": {
+  "code": "ANR-16-ACHN-0011",
+  "label": "ACHN - Accueil de Chercheurs de Haut Niveau"
+ },
+ "CE94": {
+  "code": "ANR-23-CE94-0001",
+  "label": null
+ },
+ "CE93": {
+  "code": "ANR-24-CE93-0019",
+  "label": null
+ },
+ "CE96": {
+  "code": "ANR-24-CE96-0001",
+  "label": null
+ },
+ "CE95": {
+  "code": "ANR-24-CE95-0005",
+  "label": null
+ },
+ "CE91": {
+  "code": "ANR-24-CE91-0017",
+  "label": null
+ },
+ "CE92": {
+  "code": "ANR-24-CE92-0058",
+  "label": null
+ },
+ "CE97": {
+  "code": "ANR-24-CE97-0008",
+  "label": null
+ },
+ "CE32": {
+  "code": "ANR-25-CE32-2968",
+  "label": "CE32 - Dynamique des socio-écosystèmes et de leurs composants"
+ },
+ "CE98": {
+  "code": "ANR-25-CE98-0004",
+  "label": null
+ },
+ "CE34": {
+  "code": "ANR-26-CE34-6597",
+  "label": "CE34 - Contaminants, écosystèmes et santé"
+ },
+ "CE31": {
+  "code": "ANR-26-CE31-0076",
+  "label": "CE31 - Physique subatomique et astrophysique"
+ },
+ "CE33": {
+  "code": "ANR-26-CE33-0571",
+  "label": "CE33 - Interaction, robotique, univers immersifs"
+ },
+ "CE35": {
+  "code": "ANR-26-CE35-5976",
+  "label": "CE35 - Maladies infectieuses et environnement"
+ },
+ "CE24": {
+  "code": "ANR-26-CE24-6694",
+  "label": "CE24 - Micro et nanotechnologies pour l’électronique, la photonique, et le numérique"
+ },
+ "CE29": {
+  "code": "ANR-26-CE29-2266",
+  "label": "CE29 - Chimie analytique, chimie théorique et modélisation"
+ },
+ "CE27": {
+  "code": "ANR-26-CE27-1384",
+  "label": "CE27 - Études du passé, patrimoines, cultures"
+ },
+ "CE30": {
+  "code": "ANR-26-CE30-2548",
+  "label": "CE30 - Physique de la matie`re condense´e"
+ },
+ "CE25": {
+  "code": "ANR-26-CE25-0328",
+  "label": "CE25 - Sciences et technologies du logiciel, réseaux du futur, informatique en nuage et en périphérie"
+ },
+ "CE26": {
+  "code": "ANR-26-CE26-0022",
+  "label": "CE26 - Individus, entreprises, marchés, finance, management"
+ },
+ "CE28": {
+  "code": "ANR-26-CE28-5742",
+  "label": "CE28 - Cognition, comportements, langage"
+ },
+ "CE45": {
+  "code": "ANR-26-CE45-6028",
+  "label": "CE45 - Interfaces : mathématiques, sciences du numérique – biologie, santé"
+ },
+ "CE47": {
+  "code": "ANR-26-CE47-0005",
+  "label": "CE47 - Sciences et technologies quantiques"
+ },
+ "CE46": {
+  "code": "ANR-26-CE46-0007",
+  "label": "CE46 - Modélisation, simulation et optimisation, calcul haute performance, sobriété numérique, applications"
+ },
+ "CE48": {
+  "code": "ANR-26-CE48-0022",
+  "label": "CE48 - Fondements du numérique : informatique, automatique, traitement du signal et des images"
+ },
+ "CE39": {
+  "code": "ANR-26-CE39-1718",
+  "label": "CE39 - Sécurité globale, résilience et gestion de crise, cybersécurité"
+ },
+ "CE38": {
+  "code": "ANR-26-CE38-5186",
+  "label": "CE38 - Interfaces : mathématiques, sciences du numérique – sciences humaines et sociales"
+ },
+ "CE36": {
+  "code": "ANR-26-CE36-1857",
+  "label": "CE36 - Santé publique, santé et sociétés"
+ },
+ "CE43": {
+  "code": "ANR-26-CE43-2317",
+  "label": "CE43 - Bioéconomie : transition sociétale et technologies associées"
+ },
+ "CE44": {
+  "code": "ANR-26-CE44-1141",
+  "label": "CE44 - Biochimie et chimie pour le vivant"
+ },
+ "CE42": {
+  "code": "ANR-26-CE42-1186",
+  "label": "CE42 - Capteurs, imageurs et instrumentation"
+ },
+ "CE37": {
+  "code": "ANR-26-CE37-2679",
+  "label": "CE37 - Neurosciences intégratives et cognitives"
+ },
+ "CE41": {
+  "code": "ANR-26-CE41-3680",
+  "label": "CE41 - Les sociétés contemporaines : états, dynamiques et transformations"
+ },
+ "CE40": {
+  "code": "ANR-26-CE40-4961",
+  "label": "CE40 - Mathématiques"
+ },
+ "CE08": {
+  "code": "ANR-26-CE08-2477",
+  "label": "CE08 - Matériaux métalliques et inorganiques"
+ },
+ "CE49": {
+  "code": "ANR-26-CE49-7548",
+  "label": "CE49 - Planétologie, structure et histoire de la Terre"
+ },
+ "CE56": {
+  "code": "ANR-26-CE56-5187",
+  "label": "CE56 - Interfaces : mathématiques, sciences du numérique – sciences du système Terre dont climat, environnement et biodiversité"
+ },
+ "CE54": {
+  "code": "ANR-26-CE54-0969",
+  "label": "CE54 - Arts, langues, littératures, philosophies"
+ },
+ "CE52": {
+  "code": "ANR-26-CE52-5162",
+  "label": "CE52 - Biologie et médecine régénératrice"
+ },
+ "CE55": {
+  "code": "ANR-26-CE55-7189",
+  "label": "CE55 - Sociétés et territoires en transition"
+ },
+ "CE53": {
+  "code": "ANR-26-CE53-2229",
+  "label": "CE53 - Institutions et organisations, cadres juridiques et normes, gouvernance, relations internationales"
+ },
+ "CE51": {
+  "code": "ANR-26-CE51-1129",
+  "label": "CE51 - Sciences de l’ingénierie et des procédés"
+ },
+ "CE50": {
+  "code": "ANR-26-CE50-0042",
+  "label": "CE50 - Sciences de base pour l’énergie"
+ },
+ "CE04": {
+  "code": "ANR-26-CE04-0869",
+  "label": "CE04 - Méthodologies, instrumentations, capteurs et solutions pour la transition écologique"
+ },
+ "CE07": {
+  "code": "ANR-26-CE07-0478",
+  "label": "CE07 - Chimie moléculaire"
+ },
+ "CE57": {
+  "code": "ANR-26-CE57-6447",
+  "label": "CE57 - Physique des concepts fondamentaux et physique de la matie`re dilue´e"
+ },
+ "CE01": {
+  "code": "ANR-26-CE01-1314",
+  "label": "CE01 - Terre solide et enveloppes fluides"
+ },
+ "CE05": {
+  "code": "ANR-26-CE05-1326",
+  "label": "CE05 - Une énergie durable, propre, sûre et efficace"
+ },
+ "CE06": {
+  "code": "ANR-26-CE06-0025",
+  "label": "CE06 - Polymères, composites, physico-chimie de la matière molle"
+ },
+ "CE03": {
+  "code": "ANR-26-CE03-6577",
+  "label": "CE03 - Science de la durabilité"
+ },
+ "CE02": {
+  "code": "ANR-26-CE02-7300",
+  "label": "CE02 - Terre vivante"
+ },
+ "CE21": {
+  "code": "ANR-26-CE21-5566",
+  "label": "CE21 - Alimentation et systèmes alimentaires"
+ },
+ "CE23": {
+  "code": "ANR-26-CE23-0731",
+  "label": "CE23 - Intelligence artificielle et science des données"
+ },
+ "CE20": {
+  "code": "ANR-26-CE20-4022",
+  "label": "CE20 - Biologie des animaux, des organismes photosynthétiques et des micro-organismes"
+ },
+ "CE19": {
+  "code": "ANR-26-CE19-1805",
+  "label": "CE19 - Technologie pour la santé"
+ },
+ "CE18": {
+  "code": "ANR-26-CE18-3321",
+  "label": "CE18 - Innovation biomédicale"
+ },
+ "CE10": {
+  "code": "ANR-26-CE10-0509",
+  "label": "CE10 - Transformation des systèmes productifs de biens et de services : enjeux humains, organisationnels et technologiques"
+ },
+ "CE09": {
+  "code": "ANR-26-CE09-7840",
+  "label": "CE09 - Nanostructures, nano-objets et nanomatériaux à propriétés (multi)fonctionnelles"
+ },
+ "CE11": {
+  "code": "ANR-26-CE11-1199",
+  "label": "CE11 - Caractérisation des structures et des relations structures-fonctions des macro-molécules biologiques"
+ },
+ "CE12": {
+  "code": "ANR-26-CE12-2990",
+  "label": "CE12 - Génétique, Génomique et ARN"
+ },
+ "CE17": {
+  "code": "ANR-26-CE17-4497",
+  "label": "CE17 - Recherche translationnelle en santé"
+ },
+ "CE14": {
+  "code": "ANR-26-CE14-2044",
+  "label": "CE14 - Physiologie et physiopathologie"
+ },
+ "CE22": {
+  "code": "ANR-26-CE22-5268",
+  "label": "CE22 - Villes, bâtiments et construction, transport et mobilité : transition vers la durabilité"
+ },
+ "CE13": {
+  "code": "ANR-26-CE13-7267",
+  "label": "CE13 - Biologie cellulaire, biologie du développement et de l’évolution"
+ },
+ "CE16": {
+  "code": "ANR-26-CE16-4106",
+  "label": "CE16 - Neurosciences moléculaires et cellulaires - Neurobiologie du développement"
+ },
+ "CE15": {
+  "code": "ANR-26-CE15-1584",
+  "label": "CE15 - Immunologie, Infectiologie et Inflammation"
+ }
+}
