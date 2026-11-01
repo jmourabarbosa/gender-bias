@@ -51,6 +51,7 @@ MIN_PER_GENDER = 30
 
 # Colours: categorical slots 1-2 of the reference palette (women = orange, men = blue)
 C_F, C_M = "#eb6834", "#2a78d6"
+C_STEM, C_NONSTEM = "#1baf7a", "#6250d6"  # categorical slots 3 and 7 (validated with orange)
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 plt.rcParams.update({
     "figure.facecolor": "#fcfcfb", "axes.facecolor": "#fcfcfb", "savefig.facecolor": "#fcfcfb",
@@ -567,13 +568,13 @@ FIG2_MODELS = [  # (label in figure, key in model_fit, formula rhs)
 ]
 
 
-def forest_rows(t, fname, title, note, data, grey=(), xmin=None):
+def forest_rows(t, fname, title, note, data, grey=(), xmin=None, colors=None):
     """Shared row plot: one median-regression ratio per row (first row at the bottom, so slides can
     build up by cropping from the top), direction arrows, and a CV R² label on every row."""
     fig, ax = plt.subplots(figsize=(7.2, max(3.6, 0.9 * len(t))))
     y = list(range(len(t)))  # raw at the bottom, each added control one row up (crop from the top to build up)
     for yi, (_, r) in zip(y, t.iterrows()):
-        col = INK2 if r.model in grey else C_F
+        col = (colors or {}).get(r.model, INK2 if r.model in grey else C_F)
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
         ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
@@ -865,7 +866,7 @@ def stem_figure(a):
             "female × STEM interaction. Quantile regression on log award, robust CIs; CV R² = 5-fold cross-validated pseudo-R¹.")
     forest_rows(t, "fig9_full_model_stem_vs_nonstem",
                 "ANR generic call 2010-2025: median award, women vs. men, by field", note, t,
-                grey={"Full model, all fields"}, xmin=0.96)
+                xmin=0.96, colors={"Full model, all fields": C_F, "STEM": C_STEM, "Non-STEM (SHS)": C_NONSTEM})
     return t
 
 
