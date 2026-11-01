@@ -669,6 +669,90 @@ def model_fit(a, k=5, tag=""):
     return t
 
 
+NON_STEM_DOMAINS = {"SHS"}  # SHS committees (incl. CE28 cognition/language, which ANR files under SHS)
+
+
+def field_histograms(a, min_per_gender=20):
+    """Full median model fitted separately in every committee (>= MIN_PER_GENDER women and men):
+    log award ~ female + team size + year + instrument. Histogram of the women/men ratios, overall
+    and split STEM vs non-STEM, with an inverse-variance pooled estimate and a heterogeneity test."""
+    from scipy import stats
+    d = a[a.gender.isin(["F", "M"])].copy()
+    d["female"] = (d.gender == "F").astype(int)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    rows = []
+    for c, s_ in d.groupby("committee"):
+        nf, nm = int(s_.female.sum()), int((1 - s_.female).sum())
+        if c == "NA" or nf < min_per_gender or nm < min_per_gender:
+            continue
+        r = fit_median(s_, "log_amt ~ female + C(np_cap) + C(year) + C(instrument)")
+        b = np.log1p(r["pct"] / 100)
+        se = (np.log1p(r["hi"] / 100) - np.log1p(r["lo"] / 100)) / (2 * 1.96)
+        dom = s_.domain.iloc[0]
+        rows.append({"committee": c, "label": s_.committee_label.iloc[0], "domain": dom,
+                     "group": "Non-STEM (SHS)" if dom in NON_STEM_DOMAINS else "STEM",
+                     "n_F": nf, "n_M": nm, "ratio": np.exp(b), "lo": 1 + r["lo"] / 100, "hi": 1 + r["hi"] / 100,
+                     "log_ratio": b, "se_log": se, "p": r["p"]})
+    t = pd.DataFrame(rows).sort_values("ratio")
+    t.to_csv(TAB / "8_full_model_by_committee.csv", index=False)
+
+    def pooled(x):
+        w = 1 / x.se_log ** 2
+        b = (w * x.log_ratio).sum() / w.sum()
+        se = np.sqrt(1 / w.sum())
+        q = (w * (x.log_ratio - b) ** 2).sum()
+        k = len(x)
+        return {"k": k, "pooled": np.exp(b), "lo": np.exp(b - 1.96 * se), "hi": np.exp(b + 1.96 * se),
+                "Q": q, "Q_p": stats.chi2.sf(q, k - 1), "I2": max(0.0, (q - (k - 1)) / q) * 100 if q > 0 else 0.0,
+                "n_sig_05": int((x.p < 0.05).sum()), "median_ratio": x.ratio.median()}
+    summ = pd.DataFrame([{"group": "All", **pooled(t)}] +
+                        [{"group": g, **pooled(x)} for g, x in t.groupby("group")])
+    summ.to_csv(TAB / "8_full_model_by_committee_summary.csv", index=False)
+
+    lo_edge = np.floor(min(t.ratio.min(), 0.85) / 0.02) * 0.02
+    hi_edge = np.ceil(max(t.ratio.max(), 1.15) / 0.02) * 0.02
+    bins = np.arange(lo_edge, hi_edge + 1e-9, 0.02)
+
+    def panel(ax, x, title, sm):
+        counts, _, _ = ax.hist(x.ratio, bins=bins, color=INK2, edgecolor="#fcfcfb", linewidth=1.5)
+        top = max(counts.max(), 1)
+        ax.set_ylim(0, top * 1.45)
+        ax.axvline(1, color=INK, lw=1)
+        ax.set_title(title, loc="left", pad=20)
+        ax.text(0, 1.015, f"{int(sm['k'])} committees · pooled {sm['pooled']:.3f} [{sm['lo']:.3f}, {sm['hi']:.3f}] · "
+                f"{int(sm['n_sig_05'])} significant at 5% · heterogeneity p = {sm['Q_p']:.2f}",
+                transform=ax.transAxes, ha="left", va="bottom", fontsize=7.5, color=INK2)
+        ax.set_ylabel("Committees")
+        ax.yaxis.set_major_locator(plt.MaxNLocator(integer=True))
+        ax.grid(axis="x", visible=False)
+        ya = top * 1.25
+        for x1, x2, lab, ha in ((0.995, 0.955, "Women get less", "right"), (1.005, 1.045, "Men get less", "left")):
+            ax.annotate("", xy=(x2, ya), xytext=(x1, ya),
+                        arrowprops=dict(arrowstyle="-|>", color=INK2, lw=1, mutation_scale=9))
+            ax.text(x2 + (-0.003 if ha == "right" else 0.003), ya, lab, ha=ha, va="center",
+                    fontsize=7.5, color=INK2, style="italic")
+
+    S = summ.set_index("group")
+    fig, ax = plt.subplots(figsize=(7, 3.4))
+    panel(ax, t, "Women / men median award ratio, full model fitted in each committee", S.loc["All"])
+    ax.set_xlabel("Women / men ratio of median award (same team size, year and instrument)")
+    fig.text(0.01, -0.09, f"One estimate per ANR committee with ≥{min_per_gender} women and ≥{min_per_gender} men coordinators (2010-2025). "
+             "Pooled = inverse-variance weighted.", fontsize=7, color=INK2)
+    save_fig(fig, "fig7_full_model_by_committee_hist", t)
+
+    fig, axes = plt.subplots(2, 1, figsize=(7, 5.4), sharex=True)
+    for ax, g in zip(axes, ["STEM", "Non-STEM (SHS)"]):
+        panel(ax, t[t.group == g], g, S.loc[g])
+    axes[1].set_xlabel("Women / men ratio of median award (same team size, year and instrument)")
+    fig.text(0.01, -0.04, "Non-STEM = social sciences and humanities committees (CE26, CE27, CE28, CE41, CE53, CE54, "
+             "CE55;\n2012-13 SH codes and S56). All other committees = STEM. "
+             f"Committees with ≥{min_per_gender} women and ≥{min_per_gender} men.", fontsize=7, color=INK2)
+    fig.tight_layout()
+    save_fig(fig, "fig8_full_model_by_committee_hist_stem", t)
+    return t, summ
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -813,6 +897,7 @@ def main():
         s_ = a[a.committee.isin(ces)]
         mf = model_fit(s_, tag=tag)
         raw_vs_team_size(s_, mf, tag=tag, title=title)
+    res["field_hist"] = field_histograms(a)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)

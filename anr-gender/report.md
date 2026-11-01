@@ -199,6 +199,22 @@ Neuroscience-related committees (adjusted for instrument and year):
 
 52 committees have at least 30 women and 30 men. One is significant at 5% (CE02 Terre vivante, +10.0% for women). Ranked by effect, the committees spread evenly around zero, which is what noise looks like. The within-instrument median ratios by domain (cells with ≥30 per gender) are in `tables/5_domain_instrument_median_ratio.csv`; all 30 CIs include 1.
 
+### 5b. Full model in every committee: distribution of the gender effect
+
+![Histogram, all committees](figures/fig7_full_model_by_committee_hist.png)
+
+![Histogram, STEM vs non-STEM](figures/fig8_full_model_by_committee_hist_stem.png)
+
+The full median model (log award ~ female + team size + year + instrument) was fitted separately in each of the 66 committees with at least 20 women and 20 men. The per-committee estimates are in `tables/8_full_model_by_committee.csv`.
+
+| Group | Committees | Pooled women/men ratio [95% CI] | Significant at 5% | Heterogeneity p |
+| --- | --- | --- | --- | --- |
+| All | 66 | 0.992 [0.984, 1.000] | 3 | 0.69 |
+| STEM | 58 | 0.990 [0.982, 0.998] | 2 | 0.89 |
+| Non-STEM (SHS) | 8 | 1.035 [0.997, 1.074] | 1 | 0.23 |
+
+The estimates centre on 1. The heterogeneity tests are far from significant, so committees differ from each other no more than sampling noise would predict. Three significant committees out of 66 is about what chance gives (3.3 expected). Pooled STEM sits about 1% in men's favour and SHS about 3.5% in women's favour. The STEM–SHS difference (p = 0.02) depends on the small 2012–13 SH committees: with 2014+ committees only, SHS is 1.017 [0.977, 1.059] and the difference is no longer significant (p = 0.19). Non-STEM is CE26, CE27, CE28, CE41, CE53, CE54, CE55 and the 2012–13 SH/S56 codes, i.e. ANR's SHS domain, which includes CE28 (cognition, behaviour, language).
+
 ### 6. Share of funding vs share of projects
 
 ![Share of projects vs funding](figures/fig6_share_projects_vs_funding.png)
