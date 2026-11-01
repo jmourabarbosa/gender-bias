@@ -526,36 +526,64 @@ def by_domain_committee(a):
     return t, cells
 
 
+def fit_median(df, formula):
+    """Median (quantile 0.5) regression of `formula`; returns the `female` effect as a % difference.
+
+    On log award, exp(coef) is the women/men ratio of conditional medians (the median commutes with
+    log). Collinear fixed-effect columns are removed first (pivoted QR, `female` kept). CIs use
+    statsmodels' robust sandwich (Hall-Sheather bandwidth)."""
+    import patsy
+    import scipy.linalg as sla
+    import statsmodels.api as sm
+    y, X = patsy.dmatrices(formula, data=df.reset_index(drop=True), return_type="dataframe")
+    cols = list(X.columns)
+    fi = cols.index("female")
+    order = [fi] + [i for i in range(len(cols)) if i != fi]
+    Xo = X.values[:, order]
+    _, r, piv = sla.qr(Xo, mode="economic", pivoting=True)
+    d = np.abs(np.diag(r))
+    keep = sorted(piv[: int((d > 1e-9 * d.max()).sum())])
+    m = sm.QuantReg(y.iloc[:, 0].values, Xo[:, keep]).fit(q=0.5, max_iter=5000)
+    j = keep.index(0)
+    b_, se = m.params[j], m.bse[j]
+    return {"pct": np.expm1(b_) * 100, "lo": np.expm1(b_ - 1.96 * se) * 100, "hi": np.expm1(b_ + 1.96 * se) * 100,
+            "p": m.pvalues[j], "n": int(m.nobs)}
+
+
 def raw_vs_team_size(a):
-    """Two regressions only: raw (log award ~ female) and adjusted for team size (number of partners)."""
+    """Three median regressions: raw; same team size; same team size + committee + year."""
     d = a[a.gender.isin(["F", "M"])].copy()
     d["female"] = (d.gender == "F").astype(int)
     d["log_amt"] = np.log(d.amount)
     d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
-    rows = [{"model": "Raw", **fit(d, "log_amt ~ female")},
-            {"model": "Accounting for team size", **fit(d, "log_amt ~ female + C(np_cap)")}]
+    rows = [{"model": "Raw", **fit_median(d, "log_amt ~ female")},
+            {"model": "Same team size", **fit_median(d, "log_amt ~ female + C(np_cap)")},
+            {"model": "Same team size,\ncommittee and year",
+             **fit_median(d, "log_amt ~ female + C(np_cap) + C(committee) + C(year)")}]
     t = pd.DataFrame(rows)
     for c in ("pct", "lo", "hi"):
         t["ratio_" + c] = 1 + t[c] / 100
-    t.to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
+    t.assign(model=t.model.str.replace("\n", " ")).to_csv(TAB / "2b_raw_vs_team_size.csv", index=False)
 
-    fig, ax = plt.subplots(figsize=(6.5, 2.2))
-    y = [1, 0]
-    for yi, (_, r), col in zip(y, t.iterrows(), (INK2, C_F)):
+    fig, ax = plt.subplots(figsize=(6.5, 2.9))
+    y = [2, 1, 0]
+    for yi, (_, r), col in zip(y, t.iterrows(), (INK2, C_F, C_F)):
         ax.plot([r.ratio_lo, r.ratio_hi], [yi, yi], color=col, lw=2.5)
         ax.plot(r.ratio_pct, yi, "o", color=col, ms=8, mec="#fcfcfb", mew=1.5)
         ax.annotate(f"{r.ratio_pct:.3f}  [{r.ratio_lo:.3f}, {r.ratio_hi:.3f}]", (r.ratio_pct, yi),
                     xytext=(0, 9), textcoords="offset points", ha="center", fontsize=8.5, color=INK2)
     ax.axvline(1, color=INK, lw=1)
     ax.set_yticks(y, t.model)
-    ax.set_ylim(-0.6, 1.6)
-    ax.set_xlim(0.95, 1.05)
-    ax.set_xlabel("Women / men award ratio (regression on log award, 95% CI)")
-    ax.set_title("ANR generic call 2010-2025: raw vs. same team size", loc="left")
+    ax.set_ylim(-0.6, 2.6)
+    lo = min(0.93, t.ratio_lo.min() - 0.01)
+    hi = max(1.05, t.ratio_hi.max() + 0.01)
+    ax.set_xlim(lo, hi)
+    ax.set_xlabel("Women / men ratio of median award (median regression, 95% CI)")
+    ax.set_title("ANR generic call 2010-2025: median award, women vs. men", loc="left")
     ax.grid(axis="y", visible=False)
-    fig.text(0.01, -0.2, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
-             "HC3 robust CIs.", fontsize=7, color=INK2)
-    save_fig(fig, "fig2_raw_vs_team_size", t)
+    fig.text(0.01, -0.12, f"n = {t.n.iloc[0]:,} projects. Team size = number of partners (1, 2, ... 8+). "
+             "Quantile regression on log award, robust CIs.", fontsize=7, color=INK2)
+    save_fig(fig, "fig2_raw_vs_team_size", t.assign(model=t.model.str.replace("\n", " ")))
     return t
 
 

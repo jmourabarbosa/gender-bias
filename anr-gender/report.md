@@ -117,18 +117,19 @@ Bootstrap 95% CIs, 2,000 resamples, drawn separately within the women's and men'
 
 The pooled 5.5% gap reverses inside instruments (Simpson's paradox). Women make up 37% of Mono-team coordinators but 26–31% of the collaborative instruments, and Mono-team grants are the smallest. Women's slightly higher Mono-team median goes away once committee is controlled (next table). Women in that group are concentrated in biology committees, which have larger budgets.
 
-### Raw vs. same team size (simplest regression view)
+### Median award: raw, same team size, then committee and year as well
 
 ![Raw vs team size](figures/fig2_raw_vs_team_size.png)
 
-Two regressions, nothing else controlled: `log(award) ~ female` and `log(award) ~ female + C(partners)`.
+Median (quantile 0.5) regressions of log award. exp(coef) is the women/men ratio of medians.
 
-| Model | Women / men ratio [95% CI] |
+| Model | Women / men median ratio [95% CI] |
 | --- | --- |
-| Raw | 0.988 [0.973, 1.002] |
-| Same team size (number of partners) | 1.018 [1.007, 1.030] |
+| Raw | 0.945 [0.926, 0.965] |
+| Same team size (number of partners) | 1.018 [1.006, 1.030] |
+| Same team size, committee and year | 0.993 [0.985, 1.002] |
 
-A log regression compares geometric means, so the raw ratio (0.988) is not the raw median ratio (0.945). With team size fixed, women's awards are 1.8% higher. That small advantage goes away once committee and year are added as well (−0.6%, model B below): women are more often in fields with larger budgets.
+The raw 5.5% gap reverses once team size is held fixed: women lead more single-team grants, which are smaller. The small advantage for women at equal team size then goes away when committee and year are added too, because women are more often in committees with larger budgets.
 
 ### 4. Regression: log(award) on female plus fixed effects, HC3 robust SEs
 
