@@ -13,6 +13,7 @@ Inputs (see data/raw/SOURCES.md):
 from __future__ import annotations
 
 import json
+import re
 import os
 import unicodedata
 from pathlib import Path
@@ -868,6 +869,132 @@ def stem_figure(a):
     return t
 
 
+JURY_CSV = PROC / "committee_members.csv"  # from parse_committees.py (names: local only)
+JOB = re.compile(r"(direct|charg|cherch|enseign|profes|ma[iî]tre|ma[iî]tresse|ing[ée]n|conseill|research|lectur|"
+                 r"scien|m[ée]decin|pr[ée]sident|responsable|head|chef|expert|consult|emerit|émérite|pu-ph|mcu|"
+                 r"physicien|fellow|investigat|manager|associate|assistant|senior|chair|dean|doyen)", re.I)
+FEM_TITLE = re.compile(r"(directrice|charg[ée]e\b|chercheuse|enseignante|professeure|ma[iî]tresse|ing[ée]nieure|"
+                       r"conseill[èe]re|pr[ée]sidente|doyenne|physicienne|m[ée]decin-cheffe)", re.I)
+MASC_TITLE = re.compile(r"^(directeur|charg[ée] de|chercheur|enseignant-chercheur|enseignant chercheur|ing[ée]nieur\b|"
+                        r"ma[iî]tre de conf)", re.I)
+
+
+def jury_gender(ref):
+    """Clean the parsed committee lists and infer each member's gender:
+    Insee >=95% on the first name, then gender-guesser, then a feminine job title (French titles are
+    gendered from 2018; in 2017 masculine forms were used for women too, so masculine titles are
+    only used from 2019)."""
+    import gender_guesser.detector as gd
+    det = gd.Detector(case_sensitive=False)
+    j = pd.read_csv(JURY_CSV)
+    j["title"] = j.title.fillna("")
+    first_tok = j.first_name.map(lambda x: strip_accents(str(x)).replace("-", " ").split()[0])
+    known_name = j.first_name.map(lambda x: norm_name(x) in ref.index or norm_name(x).split("-")[0] in ref.index) | \
+        first_tok.map(lambda t: det.get_gender(t) != "unknown")
+    j = j[known_name | j.title.str.contains(JOB)].copy()
+    g = infer_gender(j.first_name, ref, 0.95).g
+    gg = first_tok.loc[j.index].map(lambda t: {"female": "F", "male": "M"}.get(det.get_gender(t), "U"))
+    g = g.where(g != "U", gg)
+    fem = j.title.str.contains(FEM_TITLE)
+    masc = j.title.str.contains(MASC_TITLE) & (j.year >= 2019)
+    g = g.where(g != "U", np.where(fem, "F", np.where(masc, "M", "U")))
+    j["gender"] = g
+    return j
+
+
+def jury_analysis(a, ref):
+    """Do committees with fewer women give women smaller awards?
+    Median model on AAPG projects whose committee-year has a published member list:
+    log award ~ female + female x (women's share of the jury, centred) + jury share
+                + team size + year + instrument + committee."""
+    from scipy import stats
+    j = jury_gender(ref)
+    comp = j.groupby(["year", "committee"]).agg(
+        jury_n=("gender", "size"), jury_known=("gender", lambda x: x.isin(["F", "M"]).sum()),
+        jury_share_f=("gender", lambda x: (x == "F").sum() / max(x.isin(["F", "M"]).sum(), 1)),
+        chair_f=("gender", lambda x: np.nan),
+    ).reset_index()
+    chairs = j[j.role == "chair"].groupby(["year", "committee"]).gender.apply(lambda x: (x == "F").mean())
+    comp["chair_f"] = comp.set_index(["year", "committee"]).index.map(chairs)
+    s2 = j[j.stage != "stage1"].groupby(["year", "committee"]).gender.apply(
+        lambda x: (x == "F").sum() / max(x.isin(["F", "M"]).sum(), 1))
+    comp["jury_share_f_stage2"] = comp.set_index(["year", "committee"]).index.map(s2)
+    comp.to_csv(TAB / "9_jury_composition.csv", index=False)
+
+    d = a[a.gender.isin(["F", "M"]) & (a.call == "AAPG")].merge(comp, on=["year", "committee"], how="inner")
+    d = d.reset_index(drop=True)
+    d["female"] = (d.gender == "F").astype(int)
+    d["log_amt"] = np.log(d.amount)
+    d["np_cap"] = d.n_partners.clip(upper=8).astype(int)
+    mean_share = d.drop_duplicates(["year", "committee"]).jury_share_f.mean()
+    fe = "C(np_cap) + C(year) + C(instrument) + C(committee)"
+    rows = []
+
+    def add(label, b, v, n, scale=1.0):
+        se = np.sqrt(v)
+        rows.append({"estimate": label, "ratio": np.exp(b * scale), "lo": np.exp((b - 1.96 * se) * scale),
+                     "hi": np.exp((b + 1.96 * se) * scale), "p": 2 * stats.norm.sf(abs(b / se)), "n": n})
+
+    full = fit_median(d, "log_amt ~ female + " + fe)
+    rows.append({"estimate": "Full model, projects with jury data", "ratio": 1 + full["pct"] / 100,
+                 "lo": 1 + full["lo"] / 100, "hi": 1 + full["hi"] / 100, "p": full["p"], "n": full["n"]})
+    for col, lab in (("jury_share_f", "all members"), ("jury_share_f_stage2", "stage-2 members")):
+        d["js"] = d[col] - mean_share
+        d["f_js"] = d.female * d.js
+        b, V, n = fit_median_terms(d, "log_amt ~ female + f_js + js + " + fe, ["female", "f_js"])
+        add(f"Women/men at average jury ({mean_share:.0%} women), {lab}", b[0], V[0, 0], n)
+        add(f"Change in women/men ratio per +10 pts women on jury, {lab}", b[1], V[1, 1], n, scale=0.10)
+    dc = d.dropna(subset=["chair_f"]).copy()
+    dc["chair_w"] = (dc.chair_f >= 0.5).astype(int)
+    dc["f_chair"] = dc.female * dc.chair_w
+    b, V, n = fit_median_terms(dc, "log_amt ~ female + f_chair + chair_w + " + fe, ["female", "f_chair"])
+    add("Women/men, committee chaired by a man", b[0], V[0, 0], n)
+    add("Interaction: chaired by a woman vs a man", b[1], V[1, 1], n)
+    add("Women/men, committee chaired by a woman", b[0] + b[1], V[0, 0] + V[1, 1] + 2 * V[0, 1], n)
+
+    # terciles of jury share (committee-years), separate female dummy per tercile
+    cy = d.drop_duplicates(["year", "committee"])
+    q1, q2 = cy.jury_share_f.quantile([1 / 3, 2 / 3])
+    d["terc"] = np.where(d.jury_share_f <= q1, 0, np.where(d.jury_share_f <= q2, 1, 2))
+    names = [f"Juries with ≤{q1:.0%} women", f"Juries with {q1:.0%}–{q2:.0%} women", f"Juries with >{q2:.0%} women"]
+    for k in range(3):
+        d[f"f_t{k}"] = d.female * (d.terc == k)
+    b, V, n = fit_median_terms(d, "log_amt ~ f_t0 + f_t1 + f_t2 + " + fe, ["f_t0", "f_t1", "f_t2"])
+    terc_rows = []
+    for k in range(3):
+        se = np.sqrt(V[k, k])
+        terc_rows.append({"model": names[k], "ratio_pct": np.exp(b[k]), "ratio_lo": np.exp(b[k] - 1.96 * se),
+                          "ratio_hi": np.exp(b[k] + 1.96 * se), "p": 2 * stats.norm.sf(abs(b[k] / se)),
+                          "n": int((d.terc == k).sum()), "n_juries": int((cy.jury_share_f.pipe(
+                              lambda x: (x <= q1) if k == 0 else ((x > q1) & (x <= q2)) if k == 1 else (x > q2))).sum())})
+    t = pd.DataFrame(rows)
+    t.to_csv(TAB / "9_jury_models.csv", index=False)
+
+    # row figure: full model at the bottom, then terciles (low -> high women share)
+    cv_full = cv_pseudo_r1(d, "female + " + fe)
+    cv_t = cv_pseudo_r1(d, "f_t0 + f_t1 + f_t2 + " + fe)
+    ft = pd.DataFrame([{"model": "Full model, projects\nwith jury data", "ratio_pct": 1 + full["pct"] / 100,
+                        "ratio_lo": 1 + full["lo"] / 100, "ratio_hi": 1 + full["hi"] / 100, "p": full["p"],
+                        "n": full["n"], "cv_pseudo_R1": cv_full}] +
+                      [{**r, "cv_pseudo_R1": cv_t} for r in terc_rows])
+    ft.assign(model=ft.model.str.replace("\n", " ")).to_csv(TAB / "9_jury_terciles.csv", index=False)
+    yrs = ", ".join(str(y) for y in sorted(d.year.unique()))
+    note = (f"n = {len(d):,} AAPG projects in committee-years with a published member list ({yrs}); "
+            f"{len(cy)} committee-years. Jury share = women among members with known gender. All rows: same team size, "
+            "committee, year and instrument. Quantile regression on log award, robust CIs; CV R² = 5-fold cross-validated pseudo-R¹.")
+    forest_rows(ft, "fig10_jury_share_terciles", "Median award, women vs. men, by women's share of the jury", note,
+                ft.assign(model=ft.model.str.replace("\n", " ")), grey={"Full model, projects\nwith jury data"},
+                xmin=min(0.92, ft.ratio_lo.min() - 0.01))
+    summary = {"members_parsed": int(len(pd.read_csv(JURY_CSV))), "members_kept": int(len(j)),
+               "gender_counts": j.gender.value_counts().to_dict(), "mean_share": mean_share,
+               "share_by_year": cy.groupby("year").jury_share_f.mean().round(3).to_dict(),
+               "terciles": (q1, q2), "n_committee_years": len(cy),
+               "corr_jury_share_vs_coord_share": float(np.corrcoef(
+                   d.groupby(["year", "committee"]).jury_share_f.first(),
+                   d.groupby(["year", "committee"]).female.mean())[0, 1])}
+    return t, ft, comp, summary
+
+
 def share_funding(a):
     d = a[a.gender.isin(["F", "M"])]
     g = d.groupby("year").apply(lambda s: pd.Series({
@@ -1015,6 +1142,8 @@ def main():
     res["field_hist"] = field_histograms(a)
     res["stem_inter"] = stem_interaction(a)
     res["stem_fig"] = stem_figure(a)
+    if JURY_CSV.exists():
+        res["jury"] = jury_analysis(a, ref)
     res["share"] = share_funding(a)
     res["robust"] = robustness(a)
     res["pia"] = pia_context(ref)

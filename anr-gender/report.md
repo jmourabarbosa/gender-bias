@@ -229,6 +229,28 @@ In STEM, women's median award is about 1% lower than men's in comparable project
 
 `figures/fig9_full_model_stem_vs_nonstem.png` has the same layout as figure 2: the full model on all fields at the bottom (0.990 [0.982, 0.998] on this sample of 15,879 projects with a known field), then the STEM (0.988 [0.979, 0.997]) and non-STEM (1.016 [0.989, 1.043]) ratios from the interaction model.
 
+### 5c. Do committees with fewer women give women smaller awards?
+
+![By jury composition](figures/fig10_jury_share_terciles.png)
+
+ANR publishes the members of every AAPG evaluation committee. I found the lists for 2017–2020 and 2022–2025, 406 committee-years in all (see `data/raw/SOURCES.md`). `parse_committees.py` extracts 8,124 members. Their gender comes from the first name (Insee ≥95%, then gender-guesser), with a gendered French job title as a fallback; 1.7% remain unknown. Women are 37% of a typical committee, rising from 32% in 2017 to 41–43% in 2024–2025, with a range of 5% to 78% across committees. Committee-level shares are in `tables/9_jury_composition.csv`; the names are kept local.
+
+Each project is matched to its committee-year (10,117 AAPG projects). Same median model as before, plus women's share of the jury:
+
+| Estimate | Women / men [95% CI] | p |
+| --- | --- | --- |
+| Full model, projects with jury data | 0.994 [0.984, 1.004] | 0.21 |
+| Juries with ≤31% women (136 committee-years) | 0.984 [0.968, 1.000] | 0.05 |
+| Juries with 31–42% women (139) | 0.997 [0.982, 1.012] | 0.71 |
+| Juries with >42% women (131) | 1.003 [0.988, 1.018] | 0.72 |
+| Change in ratio per +10 points of women on the jury (continuous interaction) | 1.006 [0.998, 1.015] | 0.13 |
+| Same, counting only members who sat at stage 2 | 1.006 [0.997, 1.014] | 0.18 |
+| Committee chaired by a woman vs a man (interaction) | 0.999 [0.978, 1.020] | 0.94 |
+
+The direction is the one the question suggests. In the third of committees with the fewest women, women's median award is 1.6% lower than men's, at the edge of significance; with more women on the jury, the gap disappears. But the continuous test of a trend is not significant (p = 0.13), and the chair's gender makes no difference. Even in the most male committees, the gap is under 2%.
+
+Caveats. The amount awarded mostly reflects the budget requested; committees rank proposals and can recommend cuts, but they do not set amounts freely, so a jury effect on amounts would be expected to be small. Committees with more women are also in fields with more women applicants (correlation 0.40 between the jury share and the share of women coordinators). The committee and year fixed effects absorb stable field differences, but not year-to-year changes within a committee. Finally, juries decide who gets funded, and this data covers funded projects only, so a jury effect on selection cannot be tested here.
+
 ### 6. Share of funding vs share of projects
 
 ![Share of projects vs funding](figures/fig6_share_projects_vs_funding.png)
