@@ -11,16 +11,14 @@
 <style>
 /* Layout: a narrow identity column beside a single reading column; plain lists, no cards. */
 :root{
-  --bg:#f7f8fa; --surface:#ffffff; --ink:#1b2230; --muted:#5b6474; --rule:#dde1e8; --accent:#2c4f7c;
+  --bg:#ffffff; --surface:#ffffff; --ink:#1b2230; --muted:#5b6474; --rule:#dde1e8; --accent:#2c4f7c;
   --f-display:"Literata", Georgia, "Times New Roman", serif;
   --f-body:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#12161d; --surface:#181d26; --ink:#e4e8ef; --muted:#9aa3b2; --rule:#2a313d; --accent:#8fb0db; color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#12161d; --surface:#181d26; --ink:#e4e8ef; --muted:#9aa3b2; --rule:#2a313d; --accent:#8fb0db; color-scheme:dark}
 
 *{box-sizing:border-box}
+.photo{display:block;width:132px;max-width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:3px;margin:0 0 20px}
 body{background:var(--bg);color:var(--ink);font:15.5px/1.65 var(--f-body);-webkit-font-smoothing:antialiased}
 a{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,var(--accent) 40%,transparent)}
 a:hover{text-decoration-color:var(--accent)}
@@ -73,6 +71,7 @@ footer{grid-column:1/-1;border-top:1px solid var(--rule);padding-top:18px;font-s
   .wrap{grid-template-columns:minmax(0,1fr);gap:44px;padding-block:44px 40px;
     padding-left:max(16px, env(safe-area-inset-left,0px));padding-right:max(16px, env(safe-area-inset-right,0px))}
   aside{position:static}
+  .photo{width:112px}
   .pub{grid-template-columns:44px minmax(0,1fr);gap:12px}
   .cv li{grid-template-columns:80px minmax(0,1fr);gap:12px}
 }
@@ -83,6 +82,7 @@ footer{grid-column:1/-1;border-top:1px solid var(--rule);padding-top:18px;font-s
 <div class="wrap">
   <aside>
     <div>
+      <img class="photo" src="photo.jpg" alt="Portrait of Ana Martín-Salguero" width="132" height="198">
       <h1>Ana Martín&#8209;Salguero</h1>
       <p class="role"><strong>Postdoctoral Researcher</strong><br>NeuroSpin, CEA Paris-Saclay</p>
     </div>
